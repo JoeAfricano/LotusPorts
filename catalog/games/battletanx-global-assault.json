@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "battletanx-global-assault",
+  "title": "BattleTanx: Global Assault",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Batalhas de tanques num mundo pós-apocalíptico, com campanha e modo para vários jogadores.",
+  "recommendedPortId": "battletanx-ga-pc-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:battletanx-global-assault",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -31,8 +31,9 @@ public class PreferencesTests
         await service.SetDefaultStyleAsync(ExperienceStyle.Remastered);
         await service.SetAutoUpdateAsync(true);
         await service.SetAdvancedModeAsync(true);
+        await service.SetShowInReviewAsync(true);
 
-        (await service.LoadAsync()).Should().Be(new AppPreferences("en-US", @"D:\Jogos\Ports", ExperienceStyle.Remastered, true, true));
+        (await service.LoadAsync()).Should().Be(new AppPreferences("en-US", @"D:\Jogos\Ports", ExperienceStyle.Remastered, true, true, true));
     }
 
     [Fact]

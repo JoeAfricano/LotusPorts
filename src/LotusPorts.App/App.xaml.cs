@@ -4,6 +4,8 @@ using LotusPorts.Core.Preferences;
 using LotusPorts.Infrastructure;
 using LotusPorts.Infrastructure.Database;
 using LotusPorts.Infrastructure.Database.Migrations;
+using LotusPorts.Infrastructure.Catalog;
+using LotusPorts.Infrastructure.Network;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.UI.Xaml;
@@ -54,6 +56,7 @@ public partial class App : Application
             await host.Services.GetRequiredService<MigrationRunner>().MigrateAsync();
             var preferences = await host.Services.GetRequiredService<PreferencesService>().LoadAsync();
             Strings.Initialize(preferences.Language);
+            await host.Services.GetRequiredService<CatalogService>().LoadAsync();
             await host.StartAsync();
 
             window = new MainWindow(StartPage());
@@ -86,7 +89,18 @@ public partial class App : Application
         services.AddSingleton<IOperationJournal, SqliteOperationJournal>();
         services.AddSingleton<PreferencesService>();
         services.AddSingleton(SystemFolders.FromEnvironment());
+        services.AddSingleton<SqliteGameStateStore>();
+        services.AddSingleton<SqliteCatalogSourceStore>();
+        services.AddSingleton(_ =>
+        {
+            // Public GitHub data only. No token, no user data in requests.
+            var http = new HttpClient(new SocketsHttpHandler { PooledConnectionLifetime = TimeSpan.FromMinutes(5) }) { Timeout = TimeSpan.FromSeconds(20) };
+            http.DefaultRequestHeaders.UserAgent.ParseAdd($"LotusPorts/{AppInfo.Version.Split('+')[0]}");
+            return new GitHubClient(http);
+        });
+        services.AddSingleton<CatalogService>();
         services.AddTransient<LibraryViewModel>();
+        services.AddTransient<CatalogViewModel>();
         services.AddTransient<SettingsViewModel>();
         return builder.Build();
     }

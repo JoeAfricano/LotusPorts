@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "2-ship-2-harkinian",
+  "gameId": "zelda-majoras-mask",
+  "title": "2 Ship 2 Harkinian",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "2ship2harkinian",
+    "name": "2ship2harkinian"
+  },
+  "license": "CC0-1.0",
+  "windowsAsset": {
+    "pattern": "(?i)win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "2ship.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Na primeira execução o jogo pede o arquivo do jogo.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Nintendo 64",
+      "kind": "single-file",
+      "format": "n64-rom",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/2ship2harkinian/2ship2harkinian#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "2ship2harkinian.json",
+      "kind": "config",
+      "location": "install"
+    },
+    {
+      "path": "mods/",
+      "kind": "mods",
+      "location": "install"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": [
+    "D3D11",
+    "OpenGL"
+  ],
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/2ship2harkinian/2ship2harkinian",
+    "docs": "https://github.com/2ship2harkinian/2ship2harkinian#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "5.0.1",
+    "prerelease": false,
+    "assetName": "2Ship-Battler-Bravo-Win64.zip",
+    "assetSize": 44976935,
+    "assetSha256": "a46664a01623ad5d7cc82d29a9889699f6a98c9501c7a959a089f34380c1f078"
+  }
+}

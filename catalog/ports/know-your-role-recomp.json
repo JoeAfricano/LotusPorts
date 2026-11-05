@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "know-your-role-recomp",
+  "gameId": "wwf-smackdown-2",
+  "title": "Know Your Role Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Comfubar",
+    "name": "KnowYourRoleRecomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)win-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "KnowYourRole-v0.2.0-win-x64/KnowYourRole.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Na primeira execução o instalador pede a imagem do disco (NTSC-U), confere e prepara o jogo.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Disco de PlayStation (EUA)",
+      "kind": "disc-image",
+      "format": "ps1-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/Comfubar/KnowYourRoleRecomp#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Comfubar/KnowYourRoleRecomp",
+    "docs": "https://github.com/Comfubar/KnowYourRoleRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.0",
+    "prerelease": false,
+    "assetName": "KnowYourRole-win-x64.zip",
+    "assetSize": 127898385,
+    "assetSha256": "5771e291f13c621537301922bb63fbb8e3b9645ec30a7c3bc8359fe978da4e2a"
+  }
+}

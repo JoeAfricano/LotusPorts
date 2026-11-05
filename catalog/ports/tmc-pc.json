@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "tmc-pc",
+  "gameId": "zelda-minish-cap",
+  "title": "The Minish Cap (port para PC)",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "MatheoVignaud",
+    "name": "tmc"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)windows.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "tmc_pc.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "beside-exe",
+    "targetFileName": "baserom.gba",
+    "targetFolder": null,
+    "notesPtBr": "Coloque o arquivo do jogo ao lado do executável com o nome baserom.gba.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Game Boy Advance",
+      "kind": "single-file",
+      "format": "gba-rom",
+      "canonicalFormat": null,
+      "acceptedVersions": [
+        {
+          "region": "EUA",
+          "version": "PREENCHER",
+          "fileName": "baserom.gba",
+          "sha1": "b4bd50e4131b027c334547b4524e2dbbd4227130",
+          "md5": null,
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/MatheoVignaud/tmc#readme"
+        },
+        {
+          "region": "Europa",
+          "version": "PREENCHER",
+          "fileName": "baserom_eu.gba",
+          "sha1": "cff199b36ff173fb6faf152653d1bccf87c26fb7",
+          "md5": null,
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/MatheoVignaud/tmc#readme"
+        },
+        {
+          "region": "Japão",
+          "version": "PREENCHER",
+          "fileName": "baserom_jp.gba",
+          "sha1": "6c5404a1effb17f481f352181d0f1c61a2765c5d",
+          "md5": null,
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/MatheoVignaud/tmc#readme"
+        }
+      ],
+      "officialDocsUrl": "https://github.com/MatheoVignaud/tmc#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "tmc.sav",
+      "kind": "saves",
+      "location": "install"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/MatheoVignaud/tmc",
+    "docs": "https://github.com/MatheoVignaud/tmc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "0.2.0-pre",
+    "prerelease": false,
+    "assetName": "tmc-usa-windows-20260517-0932-52701ac.zip",
+    "assetSize": 18746262,
+    "assetSha256": "8bd6f87ea2a18d07e5e3bc779f409a9781d737a7208af3b7f4f244d660a131fc"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wwf-wrestlemania-2000",
+  "title": "WWF WrestleMania 2000",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "luta livre"
+  ],
+  "descriptionPtBr": "Luta livre com o elenco da WWF e criação de lutadores.",
+  "recommendedPortId": "wm2k-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:wwf-wrestlemania-2000",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

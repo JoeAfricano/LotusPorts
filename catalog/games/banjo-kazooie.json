@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "banjo-kazooie",
+  "title": "Banjo-Kazooie",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "plataforma",
+    "aventura"
+  ],
+  "descriptionPtBr": "O urso Banjo e a ave Kazooie sobem a montanha da bruxa Gruntilda para resgatar a irmã de Banjo.",
+  "recommendedPortId": "banjo-recompiled",
+  "recommendationReasonPtBr": "Recompilação mais usada para este jogo, lê o cartucho direto no menu inicial.",
+  "alternatives": [
+    {
+      "portId": "lighthouse",
+      "differencePtBr": "Multijogador, randomizador embutido e suporte a romhacks e vários idiomas."
+    }
+  ],
+  "lotusGameKey": "port:banjo-kazooie",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

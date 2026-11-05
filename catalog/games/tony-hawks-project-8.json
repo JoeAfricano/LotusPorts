@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tony-hawks-project-8",
+  "title": "Tony Hawk's Project 8",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Skate em mundo aberto, com o modo Nail the Trick para controlar cada pé em câmera lenta.",
+  "recommendedPortId": "project8-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:tony-hawks-project-8",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "snap64-recompiled",
+  "gameId": "pokemon-snap",
+  "title": "Snap64Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "JackandBeans",
+    "name": "Snap64Recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)win64\\.zip$",
+    "excludePattern": "(?i)\\.sha256$",
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Snap64Recomp-1.1.6-win64/Snap64Recomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Na primeira execução o jogo pede o arquivo do jogo.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [
+    {
+      "path": "saves/pokemonsnap.bin",
+      "kind": "saves",
+      "location": "install"
+    },
+    {
+      "path": "snapsettings.json",
+      "kind": "config",
+      "location": "install"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/JackandBeans/Snap64Recomp",
+    "docs": "https://github.com/JackandBeans/Snap64Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.1.6",
+    "prerelease": false,
+    "assetName": "Snap64Recomp-1.1.6-win64.zip",
+    "assetSize": 16580695,
+    "assetSha256": "73bd4f7fae0f41670d9222af1f7287dfe60978997128a5926179e48d28ac351d"
+  }
+}

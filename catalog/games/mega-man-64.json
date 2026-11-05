@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "mega-man-64",
+  "title": "Mega Man 64",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "ação",
+    "aventura"
+  ],
+  "descriptionPtBr": "Mega Man Volnutt explora ilhas e ruínas em busca de tesouros nesta versão de Mega Man Legends.",
+  "recommendedPortId": "mega-man-64-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:mega-man-64",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "virtual-pro-wrestling-64",
+  "title": "Virtual Pro Wrestling 64",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "luta livre"
+  ],
+  "descriptionPtBr": "Luta livre japonesa com elenco extenso e sistema de agarrões que inspirou outros jogos do gênero.",
+  "recommendedPortId": "vpw64-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:virtual-pro-wrestling-64",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -8,5 +8,6 @@
     <PackageReference Include="Dapper" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
     <ProjectReference Include="../LotusPorts.Core/LotusPorts.Core.csproj" />
+    <ProjectReference Include="../LotusPorts.Catalog/LotusPorts.Catalog.csproj" />
   </ItemGroup>
 </Project>

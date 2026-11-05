@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "legend-of-dragoon",
+  "title": "The Legend of Dragoon",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Dart e seus aliados despertam o poder dos Dragoons num RPG por turnos com combos cronometrados.",
+  "recommendedPortId": "severed-chains",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:legend-of-dragoon",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

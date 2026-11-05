@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "perfect-dark-port",
+  "gameId": "perfect-dark",
+  "title": "Perfect Dark (port para PC)",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "perfect-dark-pc-port",
+    "name": "perfect_dark"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)x86_64-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "pd-x86_64-windows/pd.x86_64.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "beside-exe",
+    "targetFileName": "pd.ntsc-final.z64",
+    "targetFolder": "data",
+    "notesPtBr": "Coloque o arquivo do jogo (EUA) na pasta data com o nome pd.ntsc-final.z64. As versões PAL e japonesa usam executáveis próprios.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Nintendo 64",
+      "kind": "single-file",
+      "format": "n64-rom",
+      "canonicalFormat": "z64",
+      "acceptedVersions": [
+        {
+          "region": "EUA",
+          "version": "1.1 (ntsc-final)",
+          "fileName": null,
+          "sha1": null,
+          "md5": "e03b088b6ac9e0080440efed07c1e40f",
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/perfect-dark-pc-port/perfect_dark#readme"
+        },
+        {
+          "region": "EUA",
+          "version": "1.0 (ntsc-1.0)",
+          "fileName": null,
+          "sha1": null,
+          "md5": "7f4171b0c8d17815be37913f535e4e93",
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/perfect-dark-pc-port/perfect_dark#readme"
+        },
+        {
+          "region": "Japão",
+          "version": "jpn-final",
+          "fileName": null,
+          "sha1": null,
+          "md5": "538d2b75945eae069b29c46193e74790",
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/perfect-dark-pc-port/perfect_dark#readme"
+        },
+        {
+          "region": "Europa (PAL)",
+          "version": "pal-final",
+          "fileName": null,
+          "sha1": null,
+          "md5": "d9b5cd305d228424891ce38e71bc9213",
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/perfect-dark-pc-port/perfect_dark#readme"
+        }
+      ],
+      "officialDocsUrl": "https://github.com/perfect-dark-pc-port/perfect_dark#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "pd.ini",
+      "kind": "config",
+      "location": "install"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/perfect-dark-pc-port/perfect_dark",
+    "docs": "https://github.com/perfect-dark-pc-port/perfect_dark#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "ci-dev-build",
+    "prerelease": false,
+    "assetName": "pd-x86_64-windows.zip",
+    "assetSize": 25739820,
+    "assetSha256": "56e6a2f8bad36bd90f0d396c1d525b953adcc1a20157f594b90a7530d58258d3"
+  }
+}

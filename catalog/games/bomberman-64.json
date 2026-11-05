@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "bomberman-64",
+  "title": "Bomberman 64",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "ação",
+    "aventura"
+  ],
+  "descriptionPtBr": "Bomberman explora mundos em 3D e enfrenta inimigos com suas bombas, além do modo batalha para vários jogadores.",
+  "recommendedPortId": "bomberman-64-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:bomberman-64",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

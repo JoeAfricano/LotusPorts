@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "kings-field",
+  "title": "King's Field",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "RPG",
+    "aventura"
+  ],
+  "descriptionPtBr": "O primeiro King's Field, RPG em primeira pessoa da FromSoftware lançado só no Japão.",
+  "recommendedPortId": "kings-field-enhanced",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:kings-field",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

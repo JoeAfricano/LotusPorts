@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dr-mario-64",
+  "title": "Dr. Mario 64",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "quebra-cabeça"
+  ],
+  "descriptionPtBr": "Combine cápsulas coloridas para eliminar os vírus neste clássico de quebra-cabeça.",
+  "recommendedPortId": "dr-mario-64-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dr-mario-64",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zelda-minish-cap",
+  "title": "The Legend of Zelda: The Minish Cap",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "aventura",
+    "ação"
+  ],
+  "descriptionPtBr": "Com a ajuda de um boné falante, Link encolhe para explorar o mundo dos minúsculos Minish.",
+  "recommendedPortId": "tmc-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:zelda-minish-cap",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

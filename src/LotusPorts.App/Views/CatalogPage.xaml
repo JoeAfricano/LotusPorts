@@ -1,0 +1,159 @@
+<Page
+    x:Class="LotusPorts.App.Views.CatalogPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:app="using:LotusPorts.App"
+    xmlns:cards="using:LotusPorts.App.Controls"
+    xmlns:controls="using:Lotus.Design.Controls"
+    xmlns:local="using:LotusPorts.App"
+    xmlns:vm="using:LotusPorts.App.ViewModels">
+
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
+        <Grid Padding="48,56,48,48">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MaxWidth="1240" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Spacing="16">
+                <TextBlock Style="{StaticResource Type.Title}" Text="{local:Str Key=CatalogTitle}" />
+                <TextBlock
+                    Foreground="{StaticResource Text.Secondary}"
+                    Style="{StaticResource Type.Body}"
+                    Text="{local:Str Key=CatalogSubtitle}" />
+
+                <Grid ColumnSpacing="12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" MaxWidth="420" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBox
+                        x:Name="FilterBox"
+                        AutomationProperties.Name="{local:Str Key=CatalogFilter}"
+                        PlaceholderText="{local:Str Key=CatalogFilter}"
+                        TextChanged="OnFilterChanged" />
+                    <ComboBox
+                        x:Name="PlatformBox"
+                        Grid.Column="1"
+                        MinWidth="200"
+                        AutomationProperties.Name="{local:Str Key=FilterPlatform}"
+                        DisplayMemberPath="Label"
+                        SelectionChanged="OnFilterChanged" />
+                    <TextBlock
+                        Grid.Column="2"
+                        VerticalAlignment="Center"
+                        Style="{StaticResource Type.Caption}"
+                        Text="{x:Bind ViewModel.Summary, Mode=OneWay}" />
+                </Grid>
+
+                <Border Style="{StaticResource Lotus.Card}" Visibility="{x:Bind ViewModel.NoMatches, Mode=OneWay}">
+                    <controls:EmptyState Message="{local:Str Key=CatalogNoMatchMessage}" Title="{local:Str Key=CatalogNoMatchTitle}" />
+                </Border>
+
+                <ItemsRepeater ItemsSource="{x:Bind ViewModel.Games}">
+                    <ItemsRepeater.Layout>
+                        <UniformGridLayout
+                            MinColumnSpacing="14"
+                            MinItemWidth="180"
+                            MinRowSpacing="16" />
+                    </ItemsRepeater.Layout>
+                    <ItemsRepeater.ItemTemplate>
+                        <DataTemplate x:DataType="app:GameCardModel">
+                            <cards:GameCard Model="{x:Bind}" />
+                        </DataTemplate>
+                    </ItemsRepeater.ItemTemplate>
+                </ItemsRepeater>
+
+                <!--  Sources  -->
+                <Border Margin="0,16,0,0" Style="{StaticResource Lotus.Card}">
+                    <StackPanel Spacing="14">
+                        <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=CatalogSources}" />
+                        <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=CatalogSourcesHint}" />
+
+                        <Grid Padding="16,12" Background="{StaticResource Bg.Elevated}" ColumnSpacing="16" CornerRadius="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Spacing="2">
+                                <TextBlock FontWeight="SemiBold" Text="{local:Str Key=CatalogOfficial}" />
+                                <TextBlock Style="{StaticResource Type.Caption}" Text="{x:Bind ViewModel.OfficialText, Mode=OneWay}" />
+                            </StackPanel>
+                            <controls:StateBadge
+                                Grid.Column="1"
+                                Text="{local:Str Key=CatalogOfficialValidated}"
+                                Tone="Ok" />
+                        </Grid>
+
+                        <ItemsRepeater ItemsSource="{x:Bind ViewModel.Sources}">
+                            <ItemsRepeater.Layout>
+                                <StackLayout Spacing="10" />
+                            </ItemsRepeater.Layout>
+                            <ItemsRepeater.ItemTemplate>
+                                <DataTemplate x:DataType="vm:SourceRow">
+                                    <Grid Padding="16,12" Background="{StaticResource Bg.Elevated}" ColumnSpacing="12" CornerRadius="10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Spacing="2">
+                                            <TextBlock FontWeight="SemiBold" Text="{x:Bind Record.Name}" />
+                                            <TextBlock
+                                                IsTextSelectionEnabled="True"
+                                                Style="{StaticResource Type.Caption}"
+                                                Text="{x:Bind Detail}" />
+                                        </StackPanel>
+                                        <controls:StateBadge
+                                            Grid.Column="1"
+                                            Text="{x:Bind StateText}"
+                                            Tone="{x:Bind Tone}" />
+                                        <Button
+                                            Grid.Column="2"
+                                            AutomationProperties.Name="{local:Str Key=SourceActions}"
+                                            Content="&#xE712;"
+                                            FontFamily="Segoe Fluent Icons"
+                                            Tag="{x:Bind Record.Id}">
+                                            <Button.Flyout>
+                                                <MenuFlyout Opening="OnSourceMenuOpening" />
+                                            </Button.Flyout>
+                                        </Button>
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsRepeater.ItemTemplate>
+                        </ItemsRepeater>
+
+                        <Grid ColumnSpacing="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <TextBox
+                                x:Name="SourceLink"
+                                AutomationProperties.Name="{local:Str Key=SourceLinkLabel}"
+                                PlaceholderText="https://github.com/usuario/repositorio" />
+                            <Button
+                                x:Name="AddSourceButton"
+                                Grid.Column="1"
+                                Click="OnAddSource"
+                                Content="{local:Str Key=SourceAdd}"
+                                Style="{StaticResource AccentButtonStyle}" />
+                        </Grid>
+                        <InfoBar x:Name="SourceResult" IsClosable="True" />
+
+                        <!--  Advanced: add a port by GitHub link, export what you added  -->
+                        <StackPanel
+                            Orientation="Horizontal"
+                            Spacing="10"
+                            Visibility="{x:Bind ViewModel.AdvancedMode, Mode=OneWay}">
+                            <Button Click="OnAddPortByLink" Content="{local:Str Key=UserPortAdd}" />
+                            <Button
+                                Click="OnExportUserPorts"
+                                Content="{local:Str Key=UserPortExport}"
+                                IsEnabled="{x:Bind ViewModel.HasUserPorts, Mode=OneWay}" />
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

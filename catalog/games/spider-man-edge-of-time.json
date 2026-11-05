@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "spider-man-edge-of-time",
+  "title": "Spider-Man: Edge of Time",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Peter Parker e o Homem-Aranha 2099 agem em duas épocas ao mesmo tempo para consertar a linha do tempo.",
+  "recommendedPortId": "project-2099",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:spider-man-edge-of-time",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

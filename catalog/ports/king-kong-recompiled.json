@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "king-kong-recompiled",
+  "gameId": "king-kong",
+  "title": "King Kong Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "TekRantGaming",
+    "name": "king-kong-recompiled"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "KingKong/king_kong.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Escolha \"Select disc image\" e selecione a imagem do seu disco. O launcher confere e copia os arquivos do jogo.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Disco de Xbox 360",
+      "kind": "disc-image",
+      "format": "x360-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/TekRantGaming/king-kong-recompiled#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/TekRantGaming/king-kong-recompiled",
+    "docs": "https://github.com/TekRantGaming/king-kong-recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2.1.0",
+    "prerelease": false,
+    "assetName": "KingKong-v2.1.0-windows-x64.zip",
+    "assetSize": 421240317,
+    "assetSha256": "79e930fcee33da1205ee50e3bedcd8da714ea2d5a9c15fc0506f46b72eea3de1"
+  }
+}

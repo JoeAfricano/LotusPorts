@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "bomberman-hero-recompiled",
+  "gameId": "bomberman-hero",
+  "title": "Bomberman Hero: Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "RevoSucks",
+    "name": "BMHeroRecomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "BMHeroRecompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Escolha o arquivo do jogo (versão norte-americana 1.0) no menu inicial.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Nintendo 64 (EUA 1.0)",
+      "kind": "single-file",
+      "format": "n64-rom",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/RevoSucks/BMHeroRecomp#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "%LOCALAPPDATA%\\BMHeroRecompiled\\saves",
+      "kind": "saves",
+      "location": "user"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/RevoSucks/BMHeroRecomp",
+    "docs": "https://github.com/RevoSucks/BMHeroRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.7.1",
+    "prerelease": true,
+    "assetName": "BMHeroRecompiled-Windows-RelWithDebInfo.zip",
+    "assetSize": 18577511,
+    "assetSha256": "d6a865b4e1adb17860ccc6faf15306ce4a7c885b4dc16b0989e01e1c7bbcb58d"
+  }
+}

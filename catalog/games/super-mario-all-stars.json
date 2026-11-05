@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "super-mario-all-stars",
+  "title": "Super Mario All-Stars + Super Mario World",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Os primeiros jogos de Mario remasterizados para o Super Nintendo, junto com Super Mario World.",
+  "recommendedPortId": "smas-launcher",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-mario-all-stars",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

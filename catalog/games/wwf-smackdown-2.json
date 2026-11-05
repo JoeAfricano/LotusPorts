@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wwf-smackdown-2",
+  "title": "WWF SmackDown! 2: Know Your Role",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "luta livre"
+  ],
+  "descriptionPtBr": "Luta livre da WWF com modo temporada, criação de lutadores e lutas em várias áreas dos bastidores.",
+  "recommendedPortId": "know-your-role-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:wwf-smackdown-2",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pokemon-snap",
+  "title": "Pokémon Snap",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "aventura"
+  ],
+  "descriptionPtBr": "Fotografe Pokémon em seus habitats durante passeios por uma ilha cheia de segredos.",
+  "recommendedPortId": "snap64-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:pokemon-snap",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

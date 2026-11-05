@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "blue-dragon",
+  "title": "Blue Dragon",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "RPG por turnos com sombras em forma de criaturas, criado pela equipe de Hironobu Sakaguchi e Akira Toriyama.",
+  "recommendedPortId": "reblue",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:blue-dragon",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "golden-sun",
+  "title": "Golden Sun",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Isaac e seus amigos usam a Psinergia para impedir que o poder da alquimia seja libertado no mundo.",
+  "recommendedPortId": "golden-sun-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:golden-sun",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

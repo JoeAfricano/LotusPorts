@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "diablo",
+  "title": "Diablo",
+  "originalPlatform": "PC",
+  "releaseYear": null,
+  "genre": [
+    "RPG",
+    "ação"
+  ],
+  "descriptionPtBr": "Desça às profundezas sob a cidade de Tristram para enfrentar o Senhor do Terror.",
+  "recommendedPortId": "devilutionx",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:diablo",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "deadly-premonition",
+  "title": "Deadly Premonition",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "terror",
+    "aventura"
+  ],
+  "descriptionPtBr": "O agente York investiga um assassinato numa pequena cidade cheia de mistérios e personagens excêntricos.",
+  "recommendedPortId": "dp-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:deadly-premonition",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

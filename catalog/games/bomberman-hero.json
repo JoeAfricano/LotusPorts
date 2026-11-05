@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "bomberman-hero",
+  "title": "Bomberman Hero",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "ação",
+    "plataforma"
+  ],
+  "descriptionPtBr": "Bomberman parte em missão para resgatar a Princesa Millian em fases de ação e plataforma.",
+  "recommendedPortId": "bomberman-hero-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:bomberman-hero",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

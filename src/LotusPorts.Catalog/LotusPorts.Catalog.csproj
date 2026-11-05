@@ -3,5 +3,13 @@
     <TargetFramework>net10.0</TargetFramework>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
-  <ItemGroup><ProjectReference Include="../LotusPorts.Core/LotusPorts.Core.csproj" /></ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="JsonSchema.Net" />
+    <ProjectReference Include="../LotusPorts.Core/LotusPorts.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- The official catalog ships inside the app so it works offline. -->
+    <EmbeddedResource Include="../../catalog/catalog.json" LogicalName="catalog.json" />
+    <EmbeddedResource Include="../../catalog/catalog.schema.json" LogicalName="catalog.schema.json" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "star-fox-64",
+  "title": "Star Fox 64",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "ação",
+    "tiro"
+  ],
+  "descriptionPtBr": "Fox McCloud e sua equipe enfrentam Andross pelo sistema Lylat a bordo das naves Arwing.",
+  "recommendedPortId": "starship",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:star-fox-64",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

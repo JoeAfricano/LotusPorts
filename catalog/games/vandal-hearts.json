@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "vandal-hearts",
+  "title": "Vandal Hearts",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "RPG",
+    "estratégia"
+  ],
+  "descriptionPtBr": "RPG tático em turnos sobre um grupo de soldados no meio de uma revolução.",
+  "recommendedPortId": "vandal-hearts-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:vandal-hearts",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

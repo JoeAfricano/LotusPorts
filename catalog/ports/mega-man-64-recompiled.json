@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "mega-man-64-recompiled",
+  "gameId": "mega-man-64",
+  "title": "Mega Man 64 Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "MegaMan64Recomp",
+    "name": "MegaMan64Recompiled"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "MegaMan64Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/MegaMan64Recomp/MegaMan64Recompiled",
+    "docs": "https://github.com/MegaMan64Recomp/MegaMan64Recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.9.1",
+    "prerelease": false,
+    "assetName": "MegaMan64Recompiled-v0.9.1-Windows.zip",
+    "assetSize": 24721093,
+    "assetSha256": "21e31bda2cb09808c0ed18c63b89faa6c2328c082fd8880c4acbdf3c6390931a"
+  }
+}

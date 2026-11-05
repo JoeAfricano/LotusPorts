@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "reblue",
+  "gameId": "blue-dragon",
+  "title": "reblue",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "zolaware",
+    "name": "reblue"
+  },
+  "license": "BSD-3-Clause",
+  "windowsAsset": {
+    "pattern": "(?i)win-amd64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "reblue.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Na primeira execução o assistente pede as três imagens de disco, uma por vez, e confere cada uma.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Três discos de Xbox 360",
+      "kind": "disc-image",
+      "format": "x360-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/zolaware/reblue#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "profiles/default/reblue.toml",
+      "kind": "config",
+      "location": "install"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/zolaware/reblue",
+    "docs": "https://github.com/zolaware/reblue#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.3.1",
+    "prerelease": false,
+    "assetName": "reblue-1.3.1-win-amd64.zip",
+    "assetSize": 45468067,
+    "assetSha256": "bf638798c2bef5f0d380852022b2d30403b0851a5ab70395fcac74976cfba9b8"
+  }
+}

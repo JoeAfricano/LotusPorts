@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "world-tour-recompiled",
+  "gameId": "wcw-vs-nwo-world-tour",
+  "title": "WCW vs. nWo Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "jessetbh",
+    "name": "WCWvsNWOWorldTourRecomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "WCWRecompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Forneça o arquivo do jogo (versão americana).",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Nintendo 64 (EUA)",
+      "kind": "single-file",
+      "format": "n64-rom",
+      "canonicalFormat": null,
+      "acceptedVersions": [
+        {
+          "region": "EUA",
+          "version": "PREENCHER",
+          "fileName": null,
+          "sha1": "5ad2d8359058c8bb71f08e3d3433b7a50d3bb645",
+          "md5": null,
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp#readme"
+        }
+      ],
+      "officialDocsUrl": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "%LOCALAPPDATA%\\WCWRecompiled\\saves",
+      "kind": "saves",
+      "location": "user"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp",
+    "docs": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.0",
+    "prerelease": true,
+    "assetName": "WCWRecompiled-v0.2.0-Windows.zip",
+    "assetSize": 22238444,
+    "assetSha256": "313e5d11f518806a92de3a2d7cb7a1263b1a7e2efb7abafbffba5fda7b1842ea"
+  }
+}

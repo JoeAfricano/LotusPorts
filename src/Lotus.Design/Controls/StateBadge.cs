@@ -52,11 +52,11 @@ public sealed partial class StateBadge : UserControl
     {
         var (key, glyph) = Tone switch
         {
-            BadgeTone.Ok => ("State.Ok", ""),
-            BadgeTone.Warning => ("State.Warn", ""),
-            BadgeTone.Failure => ("State.Fail", ""),
-            BadgeTone.Accent => ("Accent.Pink", ""),
-            _ => ("State.Unknown", ""),
+            BadgeTone.Ok => ("State.Ok", "\uE73E"),
+            BadgeTone.Warning => ("State.Warn", "\uE7BA"),
+            BadgeTone.Failure => ("State.Fail", "\uE711"),
+            BadgeTone.Accent => ("Accent.Pink", "\uE946"),
+            _ => ("State.Unknown", "\uE9CE"),
         };
         var resources = Application.Current.Resources;
         var brush = (Brush)resources[key];

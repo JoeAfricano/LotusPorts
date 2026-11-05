@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "dr-mario-64-recompiled",
+  "gameId": "dr-mario-64",
+  "title": "Dr. Mario 64 Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "theboy181",
+    "name": "drmario64_recomp_plus"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Dr. Mario 64 Recompiled x64-Release/drmario64_recomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "manual",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "O README oficial descreve passos com a decompilação do jogo. Siga a documentação do projeto.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/theboy181/drmario64_recomp_plus",
+    "docs": "https://github.com/theboy181/drmario64_recomp_plus#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "1.0.0",
+    "prerelease": false,
+    "assetName": "Dr.Mario.64.Recompiled-v1.0.0-Windows.zip",
+    "assetSize": 24225142,
+    "assetSha256": "ba749f48725e23636845c9a79a89e17859172ac80fa7b98bf4523d12c1f0d2cf"
+  }
+}

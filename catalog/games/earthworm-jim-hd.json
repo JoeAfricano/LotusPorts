@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "earthworm-jim-hd",
+  "title": "Earthworm Jim HD",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "plataforma",
+    "ação"
+  ],
+  "descriptionPtBr": "A versão em alta definição do clássico de plataforma da minhoca com traje espacial.",
+  "recommendedPortId": "earthworm-jim-hd-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:earthworm-jim-hd",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

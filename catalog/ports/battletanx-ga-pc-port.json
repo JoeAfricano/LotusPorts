@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "battletanx-ga-pc-port",
+  "gameId": "battletanx-global-assault",
+  "title": "BattleTanx: Global Assault PC Port",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "TheGh0stShip",
+    "name": "BattleTanx-Global-Assault-PC-Port"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "BattleTanxGA-0.2.5-windows-x64-portable/BattleTanxGA.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Nintendo 64",
+      "kind": "single-file",
+      "format": "n64-rom",
+      "canonicalFormat": "z64",
+      "acceptedVersions": [
+        {
+          "region": "PREENCHER",
+          "version": "PREENCHER",
+          "fileName": null,
+          "sha1": "805248fb0a0ee694cad8d7dc927b631d860dd8cf",
+          "md5": null,
+          "sha256": "88268ce770ff39f2ca839848b842c87866df6c5ddaf775f180b2522c18ff6221",
+          "crc32": null,
+          "source": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port#readme"
+        }
+      ],
+      "officialDocsUrl": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+    "docs": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.5",
+    "prerelease": false,
+    "assetName": "BattleTanxGA-0.2.5-windows-x64-portable.zip",
+    "assetSize": 13559683,
+    "assetSha256": "1e4cebcdf9e38e5f24917148c25a2181b4e7df3f8c236f54734d706a3a91c8fc"
+  }
+}

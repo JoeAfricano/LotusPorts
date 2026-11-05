@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "super-smash-bros",
+  "title": "Super Smash Bros.",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Personagens da Nintendo se enfrentam em arenas para tirar os adversários do cenário.",
+  "recommendedPortId": "battleship",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-smash-bros",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

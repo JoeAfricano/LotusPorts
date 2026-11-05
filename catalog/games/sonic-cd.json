@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sonic-cd",
+  "title": "Sonic CD",
+  "originalPlatform": "MOBILE",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Sonic viaja no tempo entre passado, presente e futuro para salvar Amy e o Little Planet.",
+  "recommendedPortId": "rsdkv3-sonic-cd",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:sonic-cd",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

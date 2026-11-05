@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "dp-recomp",
+  "gameId": "deadly-premonition",
+  "title": "DPRecomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "LittleBitUA",
+    "name": "DPRecomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "DPRecomp-2.0.14-win64/PlayDeadlyPremonition.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "O launcher extrai o seu .iso (PAL ou EUA) com o instalador embutido. Depois é só jogar.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Disco de Xbox 360 (PAL ou EUA)",
+      "kind": "disc-image",
+      "format": "x360-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/LittleBitUA/DPRecomp#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "userdata/",
+      "kind": "saves",
+      "location": "install"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/LittleBitUA/DPRecomp",
+    "docs": "https://github.com/LittleBitUA/DPRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2.0.14",
+    "prerelease": false,
+    "assetName": "DPRecomp-2.0.14-win64.zip",
+    "assetSize": 46811589,
+    "assetSha256": "3d26da25ff910cc2c41b4d2f7d5a8d6c17f6a3e4e2a9a29d2e4afee5e38b75fe"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "kings-field-enhanced",
+  "gameId": "kings-field",
+  "title": "King's Field Enhanced",
+  "portType": "source-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Acranon",
+    "name": "kf1-enhanced"
+  },
+  "license": "CC0-1.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "KingsFieldEnhanced-v0.1.0-pre.3-windows/kings-field.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Na primeira execução o jogo pede a imagem do disco japonês (.cue ou .iso).",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Disco de PlayStation (Japão)",
+      "kind": "disc-image",
+      "format": "ps1-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/Acranon/kf1-enhanced#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "%APPDATA%\\KingsField\\SLPS00017",
+      "kind": "saves",
+      "location": "user"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Acranon/kf1-enhanced",
+    "docs": "https://github.com/Acranon/kf1-enhanced#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.0-pre.3",
+    "prerelease": true,
+    "assetName": "KingsFieldEnhanced-v0.1.0-pre.3-windows.zip",
+    "assetSize": 3511950,
+    "assetSha256": "400bffc15e2f95d0f5770c9f898c0bbe23e2fdcfeeb98942b8b1d1c8844249ff"
+  }
+}

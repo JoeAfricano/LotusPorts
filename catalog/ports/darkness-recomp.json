@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "darkness-recomp",
+  "gameId": "the-darkness",
+  "title": "The Darkness Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "portingpete",
+    "name": "The-Darkness-Recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows-x64\\.zip$",
+    "excludePattern": "(?i)\\.sha256$",
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "build_native/Release/DarkRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "manual",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Copie todos os arquivos do dump extraído do seu disco de Xbox 360 para a pasta indicada no README oficial.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Dump do disco de Xbox 360",
+      "kind": "folder",
+      "format": "x360-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/portingpete/The-Darkness-Recomp#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/portingpete/The-Darkness-Recomp",
+    "docs": "https://github.com/portingpete/The-Darkness-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.8",
+    "prerelease": true,
+    "assetName": "The-Darkness-Recomp-v0.1.8-windows-x64.zip",
+    "assetSize": 44570424,
+    "assetSha256": "8b623e36b1a1c28d8a0dc5ed3c0bd7a4426e5a50f6598245eed7e29834d981b5"
+  }
+}

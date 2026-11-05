@@ -30,5 +30,5 @@ public sealed class M001Foundation : IMigration
 
 public static class AllMigrations
 {
-    public static IReadOnlyList<IMigration> List { get; } = [new M001Foundation()];
+    public static IReadOnlyList<IMigration> List { get; } = [new M001Foundation(), new M002Catalog()];
 }

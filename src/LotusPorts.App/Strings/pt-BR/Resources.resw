@@ -24,12 +24,10 @@
   <data name="SearchKeywordsLotus" xml:space="preserve"><value>lotus;desempenho;dependências;perfil</value></data>
   <data name="SearchKeywordsSettings" xml:space="preserve"><value>engrenagem;opções;idioma;pasta;modo avançado;estilo</value></data>
   <data name="SearchKeywordsHelp" xml:space="preserve"><value>suporte;dúvidas;sobre;legal</value></data>
-  <data name="LibraryEmptyTitle" xml:space="preserve"><value>Sua biblioteca ainda está vazia</value></data>
-  <data name="LibraryEmptyMessage" xml:space="preserve"><value>O catálogo de jogos chega na próxima etapa do desenvolvimento. Nenhum jogo aparece antes de ser verificado.</value></data>
+  <data name="LibraryEmptyTitle" xml:space="preserve"><value>Nenhum jogo no catálogo</value></data>
+  <data name="LibraryEmptyMessage" xml:space="preserve"><value>Quando houver jogos no catálogo, eles aparecem aqui.</value></data>
   <data name="CatalogTitle" xml:space="preserve"><value>Catálogo</value></data>
   <data name="CatalogSubtitle" xml:space="preserve"><value>Todos os jogos com port nativo para PC, organizados por jogo, com uma forma recomendada de jogar cada um.</value></data>
-  <data name="CatalogEmptyTitle" xml:space="preserve"><value>O catálogo ainda não está disponível</value></data>
-  <data name="CatalogEmptyMessage" xml:space="preserve"><value>Cada jogo entra no catálogo somente depois de conferido na documentação oficial do port.</value></data>
   <data name="DownloadsTitle" xml:space="preserve"><value>Downloads</value></data>
   <data name="DownloadsSubtitle" xml:space="preserve"><value>Instalações e atualizações em andamento aparecem aqui e no cartão de cada jogo.</value></data>
   <data name="DownloadsEmptyTitle" xml:space="preserve"><value>Nenhum download em andamento</value></data>
@@ -64,7 +62,7 @@
   <data name="SettingsGameFiles" xml:space="preserve"><value>Arquivos de jogo</value></data>
   <data name="SettingsGameFilesHint" xml:space="preserve"><value>Pastas onde ficam os seus arquivos de jogo e a lista dos arquivos reconhecidos.</value></data>
   <data name="SettingsCatalogSources" xml:space="preserve"><value>Fontes de catálogo</value></data>
-  <data name="SettingsCatalogSourcesHint" xml:space="preserve"><value>Adicionar outras fontes de catálogo ou um port por link do GitHub.</value></data>
+  <data name="SettingsCatalogSourcesHint" xml:space="preserve"><value>Fontes importadas e ports adicionados por você ficam na tela Catálogo.</value></data>
   <data name="SettingsAdvanced" xml:space="preserve"><value>Modo avançado</value></data>
   <data name="SettingsAdvancedHint" xml:space="preserve"><value>Mostra detalhes técnicos: histórico de operações, pasta de dados e, nas próximas etapas, versões e logs.</value></data>
   <data name="SettingsJournal" xml:space="preserve"><value>Diário de operações</value></data>
@@ -76,9 +74,9 @@
   <data name="SettingsVersion" xml:space="preserve"><value>versão {0}</value></data>
   <data name="LegalNotAffiliated" xml:space="preserve"><value>O Lotus Ports não é afiliado, patrocinado nem aprovado por fabricantes de consoles, publishers ou pelos autores dos ports. Todas as marcas pertencem aos seus donos.</value></data>
   <data name="LegalNoGameFiles" xml:space="preserve"><value>O Lotus Ports não fornece, não baixa e não indica onde obter arquivos de jogos, BIOS ou chaves. Você usa os arquivos da sua própria cópia do jogo.</value></data>
-  <data name="LegalPortLicenses" xml:space="preserve"><value>As licenças de cada port vão aparecer aqui junto com o catálogo.</value></data>
+  <data name="LegalPortLicenses" xml:space="preserve"><value>A licença de cada port aparece na página do jogo, em Sobre este port.</value></data>
   <data name="LegalComponentsTitle" xml:space="preserve"><value>Componentes de código aberto</value></data>
-  <data name="LegalComponents" xml:space="preserve"><value>Windows App SDK (MIT) · CommunityToolkit.Mvvm (MIT) · Microsoft.Extensions.Hosting (MIT) · Microsoft.Data.Sqlite (MIT) · Dapper (Apache-2.0) · Serilog (Apache-2.0)</value></data>
+  <data name="LegalComponents" xml:space="preserve"><value>Windows App SDK (MIT) · CommunityToolkit.Mvvm (MIT) · Microsoft.Extensions.Hosting (MIT) · Microsoft.Data.Sqlite (MIT) · Dapper (Apache-2.0) · JsonSchema.Net (MIT) · Serilog (Apache-2.0)</value></data>
   <data name="HelpHowTitle" xml:space="preserve"><value>Como funciona</value></data>
   <data name="HelpHowText" xml:space="preserve"><value>Você escolhe o jogo, não o port. Cada jogo tem uma forma recomendada de jogar e um botão só: Instalar, Jogar, Atualizar e jogar ou Resolver. O Lotus Ports cuida do download, da instalação e da configuração, sempre pedindo sua confirmação antes de mudar algo no PC.</value></data>
   <data name="HelpFilesTitle" xml:space="preserve"><value>Arquivos do jogo</value></data>
@@ -89,7 +87,7 @@
   <data name="HelpSavesText" xml:space="preserve"><value>A proteção e o backup dos saves ficam com o Lotus, que já faz isso para todos os seus jogos.</value></data>
   <data name="GameBack" xml:space="preserve"><value>Voltar para a biblioteca</value></data>
   <data name="GameNotFoundTitle" xml:space="preserve"><value>Jogo não encontrado</value></data>
-  <data name="GameNotFoundMessage" xml:space="preserve"><value>Este jogo não está no catálogo. O catálogo chega na próxima etapa do desenvolvimento.</value></data>
+  <data name="GameNotFoundMessage" xml:space="preserve"><value>Este jogo não está no catálogo ou ainda aguarda revisão.</value></data>
   <data name="ErrorTitle" xml:space="preserve"><value>Algo deu errado</value></data>
   <data name="ErrorMessageContinue" xml:space="preserve"><value>O Lotus Ports encontrou um erro inesperado. Você pode continuar usando o app; se o problema voltar, copie os detalhes para pedir ajuda.</value></data>
   <data name="ErrorMessageStartup" xml:space="preserve"><value>O Lotus Ports não conseguiu abrir. Seus jogos e arquivos não foram tocados. Copie os detalhes para pedir ajuda.</value></data>
@@ -103,4 +101,144 @@
   <data name="OutcomeCancelled" xml:space="preserve"><value>Cancelada</value></data>
   <data name="OutcomePartial" xml:space="preserve"><value>Parcial</value></data>
   <data name="OutcomeOpen" xml:space="preserve"><value>Interrompida</value></data>
+  <data name="StatusJOGAVEL" xml:space="preserve"><value>Jogável do começo ao fim</value></data>
+  <data name="StatusEXPERIMENTAL" xml:space="preserve"><value>Jogável, com alguns bugs</value></data>
+  <data name="StatusEM_DESENVOLVIMENTO" xml:space="preserve"><value>Ainda em construção</value></data>
+  <data name="StatusDESCONTINUADO" xml:space="preserve"><value>Não recebe mais atualizações</value></data>
+  <data name="StatusNAO_AVALIADO" xml:space="preserve"><value>Ainda não avaliado</value></data>
+  <data name="PlatformN64" xml:space="preserve"><value>Nintendo 64</value></data>
+  <data name="PlatformSNES" xml:space="preserve"><value>Super Nintendo</value></data>
+  <data name="PlatformGBA" xml:space="preserve"><value>Game Boy Advance</value></data>
+  <data name="PlatformGAMECUBE" xml:space="preserve"><value>GameCube</value></data>
+  <data name="PlatformWII_U" xml:space="preserve"><value>Wii U</value></data>
+  <data name="PlatformPS1" xml:space="preserve"><value>PlayStation</value></data>
+  <data name="PlatformPS2" xml:space="preserve"><value>PlayStation 2</value></data>
+  <data name="PlatformXBOX_360" xml:space="preserve"><value>Xbox 360</value></data>
+  <data name="PlatformPC" xml:space="preserve"><value>PC</value></data>
+  <data name="PlatformMOBILE" xml:space="preserve"><value>Celular</value></data>
+  <data name="PortTypedecompport" xml:space="preserve"><value>Port feito a partir do código do jogo reconstruído</value></data>
+  <data name="PortTypestaticrecomp" xml:space="preserve"><value>Recompilação do jogo original para PC</value></data>
+  <data name="PortTypesourceport" xml:space="preserve"><value>Port aprimorado do código do jogo</value></data>
+  <data name="PortTypeengineremake" xml:space="preserve"><value>Motor do jogo recriado do zero</value></data>
+  <data name="Setupbesideexe" xml:space="preserve"><value>O arquivo do jogo fica ao lado do programa</value></data>
+  <data name="Setupselectonfirstlaunch" xml:space="preserve"><value>O jogo pede o arquivo na primeira vez que abre</value></data>
+  <data name="Setupextracttool" xml:space="preserve"><value>Uma ferramenta do port prepara os arquivos</value></data>
+  <data name="Setupgamefolder" xml:space="preserve"><value>O port usa uma pasta com os arquivos do jogo</value></data>
+  <data name="Setupmanual" xml:space="preserve"><value>Preparação manual, com passo a passo oficial</value></data>
+  <data name="SetupUnknown" xml:space="preserve"><value>Ainda não verificado</value></data>
+  <data name="OriginInReview" xml:space="preserve"><value>Em revisão</value></data>
+  <data name="OriginUser" xml:space="preserve"><value>Adicionado por você</value></data>
+  <data name="OriginExternal" xml:space="preserve"><value>Fonte externa</value></data>
+  <data name="OriginOfficial" xml:space="preserve"><value>Catálogo oficial</value></data>
+  <data name="OriginExternalTrusted" xml:space="preserve"><value>Fonte externa: {0} (confiável)</value></data>
+  <data name="OriginExternalUntrusted" xml:space="preserve"><value>Fonte externa: {0} (não verificada)</value></data>
+  <data name="StateInstalled" xml:space="preserve"><value>Instalado</value></data>
+  <data name="StateNotInstalled" xml:space="preserve"><value>Não instalado</value></data>
+  <data name="FilterAllPlatforms" xml:space="preserve"><value>Todas as plataformas</value></data>
+  <data name="FilterAllGenres" xml:space="preserve"><value>Todos os gêneros</value></data>
+  <data name="FilterGenre" xml:space="preserve"><value>Gênero</value></data>
+  <data name="FilterPlatform" xml:space="preserve"><value>Plataforma</value></data>
+  <data name="ShelfNew" xml:space="preserve"><value>Chegou!</value></data>
+  <data name="ShelfNewDismiss" xml:space="preserve"><value>Dispensar as novidades</value></data>
+  <data name="ShelfContinue" xml:space="preserve"><value>Continuar jogando</value></data>
+  <data name="ShelfReady" xml:space="preserve"><value>Prontos para jogar</value></data>
+  <data name="ShelfDiscover" xml:space="preserve"><value>Para descobrir</value></data>
+  <data name="ShelfSoon" xml:space="preserve"><value>Em breve</value></data>
+  <data name="TabAll" xml:space="preserve"><value>Todos ({0})</value></data>
+  <data name="TabFavorites" xml:space="preserve"><value>Favoritos ({0})</value></data>
+  <data name="TabInstalled" xml:space="preserve"><value>Instalados ({0})</value></data>
+  <data name="TabNotInstalled" xml:space="preserve"><value>Não instalados ({0})</value></data>
+  <data name="LibraryNothingReviewedTitle" xml:space="preserve"><value>Nenhum jogo revisado ainda</value></data>
+  <data name="LibraryNothingReviewedMessage" xml:space="preserve"><value>{0} jogos aguardam a revisão do curador antes de aparecer aqui. No modo avançado, ative &quot;Mostrar jogos em revisão&quot; para vê-los antes.</value></data>
+  <data name="LibraryNoMatchTitle" xml:space="preserve"><value>Nenhum jogo com esses filtros</value></data>
+  <data name="LibraryNoMatchMessage" xml:space="preserve"><value>Troque a aba, a plataforma ou o gênero para ver outros jogos.</value></data>
+  <data name="GameFavorite" xml:space="preserve"><value>Favoritar</value></data>
+  <data name="GameMore" xml:space="preserve"><value>Mais opções</value></data>
+  <data name="GameRecommended" xml:space="preserve"><value>Port recomendado</value></data>
+  <data name="GameInstall" xml:space="preserve"><value>Instalar</value></data>
+  <data name="GameInstallLater" xml:space="preserve"><value>A instalação chega na próxima etapa do desenvolvimento.</value></data>
+  <data name="GameOpenRepo" xml:space="preserve"><value>Repositório oficial</value></data>
+  <data name="GameOpenDocs" xml:space="preserve"><value>Documentação oficial</value></data>
+  <data name="GameOnlyPort" xml:space="preserve"><value>Única forma de jogar com versão para Windows no catálogo.</value></data>
+  <data name="GameReasonMissing" xml:space="preserve"><value>O motivo da recomendação ainda não foi escrito.</value></data>
+  <data name="TileGameFile" xml:space="preserve"><value>Arquivo do jogo</value></data>
+  <data name="TileDependencies" xml:space="preserve"><value>Dependências</value></data>
+  <data name="TileLotus" xml:space="preserve"><value>Integração Lotus</value></data>
+  <data name="TileNotVerified" xml:space="preserve"><value>Não verificado</value></data>
+  <data name="GameAbout" xml:space="preserve"><value>Sobre este port</value></data>
+  <data name="GameOtherWaysOne" xml:space="preserve"><value>Outras formas de jogar ({0} alternativa)</value></data>
+  <data name="GameOtherWaysMany" xml:space="preserve"><value>Outras formas de jogar ({0} alternativas)</value></data>
+  <data name="AboutPortType" xml:space="preserve"><value>Tipo</value></data>
+  <data name="AboutVersion" xml:space="preserve"><value>Versão mais recente conferida</value></data>
+  <data name="AboutVersionPre" xml:space="preserve"><value>{0} (versão de teste)</value></data>
+  <data name="AboutLicense" xml:space="preserve"><value>Licença</value></data>
+  <data name="AboutLicenseUnknown" xml:space="preserve"><value>Não informada no repositório</value></data>
+  <data name="AboutSetup" xml:space="preserve"><value>Como o arquivo do jogo é usado</value></data>
+  <data name="AboutGameFile" xml:space="preserve"><value>Arquivo do jogo necessário</value></data>
+  <data name="AboutGameFileUnknown" xml:space="preserve"><value>Ainda não verificado</value></data>
+  <data name="AboutAcceptedVersions" xml:space="preserve"><value>Versões aceitas</value></data>
+  <data name="AboutReview" xml:space="preserve"><value>Revisão</value></data>
+  <data name="AboutRepository" xml:space="preserve"><value>Repositório</value></data>
+  <data name="CatalogFilter" xml:space="preserve"><value>Filtrar por nome ou port</value></data>
+  <data name="CatalogNoMatchTitle" xml:space="preserve"><value>Nenhum jogo encontrado</value></data>
+  <data name="CatalogNoMatchMessage" xml:space="preserve"><value>Tente outro nome ou outra plataforma.</value></data>
+  <data name="CatalogSummary" xml:space="preserve"><value>{0} jogos · {1} formas de jogar.</value></data>
+  <data name="CatalogWaitingReview" xml:space="preserve"><value>{0} aguardam revisão.</value></data>
+  <data name="CatalogSources" xml:space="preserve"><value>Fontes de catálogo</value></data>
+  <data name="CatalogSourcesHint" xml:space="preserve"><value>Adicione catálogos de outras pessoas pelo link do GitHub. Eles seguem as mesmas regras do oficial: só links para repositórios oficiais e nunca arquivos de jogo.</value></data>
+  <data name="CatalogOfficial" xml:space="preserve"><value>Catálogo oficial do Lotus Ports</value></data>
+  <data name="CatalogOfficialInfo" xml:space="preserve"><value>Versão {0} · {1} jogos · {2} ports · incluído no app</value></data>
+  <data name="CatalogOfficialInvalid" xml:space="preserve"><value>O catálogo incluído no app não passou na validação. Os detalhes estão no log.</value></data>
+  <data name="CatalogOfficialValidated" xml:space="preserve"><value>Validado</value></data>
+  <data name="SourceStateOk" xml:space="preserve"><value>OK</value></data>
+  <data name="SourceStateWarning" xml:space="preserve"><value>Aviso</value></data>
+  <data name="SourceStateNotVerified" xml:space="preserve"><value>Não verificado</value></data>
+  <data name="SourceActive" xml:space="preserve"><value>Ativa</value></data>
+  <data name="SourceInactive" xml:space="preserve"><value>Desativada</value></data>
+  <data name="SourceTrusted" xml:space="preserve"><value>Confiável</value></data>
+  <data name="SourceUntrusted" xml:space="preserve"><value>Não marcada como confiável</value></data>
+  <data name="SourceUpdatedAt" xml:space="preserve"><value>Conferida em {0}</value></data>
+  <data name="SourceAdded" xml:space="preserve"><value>Fonte &quot;{0}&quot; adicionada. Os jogos dela aparecem com o selo Fonte externa.</value></data>
+  <data name="SourceAlreadyAdded" xml:space="preserve"><value>Essa fonte já está na lista.</value></data>
+  <data name="SourceInvalidLink" xml:space="preserve"><value>Use um link do GitHub, como https://github.com/usuario/repositorio.</value></data>
+  <data name="SourceNotFound" xml:space="preserve"><value>Não encontrei um catalog.json nesse repositório.</value></data>
+  <data name="SourceGameFilesRejected" xml:space="preserve"><value>Fonte recusada: ela tem entradas que apontam para arquivos de jogo. O Lotus Ports nunca usa fontes assim.</value></data>
+  <data name="SourceRateLimitedUntil" xml:space="preserve"><value>O GitHub limitou as consultas por agora. Tente de novo depois das {0}.</value></data>
+  <data name="SourceRateLimited" xml:space="preserve"><value>O GitHub limitou as consultas por agora. Tente de novo mais tarde.</value></data>
+  <data name="SourceNetworkError" xml:space="preserve"><value>Não foi possível acessar o GitHub agora. Confira a internet e tente de novo.</value></data>
+  <data name="SourceInvalid" xml:space="preserve"><value>A fonte não segue o formato do catálogo ({0} problemas). Ela não foi adicionada.</value></data>
+  <data name="SourceActions" xml:space="preserve"><value>Opções da fonte</value></data>
+  <data name="SourceLinkLabel" xml:space="preserve"><value>Link da fonte no GitHub</value></data>
+  <data name="SourceAdd" xml:space="preserve"><value>Adicionar fonte</value></data>
+  <data name="SourceRefresh" xml:space="preserve"><value>Verificar atualização</value></data>
+  <data name="SourceActivate" xml:space="preserve"><value>Ativar</value></data>
+  <data name="SourceDeactivate" xml:space="preserve"><value>Desativar</value></data>
+  <data name="SourceTrust" xml:space="preserve"><value>Marcar como confiável</value></data>
+  <data name="SourceUntrust" xml:space="preserve"><value>Desmarcar como confiável</value></data>
+  <data name="SourceRemove" xml:space="preserve"><value>Remover fonte</value></data>
+  <data name="SourceRemoveTitle" xml:space="preserve"><value>Remover esta fonte?</value></data>
+  <data name="SourceRemoveMessage" xml:space="preserve"><value>Os jogos de &quot;{0}&quot; saem do catálogo. Jogos já instalados a partir dela não são desinstalados.</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="UserPortAdd" xml:space="preserve"><value>Adicionar port por link do GitHub</value></data>
+  <data name="UserPortExport" xml:space="preserve"><value>Exportar meus ports (JSON)</value></data>
+  <data name="UserPortHint" xml:space="preserve"><value>Cole o link do repositório de um port que ainda não está no catálogo. O Lotus Ports lê as versões publicadas e sugere o arquivo para Windows.</value></data>
+  <data name="UserPortLink" xml:space="preserve"><value>Link do repositório</value></data>
+  <data name="UserPortRead" xml:space="preserve"><value>Ler repositório</value></data>
+  <data name="UserPortReading" xml:space="preserve"><value>Lendo o repositório…</value></data>
+  <data name="UserPortGameTitle" xml:space="preserve"><value>Nome do jogo</value></data>
+  <data name="UserPortExecutable" xml:space="preserve"><value>Programa que abre o jogo</value></data>
+  <data name="UserPortConfirm" xml:space="preserve"><value>Adicionar</value></data>
+  <data name="UserPortFound" xml:space="preserve"><value>{0}: versão {1}, arquivo {2}.</value></data>
+  <data name="UserPortPrerelease" xml:space="preserve"><value>É uma versão de teste.</value></data>
+  <data name="UserPortProblemInvalidLink" xml:space="preserve"><value>Use o link de um repositório, como https://github.com/usuario/port.</value></data>
+  <data name="UserPortProblemNotFound" xml:space="preserve"><value>Repositório não encontrado.</value></data>
+  <data name="UserPortProblemNoWindowsRelease" xml:space="preserve"><value>Não encontrei uma versão publicada com arquivo para Windows.</value></data>
+  <data name="UserPortProblemRateLimited" xml:space="preserve"><value>O GitHub limitou as consultas por agora. Tente mais tarde.</value></data>
+  <data name="UserPortProblemNetworkError" xml:space="preserve"><value>Não foi possível acessar o GitHub agora.</value></data>
+  <data name="UserPortInvalid" xml:space="preserve"><value>Não foi possível adicionar: {0}</value></data>
+  <data name="UserPortDescription" xml:space="preserve"><value>Port adicionado por você a partir do GitHub.</value></data>
+  <data name="UserPortExported" xml:space="preserve"><value>Arquivo {0} salvo.</value></data>
+  <data name="SettingsCatalogSourcesOpen" xml:space="preserve"><value>Abrir fontes</value></data>
+  <data name="SettingsShowInReview" xml:space="preserve"><value>Mostrar jogos em revisão</value></data>
+  <data name="SettingsShowInReviewHint" xml:space="preserve"><value>Mostra na Biblioteca e no Catálogo os jogos que o curador ainda não revisou, com o selo Em revisão.</value></data>
 </root>

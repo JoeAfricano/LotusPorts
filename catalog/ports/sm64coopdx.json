@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "sm64coopdx",
+  "gameId": "super-mario-64",
+  "title": "sm64coopdx",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "coop-deluxe",
+    "name": "sm64coopdx"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "sm64coopdx.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/coop-deluxe/sm64coopdx",
+    "docs": "https://github.com/coop-deluxe/sm64coopdx#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.5.1",
+    "prerelease": false,
+    "assetName": "sm64coopdx_Windows.zip",
+    "assetSize": 41801915,
+    "assetSha256": "2a98c40acb2a46d30cde89f3072c039b641dbdf977985f9e82a040615f1b2381"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dead-rising-2-case-west",
+  "title": "Dead Rising 2: Case West",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "ação",
+    "terror"
+  ],
+  "descriptionPtBr": "Epílogo de Dead Rising 2: Chuck e Frank West investigam a origem do surto de zumbis.",
+  "recommendedPortId": "case-west-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dead-rising-2-case-west",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

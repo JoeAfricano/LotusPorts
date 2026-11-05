@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "vandal-hearts-pc",
+  "gameId": "vandal-hearts",
+  "title": "Vandal Hearts (port para PC)",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "HalmyLyseas",
+    "name": "VandalHearts-PcPort"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "vandalhearts_pc.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "beside-exe",
+    "targetFileName": null,
+    "targetFolder": "game",
+    "notesPtBr": "Coloque a imagem do seu disco (EUA ou Japão) numa pasta game ao lado do executável. A região é detectada sozinha.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Disco de PlayStation",
+      "kind": "disc-image",
+      "format": "ps1-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [
+        {
+          "region": "EUA",
+          "version": "SLUS-00447",
+          "fileName": "SLUS_004.47",
+          "sha1": null,
+          "md5": "596bb082a2de5f1fe977dd3d7e160b03",
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/HalmyLyseas/VandalHearts-PcPort#readme"
+        },
+        {
+          "region": "Japão",
+          "version": "SLPM-86007",
+          "fileName": "SLPM_860.07",
+          "sha1": null,
+          "md5": "53849277b08184863bd45f10925995a6",
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/HalmyLyseas/VandalHearts-PcPort#readme"
+        }
+      ],
+      "officialDocsUrl": "https://github.com/HalmyLyseas/VandalHearts-PcPort#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "saves/",
+      "kind": "saves",
+      "location": "install"
+    },
+    {
+      "path": "vandalhearts.ini",
+      "kind": "config",
+      "location": "install"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/HalmyLyseas/VandalHearts-PcPort",
+    "docs": "https://github.com/HalmyLyseas/VandalHearts-PcPort#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2.1.0",
+    "prerelease": false,
+    "assetName": "VandalHearts-v2.1.0-windows-x64.zip",
+    "assetSize": 5771542,
+    "assetSha256": "365c7515e59f705ccb5942ab77270f0f9b98dbd3716e492d95266c226355868d"
+  }
+}

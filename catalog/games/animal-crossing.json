@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "animal-crossing",
+  "title": "Animal Crossing",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [
+    "simulação"
+  ],
+  "descriptionPtBr": "Viva numa vila de animais: pesque, decore a casa, pague a hipoteca e acompanhe as estações do ano.",
+  "recommendedPortId": "nookery",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:animal-crossing",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

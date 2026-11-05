@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "mario-kart-64",
+  "title": "Mario Kart 64",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Corridas de kart com Mario e sua turma, itens, atalhos e batalhas para até quatro jogadores.",
+  "recommendedPortId": "spaghettikart",
+  "recommendationReasonPtBr": "Versão 1.0 estável, do mesmo grupo do Ship of Harkinian.",
+  "alternatives": [
+    {
+      "portId": "mario-kart-64-recompiled",
+      "differencePtBr": "Recompilação estática; ainda em versão 0.9."
+    }
+  ],
+  "lotusGameKey": "port:mario-kart-64",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

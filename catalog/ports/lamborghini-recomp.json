@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "lamborghini-recomp",
+  "gameId": "automobili-lamborghini",
+  "title": "Automobili Lamborghini Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "alondero",
+    "name": "automobililamborghini-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "lamborghini_modern.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [
+    {
+      "path": "%LOCALAPPDATA%\\LamborghiniRecomp",
+      "kind": "saves",
+      "location": "user"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/alondero/automobililamborghini-recomp",
+    "docs": "https://github.com/alondero/automobililamborghini-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.10.3",
+    "prerelease": false,
+    "assetName": "lamborghini-recomp-windows-x64.zip",
+    "assetSize": 36420367,
+    "assetSha256": "53c1eda251dfbda4564defc2008137ab8ca9f97bb0edbdc9d9bf0f263c1071f5"
+  }
+}

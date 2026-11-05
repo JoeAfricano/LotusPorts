@@ -1,0 +1,237 @@
+﻿NavLibrary	Biblioteca	Library
+NavCatalog	Catálogo	Catalog
+NavDownloads	Downloads	Downloads
+NavLotus	Integração com o Lotus	Lotus integration
+NavSettings	Configurações	Settings
+NavHelp	Ajuda	Help
+LotusStatusAutomation	Integração com o Lotus: em desenvolvimento	Lotus integration: in development
+BadgeInDevelopment	Em desenvolvimento	In development
+LibraryHeroLine1	Jogos clássicos,	Classic games,
+LibraryHeroLine2	prontos para jogar no PC	ready to play on PC
+LibraryHeroSubtitle	Ports nativos para PC, instalados e configurados para você. Escolha o jogo e jogue.	Native PC ports, installed and set up for you. Pick a game and play.
+SearchPlaceholder	Buscar um jogo ou ação…  (Ctrl+K)	Search for a game or action…  (Ctrl+K)
+SearchAutomation	Buscar jogos e ações	Search games and actions
+SearchNoResults	Nenhum resultado	No results
+SearchKeywordsLibrary	estante;jogos;início	shelf;games;home
+SearchKeywordsCatalog	descobrir;novos jogos;fontes	discover;new games;sources
+SearchKeywordsDownloads	baixar;fila;progresso	download;queue;progress
+SearchKeywordsLotus	lotus;desempenho;dependências;perfil	lotus;performance;dependencies;profile
+SearchKeywordsSettings	engrenagem;opções;idioma;pasta;modo avançado;estilo	gear;options;language;folder;advanced mode;style
+SearchKeywordsHelp	suporte;dúvidas;sobre;legal	support;questions;about;legal
+LibraryEmptyTitle	Nenhum jogo no catálogo	No games in the catalog
+LibraryEmptyMessage	Quando houver jogos no catálogo, eles aparecem aqui.	When the catalog has games, they show up here.
+CatalogTitle	Catálogo	Catalog
+CatalogSubtitle	Todos os jogos com port nativo para PC, organizados por jogo, com uma forma recomendada de jogar cada um.	Every game with a native PC port, organized by game, with one recommended way to play each.
+DownloadsTitle	Downloads	Downloads
+DownloadsSubtitle	Instalações e atualizações em andamento aparecem aqui e no cartão de cada jogo.	Installs and updates in progress show here and on each game's card.
+DownloadsEmptyTitle	Nenhum download em andamento	No downloads in progress
+DownloadsEmptyMessage	Quando você instalar ou atualizar um jogo, o progresso aparece aqui.	When you install or update a game, its progress shows here.
+LotusTitle	Integração com o Lotus	Lotus integration
+LotusSubtitle	O Lotus Ports funciona sozinho. Com o Lotus instalado, os dois vão trabalhar juntos.	Lotus Ports works on its own. With Lotus installed, both will work together.
+LotusEmptyTitle	Integração ainda não disponível	Integration not available yet
+LotusEmptyMessage	Por enquanto o Lotus Ports não procura nem se conecta ao Lotus. Nenhum dado é trocado entre os dois.	For now Lotus Ports does not look for or connect to Lotus. No data is exchanged between them.
+LotusBulletsTitle	O que a integração vai trazer	What the integration will bring
+LotusBullets	Kit de dependências do Lotus, com a sua confirmação no próprio Lotus|Diagnóstico do sistema no "Resolver" de cada jogo|Perfil de desempenho aplicado ao jogar e desfeito ao fechar o jogo|Relatório da sessão só com valores medidos|Saves e backups protegidos pelo Lotus|Seus jogos do Lotus Ports dentro da biblioteca do Lotus	Lotus dependency kit, confirmed by you in Lotus itself|System diagnostics in each game's "Fix it"|Performance profile applied while playing and undone when the game closes|Session report with measured values only|Saves and backups protected by Lotus|Your Lotus Ports games inside the Lotus library
+SettingsGeneral	Geral	General
+SettingsLanguage	Idioma	Language
+SettingsLanguageHint	Português é o padrão.	Portuguese is the default.
+SettingsRestartToApply	Reinicie o Lotus Ports para aplicar o novo idioma.	Restart Lotus Ports to apply the new language.
+SettingsLibraryFolder	Pasta da biblioteca	Library folder
+SettingsLibraryFolderHint	Onde os jogos serão instalados. A pasta só é criada na primeira instalação.	Where games will be installed. The folder is only created on the first install.
+SettingsChange	Alterar…	Change…
+LibraryProblemNotAbsolute	Escolha uma pasta completa, como D:\Jogos\Ports.	Choose a full folder path, such as D:\Games\Ports.
+LibraryProblemDriveRoot	Escolha uma pasta dentro do disco, não a raiz (como D:\). Assim os jogos ficam organizados e fáceis de remover.	Choose a folder inside the drive, not its root (like D:\). This keeps games organized and easy to remove.
+LibraryProblemProtectedSystemFolder	Essa pasta é protegida pelo Windows e exigiria permissão de administrador. Escolha outra, como D:\Jogos\Ports.	This folder is protected by Windows and would need administrator rights. Choose another, such as D:\Games\Ports.
+LibraryProblemSyncedByOneDrive	Essa pasta é sincronizada pelo OneDrive, o que pode corromper jogos durante a sincronização. Escolha uma pasta fora do OneDrive.	This folder is synced by OneDrive, which can corrupt games while syncing. Choose a folder outside OneDrive.
+SettingsDefaultStyle	Estilo de jogo padrão	Default game style
+SettingsDefaultStyleHint	Usado nos jogos em que o estilo já foi verificado. Você pode mudar depois, a qualquer momento.	Used in games whose style has been verified. You can change it later, at any time.
+StyleOriginal	Original	Original
+StyleOriginalHint	Mais fiel à experiência do console original.	Closer to the original console experience.
+StyleRemastered	Remasterizado	Remastered
+StyleRemasteredHint	Widescreen, alta resolução e maior taxa de quadros.	Widescreen, high resolution and higher frame rate.
+SettingsAutoUpdate	Atualizações automáticas	Automatic updates
+SettingsAutoUpdateHint	Quando ligado, o botão do jogo vira "Atualizar e jogar" se houver versão nova.	When on, the game button becomes "Update and play" when a new version exists.
+SettingsStartWithWindows	Iniciar com o Windows	Start with Windows
+SettingsTvMode	Modo TV (controle)	TV mode (controller)
+SettingsGameFiles	Arquivos de jogo	Game files
+SettingsGameFilesHint	Pastas onde ficam os seus arquivos de jogo e a lista dos arquivos reconhecidos.	Folders that hold your game files, and the list of recognized files.
+SettingsCatalogSources	Fontes de catálogo	Catalog sources
+SettingsCatalogSourcesHint	Fontes importadas e ports adicionados por você ficam na tela Catálogo.	Imported sources and ports you added live on the Catalog screen.
+SettingsAdvanced	Modo avançado	Advanced mode
+SettingsAdvancedHint	Mostra detalhes técnicos: histórico de operações, pasta de dados e, nas próximas etapas, versões e logs.	Shows technical details: operation history, data folder and, in later steps, versions and logs.
+SettingsJournal	Diário de operações	Operation journal
+SettingsJournalEmpty	Nenhuma operação registrada ainda.	No operations recorded yet.
+SettingsDataFolder	Pasta de dados e logs	Data and logs folder
+SettingsOpenFolder	Abrir pasta	Open folder
+SettingsSaveFailed	Não foi possível salvar a configuração. Os detalhes estão no log.	The setting could not be saved. Details are in the log.
+SettingsAbout	Sobre e informações legais	About and legal
+SettingsVersion	versão {0}	version {0}
+LegalNotAffiliated	O Lotus Ports não é afiliado, patrocinado nem aprovado por fabricantes de consoles, publishers ou pelos autores dos ports. Todas as marcas pertencem aos seus donos.	Lotus Ports is not affiliated with, sponsored or endorsed by console makers, publishers or the port authors. All trademarks belong to their owners.
+LegalNoGameFiles	O Lotus Ports não fornece, não baixa e não indica onde obter arquivos de jogos, BIOS ou chaves. Você usa os arquivos da sua própria cópia do jogo.	Lotus Ports does not provide, download or point to game files, BIOS or keys. You use the files from your own copy of the game.
+LegalPortLicenses	A licença de cada port aparece na página do jogo, em Sobre este port.	Each port's license shows on the game page, under About this port.
+LegalComponentsTitle	Componentes de código aberto	Open source components
+LegalComponents	Windows App SDK (MIT) · CommunityToolkit.Mvvm (MIT) · Microsoft.Extensions.Hosting (MIT) · Microsoft.Data.Sqlite (MIT) · Dapper (Apache-2.0) · JsonSchema.Net (MIT) · Serilog (Apache-2.0)	
+HelpHowTitle	Como funciona	How it works
+HelpHowText	Você escolhe o jogo, não o port. Cada jogo tem uma forma recomendada de jogar e um botão só: Instalar, Jogar, Atualizar e jogar ou Resolver. O Lotus Ports cuida do download, da instalação e da configuração, sempre pedindo sua confirmação antes de mudar algo no PC.	You pick the game, not the port. Each game has one recommended way to play and a single button: Install, Play, Update and play, or Fix it. Lotus Ports handles the download, install and setup, always asking you before changing anything on your PC.
+HelpFilesTitle	Arquivos do jogo	Game files
+HelpFilesText	Os ports precisam dos arquivos da sua própria cópia do jogo original. O Lotus Ports nunca baixa esses arquivos nem indica onde obtê-los. Ele só reconhece os arquivos que você já tem e nunca altera o original.	Ports need the files from your own copy of the original game. Lotus Ports never downloads these files or points to where to get them. It only recognizes files you already have and never changes the original.
+HelpProblemTitle	Se um jogo não abrir	If a game does not open
+HelpProblemText	O botão do jogo vira "Resolver", com a causa em português e o conserto em um clique. Quando não for possível confirmar algo, o Lotus Ports diz "não verificado" em vez de fingir que está tudo certo.	The game button becomes "Fix it", with the cause in plain language and a one-click fix. When something cannot be confirmed, Lotus Ports says "not verified" instead of pretending all is well.
+HelpSavesTitle	Saves	Saves
+HelpSavesText	A proteção e o backup dos saves ficam com o Lotus, que já faz isso para todos os seus jogos.	Save protection and backups are handled by Lotus, which already does this for all your games.
+GameBack	Voltar para a biblioteca	Back to library
+GameNotFoundTitle	Jogo não encontrado	Game not found
+GameNotFoundMessage	Este jogo não está no catálogo ou ainda aguarda revisão.	This game is not in the catalog or is still waiting for review.
+ErrorTitle	Algo deu errado	Something went wrong
+ErrorMessageContinue	O Lotus Ports encontrou um erro inesperado. Você pode continuar usando o app; se o problema voltar, copie os detalhes para pedir ajuda.	Lotus Ports hit an unexpected error. You can keep using the app; if it happens again, copy the details to ask for help.
+ErrorMessageStartup	O Lotus Ports não conseguiu abrir. Seus jogos e arquivos não foram tocados. Copie os detalhes para pedir ajuda.	Lotus Ports could not start. Your games and files were not touched. Copy the details to ask for help.
+ErrorDetails	Detalhes técnicos	Technical details
+ErrorCopy	Copiar detalhes	Copy details
+ErrorCopied	Copiado.	Copied.
+ErrorContinue	Continuar	Continue
+ErrorClose	Fechar	Close
+OutcomeSuccess	Sucesso	Success
+OutcomeFailure	Falha	Failure
+OutcomeCancelled	Cancelada	Cancelled
+OutcomePartial	Parcial	Partial
+OutcomeOpen	Interrompida	Interrupted
+StatusJOGAVEL	Jogável do começo ao fim	Playable start to finish
+StatusEXPERIMENTAL	Jogável, com alguns bugs	Playable, with some bugs
+StatusEM_DESENVOLVIMENTO	Ainda em construção	Still being built
+StatusDESCONTINUADO	Não recebe mais atualizações	No longer updated
+StatusNAO_AVALIADO	Ainda não avaliado	Not rated yet
+PlatformN64	Nintendo 64	Nintendo 64
+PlatformSNES	Super Nintendo	Super Nintendo
+PlatformGBA	Game Boy Advance	Game Boy Advance
+PlatformGAMECUBE	GameCube	GameCube
+PlatformWII_U	Wii U	Wii U
+PlatformPS1	PlayStation	PlayStation
+PlatformPS2	PlayStation 2	PlayStation 2
+PlatformXBOX_360	Xbox 360	Xbox 360
+PlatformPC	PC	PC
+PlatformMOBILE	Celular	Mobile
+PortTypedecompport	Port feito a partir do código do jogo reconstruído	Port built from the game's reconstructed code
+PortTypestaticrecomp	Recompilação do jogo original para PC	The original game recompiled for PC
+PortTypesourceport	Port aprimorado do código do jogo	Enhanced port of the game's code
+PortTypeengineremake	Motor do jogo recriado do zero	Game engine rebuilt from scratch
+Setupbesideexe	O arquivo do jogo fica ao lado do programa	The game file goes next to the program
+Setupselectonfirstlaunch	O jogo pede o arquivo na primeira vez que abre	The game asks for the file the first time it opens
+Setupextracttool	Uma ferramenta do port prepara os arquivos	A port tool prepares the files
+Setupgamefolder	O port usa uma pasta com os arquivos do jogo	The port uses a folder with the game files
+Setupmanual	Preparação manual, com passo a passo oficial	Manual setup, following the official steps
+SetupUnknown	Ainda não verificado	Not verified yet
+OriginInReview	Em revisão	In review
+OriginUser	Adicionado por você	Added by you
+OriginExternal	Fonte externa	External source
+OriginOfficial	Catálogo oficial	Official catalog
+OriginExternalTrusted	Fonte externa: {0} (confiável)	External source: {0} (trusted)
+OriginExternalUntrusted	Fonte externa: {0} (não verificada)	External source: {0} (not verified)
+StateInstalled	Instalado	Installed
+StateNotInstalled	Não instalado	Not installed
+FilterAllPlatforms	Todas as plataformas	All platforms
+FilterAllGenres	Todos os gêneros	All genres
+FilterGenre	Gênero	Genre
+FilterPlatform	Plataforma	Platform
+ShelfNew	Chegou!	Just arrived!
+ShelfNewDismiss	Dispensar as novidades	Dismiss what's new
+ShelfContinue	Continuar jogando	Continue playing
+ShelfReady	Prontos para jogar	Ready to play
+ShelfDiscover	Para descobrir	To discover
+ShelfSoon	Em breve	Coming soon
+TabAll	Todos ({0})	All ({0})
+TabFavorites	Favoritos ({0})	Favorites ({0})
+TabInstalled	Instalados ({0})	Installed ({0})
+TabNotInstalled	Não instalados ({0})	Not installed ({0})
+LibraryNothingReviewedTitle	Nenhum jogo revisado ainda	No games reviewed yet
+LibraryNothingReviewedMessage	{0} jogos aguardam a revisão do curador antes de aparecer aqui. No modo avançado, ative "Mostrar jogos em revisão" para vê-los antes.	{0} games are waiting for the curator's review before they show up here. In advanced mode, turn on "Show games in review" to see them now.
+LibraryNoMatchTitle	Nenhum jogo com esses filtros	No games match these filters
+LibraryNoMatchMessage	Troque a aba, a plataforma ou o gênero para ver outros jogos.	Change the tab, platform or genre to see other games.
+GameFavorite	Favoritar	Favorite
+GameMore	Mais opções	More options
+GameRecommended	Port recomendado	Recommended port
+GameInstall	Instalar	Install
+GameInstallLater	A instalação chega na próxima etapa do desenvolvimento.	Installing arrives in the next development step.
+GameOpenRepo	Repositório oficial	Official repository
+GameOpenDocs	Documentação oficial	Official documentation
+GameOnlyPort	Única forma de jogar com versão para Windows no catálogo.	The only way to play with a Windows version in the catalog.
+GameReasonMissing	O motivo da recomendação ainda não foi escrito.	The reason for this recommendation hasn't been written yet.
+TileGameFile	Arquivo do jogo	Game file
+TileDependencies	Dependências	Dependencies
+TileLotus	Integração Lotus	Lotus integration
+TileNotVerified	Não verificado	Not verified
+GameAbout	Sobre este port	About this port
+GameOtherWaysOne	Outras formas de jogar ({0} alternativa)	Other ways to play ({0} alternative)
+GameOtherWaysMany	Outras formas de jogar ({0} alternativas)	Other ways to play ({0} alternatives)
+AboutPortType	Tipo	Type
+AboutVersion	Versão mais recente conferida	Latest version checked
+AboutVersionPre	{0} (versão de teste)	{0} (test version)
+AboutLicense	Licença	License
+AboutLicenseUnknown	Não informada no repositório	Not stated in the repository
+AboutSetup	Como o arquivo do jogo é usado	How the game file is used
+AboutGameFile	Arquivo do jogo necessário	Game file needed
+AboutGameFileUnknown	Ainda não verificado	Not verified yet
+AboutAcceptedVersions	Versões aceitas	Accepted versions
+AboutReview	Revisão	Review
+AboutRepository	Repositório	Repository
+CatalogFilter	Filtrar por nome ou port	Filter by name or port
+CatalogNoMatchTitle	Nenhum jogo encontrado	No games found
+CatalogNoMatchMessage	Tente outro nome ou outra plataforma.	Try another name or platform.
+CatalogSummary	{0} jogos · {1} formas de jogar.	{0} games · {1} ways to play.
+CatalogWaitingReview	{0} aguardam revisão.	{0} waiting for review.
+CatalogSources	Fontes de catálogo	Catalog sources
+CatalogSourcesHint	Adicione catálogos de outras pessoas pelo link do GitHub. Eles seguem as mesmas regras do oficial: só links para repositórios oficiais e nunca arquivos de jogo.	Add other people's catalogs by their GitHub link. They follow the same rules as the official one: only links to official repositories and never game files.
+CatalogOfficial	Catálogo oficial do Lotus Ports	Lotus Ports official catalog
+CatalogOfficialInfo	Versão {0} · {1} jogos · {2} ports · incluído no app	Version {0} · {1} games · {2} ports · included in the app
+CatalogOfficialInvalid	O catálogo incluído no app não passou na validação. Os detalhes estão no log.	The catalog included in the app failed validation. Details are in the log.
+CatalogOfficialValidated	Validado	Validated
+SourceStateOk	OK	OK
+SourceStateWarning	Aviso	Warning
+SourceStateNotVerified	Não verificado	Not verified
+SourceActive	Ativa	On
+SourceInactive	Desativada	Off
+SourceTrusted	Confiável	Trusted
+SourceUntrusted	Não marcada como confiável	Not marked as trusted
+SourceUpdatedAt	Conferida em {0}	Checked on {0}
+SourceAdded	Fonte "{0}" adicionada. Os jogos dela aparecem com o selo Fonte externa.	Source "{0}" added. Its games show the External source badge.
+SourceAlreadyAdded	Essa fonte já está na lista.	This source is already in the list.
+SourceInvalidLink	Use um link do GitHub, como https://github.com/usuario/repositorio.	Use a GitHub link, such as https://github.com/user/repository.
+SourceNotFound	Não encontrei um catalog.json nesse repositório.	No catalog.json was found in that repository.
+SourceGameFilesRejected	Fonte recusada: ela tem entradas que apontam para arquivos de jogo. O Lotus Ports nunca usa fontes assim.	Source refused: it has entries pointing to game files. Lotus Ports never uses such sources.
+SourceRateLimitedUntil	O GitHub limitou as consultas por agora. Tente de novo depois das {0}.	GitHub limited requests for now. Try again after {0}.
+SourceRateLimited	O GitHub limitou as consultas por agora. Tente de novo mais tarde.	GitHub limited requests for now. Try again later.
+SourceNetworkError	Não foi possível acessar o GitHub agora. Confira a internet e tente de novo.	Couldn't reach GitHub right now. Check the internet and try again.
+SourceInvalid	A fonte não segue o formato do catálogo ({0} problemas). Ela não foi adicionada.	The source doesn't follow the catalog format ({0} problems). It was not added.
+SourceActions	Opções da fonte	Source options
+SourceLinkLabel	Link da fonte no GitHub	Source link on GitHub
+SourceAdd	Adicionar fonte	Add source
+SourceRefresh	Verificar atualização	Check for update
+SourceActivate	Ativar	Turn on
+SourceDeactivate	Desativar	Turn off
+SourceTrust	Marcar como confiável	Mark as trusted
+SourceUntrust	Desmarcar como confiável	Unmark as trusted
+SourceRemove	Remover fonte	Remove source
+SourceRemoveTitle	Remover esta fonte?	Remove this source?
+SourceRemoveMessage	Os jogos de "{0}" saem do catálogo. Jogos já instalados a partir dela não são desinstalados.	Games from "{0}" leave the catalog. Games already installed from it are not uninstalled.
+Cancel	Cancelar	Cancel
+UserPortAdd	Adicionar port por link do GitHub	Add port from a GitHub link
+UserPortExport	Exportar meus ports (JSON)	Export my ports (JSON)
+UserPortHint	Cole o link do repositório de um port que ainda não está no catálogo. O Lotus Ports lê as versões publicadas e sugere o arquivo para Windows.	Paste the repository link of a port that isn't in the catalog yet. Lotus Ports reads the published versions and suggests the Windows file.
+UserPortLink	Link do repositório	Repository link
+UserPortRead	Ler repositório	Read repository
+UserPortReading	Lendo o repositório…	Reading the repository…
+UserPortGameTitle	Nome do jogo	Game name
+UserPortExecutable	Programa que abre o jogo	Program that opens the game
+UserPortConfirm	Adicionar	Add
+UserPortFound	{0}: versão {1}, arquivo {2}.	{0}: version {1}, file {2}.
+UserPortPrerelease	É uma versão de teste.	It's a test version.
+UserPortProblemInvalidLink	Use o link de um repositório, como https://github.com/usuario/port.	Use a repository link, such as https://github.com/user/port.
+UserPortProblemNotFound	Repositório não encontrado.	Repository not found.
+UserPortProblemNoWindowsRelease	Não encontrei uma versão publicada com arquivo para Windows.	No published version with a Windows file was found.
+UserPortProblemRateLimited	O GitHub limitou as consultas por agora. Tente mais tarde.	GitHub limited requests for now. Try later.
+UserPortProblemNetworkError	Não foi possível acessar o GitHub agora.	Couldn't reach GitHub right now.
+UserPortInvalid	Não foi possível adicionar: {0}	Couldn't add it: {0}
+UserPortDescription	Port adicionado por você a partir do GitHub.	Port you added from GitHub.
+UserPortExported	Arquivo {0} salvo.	File {0} saved.
+SettingsCatalogSourcesOpen	Abrir fontes	Open sources
+SettingsShowInReview	Mostrar jogos em revisão	Show games in review
+SettingsShowInReviewHint	Mostra na Biblioteca e no Catálogo os jogos que o curador ainda não revisou, com o selo Em revisão.	Shows in the Library and Catalog the games the curator hasn't reviewed yet, with the In review badge.

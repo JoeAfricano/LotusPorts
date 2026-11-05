@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "castlevania-symphony-of-the-night",
+  "title": "Castlevania: Symphony of the Night",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "ação",
+    "aventura"
+  ],
+  "descriptionPtBr": "Alucard explora o castelo de Drácula num clássico de exploração e ação com elementos de RPG.",
+  "recommendedPortId": "symphony-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:castlevania-symphony-of-the-night",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

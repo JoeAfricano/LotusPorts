@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "bluewake",
+  "gameId": "zelda-wind-waker",
+  "title": "BlueWake",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "chrissotraidis",
+    "name": "bluewake"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "BlueWake/BlueWake.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Na primeira execução, escolha a imagem do disco (.iso ou .gcm).",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Disco de GameCube",
+      "kind": "disc-image",
+      "format": "gc-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/chrissotraidis/bluewake#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "%APPDATA%\\BlueWake",
+      "kind": "saves",
+      "location": "user"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/chrissotraidis/bluewake",
+    "docs": "https://github.com/chrissotraidis/bluewake#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.10.0",
+    "prerelease": false,
+    "assetName": "BlueWake-v0.10.0-windows-x64.zip",
+    "assetSize": 228756634,
+    "assetSha256": "c56325884ef6f3f4cc502dd6c129e16a6d66316082a546bb3a99476dcd668f66"
+  }
+}

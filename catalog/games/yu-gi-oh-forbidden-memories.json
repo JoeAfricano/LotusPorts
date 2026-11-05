@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "yu-gi-oh-forbidden-memories",
+  "title": "Yu-Gi-Oh! Forbidden Memories",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "cartas",
+    "estratégia"
+  ],
+  "descriptionPtBr": "Duelos de cartas no Egito antigo, com fusões de monstros e um longo modo história.",
+  "recommendedPortId": "yfm-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:yu-gi-oh-forbidden-memories",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

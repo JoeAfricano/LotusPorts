@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "golden-sun-the-lost-age",
+  "title": "Golden Sun: The Lost Age",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "A continuação de Golden Sun acompanha o outro lado da jornada, com Felix e seus companheiros.",
+  "recommendedPortId": "golden-sun-tla-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:golden-sun-the-lost-age",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

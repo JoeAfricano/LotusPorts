@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "banjo-tooie",
+  "title": "Banjo-Tooie",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "plataforma",
+    "aventura"
+  ],
+  "descriptionPtBr": "A continuação de Banjo-Kazooie: Gruntilda volta, e a dupla parte para mundos maiores e interligados.",
+  "recommendedPortId": "banjo-tooie-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:banjo-tooie",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sonic-the-hedgehog-2013",
+  "title": "Sonic the Hedgehog (2013)",
+  "originalPlatform": "MOBILE",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "A remasterização do primeiro Sonic feita no Retro Engine, com widescreen e extras.",
+  "recommendedPortId": "rsdkv4-sonic-1",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:sonic-the-hedgehog-2013",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

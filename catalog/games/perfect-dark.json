@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "perfect-dark",
+  "title": "Perfect Dark",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "tiro",
+    "ação"
+  ],
+  "descriptionPtBr": "A agente Joanna Dark investiga uma conspiração corporativa neste jogo de tiro em primeira pessoa.",
+  "recommendedPortId": "perfect-dark-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:perfect-dark",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

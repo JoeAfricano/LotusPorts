@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "the-simpsons-game",
+  "title": "The Simpsons Game",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "ação",
+    "plataforma"
+  ],
+  "descriptionPtBr": "A família Simpson descobre que está dentro de um videogame e satiriza a própria indústria.",
+  "recommendedPortId": "simpsons-game-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:the-simpsons-game",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

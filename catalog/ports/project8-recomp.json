@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "project8-recomp",
+  "gameId": "tony-hawks-project-8",
+  "title": "Project8Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "theokyr",
+    "name": "Project8Recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)windows.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Project8Recomp-v0.3.0-windows-x86_64/Project8Recomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Na primeira execução o jogo pede a imagem do disco (.iso).",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Disco de Xbox 360",
+      "kind": "disc-image",
+      "format": "x360-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/theokyr/Project8Recomp#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "saves/",
+      "kind": "saves",
+      "location": "install"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/theokyr/Project8Recomp",
+    "docs": "https://github.com/theokyr/Project8Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.3.0",
+    "prerelease": false,
+    "assetName": "Project8Recomp-v0.3.0-windows-x86_64.zip",
+    "assetSize": 21674894,
+    "assetSha256": "f255842b916a98c8188259fa3da5931bcea639b6c656e82d26f8b274b69be436"
+  }
+}

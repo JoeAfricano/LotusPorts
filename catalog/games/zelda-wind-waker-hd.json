@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zelda-wind-waker-hd",
+  "title": "The Legend of Zelda: The Wind Waker HD",
+  "originalPlatform": "WII_U",
+  "releaseYear": null,
+  "genre": [
+    "aventura",
+    "ação"
+  ],
+  "descriptionPtBr": "A versão em alta definição de The Wind Waker, com ajustes de jogabilidade feitos para o Wii U.",
+  "recommendedPortId": "wind-waker-hd-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:zelda-wind-waker-hd",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

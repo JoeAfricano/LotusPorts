@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "mystical-ninja-goemon",
+  "title": "Mystical Ninja Starring Goemon",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "aventura",
+    "ação"
+  ],
+  "descriptionPtBr": "Goemon e Ebisumaru viajam por um Japão feudal cheio de humor para deter uma trupe de vilões teatrais.",
+  "recommendedPortId": "goemon64-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:mystical-ninja-goemon",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

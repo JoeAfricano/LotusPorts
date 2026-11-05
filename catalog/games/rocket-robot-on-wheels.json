@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "rocket-robot-on-wheels",
+  "title": "Rocket: Robot on Wheels",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "plataforma",
+    "quebra-cabeça"
+  ],
+  "descriptionPtBr": "O robô Rocket resolve quebra-cabeças baseados em física para salvar um parque de diversões.",
+  "recommendedPortId": "rocket-r",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:rocket-robot-on-wheels",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

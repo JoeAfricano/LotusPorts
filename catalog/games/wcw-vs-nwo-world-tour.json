@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wcw-vs-nwo-world-tour",
+  "title": "WCW vs. nWo: World Tour",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "luta livre"
+  ],
+  "descriptionPtBr": "O primeiro jogo de luta livre da série no Nintendo 64, com as estrelas da WCW e da nWo.",
+  "recommendedPortId": "world-tour-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:wcw-vs-nwo-world-tour",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

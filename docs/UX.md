@@ -67,3 +67,21 @@ Os valores partem da tabela do prompt, ajustados para a paleta ameixa da arte. C
 - Todo texto vem do `.resw`, em pt-BR e en-US com as mesmas chaves (há um teste que verifica).
 - Animações são leves e só rodam enquanto há algo acontecendo. O hero é estático.
 - `AutomationProperties.Name` vai em todo controle interativo.
+
+## Fase 1: Biblioteca, Catálogo e Página do jogo
+
+- **Biblioteca:**
+  - hero, busca de jogos e ações e abas em pílula (Todos, Favoritos, Instalados e Não instalados, com contagem);
+  - chips de plataforma e lista de gênero;
+  - prateleiras Chegou!, Continuar jogando, Prontos para jogar, Para descobrir e Em breve; cada uma só aparece se tiver jogos;
+  - "Ainda em construção" só aparece em Em breve, e Chegou! nunca marca tudo como novo na primeira abertura.
+- **Cartão (`GameCard`):** capa tipográfica gerada (`GameCover`, cor de assinatura por plataforma, nunca capa oficial), selo de status em texto, selo Em revisão/Fonte externa/Adicionado por você, coração de favorito e linha "Plataforma · estado".
+- **Página do jogo:**
+  - capa, título e selos;
+  - port recomendado com o motivo;
+  - botão Instalar desativado, com "Em desenvolvimento";
+  - blocos Arquivo do jogo, Dependências e Lotus em "Não verificado";
+  - Sobre este port, só com fatos do catálogo (os hashes aparecem só no modo avançado);
+  - Outras formas de jogar, com a origem de cada port.
+- **Catálogo:** grade de todos os jogos com filtro, fontes de catálogo (oficial validado e importadas com estado OK/Aviso/Não verificado) e, no modo avançado, adicionar port por link e exportar.
+- **Tokens novos:** `Color.Platform.*`. **Estilos novos:** `Lotus.Pill` e `Lotus.CardButton`.

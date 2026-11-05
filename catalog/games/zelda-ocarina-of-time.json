@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zelda-ocarina-of-time",
+  "title": "The Legend of Zelda: Ocarina of Time",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "aventura",
+    "ação"
+  ],
+  "descriptionPtBr": "Link atravessa o tempo para impedir que Ganondorf domine Hyrule. Um dos jogos de aventura mais influentes de todos os tempos.",
+  "recommendedPortId": "ship-of-harkinian",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:zelda-ocarina-of-time",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

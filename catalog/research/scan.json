@@ -1,0 +1,4357 @@
+[
+  {
+    "repo": "Acranon/kf1-enhanced",
+    "fullName": "Acranon/kf1-enhanced",
+    "description": "King's Field (Japan, 1994) for Windows: English, widescreen, high frame rates, lighting, automap, quick saves and Lua mods. Built on sushi-shi's source port.",
+    "archived": false,
+    "fork": false,
+    "license": "CC0-1.0",
+    "stars": 7,
+    "homepage": "",
+    "pushedAt": "2026-10-01T02:02:42Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "v0.1.0-pre.3",
+      "name": "King's Field Enhanced v0.1.0 pre-release 3",
+      "publishedAt": "2026-10-01T02:02:42Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "KingsFieldEnhanced-v0.1.0-pre.3-windows.zip",
+          "size": 3511950,
+          "digest": "sha256:400bffc15e2f95d0f5770c9f898c0bbe23e2fdcfeeb98942b8b1d1c8844249ff"
+        }
+      ],
+      "zips": {
+        "KingsFieldEnhanced-v0.1.0-pre.3-windows.zip": {
+          "entryCount": 19,
+          "executables": [
+            "KingsFieldEnhanced-v0.1.0-pre.3-windows/kings-field.exe"
+          ],
+          "topLevel": [
+            "KingsFieldEnhanced-v0.1.0-pre.3-windows"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Everything the game writes goes to `%APPDATA%\\KingsField\\SLPS00017`:",
+      "| `settings.json` | Settings, including each mod's options |"
+    ],
+    "readmeSetupLines": [
+      "your own copy of the disc.",
+      "- **The original Japanese disc.** On the first launch the game offers to add",
+      "2. Run `kings-field.exe`. On the first launch it asks for your disc image and",
+      "- Instead of picking the image, you can drop your `.cue` (or `.iso`) onto",
+      "`kings-field.exe`, or put it in the same folder before the first launch."
+    ]
+  },
+  {
+    "repo": "alondero/automobililamborghini-recomp",
+    "fullName": "alondero/automobililamborghini-recomp",
+    "description": "Static Recompilation of Automobili Lamborghini for the N64",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 48,
+    "homepage": "",
+    "pushedAt": "2026-11-01T15:40:43Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v0.10.3",
+      "name": "Automobili Lamborghini Recompiled v0.10.3",
+      "publishedAt": "2026-10-30T03:26:17Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "lamborghini-recomp-windows-x64.zip",
+          "size": 36420367,
+          "digest": "sha256:53c1eda251dfbda4564defc2008137ab8ca9f97bb0edbdc9d9bf0f263c1071f5"
+        }
+      ],
+      "zips": {
+        "lamborghini-recomp-windows-x64.zip": {
+          "entryCount": 31,
+          "executables": [
+            "lamborghini_modern.exe"
+          ],
+          "topLevel": [
+            "assets",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "freetype.dll",
+            "lamborghini_modern.exe",
+            "lamborghini.syms.toml",
+            "SDL2.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "%LOCALAPPDATA%/LamborghiniRecomp",
+      "or an empty portable.txt file."
+    ],
+    "readmeSetupLines": [
+      "3. Add your own legal copy of the North American USA cartridge dump. The"
+    ]
+  },
+  {
+    "repo": "arcanite24/pinyon-shift",
+    "fullName": "arcanite24/pinyon-shift",
+    "description": "A playable preview of Forza Horizon static recompilation",
+    "archived": false,
+    "fork": false,
+    "license": "BSD-3-Clause",
+    "stars": 1005,
+    "homepage": "https://arcanite24.github.io/pinyon-shift/",
+    "pushedAt": "2026-11-05T22:15:24Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v0.8.1",
+      "name": "Pinyon Shift 0.8.1",
+      "publishedAt": "2026-11-05T02:48:39Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "host-objects-0.8.1-windows-x64-base.zip",
+          "size": 3406431,
+          "digest": "sha256:738ffe6fb5b3234dcd09cfecb06d21d00e4642085315d58f695904569726036c"
+        },
+        {
+          "name": "host-objects-0.8.1-windows-x64-v4.zip",
+          "size": 3353632,
+          "digest": "sha256:1461ebead06a024a33374dedf3c143c3c7507182e4e1ac181bf41f1f46cf9165"
+        },
+        {
+          "name": "llvm-20.1.8-pinyon1-windows-x64.zip",
+          "size": 89394216,
+          "digest": "sha256:241d704b67d5a5d09705bdb49be474cfb45fed1a827eae684b45a1a2b6e7a895"
+        },
+        {
+          "name": "shiftglue-kit-101ad468f139-windows-x64.zip",
+          "size": 23420708,
+          "digest": "sha256:c92933d968033f07a854bae84fb752b3c1011b65c57890d22e465b81fb55fb4d"
+        }
+      ],
+      "zips": {
+        "host-objects-0.8.1-windows-x64-base.zip": {
+          "entryCount": 69,
+          "executables": [],
+          "topLevel": [
+            "host-objects-0.8.1-windows-x64-base"
+          ]
+        },
+        "host-objects-0.8.1-windows-x64-v4.zip": {
+          "entryCount": 69,
+          "executables": [],
+          "topLevel": [
+            "host-objects-0.8.1-windows-x64-v4"
+          ]
+        },
+        "llvm-20.1.8-pinyon1-windows-x64.zip": {
+          "entryCount": 320,
+          "executables": [
+            "llvm-20/bin/clang.exe",
+            "llvm-20/bin/lld.exe",
+            "llvm-20/bin/llvm-ar.exe",
+            "llvm-20/bin/llvm-mt.exe",
+            "llvm-20/bin/llvm-nm.exe",
+            "llvm-20/bin/llvm-objcopy.exe",
+            "llvm-20/bin/llvm-profdata.exe",
+            "llvm-20/bin/llvm-rc.exe",
+            "llvm-20/bin/llvm-symbolizer.exe"
+          ],
+          "topLevel": [
+            "llvm-20"
+          ]
+        },
+        "shiftglue-kit-101ad468f139-windows-x64.zip": {
+          "entryCount": 1329,
+          "executables": [
+            "shiftglue-kit/bin/rexglue.exe"
+          ],
+          "topLevel": [
+            "shiftglue-kit"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "cover the common setups. USB and command-line installs, drivers and saves are"
+    ],
+    "readmeSetupLines": [
+      "3. Drop the ISO you dumped from your own disc onto the launcher, or choose it",
+      "with **Choose ISO**. An unmodified [extracted folder](docs/EXTRACTED_GAME_INPUT.md)"
+    ]
+  },
+  {
+    "repo": "BanjoRecomp/BanjoRecomp",
+    "fullName": "BanjoRecomp/BanjoRecomp",
+    "description": "PC Port of Banjo-Kazooie made using N64: Recompiled (Windows/Linux/Mac) ",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 2119,
+    "homepage": "",
+    "pushedAt": "2026-09-25T18:57:08Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "v1.0.2",
+      "name": "v1.0.2",
+      "publishedAt": "2026-07-31T19:43:17Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "BanjoRecompiled-v1.0.2-Windows.zip",
+          "size": 18669475,
+          "digest": "sha256:fc34aad48e06681878bedd13b88d5332a2f21f6a98cafc931c94d54892a4dd92"
+        }
+      ],
+      "zips": {
+        "BanjoRecompiled-v1.0.2-Windows.zip": {
+          "entryCount": 44,
+          "executables": [
+            "BanjoRecompiled.exe"
+          ],
+          "topLevel": [
+            "BanjoRecompiled.exe",
+            "dxil.dll",
+            "dxcompiler.dll",
+            "SDL2.dll",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\BanjoRecompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable."
+    ],
+    "readmeSetupLines": [
+      "Simply provide your copy of the North American 1.0 version of the game in the main menu and start playing! This project will automatically load assets from the provided copy, so there is no need to go through a separate extraction step or build the game yourse…",
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "BlackLabelHQ/SymphonyRecomp",
+    "fullName": "BlackLabelHQ/SymphonyRecomp",
+    "description": "Recompilation project for Castlevania: Symphony of the Night",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 1074,
+    "homepage": "",
+    "pushedAt": "2026-11-03T02:45:56Z",
+    "releaseCount": 13,
+    "release": {
+      "tag": "v1.1.2p",
+      "name": "v1.1.2p",
+      "publishedAt": "2026-11-03T02:45:56Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "SymphonyRecomp-v1.1.2p-windows-x64.zip",
+          "size": 57663065,
+          "digest": "sha256:8d4781827a3d5bae0ace95314f0871ee9152c30c7a9d2491f4c0a4b203784585"
+        }
+      ],
+      "zips": {
+        "SymphonyRecomp-v1.1.2p-windows-x64.zip": {
+          "entryCount": 56,
+          "executables": [
+            "sotn.exe"
+          ],
+          "topLevel": [
+            "Silk.NET.Input.Common.dll",
+            "Mono.Cecil.Rocks.dll",
+            "Mono.Cecil.dll",
+            "Twizzle.ImGui-Bundle.NET.dll",
+            "Microsoft.DotNet.PlatformAbstractions.dll",
+            "mods",
+            "Microsoft.CodeAnalysis.CSharp.dll",
+            "MonoMod.ILHelpers.dll",
+            "nfd.dll",
+            "RecompOne.Runtime.dll",
+            "NativeFileDialogNET.dll",
+            "Silk.NET.GLFW.dll",
+            "Silk.NET.Maths.dll",
+            "Silk.NET.Windowing.Common.dll",
+            "soft_oal.dll",
+            "StbImageSharp.dll",
+            "Microsoft.Extensions.DependencyModel.dll",
+            "MonoMod.Backports.dll",
+            "sotn.runtimeconfig.json",
+            "MonoMod.Iced.dll",
+            "SDL2.dll",
+            "Silk.NET.OpenGL.dll",
+            "NVorbis.dll",
+            "Silk.NET.Input.Glfw.dll",
+            "Silk.NET.Windowing.Glfw.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Clone repo. Add legally owned game files to disc. Run windows_run.bat or windows_initial_build.bat or manually run RecompOne against sotn.json, this will produce the game code, you can then compile it yourself, dev builds do not auto-update"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "CameronRedmore/Crash-Team-Racing-Turbocharged",
+    "fullName": "CameronRedmore/Crash-Team-Racing-Turbocharged",
+    "description": "PC-focused fork of the CTR sourceport (High Octane) with a native 3D renderer, widescreen, up to 240 FPS, and quality-of-life options.",
+    "archived": false,
+    "fork": true,
+    "license": "GPL-3.0",
+    "stars": 189,
+    "homepage": "",
+    "pushedAt": "2026-10-06T19:44:08Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Use **Options** to configure controls, graphics, and your preferred frame rate. F11 switches between windowed and borderless fullscreen. The game creates `config.ini` for settings and `memcards/` for saves; keep the installation folder writable and back up you…",
+      "**Update checks:** on first launch the game asks whether to check for new builds. If you agree, each launch asks [ctr.cmzi.uk](https://ctr.cmzi.uk) whether a newer build exists and, if so, offers to open the download page. Nothing is downloaded or installed au…",
+      "- Options > Skip Mask Hints skips automatic Aku Aku / Uka Uka hint cutscenes in Adventure Mode while still unlocking each triggered hint in the Hints menu. Off by default; the setting is saved as `skip_mask_hints` in `config.ini`.",
+      "SDL and other dependencies are vendored in `externals/`. Use the presets in `CMakePresets.json`:"
+    ],
+    "readmeSetupLines": [
+      "**Linux AppImage:** make the downloaded file executable (`chmod +x ctr-turbocharged-<version>-linux-x86.AppImage`) and launch it. The first launch creates the game data folder at `~/.local/share/ctr-turbocharged` (or `$XDG_DATA_HOME/ctr-turbocharged` if config…",
+      "First-time setup offers an **optional font step** after disc import, or when you first launch with the disc already installed. If you already have Crash-a-Like, choose **Choose Crash-a-Like** and select its extracted TTF. Setup checks the TrueType header and r…",
+      "- **Linux AppImage:** launch the executable `.AppImage` file; its setup popup can import the disc image on first launch.",
+      "**Update checks:** on first launch the game asks whether to check for new builds. If you agree, each launch asks [ctr.cmzi.uk](https://ctr.cmzi.uk) whether a newer build exists and, if so, offers to open the download page. Nothing is downloaded or installed au…",
+      "- Place your PAL Crash Team Racing `.bin` dump in the same folder as the script.",
+      "- Place your NTSC-U Crash Team Racing `.bin` dump in the same folder as the script."
+    ]
+  },
+  {
+    "repo": "cdlewis/snowboardkids2-recomp",
+    "fullName": "cdlewis/snowboardkids2-recomp",
+    "description": "Snowboard Kids 2 for PC (Windows/Linux/MacOS)",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 114,
+    "homepage": "",
+    "pushedAt": "2026-10-25T02:54:43Z",
+    "releaseCount": 5,
+    "release": {
+      "tag": "v2.0.2",
+      "name": "Snowboard Kids 2: Recompiled v2.0.2",
+      "publishedAt": "2026-10-17T21:17:34Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "SnowboardKids2Recompiled-Windows.zip",
+          "size": 20071009,
+          "digest": "sha256:51b0c78e758d334eeab2f6aab0eec94daf75d30f7a430375d8bea5f5c26e2414"
+        }
+      ],
+      "zips": {
+        "SnowboardKids2Recompiled-Windows.zip": {
+          "entryCount": 33,
+          "executables": [
+            "SnowboardKids2Recompiled.exe"
+          ],
+          "topLevel": [
+            "dxil.dll",
+            "assets",
+            "SDL2.dll",
+            "recompcontrollerdb.txt",
+            "SnowboardKids2Recompiled.exe",
+            "dxcompiler.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\SnowboardKids2Recompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable."
+    ],
+    "readmeSetupLines": [
+      "Simply provide your copy of the North American version of the game in the main menu and start playing! This project will automatically load assets from the provided copy, so there is no need to go through a separate extraction step or build the game yourself. …",
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "Cellenseres/SSSV_Recomp",
+    "fullName": "Cellenseres/SSSV_Recomp",
+    "description": "Space Station Silicon Valley Recompilation Project",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 104,
+    "homepage": null,
+    "pushedAt": "2026-04-26T09:36:28Z",
+    "releaseCount": 6,
+    "release": {
+      "tag": "v0.2.0",
+      "name": "Release Version 0.2.0",
+      "publishedAt": "2026-03-13T13:03:41Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "SSSVRecompiled_v0.2.0_Windows.zip",
+          "size": 46548721,
+          "digest": "sha256:c5111d552c8440746a846d634d36c1249e250c0b4e06912aeb6248c7001d35f2"
+        }
+      ],
+      "zips": {
+        "SSSVRecompiled_v0.2.0_Windows.zip": {
+          "entryCount": 42,
+          "executables": [
+            "SSSVRecompiled.exe"
+          ],
+          "topLevel": [
+            "dxil.dll",
+            "SSSVRecompiled.exe",
+            "dxcompiler.dll",
+            "SDL2.dll",
+            "RecompiledFuncs.lib",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\SSSVRecompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable."
+    ],
+    "readmeSetupLines": [
+      "Simply provide your copy of the North American 1.0 version of the game in the main menu and start playing! This project will automatically load assets from the provided copy, so there is no need to go through a separate extraction step or build the game yourse…",
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "chrissotraidis/bluewake",
+    "fullName": "chrissotraidis/bluewake",
+    "description": "The Legend of Zelda: The Wind Waker Recompiled. Native for MacOS, iOS, Windows, Linux, and Android.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 560,
+    "homepage": "",
+    "pushedAt": "2026-11-02T02:14:22Z",
+    "releaseCount": 8,
+    "release": {
+      "tag": "v0.10.0",
+      "name": "BlueWake 0.10.0",
+      "publishedAt": "2026-11-01T01:19:50Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "BlueWake-v0.10.0-windows-x64.zip",
+          "size": 228756634,
+          "digest": "sha256:c56325884ef6f3f4cc502dd6c129e16a6d66316082a546bb3a99476dcd668f66"
+        }
+      ],
+      "zips": {
+        "BlueWake-v0.10.0-windows-x64.zip": {
+          "entryCount": 35,
+          "executables": [
+            "BlueWake/BlueWake.exe"
+          ],
+          "topLevel": [
+            "BlueWake"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- **Saves carry over:** both use `%APPDATA%\\BlueWake`. Back that folder up before switching.",
+      "This writes `build/macos/packaged/BlueWake.app`, which you can move anywhere. Saves are kept in",
+      "- Saves are in **GZLE01.card**: in Files under **On My iPhone/iPad › BlueWake › BlueWake**,",
+      "**`%APPDATA%\\BlueWake`** on Windows, or **`~/.local/share/BlueWake`** on Linux. Windows and Linux also have",
+      "in the folder with your saves (`%APPDATA%\\BlueWake` on Windows; `~/Library/Application Support/BlueWake` on a",
+      "BlueWake, work on a copy of your card, then put the result at `%APPDATA%\\BlueWake\\GZLE01.card`.",
+      "Windows you can also use **Open the texture folder** (`%APPDATA%\\BlueWake\\Load\\Textures\\GZLE01`)",
+      "2. Open `%APPDATA%\\BlueWake\\logs` and attach the newest `session-*.log` (and any `crash-*.log`) to",
+      "Don't delete `%APPDATA%\\BlueWake` to troubleshoot: it holds your saves and settings."
+    ],
+    "readmeSetupLines": [
+      "| **Windows** 10 or 11 | [Download the ready-made build](#windows): nothing to build, just choose your disc image |",
+      "3. On first launch, choose your disc image (`.iso` or `.gcm`). A Dolphin `.rvz` must first be",
+      "3. On first launch, **BlueWake Setup** asks for your disc image (`.iso` or `.gcm`). `--setup` opens it again later.",
+      "choose BlueWake and pick your disc. It takes the app from the",
+      "3. **Copy the same disc image to your device:** in Finder on a Mac, or the Apple Devices app on",
+      "first launch."
+    ]
+  },
+  {
+    "repo": "Comfubar/KnowYourRoleRecomp",
+    "fullName": "Comfubar/KnowYourRoleRecomp",
+    "description": "Native Windows port of the 2000 PlayStation wrestling game (NTSC-U), built on your PC from your own disc with the RecompOne static recompiler. No game data included.",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 8,
+    "homepage": "https://github.com/Comfubar/KnowYourRoleRecomp/releases/latest",
+    "pushedAt": "2026-10-01T14:00:49Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "v0.2.0",
+      "name": "Know Your Role Recomp v0.2.0",
+      "publishedAt": "2026-09-30T19:53:54Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "KnowYourRole-win-x64.zip",
+          "size": 127898385,
+          "digest": "sha256:5771e291f13c621537301922bb63fbb8e3b9645ec30a7c3bc8359fe978da4e2a"
+        }
+      ],
+      "zips": {
+        "KnowYourRole-win-x64.zip": {
+          "entryCount": 279,
+          "executables": [
+            "KnowYourRole-v0.2.0-win-x64/KnowYourRole.exe",
+            "KnowYourRole-v0.2.0-win-x64/KnowYourRole-files/runtime/createdump.exe",
+            "KnowYourRole-v0.2.0-win-x64/KnowYourRole-files/runtime/KnowYourRole.Game.exe"
+          ],
+          "topLevel": [
+            "KnowYourRole-v0.2.0-win-x64"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "(memory cards in slots 1 and 2), `settings.json`, `interface.ini`, `gamecontrollerdb.user.txt`, and `logs\\`. To back",
+      "dotnet run -c Release --no-build -- ../../config/KnowYourRole.json"
+    ],
+    "readmeSetupLines": [
+      "- **First run**: setup asks for the disc image, checks the disc and this PC, builds the game (with a progress bar)",
+      "**Legal**: you must own the game and use your own, legally obtained copy of the disc. This project contains **no",
+      "up, copy that `user` folder. Launcher > Game files > \"Open the saves folder\" opens it.",
+      "Put your disc image at `disc\\KnowYourRole.cue` (+ `.bin`), then:",
+      "**Running it**: start `bin\\Debug\\net10.0\\KnowYourRole.Game.exe` (or `dotnet run --no-build`). The first start shows a",
+      "non-Steam game (no Proton / compatibility tool). On first start pick your `.cue` in the game's disc picker, or",
+      "point it at the disc beforehand:"
+    ]
+  },
+  {
+    "repo": "CTR-tools/ctr-native",
+    "fullName": "CTR-tools/ctr-native",
+    "description": "A Crash Team Racing Decompilation Project",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 434,
+    "homepage": "https://discord.gg/WHkuh2n",
+    "pushedAt": "2026-11-01T09:40:16Z",
+    "releaseCount": 9,
+    "release": {
+      "tag": "beta-7.1",
+      "name": "CTR Native Beta 7.1 (Hotfix)",
+      "publishedAt": "2026-07-07T08:11:52Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "ctr-native-beta-7_1-windows-x86.zip",
+          "size": 8746455,
+          "digest": "sha256:af0d23c7b41925917b5eaf6fc292bd172368efc1c68918755de527a664049dad"
+        },
+        {
+          "name": "ctr-native-beta-7_1-windows-x86.zip.sha256",
+          "size": 103,
+          "digest": "sha256:0dfecdcf1b30bc5fa5059df1ca03cf12596b3ca10ac626a3065462fe128f0be4"
+        }
+      ],
+      "zips": {
+        "ctr-native-beta-7_1-windows-x86.zip": {
+          "entryCount": 3,
+          "executables": [
+            "ctr-native-beta-7_1-windows-x86/ctr_native.exe"
+          ],
+          "topLevel": [
+            "ctr-native-beta-7_1-windows-x86"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "CMakePresets.json   Shared CLion/command-line CMake configurations"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "DarioSamo/sm64rt",
+    "fullName": "DarioSamo/sm64rt",
+    "description": "Fork of https://github.com/sm64pc/sm64ex with raytracing support.",
+    "archived": false,
+    "fork": true,
+    "license": null,
+    "stars": 384,
+    "homepage": "",
+    "pushedAt": "2024-02-20T03:15:11Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "DinosaurPlanetRecomp/dino-recomp",
+    "fullName": "DinosaurPlanetRecomp/dino-recomp",
+    "description": "A static recompilation/native port of Dinosaur Planet (Dec 2000 prototype).",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 334,
+    "homepage": "",
+    "pushedAt": "2026-11-04T21:01:59Z",
+    "releaseCount": 9,
+    "release": {
+      "tag": "v0.3.0",
+      "name": "v0.3.0",
+      "publishedAt": "2026-05-31T00:23:46Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "DinosaurPlanetRecompiled-v0.3.0-Windows-x64.zip",
+          "size": 20998063,
+          "digest": "sha256:4a1ea0a9d41516f33a8d90aaa50a221d3a5be749b1864c8e1225207d663472a8"
+        }
+      ],
+      "zips": {
+        "DinosaurPlanetRecompiled-v0.3.0-Windows-x64.zip": {
+          "entryCount": 46,
+          "executables": [
+            "DinosaurPlanetRecompiled.exe"
+          ],
+          "topLevel": [
+            "DinosaurPlanetRecompiled.exe",
+            "dxil.dll",
+            "dxcompiler.dll",
+            "SDL2.dll",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\DinoPlanetRecompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable.",
+      "- Windows: `%LOCALAPPDATA%\\DinoPlanetRecompiled\\crash.log`",
+      "- Windows: `%LOCALAPPDATA%\\DinoPlanetRecompiled\\mods`"
+    ],
+    "readmeSetupLines": [
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "djyt/cannonball",
+    "fullName": "djyt/cannonball",
+    "description": "Cannonball: An Enhanced OutRun Engine",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 892,
+    "homepage": "http://reassembler.blogspot.com",
+    "pushedAt": "2023-12-26T05:20:49Z",
+    "releaseCount": 4,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "* Copy the OutRun revision B romset to the roms subdirectory."
+    ]
+  },
+  {
+    "repo": "doukutsu-rs/doukutsu-rs",
+    "fullName": "doukutsu-rs/doukutsu-rs",
+    "description": "A faithful and open-source remake of Cave Story's engine written in Rust",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 1324,
+    "homepage": "https://doukutsu.rs",
+    "pushedAt": "2026-10-31T18:11:17Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "1.0.0",
+      "name": "",
+      "publishedAt": "2026-06-03T21:48:02Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "doukutsu-rs_windows_1.0.0.i686.exe",
+          "size": 7437824,
+          "digest": "sha256:0f326f8ed2e755286a265202a8b8adf880929daac7751d87a24d044568c2e520"
+        },
+        {
+          "name": "doukutsu-rs_windows_1.0.0.x86_64.exe",
+          "size": 8534016,
+          "digest": "sha256:8cbe97195f53618ba34a6da34e77f52c4d135eeaadc6f0753f467b879e9b04f6"
+        }
+      ],
+      "zips": {}
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "> Interchanging the save files may result in spawning in wrong locations, softlocks, graphical glitches, or other issues.",
+      "To change, use the control customization menu or edit `doukutsu-rs\\data\\settings.json` within your user directory."
+    ],
+    "readmeSetupLines": [
+      "4. Copy your game data files to the opened folder.",
+      "10. Copy your game data files to the opened folder.",
+      "You can put your own data files in `/switch/doukutsu-rs/data` directory on SD Card, which will be overlayed over RomFS if"
+    ]
+  },
+  {
+    "repo": "enderandrew/sm_rewrite",
+    "fullName": "enderandrew/sm_rewrite",
+    "description": "Super Metroid emscripten port",
+    "archived": false,
+    "fork": true,
+    "license": "NOASSERTION",
+    "stars": 6,
+    "homepage": null,
+    "pushedAt": "2024-03-14T14:40:29Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "Eukaryot/sonic3air",
+    "fullName": "Eukaryot/sonic3air",
+    "description": "Source and data to build Sonic 3 A.I.R. (Angel Island Revisited) and the Oxygen Engine",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 680,
+    "homepage": "",
+    "pushedAt": "2026-10-24T12:21:31Z",
+    "releaseCount": 15,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "fgsfdsfgs/perfect_dark",
+    "fullName": "perfect-dark-pc-port/perfect_dark",
+    "description": "work in progress port of n64decomp/perfect_dark to modern platforms",
+    "archived": false,
+    "fork": true,
+    "license": "MIT",
+    "stars": 2103,
+    "homepage": "",
+    "pushedAt": "2026-10-27T20:20:09Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "ci-dev-build",
+      "name": "Latest automatic build (port branch)",
+      "publishedAt": "2024-05-14T09:41:23Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "pd-i686-windows.zip",
+          "size": 25147137,
+          "digest": "sha256:685eb52755e4f71269a1af7ccc76f5f5921c211a4624572e3e0b91bd0afe4ab7"
+        },
+        {
+          "name": "pd-x86_64-windows.zip",
+          "size": 25739820,
+          "digest": "sha256:56e6a2f8bad36bd90f0d396c1d525b953adcc1a20157f594b90a7530d58258d3"
+        }
+      ],
+      "zips": {
+        "pd-i686-windows.zip": {
+          "entryCount": 10,
+          "executables": [
+            "pd-i686-windows/pd.pal.i686.exe",
+            "pd-i686-windows/pd.i686.exe",
+            "pd-i686-windows/pd.jpn.i686.exe"
+          ],
+          "topLevel": [
+            "pd-i686-windows"
+          ]
+        },
+        "pd-x86_64-windows.zip": {
+          "entryCount": 10,
+          "executables": [
+            "pd-x86_64-windows/pd.pal.x86_64.exe",
+            "pd-x86_64-windows/pd.jpn.x86_64.exe",
+            "pd-x86_64-windows/pd.x86_64.exe"
+          ],
+          "topLevel": [
+            "pd-x86_64-windows"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "* `ntsc-final`/`US V1.1`/`US Rev 1` (md5 `e03b088b6ac9e0080440efed07c1e40f`).",
+      "* `ntsc-1.0`/`US V1.0` (md5 `7f4171b0c8d17815be37913f535e4e93`).",
+      "* `jpn-final` (md5 `538d2b75945eae069b29c46193e74790`).",
+      "* `pal-final` (md5 `d9b5cd305d228424891ce38e71bc9213`)."
+    ],
+    "readmePathLines": [
+      "Controls can be rebound in `pd.ini`. Default control scheme is as follows:"
+    ],
+    "readmeSetupLines": [
+      "2. Put your Perfect Dark NTSC ROM named `pd.ntsc-final.z64` into it.",
+      "If you want to use a PAL or JPN ROM instead, put them into the `data` directory and run the appropriate executable:",
+      "Optionally, you can also put your Perfect Dark for GameBoy Color ROM named `pd.gbc` in the `data` directory if you want to emulate having the Nintendo 64's Transfer Pak and unlock some cheats automatically.",
+      "Take the folder for the region you want and put it into the `/switch` folder on your SD card, then put your ROM into the `data` folder inside of the folder you extracted as described above.",
+      "You will need to provide a `jpn-final` or `pal-final` ROM to run executables built for those regions, named `pd.jpn-final.z64` or `pd.pal-final.z64`."
+    ]
+  },
+  {
+    "repo": "flyngmt/ACGC-PC-Port",
+    "fullName": "flyngmt/Nookery",
+    "description": "Unofficial Windows/Linux/macOS/Android/iOS Port of Animal Crossing Gamecube",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 1552,
+    "homepage": "",
+    "pushedAt": "2026-11-04T20:30:00Z",
+    "releaseCount": 10,
+    "release": {
+      "tag": "v1.0.0",
+      "name": "v1.0.0",
+      "publishedAt": "2026-11-02T19:31:17Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Nookery-v1.0.0-windows-x86_64.zip",
+          "size": 32404132,
+          "digest": "sha256:542fe6fc9a216b209fea5a75314d7bc453ce9d91d32a098ebab06a52455d9d68"
+        }
+      ],
+      "zips": {
+        "Nookery-v1.0.0-windows-x86_64.zip": {
+          "entryCount": 50,
+          "executables": [
+            "Nookery.exe"
+          ],
+          "topLevel": [
+            "Nookery.exe",
+            "SDL3.dll",
+            "d3dcompiler_47.dll",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "initial_pipeline_cache.db",
+            "libpng16.dll",
+            "msvcp140.dll",
+            "msvcp140_atomic_wait.dll",
+            "nes_roms",
+            "nod.dll",
+            "res",
+            "save",
+            "texture_pack",
+            "vcruntime140.dll",
+            "vcruntime140_1.dll",
+            "webgpu_dawn.dll",
+            "zlib1.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "The data folder holds saves, `config.json`, `input.json`, `texture_pack/`,"
+    ],
+    "readmeSetupLines": [
+      "- Run Nookery. You'll need to select your legally obtained Animal Crossing copy to play the game."
+    ]
+  },
+  {
+    "repo": "GenryTheFox0/Project-2099",
+    "fullName": "GenryTheFox0/Project-2099",
+    "description": "Unofficial Windows recompilation of Spider-Man: Edge of Time with PC controls, settings, localization, achievements and mod support.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 87,
+    "homepage": "https://t.me/teamgenrythefox",
+    "pushedAt": "2026-10-21T15:21:20Z",
+    "releaseCount": 8,
+    "release": {
+      "tag": "v2.0.0-beta.5",
+      "name": "Project 2099 — V2 BETA 5",
+      "publishedAt": "2026-10-13T13:25:15Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Project2099-Beta5-Setup.exe",
+          "size": 4613632,
+          "digest": "sha256:04fa13e7a538a7425ac7b3604432ec2f71f5db31cd372103a8230627a45660cb"
+        }
+      ],
+      "zips": {}
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "V2 attacks the two complaints that mattered most inside the runtime itself, not in a config file:"
+    ],
+    "readmeSetupLines": [
+      "The idea is simple: **provide your copy → install → launch → play.**",
+      "You provide a compatible Xbox 360 copy; the installer does the ugly work and builds the PC Edition. No pile of BAT files. No twenty-page setup ritual.",
+      "- **A new installer.** One setup screen instead of a nine-step march, drag and drop for an ISO/ZIP/folder, an offline path that needs no GitHub at all, a free-space check before the install starts and a failure page that says what to do next.",
+      "The input can be an XDVDFS ISO, a ZIP containing the game root, a ZIP containing a GOD image (the installer unpacks it itself onto a drive with room and checks every fragment's length), an extracted folder containing `Default.xex` and `Data`, an outer folder c…"
+    ]
+  },
+  {
+    "repo": "HalmyLyseas/VandalHearts-PcPort",
+    "fullName": "HalmyLyseas/VandalHearts-PcPort",
+    "description": "Native PC port of the PlayStation game Vandal Hearts, built on a byte-exact matching decompilation. Windows & Linux; bring your own disc.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 58,
+    "homepage": null,
+    "pushedAt": "2026-08-31T01:19:30Z",
+    "releaseCount": 14,
+    "release": {
+      "tag": "v2.1.0",
+      "name": "v2.1.0 - Vandal Hearts PC Port ",
+      "publishedAt": "2026-08-31T01:08:42Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "VandalHearts-v2.1.0-windows-x64.zip",
+          "size": 5771542,
+          "digest": "sha256:365c7515e59f705ccb5942ab77270f0f9b98dbd3716e492d95266c226355868d"
+        }
+      ],
+      "zips": {
+        "VandalHearts-v2.1.0-windows-x64.zip": {
+          "entryCount": 10,
+          "executables": [
+            "vandalhearts_pc.exe"
+          ],
+          "topLevel": [
+            "vandalhearts_pc.exe",
+            "OpenAL32.dll",
+            "SDL2.dll",
+            "libgcc_s_seh-1.dll",
+            "libsharpyuv.dll",
+            "libssp-0.dll",
+            "libstdc++-6.dll",
+            "libwebp.dll",
+            "libwinpthread-1.dll",
+            "vandalhearts.ini"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "`SLUS_004.47` (`md5 596bb082a2de5f1fe977dd3d7e160b03`) and, since 2.0.0, the Japanese",
+      "`SLPM_860.07` (`md5 53849277b08184863bd45f10925995a6`) from its own decompiled tree. This",
+      "| `SLUS_004.47` (US base executable) | `596bb082a2de5f1fe977dd3d7e160b03` |",
+      "| `SLPM_860.07` (Japanese base executable) | `53849277b08184863bd45f10925995a6` |",
+      "| `ASPSX.EXE` (ASPSX v2.21, PSYQ v3.3 / DTL-S2190) | `e3ae8aea2623b916f89384bf70f55487` |",
+      "| `LIB34.ZIP` | `d25fd757e944a05369e8fb003a007dd2` |"
+    ],
+    "readmePathLines": [
+      "| **Windows** | `.zip` — `vandalhearts_pc.exe`, 8 runtime DLLs, `vandalhearts.ini` | Windows 10/11 |",
+      "| **Linux** | `VandalHearts-x86_64.AppImage` + `vandalhearts.ini` | glibc ≥ 2.34 (Debian 12+, Ubuntu 22.04+, Fedora 35+, RHEL 9, Arch); FUSE2 |",
+      "(**SELECT + START**) and `vandalhearts.ini`, and saves are plain files in `saves/` (per region —",
+      "US and Japanese saves are separate). Details: the Player Manual,"
+    ],
+    "readmeSetupLines": [
+      "and Japan (`SLPM-86007`) releases** — drop in whichever disc you own and the region is",
+      "> your own legally-owned copy of the game.** See [DISCLAIMER](DISCLAIMER) and *Legal* below.",
+      "auto-detected (put any or all of them in `game/`); with several discs installed, the",
+      "Put your disc image (any supported region, or several) in a `game/` folder next to the executable"
+    ]
+  },
+  {
+    "repo": "HarbourMasters/2ship2harkinian",
+    "fullName": "2ship2harkinian/2ship2harkinian",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": "CC0-1.0",
+    "stars": 2427,
+    "homepage": "",
+    "pushedAt": "2026-11-03T00:30:25Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "5.0.1",
+      "name": "Battler Bravo 5.0.1",
+      "publishedAt": "2026-08-25T17:54:43Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "2Ship-Battler-Bravo-Win64.zip",
+          "size": 44976935,
+          "digest": "sha256:a46664a01623ad5d7cc82d29a9889699f6a98c9501c7a959a089f34380c1f078"
+        }
+      ],
+      "zips": {
+        "2Ship-Battler-Bravo-Win64.zip": {
+          "entryCount": 1335,
+          "executables": [
+            "2ship.exe"
+          ],
+          "topLevel": [
+            "2ship.exe",
+            "assets",
+            "2ship.o2r",
+            "debug",
+            "gamecontrollerdb.txt",
+            "mods",
+            "readme.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "You can verify you have dumped a supported copy of the game by using the compatibility checker at https://2ship.equipment/. If you'd prefer to manually validate your ROM dump, you can cross-reference its `sha1` hash with the hashes [here](docs/supportedHashes.…",
+      "If you're having an issue with crashing, you can also change the API manually in the `2ship2harkinian.json` file by finding the `\"Backend\": {` section and updating the backend ID and name. Be sure to use one of the valid values:"
+    ],
+    "readmeSetupLines": [
+      "2Ship does not include any copyrighted assets.  You are required to provide a supported copy of the game.",
+      "* Place your supported copy of the game in the same folder as the appimage.",
+      "* When prompted, select your supported copy of the game."
+    ]
+  },
+  {
+    "repo": "HarbourMasters/Ghostship",
+    "fullName": "HarbourMasters/Ghostship",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 887,
+    "homepage": "https://ghostship.net64.dev/",
+    "pushedAt": "2026-10-27T07:44:34Z",
+    "releaseCount": 5,
+    "release": {
+      "tag": "3.0.0",
+      "name": "Nautilus - Alfa 3.0.0",
+      "publishedAt": "2026-09-07T04:57:17Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Nautilus-Alfa-Win64.zip",
+          "size": 20379303,
+          "digest": "sha256:49a0ab6c6624ccb20d29bb433f391d017f638f2b7db0601eae7808574a62aa18"
+        }
+      ],
+      "zips": {
+        "Nautilus-Alfa-Win64.zip": {
+          "entryCount": 952,
+          "executables": [
+            "Ghostship.exe"
+          ],
+          "topLevel": [
+            ".tcc",
+            "assets",
+            "config.yml",
+            "debug",
+            "gamecontrollerdb.txt",
+            "Ghostship.exe",
+            "ghostship.o2r",
+            "readme.txt",
+            "shaderc_shared.dll",
+            "tcc.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "* The SHA-1 hash for a US ROM is 9bef1128717f958171a4afac3ed78ee2bb4e86ce.",
+      "* The SHA-1 hash for a JP ROM is 8a20a5c83d6ceb0f0506cfc9fa20d8f438cafe51."
+    ],
+    "readmePathLines": [
+      "* Mods and saves are managed from the **Mods** button, which appears next to **Menu** while the in-game menu is open. Everything also lives on disk under `Android/data/dev.net64.ghostship/files/`, so mods can be dropped into `mods/` with a file manager instead…",
+      "Currently, there are four rendering APIs supported: DirectX 11 (Windows), OpenGL (all platforms), Metal (macOS), and Vulkan (only offered when your graphics driver supports it). You can change which API to use in the `Settings` menu of the menubar, which requi…"
+    ],
+    "readmeSetupLines": [
+      "Ghostship does not include any copyrighted assets.  You are required to provide a supported copy of the game.",
+      "* Run Ghostship.exe and select your US or JP ROM.",
+      "* Run Ghostship and select your US or JP ROM.",
+      "* Tap **Choose Super Mario 64 ROM** and pick your own US or JP `.z64`. It is checked against the supported hashes, kept in the app's own storage, and converted into `sm64.o2r` on the device — no PC step, and no game data ships with the app."
+    ]
+  },
+  {
+    "repo": "HarbourMasters/Lighthouse",
+    "fullName": "HarbourMasters/Lighthouse",
+    "description": "A Banjo-Kazooie PC port with Anchor multiplayer, romhack and multi-language support, and a built-in randomizer.",
+    "archived": false,
+    "fork": false,
+    "license": "CC0-1.0",
+    "stars": 543,
+    "homepage": "https://www.harbourmasters.org",
+    "pushedAt": "2026-11-04T21:09:03Z",
+    "releaseCount": 8,
+    "release": {
+      "tag": "1.2.2",
+      "name": "Montauk Charlie 1.2.2",
+      "publishedAt": "2026-10-30T01:30:47Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Lighthouse-Montauk-Charlie-Win64.zip",
+          "size": 36631216,
+          "digest": "sha256:27c0066b0aa0a75de95974ca21bc86e2eadc3215ffa6a8e8b67e2c572107ae07"
+        }
+      ],
+      "zips": {
+        "Lighthouse-Montauk-Charlie-Win64.zip": {
+          "entryCount": 25,
+          "executables": [
+            "Lighthouse.exe"
+          ],
+          "topLevel": [
+            "assets",
+            "Lighthouse.exe",
+            "debug",
+            "gamecontrollerdb.txt",
+            "config.yml",
+            "lighthouse.o2r",
+            "readme.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "* `baserom.us.v10.z64`: `1fe1632098865f639e22c11b9a81ee8f29c75d7a`",
+      "* `baserom.us.v11.z64`: `ded6ee166e740ad1bc810fd678a84b48e245ab80`",
+      "* `baserom.jp.z64`:     `90726d7e7cd5bf6cdfd38f45c9acbf4d45bd9fd8`",
+      "* `baserom.pal.z64`:    `bb359a75941df74bf7290212c89fbc6e2c5601fe`"
+    ],
+    "readmePathLines": [
+      "* Saves, settings, `mods` and `bk.o2r` are stored in `~/.local/share/lighthouse/`. If the folder the appimage is in already has `lighthouse.cfg.json` or `bk.o2r`, that folder is used instead. Set `SHIP_HOME` to choose another folder.",
+      "Currently, there are three rendering APIs supported: DirectX11 (Windows), OpenGL (all platforms), and Metal (macOS). You can change which API to use in the `Settings` menu of the menubar, which requires a restart.  If you're having an issue with crashing, you …"
+    ],
+    "readmeSetupLines": [
+      "Lighthouse does not include any copyrighted assets.  You are required to provide a supported copy of the game.",
+      "* Run lighthouse.exe and select your compatible ROM.",
+      "* When prompted, select your compatible ROM.",
+      "* Run lighthouse and select your compatible ROM.",
+      "Lighthouse supports using multiple regions of Banjo-Kazooie as language packs. Generate your base `bk.o2r` file and once Lighthouse has started, open the imgui menu. Under General -> Languages, you will be able to select another ROM to extract as a language pa…"
+    ]
+  },
+  {
+    "repo": "HarbourMasters/PaperBoat",
+    "fullName": "HarbourMasters/PaperBoat",
+    "description": "Paper Mario 64 port based on the Paper Mario DX decompilation",
+    "archived": false,
+    "fork": false,
+    "license": "CC0-1.0",
+    "stars": 550,
+    "homepage": "https://www.harbourmasters.org",
+    "pushedAt": "2026-11-02T22:47:34Z",
+    "releaseCount": 4,
+    "release": {
+      "tag": "1.0.3",
+      "name": "Mulberry Delta 1.0.3",
+      "publishedAt": "2026-10-11T17:56:48Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Paperboat-Mulberry-Delta-Win64.zip",
+          "size": 27512774,
+          "digest": "sha256:ad7a825befbbad2d925f511fc97cfa26027f825935b413040b9d294d953983f3"
+        }
+      ],
+      "zips": {
+        "Paperboat-Mulberry-Delta-Win64.zip": {
+          "entryCount": 256,
+          "executables": [
+            "Paperboat.exe"
+          ],
+          "topLevel": [
+            "config.yml",
+            "gamecontrollerdb.txt",
+            "assets",
+            "paperboat.o2r",
+            "debug",
+            "shaderc_shared.dll",
+            "readme.txt",
+            "Paperboat.exe"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "US SHA1 Hash: `3837f44cda784b466c9a2d99df70d77c322b97a0`"
+    ],
+    "readmePathLines": [
+      "If you're having an issue with crashing, you can also change the API manually in the `paperboat.cfg.json` file by finding the `\"Backend\": {` section and updating the backend ID and name. Be sure to use one of the valid values:"
+    ],
+    "readmeSetupLines": [
+      "PaperBoat does not include any copyrighted assets.  You are required to provide a supported copy of the game.",
+      "* Place your supported copy of the game in the same folder as the appimage.",
+      "* When prompted, select your supported copy of the game."
+    ]
+  },
+  {
+    "repo": "HarbourMasters/Shipwright",
+    "fullName": "HarbourMasters/Shipwright",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 5858,
+    "homepage": "https://shipofharkinian.com",
+    "pushedAt": "2026-11-05T10:51:52Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "9.3.1",
+      "name": "Dewey Bravo 9.3.1",
+      "publishedAt": "2026-10-18T21:06:27Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "SoH-Dewey-Bravo-Win64.zip",
+          "size": 72980600,
+          "digest": "sha256:429292a0bfbdfcda283b33c1538ecdc49163b9ed53e8702cac80b2489d9fe26c"
+        }
+      ],
+      "zips": {
+        "SoH-Dewey-Bravo-Win64.zip": {
+          "entryCount": 20358,
+          "executables": [
+            "soh.exe"
+          ],
+          "topLevel": [
+            "assets",
+            "debug",
+            "gamecontrollerdb.txt",
+            "readme.txt",
+            "soh.exe",
+            "soh.o2r"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "You can verify you have dumped a supported copy of the game by using the compatibility checker at https://ship.equipment/. If you'd prefer to manually validate your ROM dump, you can cross-reference its `sha1` hash with the hashes [here](docs/supportedHashes.j…",
+      "* Saves, settings and `oot.o2r` are stored in `~/.local/share/soh/`. If the folder you launch from already has `shipofharkinian.json`, `oot.o2r` or `oot-mq.o2r`, that folder is used instead. Set `SHIP_HOME` to choose another folder.",
+      "Currently, there are three rendering APIs supported: DirectX11 (Windows), OpenGL (all platforms), and Metal (MacOS). You can change which API to use in the `Settings` menu of the menubar, which requires a restart.  If you're having an issue with crashing, you …"
+    ],
+    "readmeSetupLines": [
+      "The Ship does not include any copyrighted assets.  You are required to provide a supported copy of the game.",
+      "* When prompted, select your supported copy of the game.",
+      "* Run `soh.app`. When prompted, select your supported copy of the game."
+    ]
+  },
+  {
+    "repo": "HarbourMasters/SpaghettiKart",
+    "fullName": "HarbourMasters/SpaghettiKart",
+    "description": "I have spaghetti, now i just need a kart",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 2485,
+    "homepage": "https://harbourmasters.github.io/SpaghettiKart/",
+    "pushedAt": "2026-10-22T15:55:20Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "1.0.0",
+      "name": "Bolognese Alfa 1.0.0",
+      "publishedAt": "2026-02-25T02:26:04Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "spaghetti-windows.zip",
+          "size": 7806456,
+          "digest": "sha256:bf7bd7cdb5f412c7b370af92949b9431ce7503968631f8cacd607933fb32aff3"
+        }
+      ],
+      "zips": {
+        "spaghetti-windows.zip": {
+          "entryCount": 132,
+          "executables": [
+            "Spaghettify.exe"
+          ],
+          "topLevel": [
+            "config.yml",
+            "gamecontrollerdb.txt",
+            "meta",
+            "spaghetti.o2r",
+            "Spaghettify.exe",
+            "yamls"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "The US ROM is the only supported version. You can verify you have dumped a supported copy of the game by using the SHA-1 File Checksum Online at <https://www.romhacking.net/hash/>. The hash for a US ROM is SHA-1: 579C48E211AE952530FFC8738709F078D5DD215E."
+    ],
+    "readmePathLines": [
+      "Currently, there are three rendering APIs supported: DirectX11 (Windows), OpenGL (all platforms), and Metal (macOS). You can change which API to use in the `Settings` menu of the menubar, which requires a restart.  If you're having an issue with crashing, you …"
+    ],
+    "readmeSetupLines": [
+      "SpaghettiKart does not include any copyrighted assets.  You are required to provide a supported copy of the game.",
+      "* Run \"Spaghettify.exe\" and select your US ROM.",
+      "* Run \"spaghetti.appimage\" and select your US ROM. You may have to chmod +x the appimage via terminal."
+    ]
+  },
+  {
+    "repo": "HarbourMasters/Starship",
+    "fullName": "HarbourMasters/Starship",
+    "description": "SF64 PC Port",
+    "archived": false,
+    "fork": false,
+    "license": "CC0-1.0",
+    "stars": 2133,
+    "homepage": "",
+    "pushedAt": "2026-09-15T21:17:12Z",
+    "releaseCount": 2,
+    "release": {
+      "tag": "v2.0.0",
+      "name": "Starship - Barnard Alfa",
+      "publishedAt": "2025-05-25T03:43:32Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Starship-Barnard-Alfa-Windows.zip",
+          "size": 4218590,
+          "digest": null
+        }
+      ],
+      "zips": {
+        "Starship-Barnard-Alfa-Windows.zip": {
+          "entryCount": 119,
+          "executables": [
+            "Starship.exe"
+          ],
+          "topLevel": [
+            "assets",
+            "config.yml",
+            "gamecontrollerdb.txt",
+            "readme.txt",
+            "Starship.exe",
+            "starship.o2r"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "* The SHA-1 hash for a US 1.0 ROM is D8B1088520F7C5F81433292A9258C1184AFA1457.",
+      "* The SHA-1 hash for a US 1.1 ROM is 09F0D105F476B00EFA5303A3EBC42E60A7753B7A."
+    ],
+    "readmePathLines": [
+      "Currently, there are three rendering APIs supported: DirectX11 (Windows), OpenGL (all platforms), and Metal (macOS). You can change which API to use in the `Settings` menu of the menubar, which requires a restart.  If you're having an issue with crashing, you …"
+    ],
+    "readmeSetupLines": [
+      "Starship does not include any copyrighted assets.  You are required to provide a supported copy of the game.",
+      "* Run starship.exe and select your US 1.0 or US 1.1 ROM.",
+      "* Run starship and select your US 1.0 or US 1.1 ROM."
+    ]
+  },
+  {
+    "repo": "hedge-dev/UnleashedRecomp",
+    "fullName": "hedge-dev/UnleashedRecomp",
+    "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 5344,
+    "homepage": "",
+    "pushedAt": "2026-06-29T11:05:43Z",
+    "releaseCount": 4,
+    "release": {
+      "tag": "v1.0.3",
+      "name": "v1.0.3",
+      "publishedAt": "2025-04-03T22:04:45Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "UnleashedRecomp-Windows.zip",
+          "size": 53386467,
+          "digest": null
+        }
+      ],
+      "zips": {
+        "UnleashedRecomp-Windows.zip": {
+          "entryCount": 4,
+          "executables": [
+            "UnleashedRecomp.exe"
+          ],
+          "topLevel": [
+            "D3D12",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "UnleashedRecomp.exe"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "### Where is the save data and configuration file stored?",
+      "The save data and configuration files are stored at the following locations:",
+      "- Windows: `%APPDATA%\\UnleashedRecomp\\`",
+      "You will find the save data under the `save` folder (or `mlsave`, if using Hedge Mod Manager's save file redirection). The configuration file is named `config.toml`.",
+      "You can make the game ignore the [default configuration paths](#where-is-the-save-data-and-configuration-file-stored) and force it to save everything in the installation directory by creating an empty `portable.txt` file. You are directly responsible for the s…"
+    ],
+    "readmeSetupLines": [
+      "**This project does not include any game assets. You must provide the files from your own legally acquired copy of the game to install or build Unleashed Recompiled.**",
+      "- **Add Files** will only allow you to provide **containers or images dumped from an Xbox 360**. These often come in the form of very large files without associated extensions. Don't worry if you're not aware of what's inside of them, the installer will automa…",
+      "Modded files for the Xbox 360 version of the game are compatible with Unleashed Recompiled. However, some mods may have targeted a version of the game that doesn't contain the title update, so those may have issues and require updates from their authors in ord…",
+      "Due to some restrictions of how the desktop environment on the Steam Deck works whilst in Game Mode, please note that you may need to at least first boot into Desktop Mode to be able to use the file picker to provide the game files."
+    ]
+  },
+  {
+    "repo": "JackandBeans/Snap64Recomp",
+    "fullName": "JackandBeans/Snap64Recomp",
+    "description": "Native Windows, Linux and macOS port of Pokémon Snap (N64) by static recompilation. Plays like the cartridge by default; every enhancement is opt-in. Bring your own dump; no game data is included.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 130,
+    "homepage": "https://github.com/JackandBeans/Snap64Recomp/releases/latest",
+    "pushedAt": "2026-10-25T02:17:38Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v1.1.6",
+      "name": "Snap64 Recomp 1.1.6",
+      "publishedAt": "2026-10-23T19:35:15Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Snap64Recomp-1.1.6-win64.zip",
+          "size": 16580695,
+          "digest": "sha256:73bd4f7fae0f41670d9222af1f7287dfe60978997128a5926179e48d28ac351d"
+        },
+        {
+          "name": "Snap64Recomp-1.1.6-win64.zip.sha256",
+          "size": 95,
+          "digest": "sha256:1c625704bdf3ce68ecb766844b6acd7a8365d927a0eadddaf4b98777102744f4"
+        }
+      ],
+      "zips": {
+        "Snap64Recomp-1.1.6-win64.zip": {
+          "entryCount": 52,
+          "executables": [
+            "Snap64Recomp-1.1.6-win64/Snap64Recomp.exe"
+          ],
+          "topLevel": [
+            "Snap64Recomp-1.1.6-win64"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "`edc7c49cc568c045fe48be0d18011c30f393cbaf`, the value the"
+    ],
+    "readmePathLines": [
+      "Next to the program. The save is `saves/pokemonsnap.bin` and the settings",
+      "are `snapsettings.json`; keep both when you update. Everything the port",
+      "* your `snapsettings.json`"
+    ],
+    "readmeSetupLines": [
+      "info\", then \"Run anyway\", and it will not ask again. The first start",
+      "move `Snap64Recomp.app` anywhere. It is signed by nobody, so the first start",
+      "for your ROM on the first start and keeps everything it writes in"
+    ]
+  },
+  {
+    "repo": "JackPriceBurns/foxhollow",
+    "fullName": "JackPriceBurns/foxhollow",
+    "description": "Foxhollow: a native port of Star Fox Adventures built on the SFA decompilation and Aurora",
+    "archived": false,
+    "fork": false,
+    "license": "CC0-1.0",
+    "stars": 88,
+    "homepage": "",
+    "pushedAt": "2026-10-25T02:38:48Z",
+    "releaseCount": 15,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "You will need a genuine, legally obtained copy of Star Fox Adventures to run Foxhollow (any copy is fine). Foxhollow"
+    ]
+  },
+  {
+    "repo": "jessetbh/VPW64Recomp",
+    "fullName": "jessetbh/VPW64Recomp",
+    "description": "Native PC port of Virtual Pro Wrestling 64 (N64) via static recompilation. No game assets included - bring your own ROM.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 11,
+    "homepage": null,
+    "pushedAt": "2026-11-03T19:28:30Z",
+    "releaseCount": 2,
+    "release": {
+      "tag": "v0.2.0",
+      "name": "v0.2.0",
+      "publishedAt": "2026-10-14T02:32:53Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "Vpw64Recompiled-v0.2.0-Windows.zip",
+          "size": 22480983,
+          "digest": "sha256:ee1d367cb9f0c0a43b8289a7422d9420cc7604d5a6be17324d7fcae4b8bd2936"
+        }
+      ],
+      "zips": {
+        "Vpw64Recompiled-v0.2.0-Windows.zip": {
+          "entryCount": 101,
+          "executables": [
+            "Vpw64Recompiled.exe"
+          ],
+          "topLevel": [
+            "dxil.dll",
+            "Vpw64Recompiled.exe",
+            "COPYING",
+            "assets",
+            "SDL2.dll",
+            "msvcp140.dll",
+            "recompcontrollerdb.txt",
+            "vcruntime140_1.dll",
+            "crt",
+            "librashader.dll",
+            "vcruntime140.dll",
+            "msvcp140_atomic_wait.dll",
+            "README.txt",
+            "dxcompiler.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "(SHA1 `F9E9FA2ED819C3A39DB5CB6AFECA186F021DB5ED`). **It is not an emulator and it"
+    ],
+    "readmePathLines": [
+      "The port's virtual pak is both at once: saves are always honored and persist",
+      "* **Saves are just files.** Controller Pak saves are written automatically to",
+      "`%LOCALAPPDATA%\\Vpw64Recompiled\\saves\\` (or next to the exe in portable mode), with a backup copy. No save states or",
+      "- Windows: `%LOCALAPPDATA%\\Vpw64Recompiled\\saves\\`",
+      "Configuration files and the log file live one level up in the same app folder. Save",
+      "Yes — place a file named `portable.txt` in the same folder as the executable and",
+      "saves, config files, and the stored ROM will be kept next to the executable instead.",
+      "* Quitting the game in the middle of a match can crash on the way out (your save is not affected).",
+      "(`%LOCALAPPDATA%\\Vpw64Recompiled\\Vpw64Recompiled.log`).",
+      "With Ray Tracing on, the lights come from `assets\\rt_lights.json` in the game's folder (next to",
+      "1. Close the game, open `%LOCALAPPDATA%\\Vpw64Recompiled\\graphics.json` (or `graphics.json` next to the exe in portable mode)",
+      "writes `rt_lights.json`."
+    ],
+    "readmeSetupLines": [
+      "Provide your copy of the Japanese release of the game and start playing! The project",
+      "[How do I choose a different ROM?](#how-do-i-choose-a-different-rom)). Don't replace it with a",
+      "from its authors) to a *copy* of your clean ROM with the patcher its release names.",
+      "#### How do I choose a different ROM?",
+      "Releases replace `assets\\rt_lights.json`, so keep a copy of your edits. To keep your own file somewhere else, set",
+      "2. Put your stock ROM in the repository root as `vpw64.z64`, and generate `RecompiledFuncs\\` (the recompile step in"
+    ]
+  },
+  {
+    "repo": "jessetbh/WCWnWoRevengeRecomp",
+    "fullName": "jessetbh/WCWnWoRevengeRecomp",
+    "description": "Native PC port of WCW/nWo Revenge (N64) via static recompilation. No game assets included - bring your own ROM.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 31,
+    "homepage": null,
+    "pushedAt": "2026-11-03T19:28:02Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "v0.2.0",
+      "name": "v0.2.0",
+      "publishedAt": "2026-10-14T02:32:09Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "RevengeRecompiled-v0.2.0-Windows.zip",
+          "size": 22418056,
+          "digest": "sha256:509425d4b2bbe6c01d46e97078946d77c1cbed562aa6f0787633d58a69185620"
+        }
+      ],
+      "zips": {
+        "RevengeRecompiled-v0.2.0-Windows.zip": {
+          "entryCount": 101,
+          "executables": [
+            "RevengeRecompiled.exe"
+          ],
+          "topLevel": [
+            "dxil.dll",
+            "RevengeRecompiled.exe",
+            "COPYING",
+            "assets",
+            "SDL2.dll",
+            "msvcp140.dll",
+            "recompcontrollerdb.txt",
+            "vcruntime140_1.dll",
+            "crt",
+            "librashader.dll",
+            "vcruntime140.dll",
+            "msvcp140_atomic_wait.dll",
+            "README.txt",
+            "dxcompiler.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "(SHA1 `E1711A2511394B9357B5F1AC8CA5CC17BD674836`). **It is not an emulator and it"
+    ],
+    "readmePathLines": [
+      "* **Saves are just files.** Cartridge saves are written automatically to",
+      "`%LOCALAPPDATA%\\RevengeRecompiled\\saves\\` (or next to the exe in portable mode), with a backup copy. No save states or",
+      "- Windows: `%LOCALAPPDATA%\\RevengeRecompiled\\saves\\`",
+      "Configuration files and the log file live one level up in the same app folder. Save",
+      "Yes — place a file named `portable.txt` in the same folder as the executable and",
+      "saves, config files, and the stored ROM will be kept next to the executable instead.",
+      "(`%LOCALAPPDATA%\\RevengeRecompiled\\RevengeRecompiled.log`).",
+      "With Ray Tracing on, the lights come from `assets\\rt_lights.json` in the game's folder (next to",
+      "1. Close the game, open `%LOCALAPPDATA%\\RevengeRecompiled\\graphics.json` (or `graphics.json` next to the exe in portable mode)",
+      "writes `rt_lights.json`.",
+      "Releases replace `assets\\rt_lights.json`, so keep a copy of your edits. To keep your own file somewhere else, set",
+      "- Windows: `%LOCALAPPDATA%\\RevengeRecompiled\\mods\\` (or `mods\\` next to the executable in portable mode)"
+    ],
+    "readmeSetupLines": [
+      "Provide your copy of the US version of the game and start playing! The project loads",
+      "#### How do I choose a different ROM?",
+      "Releases replace `assets\\rt_lights.json`, so keep a copy of your edits. To keep your own file somewhere else, set",
+      "2. Put your stock ROM in the repository root as `revenge.z64`, and generate `RecompiledFuncs\\` (the recompile step in"
+    ]
+  },
+  {
+    "repo": "jessetbh/WCWvsNWOWorldTourRecomp",
+    "fullName": "jessetbh/WCWvsNWOWorldTourRecomp",
+    "description": "Native PC port of WCW vs. nWo World Tour (N64) via static recompilation. No game assets included — bring your own ROM.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 44,
+    "homepage": null,
+    "pushedAt": "2026-11-03T19:27:34Z",
+    "releaseCount": 4,
+    "release": {
+      "tag": "v0.2.0",
+      "name": "v0.2.0",
+      "publishedAt": "2026-10-14T02:30:59Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "WCWRecompiled-v0.2.0-Windows.zip",
+          "size": 22238444,
+          "digest": "sha256:313e5d11f518806a92de3a2d7cb7a1263b1a7e2efb7abafbffba5fda7b1842ea"
+        }
+      ],
+      "zips": {
+        "WCWRecompiled-v0.2.0-Windows.zip": {
+          "entryCount": 101,
+          "executables": [
+            "WCWRecompiled.exe"
+          ],
+          "topLevel": [
+            "dxil.dll",
+            "COPYING",
+            "assets",
+            "SDL2.dll",
+            "WCWRecompiled.exe",
+            "msvcp140.dll",
+            "recompcontrollerdb.txt",
+            "vcruntime140_1.dll",
+            "crt",
+            "librashader.dll",
+            "vcruntime140.dll",
+            "msvcp140_atomic_wait.dll",
+            "README.txt",
+            "dxcompiler.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "(SHA1 `5AD2D8359058C8BB71F08E3D3433B7A50D3BB645`). **It is not an emulator and it"
+    ],
+    "readmePathLines": [
+      "* **Saves are just files.** Controller Pak saves are written automatically to",
+      "`%LOCALAPPDATA%\\WCWRecompiled\\saves\\` (or next to the exe in portable mode), with a backup copy. No save states or",
+      "- Windows: `%LOCALAPPDATA%\\WCWRecompiled\\saves\\`",
+      "Configuration files and the log file live one level up in the same app folder. Save",
+      "Yes — place a file named `portable.txt` in the same folder as the executable and",
+      "saves, config files, and the stored ROM will be kept next to the executable instead.",
+      "* Quitting the game in the middle of a match can crash on the way out (your save is not affected). This is",
+      "(`%LOCALAPPDATA%\\WCWRecompiled\\WCWRecompiled.log`).",
+      "With Ray Tracing on, the lights come from `assets\\rt_lights.json` in the game's folder (next to",
+      "1. Close the game, open `%LOCALAPPDATA%\\WCWRecompiled\\graphics.json` (or `graphics.json` next to the exe in portable mode)",
+      "writes `rt_lights.json`.",
+      "Releases replace `assets\\rt_lights.json`, so keep a copy of your edits. To keep your own file somewhere else, set"
+    ],
+    "readmeSetupLines": [
+      "Provide your copy of the US version of the game and start playing! The project loads",
+      "#### How do I choose a different ROM?",
+      "Releases replace `assets\\rt_lights.json`, so keep a copy of your edits. To keep your own file somewhere else, set",
+      "2. Put your stock ROM in the repository root as `wcw.z64`, and generate `RecompiledFuncs\\` (the recompile step in"
+    ]
+  },
+  {
+    "repo": "jessetbh/WWFNoMercyRecomp",
+    "fullName": "jessetbh/WWFNoMercyRecomp",
+    "description": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included — bring your own ROM.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 44,
+    "homepage": null,
+    "pushedAt": "2026-11-03T22:10:06Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "v0.2.0",
+      "name": "v0.2.0",
+      "publishedAt": "2026-10-14T02:33:06Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "NoMercyRecompiled-v0.2.0-Windows.zip",
+          "size": 23049485,
+          "digest": "sha256:d35dc104bb2ad77797b12272f13d9404453b30c22526e4ec2e8cffff21866149"
+        }
+      ],
+      "zips": {
+        "NoMercyRecompiled-v0.2.0-Windows.zip": {
+          "entryCount": 101,
+          "executables": [
+            "NoMercyRecompiled.exe"
+          ],
+          "topLevel": [
+            "dxil.dll",
+            "COPYING",
+            "assets",
+            "SDL2.dll",
+            "msvcp140.dll",
+            "recompcontrollerdb.txt",
+            "vcruntime140_1.dll",
+            "crt",
+            "librashader.dll",
+            "NoMercyRecompiled.exe",
+            "vcruntime140.dll",
+            "msvcp140_atomic_wait.dll",
+            "README.txt",
+            "dxcompiler.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "(SHA1 `91CEE3D096F4A76644D8B35B9AEAD6448909ABD1`). The original USA release (Rev 0,"
+    ],
+    "readmePathLines": [
+      "* **Saves are just files.** Flash cartridge saves are written automatically to",
+      "`%LOCALAPPDATA%\\NoMercyRecompiled\\saves\\` (or next to the exe in portable mode), with a backup copy. No save states or",
+      "- Windows: `%LOCALAPPDATA%\\NoMercyRecompiled\\saves\\`",
+      "image to disk automatically. Configuration files and the log file live one level up",
+      "Yes — place a file named `portable.txt` in the same folder as the executable and",
+      "saves, config files, and the stored ROM will be kept next to the executable instead.",
+      "(`%LOCALAPPDATA%\\NoMercyRecompiled\\NoMercyRecompiled.log`).",
+      "With Ray Tracing on, the lights come from `assets\\rt_lights.json` in the game's folder (next to",
+      "1. Close the game, open `%LOCALAPPDATA%\\NoMercyRecompiled\\graphics.json` (or `graphics.json` next to the exe in portable mode)",
+      "writes `rt_lights.json`.",
+      "Releases replace `assets\\rt_lights.json`, so keep a copy of your edits. To keep your own file somewhere else, set",
+      "- Windows: `%LOCALAPPDATA%\\NoMercyRecompiled\\mods\\` (or `mods\\` next to the executable in portable mode)"
+    ],
+    "readmeSetupLines": [
+      "* First launch may pause briefly while shaders compile for your GPU.",
+      "Releases replace `assets\\rt_lights.json`, so keep a copy of your edits. To keep your own file somewhere else, set",
+      "2. Put your stock ROM in the repository root as `nomercy.z64`, and generate `RecompiledFuncs\\` (the recompile step in"
+    ]
+  },
+  {
+    "repo": "jessetbh/WWFWrestleMania2000Recomp",
+    "fullName": "jessetbh/WWFWrestleMania2000Recomp",
+    "description": "Native PC port of WWF WrestleMania 2000 (N64) via static recompilation. No game assets included - bring your own ROM.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 22,
+    "homepage": null,
+    "pushedAt": "2026-10-28T05:14:44Z",
+    "releaseCount": 2,
+    "release": {
+      "tag": "v0.2.0",
+      "name": "v0.2.0",
+      "publishedAt": "2026-10-14T02:32:43Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "Wm2kRecompiled-v0.2.0-Windows.zip",
+          "size": 22942365,
+          "digest": "sha256:9be37a71781937ec4a1119e93f63b5471c1c5fb0adb4d33a13c361f28a32ae15"
+        }
+      ],
+      "zips": {
+        "Wm2kRecompiled-v0.2.0-Windows.zip": {
+          "entryCount": 101,
+          "executables": [
+            "Wm2kRecompiled.exe"
+          ],
+          "topLevel": [
+            "dxil.dll",
+            "COPYING",
+            "assets",
+            "SDL2.dll",
+            "msvcp140.dll",
+            "recompcontrollerdb.txt",
+            "Wm2kRecompiled.exe",
+            "vcruntime140_1.dll",
+            "crt",
+            "librashader.dll",
+            "vcruntime140.dll",
+            "msvcp140_atomic_wait.dll",
+            "README.txt",
+            "dxcompiler.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "(SHA1 `D7D1FAD473FEF9B61FE5F8273C975EE7C603A51B`). Earlier USA revisions (V1.0/V1.1)"
+    ],
+    "readmePathLines": [
+      "* **Saves are just files.** The cartridge save and the Controller Pak are written automatically to",
+      "`%LOCALAPPDATA%\\Wm2kRecompiled\\saves\\` (or next to the exe in portable mode), with a backup copy. No save states or",
+      "- Windows: `%LOCALAPPDATA%\\Wm2kRecompiled\\saves\\`",
+      "Both save files live there: the cart SRAM image (game progress, created wrestlers)",
+      "and the virtual Controller Pak image. Configuration files and the log file live one",
+      "Yes — place a file named `portable.txt` in the same folder as the executable and",
+      "saves, config files, and the stored ROM will be kept next to the executable instead.",
+      "(`%LOCALAPPDATA%\\Wm2kRecompiled\\Wm2kRecompiled.log`).",
+      "With Ray Tracing on, the lights come from `assets\\rt_lights.json` in the game's folder (next to",
+      "1. Close the game, open `%LOCALAPPDATA%\\Wm2kRecompiled\\graphics.json` (or `graphics.json` next to the exe in portable mode)",
+      "writes `rt_lights.json`.",
+      "Releases replace `assets\\rt_lights.json`, so keep a copy of your edits. To keep your own file somewhere else, set"
+    ],
+    "readmeSetupLines": [
+      "Provide your copy of the game and start playing! The project loads assets directly",
+      "#### How do I choose a different ROM?",
+      "Releases replace `assets\\rt_lights.json`, so keep a copy of your edits. To keep your own file somewhere else, set",
+      "2. Put your stock ROM in the repository root as `wm2k.z64`, and generate `RecompiledFuncs\\` (the recompile step in"
+    ]
+  },
+  {
+    "repo": "JRickey/BattleShip",
+    "fullName": "JRickey/BattleShip",
+    "description": "A smashin' port for PC, Mac, and Linux!",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 532,
+    "homepage": "https://discord.gg/bAE73kxKXY",
+    "pushedAt": "2026-11-05T16:31:33Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v1.6",
+      "name": "v1.6",
+      "publishedAt": "2026-08-12T03:19:33Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "BattleShip-JP-windows.zip",
+          "size": 6522841,
+          "digest": "sha256:5373a6153c4d4a10f5942228b5d301370bbfc893a7700e7f0ee4867cc9bfd57b"
+        },
+        {
+          "name": "BattleShip-windows.zip",
+          "size": 8818427,
+          "digest": "sha256:a0c2ef997e7f561dc02da19b0e1134ecb9bfaac1d577d65ff04db3c7e27eadb4"
+        }
+      ],
+      "zips": {
+        "BattleShip-JP-windows.zip": {
+          "entryCount": 32,
+          "executables": [
+            "BattleShip-JP.exe",
+            "torch.exe"
+          ],
+          "topLevel": [
+            "assets",
+            "licenses",
+            "yamls",
+            "BattleShip-JP.exe",
+            "BattleShip-JP.ico",
+            "config.yml",
+            "f3d.o2r",
+            "gamecontrollerdb.txt",
+            "LICENSE.txt",
+            "torch.exe"
+          ]
+        },
+        "BattleShip-windows.zip": {
+          "entryCount": 128,
+          "executables": [
+            "BattleShip.exe",
+            "torch.exe"
+          ],
+          "topLevel": [
+            ".tcc",
+            "assets",
+            "licenses",
+            "yamls",
+            "BattleShip.exe",
+            "BattleShip.ico",
+            "config.yml",
+            "f3d.o2r",
+            "gamecontrollerdb.txt",
+            "LICENSE.txt",
+            "torch.exe"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "| **US** — NTSC-U v1.0 | `NALE` | `e2929e10fccc0aa84e5776227e798abc07cedabf` | `f7c52568a31aadf26e14dc2b6416b2ed` |",
+      "| **JP** — Nintendo All-Star! Dairantou Smash Brothers v1.0 | `NALJ` | `4b71f0e01878696733eefa9c80d11c147ecb4984` | `66db457b130d31a286a23d6e4dd9726e` |"
+    ],
+    "readmePathLines": [
+      "| `sf`   | Saved-state / save file |"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "klorfmorf/Goemon64Recomp",
+    "fullName": "klorfmorf/Goemon64Recomp",
+    "description": "An unofficial PC port of Mystical Ninja Starring Goemon achieved via static recompilation.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 333,
+    "homepage": "",
+    "pushedAt": "2026-09-19T19:36:05Z",
+    "releaseCount": 5,
+    "release": {
+      "tag": "v0.2.0-dev",
+      "name": "v0.2.0-dev",
+      "publishedAt": "2026-01-31T15:40:34Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Goemon64Recompiled-Windows-RelWithDebInfo.zip",
+          "size": 25007915,
+          "digest": "sha256:f74041842f059e65be3cc2ba3d51a82c543a3b16406189afe45951cb40ac5896"
+        }
+      ],
+      "zips": {
+        "Goemon64Recompiled-Windows-RelWithDebInfo.zip": {
+          "entryCount": 44,
+          "executables": [
+            "Goemon64Recompiled.exe"
+          ],
+          "topLevel": [
+            "Goemon64Recompiled.exe",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "SDL2.dll",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\Goemon64Recompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable."
+    ],
+    "readmeSetupLines": [
+      "Simply provide your copy of the North American version of the game in the main menu and start playing! This project will automatically load assets from the provided copy, so there is no need to go through a separate extraction step or build the game yourself. …",
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "Legend-of-Dragoon-Modding/Severed-Chains",
+    "fullName": "Legend-of-Dragoon-Modding/Severed-Chains",
+    "description": "Legend of Dragoon decompiled, reverse engineered, and ported to PC/Mac/Linux/Steam Deck",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 585,
+    "homepage": "https://legendofdragoon.org/projects/severed-chains/",
+    "pushedAt": "2026-11-02T17:39:01Z",
+    "releaseCount": 7,
+    "release": {
+      "tag": "release-3.0.0",
+      "name": "Release 3.0.0",
+      "publishedAt": "2026-10-17T01:16:33Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Severed_Chains_Windows.zip",
+          "size": 131446655,
+          "digest": "sha256:164716cba1899cadf834506636de8da56721d695457c3b53c93c533999ef9bb4"
+        }
+      ],
+      "zips": {
+        "Severed_Chains_Windows.zip": {
+          "entryCount": 769,
+          "executables": [],
+          "topLevel": [
+            "gpu-optional-setup.bat",
+            "patches",
+            "launch.bat",
+            "LICENSE",
+            "mods",
+            "gamecontrollerdb.txt",
+            "log4j2-updater.xml",
+            "isos",
+            "gfx",
+            "log4j2.xml",
+            "credits.txt",
+            "updater.jar",
+            "lod-game-ab5dfe5ba6d4c07464a2f0e67985b9e77e2f7bdb.jar",
+            "README.md",
+            "lang",
+            "libs",
+            "lod-game-ab5dfe5ba6d4c07464a2f0e67985b9e77e2f7bdb-sources.jar",
+            "launch.conf"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "Visit our discord and drop into the [#modding channel](https://discord.com/channels/307164262063669248/318595603636551701)!",
+      "3. Copy your ISOs or BINs of the LoD disks into the `isos` directory."
+    ]
+  },
+  {
+    "repo": "LittleBitUA/DownpourRecomp",
+    "fullName": "LittleBitUA/DownpourRecomp",
+    "description": "Silent Hill: Downpour — native Windows PC port via static recompilation of the Xbox 360 binary. v1.0 stable: 60 FPS unlocked, ROV warm-cache, standalone launcher, DualSense adaptive triggers, portable saves. Tested on USA + Europe X360 dumps.",
+    "archived": false,
+    "fork": false,
+    "license": "BSD-3-Clause",
+    "stars": 358,
+    "homepage": null,
+    "pushedAt": "2026-09-02T22:18:50Z",
+    "releaseCount": 10,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "* **APC delivery through a trap frame** + **cr2-cr4 / FPSCR in the fiber save area** — kernel callbacks and fiber switches no longer clobber guest registers or the FP rounding mode. Silent-corruption-class fixes.",
+      "| **Settings UI** | in-game options menu | Xenia F11 / config files | **standalone launcher + in-game F4 overlay** |",
+      "| **Portable layout** | n/a | %AppData% / OS paths | **saves + cache stay in the game folder** |"
+    ],
+    "readmeSetupLines": [
+      "> Highlights: a **first-run disc-image installer** (community contribution by [Alexbeav](https://github.com/Alexbeav) — point it at your own ISO and it extracts everything itself), **no more AVX2 requirement** (pre-2013 CPUs boot the game now), **mouse look re…",
+      "A fresh install no longer requires you to pre-extract your game dump by hand. If the game data is missing on first launch, a new wizard asks for **your own Silent Hill: Downpour ISO** (Redump, XGD3, or raw dump layouts are auto-detected), extracts the game par…",
+      "> **You provide your own legally-owned copy of the game.** The release zip is the host shell only. It does not contain `default.xex`, game data, music, or any Konami / Vatra assets. See [What you need before playing](#what-you-need-before-playing).",
+      "1. **A legally-owned copy of *Silent Hill: Downpour* for Xbox 360** — disc, digital download, or backup of either. Region USA or EUR (`title id 4B4E0823`, base XEX hash `7A3D5809776EE6AB`).",
+      "2. **A dump of that copy** — since v1.1.7 a plain **ISO of your disc is enough**: the first-run wizard extracts everything itself (Redump / XGD3 / raw layouts auto-detected) and stages Title Update 1 for you. Pre-extracted file trees from older versions keep w…",
+      "4. **First run:** the installer wizard asks for your game dump — point it at your ISO (or an already-extracted `assets/` tree) and, when prompted, at your `default.xexp` Title Update file (or let it download TU1). Extraction is resumable if interrupted.",
+      "# 2. Provide your XEX at assets/default.xex (gitignored)"
+    ]
+  },
+  {
+    "repo": "LittleBitUA/DPRecomp",
+    "fullName": "LittleBitUA/DPRecomp",
+    "description": "Deadly Premonition (Xbox 360) native PC port by static recompilation - v2.0.14: native DirectX 12 renderer ready for testing (up to 4x internal resolution); 60 FPS, mouse look, keyboard driving, FSR 3, ISO installer, PAL + USA",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 185,
+    "homepage": "https://github.com/LittleBitUA/DPRecomp/releases/latest",
+    "pushedAt": "2026-10-03T19:32:00Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v2.0.14",
+      "name": "Deadly Premonition Recompilation 2.0.14",
+      "publishedAt": "2026-10-03T19:32:08Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "DPRecomp-2.0.14-win64.zip",
+          "size": 46811589,
+          "digest": "sha256:3d26da25ff910cc2c41b4d2f7d5a8d6c17f6a3e4e2a9a29d2e4afee5e38b75fe"
+        }
+      ],
+      "zips": {
+        "DPRecomp-2.0.14-win64.zip": {
+          "entryCount": 73,
+          "executables": [
+            "DPRecomp-2.0.14-win64/deadlyprem.exe",
+            "DPRecomp-2.0.14-win64/deadlyprem_usa.exe",
+            "DPRecomp-2.0.14-win64/PlayDeadlyPremonition.exe"
+          ],
+          "topLevel": [
+            "DPRecomp-2.0.14-win64"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Open an [issue](https://github.com/LittleBitUA/DPRecomp/issues/new) with a save file if the problem is scene-specific (`userdata\\` → the folder for your XUID). \"It works\" reports with your GPU and settings are welcome too. And if you say yes when the launcher …",
+      "4. Configure with `cmake --preset dp-relwithdebinfo` (uses `CMakeUserPresets.json` to point at your SDK install) and build. The default build is the compatibility (SSE4.1) build; `-DDP_ENABLE_X86_64_V3=ON` enables AVX2."
+    ],
+    "readmeSetupLines": [
+      "> **You provide your own legally-owned copy of the game** (PAL or USA Xbox 360 disc, as an `.iso` or extracted files). The release contains the host program only: no `default.xex`, no game data. See [Legal](#legal).",
+      "2. **Game data:** either start the launcher and let the built-in installer extract your `.iso` into `assets\\` (a few minutes, resumable), or copy the extracted disc contents so that `default.xex` ends up at `assets\\default.xex`.",
+      "3. **Play:** run `PlayDeadlyPremonition.exe` and press **PLAY**. The first launch compiles shaders for a minute; later launches are instant. Saves live in `userdata\\` next to the game.",
+      "`PlayDeadlyPremonition.exe` shows every setting on its own page: **Graphics** (render path, internal resolution, upscaler and sharpness, FXAA, 60 FPS, window, monitor list), **Advanced** (game language, skip intro, GPU adapter, texture cache, audio output, Ste…",
+      "3. Put your PAL `default.xex` into `assets\\` and run the recompiler: `rexglue codegen deadlyprem_manifest.toml` (about 10 seconds; the function list and the mid-asm hooks live in `deadlyprem_config.toml`, the USA build in `usa\\`).",
+      "This repository contains no game code, assets or data. You must own *Deadly Premonition* for Xbox 360 and provide your own disc image or extracted files. *Deadly Premonition* is © Access Games / Rising Star Games / Marvelous. This project is not affiliated wit…"
+    ]
+  },
+  {
+    "repo": "MatheoVignaud/tmc",
+    "fullName": "MatheoVignaud/tmc",
+    "description": "Decompilation of The Legend of Zelda: The Minish Cap (USA/JP/EU)",
+    "archived": false,
+    "fork": true,
+    "license": null,
+    "stars": 403,
+    "homepage": "https://zeldaret.github.io/tmc/html/index.html",
+    "pushedAt": "2026-05-17T09:54:49Z",
+    "releaseCount": 4,
+    "release": {
+      "tag": "0.2.0-pre",
+      "name": "tmc_pc-v0.2.0",
+      "publishedAt": "2026-05-17T09:54:49Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "tmc-usa-windows-20260517-0932-52701ac.zip",
+          "size": 18746262,
+          "digest": "sha256:8bd6f87ea2a18d07e5e3bc779f409a9781d737a7208af3b7f4f244d660a131fc"
+        }
+      ],
+      "zips": {
+        "tmc-usa-windows-20260517-0932-52701ac.zip": {
+          "entryCount": 1,
+          "executables": [
+            "tmc_pc.exe"
+          ],
+          "topLevel": [
+            "tmc_pc.exe"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "| USA      | `baserom.gba`    | `b4bd50e4131b027c334547b4524e2dbbd4227130` |",
+      "| EU       | `baserom_eu.gba` | `cff199b36ff173fb6faf152653d1bccf87c26fb7` |",
+      "| JP       | `baserom_jp.gba` | `6c5404a1effb17f481f352181d0f1c61a2765c5d` |",
+      "| USA Demo | `baserom_demo_usa.gba` | `63fcad218f9047b6a9edbb68c98bd0dec322d7a1` |",
+      "| JP Demo  | `baserom_demo_jp.gba`  | `9cdb56fa79bba13158b81925c1f3641251326412` |"
+    ],
+    "readmePathLines": [
+      "[progress-badge]: https://img.shields.io/endpoint?url=https://zelda64.dev/assets/csv/progress-tmc-shield.json",
+      "asset_extractor      sounds.json      tmc_pc",
+      "The binaries resolve `baserom.gba`, `sounds.json`, and the extracted asset",
+      "Saves are written to `tmc.sav` in the working directory.",
+      "0.1.1 the binary resolves `baserom.gba`, `sounds.json`, and the asset"
+    ],
+    "readmeSetupLines": [
+      "A copy of the original game is required to build either the ROM or the PC port.",
+      "2. Drop your own `baserom.gba` next to the binaries (this repo does **not** ship the ROM).",
+      "Place your ROM in the repository root, then run:"
+    ]
+  },
+  {
+    "repo": "MegaMan64Recomp/MegaMan64Recompiled",
+    "fullName": "MegaMan64Recomp/MegaMan64Recompiled",
+    "description": "Recompilation of Mega Man 64",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 281,
+    "homepage": null,
+    "pushedAt": "2026-04-30T20:35:04Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "v0.9.1",
+      "name": "Mega Man 64: Recompiled 0.9.1",
+      "publishedAt": "2026-04-30T20:35:04Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "MegaMan64Recompiled-v0.9.1-Windows.zip",
+          "size": 24721093,
+          "digest": "sha256:21e31bda2cb09808c0ed18c63b89faa6c2328c082fd8880c4acbdf3c6390931a"
+        }
+      ],
+      "zips": {
+        "MegaMan64Recompiled-v0.9.1-Windows.zip": {
+          "entryCount": 44,
+          "executables": [
+            "MegaMan64Recompiled.exe"
+          ],
+          "topLevel": [
+            "dxcompiler.dll",
+            "MegaMan64Recompiled.exe",
+            "dxil.dll",
+            "SDL2.dll",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "Mr-Wiseguy/Zelda64Recomp",
+    "fullName": "Zelda64Recomp/Zelda64Recomp",
+    "description": "Static recompilation of Majora's Mask (and soon Ocarina of Time) for PC (Windows/Linux/Mac)",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 7591,
+    "homepage": "",
+    "pushedAt": "2026-09-25T18:57:57Z",
+    "releaseCount": 7,
+    "release": {
+      "tag": "v1.2.2",
+      "name": "v1.2.2",
+      "publishedAt": "2025-08-27T00:58:35Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Zelda64Recompiled-v1.2.2-Windows.zip",
+          "size": 28940501,
+          "digest": "sha256:d02b95f1cf5e4d44d6587fa6136c6db521f61aa41ba8700c05f91bea8b0a26d0"
+        }
+      ],
+      "zips": {
+        "Zelda64Recompiled-v1.2.2-Windows.zip": {
+          "entryCount": 43,
+          "executables": [
+            "Zelda64Recompiled.exe"
+          ],
+          "topLevel": [
+            "Zelda64Recompiled.exe",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "SDL2.dll",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\Zelda64Recompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable."
+    ],
+    "readmeSetupLines": [
+      "Simply provide your copy of the North American version of the game in the main menu and start playing! This project will automatically load assets from the provided copy, so there is no need to go through a separate extraction step or build the game yourself. …",
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "new-coke/strikers",
+    "fullName": "new-coke/strikers",
+    "description": "Super Mario Strikers for PC, Mac, Linux & Nintendo Switch. Ported from decompiled code. Not a recompilation.",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 382,
+    "homepage": "",
+    "pushedAt": "2026-11-05T16:35:56Z",
+    "releaseCount": 9,
+    "release": {
+      "tag": "v1.3.0",
+      "name": "v1.3.0 - Nintendo Switch port, custom texture pack support, Discord Rich Presence, various fixes and tweaks",
+      "publishedAt": "2026-09-22T15:26:18Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "strikers-windows-x86_64.zip",
+          "size": 39998197,
+          "digest": "sha256:1f42a9e3c2eabe828311f706151b9efe170c2bb6410feb6a531780e89cd93f5c"
+        }
+      ],
+      "zips": {
+        "strikers-windows-x86_64.zip": {
+          "entryCount": 297,
+          "executables": [
+            "strikers-settings.exe",
+            "strikers.exe"
+          ],
+          "topLevel": [
+            "benchmark.ps1",
+            "concrt140.dll",
+            "D3Dcompiler_47.dll",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "generic",
+            "iconengines",
+            "imageformats",
+            "input-prompts",
+            "LICENSE-APACHE-2.0.txt",
+            "LICENSE-AURORA.txt",
+            "LICENSE-BOREALIS.txt",
+            "LICENSE-BSD.TXT",
+            "LICENSE-CC0.txt",
+            "LICENSE-DAWN.txt",
+            "LICENSE-FMT.txt",
+            "LICENSE-FREETYPE.txt",
+            "LICENSE-GPL-2.0.txt",
+            "LICENSE-GPL-3.0.txt",
+            "LICENSE-IMGUI.txt",
+            "LICENSE-LGPL-2.1.txt",
+            "LICENSE-LGPL-3.0.txt",
+            "LICENSE-MUSYX.txt",
+            "LICENSE-NLOHMANN-JSON.txt",
+            "LICENSE-XXHASH.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "NoRain211/doaxvb-re",
+    "fullName": "NoRain211/doaxvb-re",
+    "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 246,
+    "homepage": "https://github.com/NoRain211/doaxbv-re/releases/latest",
+    "pushedAt": "2026-11-05T21:34:42Z",
+    "releaseCount": 15,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "open **Build**, choose your ISO and press **Build game**. Wait for **Build"
+    ]
+  },
+  {
+    "repo": "novapowers0/BloodyRoar2Recomp",
+    "fullName": "novapowers0/BloodyRoar2Recomp",
+    "description": "PSX recompilation of Bloody Roar II (SLES-01722 EU / SCUS-94424 USA). Anti-copyright: bring your own disc. Dual-region builds, from-scratch widescreen + curated mods.",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 91,
+    "homepage": "",
+    "pushedAt": "2026-10-13T00:41:10Z",
+    "releaseCount": 6,
+    "readmeHashLines": [
+      "The `recomp-ui` gitlink is updated to `b688ca79109bc3cc30a6f9de66d81ea70f0acf81`;",
+      "`219a3627f817c5ad60b852d368c1bebc4f584b71`."
+    ],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "first run and remembers it.",
+      "├── disc/                # NOT included. Your legal copy of the game (.bin/.cue) — see baserom.md",
+      "your **legally obtained** copy of *Bloody Roar II* (the `.bin` / `.cue` disc"
+    ]
+  },
+  {
+    "repo": "OpenDriver2/REDRIVER2",
+    "fullName": "OpenDriver2/REDRIVER2",
+    "description": "Driver 2 Playstation game reverse engineering effort",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 1451,
+    "homepage": "https://opendriver2.github.io/",
+    "pushedAt": "2026-09-22T12:58:13Z",
+    "releaseCount": 14,
+    "release": {
+      "tag": "7.4-rc2",
+      "name": "REDRIVER2 release candidate 2",
+      "publishedAt": "2022-02-04T19:01:30Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "REDRIVER2_Win32_Release.zip",
+          "size": 9772801,
+          "digest": null
+        },
+        {
+          "name": "REDRIVER2_Win32_Release_dev.zip",
+          "size": 9745348,
+          "digest": null
+        }
+      ],
+      "zips": {
+        "REDRIVER2_Win32_Release.zip": {
+          "entryCount": 102,
+          "executables": [
+            "REDRIVER2.exe",
+            "Launcher.exe"
+          ],
+          "topLevel": [
+            "config.ini",
+            "cutscene_recorder.ini",
+            "DRIVER2",
+            "install",
+            "OpenAL32.dll",
+            "PsyCross.lib",
+            "PsyCross.pdb",
+            "REDRIVER2.exe",
+            "REDRIVER2.exp",
+            "REDRIVER2.lib",
+            "REDRIVER2.pdb",
+            "SDL2.dll",
+            "_convert_cd_fmv_xa.bat",
+            "_convert_cd_fmv_xa.sh",
+            "Launcher.exe"
+          ]
+        },
+        "REDRIVER2_Win32_Release_dev.zip": {
+          "entryCount": 102,
+          "executables": [
+            "REDRIVER2_dev.exe",
+            "Launcher.exe"
+          ],
+          "topLevel": [
+            "config.ini",
+            "cutscene_recorder.ini",
+            "DRIVER2",
+            "install",
+            "OpenAL32.dll",
+            "PsyCross.lib",
+            "PsyCross.pdb",
+            "REDRIVER2_dev.exe",
+            "REDRIVER2_dev.exp",
+            "REDRIVER2_dev.lib",
+            "REDRIVER2_dev.pdb",
+            "SDL2.dll",
+            "_convert_cd_fmv_xa.bat",
+            "_convert_cd_fmv_xa.sh",
+            "Launcher.exe"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "open-goal/jak-project",
+    "fullName": "open-goal/jak-project",
+    "description": "Reviving the language that brought us the Jak & Daxter Series",
+    "archived": false,
+    "fork": false,
+    "license": "ISC",
+    "stars": 3632,
+    "homepage": "https://opengoal.dev",
+    "pushedAt": "2026-11-03T17:45:58Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v0.3.9",
+      "name": "v0.3.9",
+      "publishedAt": "2026-10-15T23:15:46Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "opengoal-lsp-windows-v0.3.9.exe",
+          "size": 17098752,
+          "digest": "sha256:4a56c5396d60c7601325c04cc1624059ad2ef374aab48182093ceea81d78c703"
+        },
+        {
+          "name": "opengoal-windows-v0.3.9.zip",
+          "size": 42598650,
+          "digest": "sha256:d2000d4d934313541ac38cb1a801838dac1447b623b4fae58638fd319864a162"
+        }
+      ],
+      "zips": {
+        "opengoal-windows-v0.3.9.zip": {
+          "entryCount": 5020,
+          "executables": [
+            "extractor.exe",
+            "gk.exe",
+            "goalc.exe"
+          ],
+          "topLevel": [
+            "data",
+            "extractor.exe",
+            "gk.exe",
+            "goalc.exe"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "<a href=\"https://www.codacy.com/gh/open-goal/jak-project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=open-goal/jak-project&amp;utm_campaign=Badge_Grade\" rel=\"nofollow\"><img src=\"https://app.codacy.com/project/badge/Grade/29316d04a16…"
+    ],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "> **Do not use this decompilation project without the use of your own legally purchased copy of the game.** OpenGOAL does not include any assets from the original games, so you must provide your own legitimately obtained PS2 copy of the game. OpenGOAL supports…",
+      "> `Input file iso_data/jak1/MUS/TWEAKVAL.MUS does not exist.`"
+    ]
+  },
+  {
+    "repo": "open-goal/launcher",
+    "fullName": "open-goal/launcher",
+    "description": "A launcher for the OpenGOAL Project to simplify usage and installation",
+    "archived": false,
+    "fork": false,
+    "license": "ISC",
+    "stars": 250,
+    "homepage": null,
+    "pushedAt": "2026-11-01T21:03:26Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v2.11.2",
+      "name": "v2.11.2",
+      "publishedAt": "2026-10-09T18:23:28Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "OpenGOAL-Launcher_2.11.2_x64.app.tar.gz",
+          "size": 16731032,
+          "digest": "sha256:b584e6838c1a89fbfa4e97b1a115e9787386ad93ca8ab4e9fa47e8d1dcfb37af"
+        },
+        {
+          "name": "OpenGOAL-Launcher_2.11.2_x64.app.tar.gz.sig",
+          "size": 440,
+          "digest": "sha256:e892708841494ace7cbbe1f0c36eddf1280a2f78419bef21ce6489f99a0767d9"
+        },
+        {
+          "name": "OpenGOAL-Launcher_2.11.2_x64_en-US.msi",
+          "size": 16228352,
+          "digest": "sha256:a2a2b6f8198edf5e9b2f164d2ec31d450df029ecafca8f5758f03c3e6318d211"
+        },
+        {
+          "name": "OpenGOAL-Launcher_2.11.2_x64_en-US.msi.sig",
+          "size": 452,
+          "digest": "sha256:89293825211a679cc0ed601f588d9c3e81a5385bddcdccdfea879d170bb5c972"
+        },
+        {
+          "name": "OpenGOAL-Launcher_2.11.2_x64_en-US.msi.zip",
+          "size": 16228526,
+          "digest": "sha256:f943e59c7e6ad2f3bc97b22a6d84111c6dc38d7ee51bb09cc381b0bcfbcae2f0"
+        },
+        {
+          "name": "OpenGOAL-Launcher_2.11.2_x64_en-US.msi.zip.sig",
+          "size": 456,
+          "digest": "sha256:e0cd910982797759136b6e9b65f76aec28fb6326523c4706af601089e0b9fc61"
+        }
+      ],
+      "zips": {
+        "OpenGOAL-Launcher_2.11.2_x64_en-US.msi.zip": {
+          "entryCount": 1,
+          "executables": [],
+          "topLevel": [
+            "OpenGOAL-Launcher_2.11.2_x64_en-US.msi"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "| Windows          | C://Users/<YOUR_USER_NAME>/AppData/Roaming/OpenGOAL-Launcher/logs |"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "phoboslab/wipeout-rewrite",
+    "fullName": "phoboslab/wipeout-rewrite",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 3008,
+    "homepage": null,
+    "pushedAt": "2026-09-27T13:52:26Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Since this repository contains a `CMakeSettings.json` file, there should already"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "portingpete/The-Darkness-Recomp",
+    "fullName": "portingpete/The-Darkness-Recomp",
+    "description": "A native PC port of The Darkness (Xbox 360) for Windows, featuring DirectX 11 graphics, mouse and keyboard controls, and customizable settings.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 389,
+    "homepage": null,
+    "pushedAt": "2026-10-30T12:21:53Z",
+    "releaseCount": 9,
+    "release": {
+      "tag": "v0.1.8",
+      "name": "v0.1.8 - Steam Deck AppImage, 4:3 output, and media packs",
+      "publishedAt": "2026-10-27T14:09:19Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "The-Darkness-Recomp-v0.1.8-windows-x64.zip",
+          "size": 44570424,
+          "digest": "sha256:8b623e36b1a1c28d8a0dc5ed3c0bd7a4426e5a50f6598245eed7e29834d981b5"
+        },
+        {
+          "name": "The-Darkness-Recomp-v0.1.8-windows-x64.zip.sha256",
+          "size": 110,
+          "digest": "sha256:56ffde5ea102c81e51b93120a4434c53a4e05d2853b951ba0b62bb2927ba8beb"
+        }
+      ],
+      "zips": {
+        "The-Darkness-Recomp-v0.1.8-windows-x64.zip": {
+          "entryCount": 50,
+          "executables": [
+            "build_native/Release/DarkRecomp.exe",
+            "build_native/Release/DarkRecompPreview.exe",
+            "build_native/Release/DarkRecompSettings.exe"
+          ],
+          "topLevel": [
+            "CONTROLS.md",
+            "COPYING",
+            "Launch.cmd",
+            "Launch.sh",
+            "LaunchWithSettings.cmd",
+            "LaunchWithUpdates.cmd",
+            "PlayLinux.cmd",
+            "README.md",
+            "RENDERING.md",
+            "START_HERE.txt",
+            "STEAM_DECK.md",
+            "SetupLinux.cmd",
+            "ThirdParty",
+            "assets",
+            "build_native",
+            "tools",
+            "Darkness",
+            "RELEASE.json"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "[assets/localization/native_menu_ru.json](assets/localization/native_menu_ru.json).",
+      "Keep `Darkness/`, `saves/`, and `DarkRecomp.settings.ini` to preserve your game"
+    ],
+    "readmeSetupLines": [
+      "2. Copy **all files and folders** from your extracted Xbox 360 dump into the",
+      "recognized automatically. Copy all files from the matching dump, including its",
+      "Permissions**, then open it to select your own extracted game dump and a parent",
+      "a separate source/build copy outside your installation and copies your dump",
+      "1. Copy your complete original extracted dump into `Darkness/`. Keep the included",
+      "Copy every file and folder from your dump, including any language content:"
+    ]
+  },
+  {
+    "repo": "qurious-pixel/SMAS_Launcher",
+    "fullName": "qurious-pixel/SMAS_Launcher",
+    "description": null,
+    "archived": false,
+    "fork": true,
+    "license": null,
+    "stars": 61,
+    "homepage": null,
+    "pushedAt": "2023-11-03T23:22:49Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "launcher",
+      "name": "SMAS_Launcher",
+      "publishedAt": "2023-10-19T12:27:06Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "SMAS_LAUNCHER_Windows.zip",
+          "size": 51532477,
+          "digest": null
+        }
+      ],
+      "zips": {
+        "SMAS_LAUNCHER_Windows.zip": {
+          "entryCount": 1,
+          "executables": [
+            "launcher.exe"
+          ],
+          "topLevel": [
+            "launcher.exe"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "4. Copy the Super Mario All-Stars ROM (smas.sfc) and Super Mario World ROM (smw.sfc) into the same folder.",
+      "3. Copy the Super Mario All-Stars ROM (smas.sfc) and Super Mario World ROM (smw.sfc) into the same folder."
+    ]
+  },
+  {
+    "repo": "RadzPrower/Super-Metroid-Launcher",
+    "fullName": "RadzPrower/Super-Metroid-Launcher",
+    "description": "Conversion of Zelda 3 Launcher to Super Metroid Launcher",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 215,
+    "homepage": null,
+    "pushedAt": "2026-10-23T14:35:06Z",
+    "releaseCount": 2,
+    "readmeHashLines": [
+      "SHA256: `12B77C4BC9C1832CEE8881244659065EE1D84C70C3D29E6EAF92E6798CC2CA72`"
+    ],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "1. A legitimately obtained copy of the Super Metroid (US) ROM.",
+      "4. Click the download button. If you happen to have a `sm.sfc` file in the same directory as the executable, it will copy it over automatically for you, but if not, a file selection dialog will open and allow you to select your ROM file (naming is not importan…"
+    ]
+  },
+  {
+    "repo": "RadzPrower/Zelda-3-Launcher",
+    "fullName": "RadzPrower/Zelda-3-Launcher",
+    "description": "An all-purpose GUI tool to download, extract, compile, and launch Zelda 3 on PC.",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 491,
+    "homepage": null,
+    "pushedAt": "2026-10-20T14:45:09Z",
+    "releaseCount": 13,
+    "readmeHashLines": [
+      "1. A legitimately obtained copy of the Zelda 3 (A Link to the Past) US ROM. `66871d66be19ad2c34c927d6b14cd8eb6fc3181965b6e517cb361f7316009cfb`"
+    ],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "1. A legitimately obtained copy of the Zelda 3 (A Link to the Past) US ROM. `66871d66be19ad2c34c927d6b14cd8eb6fc3181965b6e517cb361f7316009cfb`",
+      "4. Click the download button. If you happen to have a `zelda3.sfc` file in the same directory as the executable, it will copy it over automatically for you, but if not, a file selection dialog will open and allow you to select your ROM file (naming is not impo…"
+    ]
+  },
+  {
+    "repo": "Rainchus/ChameleonTwist1-JP-Recomp",
+    "fullName": "Rainchus/ChameleonTwist1-JP-Recomp",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 61,
+    "homepage": null,
+    "pushedAt": "2025-03-11T04:41:16Z",
+    "releaseCount": 1,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\ChameleonTwistRecompiled\\saves`"
+    ],
+    "readmeSetupLines": [
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "Rainchus/Donkey-Kong-64-Recompiled",
+    "fullName": "Rainchus/Donkey-Kong-64-Recompiled",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 573,
+    "homepage": null,
+    "pushedAt": "2026-09-30T00:21:10Z",
+    "releaseCount": 4,
+    "release": {
+      "tag": "v1.0.3",
+      "name": "DK64 Rekongpiled 1.0.3",
+      "publishedAt": "2026-09-30T00:21:10Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "DK64Recompiled-Windows-Release-1-0-3.zip",
+          "size": 19986113,
+          "digest": "sha256:bfde3985365247f083ee47568b496eaf8a4a0845155a95802bc8f4a4871c60d5"
+        }
+      ],
+      "zips": {
+        "DK64Recompiled-Windows-Release-1-0-3.zip": {
+          "entryCount": 47,
+          "executables": [
+            "DK64Recompiled.exe"
+          ],
+          "topLevel": [
+            "DK64Recompiled.exe",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "SDL2.dll",
+            "libcurl.dll",
+            "zlib1.dll",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\DK64Recompiled\\saves`"
+    ],
+    "readmeSetupLines": [
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "Rainchus/Quest64-Recomp",
+    "fullName": "Rainchus/Quest64-Recomp",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 286,
+    "homepage": null,
+    "pushedAt": "2026-09-29T01:15:22Z",
+    "releaseCount": 1,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\Quest64Recompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable."
+    ],
+    "readmeSetupLines": [
+      "Simply provide your copy of the 1.0 North American version of the game in the main menu and start playing! This project will automatically load assets from the provided copy, so there is no need to go through a separate extraction step or build the game yourse…",
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "RevoSucks/BM64Recomp",
+    "fullName": "RevoSucks/BM64Recomp",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 310,
+    "homepage": null,
+    "pushedAt": "2026-03-25T20:52:36Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "v1.0.0",
+      "name": "v1.0.0 - Initial Release",
+      "publishedAt": "2026-03-22T22:47:19Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "BM64Recompiled-Windows-RelWithDebInfo.zip",
+          "size": 25227040,
+          "digest": "sha256:c47a260901c45550b69380fa6dc9e9a0e3cbc8c0d6149be4a96fedf3283a1e96"
+        }
+      ],
+      "zips": {
+        "BM64Recompiled-Windows-RelWithDebInfo.zip": {
+          "entryCount": 45,
+          "executables": [
+            "BM64Recompiled.exe"
+          ],
+          "topLevel": [
+            "BM64Recompiled.exe",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "SDL2.dll",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\BM64Recompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable."
+    ],
+    "readmeSetupLines": [
+      "Simply provide your copy of the 1.0 North American version of the game in the main menu and start playing! This project will automatically load assets from the provided copy, so there is no need to go through a separate extraction step or build the game yourse…",
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "RevoSucks/BMHeroRecomp",
+    "fullName": "RevoSucks/BMHeroRecomp",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 127,
+    "homepage": null,
+    "pushedAt": "2026-05-12T03:54:09Z",
+    "releaseCount": 5,
+    "release": {
+      "tag": "v0.7.1",
+      "name": "Bomberman Hero: Recompiled (v0.7.1) (stable beta)",
+      "publishedAt": "2026-05-03T20:48:20Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "BMHeroRecompiled-Windows-RelWithDebInfo.zip",
+          "size": 18577511,
+          "digest": "sha256:d6a865b4e1adb17860ccc6faf15306ce4a7c885b4dc16b0989e01e1c7bbcb58d"
+        }
+      ],
+      "zips": {
+        "BMHeroRecompiled-Windows-RelWithDebInfo.zip": {
+          "entryCount": 53,
+          "executables": [
+            "BMHeroRecompiled.exe"
+          ],
+          "topLevel": [
+            "dxcompiler.dll",
+            "BMHeroRecompiled.exe",
+            "dxil.dll",
+            "SDL2.dll",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\BMHeroRecompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable."
+    ],
+    "readmeSetupLines": [
+      "Simply provide your copy of the 1.0 North American version of the game in the main menu and start playing! This project will automatically load assets from the provided copy, so there is no need to go through a separate extraction step or build the game yourse…",
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "Rinnegatamante/Crash-Team-Racing-High-Octane",
+    "fullName": "Rinnegatamante/Crash-Team-Racing-High-Octane",
+    "description": "Advanced sourceport of Crash Team Racing for PSVita, PC and Web Browser.",
+    "archived": false,
+    "fork": true,
+    "license": "GPL-3.0",
+    "stars": 221,
+    "homepage": "",
+    "pushedAt": "2026-10-31T15:38:56Z",
+    "releaseCount": 8,
+    "release": {
+      "tag": "v.1.5",
+      "name": "v.1.5",
+      "publishedAt": "2026-10-12T22:52:04Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "ctr-high-octane-x64.win.zip",
+          "size": 2403121,
+          "digest": "sha256:005924af516a3cb2bcdc19269422e2de77719600656e5b00df45424fe081693e"
+        }
+      ],
+      "zips": {
+        "ctr-high-octane-x64.win.zip": {
+          "entryCount": 3,
+          "executables": [
+            "Crash Team Racing - High Octane.exe"
+          ],
+          "topLevel": [
+            "Crash Team Racing - High Octane.exe",
+            "assets"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "- Dump your US copy of `Crash Team Racing` for PS1 and place the bin file in `ux0:data/ctr/assets` named as `ctr-u.bin`.",
+      "- Place your PAL Crash Team Racing `.bin` dump in the same folder as the script.",
+      "- Place your NTSC-U Crash Team Racing `.bin` dump in the same folder as the script."
+    ]
+  },
+  {
+    "repo": "Rubberduckycooly/Sonic-1-2-2013-Decompilation",
+    "fullName": "RSDKModding/RSDKv4-Decompilation",
+    "description": "A complete decompilation of Sonic 1 & Sonic 2 (2013) & Retro Engine (v4)",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 1158,
+    "homepage": "",
+    "pushedAt": "2026-10-28T15:13:07Z",
+    "releaseCount": 9,
+    "release": {
+      "tag": "1.3.3",
+      "name": "Version 1.3.3",
+      "publishedAt": "2025-11-02T00:48:00Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "v4-windows-x64.zip",
+          "size": 1350673,
+          "digest": "sha256:e491bb9556b48bdb1fd656801a5bd7ce19dc0b7a31693bff754f619a9a8fa814"
+        },
+        {
+          "name": "v4-windows.zip",
+          "size": 1198568,
+          "digest": "sha256:ce29bfeb04dbe334d76d4bff8dface26ef5f5bfe9d7ee39a18efc7f4422c1078"
+        }
+      ],
+      "zips": {
+        "v4-windows-x64.zip": {
+          "entryCount": 1,
+          "executables": [
+            "RSDKv4.exe"
+          ],
+          "topLevel": [
+            "RSDKv4.exe"
+          ]
+        },
+        "v4-windows.zip": {
+          "entryCount": 1,
+          "executables": [
+            "RSDKv4.exe"
+          ],
+          "topLevel": [
+            "RSDKv4.exe"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "* Added a built in mod loader and API, allowing to easily create and play mods with features such as save file redirection, custom achievements and XML GameConfig data.",
+      "* There is now a `settings.ini` file that the game uses to load all settings, similar to Sonic Mania.",
+      "Before opening the server, all players need to edit the decompilation's `settings.ini` file to set `Host` and `Port` in the `Network` category to your local IPv4 address and the target port number, respectively. If you don't know what your local IPv4 address i…"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "Rubberduckycooly/Sonic-CD-11-Decompilation",
+    "fullName": "RSDKModding/RSDKv3-Decompilation",
+    "description": "A Full Decompilation of Sonic CD (2011) & Retro Engine (v3) ",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 715,
+    "homepage": "",
+    "pushedAt": "2026-10-26T04:31:50Z",
+    "releaseCount": 7,
+    "release": {
+      "tag": "1.3.3",
+      "name": "1.3.3",
+      "publishedAt": "2025-11-02T00:12:09Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "v3-windows-x64.zip",
+          "size": 1269201,
+          "digest": "sha256:6301768d67c06fd81a8bea598d318a9115cd2fca228fe6c98660e76337b8ae53"
+        },
+        {
+          "name": "v3-windows.zip",
+          "size": 1135650,
+          "digest": "sha256:2f404969a46c9c7344a7b0534413365f03e23f015f10694f3005454d610a4009"
+        }
+      ],
+      "zips": {
+        "v3-windows-x64.zip": {
+          "entryCount": 1,
+          "executables": [
+            "RSDKv3.exe"
+          ],
+          "topLevel": [
+            "RSDKv3.exe"
+          ]
+        },
+        "v3-windows.zip": {
+          "entryCount": 1,
+          "executables": [
+            "RSDKv3.exe"
+          ],
+          "topLevel": [
+            "RSDKv3.exe"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "* Controls are completely remappable via the settings.ini file.",
+      "* Added a built in mod loader and API, allowing to easily create and play mods with features such as save file redirection and XML GameConfig data.",
+      "* There is now a settings.ini file that the game uses to load all settings, similar to Sonic Mania."
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "Rubberduckycooly/Sonic-Mania-Decompilation",
+    "fullName": "RSDKModding/Sonic-Mania-Decompilation",
+    "description": "A complete decompilation of Sonic Mania (2017)",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 827,
+    "homepage": "",
+    "pushedAt": "2026-10-20T21:47:08Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "v1.1.1",
+      "name": "v1.1.1",
+      "publishedAt": "2025-11-01T23:53:19Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "mania-windows-x64.zip",
+          "size": 2944446,
+          "digest": "sha256:7a0698087e3ffdb1eff2e4f8dfe8b17bdfcef879cf07dc2a9294d241bbdcc356"
+        },
+        {
+          "name": "mania-windows.zip",
+          "size": 2218492,
+          "digest": "sha256:b0587fc03d750a12f581d553f765f6d238fca53ebbdb0da750cd8008af9d00e7"
+        }
+      ],
+      "zips": {
+        "mania-windows-x64.zip": {
+          "entryCount": 2,
+          "executables": [],
+          "topLevel": [
+            "v5",
+            "v5U"
+          ]
+        },
+        "mania-windows.zip": {
+          "entryCount": 2,
+          "executables": [],
+          "topLevel": [
+            "v5",
+            "v5U"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "| mod.ini",
+      "Inside `mods/GLShaders/Data/`, copy the `RSDKv5/Shaders` directory, and inside the `mod.ini`, paste this:"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "Shmargus/GSRecomp",
+    "fullName": "Shmargus/GSRecomp",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 87,
+    "homepage": null,
+    "pushedAt": "2026-11-03T18:56:50Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "0.7.1",
+      "name": "Golden Sun Recompiled 0.7.1",
+      "publishedAt": "2026-11-03T18:56:50Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "GoldenSunRecompiled-0.7.1-windows.zip",
+          "size": 62011068,
+          "digest": "sha256:3836db37fe961a6da6174cc42cca80f30e5f7d74f0e542aade8d6bde3785d0d6"
+        }
+      ],
+      "zips": {
+        "GoldenSunRecompiled-0.7.1-windows.zip": {
+          "entryCount": 1028,
+          "executables": [
+            "Golden Sun Recompiled/GoldenSunLauncher.exe",
+            "Golden Sun Recompiled/games/mingw64/bin/g++.exe",
+            "Golden Sun Recompiled/games/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/cc1plus.exe",
+            "Golden Sun Recompiled/games/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/collect2.exe",
+            "Golden Sun Recompiled/games/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe",
+            "Golden Sun Recompiled/games/mingw64/x86_64-w64-mingw32/bin/as.exe",
+            "Golden Sun Recompiled/games/mingw64/x86_64-w64-mingw32/bin/ld.exe",
+            "Golden Sun Recompiled/games/The Broken Seal/GoldenSunRecomp.exe",
+            "Golden Sun Recompiled/games/The Broken Seal/builder/gba_recompile.exe",
+            "Golden Sun Recompiled/games/The Broken Seal/builder/gsr_builder.exe",
+            "Golden Sun Recompiled/games/The Lost Age/TLARecomp.exe",
+            "Golden Sun Recompiled/games/The Lost Age/builder/gba_recompile.exe",
+            "Golden Sun Recompiled/games/The Lost Age/builder/gsr_builder.exe"
+          ],
+          "topLevel": [
+            "Golden Sun Recompiled"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "Broken Seal or The Lost Age, and choose that game's ROM. It remembers each.",
+      "3. On first start, and after an update, the launcher builds the game code from",
+      "per game. On first launch, existing bindings from that game seed the shared"
+    ]
+  },
+  {
+    "repo": "sm64pc/sm64ex",
+    "fullName": "sm64pc/sm64ex",
+    "description": "Fork of https://github.com/sm64-port/sm64-port with additional features.",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 1882,
+    "homepage": "",
+    "pushedAt": "2024-12-17T14:37:36Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "* Support for both little-endian and big-endian save files (meaning you can use save files from both sm64-port and most emulators), as well as an optional text-based save format.",
+      "Recent changes in Nightly have moved the save and configuration file path to `%HOMEPATH%\\AppData\\Roaming\\sm64ex` on Windows and `$HOME/.local/share/sm64ex` on Linux. This behaviour can be changed with the `--savepath` CLI option."
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "snesrev/sm",
+    "fullName": "snesrev/sm",
+    "description": "early version",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 565,
+    "homepage": null,
+    "pushedAt": "2023-08-21T22:53:49Z",
+    "releaseCount": 0,
+    "readmeHashLines": [
+      "Put sm.smc (sha1 hash da957f0d63d14cb441d215462904c4fa8519c613) in the root folder. When running, it will run both versions and compare frame by frame. If it detects a mismatch, it saves a snapshot in saves/ and displays a counter on screen counting down from …"
+    ],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "snesrev/smw",
+    "fullName": "snesrev/smw",
+    "description": "Smw",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 653,
+    "homepage": "https://discord.gg/AJJbJAzNNJ",
+    "pushedAt": "2024-01-22T23:14:55Z",
+    "releaseCount": 1,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "(7) Configure with smw.ini in a text editor like notepad++<br>",
+      "The keys can be reconfigured in smw.ini"
+    ],
+    "readmeSetupLines": [
+      "You need a copy of the ROM to extract game resources (levels, images). Then once that's done, the ROM is no longer needed.",
+      "(3) Place your USA rom named smw.sfc in that folder<br>"
+    ]
+  },
+  {
+    "repo": "snesrev/zelda3",
+    "fullName": "snesrev/zelda3",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 4987,
+    "homepage": "https://discord.gg/AJJbJAzNNJ",
+    "pushedAt": "2026-10-02T23:58:23Z",
+    "releaseCount": 1,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "(7) Configure with zelda3.ini in a text editor like notepad++<br>",
+      "The keys can be reconfigured in zelda3.ini"
+    ],
+    "readmeSetupLines": [
+      "You need a copy of the ROM to extract game resources (levels, images). Then once that's done, the ROM is no longer needed.",
+      "(2) Place your USA rom named zelda3.sfc in that folder<br>"
+    ]
+  },
+  {
+    "repo": "sonicdcer/DNZHRecomp",
+    "fullName": "sonicdcer/DNZHRecomp",
+    "description": "Recompilation of Duke Nukem Zero Hour",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 208,
+    "homepage": "",
+    "pushedAt": "2025-11-03T00:08:08Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "0.0.3",
+      "name": "Alpha 0.0.3",
+      "publishedAt": "2025-11-01T22:11:40Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "DNZHRecompiled-0.0.3-Windows-RelWithDebInfo.zip",
+          "size": 24044294,
+          "digest": "sha256:ece88320327ffc58ec73e084c23aca274a016e45dd3558a684d59c37f88bdbc3"
+        }
+      ],
+      "zips": {
+        "DNZHRecompiled-0.0.3-Windows-RelWithDebInfo.zip": {
+          "entryCount": 47,
+          "executables": [
+            "DNZHRecompiled.exe"
+          ],
+          "topLevel": [
+            "DNZHRecompiled.exe",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "SDL2.dll",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\DNZHRecompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable."
+    ],
+    "readmeSetupLines": [
+      "Simply provide your copy of the North American version of the game in the main menu and start playing! This project will automatically load assets from the provided copy, so there is no need to go through a separate extraction step or build the game yourself.",
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "sonicdcer/MarioKart64Recomp",
+    "fullName": "sonicdcer/MarioKart64Recomp",
+    "description": "Mario Kart 64 for PC (Windows/Linux/MacOS)",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 622,
+    "homepage": "",
+    "pushedAt": "2026-11-04T20:55:25Z",
+    "releaseCount": 2,
+    "release": {
+      "tag": "v0.9.2",
+      "name": "MarioKart 64: Recompiled 0.9.2",
+      "publishedAt": "2026-02-13T17:30:04Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "MarioKart64Recompiled-v0.9.2-Windows-RelWithDebInfo.zip",
+          "size": 23847630,
+          "digest": "sha256:4b41226ad7d4c6012878194fa88fe1a83c1fa8f425dfbaa2a7ea87eb01c1c2b4"
+        }
+      ],
+      "zips": {
+        "MarioKart64Recompiled-v0.9.2-Windows-RelWithDebInfo.zip": {
+          "entryCount": 45,
+          "executables": [
+            "MarioKart64Recompiled.exe"
+          ],
+          "topLevel": [
+            "MarioKart64Recompiled.exe",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "SDL2.dll",
+            "assets",
+            "recompcontrollerdb.txt"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Windows: `%LOCALAPPDATA%\\MarioKart64Recompiled\\saves`",
+      "Yes, if you place a file named `portable.txt` in the same folder as the executable then this project will run in portable mode. In portable mode, the save files, config files, and mods are placed in the same folder as the executable."
+    ],
+    "readmeSetupLines": [
+      "Simply provide your copy of the North American version of the game in the main menu and start playing! This project will automatically load assets from the provided copy, so there is no need to go through a separate extraction step or build the game yourself.",
+      "#### How do I choose a different ROM?"
+    ]
+  },
+  {
+    "repo": "StonedModder/auto-tmc",
+    "fullName": "StonedModder/auto-tmc",
+    "description": "GUI to automate tmc setup (must provide own rom file) ",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 71,
+    "homepage": null,
+    "pushedAt": "2026-07-25T13:28:01Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "1.0.1",
+      "name": "",
+      "publishedAt": "2026-05-03T17:09:57Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "AutoTMC-Windows.exe",
+          "size": 25406861,
+          "digest": "sha256:078925edd8b1e2067cf2abb4160acfa8d62c672f8ecd23b353d00eee24ee7d6d"
+        }
+      ],
+      "zips": {}
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- **Windows**: `%APPDATA%\\AutoTMC\\config.json`",
+      "- **macOS/Linux**: `~/.AutoTMC/config.json`",
+      "- Delete the config file to reset to defaults",
+      "- Manually edit `config.json` in the AppData folder if needed"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "TekRantGaming/earthworm-jim-hd-recompiled",
+    "fullName": "TekRantGaming/earthworm-jim-hd-recompiled",
+    "description": "Native PC port of Earthworm Jim HD (Xbox Live Arcade) via static recompilation, with the TRG launcher",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 107,
+    "homepage": null,
+    "pushedAt": "2026-10-18T00:30:53Z",
+    "releaseCount": 7,
+    "release": {
+      "tag": "v0.9.6",
+      "name": "Earthworm Jim HD PC Port v0.9.6",
+      "publishedAt": "2026-10-18T00:30:53Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "EarthwormJimHD-v0.9.6-windows-x64.zip",
+          "size": 32436439,
+          "digest": "sha256:2c940956830f735b9c9ff31e2e590eb955ad4776ba20606ba1aa3beec8383bc7"
+        }
+      ],
+      "zips": {
+        "EarthwormJimHD-v0.9.6-windows-x64.zip": {
+          "entryCount": 8,
+          "executables": [
+            "EarthwormJimHD/earthworm_jim_hd.exe"
+          ],
+          "topLevel": [
+            "EarthwormJimHD"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "| `default.xex` | 26,726,400 bytes, CRC32 `D6366187`, SHA-1 `62D9D28A3BCE42843607C26AB4B200E91CB31203` |"
+    ],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "TekRantGaming/king-kong-recompiled",
+    "fullName": "TekRantGaming/king-kong-recompiled",
+    "description": "Native PC port of Peter Jackson's King Kong (Xbox 360) via static recompilation",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 265,
+    "homepage": null,
+    "pushedAt": "2026-11-05T02:29:26Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v2.1.0",
+      "name": "v2.1.0",
+      "publishedAt": "2026-11-05T02:29:42Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "KingKong-v2.1.0-windows-x64.zip",
+          "size": 421240317,
+          "digest": "sha256:79e930fcee33da1205ee50e3bedcd8da714ea2d5a9c15fc0506f46b72eea3de1"
+        }
+      ],
+      "zips": {
+        "KingKong-v2.1.0-windows-x64.zip": {
+          "entryCount": 326,
+          "executables": [
+            "KingKong/king_kong.exe",
+            "KingKong/launcher/easter-egg/LegallyDistinctGorilla.exe"
+          ],
+          "topLevel": [
+            "KingKong"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "| SHA-1 | `075F43709E9C9A095E099AB5056CC04B768288D1` |",
+      "| MD5 | `35D671ED4E9EAD9E6B288A3441B6C8F9` |"
+    ],
+    "readmePathLines": [
+      "**Playing together:** the host's game runs the story and the enemies, and your shots count in it. You see your partner in the world with their name over their head. Fall, and you come back next to your partner. The guest's own saves are kept apart from the hos…",
+      "- **Load game** lists your five saves. Your saves are copied to a backup folder before you play, and before one is deleted or overwritten",
+      "**Saving:** the game saves when you choose Save game, and when you quit from the pause menu with Quit to main menu or Quit game. Checkpoints are not saves, so if you close the window another way, for example with Alt+F4, progress since your last save is lost."
+    ],
+    "readmeSetupLines": [
+      "<sub>The original Xbox 360 game code, translated to native PC code with the <a href=\"https://github.com/rexglue/rexglue-sdk\">ReXGlue SDK</a>. <b>No game files included</b>: bring your own copy of the King Kong Xbox 360 disc.</sub>",
+      "3. Choose **Select disc image** and pick your King Kong disc image. The launcher checks it, copies the game files (about 6.3 GB) into a `game` folder next to the exe and takes its artwork from them.",
+      "The [game files page](https://kong.tekrantgaming.com/game-files.html) explains how to make an image of your own disc. We can't provide, link to or help you find game files.",
+      "4. Start it from Steam (Game Mode works too). The first start takes about half a minute while Steam sets Proton up for it. Pick your disc image as on Windows: your Linux home folder is on the **Z:** drive.",
+      "### First start",
+      "- The launcher asks for **your copy of the game** first, with a card showing exactly which disc works: pick your disc image and it checks it really is King Kong, then installs it",
+      "- **Ready before you play**: the graphics are prepared once on the first start. The port ships with a list of 17,652 graphics pipelines, built with the help of players who chose to share theirs, so new places stutter far less.",
+      "The game needs its effects (shaders) prepared before they can appear, which used to cause short pauses. Now the launcher prepares them on the first start and after an update, with one progress bar, and the game doesn't start until they are ready. This takes a …"
+    ]
+  },
+  {
+    "repo": "ThatGuyMcd/Rocket-R",
+    "fullName": "ThatGuyMcd/Rocket-R",
+    "description": "Rocket: Robot on Wheels - Recompiled by ThatGuyMcd",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 48,
+    "homepage": "",
+    "pushedAt": "2026-10-06T15:06:13Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "v.1.0.1",
+      "name": "Rocket-R v1.0.1 Public Release",
+      "publishedAt": "2026-09-27T22:48:32Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Rocket-R-1.0.1-Windows-x64.zip",
+          "size": 22735057,
+          "digest": "sha256:d47ba319b8aa6bc3a348258a8cd1a5cf0f693eb129c87b2fc895d6f15dd87db1"
+        }
+      ],
+      "zips": {
+        "Rocket-R-1.0.1-Windows-x64.zip": {
+          "entryCount": 71,
+          "executables": [
+            "Rocket-R.exe"
+          ],
+          "topLevel": [
+            "assets",
+            "CHANGELOG.md",
+            "docs",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "LICENSE",
+            "LICENSE.md",
+            "licenses",
+            "README.md",
+            "Rocket-R.exe",
+            "SDL2.dll",
+            "THIRD_PARTY.md"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "`622D71A44DA0B81EA68092CAC9198C66154A4F4A`."
+    ],
+    "readmePathLines": [
+      "to export a ZIP for your report. ROMs and saves are excluded."
+    ],
+    "readmeSetupLines": [
+      "| Android ARM64 | `Rocket-R-1.0.2-Android-arm64-v8a.apk` | Install the APK, open Rocket-R and choose your ROM. |",
+      "The desktop launcher accepts `.z64`, `.n64` and `.v64` files. Choose your ROM or",
+      "copy of the ROM you select so you don't need to choose it again each time."
+    ]
+  },
+  {
+    "repo": "theboy181/drmario64_recomp_plus",
+    "fullName": "theboy181/drmario64_recomp_plus",
+    "description": "Recompilation of Dr. Mario 64 ",
+    "archived": false,
+    "fork": true,
+    "license": "GPL-3.0",
+    "stars": 160,
+    "homepage": "",
+    "pushedAt": "2025-12-18T04:46:41Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "1.0.0",
+      "name": "Dr. Mario 64 Recompiled v1.0.0",
+      "publishedAt": "2025-12-18T04:36:00Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Dr.Mario.64.Recompiled-v1.0.0-Windows.zip",
+          "size": 24225142,
+          "digest": "sha256:ba749f48725e23636845c9a79a89e17859172ac80fa7b98bf4523d12c1f0d2cf"
+        }
+      ],
+      "zips": {
+        "Dr.Mario.64.Recompiled-v1.0.0-Windows.zip": {
+          "entryCount": 98,
+          "executables": [
+            "Dr. Mario 64 Recompiled x64-Release/drmario64_recomp.exe"
+          ],
+          "topLevel": [
+            "Dr. Mario 64 Recompiled x64-Release"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "(<https://github.com/AngheloAlf/drmario64>, commit `91dab37987bdad4d100958685cc10a011d4917dd`)",
+      "(<https://github.com/Mr-Wiseguy/N64Recomp>, commit `a13e5cff96686776b0e03baf23923e3c1927b770`)"
+    ],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "- Copy the generated `baserom_uncompressed.us.z64` from the decomp root"
+    ]
+  },
+  {
+    "repo": "TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+    "fullName": "TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+    "description": "Native Windows and Linux port of BattleTanx: Global Assault using N64Recomp, N64ModernRuntime, RT64, and SDL2",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 20,
+    "homepage": "https://www.youtube.com/watch?v=PrhwXBr1qJI",
+    "pushedAt": "2026-10-15T18:53:20Z",
+    "releaseCount": 6,
+    "release": {
+      "tag": "v0.2.5",
+      "name": "BattleTanx: Global Assault PC Port v0.2.5",
+      "publishedAt": "2026-10-13T19:08:22Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "BattleTanxGA-0.2.5-windows-x64-portable.zip",
+          "size": 13559683,
+          "digest": "sha256:1e4cebcdf9e38e5f24917148c25a2181b4e7df3f8c236f54734d706a3a91c8fc"
+        }
+      ],
+      "zips": {
+        "BattleTanxGA-0.2.5-windows-x64-portable.zip": {
+          "entryCount": 10,
+          "executables": [
+            "BattleTanxGA-0.2.5-windows-x64-portable/BattleTanxGA.exe"
+          ],
+          "topLevel": [
+            "BattleTanxGA-0.2.5-windows-x64-portable"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "- SHA-1: `805248fb0a0ee694cad8d7dc927b631d860dd8cf`",
+      "- SHA-256: `88268ce770ff39f2ca839848b842c87866df6c5ddaf775f180b2522c18ff6221`"
+    ],
+    "readmePathLines": [
+      "Portable installations are supported by placing an empty `portable.txt` next"
+    ],
+    "readmeSetupLines": [
+      "The input must be an existing local big-endian `.z64` dump. The command"
+    ]
+  },
+  {
+    "repo": "theokyr/Project8Recomp",
+    "fullName": "theokyr/Project8Recomp",
+    "description": "Native PC port of Tony Hawk's Project 8 (Xbox 360) by static recompilation.",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 54,
+    "homepage": "https://github.com/theokyr/Project8Recomp/releases/latest",
+    "pushedAt": "2026-08-24T13:46:17Z",
+    "releaseCount": 4,
+    "release": {
+      "tag": "v0.3.0",
+      "name": "Project8Recomp v0.3.0",
+      "publishedAt": "2026-08-24T13:53:28Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Project8Recomp-v0.3.0-windows-x86_64.zip",
+          "size": 21674894,
+          "digest": "sha256:f255842b916a98c8188259fa3da5931bcea639b6c656e82d26f8b274b69be436"
+        }
+      ],
+      "zips": {
+        "Project8Recomp-v0.3.0-windows-x86_64.zip": {
+          "entryCount": 44,
+          "executables": [
+            "Project8Recomp-v0.3.0-windows-x86_64/thps_p8_identify.exe",
+            "Project8Recomp-v0.3.0-windows-x86_64/Project8Recomp.exe",
+            "Project8Recomp-v0.3.0-windows-x86_64/thps_p8_gui.exe",
+            "Project8Recomp-v0.3.0-windows-x86_64/thps_p8_launch.exe",
+            "Project8Recomp-v0.3.0-windows-x86_64/thps_p8.exe"
+          ],
+          "topLevel": [
+            "Project8Recomp-v0.3.0-windows-x86_64"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Saves are in `saves/` and logs are in `logs/`, both inside the folder you"
+    ],
+    "readmeSetupLines": [
+      "3. It asks for your disc image. Point it at your `.iso`."
+    ]
+  },
+  {
+    "repo": "TwilitRealm/dusk",
+    "fullName": "TwilitRealm/dusklight",
+    "description": "Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.",
+    "archived": false,
+    "fork": false,
+    "license": "CC0-1.0",
+    "stars": 6241,
+    "homepage": "https://twilitrealm.dev",
+    "pushedAt": "2026-10-26T04:50:53Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v2.0.3",
+      "name": "v2.0.3",
+      "publishedAt": "2026-09-30T07:06:44Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Dusklight-v2.0.3-win32-x86_64.zip",
+          "size": 56037777,
+          "digest": "sha256:ac63514eeb13cd4e9bd22be02dabee4952d1331a78f0496326bba2b577b12caf"
+        }
+      ],
+      "zips": {
+        "Dusklight-v2.0.3-win32-x86_64.zip": {
+          "entryCount": 63,
+          "executables": [
+            "crashpad_handler.exe",
+            "dusklight.exe"
+          ],
+          "topLevel": [
+            "SDL3.dll",
+            "brotlicommon.dll",
+            "brotlidec.dll",
+            "bz2.dll",
+            "crashpad_handler.exe",
+            "d3dcompiler_47.dll",
+            "dusklight.exe",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "freetype.dll",
+            "initial_pipeline_cache.db",
+            "libpng16.dll",
+            "mods",
+            "msvcp140.dll",
+            "msvcp140_atomic_wait.dll",
+            "nod.dll",
+            "res",
+            "sdk",
+            "vcruntime140.dll",
+            "vcruntime140_1.dll",
+            "webgpu_dawn.dll",
+            "z.dll",
+            "zstd.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "> Dusklight does *not* provide any copyrighted assets. You must provide your own copy of the original game."
+    ]
+  },
+  {
+    "repo": "Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled",
+    "fullName": "Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled",
+    "description": "Native decompilation and recompilation of Yu-Gi-Oh! Forbidden Memories",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 289,
+    "homepage": null,
+    "pushedAt": "2026-11-05T06:00:05Z",
+    "releaseCount": 12,
+    "release": {
+      "tag": "v0.3.0",
+      "name": "v0.3.0",
+      "publishedAt": "2026-10-11T15:30:19Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "fm-editor-v0.3.0-windows.zip",
+          "size": 14925102,
+          "digest": "sha256:e833c4ee9a68c198707f5e13fe3f987c62dfb89070e382591f7024a50841f980"
+        },
+        {
+          "name": "yfm-redecomp-v0.3.0-windows.zip",
+          "size": 7829947,
+          "digest": "sha256:40f1fedd363c0db193f8d67dff48c49ebc375f5aa903279fd70d7c622ccb63a6"
+        }
+      ],
+      "zips": {
+        "fm-editor-v0.3.0-windows.zip": {
+          "entryCount": 1000,
+          "executables": [
+            "yfm-redecomp-v0.3.0/fm-editor.exe"
+          ],
+          "topLevel": [
+            "yfm-redecomp-v0.3.0"
+          ]
+        },
+        "yfm-redecomp-v0.3.0-windows.zip": {
+          "entryCount": 835,
+          "executables": [
+            "yfm-redecomp-v0.3.0/memories-pc.exe"
+          ],
+          "topLevel": [
+            "yfm-redecomp-v0.3.0"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "save is copied into an empty slot (the card file is renamed `.imported`) and you can load it."
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "Vidanox/BanjoTooieRecompiled",
+    "fullName": "Vidanox/BanjoTooieRecompiled",
+    "description": null,
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 26,
+    "homepage": null,
+    "pushedAt": "2026-10-25T21:36:32Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "v1.0.1",
+      "name": "v1.0.1",
+      "publishedAt": "2026-10-25T21:36:32Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "BanjoTooieRecompiled-windows-x64.zip",
+          "size": 20697028,
+          "digest": "sha256:cc34db186c61b432505fd2ce38c0686edcc6283a5272a4eb567c85b17cdce53b"
+        }
+      ],
+      "zips": {
+        "BanjoTooieRecompiled-windows-x64.zip": {
+          "entryCount": 30,
+          "executables": [
+            "BanjoTooieRecompiled.exe"
+          ],
+          "topLevel": [
+            "assets",
+            "AGENTS.md",
+            "BanjoTooieRecompiled.exe",
+            "COPYING",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "README.md",
+            "SDL2.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "| SHA-1 | `AF1A89E12B638B8D82CC4C085C8E01D4CBA03FB3` |"
+    ],
+    "readmePathLines": [
+      "stored in `%LOCALAPPDATA%\\BanjoTooieRecompiled\\` on Windows and"
+    ],
+    "readmeSetupLines": [
+      "> **You must own a copy of Banjo-Tooie (USA) to build or run this.** The ROM is",
+      "> supplied by you at runtime through the launcher's **Select ROM** option; it is",
+      "On first launch, choose **Select ROM** and point it at your Banjo-Tooie (USA)",
+      "|`libdbus-1.so.3`|`libdbus-1-3`|the **Select ROM** file dialog|",
+      "The **Select ROM** dialog goes through xdg-desktop-portal, so a portal service",
+      "Flatpak bundles its runtime dependencies and uses the desktop portal for the **Select ROM** file dialog. Save data and configurations are stored in `~/.var/app/io.github.Vidanox.BanjoTooieRecompiled/config/BanjoTooieRecompiled/`. See [`flatpak/README.md`](flat…"
+    ]
+  },
+  {
+    "repo": "wipeout-phantom-edition/wipeout-phantom-edition",
+    "fullName": "wipeout-phantom-edition/wipeout-phantom-edition",
+    "description": "An enhanced PC source port of the original WipeOut.",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 990,
+    "homepage": "",
+    "pushedAt": "2024-08-21T02:53:02Z",
+    "releaseCount": 13,
+    "release": {
+      "tag": "v1.2.256",
+      "name": "wipeout-v1.2.256",
+      "publishedAt": "2024-02-17T07:13:37Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "wipeout-x64-release.zip",
+          "size": 3619822,
+          "digest": null
+        }
+      ],
+      "zips": {
+        "wipeout-x64-release.zip": {
+          "entryCount": 46,
+          "executables": [
+            "wipeout/wipeout.exe"
+          ],
+          "topLevel": [
+            "wipeout"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- New config file system which stores game settings and progress in editable text files."
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "wivi514/Dead_Rising_2_Case_West_Xenon_Recomp",
+    "fullName": "wivi514/Dead_Rising_2_Case_West_Xenon_Recomp",
+    "description": "Native PC port of the Xbox 360 XBLA game Dead Rising 2: Case West, by static recompilation. Windows and Linux, Vulkan, keyboard/mouse and controller. You supply your own copy of the game.",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 108,
+    "homepage": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/releases/latest",
+    "pushedAt": "2026-10-20T04:48:00Z",
+    "releaseCount": 5,
+    "release": {
+      "tag": "v1.1.2",
+      "name": "Dead Rising 2: Case West — Native PC Port v1.1.2",
+      "publishedAt": "2026-10-14T07:58:21Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "CaseWestRecomp-steamdeck-x86_64.tar.gz",
+          "size": 31999085,
+          "digest": "sha256:61fd530d88817024fdbd2ff2e2d6022f48bf2cf32f27551a2fc0a634975f6f18"
+        },
+        {
+          "name": "CaseWestRecomp-windows-x86_64.zip",
+          "size": 24923332,
+          "digest": "sha256:be45510874c596d5f14908d176e088c196d9676181e511ef5ed91d6a9b0d1c60"
+        }
+      ],
+      "zips": {
+        "CaseWestRecomp-windows-x86_64.zip": {
+          "entryCount": 46,
+          "executables": [
+            "CaseWestRecomp/cw_runtime.exe"
+          ],
+          "topLevel": [
+            "CaseWestRecomp"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "The Mac build is not notarized; before its first launch, run",
+      "The first run sets everything up by itself under a progress bar: it unpacks",
+      "code, the 360 GPU's command stream executed on Vulkan 1.3, and a first run"
+    ]
+  },
+  {
+    "repo": "wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp",
+    "fullName": "wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp",
+    "description": "Native PC port of the Xbox 360 XBLA game Dead Rising 2: Case Zero, by static recompilation. Windows and Linux, Vulkan, keyboard/mouse and controller. You supply your own copy of the game.",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 112,
+    "homepage": "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases/latest",
+    "pushedAt": "2026-10-20T04:48:12Z",
+    "releaseCount": 7,
+    "release": {
+      "tag": "v1.1.3",
+      "name": "v1.1.3",
+      "publishedAt": "2026-10-14T05:12:20Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "CaseZeroRecomp-steamdeck-x86_64.tar.gz",
+          "size": 31991649,
+          "digest": "sha256:72bf4773a267a963d92f424529b3a2d237f4deeb89244a10b88e2523e4d1613b"
+        },
+        {
+          "name": "CaseZeroRecomp-windows-x86_64.zip",
+          "size": 24956419,
+          "digest": "sha256:f821dd717c08baa83b06ae11ece1963835bbe07816b43a52792f3040cfd99a28"
+        }
+      ],
+      "zips": {
+        "CaseZeroRecomp-windows-x86_64.zip": {
+          "entryCount": 46,
+          "executables": [
+            "CaseZeroRecomp/cz_runtime.exe"
+          ],
+          "topLevel": [
+            "CaseZeroRecomp"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "The first run sets everything up by itself under a progress bar: it unpacks",
+      "the first run in Desktop Mode: it takes about a minute and Game Mode shows no",
+      "`xattr -dr com.apple.quarantine <the unzipped folder>` once before the first launch"
+    ]
+  },
+  {
+    "repo": "Wndwsqrrl/3on3NHL-recomp",
+    "fullName": "Wndwsqrrl/3on3NHL-recomp",
+    "description": "Native PC port of 3 on 3 NHL Arcade (Xbox 360) via static recompilation.",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 13,
+    "homepage": "",
+    "pushedAt": "2026-10-27T20:21:11Z",
+    "releaseCount": 2,
+    "release": {
+      "tag": "v0.1.1",
+      "name": "v0.1.1 – Laptop GPU fix",
+      "publishedAt": "2026-10-06T17:26:44Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "3on3NHL-recomp-v0.1.1-win64.zip",
+          "size": 91897254,
+          "digest": "sha256:e6231d538a88dea1d67a6a612498d01dce6a1a0a986d53eeb85c7ed8fd6186ab"
+        }
+      ],
+      "zips": {
+        "3on3NHL-recomp-v0.1.1-win64.zip": {
+          "entryCount": 23,
+          "executables": [
+            "nhl3on3/NHL 3on3 Launcher.exe",
+            "nhl3on3/nhl3on3.exe"
+          ],
+          "topLevel": [
+            "nhl3on3"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "YesterMester/TheSimpsonsGameRecomp",
+    "fullName": "YesterMester/TheSimpsonsGameRecomp",
+    "description": "A work in progress recomp of the The Simpsons Game 2007 from the Xbox 360 using the RexXGlue recomping tool to get the game running",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 415,
+    "homepage": "https://discord.gg/Heag4zPJbx",
+    "pushedAt": "2026-10-11T21:15:48Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v0.0.6.5",
+      "name": "The Simpsons Game — Recompiled v0.0.6.5",
+      "publishedAt": "2026-10-10T08:44:09Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "TheSimpsonsGame-Recompiled-Windows-x64-NoAVX2.zip",
+          "size": 390584480,
+          "digest": "sha256:39137fc5e7a5f24a08f79490939198d76ac6e034b87cab213071e6127d29d120"
+        },
+        {
+          "name": "TheSimpsonsGame-Recompiled-Windows-x64.zip",
+          "size": 390757356,
+          "digest": "sha256:a52b3bd3efe063f643a3b9110622de34dc719cdbb8bb14e9c00f3c608959323e"
+        }
+      ],
+      "zips": {
+        "TheSimpsonsGame-Recompiled-Windows-x64-NoAVX2.zip": {
+          "entryCount": 7423,
+          "executables": [
+            "extract-xiso.exe",
+            "ffmpeg.exe",
+            "simpsons-launcher.exe",
+            "simpsons.exe"
+          ],
+          "topLevel": [
+            "native_shaders",
+            "build_variant.txt",
+            "extract-xiso.exe",
+            "ffmpeg.exe",
+            "README.md",
+            "rexruntimerd.dll",
+            "simpsons-launcher.exe",
+            "simpsons.exe",
+            "simpsons.toml",
+            "TracyClientrd.dll"
+          ]
+        },
+        "TheSimpsonsGame-Recompiled-Windows-x64.zip": {
+          "entryCount": 7423,
+          "executables": [
+            "extract-xiso.exe",
+            "ffmpeg.exe",
+            "simpsons-launcher.exe",
+            "simpsons.exe"
+          ],
+          "topLevel": [
+            "native_shaders",
+            "build_variant.txt",
+            "extract-xiso.exe",
+            "ffmpeg.exe",
+            "README.md",
+            "rexruntimerd.dll",
+            "simpsons-launcher.exe",
+            "simpsons.exe",
+            "simpsons.toml",
+            "TracyClientrd.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "| `~/.local/share/simpsons` | `%LOCALAPPDATA%\\simpsons` |"
+    ],
+    "readmeSetupLines": [
+      "- Your own copy of *The Simpsons Game* for Xbox 360, as an ISO image. The USA release (title ID",
+      "4. In the **Install** tab, select your Xbox 360 ISO. The launcher extracts and installs the game"
+    ]
+  },
+  {
+    "repo": "ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+    "fullName": "ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+    "description": "Zelda Wind Waker HD Recomp",
+    "archived": false,
+    "fork": false,
+    "license": "MPL-2.0",
+    "stars": 1296,
+    "homepage": null,
+    "pushedAt": "2026-11-05T22:39:47Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v0.5.0",
+      "name": "v0.5.0: far fewer stutters, smoother play and settings in the pause menu",
+      "publishedAt": "2026-10-29T14:51:13Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "WindWakerHD-v0.5.0-windows-x86_64.zip",
+          "size": 36678476,
+          "digest": "sha256:11681f6584757567b0feeb2a464fcc2e792a3315ac27105d6c6d3345bf61d105"
+        }
+      ],
+      "zips": {
+        "WindWakerHD-v0.5.0-windows-x86_64.zip": {
+          "entryCount": 545,
+          "executables": [
+            "WindWakerHD-v0.5.0-windows-x86_64/Wind Waker HD.exe",
+            "WindWakerHD-v0.5.0-windows-x86_64/tools/bin/wwhd-extract.exe",
+            "WindWakerHD-v0.5.0-windows-x86_64/tools/python/python.exe",
+            "WindWakerHD-v0.5.0-windows-x86_64/tools/python/pythonw.exe"
+          ],
+          "topLevel": [
+            "WindWakerHD-v0.5.0-windows-x86_64"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "[type2-runtime](https://github.com/AppImage/type2-runtime/tree/8f39b89e2ac31e1640b3d3f7e9a5108e6ce805fa)"
+    ],
+    "readmePathLines": [
+      "`portable.txt` next to it. Don't drag only `Wind Waker HD.app` into Applications; to keep the game",
+      "(Application Support, AppData, .config, Applications, Start menu) unless you tick \"add a shortcut\" at",
+      "(`~/Library/Application Support/wwhd`, `%LOCALAPPDATA%\\WWHD` for the game and saves,",
+      "remembered in `settings.ini` and the next start begins the same way. Clicking/dragging with the left mouse button in the GamePad window uses the",
+      "window (click it to touch); **Ctrl+G** shows/hides it, and the choices are saved in `settings.ini`. Closing the TV window ends the",
+      "your GPU driver. Settings, controls and save states live in `%APPDATA%\\WWHD`. Python for the",
+      "hosts (`llvm-mingw-20260922-aarch64` in `tools/installer/toolchains.json`, target",
+      "`settings.ini` and the shader caches; an optional `env.txt` takes `WWHD_` options, one `NAME=value`",
+      "Defaults…**. The mapping is saved to `~/Library/Application Support/WWHD/controls.json`",
+      "`shortcuts` section of **controls.json**, with the game controls. An existing Screenshot key",
+      "the GamePad window only hides it (**⌘G** brings it back). While a save file is being played, closing",
+      "**Show experimental mods**, and your saves are backed up before one is switched on."
+    ],
+    "readmeSetupLines": [
+      "To use it you need your own, legally obtained copy of the game, dumped from your own Wii U disc",
+      "Releases are portable: unzip, start **Wind Waker HD**, choose your dump. Releases contain only this",
+      "only exist once it is built from your own dump, so the first start prepares the game once, on your",
+      "`Wind Waker HD.desktop` on Linux). The first start asks for:",
+      "First start, per system:",
+      "Python). The first start downloads the compiler (llvm-mingw, 190 MB) into the release folder, SHA-256 checked, no administrator rights; at the end you can remove",
+      "one, start it, choose your game (the old folder's `data/game` can be used in place) and copy your saves",
+      "your progress and Link's place, no game data, safe to attach to bug reports. Loading one works"
+    ]
+  },
+  {
+    "repo": "zolaware/reblue",
+    "fullName": "zolaware/reblue",
+    "description": "Recompilation of Blue Dragon",
+    "archived": false,
+    "fork": false,
+    "license": "BSD-3-Clause",
+    "stars": 902,
+    "homepage": null,
+    "pushedAt": "2026-10-09T14:10:43Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v1.3.1",
+      "name": "reblue v1.3.1",
+      "publishedAt": "2026-10-05T14:07:04Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "reblue-1.3.1-win-amd64.zip",
+          "size": 45468067,
+          "digest": "sha256:bf638798c2bef5f0d380852022b2d30403b0851a5ab70395fcac74976cfba9b8"
+        }
+      ],
+      "zips": {
+        "reblue-1.3.1-win-amd64.zip": {
+          "entryCount": 7,
+          "executables": [
+            "reblue_vk.exe",
+            "reblue.exe"
+          ],
+          "topLevel": [
+            "D3D12",
+            "dxcompiler.dll",
+            "dxil.dll",
+            "gamecontrollerdb.txt",
+            "reblue_vk.exe",
+            "reblue.exe",
+            "rexruntime.dll"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- Your configuration file: `profiles\\default\\reblue.toml`"
+    ],
+    "readmeSetupLines": [
+      "2. Run the executable. A setup wizard will guide you through the rest. You will be asked to point it at each of the three disc images in turn, and it will check each one before letting you continue. Once you pick where to install, the program copies itself the…",
+      "No. Copy a newer build over your existing installation and your saves, settings, and mods are left alone. You do not need to reinstall or point the wizard at your discs again."
+    ]
+  },
+  {
+    "repo": "coop-deluxe/sm64coopdx",
+    "fullName": "coop-deluxe/sm64coopdx",
+    "description": "An official continuation of https://github.com/djoslin0/sm64ex-coop on sm64coopdx for the enhancements and progress it already has.",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 1516,
+    "homepage": "https://sm64coopdx.com",
+    "pushedAt": "2026-11-02T04:02:55Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v1.5.1",
+      "name": "Super Mario 64 Coop Deluxe v1.5.1",
+      "publishedAt": "2026-06-01T02:00:11Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "sm64coopdx_Windows.zip",
+          "size": 41801915,
+          "digest": "sha256:2a98c40acb2a46d30cde89f3072c039b641dbdf977985f9e82a040615f1b2381"
+        }
+      ],
+      "zips": {
+        "sm64coopdx_Windows.zip": {
+          "entryCount": 442,
+          "executables": [
+            "sm64coopdx.exe",
+            "coopdx_updater.exe"
+          ],
+          "topLevel": [
+            "dynos",
+            "lang",
+            "mods",
+            "palettes",
+            "coop.map",
+            "discord_game_sdk.dll",
+            "sm64coopdx.exe",
+            "coopdx_updater.exe"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "diasurgical/devilutionX",
+    "fullName": "diasurgical/DevilutionX",
+    "description": "Diablo build for modern operating systems",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 9988,
+    "homepage": "",
+    "pushedAt": "2026-11-03T23:24:43Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "1.5.5",
+      "name": "1.5.5",
+      "publishedAt": "2025-10-30T17:00:17Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "devilutionx-windows-i386.zip",
+          "size": 10442606,
+          "digest": "sha256:aa2c7051495cb53a8aaf7ac1f65d3537e6f52538f96797be38aa06a4aaa90d15"
+        },
+        {
+          "name": "devilutionx-windows-x86_64.zip",
+          "size": 10482049,
+          "digest": "sha256:a20cfb62cd611f76aac78f9bf09a28f57794fbfe63ae6da9245deca446680b2b"
+        },
+        {
+          "name": "devilutionx-windows-xp-32bit.zip",
+          "size": 8523155,
+          "digest": "sha256:fce6b3fd2fb381e101b5d8b72e08a47ef9dcfb372c7543ea6bd49318cec80e88"
+        }
+      ],
+      "zips": {
+        "devilutionx-windows-i386.zip": {
+          "entryCount": 11,
+          "executables": [
+            "devilutionx/devilutionx.exe"
+          ],
+          "topLevel": [
+            "devilutionx"
+          ]
+        },
+        "devilutionx-windows-x86_64.zip": {
+          "entryCount": 11,
+          "executables": [
+            "devilutionx/devilutionx.exe"
+          ],
+          "topLevel": [
+            "devilutionx"
+          ]
+        },
+        "devilutionx-windows-xp-32bit.zip": {
+          "entryCount": 10,
+          "executables": [
+            "devilutionx/devilutionx.exe"
+          ],
+          "topLevel": [
+            "devilutionx"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "fgsfdsfgs/doom64ex-plus",
+    "error": "not found"
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "case-west-recomp",
+  "gameId": "dead-rising-2-case-west",
+  "title": "Case West Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "wivi514",
+    "name": "Dead_Rising_2_Case_West_Xenon_Recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)windows-x86_64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "CaseWestRecomp/cw_runtime.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp",
+    "docs": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.1.2",
+    "prerelease": false,
+    "assetName": "CaseWestRecomp-windows-x86_64.zip",
+    "assetSize": 24923332,
+    "assetSha256": "be45510874c596d5f14908d176e088c196d9676181e511ef5ed91d6a9b0d1c60"
+  }
+}

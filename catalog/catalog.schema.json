@@ -1,0 +1,222 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lotusports.local/catalog.schema.json",
+  "title": "Lotus Ports catalog",
+  "description": "A catalog bundle: games (what the player sees) and ports (ways to play them). Only metadata and links to official repositories and documentation. Never links to game files.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "name", "version", "games", "ports"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "version": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}(\\.\\d+)?$" },
+    "games": { "type": "array", "items": { "$ref": "#/$defs/game" } },
+    "ports": { "type": "array", "items": { "$ref": "#/$defs/port" } }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 80 },
+    "text": { "type": "string", "minLength": 1, "maxLength": 600 },
+    "optionalText": { "type": ["string", "null"], "maxLength": 600 },
+    "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "optionalUrl": { "type": ["string", "null"], "format": "uri", "pattern": "^https://" },
+    "date": { "type": ["string", "null"], "format": "date" },
+    "platform": { "enum": ["N64", "SNES", "GBA", "GAMECUBE", "WII_U", "PS1", "PS2", "XBOX_360", "PC", "MOBILE"] },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state"],
+      "properties": {
+        "state": { "enum": ["pending", "approved", "rejected"] },
+        "by": { "type": ["string", "null"] },
+        "at": { "$ref": "#/$defs/date" },
+        "notesPtBr": { "$ref": "#/$defs/optionalText" }
+      }
+    },
+    "game": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schemaVersion", "id", "title", "originalPlatform", "genre", "descriptionPtBr", "recommendedPortId", "alternatives", "lotusGameKey", "review"],
+      "properties": {
+        "schemaVersion": { "const": 1 },
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "$ref": "#/$defs/text" },
+        "originalPlatform": { "$ref": "#/$defs/platform" },
+        "releaseYear": { "type": ["integer", "null"], "minimum": 1970, "maximum": 2100 },
+        "genre": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 30 }, "maxItems": 4 },
+        "descriptionPtBr": { "$ref": "#/$defs/text" },
+        "recommendedPortId": { "$ref": "#/$defs/id" },
+        "recommendationReasonPtBr": { "$ref": "#/$defs/optionalText" },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["portId"],
+            "properties": {
+              "portId": { "$ref": "#/$defs/id" },
+              "differencePtBr": { "$ref": "#/$defs/optionalText" }
+            }
+          }
+        },
+        "lotusGameKey": { "type": "string", "pattern": "^port:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "review": { "$ref": "#/$defs/review" }
+      }
+    },
+    "port": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schemaVersion", "id", "gameId", "title", "portType", "status", "repo", "windowsAsset", "setup", "requiredGameFiles", "persistentPaths", "experiencePresets", "links"],
+      "properties": {
+        "schemaVersion": { "const": 1 },
+        "id": { "$ref": "#/$defs/id" },
+        "gameId": { "$ref": "#/$defs/id" },
+        "title": { "$ref": "#/$defs/text" },
+        "portType": { "enum": ["decomp-port", "static-recomp", "source-port", "engine-remake"] },
+        "status": { "enum": ["JOGAVEL", "EXPERIMENTAL", "EM_DESENVOLVIMENTO", "DESCONTINUADO", "NAO_AVALIADO"] },
+        "knownIssuesPtBr": { "type": "array", "items": { "$ref": "#/$defs/text" } },
+        "verifiedBy": { "type": ["string", "null"] },
+        "verifiedAt": { "$ref": "#/$defs/date" },
+        "repo": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["owner", "name"],
+          "properties": {
+            "owner": { "type": "string", "pattern": "^[A-Za-z0-9-]{1,39}$" },
+            "name": { "type": "string", "pattern": "^[A-Za-z0-9._-]{1,100}$" }
+          }
+        },
+        "license": { "type": ["string", "null"], "maxLength": 60 },
+        "windowsAsset": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["pattern", "packageType"],
+          "properties": {
+            "pattern": { "type": "string", "minLength": 1 },
+            "excludePattern": { "type": ["string", "null"] },
+            "preferPrerelease": { "type": "boolean" },
+            "packageType": { "enum": ["zip", "portable-exe", "installer"] }
+          }
+        },
+        "executable": { "type": ["string", "null"], "pattern": "^[^:*?\"<>|]+\\.(exe|bat)$" },
+        "launchArgs": { "type": "array", "items": { "type": "string" } },
+        "setup": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind"],
+          "properties": {
+            "kind": { "enum": ["beside-exe", "select-on-first-launch", "extract-tool", "game-folder", "manual", null] },
+            "targetFileName": { "type": ["string", "null"] },
+            "targetFolder": { "type": ["string", "null"] },
+            "notesPtBr": { "$ref": "#/$defs/optionalText" },
+            "extractCommand": { "type": ["string", "null"] },
+            "expectedOutput": { "type": ["string", "null"] },
+            "requiredEntries": { "type": ["array", "null"], "items": { "type": "string" } }
+          }
+        },
+        "requiredGameFiles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "kind", "acceptedVersions"],
+            "properties": {
+              "label": { "$ref": "#/$defs/text" },
+              "kind": { "enum": ["single-file", "disc-image", "folder", "multiple"] },
+              "format": { "enum": ["n64-rom", "snes-rom", "gba-rom", "ps1-disc", "ps2-disc", "gc-disc", "wiiu-dump", "x360-disc", "x360-xex", "pc-data", null] },
+              "canonicalFormat": { "type": ["string", "null"] },
+              "acceptedVersions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["region", "version", "source"],
+                  "properties": {
+                    "region": { "type": "string" },
+                    "version": { "type": "string" },
+                    "fileName": { "type": ["string", "null"] },
+                    "sha1": { "type": ["string", "null"], "pattern": "^[0-9a-f]{40}$" },
+                    "md5": { "type": ["string", "null"], "pattern": "^[0-9a-f]{32}$" },
+                    "sha256": { "type": ["string", "null"], "pattern": "^[0-9a-f]{64}$" },
+                    "crc32": { "type": ["string", "null"], "pattern": "^[0-9a-f]{8}$" },
+                    "source": { "$ref": "#/$defs/url" }
+                  }
+                }
+              },
+              "officialDocsUrl": { "$ref": "#/$defs/optionalUrl" }
+            }
+          }
+        },
+        "persistentPaths": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["path", "kind", "location"],
+            "properties": {
+              "path": { "type": "string", "minLength": 1 },
+              "kind": { "enum": ["saves", "config", "mods", "data", "logs"] },
+              "location": { "enum": ["install", "user"] }
+            }
+          }
+        },
+        "experiencePresets": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["original", "remasterizado"],
+          "properties": {
+            "configFile": { "type": ["string", "null"] },
+            "configFormat": { "enum": ["json", "ini", "toml", null] },
+            "original": { "$ref": "#/$defs/preset" },
+            "remasterizado": { "$ref": "#/$defs/preset" }
+          }
+        },
+        "dependencies": { "type": ["array", "null"], "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" } },
+        "graphicsApis": { "type": ["array", "null"], "items": { "enum": ["D3D11", "D3D12", "OpenGL", "Vulkan", "Metal"] } },
+        "controllerSupport": { "enum": ["full", "partial", "none", null] },
+        "highlightsPtBr": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 60 }, "maxItems": 6 },
+        "links": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["repo"],
+          "properties": {
+            "repo": { "$ref": "#/$defs/url" },
+            "docs": { "$ref": "#/$defs/optionalUrl" },
+            "community": { "$ref": "#/$defs/optionalUrl" }
+          }
+        },
+        "art": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "icon": { "$ref": "#/$defs/optionalUrl" },
+            "banner": { "$ref": "#/$defs/optionalUrl" },
+            "artLicense": { "type": ["string", "null"] }
+          }
+        },
+        "minWindowsBuild": { "type": ["integer", "null"], "minimum": 10240 },
+        "evidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "scannedAt": { "$ref": "#/$defs/date" },
+            "releaseTag": { "type": ["string", "null"] },
+            "prerelease": { "type": "boolean" },
+            "assetName": { "type": ["string", "null"] },
+            "assetSize": { "type": ["integer", "null"] },
+            "assetSha256": { "type": ["string", "null"], "pattern": "^[0-9a-f]{64}$" }
+          }
+        }
+      }
+    },
+    "preset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["values", "verified"],
+      "properties": {
+        "values": { "type": "object", "additionalProperties": { "type": ["string", "number", "boolean"] } },
+        "verified": { "type": "boolean" }
+      }
+    }
+  }
+}

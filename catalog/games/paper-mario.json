@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "paper-mario",
+  "title": "Paper Mario",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "RPG",
+    "aventura"
+  ],
+  "descriptionPtBr": "Mario em papel enfrenta Bowser num RPG com batalhas por turnos e parceiros carismáticos.",
+  "recommendedPortId": "paperboat",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:paper-mario",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

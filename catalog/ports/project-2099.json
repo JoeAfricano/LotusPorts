@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "project-2099",
+  "gameId": "spider-man-edge-of-time",
+  "title": "Project 2099",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "GenryTheFox0",
+    "name": "Project-2099"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)setup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "O instalador pede a sua cópia de Xbox 360 (ISO, ZIP ou pasta) e monta a edição para PC.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Jogo de Xbox 360",
+      "kind": "disc-image",
+      "format": "x360-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/GenryTheFox0/Project-2099#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/GenryTheFox0/Project-2099",
+    "docs": "https://github.com/GenryTheFox0/Project-2099#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2.0.0-beta.5",
+    "prerelease": false,
+    "assetName": "Project2099-Beta5-Setup.exe",
+    "assetSize": 4613632,
+    "assetSha256": "04fa13e7a538a7425ac7b3604432ec2f71f5db31cd372103a8230627a45660cb"
+  }
+}

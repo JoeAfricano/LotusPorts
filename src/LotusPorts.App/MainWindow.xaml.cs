@@ -45,14 +45,17 @@ public sealed partial class MainWindow : Window
             [Pages.Settings] = NavSettings,
             [Pages.Help] = NavHelp,
         };
-        Navigate(startPage);
+        // "game:<id>" opens a game page directly (Debug --page argument).
+        var split = startPage.Split(':', 2);
+        Navigate(split[0], split.Length > 1 ? split[1] : null);
     }
 
     public void Navigate(string page, object? parameter = null)
     {
         var type = page switch
         {
-            Pages.Catalog or Pages.Downloads or Pages.Lotus => typeof(SimplePage),
+            Pages.Catalog => typeof(CatalogPage),
+            Pages.Downloads or Pages.Lotus => typeof(SimplePage),
             Pages.Settings => typeof(SettingsPage),
             Pages.Help => typeof(HelpPage),
             Pages.Game => typeof(GamePage),

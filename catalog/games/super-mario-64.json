@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "super-mario-64",
+  "title": "Super Mario 64",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "plataforma",
+    "aventura"
+  ],
+  "descriptionPtBr": "Mario explora o castelo da Princesa Peach e os mundos escondidos nos quadros em busca das estrelas de poder.",
+  "recommendedPortId": "ghostship",
+  "recommendationReasonPtBr": "Port do mesmo grupo do Ship of Harkinian, com versão estável e suporte às versões americana e japonesa.",
+  "alternatives": [
+    {
+      "portId": "sm64coopdx",
+      "differencePtBr": "Foco em jogar online com outras pessoas."
+    }
+  ],
+  "lotusGameKey": "port:super-mario-64",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

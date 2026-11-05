@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sonic-mania",
+  "title": "Sonic Mania",
+  "originalPlatform": "PC",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Uma celebração do Sonic clássico, com fases remixadas e novas no estilo 16 bits.",
+  "recommendedPortId": "sonic-mania-decomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:sonic-mania",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

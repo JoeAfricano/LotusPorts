@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "space-station-silicon-valley",
+  "title": "Space Station Silicon Valley",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "plataforma",
+    "quebra-cabeça"
+  ],
+  "descriptionPtBr": "Um robô pequeno assume o controle de animais robóticos para recuperar uma estação espacial à deriva.",
+  "recommendedPortId": "sssv-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:space-station-silicon-valley",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

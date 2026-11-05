@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "sonic-unleashed",
+  "title": "Sonic Unleashed",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "plataforma",
+    "ação"
+  ],
+  "descriptionPtBr": "Sonic corre pelo mundo de dia e enfrenta inimigos como Werehog à noite para reunir o planeta partido.",
+  "recommendedPortId": "unleashed-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:sonic-unleashed",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -23,6 +23,7 @@ public sealed partial class SettingsViewModel(PreferencesService preferences, Ap
     [ObservableProperty] private ExperienceStyle defaultStyle;
     [ObservableProperty] private bool autoUpdate;
     [ObservableProperty] private bool advancedMode;
+    [ObservableProperty] private bool showInReview;
     [ObservableProperty] private bool journalEmpty = true;
     [ObservableProperty] private string saveError = "";
 
@@ -38,6 +39,7 @@ public sealed partial class SettingsViewModel(PreferencesService preferences, Ap
         DefaultStyle = p.DefaultStyle;
         AutoUpdate = p.AutoUpdate;
         AdvancedMode = p.AdvancedMode;
+        ShowInReview = p.ShowInReview;
         loaded = true;
         if (AdvancedMode) await LoadJournalAsync();
     }
@@ -74,6 +76,11 @@ public sealed partial class SettingsViewModel(PreferencesService preferences, Ap
     partial void OnAutoUpdateChanged(bool value)
     {
         if (loaded) Save(() => preferences.SetAutoUpdateAsync(value));
+    }
+
+    partial void OnShowInReviewChanged(bool value)
+    {
+        if (loaded) Save(() => preferences.SetShowInReviewAsync(value));
     }
 
     partial void OnAdvancedModeChanged(bool value)

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "duke-nukem-zero-hour",
+  "title": "Duke Nukem: Zero Hour",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "tiro",
+    "ação"
+  ],
+  "descriptionPtBr": "Duke Nukem viaja pelo tempo para salvar a humanidade de uma invasão alienígena, em terceira pessoa.",
+  "recommendedPortId": "dnzh-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:duke-nukem-zero-hour",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

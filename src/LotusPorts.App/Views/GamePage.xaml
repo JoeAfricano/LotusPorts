@@ -5,31 +5,162 @@
     xmlns:controls="using:Lotus.Design.Controls"
     xmlns:local="using:LotusPorts.App">
 
-    <ScrollViewer HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
+    <ScrollViewer x:Name="Scroller" HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
         <Grid Padding="40,52,48,48">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" MaxWidth="1100" />
             </Grid.ColumnDefinitions>
-        <StackPanel
-            Spacing="20">
-            <Button
-                Padding="12,7"
-                Background="{StaticResource Bg.Surface}"
-                BorderBrush="{StaticResource Stroke.Subtle}"
-                Click="OnBack"
-                CornerRadius="10">
-                <StackPanel Orientation="Horizontal" Spacing="10">
-                    <FontIcon FontSize="13" Glyph="&#xE72B;" />
-                    <TextBlock Text="{local:Str Key=GameBack}" />
+            <StackPanel Spacing="20">
+                <Button
+                    Padding="12,7"
+                    Background="{StaticResource Bg.Surface}"
+                    BorderBrush="{StaticResource Stroke.Subtle}"
+                    Click="OnBack"
+                    CornerRadius="10">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <FontIcon FontSize="13" Glyph="&#xE72B;" />
+                        <TextBlock Text="{local:Str Key=GameBack}" />
+                    </StackPanel>
+                </Button>
+
+                <Border
+                    x:Name="NotFound"
+                    Style="{StaticResource Lotus.Card}"
+                    Visibility="Collapsed">
+                    <controls:EmptyState Message="{local:Str Key=GameNotFoundMessage}" Title="{local:Str Key=GameNotFoundTitle}" />
+                </Border>
+
+                <StackPanel
+                    x:Name="Details"
+                    Spacing="18"
+                    Visibility="Collapsed">
+                    <!--  Top: cover, title, badges, description  -->
+                    <Grid ColumnSpacing="28">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <controls:GameCover
+                            x:Name="Cover"
+                            Width="210"
+                            Height="282"
+                            TitleSize="21" />
+                        <StackPanel
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            Spacing="12">
+                            <TextBlock
+                                x:Name="TitleText"
+                                FontSize="32"
+                                Style="{StaticResource Type.Display}" />
+                            <StackPanel
+                                x:Name="Badges"
+                                Orientation="Horizontal"
+                                Spacing="8" />
+                            <TextBlock
+                                x:Name="Description"
+                                MaxWidth="640"
+                                HorizontalAlignment="Left"
+                                Foreground="{StaticResource Text.Secondary}"
+                                Style="{StaticResource Type.Body}" />
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <ToggleButton
+                                    x:Name="FavoriteButton"
+                                    Padding="10,8"
+                                    AutomationProperties.Name="{local:Str Key=GameFavorite}"
+                                    Click="OnFavorite"
+                                    CornerRadius="999"
+                                    ToolTipService.ToolTip="{local:Str Key=GameFavorite}">
+                                    <FontIcon
+                                        x:Name="FavoriteIcon"
+                                        FontSize="15"
+                                        Glyph="&#xEB51;" />
+                                </ToggleButton>
+                                <Button
+                                    Padding="10,8"
+                                    AutomationProperties.Name="{local:Str Key=GameMore}"
+                                    CornerRadius="999"
+                                    ToolTipService.ToolTip="{local:Str Key=GameMore}">
+                                    <FontIcon FontSize="15" Glyph="&#xE712;" />
+                                    <Button.Flyout>
+                                        <MenuFlyout x:Name="MoreMenu" />
+                                    </Button.Flyout>
+                                </Button>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+
+                    <!--  Recommended port (concept art) -->
+                    <Border Style="{StaticResource Lotus.Card}">
+                        <Grid ColumnSpacing="16">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <FontIcon
+                                VerticalAlignment="Top"
+                                FontSize="22"
+                                Foreground="{StaticResource State.Warn}"
+                                Glyph="&#xE734;" />
+                            <StackPanel Grid.Column="1" Spacing="4">
+                                <TextBlock>
+                                    <Run
+                                        FontWeight="SemiBold"
+                                        Foreground="{StaticResource Accent.Pink}"
+                                        Text="{local:Str Key=GameRecommended}" /><Run Text="   " /><Run x:Name="RecommendedTitle" FontWeight="SemiBold" />
+                                </TextBlock>
+                                <TextBlock x:Name="RecommendedReason" Style="{StaticResource Type.Caption}" />
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+                    <!--  Main action: installing arrives in phase 2  -->
+                    <StackPanel Orientation="Horizontal" Spacing="16">
+                        <Button
+                            MinWidth="240"
+                            Padding="24,14"
+                            AutomationProperties.Name="{local:Str Key=GameInstall}"
+                            CornerRadius="12"
+                            IsEnabled="False"
+                            Style="{StaticResource AccentButtonStyle}">
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <FontIcon FontSize="16" Glyph="&#xE896;" />
+                                <TextBlock
+                                    FontSize="17"
+                                    FontWeight="SemiBold"
+                                    Text="{local:Str Key=GameInstall}" />
+                            </StackPanel>
+                        </Button>
+                        <StackPanel VerticalAlignment="Center" Spacing="4">
+                            <controls:StateBadge Text="{local:Str Key=BadgeInDevelopment}" />
+                            <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=GameInstallLater}" />
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!--  Status tiles: nothing checked yet, so nothing is OK  -->
+                    <Grid x:Name="Tiles" ColumnSpacing="12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+
+                    <!--  About this port  -->
+                    <Border Style="{StaticResource Lotus.Card}">
+                        <StackPanel x:Name="About" Spacing="12">
+                            <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=GameAbout}" />
+                        </StackPanel>
+                    </Border>
+
+                    <Expander
+                        x:Name="OtherWays"
+                        HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Stretch">
+                        <StackPanel x:Name="OtherWaysList" Spacing="12" />
+                    </Expander>
                 </StackPanel>
-            </Button>
-            <Border Style="{StaticResource Lotus.Card}">
-                <controls:EmptyState
-                    BadgeText="{local:Str Key=BadgeInDevelopment}"
-                    Message="{local:Str Key=GameNotFoundMessage}"
-                    Title="{local:Str Key=GameNotFoundTitle}" />
-            </Border>
-        </StackPanel>
+            </StackPanel>
         </Grid>
     </ScrollViewer>
 </Page>

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "snowboard-kids-2",
+  "title": "Snowboard Kids 2",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "corrida",
+    "esporte"
+  ],
+  "descriptionPtBr": "Corridas de snowboard com itens, truques e pistas criativas para até quatro jogadores.",
+  "recommendedPortId": "snowboard-kids-2-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:snowboard-kids-2",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

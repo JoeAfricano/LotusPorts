@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "super-mario-strikers",
+  "title": "Super Mario Strikers",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Futebol sem regras com Mario e companhia, chutes especiais e muita trombada.",
+  "recommendedPortId": "strikers-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-mario-strikers",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

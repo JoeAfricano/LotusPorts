@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "doukutsu-rs",
+  "gameId": "cave-story",
+  "title": "doukutsu-rs",
+  "portType": "engine-remake",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "doukutsu-rs",
+    "name": "doukutsu-rs"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)x86_64\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "portable-exe"
+  },
+  "executable": "doukutsu-rs_windows_1.0.0.x86_64.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "manual",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Copie os arquivos de dados do jogo para a pasta indicada pelo doukutsu-rs, como explica o README oficial.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Arquivos de dados do jogo",
+      "kind": "folder",
+      "format": "pc-data",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/doukutsu-rs/doukutsu-rs#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/doukutsu-rs/doukutsu-rs",
+    "docs": "https://github.com/doukutsu-rs/doukutsu-rs#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "1.0.0",
+    "prerelease": false,
+    "assetName": "doukutsu-rs_windows_1.0.0.x86_64.exe",
+    "assetSize": 8534016,
+    "assetSha256": "8cbe97195f53618ba34a6da34e77f52c4d135eeaadc6f0753f467b879e9b04f6"
+  }
+}

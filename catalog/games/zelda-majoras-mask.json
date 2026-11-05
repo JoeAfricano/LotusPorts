@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "zelda-majoras-mask",
+  "title": "The Legend of Zelda: Majora's Mask",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "aventura",
+    "ação"
+  ],
+  "descriptionPtBr": "Três dias até a lua cair sobre Termina. Link repete o ciclo usando máscaras que mudam quem ele é.",
+  "recommendedPortId": "zelda64-recompiled",
+  "recommendationReasonPtBr": "Recompilação mais usada para este jogo e lê o cartucho direto no menu inicial.",
+  "alternatives": [
+    {
+      "portId": "2-ship-2-harkinian",
+      "differencePtBr": "Baseado na decompilação, com mais opções de personalização e suporte a mods."
+    }
+  ],
+  "lotusGameKey": "port:zelda-majoras-mask",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

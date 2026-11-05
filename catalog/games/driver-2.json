@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "driver-2",
+  "title": "Driver 2",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "corrida",
+    "ação"
+  ],
+  "descriptionPtBr": "O policial infiltrado Tanner persegue criminosos em quatro cidades, agora podendo sair do carro.",
+  "recommendedPortId": "redriver2",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:driver-2",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

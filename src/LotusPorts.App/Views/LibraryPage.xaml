@@ -2,16 +2,18 @@
     x:Class="LotusPorts.App.Views.LibraryPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:app="using:LotusPorts.App"
+    xmlns:cards="using:LotusPorts.App.Controls"
     xmlns:controls="using:Lotus.Design.Controls"
     xmlns:local="using:LotusPorts.App">
 
     <ScrollViewer HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
         <StackPanel>
-            <Grid Height="390">
+            <Grid Height="360">
                 <controls:SakuraHero />
                 <StackPanel
                     MaxWidth="660"
-                    Margin="48,0,48,36"
+                    Margin="48,0,48,28"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Bottom">
                     <TextBlock Style="{StaticResource Type.Display}" Text="{local:Str Key=LibraryHeroLine1}" />
@@ -42,40 +44,123 @@
                 </StackPanel>
             </Grid>
 
-            <Grid Margin="48,4,48,48">
+            <StackPanel Margin="48,0,48,48" Spacing="18">
+                <!--  Tabs (concept art) and minimal chips  -->
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <RadioButton
+                        x:Name="TabAll"
+                        Checked="OnTabChecked"
+                        Content="{x:Bind ViewModel.AllLabel, Mode=OneWay}"
+                        GroupName="LibraryTab"
+                        IsChecked="True"
+                        Style="{StaticResource Lotus.Pill}"
+                        Tag="All" />
+                    <RadioButton
+                        Checked="OnTabChecked"
+                        Content="{x:Bind ViewModel.FavoritesLabel, Mode=OneWay}"
+                        GroupName="LibraryTab"
+                        Style="{StaticResource Lotus.Pill}"
+                        Tag="Favorites" />
+                    <RadioButton
+                        Checked="OnTabChecked"
+                        Content="{x:Bind ViewModel.InstalledLabel, Mode=OneWay}"
+                        GroupName="LibraryTab"
+                        Style="{StaticResource Lotus.Pill}"
+                        Tag="Installed" />
+                    <RadioButton
+                        Checked="OnTabChecked"
+                        Content="{x:Bind ViewModel.NotInstalledLabel, Mode=OneWay}"
+                        GroupName="LibraryTab"
+                        Style="{StaticResource Lotus.Pill}"
+                        Tag="NotInstalled" />
+                </StackPanel>
+                <Grid ColumnSpacing="12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <ScrollViewer
+                        HorizontalScrollBarVisibility="Hidden"
+                        HorizontalScrollMode="Enabled"
+                        VerticalScrollBarVisibility="Disabled"
+                        VerticalScrollMode="Disabled">
+                        <StackPanel
+                            x:Name="PlatformChips"
+                            Orientation="Horizontal"
+                            Spacing="8" />
+                    </ScrollViewer>
+                    <ComboBox
+                        x:Name="GenreBox"
+                        Grid.Column="1"
+                        MinWidth="170"
+                        AutomationProperties.Name="{local:Str Key=FilterGenre}"
+                        SelectionChanged="OnGenreChanged" />
+                </Grid>
+
                 <!--  Skeleton while loading  -->
                 <StackPanel
                     Orientation="Horizontal"
                     Spacing="16"
                     Visibility="{x:Bind ViewModel.IsLoading, Mode=OneWay}">
                     <Border
-                        Width="172"
+                        Width="176"
                         Height="236"
                         Background="{StaticResource Bg.Surface}"
                         CornerRadius="12" />
                     <Border
-                        Width="172"
+                        Width="176"
                         Height="236"
                         Background="{StaticResource Bg.Surface}"
                         CornerRadius="12" />
                     <Border
-                        Width="172"
+                        Width="176"
                         Height="236"
                         Background="{StaticResource Bg.Surface}"
                         CornerRadius="12" />
                     <Border
-                        Width="172"
+                        Width="176"
                         Height="236"
                         Background="{StaticResource Bg.Surface}"
                         CornerRadius="12" />
                 </StackPanel>
+
                 <Border Style="{StaticResource Lotus.Card}" Visibility="{x:Bind ViewModel.IsEmpty, Mode=OneWay}">
-                    <controls:EmptyState
-                        BadgeText="{local:Str Key=BadgeInDevelopment}"
-                        Message="{local:Str Key=LibraryEmptyMessage}"
-                        Title="{local:Str Key=LibraryEmptyTitle}" />
+                    <controls:EmptyState Message="{x:Bind ViewModel.EmptyMessage, Mode=OneWay}" Title="{x:Bind ViewModel.EmptyTitle, Mode=OneWay}" />
                 </Border>
-            </Grid>
+
+                <ItemsRepeater ItemsSource="{x:Bind ViewModel.Shelves}" Visibility="{x:Bind ViewModel.IsReady, Mode=OneWay}">
+                    <ItemsRepeater.Layout>
+                        <StackLayout Spacing="26" />
+                    </ItemsRepeater.Layout>
+                    <ItemsRepeater.ItemTemplate>
+                        <DataTemplate x:DataType="app:ShelfModel">
+                            <StackPanel Spacing="10">
+                                <TextBlock Style="{StaticResource Type.Subtitle}" Text="{x:Bind Title}" />
+                                <ScrollViewer
+                                    HorizontalScrollBarVisibility="Auto"
+                                    HorizontalScrollMode="Enabled"
+                                    VerticalScrollBarVisibility="Disabled"
+                                    VerticalScrollMode="Disabled">
+                                    <ItemsRepeater Margin="0,0,0,12" ItemsSource="{x:Bind Games}">
+                                        <ItemsRepeater.Layout>
+                                            <StackLayout Orientation="Horizontal" Spacing="14" />
+                                        </ItemsRepeater.Layout>
+                                        <ItemsRepeater.ItemTemplate>
+                                            <DataTemplate x:DataType="app:GameCardModel">
+                                                <cards:GameCard Model="{x:Bind}" />
+                                            </DataTemplate>
+                                        </ItemsRepeater.ItemTemplate>
+                                    </ItemsRepeater>
+                                </ScrollViewer>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsRepeater.ItemTemplate>
+                </ItemsRepeater>
+                <HyperlinkButton
+                    Click="OnDismissNew"
+                    Content="{local:Str Key=ShelfNewDismiss}"
+                    Visibility="{x:Bind ViewModel.HasNewShelf, Mode=OneWay}" />
+            </StackPanel>
         </StackPanel>
     </ScrollViewer>
 </Page>

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "crash-team-racing",
+  "title": "Crash Team Racing",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Crash e sua turma disputam corridas de kart com derrapagens turbinadas e itens.",
+  "recommendedPortId": "ctr-high-octane",
+  "recommendationReasonPtBr": "Tem versão estável (v1.5); a outra opção ainda está em beta.",
+  "alternatives": [
+    {
+      "portId": "ctr-native",
+      "differencePtBr": "Decompilação do jogo, ainda em fase beta."
+    }
+  ],
+  "lotusGameKey": "port:crash-team-racing",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

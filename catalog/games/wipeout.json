@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wipeout",
+  "title": "Wipeout",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Corridas futuristas antigravidade em alta velocidade, com armas e trilha eletrônica marcante.",
+  "recommendedPortId": "wipeout-phantom-edition",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:wipeout",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

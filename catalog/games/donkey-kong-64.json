@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "donkey-kong-64",
+  "title": "Donkey Kong 64",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "plataforma",
+    "aventura"
+  ],
+  "descriptionPtBr": "Donkey Kong e seus amigos recuperam as bananas douradas roubadas por King K. Rool.",
+  "recommendedPortId": "dk64-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:donkey-kong-64",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

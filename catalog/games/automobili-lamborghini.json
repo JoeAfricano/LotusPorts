@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "automobili-lamborghini",
+  "title": "Automobili Lamborghini",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Corridas com supercarros por pistas variadas, em campeonato ou partidas rápidas.",
+  "recommendedPortId": "lamborghini-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:automobili-lamborghini",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

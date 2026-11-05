@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "starship",
+  "gameId": "star-fox-64",
+  "title": "Starship",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "HarbourMasters",
+    "name": "Starship"
+  },
+  "license": "CC0-1.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Starship.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Abra o jogo e escolha o arquivo do jogo (EUA 1.0 ou 1.1, formato .z64).",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Nintendo 64 (EUA)",
+      "kind": "single-file",
+      "format": "n64-rom",
+      "canonicalFormat": "z64",
+      "acceptedVersions": [
+        {
+          "region": "EUA",
+          "version": "1.0",
+          "fileName": null,
+          "sha1": "d8b1088520f7c5f81433292a9258c1184afa1457",
+          "md5": null,
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/HarbourMasters/Starship#readme"
+        },
+        {
+          "region": "EUA",
+          "version": "1.1",
+          "fileName": null,
+          "sha1": "09f0d105f476b00efa5303a3ebc42e60a7753b7a",
+          "md5": null,
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/HarbourMasters/Starship#readme"
+        }
+      ],
+      "officialDocsUrl": "https://github.com/HarbourMasters/Starship#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": [
+    "D3D11",
+    "OpenGL"
+  ],
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/HarbourMasters/Starship",
+    "docs": "https://github.com/HarbourMasters/Starship#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2.0.0",
+    "prerelease": false,
+    "assetName": "Starship-Barnard-Alfa-Windows.zip",
+    "assetSize": 4218590,
+    "assetSha256": null
+  }
+}

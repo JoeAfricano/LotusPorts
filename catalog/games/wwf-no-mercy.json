@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wwf-no-mercy",
+  "title": "WWF No Mercy",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "luta livre"
+  ],
+  "descriptionPtBr": "Considerado por muitos o melhor jogo de luta livre do Nintendo 64, com modo história ramificado.",
+  "recommendedPortId": "no-mercy-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:wwf-no-mercy",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

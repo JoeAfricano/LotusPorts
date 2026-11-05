@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "banjo-tooie-recompiled",
+  "gameId": "banjo-tooie",
+  "title": "Banjo-Tooie Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Vidanox",
+    "name": "BanjoTooieRecompiled"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "BanjoTooieRecompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Na primeira execução, use \"Select ROM\" e escolha o arquivo do jogo (versão americana).",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Nintendo 64 (EUA)",
+      "kind": "single-file",
+      "format": "n64-rom",
+      "canonicalFormat": null,
+      "acceptedVersions": [
+        {
+          "region": "EUA",
+          "version": "PREENCHER",
+          "fileName": null,
+          "sha1": "af1a89e12b638b8d82cc4c085c8e01d4cba03fb3",
+          "md5": null,
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/Vidanox/BanjoTooieRecompiled#readme"
+        }
+      ],
+      "officialDocsUrl": "https://github.com/Vidanox/BanjoTooieRecompiled#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "%LOCALAPPDATA%\\BanjoTooieRecompiled",
+      "kind": "saves",
+      "location": "user"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Vidanox/BanjoTooieRecompiled",
+    "docs": "https://github.com/Vidanox/BanjoTooieRecompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.1",
+    "prerelease": false,
+    "assetName": "BanjoTooieRecompiled-windows-x64.zip",
+    "assetSize": 20697028,
+    "assetSha256": "cc34db186c61b432505fd2ce38c0686edcc6283a5272a4eb567c85b17cdce53b"
+  }
+}

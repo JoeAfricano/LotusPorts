@@ -11,6 +11,7 @@ Versões centralizadas em `Directory.Packages.props`. Toda dependência nova pre
 | Microsoft.Extensions.Logging.Abstractions | 10.0.0 | MIT | Infrastructure | `ILogger` |
 | Microsoft.Data.Sqlite | 10.0.13 | MIT | Infrastructure | banco local |
 | Dapper | 2.1.66 | Apache-2.0 | Infrastructure | consultas |
+| JsonSchema.Net | 7.3.4 | MIT | Catalog | validar o catálogo contra o JSON Schema (draft 2020-12) |
 | Serilog | 4.3.0 | Apache-2.0 | App | logs |
 | Serilog.Extensions.Hosting | 9.0.0 | Apache-2.0 | App | Serilog no Host |
 | Serilog.Sinks.File | 7.0.0 | Apache-2.0 | App | arquivo rotativo |

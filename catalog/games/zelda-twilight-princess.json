@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zelda-twilight-princess",
+  "title": "The Legend of Zelda: Twilight Princess",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [
+    "aventura",
+    "ação"
+  ],
+  "descriptionPtBr": "Link alterna entre forma humana e de lobo para salvar Hyrule do Reino do Crepúsculo.",
+  "recommendedPortId": "dusklight",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:zelda-twilight-princess",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

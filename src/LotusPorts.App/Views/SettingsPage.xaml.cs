@@ -37,6 +37,8 @@ public sealed partial class SettingsPage : Page
         if (folder is not null) ViewModel.ChooseLibraryFolder(folder.Path);
     }
 
+    private void OnOpenCatalogSources(object sender, RoutedEventArgs e) => App.MainWindow?.Navigate(Pages.Catalog);
+
     private void OnOpenDataFolder(object sender, RoutedEventArgs e) =>
         Process.Start(new ProcessStartInfo("explorer.exe", $"\"{ViewModel.DataFolder}\"") { UseShellExecute = true });
 }

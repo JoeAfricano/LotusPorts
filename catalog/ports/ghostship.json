@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "ghostship",
+  "gameId": "super-mario-64",
+  "title": "Ghostship",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "HarbourMasters",
+    "name": "Ghostship"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Ghostship.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Abra o jogo e escolha o arquivo do jogo (versão americana ou japonesa).",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Nintendo 64",
+      "kind": "single-file",
+      "format": "n64-rom",
+      "canonicalFormat": null,
+      "acceptedVersions": [
+        {
+          "region": "EUA",
+          "version": "PREENCHER",
+          "fileName": null,
+          "sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+          "md5": null,
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/HarbourMasters/Ghostship#readme"
+        },
+        {
+          "region": "Japão",
+          "version": "PREENCHER",
+          "fileName": null,
+          "sha1": "8a20a5c83d6ceb0f0506cfc9fa20d8f438cafe51",
+          "md5": null,
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/HarbourMasters/Ghostship#readme"
+        }
+      ],
+      "officialDocsUrl": "https://github.com/HarbourMasters/Ghostship#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": [
+    "D3D11",
+    "OpenGL",
+    "Vulkan"
+  ],
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/HarbourMasters/Ghostship",
+    "docs": "https://github.com/HarbourMasters/Ghostship#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "3.0.0",
+    "prerelease": false,
+    "assetName": "Nautilus-Alfa-Win64.zip",
+    "assetSize": 20379303,
+    "assetSha256": "49a0ab6c6624ccb20d29bb433f391d017f638f2b7db0601eae7808574a62aa18"
+  }
+}

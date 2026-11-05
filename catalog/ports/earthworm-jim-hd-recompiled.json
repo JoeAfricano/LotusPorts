@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "earthworm-jim-hd-recompiled",
+  "gameId": "earthworm-jim-hd",
+  "title": "Earthworm Jim HD Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "TekRantGaming",
+    "name": "earthworm-jim-hd-recompiled"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "EarthwormJimHD/earthworm_jim_hd.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Arquivo do jogo de Xbox Live Arcade (default.xex)",
+      "kind": "single-file",
+      "format": "x360-xex",
+      "canonicalFormat": null,
+      "acceptedVersions": [
+        {
+          "region": "PREENCHER",
+          "version": "PREENCHER",
+          "fileName": "default.xex",
+          "sha1": "62d9d28a3bce42843607c26ab4b200e91cb31203",
+          "md5": null,
+          "sha256": null,
+          "crc32": "d6366187",
+          "source": "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled#readme"
+        }
+      ],
+      "officialDocsUrl": "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled",
+    "docs": "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.9.6",
+    "prerelease": false,
+    "assetName": "EarthwormJimHD-v0.9.6-windows-x64.zip",
+    "assetSize": 32436439,
+    "assetSha256": "2c940956830f735b9c9ff31e2e590eb955ad4776ba20606ba1aa3beec8383bc7"
+  }
+}

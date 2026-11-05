@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wcw-nwo-revenge",
+  "title": "WCW/nWo Revenge",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "luta livre"
+  ],
+  "descriptionPtBr": "Luta livre com as estrelas da WCW e da nWo, conhecido pelo controle preciso.",
+  "recommendedPortId": "revenge-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:wcw-nwo-revenge",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

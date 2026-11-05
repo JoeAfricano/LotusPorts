@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "simpsons-game-recompiled",
+  "gameId": "the-simpsons-game",
+  "title": "The Simpsons Game Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "YesterMester",
+    "name": "TheSimpsonsGameRecomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows-x64\\.zip$",
+    "excludePattern": "(?i)noavx2",
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "simpsons-launcher.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Na aba Install do launcher, selecione a ISO do seu jogo de Xbox 360. O launcher extrai e instala.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Disco de Xbox 360 (ISO)",
+      "kind": "disc-image",
+      "format": "x360-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "%LOCALAPPDATA%\\simpsons",
+      "kind": "saves",
+      "location": "user"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/YesterMester/TheSimpsonsGameRecomp",
+    "docs": "https://github.com/YesterMester/TheSimpsonsGameRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.0.6.5",
+    "prerelease": false,
+    "assetName": "TheSimpsonsGame-Recompiled-Windows-x64.zip",
+    "assetSize": 390757356,
+    "assetSha256": "a52b3bd3efe063f643a3b9110622de34dc719cdbb8bb14e9c00f3c608959323e"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "banjo-recompiled",
+  "gameId": "banjo-kazooie",
+  "title": "Banjo: Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "BanjoRecomp",
+    "name": "BanjoRecomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "BanjoRecompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Escolha o arquivo do jogo (versão norte-americana 1.0) no menu inicial.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Nintendo 64 (EUA 1.0)",
+      "kind": "single-file",
+      "format": "n64-rom",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/BanjoRecomp/BanjoRecomp#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "%LOCALAPPDATA%\\BanjoRecompiled\\saves",
+      "kind": "saves",
+      "location": "user"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/BanjoRecomp/BanjoRecomp",
+    "docs": "https://github.com/BanjoRecomp/BanjoRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.2",
+    "prerelease": false,
+    "assetName": "BanjoRecompiled-v1.0.2-Windows.zip",
+    "assetSize": 18669475,
+    "assetSha256": "fc34aad48e06681878bedd13b88d5332a2f21f6a98cafc931c94d54892a4dd92"
+  }
+}

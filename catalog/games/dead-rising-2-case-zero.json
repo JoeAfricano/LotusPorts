@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dead-rising-2-case-zero",
+  "title": "Dead Rising 2: Case Zero",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "ação",
+    "terror"
+  ],
+  "descriptionPtBr": "Prólogo de Dead Rising 2: Chuck Greene precisa proteger a filha numa cidade tomada por zumbis.",
+  "recommendedPortId": "case-zero-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dead-rising-2-case-zero",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

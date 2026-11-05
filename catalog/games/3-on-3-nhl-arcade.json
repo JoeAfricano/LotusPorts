@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "3-on-3-nhl-arcade",
+  "title": "3 on 3 NHL Arcade",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Hóquei arcade rápido em partidas de três contra três.",
+  "recommendedPortId": "3on3-nhl-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:3-on-3-nhl-arcade",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

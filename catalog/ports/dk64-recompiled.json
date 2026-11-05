@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "dk64-recompiled",
+  "gameId": "donkey-kong-64",
+  "title": "Donkey Kong 64: Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Rainchus",
+    "name": "Donkey-Kong-64-Recompiled"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "DK64Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [
+    {
+      "path": "%LOCALAPPDATA%\\DK64Recompiled\\saves",
+      "kind": "saves",
+      "location": "user"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Rainchus/Donkey-Kong-64-Recompiled",
+    "docs": "https://github.com/Rainchus/Donkey-Kong-64-Recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.3",
+    "prerelease": false,
+    "assetName": "DK64Recompiled-Windows-Release-1-0-3.zip",
+    "assetSize": 19986113,
+    "assetSha256": "bfde3985365247f083ee47568b496eaf8a4a0845155a95802bc8f4a4871c60d5"
+  }
+}

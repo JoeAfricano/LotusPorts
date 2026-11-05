@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "king-kong",
+  "title": "Peter Jackson's King Kong",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "ação",
+    "aventura"
+  ],
+  "descriptionPtBr": "Viva a Ilha da Caveira como Jack Driscoll, em primeira pessoa, e como o próprio Kong.",
+  "recommendedPortId": "king-kong-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:king-kong",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

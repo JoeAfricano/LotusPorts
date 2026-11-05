@@ -191,7 +191,11 @@
                         <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=SettingsCatalogSources}" />
                         <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=SettingsCatalogSourcesHint}" />
                     </StackPanel>
-                    <controls:StateBadge Grid.Column="1" Text="{local:Str Key=BadgeInDevelopment}" />
+                    <Button
+                        Grid.Column="1"
+                        VerticalAlignment="Center"
+                        Click="OnOpenCatalogSources"
+                        Content="{local:Str Key=SettingsCatalogSourcesOpen}" />
                 </Grid>
             </Border>
 
@@ -216,6 +220,24 @@
                             OnContent="" />
                     </Grid>
                     <StackPanel Spacing="14" Visibility="{x:Bind ViewModel.AdvancedMode, Mode=OneWay}">
+                        <Rectangle Height="1" Fill="{StaticResource Stroke.Subtle}" />
+                        <Grid ColumnSpacing="24">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Spacing="2">
+                                <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsShowInReview}" />
+                                <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=SettingsShowInReviewHint}" />
+                            </StackPanel>
+                            <ToggleSwitch
+                                Grid.Column="1"
+                                MinWidth="0"
+                                AutomationProperties.Name="{local:Str Key=SettingsShowInReview}"
+                                IsOn="{x:Bind ViewModel.ShowInReview, Mode=TwoWay}"
+                                OffContent=""
+                                OnContent="" />
+                        </Grid>
                         <Rectangle Height="1" Fill="{StaticResource Stroke.Subtle}" />
                         <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsJournal}" />
                         <TextBlock

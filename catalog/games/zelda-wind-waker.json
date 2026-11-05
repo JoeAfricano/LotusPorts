@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zelda-wind-waker",
+  "title": "The Legend of Zelda: The Wind Waker",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [
+    "aventura",
+    "ação"
+  ],
+  "descriptionPtBr": "Link navega por um grande oceano em visual cel-shading para resgatar a irmã e enfrentar Ganondorf.",
+  "recommendedPortId": "bluewake",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:zelda-wind-waker",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "jak-and-daxter",
+  "title": "Jak and Daxter: The Precursor Legacy",
+  "originalPlatform": "PS2",
+  "releaseYear": null,
+  "genre": [
+    "plataforma",
+    "aventura"
+  ],
+  "descriptionPtBr": "Jak e Daxter, transformado em doninha, exploram um mundo aberto para reverter a transformação.",
+  "recommendedPortId": "opengoal",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:jak-and-daxter",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

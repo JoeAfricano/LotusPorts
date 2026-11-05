@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "rsdkv4-sonic-1",
+  "gameId": "sonic-the-hedgehog-2013",
+  "title": "RSDKv4 (Sonic 1)",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "RSDKModding",
+    "name": "RSDKv4-Decompilation"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "RSDKv4.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/RSDKModding/RSDKv4-Decompilation",
+    "docs": "https://github.com/RSDKModding/RSDKv4-Decompilation#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "1.3.3",
+    "prerelease": false,
+    "assetName": "v4-windows-x64.zip",
+    "assetSize": 1350673,
+    "assetSha256": "e491bb9556b48bdb1fd656801a5bd7ce19dc0b7a31693bff754f619a9a8fa814"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cave-story",
+  "title": "Cave Story",
+  "originalPlatform": "PC",
+  "releaseYear": null,
+  "genre": [
+    "plataforma",
+    "ação"
+  ],
+  "descriptionPtBr": "Um robô sem memória acorda numa caverna e descobre o conflito entre os Mimigas e um doutor cruel.",
+  "recommendedPortId": "doukutsu-rs",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:cave-story",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

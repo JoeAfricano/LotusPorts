@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "revenge-recompiled",
+  "gameId": "wcw-nwo-revenge",
+  "title": "Revenge Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "jessetbh",
+    "name": "WCWnWoRevengeRecomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "RevengeRecompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "select-on-first-launch",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Forneça o arquivo do jogo (versão americana).",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartucho de Nintendo 64 (EUA)",
+      "kind": "single-file",
+      "format": "n64-rom",
+      "canonicalFormat": null,
+      "acceptedVersions": [
+        {
+          "region": "EUA",
+          "version": "PREENCHER",
+          "fileName": null,
+          "sha1": "e1711a2511394b9357b5f1ac8ca5cc17bd674836",
+          "md5": null,
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/jessetbh/WCWnWoRevengeRecomp#readme"
+        }
+      ],
+      "officialDocsUrl": "https://github.com/jessetbh/WCWnWoRevengeRecomp#readme"
+    }
+  ],
+  "persistentPaths": [
+    {
+      "path": "%LOCALAPPDATA%\\RevengeRecompiled\\saves",
+      "kind": "saves",
+      "location": "user"
+    }
+  ],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/jessetbh/WCWnWoRevengeRecomp",
+    "docs": "https://github.com/jessetbh/WCWnWoRevengeRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.0",
+    "prerelease": true,
+    "assetName": "RevengeRecompiled-v0.2.0-Windows.zip",
+    "assetSize": 22418056,
+    "assetSha256": "509425d4b2bbe6c01d46e97078946d77c1cbed562aa6f0787633d58a69185620"
+  }
+}

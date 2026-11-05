@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "the-darkness",
+  "title": "The Darkness",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "tiro",
+    "terror"
+  ],
+  "descriptionPtBr": "Jackie Estacado, possuído por uma força sombria, busca vingança contra a máfia.",
+  "recommendedPortId": "darkness-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:the-darkness",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+  }
+}

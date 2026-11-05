@@ -36,18 +36,18 @@ public sealed class DatabaseTests : IDisposable
     [Fact]
     public async Task Fresh_database_is_migrated_with_wal()
     {
-        (await Runner().MigrateAsync()).Should().Be(1);
+        (await Runner().MigrateAsync()).Should().Be(AllMigrations.List.Count);
         await using var c = await database.OpenAsync();
         (await c.ExecuteScalarAsync<string>("PRAGMA journal_mode;")).Should().Be("wal");
         (await c.QueryAsync<string>("SELECT name FROM sqlite_master WHERE type = 'table'"))
-            .Should().Contain(["Settings", "OperationJournal"]);
+            .Should().Contain(["Settings", "OperationJournal", "Games", "CatalogSources"]);
     }
 
     [Fact]
     public async Task Migrating_twice_changes_nothing()
     {
         await Runner().MigrateAsync();
-        (await Runner().MigrateAsync()).Should().Be(1);
+        (await Runner().MigrateAsync()).Should().Be(AllMigrations.List.Count);
     }
 
     [Fact]

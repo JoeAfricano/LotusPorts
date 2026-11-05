@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "smas-launcher",
+  "gameId": "super-mario-all-stars",
+  "title": "SMAS Launcher",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "qurious-pixel",
+    "name": "SMAS_Launcher"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "launcher.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": "beside-exe",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Copie os arquivos smas.sfc e smw.sfc para a mesma pasta do launcher.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Cartuchos de Super Nintendo (smas.sfc e smw.sfc)",
+      "kind": "multiple",
+      "format": "snes-rom",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/qurious-pixel/SMAS_Launcher#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/qurious-pixel/SMAS_Launcher",
+    "docs": "https://github.com/qurious-pixel/SMAS_Launcher#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "launcher",
+    "prerelease": false,
+    "assetName": "SMAS_LAUNCHER_Windows.zip",
+    "assetSize": 51532477,
+    "assetSha256": null
+  }
+}

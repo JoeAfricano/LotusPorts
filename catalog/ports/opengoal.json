@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "opengoal",
+  "gameId": "jak-and-daxter",
+  "title": "OpenGOAL",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "open-goal",
+    "name": "launcher"
+  },
+  "license": "ISC",
+  "windowsAsset": {
+    "pattern": "(?i)x64_en-US\\.msi$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": "manual",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "O OpenGOAL tem launcher próprio, que guia a instalação a partir da sua cópia do jogo.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [
+    {
+      "label": "Disco de PlayStation 2",
+      "kind": "disc-image",
+      "format": "ps2-disc",
+      "canonicalFormat": null,
+      "acceptedVersions": [],
+      "officialDocsUrl": "https://github.com/open-goal/launcher#readme"
+    }
+  ],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/open-goal/launcher",
+    "docs": "https://github.com/open-goal/launcher#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2.11.2",
+    "prerelease": false,
+    "assetName": "OpenGOAL-Launcher_2.11.2_x64_en-US.msi",
+    "assetSize": 16228352,
+    "assetSha256": "a2a2b6f8198edf5e9b2f164d2ec31d450df029ecafca8f5758f03c3e6318d211"
+  }
+}

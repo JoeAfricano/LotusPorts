@@ -7,13 +7,13 @@ public enum ExperienceStyle
 }
 
 /// <summary>User preferences kept in the local database (Configurações).</summary>
-public sealed record AppPreferences(string Language, string? LibraryFolder, ExperienceStyle DefaultStyle, bool AutoUpdate, bool AdvancedMode)
+public sealed record AppPreferences(string Language, string? LibraryFolder, ExperienceStyle DefaultStyle, bool AutoUpdate, bool AdvancedMode, bool ShowInReview)
 {
     public const string DefaultLanguage = "pt-BR";
     public static readonly IReadOnlyList<string> SupportedLanguages = ["pt-BR", "en-US"];
 
     /// <summary>Portuguese, library in the app folder, Original style, no automatic updates, simple mode.</summary>
-    public static AppPreferences Default { get; } = new(DefaultLanguage, null, ExperienceStyle.Original, false, false);
+    public static AppPreferences Default { get; } = new(DefaultLanguage, null, ExperienceStyle.Original, false, false, false);
 }
 
 public static class SettingKeys
@@ -23,6 +23,7 @@ public static class SettingKeys
     public const string DefaultStyle = "general.defaultStyle";
     public const string AutoUpdate = "general.autoUpdate";
     public const string AdvancedMode = "advanced.enabled";
+    public const string ShowInReview = "advanced.showInReview";
 }
 
 public interface ISettingsStore
@@ -42,12 +43,14 @@ public sealed class PreferencesService(ISettingsStore store)
         var style = await store.GetAsync(SettingKeys.DefaultStyle, cancellationToken).ConfigureAwait(false);
         var autoUpdate = await store.GetAsync(SettingKeys.AutoUpdate, cancellationToken).ConfigureAwait(false);
         var advanced = await store.GetAsync(SettingKeys.AdvancedMode, cancellationToken).ConfigureAwait(false);
+        var inReview = await store.GetAsync(SettingKeys.ShowInReview, cancellationToken).ConfigureAwait(false);
         return new AppPreferences(
             language is not null && AppPreferences.SupportedLanguages.Contains(language) ? language : d.Language,
             string.IsNullOrWhiteSpace(folder) ? null : folder,
             Enum.TryParse<ExperienceStyle>(style, out var s) && Enum.IsDefined(s) ? s : d.DefaultStyle,
             bool.TryParse(autoUpdate, out var a) ? a : d.AutoUpdate,
-            bool.TryParse(advanced, out var adv) ? adv : d.AdvancedMode);
+            bool.TryParse(advanced, out var adv) ? adv : d.AdvancedMode,
+            bool.TryParse(inReview, out var r) ? r : d.ShowInReview);
     }
 
     public Task SetLanguageAsync(string language, CancellationToken cancellationToken = default) =>
@@ -59,4 +62,5 @@ public sealed class PreferencesService(ISettingsStore store)
     public Task SetDefaultStyleAsync(ExperienceStyle style, CancellationToken cancellationToken = default) => store.SetAsync(SettingKeys.DefaultStyle, style.ToString(), cancellationToken);
     public Task SetAutoUpdateAsync(bool enabled, CancellationToken cancellationToken = default) => store.SetAsync(SettingKeys.AutoUpdate, enabled.ToString(), cancellationToken);
     public Task SetAdvancedModeAsync(bool enabled, CancellationToken cancellationToken = default) => store.SetAsync(SettingKeys.AdvancedMode, enabled.ToString(), cancellationToken);
+    public Task SetShowInReviewAsync(bool enabled, CancellationToken cancellationToken = default) => store.SetAsync(SettingKeys.ShowInReview, enabled.ToString(), cancellationToken);
 }
