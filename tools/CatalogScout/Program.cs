@@ -20,6 +20,8 @@ if (args.Length > 0 && args[0] == "generate") return Generator.Generate(args[1],
 if (args.Length > 0 && args[0] == "bundle") return Generator.Bundle(args[1]);
 //   approve <catalogDir> <reviewer> --all | <gameId>...   mark games as reviewed (they become public)
 if (args.Length > 0 && args[0] == "approve") return Generator.Approve(args[1], args[2], args[3..]);
+//   apply-review <reviewsDir> <catalogDir> <reviewer>   apply decisions saved by the review page (one JSON per game)
+if (args.Length > 0 && args[0] == "apply-review") return Generator.ApplyReview(args[1], args[2], args[3]);
 if (args.Length > 0 && args[0] == "scan") args = args[1..];
 if (args.Length < 2) { Console.Error.WriteLine("usage: CatalogScout scan <repos.txt> <out.json> | generate ... | bundle ..."); return 2; }
 var repos = File.ReadAllLines(args[0]).Select(l => l.Trim()).Where(l => l.Length > 0 && !l.StartsWith('#')).Distinct(StringComparer.OrdinalIgnoreCase).ToList();

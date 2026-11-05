@@ -44,6 +44,9 @@ dotnet run --project tools/CatalogScout -- bundle catalog
 dotnet run --project tools/CatalogScout -- approve catalog José zelda-ocarina-of-time super-mario-64
 dotnet run --project tools/CatalogScout -- approve catalog José --all
 
+# 4b. Aplicar as decisões da página de revisão (um JSON por jogo, lidos do banco da página)
+dotnet run --project tools/CatalogScout -- apply-review <pasta-das-revisoes> catalog José
+
 # 5. Validar
 dotnet test LotusPorts.slnx -p:Platform=x64
 ```
@@ -66,6 +69,16 @@ O scanner lê só o índice no fim de cada zip oficial, com uma leitura parcial,
   - RecompLauncher.
 - **Todos os jogos estão `pending`**, aguardando a revisão do José.
 - **Todos os ports estão `NAO_AVALIADO`** ("Ainda não avaliado"): o status Jogável/Com bugs/Em construção é decisão de curadoria.
+
+### Página de revisão
+
+A revisão é feita na página [Revisão do catálogo](https://claude.ai/artifact/ChbDVyUECKt5sDCrv7zV4o), que é privada e só grava com a conta do dono. Para cada jogo:
+- aprovar, recusar ou deixar pendente;
+- escolher o port recomendado e escrever o motivo;
+- definir o status de cada port;
+- deixar observações.
+
+As decisões ficam no banco da página (coleção `reviews`). O Claude lê essa coleção e aplica com `apply-review`. Se algum jogo ou port não existir, nada é gravado.
 
 ### O que revisar
 
