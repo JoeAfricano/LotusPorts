@@ -18,6 +18,7 @@ public sealed partial class SimplePage : Page
         Empty.Message = Strings.Get(prefix + "EmptyMessage");
         // Downloads really is empty (nothing can be downloaded yet); the Lotus integration is still being built.
         Empty.BadgeText = prefix == "Downloads" ? "" : Strings.Get("BadgeInDevelopment");
+        Empty.Illustration = prefix == "Downloads" ? "Assets/Art/Illustrations/download.png" : "Assets/Art/Illustrations/integracao-lotus.png";
 
         if (prefix != "Lotus") return;
         BulletsCard.Visibility = Visibility.Visible;

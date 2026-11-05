@@ -29,6 +29,10 @@
     <PackageReference Include="Serilog.Sinks.File" />
   </ItemGroup>
   <ItemGroup>
+    <!-- Original art from the Lotus Ports premium pack (José, 2026). Only what the app shows. -->
+    <Content Include="Assets\Art\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="../Lotus.Design/Lotus.Design.csproj" />
     <ProjectReference Include="../Lotus.Integration.Contracts/Lotus.Integration.Contracts.csproj" />
     <ProjectReference Include="../LotusPorts.Core/LotusPorts.Core.csproj" />

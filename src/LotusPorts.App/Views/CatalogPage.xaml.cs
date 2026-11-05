@@ -20,8 +20,16 @@ public sealed partial class CatalogPage : Page
         Loaded += async (_, _) =>
         {
             await ViewModel.LoadAsync();
+            loading = true;
             PlatformBox.ItemsSource = ViewModel.Platforms;
-            PlatformBox.SelectedIndex = 0;
+            GenreBox.ItemsSource = ViewModel.Genres;
+            // Opened from Início with a console or a category already chosen.
+            var wantedPlatform = initial?.Platform;
+            PlatformBox.SelectedIndex = wantedPlatform is null ? 0 : Math.Max(0, ViewModel.Platforms.FindIndex(p => p.Platform == wantedPlatform));
+            var wantedGenre = initial?.Genre;
+            GenreBox.SelectedIndex = wantedGenre is null ? 0 : Math.Max(0, ViewModel.Genres.FindIndex(g => string.Equals(g, wantedGenre, StringComparison.OrdinalIgnoreCase)));
+            loading = false;
+            OnFilterChanged(this, EventArgs.Empty);
         };
     }
 
@@ -29,8 +37,16 @@ public sealed partial class CatalogPage : Page
 
     private CatalogService Service => ViewModel.Service;
 
-    private void OnFilterChanged(object sender, object e) =>
-        ViewModel.Filter(FilterBox.Text, (PlatformBox.SelectedItem as PlatformChip)?.Platform);
+    private CatalogFilterArgument? initial;
+    private bool loading;
+
+    protected override void OnNavigatedTo(Microsoft.UI.Xaml.Navigation.NavigationEventArgs e) => initial = e.Parameter as CatalogFilterArgument;
+
+    private void OnFilterChanged(object sender, object e)
+    {
+        if (loading) return;
+        ViewModel.Filter(FilterBox.Text, (PlatformBox.SelectedItem as PlatformChip)?.Platform, GenreBox.SelectedIndex <= 0 ? null : GenreBox.SelectedItem as string);
+    }
 
     private async void OnAddSource(object sender, RoutedEventArgs e)
     {
@@ -187,7 +203,8 @@ public sealed partial class CatalogPage : Page
             new PortSetup(setupKind, null, null, null, null, null, null), [], [],
             new ExperiencePresets(null, null, new Preset(new Dictionary<string, System.Text.Json.JsonElement>(), false), new Preset(new Dictionary<string, System.Text.Json.JsonElement>(), false)),
             null, null, null, [], new PortLinks(repo, repo + "#readme", null), null, null,
-            new PortEvidence(DateTime.UtcNow.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture), s.Release.Tag, s.Release.Prerelease, s.Asset.Name, s.Asset.Size, s.Asset.Sha256));
+            new PortEvidence(DateTime.UtcNow.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture), s.Release.Tag,
+                s.Release.PublishedAt?.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture), null, s.Release.Prerelease, s.Asset.Name, s.Asset.Size, s.Asset.Sha256));
         return (game, port);
     }
 

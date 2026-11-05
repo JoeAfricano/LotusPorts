@@ -6,6 +6,12 @@
     xmlns:local="using:LotusPorts.App">
 
     <ScrollViewer x:Name="Scroller" HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
+        <Grid>
+        <!--  Scene banner behind the top of the page (premium art); the content sits over it.  -->
+        <controls:SceneHero
+            Height="380"
+            VerticalAlignment="Top"
+            Source="Assets/Art/Scenes/04_FUNDO_SANTUARIO_LUNAR_CARD_WIDE_1200x500.png" />
         <Grid Padding="40,52,48,48">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" MaxWidth="1100" />
@@ -161,6 +167,7 @@
                     </Expander>
                 </StackPanel>
             </StackPanel>
+        </Grid>
         </Grid>
     </ScrollViewer>
 </Page>

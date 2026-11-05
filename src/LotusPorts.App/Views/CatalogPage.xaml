@@ -31,13 +31,22 @@
                         AutomationProperties.Name="{local:Str Key=CatalogFilter}"
                         PlaceholderText="{local:Str Key=CatalogFilter}"
                         TextChanged="OnFilterChanged" />
-                    <ComboBox
-                        x:Name="PlatformBox"
+                    <StackPanel
                         Grid.Column="1"
-                        MinWidth="200"
-                        AutomationProperties.Name="{local:Str Key=FilterPlatform}"
-                        DisplayMemberPath="Label"
-                        SelectionChanged="OnFilterChanged" />
+                        Orientation="Horizontal"
+                        Spacing="10">
+                        <ComboBox
+                            x:Name="PlatformBox"
+                            MinWidth="190"
+                            AutomationProperties.Name="{local:Str Key=FilterPlatform}"
+                            DisplayMemberPath="Label"
+                            SelectionChanged="OnFilterChanged" />
+                        <ComboBox
+                            x:Name="GenreBox"
+                            MinWidth="170"
+                            AutomationProperties.Name="{local:Str Key=FilterGenre}"
+                            SelectionChanged="OnFilterChanged" />
+                    </StackPanel>
                     <TextBlock
                         Grid.Column="2"
                         VerticalAlignment="Center"
@@ -46,7 +55,10 @@
                 </Grid>
 
                 <Border Style="{StaticResource Lotus.Card}" Visibility="{x:Bind ViewModel.NoMatches, Mode=OneWay}">
-                    <controls:EmptyState Message="{local:Str Key=CatalogNoMatchMessage}" Title="{local:Str Key=CatalogNoMatchTitle}" />
+                    <controls:EmptyState
+                        Illustration="Assets/Art/Illustrations/biblioteca-vazia.png"
+                        Message="{local:Str Key=CatalogNoMatchMessage}"
+                        Title="{local:Str Key=CatalogNoMatchTitle}" />
                 </Border>
 
                 <ItemsRepeater ItemsSource="{x:Bind ViewModel.Games}">

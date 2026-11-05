@@ -62,6 +62,7 @@ public static class AppInfo
 /// <summary>Screen ids used by the sidebar, the search and (later) deep links.</summary>
 public static class Pages
 {
+    public const string Home = "home";
     public const string Library = "library";
     public const string Catalog = "catalog";
     public const string Downloads = "downloads";

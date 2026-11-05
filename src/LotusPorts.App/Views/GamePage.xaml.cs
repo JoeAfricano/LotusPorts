@@ -106,7 +106,7 @@ public sealed partial class GamePage : Page
         if (port.Evidence is { ReleaseTag: { } tag } evidence)
             Row(Strings.Get("AboutVersion"), evidence.Prerelease ? Strings.Format("AboutVersionPre", tag) : tag);
         Row(Strings.Get("AboutLicense"), port.License ?? Strings.Get("AboutLicenseUnknown"));
-        Row(Strings.Get("AboutSetup"), port.Setup.NotesPtBr is { } notes ? $"{CatalogLabels.Setup(port.Setup.Kind)}. {notes}" : CatalogLabels.Setup(port.Setup.Kind));
+        Row(Strings.Get("AboutSetup"), port.Setup.NotesPtBr ?? CatalogLabels.Setup(port.Setup.Kind));
 
         var files = port.RequiredGameFiles;
         Row(Strings.Get("AboutGameFile"), files.Count == 0 ? Strings.Get("AboutGameFileUnknown") : string.Join("; ", files.Select(f => f.Label)));
@@ -172,5 +172,5 @@ public sealed partial class GamePage : Page
         await catalog.SetFavoriteAsync(game.Id, favorite);
     }
 
-    private void OnBack(object sender, RoutedEventArgs e) => App.MainWindow?.Navigate(Pages.Library);
+    private void OnBack(object sender, RoutedEventArgs e) => App.MainWindow?.GoBack();
 }

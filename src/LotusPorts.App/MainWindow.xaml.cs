@@ -38,6 +38,7 @@ public sealed partial class MainWindow : Window
 
         nav = new()
         {
+            [Pages.Home] = NavHome,
             [Pages.Library] = NavLibrary,
             [Pages.Catalog] = NavCatalog,
             [Pages.Downloads] = NavDownloads,
@@ -54,18 +55,27 @@ public sealed partial class MainWindow : Window
     {
         var type = page switch
         {
+            Pages.Library => typeof(LibraryPage),
             Pages.Catalog => typeof(CatalogPage),
             Pages.Downloads or Pages.Lotus => typeof(SimplePage),
             Pages.Settings => typeof(SettingsPage),
             Pages.Help => typeof(HelpPage),
             Pages.Game => typeof(GamePage),
-            _ => typeof(LibraryPage),
+            _ => typeof(HomePage),
         };
+        if (page != Pages.Game) { lastPage = page; lastParameter = parameter; }
         ContentFrame.Navigate(type, type == typeof(SimplePage) ? page : parameter);
         navigating = true;
-        foreach (var (id, button) in nav) button.IsChecked = id == page || (page == Pages.Game && id == Pages.Library);
+        var active = nav.ContainsKey(page) ? page : page == Pages.Game ? null : Pages.Home;
+        foreach (var (id, button) in nav) button.IsChecked = id == active;
         navigating = false;
     }
+
+    private string lastPage = Pages.Home;
+    private object? lastParameter;
+
+    /// <summary>From a game page, back to the screen it was opened from.</summary>
+    public void GoBack() => Navigate(lastPage, lastParameter);
 
     private void OnNavChecked(object sender, RoutedEventArgs e)
     {
@@ -77,8 +87,9 @@ public sealed partial class MainWindow : Window
     private void OnSearchShortcut(KeyboardAccelerator sender, KeyboardAcceleratorInvokedEventArgs args)
     {
         args.Handled = true;
-        if (ContentFrame.Content is not LibraryPage) Navigate(Pages.Library);
-        (ContentFrame.Content as LibraryPage)?.FocusSearch();
+        if (ContentFrame.Content is LibraryPage library) { library.FocusSearch(); return; }
+        if (ContentFrame.Content is not HomePage) Navigate(Pages.Home);
+        (ContentFrame.Content as HomePage)?.FocusSearch();
     }
 
     [LibraryImport("user32.dll")]

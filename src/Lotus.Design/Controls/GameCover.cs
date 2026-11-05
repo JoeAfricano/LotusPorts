@@ -25,7 +25,15 @@ public sealed partial class GameCover : UserControl
     private readonly TextBlock platform = new() { FontSize = 11, FontWeight = Microsoft.UI.Text.FontWeights.SemiBold, CharacterSpacing = 80 };
     private readonly TextBlock title = new() { TextWrapping = TextWrapping.WrapWholeWords, MaxLines = 4, TextTrimming = TextTrimming.CharacterEllipsis, FontWeight = Microsoft.UI.Text.FontWeights.SemiBold };
     private readonly Border titleHolder = new() { VerticalAlignment = VerticalAlignment.Bottom };
-    private readonly LotusPetal mark = new() { IsLit = false, Width = 120, Height = 104, Opacity = 0.16, HorizontalAlignment = HorizontalAlignment.Right, VerticalAlignment = VerticalAlignment.Top, Margin = new Thickness(0, 18, 4, 0) };
+    // LotusPetal sets its own opacity, so the watermark strength lives on a wrapper.
+    private readonly Border mark = new()
+    {
+        Opacity = 0.22,
+        HorizontalAlignment = HorizontalAlignment.Right,
+        VerticalAlignment = VerticalAlignment.Top,
+        Margin = new Thickness(0, 18, 4, 0),
+        Child = new LotusPetal { IsLit = false, Width = 120, Height = 104 },
+    };
 
     public GameCover()
     {

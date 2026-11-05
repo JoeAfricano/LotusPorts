@@ -99,6 +99,7 @@ public partial class App : Application
             return new GitHubClient(http);
         });
         services.AddSingleton<CatalogService>();
+        services.AddTransient<HomeViewModel>();
         services.AddTransient<LibraryViewModel>();
         services.AddTransient<CatalogViewModel>();
         services.AddTransient<SettingsViewModel>();
@@ -112,7 +113,7 @@ public partial class App : Application
         var arg = Environment.GetCommandLineArgs().FirstOrDefault(a => a.StartsWith("--page=", StringComparison.Ordinal));
         if (arg is not null) return arg["--page=".Length..];
 #endif
-        return Pages.Library;
+        return Pages.Home;
     }
 
     private void ShowError(Exception exception, bool canContinue)

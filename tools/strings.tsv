@@ -12,7 +12,7 @@ LibraryHeroSubtitle	Ports nativos para PC, instalados e configurados para você.
 SearchPlaceholder	Buscar um jogo ou ação…  (Ctrl+K)	Search for a game or action…  (Ctrl+K)
 SearchAutomation	Buscar jogos e ações	Search games and actions
 SearchNoResults	Nenhum resultado	No results
-SearchKeywordsLibrary	estante;jogos;início	shelf;games;home
+SearchKeywordsLibrary	estante;meus jogos;favoritos;instalados	shelf;my games;favorites;installed
 SearchKeywordsCatalog	descobrir;novos jogos;fontes	discover;new games;sources
 SearchKeywordsDownloads	baixar;fila;progresso	download;queue;progress
 SearchKeywordsLotus	lotus;desempenho;dependências;perfil	lotus;performance;dependencies;profile
@@ -79,7 +79,7 @@ HelpProblemTitle	Se um jogo não abrir	If a game does not open
 HelpProblemText	O botão do jogo vira "Resolver", com a causa em português e o conserto em um clique. Quando não for possível confirmar algo, o Lotus Ports diz "não verificado" em vez de fingir que está tudo certo.	The game button becomes "Fix it", with the cause in plain language and a one-click fix. When something cannot be confirmed, Lotus Ports says "not verified" instead of pretending all is well.
 HelpSavesTitle	Saves	Saves
 HelpSavesText	A proteção e o backup dos saves ficam com o Lotus, que já faz isso para todos os seus jogos.	Save protection and backups are handled by Lotus, which already does this for all your games.
-GameBack	Voltar para a biblioteca	Back to library
+GameBack	Voltar	Back
 GameNotFoundTitle	Jogo não encontrado	Game not found
 GameNotFoundMessage	Este jogo não está no catálogo ou ainda aguarda revisão.	This game is not in the catalog or is still waiting for review.
 ErrorTitle	Algo deu errado	Something went wrong
@@ -145,7 +145,7 @@ TabNotInstalled	Não instalados ({0})	Not installed ({0})
 LibraryNothingReviewedTitle	Nenhum jogo revisado ainda	No games reviewed yet
 LibraryNothingReviewedMessage	{0} jogos aguardam a revisão do curador antes de aparecer aqui. No modo avançado, ative "Mostrar jogos em revisão" para vê-los antes.	{0} games are waiting for the curator's review before they show up here. In advanced mode, turn on "Show games in review" to see them now.
 LibraryNoMatchTitle	Nenhum jogo com esses filtros	No games match these filters
-LibraryNoMatchMessage	Troque a aba, a plataforma ou o gênero para ver outros jogos.	Change the tab, platform or genre to see other games.
+LibraryNoMatchMessage	Troque a aba para ver seus outros jogos.	Change the tab to see your other games.
 GameFavorite	Favoritar	Favorite
 GameMore	Mais opções	More options
 GameRecommended	Port recomendado	Recommended port
@@ -235,3 +235,49 @@ UserPortExported	Arquivo {0} salvo.	File {0} saved.
 SettingsCatalogSourcesOpen	Abrir fontes	Open sources
 SettingsShowInReview	Mostrar jogos em revisão	Show games in review
 SettingsShowInReviewHint	Mostra na Biblioteca e no Catálogo os jogos que o curador ainda não revisou, com o selo Em revisão.	Shows in the Library and Catalog the games the curator hasn't reviewed yet, with the In review badge.
+PlatformNES	NES	NES
+PlatformGB	Game Boy	Game Boy
+PlatformGBC	Game Boy Color	Game Boy Color
+PlatformNDS	Nintendo DS	Nintendo DS
+PlatformN3DS	Nintendo 3DS	Nintendo 3DS
+PlatformVIRTUAL_BOY	Virtual Boy	Virtual Boy
+PlatformWII	Wii	Wii
+PlatformSWITCH	Nintendo Switch	Nintendo Switch
+PlatformPS3	PlayStation 3	PlayStation 3
+PlatformPS4	PlayStation 4	PlayStation 4
+PlatformPS5	PlayStation 5	PlayStation 5
+PlatformPSP	PSP	PSP
+PlatformXBOX	Xbox	Xbox
+PlatformGENESIS	Mega Drive	Genesis
+PlatformSEGA_32X	32X	32X
+PlatformGAME_GEAR	Game Gear	Game Gear
+PlatformSATURN	Saturn	Saturn
+PlatformDREAMCAST	Dreamcast	Dreamcast
+PlatformARCADE	Arcade	Arcade
+PlatformCDI	CD-i	CD-i
+PlatformAMIGA	Amiga	Amiga
+PlatformOTHER	Outra plataforma	Other platform
+NavHome	Início	Home
+SearchKeywordsHome	início;vitrine;descobrir;populares;novidades	home;discover;popular;new
+HomeSubtitle	Ports nativos para PC, feitos pela comunidade a partir dos jogos originais. Escolha o jogo e jogue com a sua própria cópia.	Native PC ports made by the community from the original games. Pick a game and play it with your own copy.
+HomeFeatured	LANÇAMENTO MAIS RECENTE	LATEST RELEASE
+HomeFeaturedDetail	{0} {1} · {2} · {3}	{0} {1} · {2} · {3}
+HomePopular	Mais populares	Most popular
+HomeUpdated	Atualizados recentemente	Recently updated
+HomeNew	Recém-chegados	Just arrived
+HomeSoon	Em breve	Coming soon
+HomeByConsole	Por console	By console
+HomeCategories	Categorias	Categories
+HomeConsoleOne	{0} jogo	{0} game
+HomeConsoleMany	{0} jogos	{0} games
+HomeEmptyMessage	Os jogos aparecem aqui depois da revisão do curador. No modo avançado, ative "Mostrar jogos em revisão" para vê-los antes.	Games show up here after the curator reviews them. In advanced mode, turn on "Show games in review" to see them now.
+CardStars	★ {0} no GitHub	★ {0} on GitHub
+CardUpdated	Atualizado em {0}	Updated {0}
+ShelfFavorites	Favoritos	Favorites
+LibraryEyebrow	SUA ESTANTE	YOUR SHELF
+LibrarySubtitle	Seus ports, seus jogos, tudo em um só lugar.	Your ports, your games, all in one place.
+LibraryYoursEmptyTitle	Sua biblioteca ainda está vazia	Your library is still empty
+LibraryYoursEmptyMessage	Favorite um jogo, ou instale um, e ele aparece aqui.	Favorite or install a game and it shows up here.
+LibraryGoHome	Explorar o Início	Explore Home
+LibraryGoCatalog	Ver o catálogo	See the catalog
+CompactThousands	{0} mil	{0}k

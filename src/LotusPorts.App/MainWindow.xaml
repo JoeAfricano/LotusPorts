@@ -57,6 +57,18 @@
 
             <StackPanel Grid.Row="1" Spacing="4">
                 <RadioButton
+                    x:Name="NavHome"
+                    AutomationProperties.Name="{local:Str Key=NavHome}"
+                    Checked="OnNavChecked"
+                    GroupName="Nav"
+                    Style="{StaticResource Lotus.NavItem}"
+                    Tag="home">
+                    <StackPanel Orientation="Horizontal" Spacing="14">
+                        <FontIcon FontSize="16" Glyph="&#xE80F;" />
+                        <TextBlock Text="{local:Str Key=NavHome}" />
+                    </StackPanel>
+                </RadioButton>
+                <RadioButton
                     x:Name="NavLibrary"
                     AutomationProperties.Name="{local:Str Key=NavLibrary}"
                     Checked="OnNavChecked"

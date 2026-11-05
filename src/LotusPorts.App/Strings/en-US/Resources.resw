@@ -18,7 +18,7 @@
   <data name="SearchPlaceholder" xml:space="preserve"><value>Search for a game or action…  (Ctrl+K)</value></data>
   <data name="SearchAutomation" xml:space="preserve"><value>Search games and actions</value></data>
   <data name="SearchNoResults" xml:space="preserve"><value>No results</value></data>
-  <data name="SearchKeywordsLibrary" xml:space="preserve"><value>shelf;games;home</value></data>
+  <data name="SearchKeywordsLibrary" xml:space="preserve"><value>shelf;my games;favorites;installed</value></data>
   <data name="SearchKeywordsCatalog" xml:space="preserve"><value>discover;new games;sources</value></data>
   <data name="SearchKeywordsDownloads" xml:space="preserve"><value>download;queue;progress</value></data>
   <data name="SearchKeywordsLotus" xml:space="preserve"><value>lotus;performance;dependencies;profile</value></data>
@@ -85,7 +85,7 @@
   <data name="HelpProblemText" xml:space="preserve"><value>The game button becomes &quot;Fix it&quot;, with the cause in plain language and a one-click fix. When something cannot be confirmed, Lotus Ports says &quot;not verified&quot; instead of pretending all is well.</value></data>
   <data name="HelpSavesTitle" xml:space="preserve"><value>Saves</value></data>
   <data name="HelpSavesText" xml:space="preserve"><value>Save protection and backups are handled by Lotus, which already does this for all your games.</value></data>
-  <data name="GameBack" xml:space="preserve"><value>Back to library</value></data>
+  <data name="GameBack" xml:space="preserve"><value>Back</value></data>
   <data name="GameNotFoundTitle" xml:space="preserve"><value>Game not found</value></data>
   <data name="GameNotFoundMessage" xml:space="preserve"><value>This game is not in the catalog or is still waiting for review.</value></data>
   <data name="ErrorTitle" xml:space="preserve"><value>Something went wrong</value></data>
@@ -151,7 +151,7 @@
   <data name="LibraryNothingReviewedTitle" xml:space="preserve"><value>No games reviewed yet</value></data>
   <data name="LibraryNothingReviewedMessage" xml:space="preserve"><value>{0} games are waiting for the curator&apos;s review before they show up here. In advanced mode, turn on &quot;Show games in review&quot; to see them now.</value></data>
   <data name="LibraryNoMatchTitle" xml:space="preserve"><value>No games match these filters</value></data>
-  <data name="LibraryNoMatchMessage" xml:space="preserve"><value>Change the tab, platform or genre to see other games.</value></data>
+  <data name="LibraryNoMatchMessage" xml:space="preserve"><value>Change the tab to see your other games.</value></data>
   <data name="GameFavorite" xml:space="preserve"><value>Favorite</value></data>
   <data name="GameMore" xml:space="preserve"><value>More options</value></data>
   <data name="GameRecommended" xml:space="preserve"><value>Recommended port</value></data>
@@ -241,4 +241,50 @@
   <data name="SettingsCatalogSourcesOpen" xml:space="preserve"><value>Open sources</value></data>
   <data name="SettingsShowInReview" xml:space="preserve"><value>Show games in review</value></data>
   <data name="SettingsShowInReviewHint" xml:space="preserve"><value>Shows in the Library and Catalog the games the curator hasn&apos;t reviewed yet, with the In review badge.</value></data>
+  <data name="PlatformNES" xml:space="preserve"><value>NES</value></data>
+  <data name="PlatformGB" xml:space="preserve"><value>Game Boy</value></data>
+  <data name="PlatformGBC" xml:space="preserve"><value>Game Boy Color</value></data>
+  <data name="PlatformNDS" xml:space="preserve"><value>Nintendo DS</value></data>
+  <data name="PlatformN3DS" xml:space="preserve"><value>Nintendo 3DS</value></data>
+  <data name="PlatformVIRTUAL_BOY" xml:space="preserve"><value>Virtual Boy</value></data>
+  <data name="PlatformWII" xml:space="preserve"><value>Wii</value></data>
+  <data name="PlatformSWITCH" xml:space="preserve"><value>Nintendo Switch</value></data>
+  <data name="PlatformPS3" xml:space="preserve"><value>PlayStation 3</value></data>
+  <data name="PlatformPS4" xml:space="preserve"><value>PlayStation 4</value></data>
+  <data name="PlatformPS5" xml:space="preserve"><value>PlayStation 5</value></data>
+  <data name="PlatformPSP" xml:space="preserve"><value>PSP</value></data>
+  <data name="PlatformXBOX" xml:space="preserve"><value>Xbox</value></data>
+  <data name="PlatformGENESIS" xml:space="preserve"><value>Genesis</value></data>
+  <data name="PlatformSEGA_32X" xml:space="preserve"><value>32X</value></data>
+  <data name="PlatformGAME_GEAR" xml:space="preserve"><value>Game Gear</value></data>
+  <data name="PlatformSATURN" xml:space="preserve"><value>Saturn</value></data>
+  <data name="PlatformDREAMCAST" xml:space="preserve"><value>Dreamcast</value></data>
+  <data name="PlatformARCADE" xml:space="preserve"><value>Arcade</value></data>
+  <data name="PlatformCDI" xml:space="preserve"><value>CD-i</value></data>
+  <data name="PlatformAMIGA" xml:space="preserve"><value>Amiga</value></data>
+  <data name="PlatformOTHER" xml:space="preserve"><value>Other platform</value></data>
+  <data name="NavHome" xml:space="preserve"><value>Home</value></data>
+  <data name="SearchKeywordsHome" xml:space="preserve"><value>home;discover;popular;new</value></data>
+  <data name="HomeSubtitle" xml:space="preserve"><value>Native PC ports made by the community from the original games. Pick a game and play it with your own copy.</value></data>
+  <data name="HomeFeatured" xml:space="preserve"><value>LATEST RELEASE</value></data>
+  <data name="HomeFeaturedDetail" xml:space="preserve"><value>{0} {1} · {2} · {3}</value></data>
+  <data name="HomePopular" xml:space="preserve"><value>Most popular</value></data>
+  <data name="HomeUpdated" xml:space="preserve"><value>Recently updated</value></data>
+  <data name="HomeNew" xml:space="preserve"><value>Just arrived</value></data>
+  <data name="HomeSoon" xml:space="preserve"><value>Coming soon</value></data>
+  <data name="HomeByConsole" xml:space="preserve"><value>By console</value></data>
+  <data name="HomeCategories" xml:space="preserve"><value>Categories</value></data>
+  <data name="HomeConsoleOne" xml:space="preserve"><value>{0} game</value></data>
+  <data name="HomeConsoleMany" xml:space="preserve"><value>{0} games</value></data>
+  <data name="HomeEmptyMessage" xml:space="preserve"><value>Games show up here after the curator reviews them. In advanced mode, turn on &quot;Show games in review&quot; to see them now.</value></data>
+  <data name="CardStars" xml:space="preserve"><value>★ {0} on GitHub</value></data>
+  <data name="CardUpdated" xml:space="preserve"><value>Updated {0}</value></data>
+  <data name="ShelfFavorites" xml:space="preserve"><value>Favorites</value></data>
+  <data name="LibraryEyebrow" xml:space="preserve"><value>YOUR SHELF</value></data>
+  <data name="LibrarySubtitle" xml:space="preserve"><value>Your ports, your games, all in one place.</value></data>
+  <data name="LibraryYoursEmptyTitle" xml:space="preserve"><value>Your library is still empty</value></data>
+  <data name="LibraryYoursEmptyMessage" xml:space="preserve"><value>Favorite or install a game and it shows up here.</value></data>
+  <data name="LibraryGoHome" xml:space="preserve"><value>Explore Home</value></data>
+  <data name="LibraryGoCatalog" xml:space="preserve"><value>See the catalog</value></data>
+  <data name="CompactThousands" xml:space="preserve"><value>{0}k</value></data>
 </root>

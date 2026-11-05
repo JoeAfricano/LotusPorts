@@ -136,6 +136,8 @@ internal static class Generator
                 {
                     ["scannedAt"] = today,
                     ["releaseTag"] = release["tag"]?.GetValue<string>(),
+                    ["releaseDate"] = Wide.DateOnly(release["publishedAt"]?.GetValue<string>()),
+                    ["stars"] = evidence["stars"]?.GetValue<int>(),
                     ["prerelease"] = release["prerelease"]?.GetValue<bool>() ?? false,
                     ["assetName"] = assetName,
                     ["assetSize"] = asset["size"]?.GetValue<long>(),

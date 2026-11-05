@@ -14,9 +14,9 @@
   "alternatives": [],
   "lotusGameKey": "port:donkey-kong-64",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Proposta montada a partir dos dados oficiais do repositório; aguardando a revisão do curador."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-05",
+    "notesPtBr": null
   }
 }

@@ -38,14 +38,36 @@ public enum Platform
 {
     N64,
     SNES,
+    NES,
+    GB,
+    GBC,
     GBA,
+    NDS,
+    N3DS,
+    VIRTUAL_BOY,
     GAMECUBE,
+    WII,
     WII_U,
+    SWITCH,
     PS1,
     PS2,
+    PS3,
+    PS4,
+    PS5,
+    PSP,
+    XBOX,
     XBOX_360,
+    GENESIS,
+    SEGA_32X,
+    GAME_GEAR,
+    SATURN,
+    DREAMCAST,
+    ARCADE,
+    CDI,
+    AMIGA,
     PC,
     MOBILE,
+    OTHER,
 }
 
 public sealed record Port(
@@ -113,7 +135,8 @@ public sealed record PortLinks(string Repo, string? Docs, string? Community);
 
 public sealed record PortArt(string? Icon, string? Banner, string? ArtLicense);
 
-public sealed record PortEvidence(string? ScannedAt, string? ReleaseTag, bool Prerelease, string? AssetName, long? AssetSize, string? AssetSha256);
+/// <summary>What the scanner measured on GitHub, and when (stars and dates are a snapshot of that day).</summary>
+public sealed record PortEvidence(string? ScannedAt, string? ReleaseTag, string? ReleaseDate, int? Stars, bool Prerelease, string? AssetName, long? AssetSize, string? AssetSha256);
 
 public static class CatalogJson
 {

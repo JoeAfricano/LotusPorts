@@ -21,6 +21,10 @@ if (args.Length > 0 && args[0] == "bundle") return Generator.Bundle(args[1]);
 //   approve <catalogDir> <reviewer> --all | <gameId>...   mark games as reviewed (they become public)
 if (args.Length > 0 && args[0] == "approve") return Generator.Approve(args[1], args[2], args[3..]);
 //   apply-review <reviewsDir> <catalogDir> <reviewer>   apply decisions saved by the review page (one JSON per game)
+//   generate-wide <map.json> <catalogDir> <scan.json>...   many ports at once from a discovery map (facts only), checked against scans
+if (args.Length > 0 && args[0] == "generate-wide") return Wide.Generate(args[1], args[3..], args[2]);
+//   refresh-evidence <catalogDir> <scan.json>...   update measured release date and stars of existing ports
+if (args.Length > 0 && args[0] == "refresh-evidence") return Wide.RefreshEvidence(args[1], args[2..]);
 if (args.Length > 0 && args[0] == "apply-review") return Generator.ApplyReview(args[1], args[2], args[3]);
 if (args.Length > 0 && args[0] == "scan") args = args[1..];
 if (args.Length < 2) { Console.Error.WriteLine("usage: CatalogScout scan <repos.txt> <out.json> | generate ... | bundle ..."); return 2; }
@@ -105,7 +109,7 @@ foreach (var repo in repos)
             entry["release"] = release;
         }
 
-        var readme = await GetText($"repos/{fullName}/readme");
+        var readme = args.Contains("--no-readme") ? null : await GetText($"repos/{fullName}/readme");
         if (readme is not null)
         {
             var lines = readme.Split('\n').Select(l => l.Trim()).ToList();

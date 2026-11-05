@@ -9,33 +9,33 @@
 
     <ScrollViewer HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
         <StackPanel>
-            <Grid Height="360">
-                <controls:SakuraHero />
+            <Grid Height="280">
+                <controls:SceneHero Source="Assets/Art/Scenes/04_FUNDO_SANTUARIO_LUNAR_HERO_COMPACT_1440x520.png" />
                 <StackPanel
                     MaxWidth="660"
-                    Margin="48,0,48,28"
+                    Margin="48,0,48,26"
                     HorizontalAlignment="Left"
-                    VerticalAlignment="Bottom">
-                    <TextBlock Style="{StaticResource Type.Display}" Text="{local:Str Key=LibraryHeroLine1}" />
+                    VerticalAlignment="Bottom"
+                    Spacing="4">
                     <TextBlock
-                        Margin="0,-4,0,12"
+                        CharacterSpacing="160"
+                        FontSize="12"
+                        FontWeight="SemiBold"
                         Foreground="{StaticResource Accent.Rose}"
-                        Style="{StaticResource Type.Display}"
-                        Text="{local:Str Key=LibraryHeroLine2}" />
+                        Text="{local:Str Key=LibraryEyebrow}" />
+                    <TextBlock Style="{StaticResource Type.Display}" Text="{local:Str Key=NavLibrary}" />
                     <TextBlock
-                        MaxWidth="520"
-                        HorizontalAlignment="Left"
                         Foreground="{StaticResource Text.Secondary}"
                         Style="{StaticResource Type.Body}"
-                        Text="{local:Str Key=LibraryHeroSubtitle}" />
+                        Text="{local:Str Key=LibrarySubtitle}" />
                     <AutoSuggestBox
                         x:Name="SearchBox"
                         Width="580"
-                        Margin="0,22,0,0"
+                        Margin="0,16,0,0"
                         HorizontalAlignment="Left"
                         AutomationProperties.Name="{local:Str Key=SearchAutomation}"
                         DisplayMemberPath="Title"
-                        ItemsSource="{x:Bind ViewModel.Suggestions}"
+                        ItemsSource="{x:Bind ViewModel.Search.Suggestions}"
                         PlaceholderText="{local:Str Key=SearchPlaceholder}"
                         QueryIcon="Find"
                         QuerySubmitted="OnQuerySubmitted"
@@ -44,11 +44,9 @@
                 </StackPanel>
             </Grid>
 
-            <StackPanel Margin="48,0,48,48" Spacing="18">
-                <!--  Tabs (concept art) and minimal chips  -->
+            <StackPanel Margin="48,8,48,48" Spacing="18">
                 <StackPanel Orientation="Horizontal" Spacing="10">
                     <RadioButton
-                        x:Name="TabAll"
                         Checked="OnTabChecked"
                         Content="{x:Bind ViewModel.AllLabel, Mode=OneWay}"
                         GroupName="LibraryTab"
@@ -67,65 +65,25 @@
                         GroupName="LibraryTab"
                         Style="{StaticResource Lotus.Pill}"
                         Tag="Installed" />
-                    <RadioButton
-                        Checked="OnTabChecked"
-                        Content="{x:Bind ViewModel.NotInstalledLabel, Mode=OneWay}"
-                        GroupName="LibraryTab"
-                        Style="{StaticResource Lotus.Pill}"
-                        Tag="NotInstalled" />
-                </StackPanel>
-                <Grid ColumnSpacing="12">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="Auto" />
-                    </Grid.ColumnDefinitions>
-                    <ScrollViewer
-                        HorizontalScrollBarVisibility="Hidden"
-                        HorizontalScrollMode="Enabled"
-                        VerticalScrollBarVisibility="Disabled"
-                        VerticalScrollMode="Disabled">
-                        <StackPanel
-                            x:Name="PlatformChips"
-                            Orientation="Horizontal"
-                            Spacing="8" />
-                    </ScrollViewer>
-                    <ComboBox
-                        x:Name="GenreBox"
-                        Grid.Column="1"
-                        MinWidth="170"
-                        AutomationProperties.Name="{local:Str Key=FilterGenre}"
-                        SelectionChanged="OnGenreChanged" />
-                </Grid>
-
-                <!--  Skeleton while loading  -->
-                <StackPanel
-                    Orientation="Horizontal"
-                    Spacing="16"
-                    Visibility="{x:Bind ViewModel.IsLoading, Mode=OneWay}">
-                    <Border
-                        Width="176"
-                        Height="236"
-                        Background="{StaticResource Bg.Surface}"
-                        CornerRadius="12" />
-                    <Border
-                        Width="176"
-                        Height="236"
-                        Background="{StaticResource Bg.Surface}"
-                        CornerRadius="12" />
-                    <Border
-                        Width="176"
-                        Height="236"
-                        Background="{StaticResource Bg.Surface}"
-                        CornerRadius="12" />
-                    <Border
-                        Width="176"
-                        Height="236"
-                        Background="{StaticResource Bg.Surface}"
-                        CornerRadius="12" />
                 </StackPanel>
 
                 <Border Style="{StaticResource Lotus.Card}" Visibility="{x:Bind ViewModel.IsEmpty, Mode=OneWay}">
-                    <controls:EmptyState Message="{x:Bind ViewModel.EmptyMessage, Mode=OneWay}" Title="{x:Bind ViewModel.EmptyTitle, Mode=OneWay}" />
+                    <StackPanel Spacing="4" Padding="0,0,0,24">
+                        <controls:EmptyState
+                            Illustration="Assets/Art/Illustrations/biblioteca-vazia.png"
+                            Message="{x:Bind ViewModel.EmptyMessage, Mode=OneWay}"
+                            Title="{x:Bind ViewModel.EmptyTitle, Mode=OneWay}" />
+                        <StackPanel
+                            HorizontalAlignment="Center"
+                            Orientation="Horizontal"
+                            Spacing="10">
+                            <Button
+                                Click="OnGoHome"
+                                Content="{local:Str Key=LibraryGoHome}"
+                                Style="{StaticResource AccentButtonStyle}" />
+                            <Button Click="OnGoCatalog" Content="{local:Str Key=LibraryGoCatalog}" />
+                        </StackPanel>
+                    </StackPanel>
                 </Border>
 
                 <ItemsRepeater ItemsSource="{x:Bind ViewModel.Shelves}" Visibility="{x:Bind ViewModel.IsReady, Mode=OneWay}">
@@ -156,10 +114,6 @@
                         </DataTemplate>
                     </ItemsRepeater.ItemTemplate>
                 </ItemsRepeater>
-                <HyperlinkButton
-                    Click="OnDismissNew"
-                    Content="{local:Str Key=ShelfNewDismiss}"
-                    Visibility="{x:Bind ViewModel.HasNewShelf, Mode=OneWay}" />
             </StackPanel>
         </StackPanel>
     </ScrollViewer>

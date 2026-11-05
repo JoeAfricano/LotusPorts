@@ -28,8 +28,11 @@ public sealed partial class CatalogViewModel(CatalogService catalog, Preferences
     public List<PlatformChip> Platforms { get; } = [];
     public CatalogService Service => catalog;
 
+    public List<string> Genres { get; } = [];
+
     private string query = "";
     private Platform? platform;
+    private string? genre;
 
     public async Task LoadAsync()
     {
@@ -38,14 +41,18 @@ public sealed partial class CatalogViewModel(CatalogService catalog, Preferences
         visible = catalog.Library.Visible(prefs.ShowInReview).ToList();
         Platforms.Clear();
         Platforms.Add(new PlatformChip(null, Strings.Get("FilterAllPlatforms")));
-        Platforms.AddRange(visible.Select(g => g.Game.OriginalPlatform).Distinct().Order().Select(p => new PlatformChip(p, CatalogLabels.Platform(p))));
+        Platforms.AddRange(visible.Select(g => g.Game.OriginalPlatform).Distinct().OrderBy(p => CatalogLabels.Platform(p), StringComparer.CurrentCultureIgnoreCase).Select(p => new PlatformChip(p, CatalogLabels.Platform(p))));
+        Genres.Clear();
+        Genres.Add(Strings.Get("FilterAllGenres"));
+        Genres.AddRange(visible.SelectMany(g => g.Game.Genre).Distinct(StringComparer.OrdinalIgnoreCase).Order(StringComparer.CurrentCultureIgnoreCase));
         Refresh();
     }
 
-    public void Filter(string text, Platform? chosen)
+    public void Filter(string text, Platform? chosenPlatform, string? chosenGenre)
     {
         query = text;
-        platform = chosen;
+        platform = chosenPlatform;
+        genre = chosenGenre;
         RefreshGames();
     }
 
@@ -63,7 +70,8 @@ public sealed partial class CatalogViewModel(CatalogService catalog, Preferences
 
     private void RefreshGames()
     {
-        var games = visible.Where(g => platform is null || g.Game.OriginalPlatform == platform);
+        var games = visible.Where(g => (platform is null || g.Game.OriginalPlatform == platform)
+            && (genre is null || g.Game.Genre.Contains(genre, StringComparer.OrdinalIgnoreCase)));
         if (!string.IsNullOrWhiteSpace(query))
         {
             var entries = games.Select(g => new SearchEntry(g.Id, SearchEntryKind.Game, g.Game.Title, [.. g.AllPorts.Select(p => p.Port.Title), .. g.Game.Genre])).ToList();
