@@ -2,7 +2,6 @@
 
 ## Decisões em aberto
 
-- **Catálogo × Biblioteca:** a arte tem os dois itens. Proposta: a Biblioteca mostra a Estante (prateleiras e filtros Todos/Favoritos/Instalados/Não instalados) e o Catálogo mostra todos os jogos para descobrir, junto com as fontes importadas. Falta a confirmação do José antes da Fase 1.
 - **Recomendação de port por jogo:** decisão do José (seção 5.7).
 - **Criar o repositório `Lotus.Shared`** com Design e Contracts, como submódulo: quando o José pedir.
 

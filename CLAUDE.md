@@ -19,6 +19,7 @@ Especificação completa: `docs/PROMPT_MESTRE.md`. As decisões abaixo **prevale
 - **GitHub: não usar** até o José informar. Só git local, branch `main`.
 - **Saves e backups ficam com o Lotus**, que já faz isso. O Lotus Ports não tem seção de saves, backups antes de atualizar, tabela `Backups` nem operações Backup/Restore. Atualizar ainda migra `persistentPaths`, e o rollback de versão continua.
 - **A arte conceitual prevalece** sobre a seção 9: navegação lateral (Biblioteca, Catálogo, Downloads, Integração com o Lotus, Configurações, Ajuda), hero com cena japonesa, cartões e botões rosé. O item "Saves e Backups" da arte foi retirado pela decisão acima. Tokens ajustados à paleta da arte (`docs/UX.md`).
+- **Biblioteca** = a estante do jogador (prateleiras e filtros Todos/Favoritos/Instalados/Não instalados). **Catálogo** = todos os jogos para descobrir, mais as fontes de catálogo importadas.
 
 ## Arquitetura
 

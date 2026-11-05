@@ -14,6 +14,7 @@ A arte conceitual enviada pelo José em 05/11/2026 é a referência visual e pre
   - hero com cena japonesa (lua, Fuji, torii, cerejeiras), estático e só vetorial;
   - título em duas linhas (a segunda em rosé), subtítulo e busca (`Ctrl+K` foca a busca de qualquer tela);
   - prateleiras e cartões de jogo na Fase 1.
+- **Catálogo:** todos os jogos para descobrir, organizados por jogo, mais as fontes de catálogo importadas (seção 5.8).
 - **Página do jogo:** botão "Voltar para a biblioteca" e conteúdo da seção 9.5, sem a seção Saves.
 - **Configurações:** cartões Geral, Arquivos de jogo, Fontes de catálogo, Modo avançado e Sobre/Legal.
 
