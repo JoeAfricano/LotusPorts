@@ -1,0 +1,292 @@
+<Page
+    x:Class="LotusPorts.App.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Lotus.Design.Controls"
+    xmlns:local="using:LotusPorts.App"
+    xmlns:vm="using:LotusPorts.App.ViewModels">
+
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
+        <Grid Padding="48,56,48,48">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MaxWidth="980" />
+            </Grid.ColumnDefinitions>
+        <StackPanel
+            Spacing="16">
+            <TextBlock Style="{StaticResource Type.Title}" Text="{local:Str Key=NavSettings}" />
+            <InfoBar
+                IsClosable="False"
+                IsOpen="{x:Bind local:Ui.HasText(ViewModel.SaveError), Mode=OneWay}"
+                Message="{x:Bind ViewModel.SaveError, Mode=OneWay}"
+                Severity="Error" />
+
+            <!--  Geral  -->
+            <Border Style="{StaticResource Lotus.Card}">
+                <StackPanel Spacing="22">
+                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=SettingsGeneral}" />
+
+                    <Grid ColumnSpacing="24">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Spacing="2">
+                            <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsLanguage}" />
+                            <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=SettingsLanguageHint}" />
+                        </StackPanel>
+                        <ComboBox
+                            Grid.Column="1"
+                            MinWidth="220"
+                            VerticalAlignment="Center"
+                            AutomationProperties.Name="{local:Str Key=SettingsLanguage}"
+                            SelectedIndex="{x:Bind ViewModel.LanguageIndex, Mode=TwoWay}">
+                            <ComboBoxItem Content="Português (Brasil)" />
+                            <ComboBoxItem Content="English (United States)" />
+                        </ComboBox>
+                    </Grid>
+                    <InfoBar
+                        Margin="0,-10,0,0"
+                        IsClosable="False"
+                        IsOpen="{x:Bind ViewModel.RestartNeeded, Mode=OneWay}"
+                        Message="{local:Str Key=SettingsRestartToApply}"
+                        Severity="Informational" />
+
+                    <Grid ColumnSpacing="24">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Spacing="2">
+                            <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsLibraryFolder}" />
+                            <TextBlock
+                                IsTextSelectionEnabled="True"
+                                Style="{StaticResource Type.Caption}"
+                                Text="{x:Bind ViewModel.LibraryFolder, Mode=OneWay}" />
+                            <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=SettingsLibraryFolderHint}" />
+                        </StackPanel>
+                        <Button
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            Click="OnChooseLibraryFolder"
+                            Content="{local:Str Key=SettingsChange}" />
+                    </Grid>
+                    <InfoBar
+                        Margin="0,-10,0,0"
+                        IsClosable="False"
+                        IsOpen="{x:Bind local:Ui.HasText(ViewModel.LibraryFolderError), Mode=OneWay}"
+                        Message="{x:Bind ViewModel.LibraryFolderError, Mode=OneWay}"
+                        Severity="Warning" />
+
+                    <StackPanel Spacing="12">
+                        <StackPanel Spacing="2">
+                            <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsDefaultStyle}" />
+                            <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=SettingsDefaultStyleHint}" />
+                        </StackPanel>
+                        <Grid ColumnSpacing="16">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" MaxWidth="280" />
+                                <ColumnDefinition Width="*" MaxWidth="280" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <RadioButton
+                                x:Name="StyleOriginal"
+                                AutomationProperties.Name="{local:Str Key=StyleOriginal}"
+                                Checked="OnStyleChecked"
+                                GroupName="DefaultStyle"
+                                Style="{StaticResource Lotus.ChoiceCard}"
+                                Tag="Original">
+                                <StackPanel HorizontalAlignment="Center" Spacing="8">
+                                    <FontIcon FontSize="30" Glyph="&#xE7FC;" />
+                                    <TextBlock
+                                        HorizontalAlignment="Center"
+                                        Style="{StaticResource Type.Subtitle}"
+                                        Text="{local:Str Key=StyleOriginal}" />
+                                    <TextBlock
+                                        Style="{StaticResource Type.Caption}"
+                                        Text="{local:Str Key=StyleOriginalHint}"
+                                        TextAlignment="Center" />
+                                </StackPanel>
+                            </RadioButton>
+                            <RadioButton
+                                x:Name="StyleRemastered"
+                                Grid.Column="1"
+                                AutomationProperties.Name="{local:Str Key=StyleRemastered}"
+                                Checked="OnStyleChecked"
+                                GroupName="DefaultStyle"
+                                Style="{StaticResource Lotus.ChoiceCard}"
+                                Tag="Remastered">
+                                <StackPanel HorizontalAlignment="Center" Spacing="8">
+                                    <FontIcon FontSize="30" Glyph="&#xE7F4;" />
+                                    <TextBlock
+                                        HorizontalAlignment="Center"
+                                        Style="{StaticResource Type.Subtitle}"
+                                        Text="{local:Str Key=StyleRemastered}" />
+                                    <TextBlock
+                                        Style="{StaticResource Type.Caption}"
+                                        Text="{local:Str Key=StyleRemasteredHint}"
+                                        TextAlignment="Center" />
+                                </StackPanel>
+                            </RadioButton>
+                        </Grid>
+                    </StackPanel>
+
+                    <Grid ColumnSpacing="24">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Spacing="2">
+                            <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsAutoUpdate}" />
+                            <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=SettingsAutoUpdateHint}" />
+                        </StackPanel>
+                        <ToggleSwitch
+                            Grid.Column="1"
+                            MinWidth="0"
+                            AutomationProperties.Name="{local:Str Key=SettingsAutoUpdate}"
+                            IsOn="{x:Bind ViewModel.AutoUpdate, Mode=TwoWay}"
+                            OffContent=""
+                            OnContent="" />
+                    </Grid>
+
+                    <Grid ColumnSpacing="24">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsStartWithWindows}" />
+                        <controls:StateBadge Grid.Column="1" Text="{local:Str Key=BadgeInDevelopment}" />
+                    </Grid>
+                    <Grid ColumnSpacing="24">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsTvMode}" />
+                        <controls:StateBadge Grid.Column="1" Text="{local:Str Key=BadgeInDevelopment}" />
+                    </Grid>
+                </StackPanel>
+            </Border>
+
+            <!--  Arquivos de jogo / Catálogo: arrive in phases 3 and 1  -->
+            <Border Style="{StaticResource Lotus.Card}">
+                <Grid ColumnSpacing="24">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Spacing="4">
+                        <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=SettingsGameFiles}" />
+                        <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=SettingsGameFilesHint}" />
+                    </StackPanel>
+                    <controls:StateBadge Grid.Column="1" Text="{local:Str Key=BadgeInDevelopment}" />
+                </Grid>
+            </Border>
+            <Border Style="{StaticResource Lotus.Card}">
+                <Grid ColumnSpacing="24">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Spacing="4">
+                        <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=SettingsCatalogSources}" />
+                        <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=SettingsCatalogSourcesHint}" />
+                    </StackPanel>
+                    <controls:StateBadge Grid.Column="1" Text="{local:Str Key=BadgeInDevelopment}" />
+                </Grid>
+            </Border>
+
+            <!--  Modo avançado  -->
+            <Border Style="{StaticResource Lotus.Card}">
+                <StackPanel Spacing="16">
+                    <Grid ColumnSpacing="24">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Spacing="4">
+                            <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=SettingsAdvanced}" />
+                            <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=SettingsAdvancedHint}" />
+                        </StackPanel>
+                        <ToggleSwitch
+                            Grid.Column="1"
+                            MinWidth="0"
+                            AutomationProperties.Name="{local:Str Key=SettingsAdvanced}"
+                            IsOn="{x:Bind ViewModel.AdvancedMode, Mode=TwoWay}"
+                            OffContent=""
+                            OnContent="" />
+                    </Grid>
+                    <StackPanel Spacing="14" Visibility="{x:Bind ViewModel.AdvancedMode, Mode=OneWay}">
+                        <Rectangle Height="1" Fill="{StaticResource Stroke.Subtle}" />
+                        <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsJournal}" />
+                        <TextBlock
+                            Style="{StaticResource Type.Caption}"
+                            Text="{local:Str Key=SettingsJournalEmpty}"
+                            Visibility="{x:Bind ViewModel.JournalEmpty, Mode=OneWay}" />
+                        <ItemsRepeater ItemsSource="{x:Bind ViewModel.Journal}">
+                            <ItemsRepeater.Layout>
+                                <StackLayout Spacing="8" />
+                            </ItemsRepeater.Layout>
+                            <ItemsRepeater.ItemTemplate>
+                                <DataTemplate x:DataType="vm:JournalRow">
+                                    <Grid ColumnSpacing="16">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Style="{StaticResource Type.Caption}" Text="{x:Bind When}" />
+                                        <TextBlock Grid.Column="1" Style="{StaticResource Type.Body}">
+                                            <Run Text="{x:Bind Kind}" /><Run Foreground="{StaticResource Text.Secondary}" Text="  " /><Run Foreground="{StaticResource Text.Secondary}" Text="{x:Bind PortId}" />
+                                        </TextBlock>
+                                        <controls:StateBadge
+                                            Grid.Column="2"
+                                            Text="{x:Bind Outcome}"
+                                            Tone="{x:Bind Tone}" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsRepeater.ItemTemplate>
+                        </ItemsRepeater>
+                        <Rectangle Height="1" Fill="{StaticResource Stroke.Subtle}" />
+                        <Grid ColumnSpacing="24">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Spacing="2">
+                                <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsDataFolder}" />
+                                <TextBlock
+                                    IsTextSelectionEnabled="True"
+                                    Style="{StaticResource Type.Caption}"
+                                    Text="{x:Bind ViewModel.DataFolder}" />
+                            </StackPanel>
+                            <Button
+                                Grid.Column="1"
+                                VerticalAlignment="Center"
+                                Click="OnOpenDataFolder"
+                                Content="{local:Str Key=SettingsOpenFolder}" />
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!--  Sobre / Legal  -->
+            <Border Style="{StaticResource Lotus.Card}">
+                <StackPanel Spacing="12">
+                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=SettingsAbout}" />
+                    <TextBlock Style="{StaticResource Type.Body}">
+                        <Run Text="Lotus Ports" /><Run Foreground="{StaticResource Text.Secondary}" Text="{x:Bind local:Ui.VersionLabel(ViewModel.Version)}" />
+                    </TextBlock>
+                    <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=LegalNotAffiliated}" />
+                    <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=LegalNoGameFiles}" />
+                    <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=LegalPortLicenses}" />
+                    <TextBlock
+                        Margin="0,6,0,0"
+                        Style="{StaticResource Type.Body}"
+                        Text="{local:Str Key=LegalComponentsTitle}" />
+                    <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=LegalComponents}" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

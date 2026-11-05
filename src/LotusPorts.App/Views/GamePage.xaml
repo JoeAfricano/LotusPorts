@@ -1,0 +1,35 @@
+<Page
+    x:Class="LotusPorts.App.Views.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Lotus.Design.Controls"
+    xmlns:local="using:LotusPorts.App">
+
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
+        <Grid Padding="40,52,48,48">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MaxWidth="1100" />
+            </Grid.ColumnDefinitions>
+        <StackPanel
+            Spacing="20">
+            <Button
+                Padding="12,7"
+                Background="{StaticResource Bg.Surface}"
+                BorderBrush="{StaticResource Stroke.Subtle}"
+                Click="OnBack"
+                CornerRadius="10">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <FontIcon FontSize="13" Glyph="&#xE72B;" />
+                    <TextBlock Text="{local:Str Key=GameBack}" />
+                </StackPanel>
+            </Button>
+            <Border Style="{StaticResource Lotus.Card}">
+                <controls:EmptyState
+                    BadgeText="{local:Str Key=BadgeInDevelopment}"
+                    Message="{local:Str Key=GameNotFoundMessage}"
+                    Title="{local:Str Key=GameNotFoundTitle}" />
+            </Border>
+        </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

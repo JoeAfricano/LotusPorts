@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+    <RootNamespace>LotusPorts.App</RootNamespace>
+    <AssemblyName>LotusPorts</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <UseWinUI>true</UseWinUI>
+    <!-- Unpackaged and fully self-contained: the player does not need to install .NET or the Windows App SDK. -->
+    <WindowsPackageType>None</WindowsPackageType>
+    <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+    <SelfContained>true</SelfContained>
+    <DefaultLanguage>pt-BR</DefaultLanguage>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- MVVMTK0045 is about Native AOT; the app is not published with AOT or trimming. -->
+    <NoWarn>$(NoWarn);MVVMTK0045</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" />
+    <PackageReference Include="CommunityToolkit.Mvvm" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+    <PackageReference Include="Serilog" />
+    <PackageReference Include="Serilog.Extensions.Hosting" />
+    <PackageReference Include="Serilog.Sinks.File" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Lotus.Design/Lotus.Design.csproj" />
+    <ProjectReference Include="../Lotus.Integration.Contracts/Lotus.Integration.Contracts.csproj" />
+    <ProjectReference Include="../LotusPorts.Core/LotusPorts.Core.csproj" />
+    <ProjectReference Include="../LotusPorts.Catalog/LotusPorts.Catalog.csproj" />
+    <ProjectReference Include="../LotusPorts.Infrastructure/LotusPorts.Infrastructure.csproj" />
+    <ProjectReference Include="../LotusPorts.Integration/LotusPorts.Integration.csproj" />
+  </ItemGroup>
+</Project>

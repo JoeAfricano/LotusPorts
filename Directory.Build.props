@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>14</LangVersion>
+    <Deterministic>true</Deterministic>
+    <Platforms>AnyCPU;x64</Platforms>
+    <!-- Same output folder whether built from the solution or a single project. -->
+    <AppendPlatformToOutputPath>false</AppendPlatformToOutputPath>
+  </PropertyGroup>
+  <!-- Lotus Ports version: shown in Engrenagem > Sobre and used by the future installer. -->
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <InformationalVersion>0.1.0-dev</InformationalVersion>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <Product>Lotus Ports</Product>
+    <Company>Joeafricano</Company>
+  </PropertyGroup>
+</Project>

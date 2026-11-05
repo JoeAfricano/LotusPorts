@@ -1,0 +1,36 @@
+<Page
+    x:Class="LotusPorts.App.Views.SimplePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Lotus.Design.Controls">
+
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
+        <Grid Padding="48,56,48,48">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MaxWidth="980" />
+            </Grid.ColumnDefinitions>
+        <StackPanel
+            Spacing="8">
+            <TextBlock x:Name="Heading" Style="{StaticResource Type.Title}" />
+            <TextBlock
+                x:Name="Subtitle"
+                Margin="0,0,0,20"
+                Foreground="{StaticResource Text.Secondary}"
+                Style="{StaticResource Type.Body}" />
+            <Border Style="{StaticResource Lotus.Card}">
+                <controls:EmptyState x:Name="Empty" />
+            </Border>
+            <Border
+                x:Name="BulletsCard"
+                Margin="0,8,0,0"
+                Style="{StaticResource Lotus.Card}"
+                Visibility="Collapsed">
+                <StackPanel Spacing="12">
+                    <TextBlock x:Name="BulletsTitle" Style="{StaticResource Type.Subtitle}" />
+                    <StackPanel x:Name="Bullets" Spacing="10" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

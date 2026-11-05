@@ -1,0 +1,257 @@
+<ResourceDictionary
+    x:Class="Lotus.Design.LotusTheme"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--  Theme dictionaries must come first. WinUI lightweight styling so standard controls follow the Lotus palette.  -->
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Dark">
+            <LinearGradientBrush x:Key="AccentButtonBackground" StartPoint="0,0" EndPoint="1,1"><GradientStop Offset="0" Color="#FFF25A93" /><GradientStop Offset="1" Color="#FFD23A7A" /></LinearGradientBrush>
+            <SolidColorBrush x:Key="AccentButtonBackgroundPointerOver" Color="#FFF46A9E" />
+            <SolidColorBrush x:Key="AccentButtonBackgroundPressed" Color="#FFC42A78" />
+            <SolidColorBrush x:Key="AccentButtonForeground" Color="#FFFFFFFF" />
+            <SolidColorBrush x:Key="AccentButtonForegroundPointerOver" Color="#FFFFFFFF" />
+            <SolidColorBrush x:Key="AccentButtonForegroundPressed" Color="#FFFFFFFF" />
+            <SolidColorBrush x:Key="AccentButtonBorderBrush" Color="Transparent" />
+            <SolidColorBrush x:Key="AccentButtonBorderBrushPointerOver" Color="Transparent" />
+            <SolidColorBrush x:Key="AccentButtonBorderBrushPressed" Color="Transparent" />
+            <SolidColorBrush x:Key="TextControlBackground" Color="#FF171219" />
+            <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="#FF221A26" />
+            <SolidColorBrush x:Key="TextControlBorderBrush" Color="#FF33263A" />
+            <SolidColorBrush x:Key="TextControlBorderBrushPointerOver" Color="#FF33263A" />
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+
+    <!--  Tokens (docs/UX.md). Views use the brushes below, never loose colors.  -->
+    <Color x:Key="Color.Bg.Base">#FF0D0A0F</Color>
+    <Color x:Key="Color.Bg.Sidebar">#FF110C13</Color>
+    <Color x:Key="Color.Bg.Surface">#FF171219</Color>
+    <Color x:Key="Color.Bg.Elevated">#FF221A26</Color>
+    <Color x:Key="Color.Stroke.Subtle">#FF33263A</Color>
+    <Color x:Key="Color.Text.Primary">#FFF6F0F4</Color>
+    <Color x:Key="Color.Text.Secondary">#FFB3A6B4</Color>
+    <Color x:Key="Color.Accent.Rose">#FFF09ABD</Color>
+    <Color x:Key="Color.Accent.Pink">#FFF0508C</Color>
+    <Color x:Key="Color.Accent.Magenta">#FFC42A78</Color>
+    <Color x:Key="Color.State.Ok">#FF5FD38F</Color>
+    <Color x:Key="Color.State.Warn">#FFF2C46D</Color>
+    <Color x:Key="Color.State.Fail">#FFFF6B6B</Color>
+    <Color x:Key="Color.State.Unknown">#FF8C8799</Color>
+
+    <SolidColorBrush x:Key="Bg.Base" Color="{StaticResource Color.Bg.Base}" />
+    <SolidColorBrush x:Key="Bg.Sidebar" Color="{StaticResource Color.Bg.Sidebar}" />
+    <SolidColorBrush x:Key="Bg.Surface" Color="{StaticResource Color.Bg.Surface}" />
+    <SolidColorBrush x:Key="Bg.Elevated" Color="{StaticResource Color.Bg.Elevated}" />
+    <SolidColorBrush x:Key="Stroke.Subtle" Color="{StaticResource Color.Stroke.Subtle}" />
+    <SolidColorBrush x:Key="Text.Primary" Color="{StaticResource Color.Text.Primary}" />
+    <SolidColorBrush x:Key="Text.Secondary" Color="{StaticResource Color.Text.Secondary}" />
+    <SolidColorBrush x:Key="Accent.Rose" Color="{StaticResource Color.Accent.Rose}" />
+    <SolidColorBrush x:Key="Accent.Pink" Color="{StaticResource Color.Accent.Pink}" />
+    <SolidColorBrush x:Key="Accent.Magenta" Color="{StaticResource Color.Accent.Magenta}" />
+    <SolidColorBrush x:Key="State.Ok" Color="{StaticResource Color.State.Ok}" />
+    <SolidColorBrush x:Key="State.Warn" Color="{StaticResource Color.State.Warn}" />
+    <SolidColorBrush x:Key="State.Fail" Color="{StaticResource Color.State.Fail}" />
+    <SolidColorBrush x:Key="State.Unknown" Color="{StaticResource Color.State.Unknown}" />
+    <SolidColorBrush x:Key="State.Ok.Subtle" Opacity="0.14" Color="{StaticResource Color.State.Ok}" />
+    <SolidColorBrush x:Key="State.Warn.Subtle" Opacity="0.14" Color="{StaticResource Color.State.Warn}" />
+    <SolidColorBrush x:Key="State.Fail.Subtle" Opacity="0.14" Color="{StaticResource Color.State.Fail}" />
+    <SolidColorBrush x:Key="State.Unknown.Subtle" Opacity="0.16" Color="{StaticResource Color.State.Unknown}" />
+    <SolidColorBrush x:Key="Accent.Pink.Subtle" Opacity="0.16" Color="{StaticResource Color.Accent.Pink}" />
+
+    <LinearGradientBrush x:Key="Accent.Gradient" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Offset="0" Color="#FFF25A93" />
+        <GradientStop Offset="1" Color="#FFD23A7A" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Petal.Gradient" StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientStop Offset="0" Color="#FFF7B3CF" />
+        <GradientStop Offset="1" Color="#FFD62E80" />
+    </LinearGradientBrush>
+
+    <!--  WinUI accent and lightweight styling, so standard controls follow the Lotus palette.  -->
+    <Color x:Key="SystemAccentColor">#FFF0508C</Color>
+    <Color x:Key="SystemAccentColorLight1">#FFF0508C</Color>
+    <Color x:Key="SystemAccentColorLight2">#FFF0508C</Color>
+    <Color x:Key="SystemAccentColorLight3">#FFF09ABD</Color>
+    <Color x:Key="SystemAccentColorDark1">#FFC42A78</Color>
+    <Color x:Key="SystemAccentColorDark2">#FFA21F63</Color>
+    <Color x:Key="SystemAccentColorDark3">#FF7E164D</Color>
+
+
+    <!--  Typography  -->
+    <Style x:Key="Type.Display" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Segoe UI Variable Display" />
+        <Setter Property="FontSize" Value="38" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Foreground" Value="{StaticResource Text.Primary}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="Type.Title" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Segoe UI Variable Display" />
+        <Setter Property="FontSize" Value="26" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Foreground" Value="{StaticResource Text.Primary}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="Type.Subtitle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="17" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Foreground" Value="{StaticResource Text.Primary}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="Type.Body" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="LineHeight" Value="21" />
+        <Setter Property="Foreground" Value="{StaticResource Text.Primary}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="Type.Caption" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="LineHeight" Value="19" />
+        <Setter Property="Foreground" Value="{StaticResource Text.Secondary}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+
+    <!--  Surfaces  -->
+    <Style x:Key="Lotus.Card" TargetType="Border">
+        <Setter Property="Background" Value="{StaticResource Bg.Surface}" />
+        <Setter Property="BorderBrush" Value="{StaticResource Stroke.Subtle}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="12" />
+        <Setter Property="Padding" Value="24,20" />
+    </Style>
+
+    <!--  Sidebar item: pink pill when selected, as in the concept art.  -->
+    <Style x:Key="Lotus.NavItem" TargetType="RadioButton">
+        <Setter Property="Foreground" Value="{StaticResource Text.Primary}" />
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Padding" Value="16,11" />
+        <Setter Property="UseSystemFocusVisuals" Value="True" />
+        <Setter Property="FocusVisualMargin" Value="-2" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid
+                        x:Name="Root"
+                        Padding="{TemplateBinding Padding}"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="1"
+                        CornerRadius="10">
+                        <ContentPresenter
+                            x:Name="Content"
+                            HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                            VerticalAlignment="Center"
+                            Content="{TemplateBinding Content}"
+                            ContentTemplate="{TemplateBinding ContentTemplate}"
+                            Foreground="{StaticResource Text.Secondary}" />
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal" />
+                                <VisualState x:Name="PointerOver">
+                                    <VisualState.Setters>
+                                        <Setter Target="Root.Background" Value="{StaticResource Bg.Elevated}" />
+                                        <Setter Target="Content.Foreground" Value="{StaticResource Text.Primary}" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <VisualState.Setters>
+                                        <Setter Target="Root.Background" Value="{StaticResource Bg.Elevated}" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <VisualState.Setters>
+                                        <Setter Target="Root.Opacity" Value="0.45" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked">
+                                    <VisualState.Setters>
+                                        <Setter Target="Root.Background" Value="{StaticResource Accent.Gradient}" />
+                                        <Setter Target="Root.BorderBrush" Value="{StaticResource Accent.Rose}" />
+                                        <Setter Target="Content.Foreground" Value="{StaticResource Text.Primary}" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Unchecked" />
+                                <VisualState x:Name="Indeterminate" />
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--  Selectable card (style chooser in the concept art): pink border and a check when chosen.  -->
+    <Style x:Key="Lotus.ChoiceCard" TargetType="RadioButton">
+        <Setter Property="Foreground" Value="{StaticResource Text.Primary}" />
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+        <Setter Property="VerticalAlignment" Value="Stretch" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="Padding" Value="20,22" />
+        <Setter Property="UseSystemFocusVisuals" Value="True" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid
+                        x:Name="Root"
+                        Padding="{TemplateBinding Padding}"
+                        Background="{StaticResource Bg.Elevated}"
+                        BorderBrush="{StaticResource Stroke.Subtle}"
+                        BorderThickness="1"
+                        CornerRadius="12">
+                        <ContentPresenter
+                            HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                            VerticalAlignment="Center"
+                            Content="{TemplateBinding Content}"
+                            ContentTemplate="{TemplateBinding ContentTemplate}" />
+                        <Grid
+                            x:Name="Check"
+                            Width="22"
+                            Height="22"
+                            Margin="0,-10,-8,0"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Opacity="0">
+                            <Ellipse Fill="{StaticResource Accent.Pink}" />
+                            <FontIcon
+                                FontSize="11"
+                                Foreground="White"
+                                Glyph="&#xE73E;" />
+                        </Grid>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal" />
+                                <VisualState x:Name="PointerOver">
+                                    <VisualState.Setters>
+                                        <Setter Target="Root.BorderBrush" Value="{StaticResource Accent.Rose}" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Pressed" />
+                                <VisualState x:Name="Disabled">
+                                    <VisualState.Setters>
+                                        <Setter Target="Root.Opacity" Value="0.45" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked">
+                                    <VisualState.Setters>
+                                        <Setter Target="Root.BorderBrush" Value="{StaticResource Accent.Pink}" />
+                                        <Setter Target="Root.BorderThickness" Value="2" />
+                                        <Setter Target="Root.Background" Value="{StaticResource Accent.Pink.Subtle}" />
+                                        <Setter Target="Check.Opacity" Value="1" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Unchecked" />
+                                <VisualState x:Name="Indeterminate" />
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

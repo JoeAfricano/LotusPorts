@@ -1,0 +1,42 @@
+<Page
+    x:Class="LotusPorts.App.Views.HelpPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LotusPorts.App">
+
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
+        <Grid Padding="48,56,48,48">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MaxWidth="980" />
+            </Grid.ColumnDefinitions>
+        <StackPanel
+            Spacing="16">
+            <TextBlock Style="{StaticResource Type.Title}" Text="{local:Str Key=NavHelp}" />
+            <Border Style="{StaticResource Lotus.Card}">
+                <StackPanel Spacing="8">
+                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HelpHowTitle}" />
+                    <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=HelpHowText}" />
+                </StackPanel>
+            </Border>
+            <Border Style="{StaticResource Lotus.Card}">
+                <StackPanel Spacing="8">
+                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HelpFilesTitle}" />
+                    <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=HelpFilesText}" />
+                </StackPanel>
+            </Border>
+            <Border Style="{StaticResource Lotus.Card}">
+                <StackPanel Spacing="8">
+                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HelpProblemTitle}" />
+                    <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=HelpProblemText}" />
+                </StackPanel>
+            </Border>
+            <Border Style="{StaticResource Lotus.Card}">
+                <StackPanel Spacing="8">
+                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HelpSavesTitle}" />
+                    <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=HelpSavesText}" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="NavLibrary" xml:space="preserve"><value>Biblioteca</value></data>
+  <data name="NavCatalog" xml:space="preserve"><value>Catálogo</value></data>
+  <data name="NavDownloads" xml:space="preserve"><value>Downloads</value></data>
+  <data name="NavLotus" xml:space="preserve"><value>Integração com o Lotus</value></data>
+  <data name="NavSettings" xml:space="preserve"><value>Configurações</value></data>
+  <data name="NavHelp" xml:space="preserve"><value>Ajuda</value></data>
+  <data name="LotusStatusAutomation" xml:space="preserve"><value>Integração com o Lotus: em desenvolvimento</value></data>
+  <data name="BadgeInDevelopment" xml:space="preserve"><value>Em desenvolvimento</value></data>
+  <data name="LibraryHeroLine1" xml:space="preserve"><value>Jogos clássicos,</value></data>
+  <data name="LibraryHeroLine2" xml:space="preserve"><value>prontos para jogar no PC</value></data>
+  <data name="LibraryHeroSubtitle" xml:space="preserve"><value>Ports nativos para PC, instalados e configurados para você. Escolha o jogo e jogue.</value></data>
+  <data name="SearchPlaceholder" xml:space="preserve"><value>Buscar um jogo ou ação…  (Ctrl+K)</value></data>
+  <data name="SearchAutomation" xml:space="preserve"><value>Buscar jogos e ações</value></data>
+  <data name="SearchNoResults" xml:space="preserve"><value>Nenhum resultado</value></data>
+  <data name="SearchKeywordsLibrary" xml:space="preserve"><value>estante;jogos;início</value></data>
+  <data name="SearchKeywordsCatalog" xml:space="preserve"><value>descobrir;novos jogos;fontes</value></data>
+  <data name="SearchKeywordsDownloads" xml:space="preserve"><value>baixar;fila;progresso</value></data>
+  <data name="SearchKeywordsLotus" xml:space="preserve"><value>lotus;desempenho;dependências;perfil</value></data>
+  <data name="SearchKeywordsSettings" xml:space="preserve"><value>engrenagem;opções;idioma;pasta;modo avançado;estilo</value></data>
+  <data name="SearchKeywordsHelp" xml:space="preserve"><value>suporte;dúvidas;sobre;legal</value></data>
+  <data name="LibraryEmptyTitle" xml:space="preserve"><value>Sua biblioteca ainda está vazia</value></data>
+  <data name="LibraryEmptyMessage" xml:space="preserve"><value>O catálogo de jogos chega na próxima etapa do desenvolvimento. Nenhum jogo aparece antes de ser verificado.</value></data>
+  <data name="CatalogTitle" xml:space="preserve"><value>Catálogo</value></data>
+  <data name="CatalogSubtitle" xml:space="preserve"><value>Todos os jogos com port nativo para PC, organizados por jogo, com uma forma recomendada de jogar cada um.</value></data>
+  <data name="CatalogEmptyTitle" xml:space="preserve"><value>O catálogo ainda não está disponível</value></data>
+  <data name="CatalogEmptyMessage" xml:space="preserve"><value>Cada jogo entra no catálogo somente depois de conferido na documentação oficial do port.</value></data>
+  <data name="DownloadsTitle" xml:space="preserve"><value>Downloads</value></data>
+  <data name="DownloadsSubtitle" xml:space="preserve"><value>Instalações e atualizações em andamento aparecem aqui e no cartão de cada jogo.</value></data>
+  <data name="DownloadsEmptyTitle" xml:space="preserve"><value>Nenhum download em andamento</value></data>
+  <data name="DownloadsEmptyMessage" xml:space="preserve"><value>Quando você instalar ou atualizar um jogo, o progresso aparece aqui.</value></data>
+  <data name="LotusTitle" xml:space="preserve"><value>Integração com o Lotus</value></data>
+  <data name="LotusSubtitle" xml:space="preserve"><value>O Lotus Ports funciona sozinho. Com o Lotus instalado, os dois vão trabalhar juntos.</value></data>
+  <data name="LotusEmptyTitle" xml:space="preserve"><value>Integração ainda não disponível</value></data>
+  <data name="LotusEmptyMessage" xml:space="preserve"><value>Por enquanto o Lotus Ports não procura nem se conecta ao Lotus. Nenhum dado é trocado entre os dois.</value></data>
+  <data name="LotusBulletsTitle" xml:space="preserve"><value>O que a integração vai trazer</value></data>
+  <data name="LotusBullets" xml:space="preserve"><value>Kit de dependências do Lotus, com a sua confirmação no próprio Lotus|Diagnóstico do sistema no &quot;Resolver&quot; de cada jogo|Perfil de desempenho aplicado ao jogar e desfeito ao fechar o jogo|Relatório da sessão só com valores medidos|Saves e backups protegidos pelo Lotus|Seus jogos do Lotus Ports dentro da biblioteca do Lotus</value></data>
+  <data name="SettingsGeneral" xml:space="preserve"><value>Geral</value></data>
+  <data name="SettingsLanguage" xml:space="preserve"><value>Idioma</value></data>
+  <data name="SettingsLanguageHint" xml:space="preserve"><value>Português é o padrão.</value></data>
+  <data name="SettingsRestartToApply" xml:space="preserve"><value>Reinicie o Lotus Ports para aplicar o novo idioma.</value></data>
+  <data name="SettingsLibraryFolder" xml:space="preserve"><value>Pasta da biblioteca</value></data>
+  <data name="SettingsLibraryFolderHint" xml:space="preserve"><value>Onde os jogos serão instalados. A pasta só é criada na primeira instalação.</value></data>
+  <data name="SettingsChange" xml:space="preserve"><value>Alterar…</value></data>
+  <data name="LibraryProblemNotAbsolute" xml:space="preserve"><value>Escolha uma pasta completa, como D:\Jogos\Ports.</value></data>
+  <data name="LibraryProblemDriveRoot" xml:space="preserve"><value>Escolha uma pasta dentro do disco, não a raiz (como D:\). Assim os jogos ficam organizados e fáceis de remover.</value></data>
+  <data name="LibraryProblemProtectedSystemFolder" xml:space="preserve"><value>Essa pasta é protegida pelo Windows e exigiria permissão de administrador. Escolha outra, como D:\Jogos\Ports.</value></data>
+  <data name="LibraryProblemSyncedByOneDrive" xml:space="preserve"><value>Essa pasta é sincronizada pelo OneDrive, o que pode corromper jogos durante a sincronização. Escolha uma pasta fora do OneDrive.</value></data>
+  <data name="SettingsDefaultStyle" xml:space="preserve"><value>Estilo de jogo padrão</value></data>
+  <data name="SettingsDefaultStyleHint" xml:space="preserve"><value>Usado nos jogos em que o estilo já foi verificado. Você pode mudar depois, a qualquer momento.</value></data>
+  <data name="StyleOriginal" xml:space="preserve"><value>Original</value></data>
+  <data name="StyleOriginalHint" xml:space="preserve"><value>Mais fiel à experiência do console original.</value></data>
+  <data name="StyleRemastered" xml:space="preserve"><value>Remasterizado</value></data>
+  <data name="StyleRemasteredHint" xml:space="preserve"><value>Widescreen, alta resolução e maior taxa de quadros.</value></data>
+  <data name="SettingsAutoUpdate" xml:space="preserve"><value>Atualizações automáticas</value></data>
+  <data name="SettingsAutoUpdateHint" xml:space="preserve"><value>Quando ligado, o botão do jogo vira &quot;Atualizar e jogar&quot; se houver versão nova.</value></data>
+  <data name="SettingsStartWithWindows" xml:space="preserve"><value>Iniciar com o Windows</value></data>
+  <data name="SettingsTvMode" xml:space="preserve"><value>Modo TV (controle)</value></data>
+  <data name="SettingsGameFiles" xml:space="preserve"><value>Arquivos de jogo</value></data>
+  <data name="SettingsGameFilesHint" xml:space="preserve"><value>Pastas onde ficam os seus arquivos de jogo e a lista dos arquivos reconhecidos.</value></data>
+  <data name="SettingsCatalogSources" xml:space="preserve"><value>Fontes de catálogo</value></data>
+  <data name="SettingsCatalogSourcesHint" xml:space="preserve"><value>Adicionar outras fontes de catálogo ou um port por link do GitHub.</value></data>
+  <data name="SettingsAdvanced" xml:space="preserve"><value>Modo avançado</value></data>
+  <data name="SettingsAdvancedHint" xml:space="preserve"><value>Mostra detalhes técnicos: histórico de operações, pasta de dados e, nas próximas etapas, versões e logs.</value></data>
+  <data name="SettingsJournal" xml:space="preserve"><value>Diário de operações</value></data>
+  <data name="SettingsJournalEmpty" xml:space="preserve"><value>Nenhuma operação registrada ainda.</value></data>
+  <data name="SettingsDataFolder" xml:space="preserve"><value>Pasta de dados e logs</value></data>
+  <data name="SettingsOpenFolder" xml:space="preserve"><value>Abrir pasta</value></data>
+  <data name="SettingsSaveFailed" xml:space="preserve"><value>Não foi possível salvar a configuração. Os detalhes estão no log.</value></data>
+  <data name="SettingsAbout" xml:space="preserve"><value>Sobre e informações legais</value></data>
+  <data name="SettingsVersion" xml:space="preserve"><value>versão {0}</value></data>
+  <data name="LegalNotAffiliated" xml:space="preserve"><value>O Lotus Ports não é afiliado, patrocinado nem aprovado por fabricantes de consoles, publishers ou pelos autores dos ports. Todas as marcas pertencem aos seus donos.</value></data>
+  <data name="LegalNoGameFiles" xml:space="preserve"><value>O Lotus Ports não fornece, não baixa e não indica onde obter arquivos de jogos, BIOS ou chaves. Você usa os arquivos da sua própria cópia do jogo.</value></data>
+  <data name="LegalPortLicenses" xml:space="preserve"><value>As licenças de cada port vão aparecer aqui junto com o catálogo.</value></data>
+  <data name="LegalComponentsTitle" xml:space="preserve"><value>Componentes de código aberto</value></data>
+  <data name="LegalComponents" xml:space="preserve"><value>Windows App SDK (MIT) · CommunityToolkit.Mvvm (MIT) · Microsoft.Extensions.Hosting (MIT) · Microsoft.Data.Sqlite (MIT) · Dapper (Apache-2.0) · Serilog (Apache-2.0)</value></data>
+  <data name="HelpHowTitle" xml:space="preserve"><value>Como funciona</value></data>
+  <data name="HelpHowText" xml:space="preserve"><value>Você escolhe o jogo, não o port. Cada jogo tem uma forma recomendada de jogar e um botão só: Instalar, Jogar, Atualizar e jogar ou Resolver. O Lotus Ports cuida do download, da instalação e da configuração, sempre pedindo sua confirmação antes de mudar algo no PC.</value></data>
+  <data name="HelpFilesTitle" xml:space="preserve"><value>Arquivos do jogo</value></data>
+  <data name="HelpFilesText" xml:space="preserve"><value>Os ports precisam dos arquivos da sua própria cópia do jogo original. O Lotus Ports nunca baixa esses arquivos nem indica onde obtê-los. Ele só reconhece os arquivos que você já tem e nunca altera o original.</value></data>
+  <data name="HelpProblemTitle" xml:space="preserve"><value>Se um jogo não abrir</value></data>
+  <data name="HelpProblemText" xml:space="preserve"><value>O botão do jogo vira &quot;Resolver&quot;, com a causa em português e o conserto em um clique. Quando não for possível confirmar algo, o Lotus Ports diz &quot;não verificado&quot; em vez de fingir que está tudo certo.</value></data>
+  <data name="HelpSavesTitle" xml:space="preserve"><value>Saves</value></data>
+  <data name="HelpSavesText" xml:space="preserve"><value>A proteção e o backup dos saves ficam com o Lotus, que já faz isso para todos os seus jogos.</value></data>
+  <data name="GameBack" xml:space="preserve"><value>Voltar para a biblioteca</value></data>
+  <data name="GameNotFoundTitle" xml:space="preserve"><value>Jogo não encontrado</value></data>
+  <data name="GameNotFoundMessage" xml:space="preserve"><value>Este jogo não está no catálogo. O catálogo chega na próxima etapa do desenvolvimento.</value></data>
+  <data name="ErrorTitle" xml:space="preserve"><value>Algo deu errado</value></data>
+  <data name="ErrorMessageContinue" xml:space="preserve"><value>O Lotus Ports encontrou um erro inesperado. Você pode continuar usando o app; se o problema voltar, copie os detalhes para pedir ajuda.</value></data>
+  <data name="ErrorMessageStartup" xml:space="preserve"><value>O Lotus Ports não conseguiu abrir. Seus jogos e arquivos não foram tocados. Copie os detalhes para pedir ajuda.</value></data>
+  <data name="ErrorDetails" xml:space="preserve"><value>Detalhes técnicos</value></data>
+  <data name="ErrorCopy" xml:space="preserve"><value>Copiar detalhes</value></data>
+  <data name="ErrorCopied" xml:space="preserve"><value>Copiado.</value></data>
+  <data name="ErrorContinue" xml:space="preserve"><value>Continuar</value></data>
+  <data name="ErrorClose" xml:space="preserve"><value>Fechar</value></data>
+  <data name="OutcomeSuccess" xml:space="preserve"><value>Sucesso</value></data>
+  <data name="OutcomeFailure" xml:space="preserve"><value>Falha</value></data>
+  <data name="OutcomeCancelled" xml:space="preserve"><value>Cancelada</value></data>
+  <data name="OutcomePartial" xml:space="preserve"><value>Parcial</value></data>
+  <data name="OutcomeOpen" xml:space="preserve"><value>Interrompida</value></data>
+</root>

@@ -1,0 +1,19 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/Lotus.Design/Lotus.Design.csproj" />
+    <Project Path="src/Lotus.Integration.Contracts/Lotus.Integration.Contracts.csproj" />
+    <Project Path="src/LotusPorts.App/LotusPorts.App.csproj" />
+    <Project Path="src/LotusPorts.Catalog/LotusPorts.Catalog.csproj" />
+    <Project Path="src/LotusPorts.Core/LotusPorts.Core.csproj" />
+    <Project Path="src/LotusPorts.Infrastructure/LotusPorts.Infrastructure.csproj" />
+    <Project Path="src/LotusPorts.Integration/LotusPorts.Integration.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LotusPorts.Core.Tests/LotusPorts.Core.Tests.csproj" />
+    <Project Path="tests/LotusPorts.Infrastructure.Tests/LotusPorts.Infrastructure.Tests.csproj" />
+    <Project Path="tests/LotusPorts.Integration.Tests/LotusPorts.Integration.Tests.csproj" />
+  </Folder>
+</Solution>
