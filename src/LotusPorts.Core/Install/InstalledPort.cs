@@ -1,0 +1,58 @@
+using LotusPorts.Core.Verification;
+
+namespace LotusPorts.Core.Install;
+
+/// <summary>One downloaded version, kept in library\{portId}\versions\{folder}.</summary>
+public sealed record InstalledVersion(
+    string Tag,
+    string Folder,
+    string AssetName,
+    long Size,
+    string? Sha256,
+    CheckState Integrity,
+    string Executable,
+    DateTimeOffset InstalledAt);
+
+/// <summary>
+/// library\{portId}\active.json: which version is active, the one before it (for "Voltar para a versão anterior")
+/// and how the first launch after an update went.
+/// </summary>
+public sealed record InstalledPort(
+    int SchemaVersion,
+    string PortId,
+    string ActiveTag,
+    string? PreviousTag,
+    IReadOnlyList<InstalledVersion> Versions,
+    bool PendingFirstLaunch,
+    bool LastLaunchFailed,
+    string? PinnedTag = null)
+{
+    public const int CurrentSchema = 1;
+
+    public InstalledVersion Active => Versions.First(v => v.Tag == ActiveTag);
+
+    public InstalledVersion? Previous => PreviousTag is null ? null : Versions.FirstOrDefault(v => v.Tag == PreviousTag);
+
+    public bool CanRollback => Previous is not null;
+}
+
+/// <summary>Folder names for versions: the release tag, made safe for Windows.</summary>
+public static class VersionFolders
+{
+    private static readonly HashSet<string> Reserved = new(StringComparer.OrdinalIgnoreCase)
+    {
+        "CON", "PRN", "AUX", "NUL", "COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9",
+        "LPT1", "LPT2", "LPT3", "LPT4", "LPT5", "LPT6", "LPT7", "LPT8", "LPT9",
+    };
+
+    public static string For(string tag)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(tag);
+        var invalid = Path.GetInvalidFileNameChars();
+        var chars = tag.Select(c => invalid.Contains(c) || c is '/' or '\\' or ':' ? '_' : c).ToArray();
+        var name = new string(chars).Trim().Trim('.');
+        if (name.Length == 0 || name.All(c => c == '_')) name = "version";
+        if (Reserved.Contains(name)) name = "_" + name;
+        return name.Length > 80 ? name[..80] : name;
+    }
+}

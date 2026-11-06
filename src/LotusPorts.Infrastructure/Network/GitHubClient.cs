@@ -113,6 +113,45 @@ public sealed class GitHubClient(HttpClient http)
         return buffer.ToArray();
     }
 
+    /// <summary>Largest release file Lotus Ports downloads.</summary>
+    public const long MaxDownloadBytes = 8L * 1024 * 1024 * 1024;
+
+    /// <summary>
+    /// Downloads a release file to <paramref name="destination"/>, reporting bytes received, and returns its SHA-256
+    /// (lowercase hex). The size must match what GitHub announced; redirects must stay on GitHub's hosts.
+    /// </summary>
+    public async Task<string> DownloadAsync(ReleaseAssetInfo asset, string destination, IProgress<long>? progress = null, CancellationToken cancellationToken = default)
+    {
+        ArgumentNullException.ThrowIfNull(asset);
+        EnsureAllowed(asset.DownloadUrl);
+        if (asset.Size <= 0 || asset.Size > MaxDownloadBytes) throw new InvalidDataException("Release file size is not acceptable.");
+        using var request = new HttpRequestMessage(HttpMethod.Get, asset.DownloadUrl);
+        request.Headers.Accept.ParseAdd("application/octet-stream");
+        using var response = await http.SendAsync(request, HttpCompletionOption.ResponseHeadersRead, cancellationToken).ConfigureAwait(false);
+        EnsureAllowed(response.RequestMessage?.RequestUri ?? asset.DownloadUrl);
+        response.EnsureSuccessStatusCode();
+        if (response.Content.Headers.ContentLength is { } announced && announced != asset.Size) throw new InvalidDataException("Downloaded size differs from GitHub's.");
+
+        using var sha = System.Security.Cryptography.IncrementalHash.CreateHash(System.Security.Cryptography.HashAlgorithmName.SHA256);
+        await using (var source = await response.Content.ReadAsStreamAsync(cancellationToken).ConfigureAwait(false))
+        await using (var target = new FileStream(destination, FileMode.Create, FileAccess.Write, FileShare.None, 1 << 16, useAsync: true))
+        {
+            var buffer = new byte[1 << 16];
+            long total = 0;
+            int read;
+            while ((read = await source.ReadAsync(buffer, cancellationToken).ConfigureAwait(false)) > 0)
+            {
+                total += read;
+                if (total > asset.Size) throw new InvalidDataException("Downloaded size differs from GitHub's.");
+                sha.AppendData(buffer, 0, read);
+                await target.WriteAsync(buffer.AsMemory(0, read), cancellationToken).ConfigureAwait(false);
+                progress?.Report(total);
+            }
+            if (total != asset.Size) throw new InvalidDataException("Downloaded size differs from GitHub's.");
+        }
+        return Convert.ToHexStringLower(sha.GetHashAndReset());
+    }
+
     /// <summary>Lists the files inside a release zip by reading only its index at the end (range request). Nothing is saved.</summary>
     public async Task<IReadOnlyList<string>> ListZipEntriesAsync(ReleaseAssetInfo asset, CancellationToken cancellationToken = default)
     {
