@@ -10,34 +10,40 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" MaxWidth="980" />
             </Grid.ColumnDefinitions>
-        <StackPanel
-            Spacing="16">
-            <controls:PageBanner Source="Assets/Art/Banners/aurora_peaks.png" Title="{local:Str Key=NavHelp}" />
-            <Border Style="{StaticResource Lotus.Card}">
-                <StackPanel Spacing="8">
-                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HelpHowTitle}" />
-                    <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=HelpHowText}" />
+            <StackPanel Spacing="16">
+                <controls:PageBanner Source="Assets/Art/Banners/aurora_peaks.png" Title="{local:Str Key=NavHelp}" />
+
+                <!--  Built in code: one card per topic, icon + title + text.  -->
+                <StackPanel x:Name="Topics" Spacing="12">
+                    <StackPanel.ChildrenTransitions>
+                        <TransitionCollection>
+                            <EntranceThemeTransition FromVerticalOffset="24" IsStaggeringEnabled="True" />
+                        </TransitionCollection>
+                    </StackPanel.ChildrenTransitions>
                 </StackPanel>
-            </Border>
-            <Border Style="{StaticResource Lotus.Card}">
-                <StackPanel Spacing="8">
-                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HelpFilesTitle}" />
-                    <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=HelpFilesText}" />
-                </StackPanel>
-            </Border>
-            <Border Style="{StaticResource Lotus.Card}">
-                <StackPanel Spacing="8">
-                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HelpProblemTitle}" />
-                    <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=HelpProblemText}" />
-                </StackPanel>
-            </Border>
-            <Border Style="{StaticResource Lotus.Card}">
-                <StackPanel Spacing="8">
-                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HelpSavesTitle}" />
-                    <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=HelpSavesText}" />
-                </StackPanel>
-            </Border>
-        </StackPanel>
+
+                <Border Style="{StaticResource Lotus.Card}">
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel VerticalAlignment="Center" Spacing="4">
+                            <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HelpWelcomeTitle}" />
+                            <TextBlock
+                                Style="{StaticResource Type.Body}"
+                                Foreground="{StaticResource Text.Secondary}"
+                                Text="{local:Str Key=HelpWelcomeText}"
+                                TextWrapping="Wrap" />
+                        </StackPanel>
+                        <Button
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            Click="OnShowWelcome"
+                            Content="{local:Str Key=HelpWelcomeButton}" />
+                    </Grid>
+                </Border>
+            </StackPanel>
         </Grid>
     </ScrollViewer>
 </Page>

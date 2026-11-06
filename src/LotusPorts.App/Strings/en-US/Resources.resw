@@ -662,4 +662,17 @@
   <data name="WelcomeGamepadHint" xml:space="preserve"><value>D-pad or stick to move, A to open, B to go back, LB/RB to switch screens, Y to search.</value></data>
   <data name="WelcomeTv" xml:space="preserve"><value>TV mode</value></data>
   <data name="WelcomeTvHint" xml:space="preserve"><value>Full screen with everything larger, for the couch. Turn it on in Settings or with the controller&apos;s View button.</value></data>
+  <data name="HelpLibraryTitle" xml:space="preserve"><value>Library</value></data>
+  <data name="HelpLibraryText" xml:space="preserve"><value>Your favorite games, installed ones and those with a recognized file live in the Library. Each card shows what is happening now: ready to play, downloading, playing or update available. Lotus Ports looks for new versions once a day and, when there are any, the Update all button appears. Nothing is updated without your confirmation, and the previous version is kept so you can go back.</value></data>
+  <data name="HelpStyleTitle" xml:space="preserve"><value>Original or Remastered style</value></data>
+  <data name="HelpStyleText" xml:space="preserve"><value>When the port offers graphics options, you choose on the game page: Original, true to the console, or Remastered, with widescreen, higher resolution and more frames. Lotus Ports keeps a copy of the settings first, and Undo puts back only what the style changed.</value></data>
+  <data name="HelpModsTitle" xml:space="preserve"><value>Mods</value></data>
+  <data name="HelpModsText" xml:space="preserve"><value>Games that accept mods show a Mods section on the game page, with the right folder and the accepted file types. You enable, disable or remove each mod whenever you like; replaced files are backed up first.</value></data>
+  <data name="HelpLotusTitle" xml:space="preserve"><value>Lotus Ports and Lotus</value></data>
+  <data name="HelpLotusText" xml:space="preserve"><value>Lotus Ports works on its own. With Lotus open, it shows your profile, checks the PC before playing and brings performance recommendations for each game. If Lotus is closed or on a version without the integration, nothing breaks: only these extras are left out.</value></data>
+  <data name="HelpGamepadTitle" xml:space="preserve"><value>Controller and TV mode</value></data>
+  <data name="HelpGamepadText" xml:space="preserve"><value>The whole app works with a controller: D-pad or stick to move, A to open, B to go back, LB/RB to switch screens, Y to search and View to turn on TV mode, which makes everything larger in full screen for the couch.</value></data>
+  <data name="HelpWelcomeTitle" xml:space="preserve"><value>Welcome</value></data>
+  <data name="HelpWelcomeText" xml:space="preserve"><value>See the first steps again: profile, game files folder, style and controller.</value></data>
+  <data name="HelpWelcomeButton" xml:space="preserve"><value>Show again</value></data>
 </root>

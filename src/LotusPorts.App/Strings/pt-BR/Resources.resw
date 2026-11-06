@@ -662,4 +662,17 @@
   <data name="WelcomeGamepadHint" xml:space="preserve"><value>Direcional ou analógico para andar, A para abrir, B para voltar, LB/RB para trocar de tela, Y para buscar.</value></data>
   <data name="WelcomeTv" xml:space="preserve"><value>Modo TV</value></data>
   <data name="WelcomeTvHint" xml:space="preserve"><value>Tela cheia com tudo maior, para jogar no sofá. Ligue em Configurações ou com o botão View do controle.</value></data>
+  <data name="HelpLibraryTitle" xml:space="preserve"><value>Biblioteca</value></data>
+  <data name="HelpLibraryText" xml:space="preserve"><value>Seus jogos favoritos, instalados ou com arquivo reconhecido ficam na Biblioteca. Cada cartão mostra o que está acontecendo agora: pronto para jogar, baixando, jogando ou atualização disponível. O Lotus Ports procura versões novas uma vez por dia e, quando há, o botão Atualizar tudo aparece. Nada é atualizado sem você confirmar, e a versão anterior fica guardada para voltar.</value></data>
+  <data name="HelpStyleTitle" xml:space="preserve"><value>Estilo Original ou Remasterizado</value></data>
+  <data name="HelpStyleText" xml:space="preserve"><value>Quando o port oferece opções gráficas, você escolhe na página do jogo: Original, fiel ao console, ou Remasterizado, com tela larga, mais resolução e mais quadros. O Lotus Ports guarda uma cópia da configuração antes e o Desfazer devolve só o que o estilo mudou.</value></data>
+  <data name="HelpModsTitle" xml:space="preserve"><value>Mods</value></data>
+  <data name="HelpModsText" xml:space="preserve"><value>Jogos que aceitam mods mostram a seção Mods na página do jogo, com a pasta certa e os tipos de arquivo aceitos. Você ativa, desativa ou remove cada mod quando quiser; arquivos substituídos ganham uma cópia de segurança antes.</value></data>
+  <data name="HelpLotusTitle" xml:space="preserve"><value>Lotus Ports e Lotus</value></data>
+  <data name="HelpLotusText" xml:space="preserve"><value>O Lotus Ports funciona sozinho. Com o Lotus aberto, ele mostra seu perfil, confere o PC antes de jogar e traz recomendações de desempenho para cada jogo. Se o Lotus estiver fechado ou numa versão sem a integração, nada quebra: só esses extras ficam de fora.</value></data>
+  <data name="HelpGamepadTitle" xml:space="preserve"><value>Controle e Modo TV</value></data>
+  <data name="HelpGamepadText" xml:space="preserve"><value>Todo o app funciona com controle: direcional ou analógico para andar, A para abrir, B para voltar, LB/RB para trocar de tela, Y para buscar e View para ligar o Modo TV, que deixa tudo maior em tela cheia para jogar no sofá.</value></data>
+  <data name="HelpWelcomeTitle" xml:space="preserve"><value>Boas-vindas</value></data>
+  <data name="HelpWelcomeText" xml:space="preserve"><value>Reveja os primeiros passos: perfil, pasta dos arquivos de jogos, estilo e controle.</value></data>
+  <data name="HelpWelcomeButton" xml:space="preserve"><value>Ver de novo</value></data>
 </root>
