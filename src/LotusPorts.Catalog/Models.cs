@@ -101,7 +101,14 @@ public sealed record Port(
     PortLinks Links,
     PortArt? Art,
     int? MinWindowsBuild,
-    PortEvidence? Evidence);
+    PortEvidence? Evidence,
+    PortMods? Mods = null);
+
+/// <summary>
+/// How the port officially takes mods (Phase 8, experimental): the folder the game reads, the accepted file types, the
+/// official page to get them (if the port names one) and where in the port's own repository this was declared.
+/// </summary>
+public sealed record PortMods(string Folder, string Location, IReadOnlyList<string> FileTypes, string? SourceUrl, string DeclaredIn, string? NotesPtBr);
 
 [JsonConverter(typeof(JsonStringEnumConverter<PortStatus>))]
 public enum PortStatus

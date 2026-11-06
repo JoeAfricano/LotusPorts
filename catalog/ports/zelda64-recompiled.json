@@ -66,6 +66,14 @@
   ],
   "controllerSupport": null,
   "highlightsPtBr": [],
+  "mods": {
+    "folder": "%LOCALAPPDATA%\\Zelda64Recompiled\\mods",
+    "location": "user",
+    "fileTypes": [".nrm", ".rtz"],
+    "sourceUrl": "https://thunderstore.io/c/zelda-64-recompiled/",
+    "declaredIn": "https://github.com/Zelda64Recomp/Zelda64Recomp#mod-support",
+    "notesPtBr": "Na página oficial, use \"Manual Download\". Mods são arquivos .nrm; pacotes de textura, .rtz."
+  },
   "links": {
     "repo": "https://github.com/Zelda64Recomp/Zelda64Recomp",
     "docs": "https://github.com/Zelda64Recomp/Zelda64Recomp#readme",

@@ -155,6 +155,26 @@ public static partial class CatalogValidator
             urls.Add(($"requiredGameFiles/{i}/officialDocsUrl", file.OfficialDocsUrl));
             urls.AddRange(file.AcceptedVersions.Select((v, j) => ($"requiredGameFiles/{i}/acceptedVersions/{j}/source", (string?)v.Source)));
         }
+        // Mods: the source is accepted only when the port's own repository declares it (declaredIn), never a game file
+        // type, and the folder stays inside the game folder or the user's app data.
+        if (port.Mods is { } mods)
+        {
+            var repoRoot = $"https://github.com/{port.Repo.Owner}/{port.Repo.Name}";
+            if (!mods.DeclaredIn.StartsWith(repoRoot, StringComparison.OrdinalIgnoreCase))
+                issues.Add(new(IssueSeverity.Error, CatalogIssueCodes.ForbiddenHost, $"{at}/mods/declaredIn", "Mods must be declared in the port's own repository."));
+            else if (mods.SourceUrl is { } source && Uri.TryCreate(source, UriKind.Absolute, out var s) && s.Scheme == Uri.UriSchemeHttps)
+                allowed.Add(s.Host);
+            urls.Add(("mods/sourceUrl", mods.SourceUrl));
+            if (mods.FileTypes.Any(t => GameFileUrl().IsMatch("x" + t)))
+                issues.Add(new(IssueSeverity.Error, CatalogIssueCodes.Schema, $"{at}/mods/fileTypes", "A game file type is not a mod."));
+            var folder = mods.Folder.Replace('/', '\\');
+            var folderOk = mods.Location == "install"
+                ? !Path.IsPathRooted(folder) && !folder.Split('\\').Contains("..")
+                : folder.StartsWith("%LOCALAPPDATA%\\", StringComparison.OrdinalIgnoreCase) || folder.StartsWith("%APPDATA%\\", StringComparison.OrdinalIgnoreCase);
+            if (!folderOk || folder.Split('\\').Contains(".."))
+                issues.Add(new(IssueSeverity.Error, CatalogIssueCodes.Schema, $"{at}/mods/folder", "The mods folder must be inside the game folder or the user's app data."));
+        }
+
         foreach (var (path, url) in urls)
         {
             if (url is null) continue;

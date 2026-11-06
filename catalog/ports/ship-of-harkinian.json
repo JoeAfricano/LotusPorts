@@ -76,6 +76,14 @@
   ],
   "controllerSupport": null,
   "highlightsPtBr": [],
+  "mods": {
+    "folder": "mods/",
+    "location": "install",
+    "fileTypes": [".otr", ".o2r"],
+    "sourceUrl": null,
+    "declaredIn": "https://github.com/HarbourMasters/Shipwright#custom-assets",
+    "notesPtBr": "Conteúdo personalizado em arquivos .otr, colocados na pasta mods do jogo."
+  },
   "links": {
     "repo": "https://github.com/HarbourMasters/Shipwright",
     "docs": "https://github.com/HarbourMasters/Shipwright#readme",

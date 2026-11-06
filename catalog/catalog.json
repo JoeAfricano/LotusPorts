@@ -16744,6 +16744,17 @@
       ],
       "controllerSupport": null,
       "highlightsPtBr": [],
+      "mods": {
+        "folder": "mods/",
+        "location": "install",
+        "fileTypes": [
+          ".o2r",
+          ".otr"
+        ],
+        "sourceUrl": null,
+        "declaredIn": "https://github.com/2ship2harkinian/2ship2harkinian#custom-assets",
+        "notesPtBr": "Conteúdo personalizado em arquivos .o2r ou .otr, colocados na pasta mods do jogo."
+      },
       "links": {
         "repo": "https://github.com/2ship2harkinian/2ship2harkinian",
         "docs": "https://github.com/2ship2harkinian/2ship2harkinian#readme",
@@ -59725,6 +59736,17 @@
       ],
       "controllerSupport": null,
       "highlightsPtBr": [],
+      "mods": {
+        "folder": "mods/",
+        "location": "install",
+        "fileTypes": [
+          ".otr",
+          ".o2r"
+        ],
+        "sourceUrl": null,
+        "declaredIn": "https://github.com/HarbourMasters/Shipwright#custom-assets",
+        "notesPtBr": "Conteúdo personalizado em arquivos .otr, colocados na pasta mods do jogo."
+      },
       "links": {
         "repo": "https://github.com/HarbourMasters/Shipwright",
         "docs": "https://github.com/HarbourMasters/Shipwright#readme",
@@ -76239,6 +76261,17 @@
       ],
       "controllerSupport": null,
       "highlightsPtBr": [],
+      "mods": {
+        "folder": "%LOCALAPPDATA%\\Zelda64Recompiled\\mods",
+        "location": "user",
+        "fileTypes": [
+          ".nrm",
+          ".rtz"
+        ],
+        "sourceUrl": "https://thunderstore.io/c/zelda-64-recompiled/",
+        "declaredIn": "https://github.com/Zelda64Recomp/Zelda64Recomp#mod-support",
+        "notesPtBr": "Na página oficial, use \"Manual Download\". Mods são arquivos .nrm; pacotes de textura, .rtz."
+      },
       "links": {
         "repo": "https://github.com/Zelda64Recomp/Zelda64Recomp",
         "docs": "https://github.com/Zelda64Recomp/Zelda64Recomp#readme",

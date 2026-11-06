@@ -66,6 +66,23 @@ public class ValidationAndShelvesTests
         Validate(bundle).IsValid.Should().Be(valid);
     }
 
+    [Theory]
+    [InlineData("https://github.com/owner/repo#mods", "https://thunderstore.io/c/x/", "mods/", "install", ".nrm", true)]
+    [InlineData("https://github.com/someone-else/repo#mods", "https://thunderstore.io/c/x/", "mods/", "install", ".nrm", false)]
+    [InlineData("https://github.com/owner/repo#mods", null, "../../Windows", "install", ".otr", false)]
+    [InlineData("https://github.com/owner/repo#mods", null, "C:\\Mods", "user", ".otr", false)]
+    [InlineData("https://github.com/owner/repo#mods", null, "%APPDATA%\\Game\\mods", "user", ".otr", true)]
+    [InlineData("https://github.com/owner/repo#mods", null, "mods/", "install", ".iso", false)]
+    public void Mods_need_a_source_declared_by_the_port_and_a_safe_folder(string declaredIn, string? source, string folder, string location, string type, bool valid)
+    {
+        var bundle = Sample();
+        Port(bundle)["mods"] = new JsonObject
+        {
+            ["folder"] = folder, ["location"] = location, ["fileTypes"] = new JsonArray(type), ["sourceUrl"] = source, ["declaredIn"] = declaredIn,
+        };
+        Validate(bundle).IsValid.Should().Be(valid);
+    }
+
     [Fact]
     public void Broken_references_are_rejected()
     {

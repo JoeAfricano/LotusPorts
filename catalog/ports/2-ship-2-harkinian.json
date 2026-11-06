@@ -71,6 +71,14 @@
   ],
   "controllerSupport": null,
   "highlightsPtBr": [],
+  "mods": {
+    "folder": "mods/",
+    "location": "install",
+    "fileTypes": [".o2r", ".otr"],
+    "sourceUrl": null,
+    "declaredIn": "https://github.com/2ship2harkinian/2ship2harkinian#custom-assets",
+    "notesPtBr": "Conteúdo personalizado em arquivos .o2r ou .otr, colocados na pasta mods do jogo."
+  },
   "links": {
     "repo": "https://github.com/2ship2harkinian/2ship2harkinian",
     "docs": "https://github.com/2ship2harkinian/2ship2harkinian#readme",
