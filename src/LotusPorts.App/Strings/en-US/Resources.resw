@@ -50,7 +50,7 @@
   <data name="StyleRemastered" xml:space="preserve"><value>Remastered</value></data>
   <data name="StyleRemasteredHint" xml:space="preserve"><value>Widescreen, high resolution and higher frame rate.</value></data>
   <data name="SettingsAutoUpdate" xml:space="preserve"><value>Automatic updates</value></data>
-  <data name="SettingsAutoUpdateHint" xml:space="preserve"><value>When on, the game button becomes &quot;Update and play&quot; when a new version exists.</value></data>
+  <data name="SettingsAutoUpdateHint" xml:space="preserve"><value>Lotus Ports looks for new versions of installed ports once a day and installs them on its own, never while the game is open. The previous version is kept so you can go back. When off, it only lets you know and you update when you like.</value></data>
   <data name="SettingsStartWithWindows" xml:space="preserve"><value>Start with Windows</value></data>
   <data name="SettingsTvMode" xml:space="preserve"><value>TV mode (controller)</value></data>
   <data name="SettingsGameFiles" xml:space="preserve"><value>Game files</value></data>
@@ -663,7 +663,7 @@
   <data name="WelcomeTv" xml:space="preserve"><value>TV mode</value></data>
   <data name="WelcomeTvHint" xml:space="preserve"><value>Full screen with everything larger, for the couch. Turn it on in Settings or with the controller&apos;s View button.</value></data>
   <data name="HelpLibraryTitle" xml:space="preserve"><value>Library</value></data>
-  <data name="HelpLibraryText" xml:space="preserve"><value>Your favorite games, installed ones and those with a recognized file live in the Library. Each card shows what is happening now: ready to play, downloading, playing or update available. Lotus Ports looks for new versions once a day and, when there are any, the Update all button appears. Nothing is updated without your confirmation, and the previous version is kept so you can go back.</value></data>
+  <data name="HelpLibraryText" xml:space="preserve"><value>Your favorite games, installed ones and those with a recognized file live in the Library. Each card shows what is happening now: ready to play, downloading, playing or update available. Lotus Ports looks for new versions once a day and, with automatic updates on (the default), installs them on its own, never while the game is open. When off, the Update all button appears. The previous version is always kept so you can go back.</value></data>
   <data name="HelpStyleTitle" xml:space="preserve"><value>Original or Remastered style</value></data>
   <data name="HelpStyleText" xml:space="preserve"><value>When the port offers graphics options, you choose on the game page: Original, true to the console, or Remastered, with widescreen, higher resolution and more frames. Lotus Ports keeps a copy of the settings first, and Undo puts back only what the style changed.</value></data>
   <data name="HelpModsTitle" xml:space="preserve"><value>Mods</value></data>

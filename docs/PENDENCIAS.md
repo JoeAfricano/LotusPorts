@@ -99,7 +99,7 @@
 ## Biblioteca viva e primeiro uso: pendências
 
 - Estados "Baixando", "Jogando", "Atualização disponível" e "Precisa de atenção" nos cartões e o aviso "Atualizar tudo" só foram vistos em código e testes: nenhum port está instalado no PC agora para conferir na tela.
-- A verificação diária só roda com o app aberto (20 s após abrir e depois a cada 24 h); não há tarefa em segundo plano com o app fechado.
+- Atualizações automáticas (ligadas por padrão): a verificação diária instala sozinha as versões novas dos ports instalados, uma por vez, nunca com o jogo aberto; a anterior fica para "Voltar". Só roda com o app aberto (20 s após abrir e depois a cada 24 h); não há tarefa em segundo plano com o app fechado.
 - A boas-vindas aparece uma vez (`general.welcomeDone`); em Ajuda há "Ver de novo".
 
 ## Fase 9: pendências

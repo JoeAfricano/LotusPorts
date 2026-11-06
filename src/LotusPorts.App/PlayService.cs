@@ -115,6 +115,13 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         {
             t.Interval = TimeSpan.FromHours(24);
             await CheckUpdatesAsync();
+            // "Atualizações automáticas" (on by default) is the player's standing consent: new versions install by
+            // themselves, one at a time, never while the game is open. The previous version is kept for "Voltar".
+            if ((await preferences.LoadAsync()).AutoUpdate && UpdatesAvailable is { Count: > 0 } updates)
+            {
+                logger.LogInformation("Updating {Count} ports automatically", updates.Count);
+                await UpdateAllAsync(updates);
+            }
         };
         dailyCheck.Start();
     }

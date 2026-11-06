@@ -18,7 +18,7 @@ public sealed record AppPreferences(string Language, string? LibraryFolder, Expe
     public static readonly IReadOnlyList<string> SupportedLanguages = ["pt-BR", "en-US"];
 
     /// <summary>Portuguese, library in the app folder, Original style, no automatic updates, simple mode.</summary>
-    public static AppPreferences Default { get; } = new(DefaultLanguage, null, ExperienceStyle.Original, false, false, false);
+    public static AppPreferences Default { get; } = new(DefaultLanguage, null, ExperienceStyle.Original, AutoUpdate: true, false, false);
 }
 
 public static class SettingKeys

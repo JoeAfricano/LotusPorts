@@ -50,7 +50,7 @@
   <data name="StyleRemastered" xml:space="preserve"><value>Remasterizado</value></data>
   <data name="StyleRemasteredHint" xml:space="preserve"><value>Widescreen, alta resolução e maior taxa de quadros.</value></data>
   <data name="SettingsAutoUpdate" xml:space="preserve"><value>Atualizações automáticas</value></data>
-  <data name="SettingsAutoUpdateHint" xml:space="preserve"><value>Quando ligado, o botão do jogo vira &quot;Atualizar e jogar&quot; se houver versão nova.</value></data>
+  <data name="SettingsAutoUpdateHint" xml:space="preserve"><value>O Lotus Ports procura versões novas dos ports instalados uma vez por dia e instala sozinho, nunca com o jogo aberto. A versão anterior fica guardada para voltar. Desligado, ele só avisa e você atualiza quando quiser.</value></data>
   <data name="SettingsStartWithWindows" xml:space="preserve"><value>Iniciar com o Windows</value></data>
   <data name="SettingsTvMode" xml:space="preserve"><value>Modo TV (controle)</value></data>
   <data name="SettingsGameFiles" xml:space="preserve"><value>Arquivos de jogo</value></data>
@@ -663,7 +663,7 @@
   <data name="WelcomeTv" xml:space="preserve"><value>Modo TV</value></data>
   <data name="WelcomeTvHint" xml:space="preserve"><value>Tela cheia com tudo maior, para jogar no sofá. Ligue em Configurações ou com o botão View do controle.</value></data>
   <data name="HelpLibraryTitle" xml:space="preserve"><value>Biblioteca</value></data>
-  <data name="HelpLibraryText" xml:space="preserve"><value>Seus jogos favoritos, instalados ou com arquivo reconhecido ficam na Biblioteca. Cada cartão mostra o que está acontecendo agora: pronto para jogar, baixando, jogando ou atualização disponível. O Lotus Ports procura versões novas uma vez por dia e, quando há, o botão Atualizar tudo aparece. Nada é atualizado sem você confirmar, e a versão anterior fica guardada para voltar.</value></data>
+  <data name="HelpLibraryText" xml:space="preserve"><value>Seus jogos favoritos, instalados ou com arquivo reconhecido ficam na Biblioteca. Cada cartão mostra o que está acontecendo agora: pronto para jogar, baixando, jogando ou atualização disponível. O Lotus Ports procura versões novas uma vez por dia e, com as atualizações automáticas ligadas (o padrão), instala sozinho, nunca com o jogo aberto. Desligadas, aparece o botão Atualizar tudo. A versão anterior sempre fica guardada para voltar.</value></data>
   <data name="HelpStyleTitle" xml:space="preserve"><value>Estilo Original ou Remasterizado</value></data>
   <data name="HelpStyleText" xml:space="preserve"><value>Quando o port oferece opções gráficas, você escolhe na página do jogo: Original, fiel ao console, ou Remasterizado, com tela larga, mais resolução e mais quadros. O Lotus Ports guarda uma cópia da configuração antes e o Desfazer devolve só o que o estilo mudou.</value></data>
   <data name="HelpModsTitle" xml:space="preserve"><value>Mods</value></data>
