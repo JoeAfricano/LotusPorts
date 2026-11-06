@@ -93,28 +93,25 @@
 
                 <ItemsRepeater ItemsSource="{x:Bind ViewModel.Shelves}" Visibility="{x:Bind ViewModel.IsReady, Mode=OneWay}">
                     <ItemsRepeater.Layout>
-                        <StackLayout Spacing="26" />
+                        <StackLayout Spacing="34" />
                     </ItemsRepeater.Layout>
                     <ItemsRepeater.ItemTemplate>
                         <DataTemplate x:DataType="app:ShelfModel">
-                            <StackPanel Spacing="10">
-                                <TextBlock Style="{StaticResource Type.Subtitle}" Text="{x:Bind Title}" />
-                                <ScrollViewer
-                                    HorizontalScrollBarVisibility="Auto"
-                                    HorizontalScrollMode="Enabled"
-                                    VerticalScrollBarVisibility="Disabled"
-                                    VerticalScrollMode="Disabled">
-                                    <ItemsRepeater Margin="0,0,0,12" ItemsSource="{x:Bind Games}">
-                                        <ItemsRepeater.Layout>
-                                            <StackLayout Orientation="Horizontal" Spacing="14" />
-                                        </ItemsRepeater.Layout>
-                                        <ItemsRepeater.ItemTemplate>
-                                            <DataTemplate x:DataType="app:GameCardModel">
-                                                <cards:GameCard Model="{x:Bind}" />
-                                            </DataTemplate>
-                                        </ItemsRepeater.ItemTemplate>
-                                    </ItemsRepeater>
-                                </ScrollViewer>
+                            <StackPanel Spacing="14">
+                                <controls:SectionHeader Glyph="&#xE8F1;" Title="{x:Bind Title}" />
+                                <ItemsRepeater ItemsSource="{x:Bind Games}">
+                                    <ItemsRepeater.Layout>
+                                        <UniformGridLayout
+                                            MinColumnSpacing="16"
+                                            MinItemWidth="180"
+                                            MinRowSpacing="16" />
+                                    </ItemsRepeater.Layout>
+                                    <ItemsRepeater.ItemTemplate>
+                                        <DataTemplate x:DataType="app:GameCardModel">
+                                            <cards:GameCard Model="{x:Bind}" />
+                                        </DataTemplate>
+                                    </ItemsRepeater.ItemTemplate>
+                                </ItemsRepeater>
                             </StackPanel>
                         </DataTemplate>
                     </ItemsRepeater.ItemTemplate>

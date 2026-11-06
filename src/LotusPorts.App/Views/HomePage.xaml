@@ -5,84 +5,97 @@
     xmlns:app="using:LotusPorts.App"
     xmlns:cards="using:LotusPorts.App.Controls"
     xmlns:controls="using:Lotus.Design.Controls"
+    xmlns:design="using:Lotus.Design"
     xmlns:local="using:LotusPorts.App"
     xmlns:vm="using:LotusPorts.App.ViewModels">
 
+    <Page.Resources>
+        <DataTemplate x:Key="CoverTemplate" x:DataType="app:GameCardModel">
+            <cards:GameCard Model="{x:Bind}" />
+        </DataTemplate>
+        <DataTemplate x:Key="TileTemplate" x:DataType="app:GameCardModel">
+            <cards:GameTile Model="{x:Bind}" />
+        </DataTemplate>
+    </Page.Resources>
+
     <ScrollViewer HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
         <StackPanel>
-            <!--  Hero: thesis + search + the latest release (measured)  -->
-            <Grid Height="400">
+            <!--  Hero: thesis, search and the latest release (measured)  -->
+            <Grid Height="380">
                 <controls:SceneHero Source="Assets/Art/Scenes/05_FUNDO_JARDIM_CIBERNETICO_HERO_WIDE_1920x650.png" />
-                <StackPanel
-                    MaxWidth="680"
+                <Grid
                     Margin="48,0,48,30"
-                    HorizontalAlignment="Left"
                     VerticalAlignment="Bottom"
-                    Spacing="0">
-                    <TextBlock Style="{StaticResource Type.Display}" Text="{local:Str Key=LibraryHeroLine1}" />
-                    <TextBlock
-                        Margin="0,-4,0,12"
-                        Foreground="{StaticResource Accent.Rose}"
-                        Style="{StaticResource Type.Display}"
-                        Text="{local:Str Key=LibraryHeroLine2}" />
-                    <TextBlock
-                        MaxWidth="520"
-                        HorizontalAlignment="Left"
-                        Foreground="{StaticResource Text.Secondary}"
-                        Style="{StaticResource Type.Body}"
-                        Text="{local:Str Key=HomeSubtitle}" />
-                    <AutoSuggestBox
-                        x:Name="SearchBox"
-                        Width="580"
-                        Margin="0,20,0,0"
-                        HorizontalAlignment="Left"
-                        AutomationProperties.Name="{local:Str Key=SearchAutomation}"
-                        DisplayMemberPath="Title"
-                        ItemsSource="{x:Bind Search.Suggestions}"
-                        PlaceholderText="{local:Str Key=SearchPlaceholder}"
-                        QueryIcon="Find"
-                        QuerySubmitted="OnQuerySubmitted"
-                        TextChanged="OnSearchTextChanged"
-                        UpdateTextOnSelect="False" />
-                </StackPanel>
-
-                <!--  Featured card on the right  -->
-                <Button
-                    MaxWidth="340"
-                    Margin="0,0,48,34"
-                    Padding="18,14"
-                    HorizontalAlignment="Right"
-                    VerticalAlignment="Bottom"
-                    HorizontalContentAlignment="Stretch"
-                    AutomationProperties.Name="{x:Bind ViewModel.FeaturedTitle, Mode=OneWay}"
-                    Background="{StaticResource Bg.Surface}"
-                    BorderBrush="{StaticResource Accent.Rose}"
-                    Click="OnFeatured"
-                    CornerRadius="14"
-                    Visibility="{x:Bind ViewModel.HasFeatured, Mode=OneWay}">
-                    <StackPanel Spacing="4">
+                    ColumnSpacing="24">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel MaxWidth="640" HorizontalAlignment="Left">
+                        <TextBlock Style="{StaticResource Type.Display}" Text="{local:Str Key=LibraryHeroLine1}" />
                         <TextBlock
-                            CharacterSpacing="120"
-                            FontSize="11"
-                            FontWeight="SemiBold"
-                            Foreground="{StaticResource Accent.Pink}"
-                            Text="{local:Str Key=HomeFeatured}" />
+                            Margin="0,-4,0,10"
+                            Foreground="{StaticResource Accent.Rose}"
+                            Style="{StaticResource Type.Display}"
+                            Text="{local:Str Key=LibraryHeroLine2}" />
                         <TextBlock
-                            FontSize="17"
-                            FontWeight="SemiBold"
-                            Text="{x:Bind ViewModel.FeaturedTitle, Mode=OneWay}"
-                            TextWrapping="Wrap" />
-                        <TextBlock Style="{StaticResource Type.Caption}" Text="{x:Bind ViewModel.FeaturedDetail, Mode=OneWay}" />
+                            MaxWidth="520"
+                            HorizontalAlignment="Left"
+                            Foreground="{StaticResource Text.Secondary}"
+                            Style="{StaticResource Type.Body}"
+                            Text="{local:Str Key=HomeSubtitle}" />
+                        <AutoSuggestBox
+                            x:Name="SearchBox"
+                            Width="560"
+                            Margin="0,18,0,0"
+                            HorizontalAlignment="Left"
+                            AutomationProperties.Name="{local:Str Key=SearchAutomation}"
+                            DisplayMemberPath="Title"
+                            ItemsSource="{x:Bind Search.Suggestions}"
+                            PlaceholderText="{local:Str Key=SearchPlaceholder}"
+                            QueryIcon="Find"
+                            QuerySubmitted="OnQuerySubmitted"
+                            TextChanged="OnSearchTextChanged"
+                            UpdateTextOnSelect="False" />
                     </StackPanel>
-                </Button>
+                    <Button
+                        Grid.Column="1"
+                        Width="320"
+                        Padding="18,14"
+                        VerticalAlignment="Bottom"
+                        HorizontalContentAlignment="Stretch"
+                        design:Motion.Lift="True"
+                        AutomationProperties.Name="{x:Bind ViewModel.FeaturedTitle, Mode=OneWay}"
+                        Background="{StaticResource Bg.Surface}"
+                        BorderBrush="{StaticResource Accent.Rose}"
+                        Click="OnFeatured"
+                        CornerRadius="14"
+                        Visibility="{x:Bind ViewModel.HasFeatured, Mode=OneWay}">
+                        <StackPanel Spacing="4">
+                            <TextBlock
+                                CharacterSpacing="120"
+                                FontSize="11"
+                                FontWeight="SemiBold"
+                                Foreground="{StaticResource Accent.Pink}"
+                                Text="{local:Str Key=HomeFeatured}" />
+                            <TextBlock
+                                FontSize="17"
+                                FontWeight="SemiBold"
+                                Text="{x:Bind ViewModel.FeaturedTitle, Mode=OneWay}"
+                                TextWrapping="Wrap" />
+                            <TextBlock Style="{StaticResource Type.Caption}" Text="{x:Bind ViewModel.FeaturedDetail, Mode=OneWay}" />
+                        </StackPanel>
+                    </Button>
+                </Grid>
             </Grid>
 
-            <StackPanel Margin="48,6,48,48" Spacing="28">
+            <StackPanel Margin="48,8,48,48" Spacing="34">
                 <StackPanel.ChildrenTransitions>
                     <TransitionCollection>
                         <EntranceThemeTransition FromVerticalOffset="28" IsStaggeringEnabled="True" />
                     </TransitionCollection>
                 </StackPanel.ChildrenTransitions>
+
                 <Border Style="{StaticResource Lotus.Card}" Visibility="{x:Bind ViewModel.IsEmpty, Mode=OneWay}">
                     <controls:EmptyState
                         Illustration="Assets/Art/Illustrations/biblioteca-vazia.png"
@@ -90,45 +103,94 @@
                         Title="{local:Str Key=LibraryNothingReviewedTitle}" />
                 </Border>
 
-                <ItemsRepeater ItemsSource="{x:Bind ViewModel.Shelves}">
-                    <ItemsRepeater.Layout>
-                        <StackLayout Spacing="26" />
-                    </ItemsRepeater.Layout>
-                    <ItemsRepeater.ItemTemplate>
-                        <DataTemplate x:DataType="app:ShelfModel">
-                            <StackPanel Spacing="10">
-                                <TextBlock Style="{StaticResource Type.Subtitle}" Text="{x:Bind Title}" />
-                                <ScrollViewer
-                                    HorizontalScrollBarVisibility="Auto"
-                                    HorizontalScrollMode="Enabled"
-                                    VerticalScrollBarVisibility="Disabled"
-                                    VerticalScrollMode="Disabled">
-                                    <ItemsRepeater Margin="0,0,0,12" ItemsSource="{x:Bind Games}">
-                                        <ItemsRepeater.Layout>
-                                            <StackLayout Orientation="Horizontal" Spacing="14" />
-                                        </ItemsRepeater.Layout>
-                                        <ItemsRepeater.ItemTemplate>
-                                            <DataTemplate x:DataType="app:GameCardModel">
-                                                <cards:GameCard Model="{x:Bind}" />
-                                            </DataTemplate>
-                                        </ItemsRepeater.ItemTemplate>
-                                    </ItemsRepeater>
-                                </ScrollViewer>
-                            </StackPanel>
-                        </DataTemplate>
-                    </ItemsRepeater.ItemTemplate>
-                </ItemsRepeater>
+                <StackPanel Spacing="14" Visibility="{x:Bind ViewModel.HasPopular, Mode=OneWay}">
+                    <controls:SectionHeader
+                        ActionClick="OnSeeAllPopular"
+                        ActionText="{local:Str Key=SeeAll}"
+                        Glyph="&#xE734;"
+                        Subtitle="{local:Str Key=HomePopularHint}"
+                        Title="{local:Str Key=HomePopular}" />
+                    <ItemsRepeater
+                        ItemTemplate="{StaticResource CoverTemplate}"
+                        ItemsSource="{x:Bind ViewModel.Popular}"
+                        SizeChanged="OnPopularSizeChanged">
+                        <ItemsRepeater.Layout>
+                            <UniformGridLayout
+                                MinColumnSpacing="16"
+                                MinItemWidth="180"
+                                MinRowSpacing="16" />
+                        </ItemsRepeater.Layout>
+                    </ItemsRepeater>
+                </StackPanel>
 
-                <!--  Browse by console  -->
-                <StackPanel Spacing="10" Visibility="{x:Bind ViewModel.HasConsoles, Mode=OneWay}">
-                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HomeByConsole}" />
+                <StackPanel Spacing="14" Visibility="{x:Bind ViewModel.HasUpdated, Mode=OneWay}">
+                    <controls:SectionHeader
+                        ActionClick="OnSeeAllUpdated"
+                        ActionText="{local:Str Key=SeeAll}"
+                        Glyph="&#xE895;"
+                        Subtitle="{local:Str Key=HomeUpdatedHint}"
+                        Title="{local:Str Key=HomeUpdated}" />
+                    <ItemsRepeater
+                        ItemTemplate="{StaticResource TileTemplate}"
+                        ItemsSource="{x:Bind ViewModel.Updated}"
+                        SizeChanged="OnTilesSizeChanged">
+                        <ItemsRepeater.Layout>
+                            <UniformGridLayout
+                                ItemsStretch="Fill"
+                                MaximumRowsOrColumns="4"
+                                MinColumnSpacing="14"
+                                MinItemWidth="290"
+                                MinRowSpacing="14" />
+                        </ItemsRepeater.Layout>
+                    </ItemsRepeater>
+                </StackPanel>
+
+                <StackPanel Spacing="14" Visibility="{x:Bind ViewModel.HasFresh, Mode=OneWay}">
+                    <controls:SectionHeader
+                        Glyph="&#xE735;"
+                        Subtitle="{local:Str Key=HomeNewHint}"
+                        Title="{local:Str Key=HomeNew}" />
+                    <ItemsRepeater ItemTemplate="{StaticResource TileTemplate}" ItemsSource="{x:Bind ViewModel.Fresh}">
+                        <ItemsRepeater.Layout>
+                            <UniformGridLayout
+                                ItemsStretch="Fill"
+                                MaximumRowsOrColumns="4"
+                                MinColumnSpacing="14"
+                                MinItemWidth="290"
+                                MinRowSpacing="14" />
+                        </ItemsRepeater.Layout>
+                    </ItemsRepeater>
+                </StackPanel>
+
+                <StackPanel Spacing="14" Visibility="{x:Bind ViewModel.HasSoon, Mode=OneWay}">
+                    <controls:SectionHeader
+                        Glyph="&#xE787;"
+                        Subtitle="{local:Str Key=HomeSoonHint}"
+                        Title="{local:Str Key=HomeSoon}" />
+                    <ItemsRepeater ItemTemplate="{StaticResource TileTemplate}" ItemsSource="{x:Bind ViewModel.Soon}">
+                        <ItemsRepeater.Layout>
+                            <UniformGridLayout
+                                ItemsStretch="Fill"
+                                MaximumRowsOrColumns="4"
+                                MinColumnSpacing="14"
+                                MinItemWidth="290"
+                                MinRowSpacing="14" />
+                        </ItemsRepeater.Layout>
+                    </ItemsRepeater>
+                </StackPanel>
+
+                <StackPanel Spacing="14" Visibility="{x:Bind ViewModel.HasConsoles, Mode=OneWay}">
+                    <controls:SectionHeader
+                        Glyph="&#xE7FC;"
+                        Subtitle="{local:Str Key=HomeByConsoleHint}"
+                        Title="{local:Str Key=HomeByConsole}" />
                     <ItemsRepeater ItemsSource="{x:Bind ViewModel.Consoles}">
                         <ItemsRepeater.Layout>
                             <UniformGridLayout
                                 ItemsStretch="Fill"
-                                MinColumnSpacing="10"
+                                MinColumnSpacing="12"
                                 MinItemWidth="190"
-                                MinRowSpacing="10" />
+                                MinRowSpacing="12" />
                         </ItemsRepeater.Layout>
                         <ItemsRepeater.ItemTemplate>
                             <DataTemplate x:DataType="vm:ConsoleTile">
@@ -136,6 +198,7 @@
                                     Padding="16,12"
                                     HorizontalAlignment="Stretch"
                                     HorizontalContentAlignment="Left"
+                                    design:Motion.Lift="True"
                                     AutomationProperties.Name="{x:Bind Label}"
                                     Background="{StaticResource Bg.Surface}"
                                     BorderBrush="{StaticResource Stroke.Subtle}"
@@ -152,22 +215,22 @@
                     </ItemsRepeater>
                 </StackPanel>
 
-                <!--  Categories  -->
-                <StackPanel Spacing="10" Visibility="{x:Bind ViewModel.HasGenres, Mode=OneWay}">
-                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=HomeCategories}" />
-                    <ScrollViewer
-                        HorizontalScrollBarVisibility="Hidden"
-                        HorizontalScrollMode="Enabled"
-                        VerticalScrollBarVisibility="Disabled"
-                        VerticalScrollMode="Disabled">
+                <StackPanel Spacing="14" Visibility="{x:Bind ViewModel.HasGenres, Mode=OneWay}">
+                    <controls:SectionHeader Glyph="&#xE71D;" Title="{local:Str Key=HomeCategories}" />
                     <ItemsRepeater ItemsSource="{x:Bind ViewModel.Genres}">
                         <ItemsRepeater.Layout>
-                            <StackLayout Orientation="Horizontal" Spacing="8" />
+                            <UniformGridLayout
+                                ItemsStretch="Fill"
+                                MinColumnSpacing="10"
+                                MinItemWidth="160"
+                                MinRowSpacing="10" />
                         </ItemsRepeater.Layout>
                         <ItemsRepeater.ItemTemplate>
                             <DataTemplate x:DataType="vm:GenreChip">
                                 <Button
-                                    Padding="14,7"
+                                    Padding="14,8"
+                                    HorizontalAlignment="Stretch"
+                                    design:Motion.Lift="True"
                                     Background="{StaticResource Bg.Surface}"
                                     BorderBrush="{StaticResource Stroke.Subtle}"
                                     Click="OnGenre"
@@ -177,7 +240,6 @@
                             </DataTemplate>
                         </ItemsRepeater.ItemTemplate>
                     </ItemsRepeater>
-                    </ScrollViewer>
                 </StackPanel>
             </StackPanel>
         </StackPanel>

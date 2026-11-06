@@ -48,11 +48,17 @@ public sealed partial class CatalogViewModel(CatalogService catalog, Preferences
         Refresh();
     }
 
-    public void Filter(string text, Platform? chosenPlatform, string? chosenGenre)
+    /// <summary>Sort options in the order of <see cref="CatalogSort"/>.</summary>
+    public List<string> Sorts { get; } = [Strings.Get("SortName"), Strings.Get("SortPopular"), Strings.Get("SortUpdated")];
+
+    private CatalogSort sort;
+
+    public void Filter(string text, Platform? chosenPlatform, string? chosenGenre, CatalogSort chosenSort = CatalogSort.Name)
     {
         query = text;
         platform = chosenPlatform;
         genre = chosenGenre;
+        sort = chosenSort;
         RefreshGames();
     }
 
@@ -78,8 +84,12 @@ public sealed partial class CatalogViewModel(CatalogService catalog, Preferences
             var ids = QuickSearch.Filter(entries, query, int.MaxValue).Select(e => e.Id).ToHashSet();
             games = games.Where(g => ids.Contains(g.Id));
         }
+        // Games without the measured fact (no stars, no release date) go after the sorted ones, by name.
+        var list = games.ToList();
+        var sorted = HomeViewModel.Order(list, sort).ToList();
+        if (sort != CatalogSort.Name) sorted.AddRange(HomeViewModel.Order(list.Except(sorted), CatalogSort.Name));
         Games.Clear();
-        foreach (var g in games) Games.Add(GameCardModel.From(g, catalog.StateOf(g.Id)));
+        foreach (var g in sorted) Games.Add(GameCardModel.From(g, catalog.StateOf(g.Id)));
         NoMatches = Games.Count == 0;
     }
 

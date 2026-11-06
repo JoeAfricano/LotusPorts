@@ -12,7 +12,7 @@ public sealed partial class GameCard : UserControl
     public static readonly DependencyProperty ModelProperty =
         DependencyProperty.Register(nameof(Model), typeof(GameCardModel), typeof(GameCard), new PropertyMetadata(null, (d, _) => ((GameCard)d).Update()));
 
-    private readonly GameCover cover = new() { Height = 236, TitleBottomInset = 30, TitleSize = 17 };
+    private readonly GameCover cover = new() { Height = 264, TitleBottomInset = 30, TitleSize = 17 };
     private readonly StateBadge status = new() { Margin = new Thickness(10, 0, 10, 10), VerticalAlignment = VerticalAlignment.Bottom };
     private readonly StateBadge origin = new() { Tone = BadgeTone.Unknown, Margin = new Thickness(12, 40, 0, 0), HorizontalAlignment = HorizontalAlignment.Left, VerticalAlignment = VerticalAlignment.Top };
     private readonly FontIcon heart = new() { Glyph = "\uEB52", FontSize = 14, Margin = new Thickness(0, 12, 12, 0), HorizontalAlignment = HorizontalAlignment.Right, VerticalAlignment = VerticalAlignment.Top };

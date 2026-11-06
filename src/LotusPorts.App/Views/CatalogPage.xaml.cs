@@ -28,6 +28,7 @@ public sealed partial class CatalogPage : Page
             PlatformBox.SelectedIndex = wantedPlatform is null ? 0 : Math.Max(0, ViewModel.Platforms.FindIndex(p => p.Platform == wantedPlatform));
             var wantedGenre = initial?.Genre;
             GenreBox.SelectedIndex = wantedGenre is null ? 0 : Math.Max(0, ViewModel.Genres.FindIndex(g => string.Equals(g, wantedGenre, StringComparison.OrdinalIgnoreCase)));
+            SortBox.SelectedIndex = (int)(initial?.Sort ?? CatalogSort.Name);
             loading = false;
             OnFilterChanged(this, EventArgs.Empty);
         };
@@ -45,7 +46,8 @@ public sealed partial class CatalogPage : Page
     private void OnFilterChanged(object sender, object e)
     {
         if (loading) return;
-        ViewModel.Filter(FilterBox.Text, (PlatformBox.SelectedItem as PlatformChip)?.Platform, GenreBox.SelectedIndex <= 0 ? null : GenreBox.SelectedItem as string);
+        ViewModel.Filter(FilterBox.Text, (PlatformBox.SelectedItem as PlatformChip)?.Platform, GenreBox.SelectedIndex <= 0 ? null : GenreBox.SelectedItem as string,
+            (CatalogSort)Math.Max(0, SortBox.SelectedIndex));
     }
 
     private async void OnAddSource(object sender, RoutedEventArgs e)

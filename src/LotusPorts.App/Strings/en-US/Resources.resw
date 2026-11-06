@@ -287,4 +287,14 @@
   <data name="LibraryGoHome" xml:space="preserve"><value>Explore Home</value></data>
   <data name="LibraryGoCatalog" xml:space="preserve"><value>See the catalog</value></data>
   <data name="CompactThousands" xml:space="preserve"><value>{0}k</value></data>
+  <data name="SeeAll" xml:space="preserve"><value>See all</value></data>
+  <data name="HomePopularHint" xml:space="preserve"><value>Ports with the most GitHub stars</value></data>
+  <data name="HomeUpdatedHint" xml:space="preserve"><value>New versions published by their authors</value></data>
+  <data name="HomeNewHint" xml:space="preserve"><value>Added to the catalog since your last visit</value></data>
+  <data name="HomeSoonHint" xml:space="preserve"><value>Ports in progress, no Windows build yet</value></data>
+  <data name="HomeByConsoleHint" xml:space="preserve"><value>Games grouped by their original console</value></data>
+  <data name="SortBy" xml:space="preserve"><value>Sort by</value></data>
+  <data name="SortName" xml:space="preserve"><value>Name (A–Z)</value></data>
+  <data name="SortPopular" xml:space="preserve"><value>Most popular</value></data>
+  <data name="SortUpdated" xml:space="preserve"><value>Recently updated</value></data>
 </root>

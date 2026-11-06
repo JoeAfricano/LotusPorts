@@ -139,15 +139,30 @@ public sealed partial class GameCover : UserControl
         glow.BorderThickness = new Thickness(1);
         platform.Text = PlatformLabel.ToUpperInvariant();
         platform.Foreground = new SolidColorBrush(Blend(accent, Microsoft.UI.Colors.White, 0.45));
-        title.Text = Title;
+        // Small thumbnails show the initials, large and centered; a whole title would not be readable there.
+        var small = !double.IsNaN(Width) && Width < 120;
+        title.Text = small ? Initials(Title) : Title;
+        title.TextAlignment = small ? TextAlignment.Center : TextAlignment.Left;
+        titleHolder.VerticalAlignment = small ? VerticalAlignment.Center : VerticalAlignment.Bottom;
         title.Visibility = hasArt ? Visibility.Collapsed : Visibility.Visible;
-        mark.Visibility = hasArt ? Visibility.Collapsed : Visibility.Visible;
+        mark.Visibility = hasArt || small ? Visibility.Collapsed : Visibility.Visible;
         // Box art carries its own console branding; the caption under the card names the platform.
-        platformTag.Visibility = hasArt ? Visibility.Collapsed : Visibility.Visible;
+        platformTag.Visibility = hasArt || string.IsNullOrEmpty(PlatformLabel) ? Visibility.Collapsed : Visibility.Visible;
         titleHolder.Margin = new Thickness(0, 0, 0, TitleBottomInset);
-        title.FontSize = TitleSize;
+        title.FontSize = small ? 24 : TitleSize;
         title.Foreground = (Brush)resources["Text.Primary"];
         Microsoft.UI.Xaml.Automation.AutomationProperties.SetName(this, $"{Title}, {PlatformLabel}");
+    }
+
+    /// <summary>First letters of the first two significant words: "The Legend of Zelda" → "LZ".</summary>
+    public static string Initials(string text)
+    {
+        string[] skip = ["the", "a", "an", "of", "o", "a", "de", "do", "da"];
+        var words = text.Split([' ', ':', '-', '–', '.', '\''], StringSplitOptions.RemoveEmptyEntries)
+            .Where(w => !skip.Contains(w, StringComparer.OrdinalIgnoreCase) && char.IsLetterOrDigit(w[0]))
+            .ToList();
+        if (words.Count == 0) return text.Length > 0 ? text[..1].ToUpperInvariant() : "";
+        return string.Concat(words.Take(2).Select(w => char.ToUpperInvariant(w[0])));
     }
 
     private static Color Blend(Color a, Color b, double amountOfB) => Color.FromArgb(255,

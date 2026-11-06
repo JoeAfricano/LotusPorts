@@ -281,3 +281,13 @@ LibraryYoursEmptyMessage	Favorite um jogo, ou instale um, e ele aparece aqui.	Fa
 LibraryGoHome	Explorar o Início	Explore Home
 LibraryGoCatalog	Ver o catálogo	See the catalog
 CompactThousands	{0} mil	{0}k
+SeeAll	Ver todos	See all
+HomePopularHint	Os ports com mais estrelas no GitHub	Ports with the most GitHub stars
+HomeUpdatedHint	Novas versões publicadas pelos autores	New versions published by their authors
+HomeNewHint	Entraram no catálogo desde a sua última visita	Added to the catalog since your last visit
+HomeSoonHint	Ports em construção, ainda sem versão para Windows	Ports in progress, no Windows build yet
+HomeByConsoleHint	Jogos agrupados pelo console original	Games grouped by their original console
+SortBy	Ordenar por	Sort by
+SortName	Nome (A–Z)	Name (A–Z)
+SortPopular	Mais populares	Most popular
+SortUpdated	Atualizados recentemente	Recently updated

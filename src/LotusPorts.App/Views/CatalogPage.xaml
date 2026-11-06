@@ -51,6 +51,13 @@
                             MinWidth="170"
                             AutomationProperties.Name="{local:Str Key=FilterGenre}"
                             SelectionChanged="OnFilterChanged" />
+                        <ComboBox
+                            x:Name="SortBox"
+                            MinWidth="190"
+                            AutomationProperties.Name="{local:Str Key=SortBy}"
+                            ItemsSource="{x:Bind ViewModel.Sorts}"
+                            PlaceholderText="{local:Str Key=SortBy}"
+                            SelectionChanged="OnFilterChanged" />
                     </StackPanel>
                     <TextBlock
                         Grid.Column="2"
