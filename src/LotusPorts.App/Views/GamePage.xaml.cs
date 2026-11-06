@@ -58,6 +58,7 @@ public sealed partial class GamePage : Page
         play.Changed += OnPlayChanged;
         gameFiles.Changed += OnGameFilesChanged;
         RefreshPlay();
+        RefreshStyle();
         var guide = ShowGuideAsync(game.Recommended.Port);
         await LookupAsync();
         RefreshPlay();
@@ -203,6 +204,53 @@ public sealed partial class GamePage : Page
     }
 
     private void OnBack(object sender, RoutedEventArgs e) => App.MainWindow?.GoBack();
+
+    // ---- Style (phase 4) ----------------------------------------------------------------------
+
+    private void RefreshStyle()
+    {
+        if (game is null) return;
+        var port = game.Recommended.Port;
+        var installed = play.StateOf(port).Installed;
+        StyleCard.Visibility = installed is not null && StyleService.CanOffer(port) ? Visibility.Visible : Visibility.Collapsed;
+        if (installed is null) return;
+        var current = installed.Style is { } s && s.Tag == installed.ActiveTag ? s.Name : null;
+        StyleOriginal.IsChecked = current == nameof(ExperienceStyle.Original);
+        StyleRemastered.IsChecked = current == nameof(ExperienceStyle.Remastered);
+        StyleUndo.Visibility = current is null ? Visibility.Collapsed : Visibility.Visible;
+        StyleStatus.Text = Strings.Get(current is null ? "StyleNone" : "StyleApplied");
+    }
+
+    private async Task ApplyStyleAsync(ExperienceStyle style)
+    {
+        var port = game!.Recommended.Port;
+        var name = Strings.Get(style == ExperienceStyle.Remastered ? "StyleRemastered" : "StyleOriginal");
+        if (await Confirm(Strings.Format("StyleConfirmTitle", name), Strings.Get("StyleConfirmBody"), Strings.Get("StyleApply")))
+        {
+            try { await App.Services.GetRequiredService<StyleService>().ApplyAsync(port, style); }
+            catch (Exception ex) when (ex is StyleException or IOException or UnauthorizedAccessException or System.Text.Json.JsonException or InvalidDataException)
+            {
+                StyleStatus.Text = Strings.Get("StyleFailed");
+                return;
+            }
+        }
+        RefreshStyle();
+    }
+
+    private async void OnStyleOriginal(object sender, RoutedEventArgs e) => await ApplyStyleAsync(ExperienceStyle.Original);
+
+    private async void OnStyleRemastered(object sender, RoutedEventArgs e) => await ApplyStyleAsync(ExperienceStyle.Remastered);
+
+    private async void OnStyleUndo(object sender, RoutedEventArgs e)
+    {
+        try { await App.Services.GetRequiredService<StyleService>().RevertAsync(game!.Recommended.Port); }
+        catch (Exception ex) when (ex is StyleException or IOException or UnauthorizedAccessException)
+        {
+            StyleStatus.Text = Strings.Get("StyleFailed");
+            return;
+        }
+        RefreshStyle();
+    }
 
     // ---- Game file (phase 3) ------------------------------------------------------------------
 
@@ -383,7 +431,7 @@ public sealed partial class GamePage : Page
 
     private void OnPlayChanged(string portId)
     {
-        if (game is not null && game.Recommended.Port.Id == portId) RefreshPlay();
+        if (game is not null && game.Recommended.Port.Id == portId) { RefreshPlay(); RefreshStyle(); }
     }
 
     private async Task LookupAsync(bool force = false)

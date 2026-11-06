@@ -465,3 +465,13 @@ ResolveProblemAfterUpdate	O problema começou depois de atualizar para {0}. Volt
 ResolvePreviousVersionAvailable	A versão anterior ({0}) continua guardada, se quiser voltar.	The previous version ({0}) is still kept if you want to go back.
 ResolveNoRecentUpdate	Nenhuma atualização recente.	No recent update.
 ResolveUpdateNotTheCause	A última atualização não parece ser a causa.	The last update doesn't seem to be the cause.
+StyleTitle	Estilo	Style
+StyleOriginal	Original	Original
+StyleRemastered	Remasterizado	Remastered
+StyleUndo	Desfazer	Undo
+StyleNone	O jogo está com a configuração dele. Original fica fiel ao console; Remasterizado usa tela larga, mais resolução e mais quadros.	The game uses its own settings. Original stays true to the console; Remastered uses widescreen, higher resolution and more frames.
+StyleApplied	Estilo aplicado. Desfazer volta só as opções que o estilo mudou; o resto que você ajustou fica.	Style applied. Undo puts back only what the style changed; your other changes stay.
+StyleConfirmTitle	Aplicar o estilo {0}?	Apply the {0} style?
+StyleConfirmBody	O Lotus Ports guarda uma cópia da configuração do jogo, muda só as opções deste estilo e confere o arquivo depois. Dá para desfazer com um clique.	Lotus Ports keeps a copy of the game settings, changes only this style's options and checks the file afterwards. You can undo it with one click.
+StyleApply	Aplicar	Apply
+StyleFailed	Não foi possível aplicar o estilo. A configuração do jogo ficou como estava.	The style could not be applied. The game settings stayed as they were.

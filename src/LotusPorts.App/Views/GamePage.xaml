@@ -187,6 +187,34 @@
                         </Grid.ColumnDefinitions>
                     </Grid>
 
+                    <!--  Style: only when the port's keys were confirmed in its real configuration (section 5.6)  -->
+                    <Border
+                        x:Name="StyleCard"
+                        Style="{StaticResource Lotus.Card}"
+                        Visibility="Collapsed">
+                        <StackPanel Spacing="10">
+                            <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=StyleTitle}" />
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <ToggleButton
+                                    x:Name="StyleOriginal"
+                                    Click="OnStyleOriginal"
+                                    Content="{local:Str Key=StyleOriginal}" />
+                                <ToggleButton
+                                    x:Name="StyleRemastered"
+                                    Click="OnStyleRemastered"
+                                    Content="{local:Str Key=StyleRemastered}" />
+                                <HyperlinkButton
+                                    x:Name="StyleUndo"
+                                    Click="OnStyleUndo"
+                                    Content="{local:Str Key=StyleUndo}" />
+                            </StackPanel>
+                            <TextBlock
+                                x:Name="StyleStatus"
+                                Style="{StaticResource Type.Caption}"
+                                TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+
                     <!--  How to play: the usage part of the port's README, as the authors wrote it (only when it exists)  -->
                     <Border
                         x:Name="GuideCard"

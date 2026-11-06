@@ -5,6 +5,8 @@ using LotusPorts.Catalog;
 using LotusPorts.Core.Diagnostics;
 using LotusPorts.Core.Install;
 using LotusPorts.Core.Preferences;
+using LotusPorts.Core.Operations;
+using LotusPorts.Core.Styles;
 using LotusPorts.Core.Verification;
 using LotusPorts.Infrastructure.Database;
 using LotusPorts.Infrastructure.Database.Migrations;
@@ -159,5 +161,84 @@ public sealed class ResolverTests : IDisposable
             Task.FromResult(files.TryGetValue(request.RequestUri!, out var bytes)
                 ? new HttpResponseMessage(HttpStatusCode.OK) { Content = new ByteArrayContent(bytes) }
                 : new HttpResponseMessage(HttpStatusCode.NotFound));
+    }
+}
+
+/// <summary>Phase 4 acceptance: a style is applied and reverted without losing other settings, and journaled.</summary>
+public sealed class StyleServiceTests : IDisposable
+{
+    private readonly string folder = Path.Combine(Path.GetTempPath(), "LotusPortsTests", Guid.NewGuid().ToString("N"));
+    private readonly PortLibrary library;
+    private readonly SqliteOperationJournal journal;
+
+    public StyleServiceTests()
+    {
+        var paths = new AppPaths(folder);
+        paths.EnsureStartupFolders();
+        var db = new SqliteDatabase(paths.DatabaseFile);
+        new MigrationRunner(db, AllMigrations.List, NullLogger<MigrationRunner>.Instance).MigrateAsync().GetAwaiter().GetResult();
+        journal = new SqliteOperationJournal(db, TimeProvider.System);
+        library = new PortLibrary(paths);
+    }
+
+    public void Dispose()
+    {
+        SqliteConnection.ClearAllPools();
+        try { Directory.Delete(folder, true); } catch (IOException) { }
+    }
+
+    private static Port Port(bool verified) => new(
+        1, "style-port", "style-game", "Style", "decomp-port", PortStatus.JOGAVEL, null, null, null,
+        new RepoRef("o", "r"), null, new WindowsAsset("x", null, false, "zip"), "Game.exe", [],
+        new PortSetup(null, null, null, null, null, null, null), [], [],
+        new ExperiencePresets("config/settings.json", "json",
+            new Preset(JsonSerializer.Deserialize<Dictionary<string, JsonElement>>("""{ "video.scale": 1, "video.widescreen": false }""")!, verified),
+            new Preset(JsonSerializer.Deserialize<Dictionary<string, JsonElement>>("""{ "video.scale": 4, "video.widescreen": true }""")!, verified)),
+        null, null, null, null, new PortLinks("https://github.com/o/r", null, null), null, null, null);
+
+    private string InstallFake()
+    {
+        var version = new InstalledVersion("v1", "v1", "x.zip", 1, null, Core.Verification.CheckState.NotVerified, "Game.exe", DateTimeOffset.UtcNow);
+        library.Write(new InstalledPort(InstalledPort.CurrentSchema, "style-port", "v1", null, [version], false, false));
+        var config = Path.Combine(library.VersionFolder("style-port", "v1"), "config", "settings.json");
+        Directory.CreateDirectory(Path.GetDirectoryName(config)!);
+        File.WriteAllText(config, """{ "video": { "scale": 2, "vsync": true }, "input": { "deadzone": 0.2 } }""");
+        return config;
+    }
+
+    [Fact]
+    public async Task Remastered_is_applied_and_reverted_keeping_the_players_other_settings()
+    {
+        var config = InstallFake();
+        var service = new StyleService(library, journal, TimeProvider.System);
+
+        var applied = await service.ApplyAsync(Port(verified: true), ExperienceStyle.Remastered);
+        applied.Style!.Name.Should().Be("Remastered");
+        File.Exists(applied.Style.Backup).Should().BeTrue();
+        var text = File.ReadAllText(config);
+        PresetWriter.Read(text, "json", ["video.scale", "video.widescreen", "video.vsync", "input.deadzone"]).Values
+            .Should().Equal("4", "true", "true", "0.2");
+
+        var reverted = await service.RevertAsync(Port(verified: true));
+        reverted.Style.Should().BeNull();
+        var back = PresetWriter.Read(File.ReadAllText(config), "json", ["video.scale", "video.widescreen", "video.vsync", "input.deadzone"]);
+        back["video.scale"].Should().Be("2");
+        back["video.widescreen"].Should().BeNull();
+        back["video.vsync"].Should().Be("true");
+        back["input.deadzone"].Should().Be("0.2");
+
+        (await journal.ListRecentAsync(5)).Select(e => (e.Kind, e.Outcome)).Should().Equal(
+            (OperationKind.RevertPreset, OperationOutcome.Success), (OperationKind.ApplyPreset, OperationOutcome.Success));
+    }
+
+    [Fact]
+    public async Task Without_verified_keys_nothing_is_written()
+    {
+        var config = InstallFake();
+        var before = File.ReadAllText(config);
+        StyleService.CanOffer(Port(verified: false)).Should().BeFalse();
+        var act = () => new StyleService(library, journal, TimeProvider.System).ApplyAsync(Port(verified: false), ExperienceStyle.Remastered);
+        (await act.Should().ThrowAsync<StyleException>()).Which.Problem.Should().Be(StyleProblem.NotVerified);
+        File.ReadAllText(config).Should().Be(before);
     }
 }

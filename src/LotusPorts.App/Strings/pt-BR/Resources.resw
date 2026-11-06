@@ -471,4 +471,14 @@
   <data name="ResolvePreviousVersionAvailable" xml:space="preserve"><value>A versão anterior ({0}) continua guardada, se quiser voltar.</value></data>
   <data name="ResolveNoRecentUpdate" xml:space="preserve"><value>Nenhuma atualização recente.</value></data>
   <data name="ResolveUpdateNotTheCause" xml:space="preserve"><value>A última atualização não parece ser a causa.</value></data>
+  <data name="StyleTitle" xml:space="preserve"><value>Estilo</value></data>
+  <data name="StyleOriginal" xml:space="preserve"><value>Original</value></data>
+  <data name="StyleRemastered" xml:space="preserve"><value>Remasterizado</value></data>
+  <data name="StyleUndo" xml:space="preserve"><value>Desfazer</value></data>
+  <data name="StyleNone" xml:space="preserve"><value>O jogo está com a configuração dele. Original fica fiel ao console; Remasterizado usa tela larga, mais resolução e mais quadros.</value></data>
+  <data name="StyleApplied" xml:space="preserve"><value>Estilo aplicado. Desfazer volta só as opções que o estilo mudou; o resto que você ajustou fica.</value></data>
+  <data name="StyleConfirmTitle" xml:space="preserve"><value>Aplicar o estilo {0}?</value></data>
+  <data name="StyleConfirmBody" xml:space="preserve"><value>O Lotus Ports guarda uma cópia da configuração do jogo, muda só as opções deste estilo e confere o arquivo depois. Dá para desfazer com um clique.</value></data>
+  <data name="StyleApply" xml:space="preserve"><value>Aplicar</value></data>
+  <data name="StyleFailed" xml:space="preserve"><value>Não foi possível aplicar o estilo. A configuração do jogo ficou como estava.</value></data>
 </root>

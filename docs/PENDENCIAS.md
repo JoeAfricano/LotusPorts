@@ -60,3 +60,9 @@
 - **Feitas: 19** dos ports mais populares. **Faltam ~342**, deixadas para o final a pedido do José.
 - Para continuar: `dotnet run --project tools/CatalogScout -- guides catalog` exporta o inglês para `catalog/research/guides-en/` (fora do git) e lista as traduções que faltam ou ficaram desatualizadas. Cada tradução começa com a linha `<!-- source: … | fingerprint: … -->` copiada do arquivo exportado; o app avisa quando o original muda depois da tradução.
 - Links para arquivos de dados de jogo (ex.: `spawn.mpq`) não entram nas traduções.
+
+## Fase 4: pendências
+
+- Nenhum port tem estilos `verified` no catálogo: o seletor Original/Remasterizado não aparece em nenhum jogo até a curadoria confirmar as chaves na configuração real de cada port. TOML ainda não é escrito.
+- A janela "Resolver" não foi vista na tela com um jogo real quebrado (exigiria quebrar uma instalação no PC); o comportamento está coberto por testes com um programa real que fecha com erro.
+- Placa de vídeo e dependências: sem o Lotus, o Resolver só confere se as bibliotecas existem no Windows (o suporte da placa fica "Não verificado"). Nenhum port declara `dependencies` no catálogo ainda.

@@ -26,7 +26,8 @@ public sealed record InstalledPort(
     bool PendingFirstLaunch,
     bool LastLaunchFailed,
     string? PinnedTag = null,
-    LastRun? LastRun = null)
+    LastRun? LastRun = null,
+    AppliedStyle? Style = null)
 {
     public const int CurrentSchema = 1;
 
@@ -36,6 +37,12 @@ public sealed record InstalledPort(
 
     public bool CanRollback => Previous is not null;
 }
+
+/// <summary>
+/// The style applied to the active version: which one, what each key held before (null = it did not exist), the backup of
+/// the configuration file taken before writing, and when.
+/// </summary>
+public sealed record AppliedStyle(string Name, string Tag, IReadOnlyDictionary<string, string?> Previous, string? Backup, DateTimeOffset At);
 
 /// <summary>How the last session went: when, the exit code, how long it ran and whether it was the first after an update.</summary>
 public sealed record LastRun(DateTimeOffset At, int ExitCode, double Seconds, bool FirstAfterUpdate, string Tag)

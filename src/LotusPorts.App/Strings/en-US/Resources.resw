@@ -471,4 +471,14 @@
   <data name="ResolvePreviousVersionAvailable" xml:space="preserve"><value>The previous version ({0}) is still kept if you want to go back.</value></data>
   <data name="ResolveNoRecentUpdate" xml:space="preserve"><value>No recent update.</value></data>
   <data name="ResolveUpdateNotTheCause" xml:space="preserve"><value>The last update doesn&apos;t seem to be the cause.</value></data>
+  <data name="StyleTitle" xml:space="preserve"><value>Style</value></data>
+  <data name="StyleOriginal" xml:space="preserve"><value>Original</value></data>
+  <data name="StyleRemastered" xml:space="preserve"><value>Remastered</value></data>
+  <data name="StyleUndo" xml:space="preserve"><value>Undo</value></data>
+  <data name="StyleNone" xml:space="preserve"><value>The game uses its own settings. Original stays true to the console; Remastered uses widescreen, higher resolution and more frames.</value></data>
+  <data name="StyleApplied" xml:space="preserve"><value>Style applied. Undo puts back only what the style changed; your other changes stay.</value></data>
+  <data name="StyleConfirmTitle" xml:space="preserve"><value>Apply the {0} style?</value></data>
+  <data name="StyleConfirmBody" xml:space="preserve"><value>Lotus Ports keeps a copy of the game settings, changes only this style&apos;s options and checks the file afterwards. You can undo it with one click.</value></data>
+  <data name="StyleApply" xml:space="preserve"><value>Apply</value></data>
+  <data name="StyleFailed" xml:space="preserve"><value>The style could not be applied. The game settings stayed as they were.</value></data>
 </root>

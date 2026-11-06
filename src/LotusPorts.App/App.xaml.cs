@@ -118,6 +118,7 @@ public partial class App : Application
         services.AddSingleton<LotusPorts.Infrastructure.GameFiles.GameFileScanner>();
         services.AddSingleton<GameFilesService>();
         services.AddSingleton<LotusPorts.Infrastructure.Diagnostics.PortDiagnostics>();
+        services.AddSingleton<LotusPorts.Infrastructure.Install.StyleService>();
         services.AddTransient<HomeViewModel>();
         services.AddTransient<LibraryViewModel>();
         services.AddTransient<CatalogViewModel>();
