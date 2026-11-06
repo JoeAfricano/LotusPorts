@@ -404,3 +404,64 @@ GuideHintTranslated	Tradução do Lotus Ports dos passos que os autores escrever
 GuideHintOutdated	Os autores mudaram o original depois desta tradução; veja a versão atual no GitHub.	The authors changed the original after this translation; see the current one on GitHub.
 PlayFailedQuickly	O jogo fechou logo depois de abrir. Clique em Resolver para ver o motivo.	The game closed right after opening. Click Fix it to see why.
 GameOnlyPortBuilding	Único projeto deste jogo no catálogo. Ainda não tem versão para baixar; acompanhe pela página oficial.	The only project for this game in the catalog. There is no version to download yet; follow it on the official page.
+CheckOk	OK	OK
+CheckWarning	Aviso	Warning
+CheckFailure	Falha	Failure
+CheckNotVerified	Não verificado	Not verified
+ResolveTitle	Por que o jogo não abriu?	Why didn't the game open?
+ResolveChecking	Conferindo o jogo e o PC…	Checking the game and the PC…
+ResolveNoProblem	Nenhum problema encontrado nas verificações que o Lotus Ports consegue fazer. Abra o jogo de novo; se fechar outra vez, copie o relatório e peça ajuda na comunidade do port.	No problem found in the checks Lotus Ports can run. Open the game again; if it closes again, copy the report and ask the port's community for help.
+ResolveShowDetails	Ver todas as verificações	See all checks
+ResolveCopyReport	Copiar relatório	Copy report
+ResolveCopied	Relatório copiado. Os caminhos não mostram o seu nome de usuário.	Report copied. Paths don't show your user name.
+ResolveKeep	Manter esta versão	Keep this version
+ResolveKindProgram	Programa do jogo	Game program
+ResolveKindGameFile	Arquivo do jogo	Game file
+ResolveKindDependencies	Componentes do Windows	Windows components
+ResolveKindGraphics	Gráficos	Graphics
+ResolveKindPath	Pasta do jogo	Game folder
+ResolveKindDiskSpace	Espaço em disco	Disk space
+ResolveKindLastCrash	Último fechamento	Last close
+ResolveKindSaves	Saves e configurações	Saves and settings
+ResolveKindRecentUpdate	Atualização recente	Recent update
+ResolveActionRollback	Voltar para a versão anterior	Go back to the previous version
+ResolveActionReinstall	Reinstalar	Reinstall
+ResolveActionAddGameFile	Adicionar arquivo do jogo	Add the game file
+ResolveActionOpenFolder	Abrir pasta	Open folder
+ResolveNotInstalled	O jogo não está instalado.	The game is not installed.
+ResolveProgramMissing	O programa do jogo sumiu da pasta ({0}). Às vezes o antivírus coloca programas novos em quarentena; confira no seu antivírus e reinstale.	The game program is missing from its folder ({0}). Antivirus software sometimes quarantines new programs; check yours and reinstall.
+ResolveProgramPresent	O programa do jogo está na pasta.	The game program is in its folder.
+ResolveGameFileRecognized	Arquivo do jogo reconhecido.	Game file recognized.
+ResolveGameFileUnknownNeed	O catálogo ainda não diz qual arquivo este port precisa.	The catalog doesn't say yet which file this port needs.
+ResolveGameFileNotFound	Nenhum arquivo deste jogo foi encontrado nas pastas escolhidas.	No file for this game was found in the chosen folders.
+ResolveGameFileChosenInGame	Este port pede o arquivo dentro do próprio jogo; confira se você escolheu a versão certa no menu dele.	This port asks for the file inside the game; check that you picked the right version in its menu.
+ResolveGameFileNotSearched	Ainda não procuramos o arquivo deste jogo no seu PC.	We haven't looked for this game's file on your PC yet.
+ResolveDependenciesNotDeclared	O catálogo não lista componentes extras para este port.	The catalog lists no extra components for this port.
+ResolveDependenciesMissing	Falta instalar: {0}.	Missing: {0}.
+ResolveDependenciesUnknown	Componentes que o Lotus Ports ainda não sabe conferir: {0}.	Components Lotus Ports can't check yet: {0}.
+ResolveDependenciesPresent	Os componentes que o port precisa estão instalados.	The components the port needs are installed.
+ResolveGraphicsNotDeclared	O catálogo não diz qual tecnologia gráfica este port usa.	The catalog doesn't say which graphics technology this port uses.
+ResolveGraphicsMissing	O Windows não tem nenhuma das bibliotecas gráficas que o port usa ({0}). Atualize o driver da placa de vídeo.	Windows has none of the graphics libraries the port uses ({0}). Update your graphics driver.
+ResolveGraphicsLibrariesPresent	O Windows tem {0}; se a placa de vídeo suporta, só dá para conferir com o Lotus.	Windows has {0}; whether your graphics card supports it can only be checked with Lotus.
+ResolvePathOneDrive	A pasta do jogo está no OneDrive ({0}), e a sincronização pode travar arquivos. Escolha outra pasta da biblioteca em Configurações.	The game folder is in OneDrive ({0}), and syncing can lock files. Choose another library folder in Settings.
+ResolvePathLong	O caminho da pasta do jogo é muito longo ({0} caracteres); alguns jogos não abrem assim.	The game folder path is very long ({0} characters); some games don't open like this.
+ResolvePathSpecialCharacters	A pasta do jogo tem acentos ou símbolos ({0}); alguns jogos não abrem assim.	The game folder has accents or symbols ({0}); some games don't open like this.
+ResolvePathNotWritable	O jogo não consegue gravar na própria pasta ({0}).	The game can't write to its own folder ({0}).
+ResolvePathOk	A pasta do jogo aceita gravação.	The game folder can be written to.
+ResolveDiskUnknown	Não deu para ler o espaço livre do disco.	Free disk space could not be read.
+ResolveDiskVeryLow	Quase sem espaço no disco {0} ({1} GB livres).	Almost no space on drive {0} ({1} GB free).
+ResolveDiskLow	Pouco espaço no disco {0} ({1} GB livres).	Little space on drive {0} ({1} GB free).
+ResolveDiskOk	{1} GB livres no disco {0}.	{1} GB free on drive {0}.
+ResolveCrashLogUnreadable	Não deu para ler o registro de erros do Windows.	The Windows error log could not be read.
+ResolveCrashRecorded	O Windows registrou que o jogo travou em {0}: módulo {1}, código {2}.	Windows recorded that the game crashed on {0}: module {1}, code {2}.
+ResolveClosedWithError	Na última vez, o jogo fechou com erro (código {0}, {1}) depois de {2} s.	Last time, the game closed with an error (code {0}, {1}) after {2} s.
+ResolveNeverRun	O jogo ainda não foi aberto pelo Lotus Ports.	The game hasn't been opened by Lotus Ports yet.
+ResolveNoCrash	Na última vez o jogo fechou normalmente.	Last time the game closed normally.
+ResolveSavesNotDeclared	O catálogo não diz onde este port guarda saves e configurações.	The catalog doesn't say where this port keeps saves and settings.
+ResolveSavesReadOnly	Saves ou configurações estão como "somente leitura": {0}.	Saves or settings are read-only: {0}.
+ResolveSavesWritable	Saves e configurações podem ser gravados.	Saves and settings can be written.
+ResolveSavesNotCreatedYet	As pastas de saves ainda não existem; o jogo cria na primeira vez.	The save folders don't exist yet; the game creates them the first time.
+ResolveProblemAfterUpdate	O problema começou depois de atualizar para {0}. Voltar para {1} costuma resolver.	The problem started after updating to {0}. Going back to {1} usually fixes it.
+ResolvePreviousVersionAvailable	A versão anterior ({0}) continua guardada, se quiser voltar.	The previous version ({0}) is still kept if you want to go back.
+ResolveNoRecentUpdate	Nenhuma atualização recente.	No recent update.
+ResolveUpdateNotTheCause	A última atualização não parece ser a causa.	The last update doesn't seem to be the cause.

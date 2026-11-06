@@ -2,10 +2,12 @@ using System.Diagnostics;
 using System.Globalization;
 using Lotus.Design.Controls;
 using LotusPorts.Catalog;
+using LotusPorts.Core.Diagnostics;
 using LotusPorts.Core.Guides;
 using LotusPorts.Core.Install;
 using LotusPorts.Core.Preferences;
 using LotusPorts.Core.Verification;
+using LotusPorts.Infrastructure.Diagnostics;
 using LotusPorts.Infrastructure.Install;
 using Microsoft.UI.Xaml.Automation;
 using LotusPorts.Infrastructure.Catalog;
@@ -544,8 +546,106 @@ public sealed partial class GamePage : Page
     /// <summary>"Resolver" after a crash right after updating: going back is the first answer offered.</summary>
     private async Task ResolveAsync()
     {
-        if (play.StateOf(game!.Recommended.Port).Installed?.CanRollback == true) await RollbackAsync();
-        else play.KeepVersion(game.Recommended.Port);
+        var g = game!;
+        var port = g.Recommended.Port;
+        var installed = play.StateOf(port).Installed;
+        var fileState = gameFiles.MatchFor(g.Id) is not null ? GameFileState.Recognized
+            : port.RequiredGameFiles.Count == 0 ? GameFileState.NotRequired
+            : gameFiles.Folders.Count > 0 && !gameFiles.Scanning ? GameFileState.NotFound
+            : GameFileState.NotSearched;
+        MainButton.IsEnabled = false;
+        MainText.Text = Strings.Get("ResolveChecking");
+        ResolveReport report;
+        try
+        {
+            var diagnostics = App.Services.GetRequiredService<PortDiagnostics>();
+            report = await Task.Run(() => diagnostics.Run(g, port, installed, fileState));
+        }
+        finally
+        {
+            RefreshPlay();
+        }
+
+        var problems = report.Checks.Where(c => c.IsProblem).OrderBy(c => c.State == CheckState.Failure ? 0 : 1).ToList();
+        var content = new StackPanel { Spacing = 12, MinWidth = 460 };
+        if (problems.Count == 0) content.Children.Add(new TextBlock { Text = Strings.Get("ResolveNoProblem"), TextWrapping = TextWrapping.Wrap });
+        foreach (var check in problems) content.Children.Add(CheckRow(check));
+        var all = new StackPanel { Spacing = 10 };
+        foreach (var check in report.Checks) all.Children.Add(CheckRow(check));
+        content.Children.Add(new Expander
+        {
+            Header = Strings.Get("ResolveShowDetails"),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            HorizontalContentAlignment = HorizontalAlignment.Stretch,
+            Content = new ScrollViewer { MaxHeight = 320, Content = all },
+        });
+        if (installed?.LastLaunchFailed == true)
+            content.Children.Add(Action(Strings.Get("ResolveKeep"), () => { play.KeepVersion(port); return Task.CompletedTask; }));
+
+        var action = report.MainProblem?.Action ?? ResolveAction.None;
+        var dialog = new ContentDialog
+        {
+            XamlRoot = XamlRoot,
+            Title = Strings.Get("ResolveTitle"),
+            Content = new ScrollViewer { Content = content, MaxHeight = 520 },
+            SecondaryButtonText = Strings.Get("ResolveCopyReport"),
+            CloseButtonText = Strings.Get("Close"),
+            DefaultButton = action == ResolveAction.None ? ContentDialogButton.Close : ContentDialogButton.Primary,
+        };
+        if (action != ResolveAction.None) dialog.PrimaryButtonText = ResolveText.Action(action);
+        dialog.SecondaryButtonClick += (_, args) =>
+        {
+            args.Cancel = true; // stays open: copying is not a decision
+            var package = new Windows.ApplicationModel.DataTransfer.DataPackage();
+            package.SetText(ResolveText.Report(report));
+            Windows.ApplicationModel.DataTransfer.Clipboard.SetContent(package);
+            dialog.SecondaryButtonText = Strings.Get("ResolveCopied");
+        };
+        if (await dialog.ShowAsync() != ContentDialogResult.Primary) return;
+        switch (action)
+        {
+            case ResolveAction.Rollback: await RollbackAsync(); break;
+            case ResolveAction.Reinstall: await ReinstallAsync(); break;
+            case ResolveAction.AddGameFile: OnAddGameFile(this, new RoutedEventArgs()); break;
+            case ResolveAction.OpenFolder: await OpenFolderAsync(); break;
+        }
+    }
+
+    private static Grid CheckRow(ResolveCheck check)
+    {
+        var row = new Grid { ColumnSpacing = 12 };
+        row.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+        row.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+        row.Children.Add(new StackPanel
+        {
+            Spacing = 2,
+            Children =
+            {
+                new TextBlock { Text = ResolveText.Title(check.Kind), FontWeight = Microsoft.UI.Text.FontWeights.SemiBold },
+                new TextBlock { Text = ResolveText.Explain(check), TextWrapping = TextWrapping.Wrap, Style = StyleOf("Type.Caption"), IsTextSelectionEnabled = true },
+            },
+        });
+        var badge = new StateBadge
+        {
+            Text = ResolveText.State(check.State),
+            Tone = check.State switch { CheckState.Ok => BadgeTone.Ok, CheckState.Warning => BadgeTone.Warning, CheckState.Failure => BadgeTone.Failure, _ => BadgeTone.Unknown },
+            VerticalAlignment = VerticalAlignment.Top,
+        };
+        Grid.SetColumn(badge, 1);
+        row.Children.Add(badge);
+        return row;
+    }
+
+    /// <summary>"Reinstalar": uninstall keeping saves, then install the newest version again (both confirmed).</summary>
+    private async Task ReinstallAsync()
+    {
+        var port = game!.Recommended.Port;
+        var choice = (play.StateOf(port).Latest ?? await play.LookupAsync(port)).Choice;
+        if (choice is null) return;
+        var body = Strings.Format("ConfirmInstallBody", choice.Release.Tag, Size(choice.Asset.Size), play.Folder(port));
+        if (!await Confirm(Strings.Format("ConfirmInstallTitle", game.Game.Title), body, Strings.Get("ResolveActionReinstall"))) return;
+        await play.RemoveAsync(port, keepSaves: true);
+        await play.InstallAsync(port, choice);
     }
 
     private void Launch()

@@ -410,4 +410,65 @@
   <data name="GuideHintOutdated" xml:space="preserve"><value>The authors changed the original after this translation; see the current one on GitHub.</value></data>
   <data name="PlayFailedQuickly" xml:space="preserve"><value>The game closed right after opening. Click Fix it to see why.</value></data>
   <data name="GameOnlyPortBuilding" xml:space="preserve"><value>The only project for this game in the catalog. There is no version to download yet; follow it on the official page.</value></data>
+  <data name="CheckOk" xml:space="preserve"><value>OK</value></data>
+  <data name="CheckWarning" xml:space="preserve"><value>Warning</value></data>
+  <data name="CheckFailure" xml:space="preserve"><value>Failure</value></data>
+  <data name="CheckNotVerified" xml:space="preserve"><value>Not verified</value></data>
+  <data name="ResolveTitle" xml:space="preserve"><value>Why didn&apos;t the game open?</value></data>
+  <data name="ResolveChecking" xml:space="preserve"><value>Checking the game and the PC…</value></data>
+  <data name="ResolveNoProblem" xml:space="preserve"><value>No problem found in the checks Lotus Ports can run. Open the game again; if it closes again, copy the report and ask the port&apos;s community for help.</value></data>
+  <data name="ResolveShowDetails" xml:space="preserve"><value>See all checks</value></data>
+  <data name="ResolveCopyReport" xml:space="preserve"><value>Copy report</value></data>
+  <data name="ResolveCopied" xml:space="preserve"><value>Report copied. Paths don&apos;t show your user name.</value></data>
+  <data name="ResolveKeep" xml:space="preserve"><value>Keep this version</value></data>
+  <data name="ResolveKindProgram" xml:space="preserve"><value>Game program</value></data>
+  <data name="ResolveKindGameFile" xml:space="preserve"><value>Game file</value></data>
+  <data name="ResolveKindDependencies" xml:space="preserve"><value>Windows components</value></data>
+  <data name="ResolveKindGraphics" xml:space="preserve"><value>Graphics</value></data>
+  <data name="ResolveKindPath" xml:space="preserve"><value>Game folder</value></data>
+  <data name="ResolveKindDiskSpace" xml:space="preserve"><value>Disk space</value></data>
+  <data name="ResolveKindLastCrash" xml:space="preserve"><value>Last close</value></data>
+  <data name="ResolveKindSaves" xml:space="preserve"><value>Saves and settings</value></data>
+  <data name="ResolveKindRecentUpdate" xml:space="preserve"><value>Recent update</value></data>
+  <data name="ResolveActionRollback" xml:space="preserve"><value>Go back to the previous version</value></data>
+  <data name="ResolveActionReinstall" xml:space="preserve"><value>Reinstall</value></data>
+  <data name="ResolveActionAddGameFile" xml:space="preserve"><value>Add the game file</value></data>
+  <data name="ResolveActionOpenFolder" xml:space="preserve"><value>Open folder</value></data>
+  <data name="ResolveNotInstalled" xml:space="preserve"><value>The game is not installed.</value></data>
+  <data name="ResolveProgramMissing" xml:space="preserve"><value>The game program is missing from its folder ({0}). Antivirus software sometimes quarantines new programs; check yours and reinstall.</value></data>
+  <data name="ResolveProgramPresent" xml:space="preserve"><value>The game program is in its folder.</value></data>
+  <data name="ResolveGameFileRecognized" xml:space="preserve"><value>Game file recognized.</value></data>
+  <data name="ResolveGameFileUnknownNeed" xml:space="preserve"><value>The catalog doesn&apos;t say yet which file this port needs.</value></data>
+  <data name="ResolveGameFileNotFound" xml:space="preserve"><value>No file for this game was found in the chosen folders.</value></data>
+  <data name="ResolveGameFileChosenInGame" xml:space="preserve"><value>This port asks for the file inside the game; check that you picked the right version in its menu.</value></data>
+  <data name="ResolveGameFileNotSearched" xml:space="preserve"><value>We haven&apos;t looked for this game&apos;s file on your PC yet.</value></data>
+  <data name="ResolveDependenciesNotDeclared" xml:space="preserve"><value>The catalog lists no extra components for this port.</value></data>
+  <data name="ResolveDependenciesMissing" xml:space="preserve"><value>Missing: {0}.</value></data>
+  <data name="ResolveDependenciesUnknown" xml:space="preserve"><value>Components Lotus Ports can&apos;t check yet: {0}.</value></data>
+  <data name="ResolveDependenciesPresent" xml:space="preserve"><value>The components the port needs are installed.</value></data>
+  <data name="ResolveGraphicsNotDeclared" xml:space="preserve"><value>The catalog doesn&apos;t say which graphics technology this port uses.</value></data>
+  <data name="ResolveGraphicsMissing" xml:space="preserve"><value>Windows has none of the graphics libraries the port uses ({0}). Update your graphics driver.</value></data>
+  <data name="ResolveGraphicsLibrariesPresent" xml:space="preserve"><value>Windows has {0}; whether your graphics card supports it can only be checked with Lotus.</value></data>
+  <data name="ResolvePathOneDrive" xml:space="preserve"><value>The game folder is in OneDrive ({0}), and syncing can lock files. Choose another library folder in Settings.</value></data>
+  <data name="ResolvePathLong" xml:space="preserve"><value>The game folder path is very long ({0} characters); some games don&apos;t open like this.</value></data>
+  <data name="ResolvePathSpecialCharacters" xml:space="preserve"><value>The game folder has accents or symbols ({0}); some games don&apos;t open like this.</value></data>
+  <data name="ResolvePathNotWritable" xml:space="preserve"><value>The game can&apos;t write to its own folder ({0}).</value></data>
+  <data name="ResolvePathOk" xml:space="preserve"><value>The game folder can be written to.</value></data>
+  <data name="ResolveDiskUnknown" xml:space="preserve"><value>Free disk space could not be read.</value></data>
+  <data name="ResolveDiskVeryLow" xml:space="preserve"><value>Almost no space on drive {0} ({1} GB free).</value></data>
+  <data name="ResolveDiskLow" xml:space="preserve"><value>Little space on drive {0} ({1} GB free).</value></data>
+  <data name="ResolveDiskOk" xml:space="preserve"><value>{1} GB free on drive {0}.</value></data>
+  <data name="ResolveCrashLogUnreadable" xml:space="preserve"><value>The Windows error log could not be read.</value></data>
+  <data name="ResolveCrashRecorded" xml:space="preserve"><value>Windows recorded that the game crashed on {0}: module {1}, code {2}.</value></data>
+  <data name="ResolveClosedWithError" xml:space="preserve"><value>Last time, the game closed with an error (code {0}, {1}) after {2} s.</value></data>
+  <data name="ResolveNeverRun" xml:space="preserve"><value>The game hasn&apos;t been opened by Lotus Ports yet.</value></data>
+  <data name="ResolveNoCrash" xml:space="preserve"><value>Last time the game closed normally.</value></data>
+  <data name="ResolveSavesNotDeclared" xml:space="preserve"><value>The catalog doesn&apos;t say where this port keeps saves and settings.</value></data>
+  <data name="ResolveSavesReadOnly" xml:space="preserve"><value>Saves or settings are read-only: {0}.</value></data>
+  <data name="ResolveSavesWritable" xml:space="preserve"><value>Saves and settings can be written.</value></data>
+  <data name="ResolveSavesNotCreatedYet" xml:space="preserve"><value>The save folders don&apos;t exist yet; the game creates them the first time.</value></data>
+  <data name="ResolveProblemAfterUpdate" xml:space="preserve"><value>The problem started after updating to {0}. Going back to {1} usually fixes it.</value></data>
+  <data name="ResolvePreviousVersionAvailable" xml:space="preserve"><value>The previous version ({0}) is still kept if you want to go back.</value></data>
+  <data name="ResolveNoRecentUpdate" xml:space="preserve"><value>No recent update.</value></data>
+  <data name="ResolveUpdateNotTheCause" xml:space="preserve"><value>The last update doesn&apos;t seem to be the cause.</value></data>
 </root>

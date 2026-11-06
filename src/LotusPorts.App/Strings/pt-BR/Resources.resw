@@ -410,4 +410,65 @@
   <data name="GuideHintOutdated" xml:space="preserve"><value>Os autores mudaram o original depois desta tradução; veja a versão atual no GitHub.</value></data>
   <data name="PlayFailedQuickly" xml:space="preserve"><value>O jogo fechou logo depois de abrir. Clique em Resolver para ver o motivo.</value></data>
   <data name="GameOnlyPortBuilding" xml:space="preserve"><value>Único projeto deste jogo no catálogo. Ainda não tem versão para baixar; acompanhe pela página oficial.</value></data>
+  <data name="CheckOk" xml:space="preserve"><value>OK</value></data>
+  <data name="CheckWarning" xml:space="preserve"><value>Aviso</value></data>
+  <data name="CheckFailure" xml:space="preserve"><value>Falha</value></data>
+  <data name="CheckNotVerified" xml:space="preserve"><value>Não verificado</value></data>
+  <data name="ResolveTitle" xml:space="preserve"><value>Por que o jogo não abriu?</value></data>
+  <data name="ResolveChecking" xml:space="preserve"><value>Conferindo o jogo e o PC…</value></data>
+  <data name="ResolveNoProblem" xml:space="preserve"><value>Nenhum problema encontrado nas verificações que o Lotus Ports consegue fazer. Abra o jogo de novo; se fechar outra vez, copie o relatório e peça ajuda na comunidade do port.</value></data>
+  <data name="ResolveShowDetails" xml:space="preserve"><value>Ver todas as verificações</value></data>
+  <data name="ResolveCopyReport" xml:space="preserve"><value>Copiar relatório</value></data>
+  <data name="ResolveCopied" xml:space="preserve"><value>Relatório copiado. Os caminhos não mostram o seu nome de usuário.</value></data>
+  <data name="ResolveKeep" xml:space="preserve"><value>Manter esta versão</value></data>
+  <data name="ResolveKindProgram" xml:space="preserve"><value>Programa do jogo</value></data>
+  <data name="ResolveKindGameFile" xml:space="preserve"><value>Arquivo do jogo</value></data>
+  <data name="ResolveKindDependencies" xml:space="preserve"><value>Componentes do Windows</value></data>
+  <data name="ResolveKindGraphics" xml:space="preserve"><value>Gráficos</value></data>
+  <data name="ResolveKindPath" xml:space="preserve"><value>Pasta do jogo</value></data>
+  <data name="ResolveKindDiskSpace" xml:space="preserve"><value>Espaço em disco</value></data>
+  <data name="ResolveKindLastCrash" xml:space="preserve"><value>Último fechamento</value></data>
+  <data name="ResolveKindSaves" xml:space="preserve"><value>Saves e configurações</value></data>
+  <data name="ResolveKindRecentUpdate" xml:space="preserve"><value>Atualização recente</value></data>
+  <data name="ResolveActionRollback" xml:space="preserve"><value>Voltar para a versão anterior</value></data>
+  <data name="ResolveActionReinstall" xml:space="preserve"><value>Reinstalar</value></data>
+  <data name="ResolveActionAddGameFile" xml:space="preserve"><value>Adicionar arquivo do jogo</value></data>
+  <data name="ResolveActionOpenFolder" xml:space="preserve"><value>Abrir pasta</value></data>
+  <data name="ResolveNotInstalled" xml:space="preserve"><value>O jogo não está instalado.</value></data>
+  <data name="ResolveProgramMissing" xml:space="preserve"><value>O programa do jogo sumiu da pasta ({0}). Às vezes o antivírus coloca programas novos em quarentena; confira no seu antivírus e reinstale.</value></data>
+  <data name="ResolveProgramPresent" xml:space="preserve"><value>O programa do jogo está na pasta.</value></data>
+  <data name="ResolveGameFileRecognized" xml:space="preserve"><value>Arquivo do jogo reconhecido.</value></data>
+  <data name="ResolveGameFileUnknownNeed" xml:space="preserve"><value>O catálogo ainda não diz qual arquivo este port precisa.</value></data>
+  <data name="ResolveGameFileNotFound" xml:space="preserve"><value>Nenhum arquivo deste jogo foi encontrado nas pastas escolhidas.</value></data>
+  <data name="ResolveGameFileChosenInGame" xml:space="preserve"><value>Este port pede o arquivo dentro do próprio jogo; confira se você escolheu a versão certa no menu dele.</value></data>
+  <data name="ResolveGameFileNotSearched" xml:space="preserve"><value>Ainda não procuramos o arquivo deste jogo no seu PC.</value></data>
+  <data name="ResolveDependenciesNotDeclared" xml:space="preserve"><value>O catálogo não lista componentes extras para este port.</value></data>
+  <data name="ResolveDependenciesMissing" xml:space="preserve"><value>Falta instalar: {0}.</value></data>
+  <data name="ResolveDependenciesUnknown" xml:space="preserve"><value>Componentes que o Lotus Ports ainda não sabe conferir: {0}.</value></data>
+  <data name="ResolveDependenciesPresent" xml:space="preserve"><value>Os componentes que o port precisa estão instalados.</value></data>
+  <data name="ResolveGraphicsNotDeclared" xml:space="preserve"><value>O catálogo não diz qual tecnologia gráfica este port usa.</value></data>
+  <data name="ResolveGraphicsMissing" xml:space="preserve"><value>O Windows não tem nenhuma das bibliotecas gráficas que o port usa ({0}). Atualize o driver da placa de vídeo.</value></data>
+  <data name="ResolveGraphicsLibrariesPresent" xml:space="preserve"><value>O Windows tem {0}; se a placa de vídeo suporta, só dá para conferir com o Lotus.</value></data>
+  <data name="ResolvePathOneDrive" xml:space="preserve"><value>A pasta do jogo está no OneDrive ({0}), e a sincronização pode travar arquivos. Escolha outra pasta da biblioteca em Configurações.</value></data>
+  <data name="ResolvePathLong" xml:space="preserve"><value>O caminho da pasta do jogo é muito longo ({0} caracteres); alguns jogos não abrem assim.</value></data>
+  <data name="ResolvePathSpecialCharacters" xml:space="preserve"><value>A pasta do jogo tem acentos ou símbolos ({0}); alguns jogos não abrem assim.</value></data>
+  <data name="ResolvePathNotWritable" xml:space="preserve"><value>O jogo não consegue gravar na própria pasta ({0}).</value></data>
+  <data name="ResolvePathOk" xml:space="preserve"><value>A pasta do jogo aceita gravação.</value></data>
+  <data name="ResolveDiskUnknown" xml:space="preserve"><value>Não deu para ler o espaço livre do disco.</value></data>
+  <data name="ResolveDiskVeryLow" xml:space="preserve"><value>Quase sem espaço no disco {0} ({1} GB livres).</value></data>
+  <data name="ResolveDiskLow" xml:space="preserve"><value>Pouco espaço no disco {0} ({1} GB livres).</value></data>
+  <data name="ResolveDiskOk" xml:space="preserve"><value>{1} GB livres no disco {0}.</value></data>
+  <data name="ResolveCrashLogUnreadable" xml:space="preserve"><value>Não deu para ler o registro de erros do Windows.</value></data>
+  <data name="ResolveCrashRecorded" xml:space="preserve"><value>O Windows registrou que o jogo travou em {0}: módulo {1}, código {2}.</value></data>
+  <data name="ResolveClosedWithError" xml:space="preserve"><value>Na última vez, o jogo fechou com erro (código {0}, {1}) depois de {2} s.</value></data>
+  <data name="ResolveNeverRun" xml:space="preserve"><value>O jogo ainda não foi aberto pelo Lotus Ports.</value></data>
+  <data name="ResolveNoCrash" xml:space="preserve"><value>Na última vez o jogo fechou normalmente.</value></data>
+  <data name="ResolveSavesNotDeclared" xml:space="preserve"><value>O catálogo não diz onde este port guarda saves e configurações.</value></data>
+  <data name="ResolveSavesReadOnly" xml:space="preserve"><value>Saves ou configurações estão como &quot;somente leitura&quot;: {0}.</value></data>
+  <data name="ResolveSavesWritable" xml:space="preserve"><value>Saves e configurações podem ser gravados.</value></data>
+  <data name="ResolveSavesNotCreatedYet" xml:space="preserve"><value>As pastas de saves ainda não existem; o jogo cria na primeira vez.</value></data>
+  <data name="ResolveProblemAfterUpdate" xml:space="preserve"><value>O problema começou depois de atualizar para {0}. Voltar para {1} costuma resolver.</value></data>
+  <data name="ResolvePreviousVersionAvailable" xml:space="preserve"><value>A versão anterior ({0}) continua guardada, se quiser voltar.</value></data>
+  <data name="ResolveNoRecentUpdate" xml:space="preserve"><value>Nenhuma atualização recente.</value></data>
+  <data name="ResolveUpdateNotTheCause" xml:space="preserve"><value>A última atualização não parece ser a causa.</value></data>
 </root>
