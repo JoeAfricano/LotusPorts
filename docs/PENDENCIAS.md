@@ -122,3 +122,24 @@
 - Atualização do próprio Lotus Ports: pronta, mas desligada até a publicação. Quando o repositório existir, preencher `AppUpdateService.Repository` (dono/nome). As releases precisam de um `*Setup*.exe`; o SHA-256 vem do próprio GitHub. Versões de teste só chegam para quem já está numa versão de teste.
 - Instalador: `tools\Build-Installer.ps1` + `tools\installer\LotusPorts.iss` (Inno Setup 6, por usuário, sem administrador). Ainda não foi gerado: só quando você pedir. Arte própria do assistente (como a do Lotus) não foi feita.
 - "Iniciar com o Windows" não foi feito (o Lotus Ports não precisa ficar aberto; o Lotus é quem acompanha o PC).
+
+## Teste com jogo real (06/11/2026): Zelda 64: Recompiled + Majora's Mask do José
+
+- **Feito pela interface, com cliques por automação:**
+  - Instalar v1.2.2: conferido com o GitHub.
+  - Adicionar o .zip do José: o .z64 foi copiado para `%LOCALAPPDATA%\LotusPorts\game-files` e reconhecido como EUA 1.0 pelo MD5 oficial do zeldaret/mm.
+  - Estilo Original aplicado e desfeito: os valores voltaram iguais.
+  - Seção Mods vista na tela.
+- **Achados corrigidos no teste:**
+  - jogos dentro de .zip não eram lidos;
+  - a página não dizia qual versão o port aceita (agora "Aceita: EUA 1.0");
+  - o estilo regravava o arquivo com outro recuo.
+- **Integração ponta a ponta, com o Lotus do repositório (código sem commit lá):**
+  - As entradas de registro foram criadas à mão para o teste e apagadas depois.
+  - O Lotus Ports conectou sozinho (5 funções "Ligado").
+  - O Lotus mostrou "Seus jogos do Lotus Ports" com o Majora's Mask, e "Jogar" no Lotus abriu o jogo pelo Lotus Ports.
+  - O Lotus registrou `Session.Start` e tentou medir com o PresentMon: o medidor saiu com código 6, então o relatório fica "não medido".
+- **O Lotus 1.1.1-alpha instalado no PC não tem a integração.** O Lotus Ports mostra corretamente "Lotus instalado, ainda sem a integração".
+- **Ainda não feito:**
+  - a busca automática em pastas não abre .zip; só o arquivo escolhido à mão é lido;
+  - o jogo não foi jogado: a ROM ainda não foi escolhida no menu do port.
