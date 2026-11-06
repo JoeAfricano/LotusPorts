@@ -576,4 +576,15 @@
   <data name="Bannerpurple_rift" xml:space="preserve"><value>Fenda Púrpura</value></data>
   <data name="Bannerbamboo_path" xml:space="preserve"><value>Caminho de Bambu</value></data>
   <data name="SettingsTvModeHint" xml:space="preserve"><value>Tela cheia com tudo maior, para jogar no sofá. Controle: direcional move, A abre, B volta, LB/RB trocam de seção, Y busca, View liga ou desliga o modo TV.</value></data>
+  <data name="AppearanceGalleryHint" xml:space="preserve"><value>Temas completos do Lotus. Clique para usar; botão direito copia o código para compartilhar.</value></data>
+  <data name="AppearancePaste" xml:space="preserve"><value>Colar código</value></data>
+  <data name="AppearanceCreateInLotus" xml:space="preserve"><value>Criar no Lotus</value></data>
+  <data name="AppearanceAccentFromLotus" xml:space="preserve"><value>Vem do Lotus</value></data>
+  <data name="AppearanceAccentCustom" xml:space="preserve"><value>Vem do tema escolhido</value></data>
+  <data name="AppearanceLight" xml:space="preserve"><value>Claro</value></data>
+  <data name="AppearanceDark" xml:space="preserve"><value>Escuro</value></data>
+  <data name="AppearanceUse" xml:space="preserve"><value>Usar</value></data>
+  <data name="AppearanceCopyCode" xml:space="preserve"><value>Copiar código</value></data>
+  <data name="AppearanceCopied" xml:space="preserve"><value>Código copiado. Ele funciona no Lotus e no Lotus Ports.</value></data>
+  <data name="AppearancePasted" xml:space="preserve"><value>Tema &quot;{0}&quot; aplicado.</value></data>
 </root>

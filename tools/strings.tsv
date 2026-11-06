@@ -570,3 +570,14 @@ Bannercosmic_orbit	Órbita Cósmica	Cosmic Orbit
 Bannerpurple_rift	Fenda Púrpura	Purple Rift
 Bannerbamboo_path	Caminho de Bambu	Bamboo Path
 SettingsTvModeHint	Tela cheia com tudo maior, para jogar no sofá. Controle: direcional move, A abre, B volta, LB/RB trocam de seção, Y busca, View liga ou desliga o modo TV.	Full screen with everything larger, for the couch. Controller: d-pad moves, A opens, B goes back, LB/RB switch sections, Y searches, View turns TV mode on or off.
+AppearanceGalleryHint	Temas completos do Lotus. Clique para usar; botão direito copia o código para compartilhar.	Complete Lotus themes. Click to use; right click copies the code to share.
+AppearancePaste	Colar código	Paste code
+AppearanceCreateInLotus	Criar no Lotus	Create in Lotus
+AppearanceAccentFromLotus	Vem do Lotus	From Lotus
+AppearanceAccentCustom	Vem do tema escolhido	From the chosen theme
+AppearanceLight	Claro	Light
+AppearanceDark	Escuro	Dark
+AppearanceUse	Usar	Use
+AppearanceCopyCode	Copiar código	Copy code
+AppearanceCopied	Código copiado. Ele funciona no Lotus e no Lotus Ports.	Code copied. It works in Lotus and Lotus Ports.
+AppearancePasted	Tema "{0}" aplicado.	Theme "{0}" applied.

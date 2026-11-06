@@ -576,4 +576,15 @@
   <data name="Bannerpurple_rift" xml:space="preserve"><value>Purple Rift</value></data>
   <data name="Bannerbamboo_path" xml:space="preserve"><value>Bamboo Path</value></data>
   <data name="SettingsTvModeHint" xml:space="preserve"><value>Full screen with everything larger, for the couch. Controller: d-pad moves, A opens, B goes back, LB/RB switch sections, Y searches, View turns TV mode on or off.</value></data>
+  <data name="AppearanceGalleryHint" xml:space="preserve"><value>Complete Lotus themes. Click to use; right click copies the code to share.</value></data>
+  <data name="AppearancePaste" xml:space="preserve"><value>Paste code</value></data>
+  <data name="AppearanceCreateInLotus" xml:space="preserve"><value>Create in Lotus</value></data>
+  <data name="AppearanceAccentFromLotus" xml:space="preserve"><value>From Lotus</value></data>
+  <data name="AppearanceAccentCustom" xml:space="preserve"><value>From the chosen theme</value></data>
+  <data name="AppearanceLight" xml:space="preserve"><value>Light</value></data>
+  <data name="AppearanceDark" xml:space="preserve"><value>Dark</value></data>
+  <data name="AppearanceUse" xml:space="preserve"><value>Use</value></data>
+  <data name="AppearanceCopyCode" xml:space="preserve"><value>Copy code</value></data>
+  <data name="AppearanceCopied" xml:space="preserve"><value>Code copied. It works in Lotus and Lotus Ports.</value></data>
+  <data name="AppearancePasted" xml:space="preserve"><value>Theme &quot;{0}&quot; applied.</value></data>
 </root>

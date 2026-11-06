@@ -180,9 +180,9 @@
                 </StackPanel>
             </Border>
 
-            <!--  Aparência: the same theme system as Lotus (modes, accents, custom themes by code, gallery)  -->
+            <!--  Aparência, as in Lotus: mode cards that preview themselves, accent dots, the theme gallery and the Home banner  -->
             <Border Style="{StaticResource Lotus.Card}">
-                <StackPanel Spacing="14">
+                <StackPanel Spacing="16">
                     <StackPanel Spacing="4">
                         <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=AppearanceTitle}" />
                         <TextBlock
@@ -190,48 +190,93 @@
                             Text="{local:Str Key=AppearanceHint}"
                             TextWrapping="Wrap" />
                     </StackPanel>
-                    <GridView
-                        x:Name="ThemeChoices"
-                        IsItemClickEnabled="True"
-                        ItemClick="OnThemeClick"
-                        SelectionMode="Single" />
-                    <StackPanel x:Name="AccentRow" Spacing="8">
-                        <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=AppearanceAccent}" />
+                    <Grid ColumnSpacing="24" RowSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <VariableSizedWrapGrid
+                            x:Name="ThemeCards"
+                            ItemHeight="128"
+                            ItemWidth="196"
+                            Orientation="Horizontal" />
                         <StackPanel
-                            x:Name="AccentChoices"
-                            Orientation="Horizontal"
-                            Spacing="10" />
-                    </StackPanel>
+                            x:Name="AccentArea"
+                            Grid.Column="1"
+                            MinWidth="220"
+                            Spacing="12">
+                            <TextBlock
+                                FontSize="16"
+                                FontWeight="SemiBold"
+                                Text="{local:Str Key=AppearanceAccent}" />
+                            <VariableSizedWrapGrid
+                                x:Name="AccentDots"
+                                ItemHeight="56"
+                                ItemWidth="56"
+                                MaximumRowsOrColumns="4"
+                                Orientation="Horizontal" />
+                            <TextBlock x:Name="AccentName" Style="{StaticResource Type.Caption}" />
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0,6,0,0" ColumnSpacing="12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel VerticalAlignment="Center" Spacing="2">
+                            <TextBlock
+                                FontSize="16"
+                                FontWeight="SemiBold"
+                                Text="{local:Str Key=AppearanceGallery}" />
+                            <TextBlock
+                                Style="{StaticResource Type.Caption}"
+                                Text="{local:Str Key=AppearanceGalleryHint}"
+                                TextWrapping="Wrap" />
+                        </StackPanel>
+                        <Button
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            Click="OnPasteTheme">
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <FontIcon FontSize="13" Glyph="&#xE77F;" />
+                                <TextBlock Text="{local:Str Key=AppearancePaste}" />
+                            </StackPanel>
+                        </Button>
+                        <Button
+                            Grid.Column="2"
+                            VerticalAlignment="Center"
+                            Click="OnCreateInLotus"
+                            Style="{StaticResource AccentButtonStyle}">
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <FontIcon FontSize="13" Glyph="&#xE790;" />
+                                <TextBlock Text="{local:Str Key=AppearanceCreateInLotus}" />
+                            </StackPanel>
+                        </Button>
+                    </Grid>
+                    <TextBlock
+                        x:Name="AppearanceStatus"
+                        Foreground="{StaticResource Accent.Rose}"
+                        Style="{StaticResource Type.Caption}"
+                        TextWrapping="Wrap" />
+                    <VariableSizedWrapGrid
+                        x:Name="GalleryCards"
+                        ItemHeight="158"
+                        ItemWidth="214"
+                        Orientation="Horizontal" />
+
                     <StackPanel Spacing="8">
-                        <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=AppearanceGallery}" />
-                        <StackPanel
-                            x:Name="GalleryChoices"
-                            Orientation="Horizontal"
-                            Spacing="8" />
-                    </StackPanel>
-                    <StackPanel Spacing="8">
-                        <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=AppearanceHomeBanner}" />
+                        <TextBlock
+                            FontSize="16"
+                            FontWeight="SemiBold"
+                            Text="{local:Str Key=AppearanceHomeBanner}" />
                         <GridView
                             x:Name="BannerChoices"
                             IsItemClickEnabled="True"
                             ItemClick="OnBannerClick"
                             SelectionMode="Single" />
                     </StackPanel>
-                    <Grid ColumnSpacing="10">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="Auto" />
-                        </Grid.ColumnDefinitions>
-                        <TextBox x:Name="ThemeCode" PlaceholderText="{local:Str Key=AppearanceCodePlaceholder}" />
-                        <Button
-                            Grid.Column="1"
-                            Click="OnUseThemeCode"
-                            Content="{local:Str Key=AppearanceUseCode}" />
-                    </Grid>
-                    <TextBlock
-                        x:Name="AppearanceStatus"
-                        Style="{StaticResource Type.Caption}"
-                        TextWrapping="Wrap" />
                 </StackPanel>
             </Border>
 
