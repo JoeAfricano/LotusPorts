@@ -129,6 +129,8 @@ public sealed class PortInstallerTests : IDisposable
         File.ReadAllText(Path.Combine(Active(again), "saves", "slot1.sav")).Should().Be("progress v1");
         Directory.Exists(library.KeptFolder("sample-port")).Should().BeFalse();
 
+        Directory.Exists(Path.Combine(paths.DownloadsCache, "sample-port")).Should().BeFalse("no empty download folder is left behind");
+
         // Remove everything: the port folder is gone.
         await installer.RemoveAsync(port, keepSaves: false);
         Directory.Exists(Path.Combine(library.Root, "sample-port")).Should().BeFalse();
@@ -137,6 +139,15 @@ public sealed class PortInstallerTests : IDisposable
         entries.Select(e => e.Kind).Reverse().Should().Equal(
             OperationKind.Install, OperationKind.Update, OperationKind.Rollback, OperationKind.Update, OperationKind.Remove, OperationKind.Install, OperationKind.Remove);
         entries.Should().OnlyContain(e => e.Outcome == OperationOutcome.Success && e.StateAfter != null);
+    }
+
+    [Fact]
+    public async Task Uninstalling_with_nothing_to_keep_leaves_no_empty_folder()
+    {
+        var port = SamplePort() with { PersistentPaths = [] };
+        await installer.InstallAsync(port, Release("v1.0", Zip(("Game.exe", Program))));
+        await installer.RemoveAsync(port, keepSaves: true);
+        Directory.Exists(Path.Combine(library.Root, "sample-port")).Should().BeFalse();
     }
 
     [Fact]

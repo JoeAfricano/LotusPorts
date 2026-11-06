@@ -113,6 +113,8 @@ public sealed class PortInstaller(PortLibrary library, AppPaths paths, GitHubCli
         {
             TryDelete(part);
             if (Directory.Exists(staging)) TryDeleteFolder(staging);
+            try { if (Directory.Exists(downloads) && !Directory.EnumerateFileSystemEntries(downloads).Any()) Directory.Delete(downloads); }
+            catch (IOException) { } // another download for this port may have just started
         }
 
         // Saves and settings that live inside the game folder move along to the new version (the old copy stays as it was).
@@ -174,6 +176,8 @@ public sealed class PortInstaller(PortLibrary library, AppPaths paths, GitHubCli
                 CopyPersistent(port, library.VersionFolder(port.Id, existing.Active.Folder), kept);
                 library.DeleteManifest(port.Id);
                 PortLibrary.DeleteFolder(library.VersionsFolder(port.Id));
+                // Nothing in the game folder to keep: no empty folder is left behind.
+                if (!Directory.Exists(kept) && Directory.Exists(folder) && !Directory.EnumerateFileSystemEntries(folder).Any()) Directory.Delete(folder);
             }
             else
             {

@@ -43,7 +43,12 @@
 
 ## Fase 2: pendências
 
-- **Critério de aceite ainda não cumprido:** instalar → jogar → atualizar → voltar versão → desinstalar num jogo real. Muda arquivos no PC (dentro de `%LOCALAPPDATA%\LotusPorts\library`), então exige aprovação do José. O ciclo completo está coberto por testes com downloads falsos, inclusive saves preservados.
+- **Critério de aceite cumprido em 06/11/2026 (aprovado pelo José), com Zelda 64: Recompiled:**
+  - instalar v1.2.1 (3,9 s, SHA-256 do GitHub conferido: OK) → abrir (menu do jogo, fechou com código 0) → atualizar para v1.2.2 (3,5 s, OK; v1.2.1 guardada ao lado) → abrir → voltar para v1.2.1 → abrir → desinstalar mantendo saves;
+  - diário com 4 entradas ANTES/DEPOIS, todas "Sucesso";
+  - a pasta de saves do jogo (`%LOCALAPPDATA%\Zelda64Recompiled`, 4 arquivos criados pelo próprio jogo) ficou idêntica em todos os passos e continua no PC;
+  - o roteiro usou o mesmo motor do app sobre a pasta real; os cliques na interface não foram automatizados, mas a Página do jogo foi conferida por captura após instalar ("Jogar" + "Nova versão v1.2.2 disponível") e após atualizar ("Voltar para a versão anterior (v1.2.1)");
+  - achado e corrigido no teste: sobravam pastas vazias depois de desinstalar.
 - **Saves:** só os que ficam dentro da pasta do jogo (`persistentPaths` com `location: install`) seguem para a nova versão; a versão anterior fica guardada com os saves dela, e é isso que "Voltar para a versão anterior" restaura. Saves em pastas do Windows (`location: user`) nunca são tocados; backup deles fica com o Lotus.
 - **Não instalados pelo app:** ports com instalador próprio (87) ou 7z (3) mostram "Abrir página oficial". Arquivo ambíguo (mais de um para Windows) também, sem adivinhar.
 - **Ainda não feito:** progresso nos cartões da Biblioteca e do Início (hoje só na Página do jogo); tela Downloads com fila; leitura do `recomplauncher.json` (setup fácil, junto da Fase 3); pré-releases e "Fixar versão" no modo avançado (o modelo já guarda `PinnedTag`); retentativas de rede (Polly); "Instalados" nas prateleiras usando o `active.json`.
