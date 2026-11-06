@@ -72,3 +72,10 @@
 - **Lado do Lotus:** o Lotus (outro repositório) ainda não tem o servidor do pipe nem grava `HKCU\Software\Lotus\Integration`. O roteiro está em `docs/INTEGRACAO_LOTUS.md` ("Para o Lotus implementar"). Não mexi no projeto do Lotus.
 - **Não feito:** pedir instalação de dependência ao Lotus (`Dependencies.RequestInstall`) e o modo autônomo que instala redistribuíveis oficiais da Microsoft (Authenticode, UAC, códigos 0/3010/1638); `Dependencies.Check` só faz sentido quando os ports declararem `dependencies` (nenhum declara ainda); aviso no cartão após `Driver.Changed`; deep links `lotus://` ("Ver relatório no Lotus"), que dependem do Lotus registrar o protocolo.
 - O Lotus Ports ainda não grava `HKCU\Software\LotusPorts\Integration` nem serve o próprio pipe: Fase 6.
+
+## Fase 6: pendências
+
+- Fluxo completo testado só com Lotus simulado; o Lotus real precisa implementar os dois lados (cliente do pipe do Lotus Ports e servidor do próprio).
+- Link `lotusports://` com o app já aberto abre uma segunda janela (ainda não há instância única que repassa o link para a primeira).
+- `System.GetHardwareProfile` está no contrato, mas o primeiro uso (que sugeriria o estilo padrão) ainda não existe.
+- Instalação cruzada (convite discreto para instalar o Lotus, baixando a release oficial com confirmação) não feita: hoje há só o botão "Baixe o Lotus" que abre a página de releases.

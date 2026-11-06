@@ -70,12 +70,18 @@ public partial class App : Application
             await host.StartAsync();
 
             window = new MainWindow(StartPage());
+            var server = StartIntegrationServer(dispatcher);
             window.Closed += async (_, _) =>
             {
+                await server.DisposeAsync();
+#if !DEBUG
+                LotusPorts.Integration.PortsRegistration.Unregister();
+#endif
                 if (host is not null) await host.StopAsync(TimeSpan.FromSeconds(2));
                 await Log.CloseAndFlushAsync();
             };
             window.Activate();
+            if (DeepLink() is { Play: true } link) _ = host.Services.GetRequiredService<PortsHandler>().LaunchAsync(link.GameId);
         }
         catch (Exception ex)
         {
@@ -124,6 +130,7 @@ public partial class App : Application
             sp.GetRequiredService<LotusPorts.Integration.ILotusDiscovery>(), sp.GetRequiredService<LotusPorts.Integration.IPeerValidator>(),
             sp.GetRequiredService<Microsoft.Extensions.Logging.ILogger<LotusPorts.Integration.LotusClient>>(), AppInfo.Version.Split('+')[0]));
         services.AddSingleton<LotusBridge>();
+        services.AddSingleton<PortsHandler>();
         services.AddSingleton<LotusPorts.Infrastructure.Diagnostics.PortDiagnostics>();
         services.AddSingleton<LotusPorts.Infrastructure.Install.StyleService>();
         services.AddTransient<HomeViewModel>();
@@ -140,7 +147,51 @@ public partial class App : Application
         var arg = Environment.GetCommandLineArgs().FirstOrDefault(a => a.StartsWith("--page=", StringComparison.Ordinal));
         if (arg is not null) return arg["--page=".Length..];
 #endif
+        // lotusports://game/{gameId} opens the game page; lotusports://play/{gameId} opens it and plays (section 12.2).
+        if (DeepLink() is { } link) return "game:" + link.GameId;
         return Pages.Home;
+    }
+
+    /// <summary>
+    /// Lotus Ports' own pipe, so Lotus can list and open games (section 12.7). The registry entries that let Lotus find
+    /// it and the lotusports:// links are written only by Release builds: development runs never touch the registry.
+    /// </summary>
+    private LotusPorts.Integration.PortsServer StartIntegrationServer(Microsoft.UI.Dispatching.DispatcherQueue dispatcher)
+    {
+        var services = host!.Services;
+        var handler = services.GetRequiredService<PortsHandler>();
+        handler.Attach(dispatcher);
+        var server = new LotusPorts.Integration.PortsServer(Lotus.Integration.Contracts.Protocol.PortsPipeName, handler,
+            new LotusPorts.Integration.LotusClientValidator(services.GetRequiredService<LotusPorts.Integration.ILotusDiscovery>()),
+            services.GetRequiredService<Microsoft.Extensions.Logging.ILogger<LotusPorts.Integration.PortsServer>>(), AppInfo.Version.Split('+')[0]);
+        server.Start();
+#if !DEBUG
+        try
+        {
+            LotusPorts.Integration.PortsRegistration.Register(AppInfo.Version.Split('+')[0], Environment.ProcessPath!);
+            LotusPorts.Integration.PortsRegistration.RegisterLinks(Environment.ProcessPath!);
+        }
+        catch (Exception ex) when (ex is UnauthorizedAccessException or System.Security.SecurityException or IOException)
+        {
+            Log.Warning(ex, "Integration registry entries not written");
+        }
+#endif
+        return server;
+    }
+
+    /// <summary>The lotusports:// link this instance was started with, if any. Only a catalog-shaped id is accepted.</summary>
+    public static (string GameId, bool Play)? DeepLink()
+    {
+        var arg = Environment.GetCommandLineArgs().Skip(1).FirstOrDefault(a => a.StartsWith("lotusports://", StringComparison.OrdinalIgnoreCase));
+        if (arg is null || !Uri.TryCreate(arg, UriKind.Absolute, out var uri)) return null;
+        var id = uri.AbsolutePath.Trim('/');
+        if (id.Length is 0 or > 100 || !id.All(c => c is (>= 'a' and <= 'z') or (>= '0' and <= '9') or '-')) return null;
+        return uri.Host.ToLowerInvariant() switch
+        {
+            "game" => (id, false),
+            "play" => (id, true),
+            _ => null,
+        };
     }
 
     private void ShowError(Exception exception, bool canContinue)

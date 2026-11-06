@@ -511,3 +511,22 @@ LotusStateHintUntrusted	O programa do outro lado não é o Lotus instalado neste
 LotusStateHintUnavailable	Abra o Lotus e a conexão volta sozinha em alguns segundos.	Open Lotus and the connection comes back by itself in a few seconds.
 ResolveFromLotus	{0}: {1} (conferido pelo Lotus)	{0}: {1} (checked by Lotus)
 ResolveSystemChangedBefore	O problema pode ter começado depois desta mudança no PC, registrada pelo Lotus: {0} ({1}).	The problem may have started after this PC change recorded by Lotus: {0} ({1}).
+LotusLaunchOpenedPage	Abri a página do jogo no Lotus Ports: ele precisa ser instalado ou conferido antes, e isso pede a sua confirmação.	I opened the game page in Lotus Ports: it must be installed or checked first, and that needs your confirmation.
+ExperienceTitle	Sua experiência	Your experience
+ExperienceUseProfile	Usar perfil do Lotus ao jogar	Use the Lotus profile while playing
+ExperienceNoSession	Jogue uma vez com o Lotus aberto para ver aqui como o jogo rodou neste PC.	Play once with Lotus open to see here how the game ran on this PC.
+ExperienceNoReport	O Lotus não mandou o relatório da última sessão.	Lotus didn't send the last session report.
+ExperienceNotMeasured	O Lotus não mediu o desempenho da última sessão.	Lotus didn't measure the last session's performance.
+ExperienceLastSession	Última sessão: {0}	Last session: {0}
+ExperienceDuration	{0}	{0}
+ExperienceAverage	média {0} FPS	average {0} FPS
+ExperienceLow	1% low {0}	1% low {0}
+ExperienceStutter	{0} travamento	{0} stutter
+ExperienceStutters	{0} travamentos	{0} stutters
+ExperienceGpuTemp	placa de vídeo até {0} °C	graphics card up to {0} °C
+ExperienceEvidence	Com base em: {0}	Based on: {0}
+ExperienceComparison	Antes e depois: {0}	Before and after: {0}
+ExperienceApply	Aplicar	Apply
+ExperienceOpenReport	Ver relatório completo no Lotus	See the full report in Lotus
+ExperienceEditProfile	Editar perfil no Lotus	Edit profile in Lotus
+ExperienceDriverChanged	O driver de vídeo foi atualizado em {0}: o primeiro jogo depois disso pode engasgar um pouco enquanto se prepara.	The graphics driver was updated on {0}: the first game afterwards may stutter a little while it gets ready.

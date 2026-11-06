@@ -268,7 +268,7 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
             try { code = process.ExitCode; } catch (InvalidOperationException) { code = 0; }
             var ranFor = time.GetUtcNow() - since;
             process.Dispose();
-            _ = EndSessionAsync(session, code, ranFor);
+            _ = EndSessionAsync(session, port, code, ranFor);
             ui?.TryEnqueue(() =>
             {
                 running.Remove(port.Id);
@@ -281,10 +281,15 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         return null;
     }
 
-    private async Task EndSessionAsync(Task<string?> session, int exitCode, TimeSpan ranFor)
+    /// <summary>Ends the Lotus session and remembers it for "Sua experiência" (report and suggestions).</summary>
+    private async Task EndSessionAsync(Task<string?> session, Port port, int exitCode, TimeSpan ranFor)
     {
-        if (await session.ConfigureAwait(false) is { } id) await lotus.SessionEndAsync(id, exitCode, Math.Round(ranFor.TotalSeconds, 1)).ConfigureAwait(false);
+        if (await session.ConfigureAwait(false) is not { } id) return;
+        await lotus.SessionEndAsync(id, exitCode, Math.Round(ranFor.TotalSeconds, 1)).ConfigureAwait(false);
+        await lotus.RememberSessionAsync(port.GameId, id).ConfigureAwait(false);
+        Raise(port.Id);
     }
+
 
     public void CloseGame(string portId)
     {

@@ -226,6 +226,18 @@ public static class PortsRegistration
         key.SetValue(RegistryValueNames.ExePath, exePath);
     }
 
+    /// <summary>lotusports:// opens this program with the link as its argument (per user, HKCU\Software\Classes).</summary>
+    public static void RegisterLinks(string exePath)
+    {
+        using var root = Registry.CurrentUser.CreateSubKey(@"Software\Classes\lotusports");
+        root.SetValue("", "URL:Lotus Ports");
+        root.SetValue("URL Protocol", "");
+        using var icon = root.CreateSubKey("DefaultIcon");
+        icon.SetValue("", $"\"{exePath}\",0");
+        using var command = root.CreateSubKey(@"shell\open\command");
+        command.SetValue("", $"\"{exePath}\" \"%1\"");
+    }
+
     public static void Unregister()
     {
         using var key = Registry.CurrentUser.OpenSubKey(Protocol.PortsRegistryKey, writable: true);

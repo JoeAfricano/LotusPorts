@@ -215,6 +215,85 @@
                         </StackPanel>
                     </Border>
 
+                    <!--  Sua experiência: only what Lotus measured (section 12.6)  -->
+                    <Border
+                        x:Name="ExperienceCard"
+                        Style="{StaticResource Lotus.Card}"
+                        Visibility="Collapsed">
+                        <StackPanel Spacing="10">
+                            <Grid ColumnSpacing="12">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <controls:LotusPetal
+                                    Width="28"
+                                    Height="24"
+                                    IsLit="True" />
+                                <TextBlock
+                                    Grid.Column="1"
+                                    VerticalAlignment="Center"
+                                    Style="{StaticResource Type.Subtitle}"
+                                    Text="{local:Str Key=ExperienceTitle}" />
+                                <ToggleSwitch
+                                    x:Name="ProfileToggle"
+                                    Grid.Column="2"
+                                    Header="{local:Str Key=ExperienceUseProfile}"
+                                    Toggled="OnProfileToggled" />
+                            </Grid>
+                            <TextBlock
+                                x:Name="ExperienceSession"
+                                Style="{StaticResource Type.Body}"
+                                TextWrapping="Wrap" />
+                            <TextBlock
+                                x:Name="ExperienceDriver"
+                                Foreground="{StaticResource State.Warn}"
+                                Style="{StaticResource Type.Caption}"
+                                TextWrapping="Wrap"
+                                Visibility="Collapsed" />
+                            <Border
+                                x:Name="SuggestionBox"
+                                Padding="14,10"
+                                Background="{StaticResource Bg.Elevated}"
+                                CornerRadius="10"
+                                Visibility="Collapsed">
+                                <Grid ColumnSpacing="12">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel Spacing="4">
+                                        <TextBlock
+                                            x:Name="SuggestionText"
+                                            FontWeight="SemiBold"
+                                            TextWrapping="Wrap" />
+                                        <TextBlock
+                                            x:Name="SuggestionEvidence"
+                                            Style="{StaticResource Type.Caption}"
+                                            TextWrapping="Wrap" />
+                                        <TextBlock
+                                            x:Name="SuggestionComparison"
+                                            Style="{StaticResource Type.Caption}"
+                                            TextWrapping="Wrap"
+                                            Visibility="Collapsed" />
+                                    </StackPanel>
+                                    <Button
+                                        x:Name="SuggestionApply"
+                                        Grid.Column="1"
+                                        VerticalAlignment="Center"
+                                        Click="OnApplySuggestion"
+                                        Content="{local:Str Key=ExperienceApply}"
+                                        Style="{StaticResource AccentButtonStyle}" />
+                                </Grid>
+                            </Border>
+                            <StackPanel Orientation="Horizontal" Spacing="4">
+                                <HyperlinkButton x:Name="LotusReportLink" Content="{local:Str Key=ExperienceOpenReport}" />
+                                <HyperlinkButton x:Name="LotusProfileLink" Content="{local:Str Key=ExperienceEditProfile}" />
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
                     <!--  How to play: the usage part of the port's README, as the authors wrote it (only when it exists)  -->
                     <Border
                         x:Name="GuideCard"

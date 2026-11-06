@@ -517,4 +517,23 @@
   <data name="LotusStateHintUnavailable" xml:space="preserve"><value>Open Lotus and the connection comes back by itself in a few seconds.</value></data>
   <data name="ResolveFromLotus" xml:space="preserve"><value>{0}: {1} (checked by Lotus)</value></data>
   <data name="ResolveSystemChangedBefore" xml:space="preserve"><value>The problem may have started after this PC change recorded by Lotus: {0} ({1}).</value></data>
+  <data name="LotusLaunchOpenedPage" xml:space="preserve"><value>I opened the game page in Lotus Ports: it must be installed or checked first, and that needs your confirmation.</value></data>
+  <data name="ExperienceTitle" xml:space="preserve"><value>Your experience</value></data>
+  <data name="ExperienceUseProfile" xml:space="preserve"><value>Use the Lotus profile while playing</value></data>
+  <data name="ExperienceNoSession" xml:space="preserve"><value>Play once with Lotus open to see here how the game ran on this PC.</value></data>
+  <data name="ExperienceNoReport" xml:space="preserve"><value>Lotus didn&apos;t send the last session report.</value></data>
+  <data name="ExperienceNotMeasured" xml:space="preserve"><value>Lotus didn&apos;t measure the last session&apos;s performance.</value></data>
+  <data name="ExperienceLastSession" xml:space="preserve"><value>Last session: {0}</value></data>
+  <data name="ExperienceDuration" xml:space="preserve"><value>{0}</value></data>
+  <data name="ExperienceAverage" xml:space="preserve"><value>average {0} FPS</value></data>
+  <data name="ExperienceLow" xml:space="preserve"><value>1% low {0}</value></data>
+  <data name="ExperienceStutter" xml:space="preserve"><value>{0} stutter</value></data>
+  <data name="ExperienceStutters" xml:space="preserve"><value>{0} stutters</value></data>
+  <data name="ExperienceGpuTemp" xml:space="preserve"><value>graphics card up to {0} °C</value></data>
+  <data name="ExperienceEvidence" xml:space="preserve"><value>Based on: {0}</value></data>
+  <data name="ExperienceComparison" xml:space="preserve"><value>Before and after: {0}</value></data>
+  <data name="ExperienceApply" xml:space="preserve"><value>Apply</value></data>
+  <data name="ExperienceOpenReport" xml:space="preserve"><value>See the full report in Lotus</value></data>
+  <data name="ExperienceEditProfile" xml:space="preserve"><value>Edit profile in Lotus</value></data>
+  <data name="ExperienceDriverChanged" xml:space="preserve"><value>The graphics driver was updated on {0}: the first game afterwards may stutter a little while it gets ready.</value></data>
 </root>

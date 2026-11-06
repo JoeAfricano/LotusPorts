@@ -86,3 +86,31 @@ Todas ligadas por padrão e salvas em `lotus.allow.*`: kit de dependências, dia
 2. Conferir o cliente: o processo do outro lado deve ser o `ExePath` gravado pelo Lotus Ports em `HKCU\Software\LotusPorts\Integration`.
 3. Responder o `Handshake` anunciando só o que já funciona.
 4. Toda ação no sistema pedida pelo Lotus Ports (instalar dependência, aplicar perfil) é confirmada pelo usuário na interface do Lotus.
+
+## Fase 6: o Lotus pede ao Lotus Ports
+
+Servidor em `\.\pipe\lotusports.integration.v1` (só o usuário atual; só aceita o processo que o Lotus registrou em `ExePath`). O cliente (Lotus) faz o `Handshake` primeiro; sem ele, ou com outra versão, a conexão é encerrada.
+
+| Método | params | result | Interruptor |
+|---|---|---|---|
+| `Ports.ListGames` | `{}` | `{ games: [{ gameId, title, lotusGameKey, platform, state: NotInstalled/Ready/UpdateAvailable/Problem, version, coverUrl, favorite, lastPlayed }] }` (instalados e favoritos) | Permitir que o Lotus liste e abra meus jogos |
+| `Ports.Launch` | `{ gameId }` (só id do catálogo; caminhos são recusados com `-32602`) | `{ started, reasonPtBr }` — se o jogo não está instalado ou precisa de atenção, abre a Página do jogo e `started: false` | idem |
+| `Ports.Open` | `{ gameId? }` | `{ opened: true }` — traz a janela para frente na Biblioteca ou na Página do jogo | idem |
+| `Journal.Query` | `{ limit }` (1–500) | `{ entries: [{ id, startedAt, finishedAt, kind, portId, outcome, details, correlationId }] }` | Compartilhar o histórico |
+
+Interruptor desligado: `-32002`. Jogo desconhecido: `-32003`. Eventos aceitos: `Dependencies.Changed`, `Driver.Changed`, `Profile.Changed`, `Lotus.ShuttingDown`.
+
+## Fase 6: o Lotus Ports pede ao Lotus
+
+| Método | params | result |
+|---|---|---|
+| `Session.GetReport` | `{ sessionId }` | `{ sessionId, measured, durationSeconds, averageFps, onePercentLowFps, stutters, maxCpuTemperature, maxGpuTemperature }` — com `measured: false` nenhum número aparece |
+| `Recommendations.ForGame` | `{ lotusGameKey, lastSessionIds }` | `{ items: [{ id, textPtBr, evidencePtBr, style, comparisonPtBr }] }` — `style` ("Original"/"Remastered") vira o botão "Aplicar" pelo fluxo de estilos; `comparisonPtBr` é o antes/depois |
+| `System.GetHardwareProfile` | `{}` | `{ cpu, gpu, ramGb, vramGb, tier }` (reservado para o primeiro uso) |
+
+Página do jogo → **Sua experiência** (só com o Lotus conectado): última sessão medida, interruptor "Usar perfil do Lotus ao jogar", sugestão com "Aplicar" e o antes/depois, links `lotus://session/{id}` e `lotus://profile/{lotusGameKey}`, aviso de driver atualizado (até 3 dias).
+
+## Registro e links do Lotus Ports
+
+- Só o build Release grava `HKCU\Software\LotusPorts\Integration` (e apaga `PipeName` ao fechar) e registra `lotusports://` em `HKCU\Software\Classes\lotusports`. O build de desenvolvimento não mexe no registro.
+- `lotusports://game/{gameId}` abre a Página do jogo; `lotusports://play/{gameId}` abre e joga (se estiver instalado e sem problema; senão fica na página).

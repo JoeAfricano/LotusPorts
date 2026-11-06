@@ -37,6 +37,7 @@ public sealed partial class GamePage : Page
     protected override void OnNavigatedFrom(NavigationEventArgs e)
     {
         play.Changed -= OnPlayChanged;
+        bridge.Changed -= OnBridgeChanged;
         gameFiles.Changed -= OnGameFilesChanged;
     }
 
@@ -57,6 +58,8 @@ public sealed partial class GamePage : Page
         DispatcherQueue.TryEnqueue(() => Scroller.ChangeView(null, 0, null, disableAnimation: true));
         play.Changed += OnPlayChanged;
         gameFiles.Changed += OnGameFilesChanged;
+        bridge.Changed += OnBridgeChanged;
+        _ = RefreshExperienceAsync();
         RefreshPlay();
         RefreshStyle();
         var guide = ShowGuideAsync(game.Recommended.Port);
@@ -256,6 +259,89 @@ public sealed partial class GamePage : Page
         RefreshStyle();
     }
 
+    // ---- Sua experiência (phase 6) -------------------------------------------------------------
+
+    private readonly LotusBridge bridge = App.Services.GetRequiredService<LotusBridge>();
+    private Lotus.Integration.Contracts.Recommendation? suggestion;
+    private bool showingExperience;
+
+    private async Task RefreshExperienceAsync()
+    {
+        if (game is null || showingExperience) return;
+        showingExperience = true;
+        try
+        {
+            var g = game;
+            var connected = bridge.Status.State == LotusPorts.Integration.LotusConnectionState.Connected;
+            ExperienceCard.Visibility = connected ? Visibility.Visible : Visibility.Collapsed;
+            if (!connected) return;
+
+            ProfileToggle.IsOn = bridge.IsAllowed(LotusPermission.PerformanceProfile);
+            ProfileToggle.IsEnabled = bridge.Status.Capabilities.Contains(Lotus.Integration.Contracts.Methods.SessionStart);
+            LotusProfileLink.NavigateUri = new Uri("lotus://profile/" + Uri.EscapeDataString(g.Game.LotusGameKey));
+
+            var drive = bridge.LastDriverChange;
+            ExperienceDriver.Visibility = drive is not null && DateTimeOffset.UtcNow - drive.At < TimeSpan.FromDays(3) ? Visibility.Visible : Visibility.Collapsed;
+            if (drive is not null) ExperienceDriver.Text = Strings.Format("ExperienceDriverChanged", drive.At.ToLocalTime().ToString("g", CultureInfo.CurrentCulture));
+
+            var sessions = await bridge.SessionsAsync(g.Id);
+            var report = sessions.Count == 0 ? null : await bridge.ReportAsync(sessions[0]);
+            ExperienceSession.Text = report is null ? Strings.Get(sessions.Count == 0 ? "ExperienceNoSession" : "ExperienceNoReport") : SessionLine(report);
+            LotusReportLink.Visibility = sessions.Count == 0 ? Visibility.Collapsed : Visibility.Visible;
+            if (sessions.Count > 0) LotusReportLink.NavigateUri = new Uri("lotus://session/" + Uri.EscapeDataString(sessions[0]));
+
+            suggestion = (await bridge.RecommendationsAsync(g.Game.LotusGameKey, sessions)).FirstOrDefault();
+            SuggestionBox.Visibility = suggestion is null ? Visibility.Collapsed : Visibility.Visible;
+            if (suggestion is null) return;
+            SuggestionText.Text = suggestion.TextPtBr;
+            SuggestionEvidence.Text = Strings.Format("ExperienceEvidence", suggestion.EvidencePtBr);
+            SuggestionComparison.Text = suggestion.ComparisonPtBr is { } c ? Strings.Format("ExperienceComparison", c) : "";
+            SuggestionComparison.Visibility = suggestion.ComparisonPtBr is null ? Visibility.Collapsed : Visibility.Visible;
+            // "Aplicar" only for a style this port really supports (verified keys) and when installed.
+            var installed = play.StateOf(g.Recommended.Port).Installed;
+            SuggestionApply.Visibility = SuggestedStyle() is { } style && StyleService.CanOffer(g.Recommended.Port) && installed is not null
+                && installed.Style?.Name != style.ToString() ? Visibility.Visible : Visibility.Collapsed;
+        }
+        finally
+        {
+            showingExperience = false;
+        }
+    }
+
+    /// <summary>Only measured numbers; when Lotus did not measure, no number at all (section 12.6).</summary>
+    private static string SessionLine(Lotus.Integration.Contracts.SessionReport report)
+    {
+        if (!report.Measured) return Strings.Get("ExperienceNotMeasured");
+        var parts = new List<string> { Strings.Format("ExperienceDuration", Duration(report.DurationSeconds)) };
+        if (report.AverageFps is { } avg) parts.Add(Strings.Format("ExperienceAverage", avg.ToString("0", CultureInfo.CurrentCulture)));
+        if (report.OnePercentLowFps is { } low) parts.Add(Strings.Format("ExperienceLow", low.ToString("0", CultureInfo.CurrentCulture)));
+        if (report.Stutters is { } stutters) parts.Add(Strings.Format(stutters == 1 ? "ExperienceStutter" : "ExperienceStutters", stutters));
+        if (report.MaxGpuTemperature is { } gpu) parts.Add(Strings.Format("ExperienceGpuTemp", gpu.ToString("0", CultureInfo.CurrentCulture)));
+        return Strings.Format("ExperienceLastSession", string.Join(" · ", parts));
+    }
+
+    private static string Duration(double seconds)
+    {
+        var t = TimeSpan.FromSeconds(seconds);
+        return t.TotalHours >= 1 ? $"{(int)t.TotalHours}h{t.Minutes:00}" : $"{Math.Max(1, (int)t.TotalMinutes)} min";
+    }
+
+    private ExperienceStyle? SuggestedStyle() => suggestion?.Style is { } s && Enum.TryParse<ExperienceStyle>(s, out var style) ? style : null;
+
+    private async void OnApplySuggestion(object sender, RoutedEventArgs e)
+    {
+        if (SuggestedStyle() is { } style) await ApplyStyleAsync(style);
+        await RefreshExperienceAsync();
+    }
+
+    private async void OnProfileToggled(object sender, RoutedEventArgs e)
+    {
+        if (ProfileToggle.IsOn != bridge.IsAllowed(LotusPermission.PerformanceProfile))
+            await bridge.SetAllowedAsync(LotusPermission.PerformanceProfile, ProfileToggle.IsOn);
+    }
+
+    private void OnBridgeChanged() => _ = RefreshExperienceAsync();
+
     // ---- Game file (phase 3) ------------------------------------------------------------------
 
     private readonly GameFilesService gameFiles = App.Services.GetRequiredService<GameFilesService>();
@@ -435,7 +521,7 @@ public sealed partial class GamePage : Page
 
     private void OnPlayChanged(string portId)
     {
-        if (game is not null && game.Recommended.Port.Id == portId) { RefreshPlay(); RefreshStyle(); }
+        if (game is not null && game.Recommended.Port.Id == portId) { RefreshPlay(); RefreshStyle(); _ = RefreshExperienceAsync(); }
     }
 
     private async Task LookupAsync(bool force = false)

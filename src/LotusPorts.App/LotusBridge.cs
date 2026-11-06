@@ -45,6 +45,7 @@ public sealed class LotusBridge(LotusClient client, ISettingsStore settings, ILo
         foreach (var permission in Enum.GetValues<LotusPermission>())
             if (bool.TryParse(await settings.GetAsync(Key(permission)), out var allowed)) permissions[permission] = allowed;
         client.StatusChanged += _ => Raise();
+        client.EventReceived += OnLotusEvent;
         // Checks every 30 s: a Lotus opened later is found without restarting; a closed one is retried quietly.
         _ = Task.Run(() => client.RunAsync(TimeSpan.FromSeconds(30), stop.Token));
     }
@@ -112,6 +113,47 @@ public sealed class LotusBridge(LotusClient client, ISettingsStore settings, ILo
     /// <summary>Install/update/rollback/remove/style, for Lotus's single timeline of the PC (only if allowed).</summary>
     public Task NotifyAsync(string eventName, GameEvent body) =>
         IsAllowed(LotusPermission.ShareHistory) ? client.NotifyAsync(eventName, body) : Task.CompletedTask;
+
+    /// <summary>The last driver update Lotus reported (the first game afterwards may stutter while shaders rebuild).</summary>
+    public DriverChangedEvent? LastDriverChange { get; private set; }
+
+    /// <summary>Events from Lotus, through either pipe. Lost events don't matter: state is read again on reconnect.</summary>
+    public void OnLotusEvent(JsonRpcMessage message)
+    {
+        ArgumentNullException.ThrowIfNull(message);
+        if (message.Method == Events.DriverChanged) LastDriverChange = message.ParamsAs<DriverChangedEvent>();
+        Raise();
+    }
+
+    // ---- Sua experiência (section 12.6) ---------------------------------------------------------
+
+    /// <summary>Sessions Lotus measured for a game, newest first (kept locally, at most five).</summary>
+    public async Task<IReadOnlyList<string>> SessionsAsync(string gameId)
+    {
+        var json = await settings.GetAsync("lotus.sessions." + gameId);
+        try { return string.IsNullOrEmpty(json) ? [] : System.Text.Json.JsonSerializer.Deserialize<List<string>>(json) ?? []; }
+        catch (System.Text.Json.JsonException) { return []; }
+    }
+
+    public async Task RememberSessionAsync(string gameId, string sessionId)
+    {
+        var list = (await SessionsAsync(gameId)).Where(s => s != sessionId).Prepend(sessionId).Take(5).ToList();
+        await settings.SetAsync("lotus.sessions." + gameId, System.Text.Json.JsonSerializer.Serialize(list));
+    }
+
+    public async Task<SessionReport?> ReportAsync(string sessionId)
+    {
+        if (!CanUse(Methods.SessionGetReport, LotusPermission.Reports)) return null;
+        try { return await client.RequestAsync<SessionGetReportParams, SessionReport>(Methods.SessionGetReport, new(sessionId)); }
+        catch (Exception ex) when (ex is LotusUnavailableException or LotusRemoteException or NotSupportedException) { return null; }
+    }
+
+    public async Task<IReadOnlyList<Recommendation>> RecommendationsAsync(string lotusGameKey, IReadOnlyList<string> sessions)
+    {
+        if (!CanUse(Methods.RecommendationsForGame, LotusPermission.Reports)) return [];
+        try { return (await client.RequestAsync<RecommendationsForGameParams, RecommendationsResult>(Methods.RecommendationsForGame, new(lotusGameKey, sessions)))?.Items ?? []; }
+        catch (Exception ex) when (ex is LotusUnavailableException or LotusRemoteException or NotSupportedException) { return []; }
+    }
 
     private static CheckState Map(CheckStatus status) => status switch
     {
