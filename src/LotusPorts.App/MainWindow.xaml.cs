@@ -75,6 +75,7 @@ public sealed partial class MainWindow : Window
         Activated += (_, a) => navigator.SetWindowActive(a.WindowActivationState != WindowActivationState.Deactivated);
         SizeChanged += (_, _) => ApplyScale();
         _ = LoadTvModeAsync();
+        _ = ShowWelcomeIfNewAsync();
 
         // The petal lights up only while Lotus is really connected.
         var bridge = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<LotusBridge>(App.Services);
@@ -187,6 +188,43 @@ public sealed partial class MainWindow : Window
     }
 
     // ---- Modo TV e controle (phase 7) ----------------------------------------------------------
+
+    // ---- Primeiro uso ----------------------------------------------------------------------------
+
+    /// <summary>The welcome appears on the first launch only (and on demand from Ajuda).</summary>
+    private async Task ShowWelcomeIfNewAsync()
+    {
+        var args = Environment.GetCommandLineArgs();
+#if DEBUG
+        // Development screenshots open a page directly: the welcome only when asked with --welcome.
+        if (args.FirstOrDefault(a => a.StartsWith("--welcome", StringComparison.Ordinal)) is { } w) { ShowWelcome(w.Length > 10 && int.TryParse(w[10..], out var n) ? n : 0); return; }
+        if (args.Any(a => a.StartsWith("--page=", StringComparison.Ordinal))) return;
+#endif
+        var store = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<LotusPorts.Core.Preferences.ISettingsStore>(App.Services);
+        try
+        {
+            if (await store.GetAsync(Controls.WelcomeView.DoneKey) == "true") return;
+        }
+        catch (Exception ex)
+        {
+            Serilog.Log.Warning(ex, "Could not read the welcome setting");
+            return; // better to skip the welcome than to show it on every launch
+        }
+        ShowWelcome();
+    }
+
+    public void ShowWelcome(int startStep = 0)
+    {
+        var view = new Controls.WelcomeView { StartStep = startStep };
+        view.Closed += () =>
+        {
+            WelcomeHost.Children.Clear();
+            WelcomeHost.Visibility = Visibility.Collapsed;
+        };
+        WelcomeHost.Children.Clear();
+        WelcomeHost.Children.Add(view);
+        WelcomeHost.Visibility = Visibility.Visible;
+    }
 
     public const string TvModeKey = "general.tvMode";
     private const double TvScale = 1.35;

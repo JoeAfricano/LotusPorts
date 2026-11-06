@@ -627,4 +627,39 @@
   <data name="UpdateAllBody" xml:space="preserve"><value>Lotus Ports downloads the new version of each port, one at a time. The current version is kept and you can go back to it on the game page. Your saves are not touched.</value></data>
   <data name="UpdatingAll" xml:space="preserve"><value>Updating… follow along in Downloads.</value></data>
   <data name="UpdateAllSomeFailed" xml:space="preserve"><value>{0} update(s) did not finish. Open the game to see why.</value></data>
+  <data name="WelcomeBack" xml:space="preserve"><value>Back</value></data>
+  <data name="WelcomeNext" xml:space="preserve"><value>Next</value></data>
+  <data name="WelcomeStart" xml:space="preserve"><value>Start playing</value></data>
+  <data name="WelcomeSkip" xml:space="preserve"><value>Skip</value></data>
+  <data name="WelcomeStepOf" xml:space="preserve"><value>Step {0} of {1}</value></data>
+  <data name="WelcomeEyebrow" xml:space="preserve"><value>WELCOME</value></data>
+  <data name="WelcomeTitle" xml:space="preserve"><value>Your classics, running natively on PC</value></data>
+  <data name="WelcomeBody" xml:space="preserve"><value>Lotus Ports gathers native ports of classic games: it downloads, updates and opens each one in a click. Nothing is downloaded or changed unless you ask.</value></data>
+  <data name="WelcomeHello" xml:space="preserve"><value>Hi, {0}!</value></data>
+  <data name="WelcomeProfileFound" xml:space="preserve"><value>Your profile comes from Lotus. To change your name or picture, use Lotus.</value></data>
+  <data name="WelcomeNoProfile" xml:space="preserve"><value>You don&apos;t have a Lotus profile yet</value></data>
+  <data name="WelcomeNoProfileHint" xml:space="preserve"><value>The profile is created in Lotus and shows up here too. You can do it later.</value></data>
+  <data name="WelcomeOpenLotus" xml:space="preserve"><value>Open Lotus</value></data>
+  <data name="WelcomeGetLotus" xml:space="preserve"><value>Get Lotus</value></data>
+  <data name="WelcomeFilesEyebrow" xml:space="preserve"><value>GAME FILES</value></data>
+  <data name="WelcomeFilesTitle" xml:space="preserve"><value>Where are your game files?</value></data>
+  <data name="WelcomeFilesBody" xml:space="preserve"><value>Many ports need the original game file, which you dump from your own cartridge or disc. Point to the folder and Lotus Ports recognizes each file on its own, without copying or moving anything.</value></data>
+  <data name="WelcomeFilesRow" xml:space="preserve"><value>Game files folder</value></data>
+  <data name="WelcomeFilesRowHint" xml:space="preserve"><value>You can add more folders later in Settings.</value></data>
+  <data name="WelcomeFilesChoose" xml:space="preserve"><value>Choose folder</value></data>
+  <data name="WelcomeFilesNone" xml:space="preserve"><value>No folder chosen yet.</value></data>
+  <data name="WelcomeFilesChosen" xml:space="preserve"><value>Folders: {0}</value></data>
+  <data name="WelcomeFilesLegal" xml:space="preserve"><value>Lotus Ports never downloads game files or points to where to get them.</value></data>
+  <data name="WelcomeStyleEyebrow" xml:space="preserve"><value>YOUR WAY TO PLAY</value></data>
+  <data name="WelcomeStyleTitle" xml:space="preserve"><value>Which style do you prefer?</value></data>
+  <data name="WelcomeStyleBody" xml:space="preserve"><value>When a port offers both options, this is the suggested style. You can change it per game at any time and always undo it.</value></data>
+  <data name="WelcomeThemes" xml:space="preserve"><value>Colors follow your Lotus theme. More themes and banners are in Settings &gt; Appearance.</value></data>
+  <data name="WelcomeThemesLink" xml:space="preserve"><value>Open Appearance</value></data>
+  <data name="WelcomeLotusEyebrow" xml:space="preserve"><value>TOGETHER WITH LOTUS</value></data>
+  <data name="WelcomeLotusTitle" xml:space="preserve"><value>Lotus and controller</value></data>
+  <data name="WelcomeLotusBody" xml:space="preserve"><value>With Lotus open, Lotus Ports gains PC diagnostics and a performance profile per game. Without it, everything works the same.</value></data>
+  <data name="WelcomeGamepad" xml:space="preserve"><value>Use your controller</value></data>
+  <data name="WelcomeGamepadHint" xml:space="preserve"><value>D-pad or stick to move, A to open, B to go back, LB/RB to switch screens, Y to search.</value></data>
+  <data name="WelcomeTv" xml:space="preserve"><value>TV mode</value></data>
+  <data name="WelcomeTvHint" xml:space="preserve"><value>Full screen with everything larger, for the couch. Turn it on in Settings or with the controller&apos;s View button.</value></data>
 </root>

@@ -223,6 +223,9 @@
             Grid.Column="1"
             IsNavigationStackEnabled="False" />
 
+        <!--  First-run welcome, over everything (shown once).  -->
+        <Grid x:Name="WelcomeHost" Grid.ColumnSpan="2" Visibility="Collapsed" />
+
         <!--  Window drag area over the top of the window; caption buttons sit on the right.  -->
         <Border
             x:Name="DragRegion"

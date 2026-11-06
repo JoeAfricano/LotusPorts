@@ -627,4 +627,39 @@
   <data name="UpdateAllBody" xml:space="preserve"><value>O Lotus Ports baixa a versão nova de cada port, um de cada vez. A versão atual fica guardada e você pode voltar a ela na página do jogo. Seus saves não são tocados.</value></data>
   <data name="UpdatingAll" xml:space="preserve"><value>Atualizando… acompanhe em Downloads.</value></data>
   <data name="UpdateAllSomeFailed" xml:space="preserve"><value>{0} atualização(ões) não terminaram. Abra o jogo para ver o motivo.</value></data>
+  <data name="WelcomeBack" xml:space="preserve"><value>Voltar</value></data>
+  <data name="WelcomeNext" xml:space="preserve"><value>Próximo</value></data>
+  <data name="WelcomeStart" xml:space="preserve"><value>Começar a jogar</value></data>
+  <data name="WelcomeSkip" xml:space="preserve"><value>Pular</value></data>
+  <data name="WelcomeStepOf" xml:space="preserve"><value>Passo {0} de {1}</value></data>
+  <data name="WelcomeEyebrow" xml:space="preserve"><value>BEM-VINDO</value></data>
+  <data name="WelcomeTitle" xml:space="preserve"><value>Seus clássicos, rodando nativos no PC</value></data>
+  <data name="WelcomeBody" xml:space="preserve"><value>O Lotus Ports reúne ports nativos de jogos clássicos: baixa, atualiza e abre cada um num clique. Nada é baixado nem alterado sem você pedir.</value></data>
+  <data name="WelcomeHello" xml:space="preserve"><value>Olá, {0}!</value></data>
+  <data name="WelcomeProfileFound" xml:space="preserve"><value>Seu perfil veio do Lotus. Para mudar nome ou foto, use o Lotus.</value></data>
+  <data name="WelcomeNoProfile" xml:space="preserve"><value>Você ainda não tem um perfil do Lotus</value></data>
+  <data name="WelcomeNoProfileHint" xml:space="preserve"><value>O perfil é criado no Lotus e aparece aqui também. Dá para fazer isso depois.</value></data>
+  <data name="WelcomeOpenLotus" xml:space="preserve"><value>Abrir o Lotus</value></data>
+  <data name="WelcomeGetLotus" xml:space="preserve"><value>Baixar o Lotus</value></data>
+  <data name="WelcomeFilesEyebrow" xml:space="preserve"><value>ARQUIVOS DOS JOGOS</value></data>
+  <data name="WelcomeFilesTitle" xml:space="preserve"><value>Onde estão os arquivos dos seus jogos?</value></data>
+  <data name="WelcomeFilesBody" xml:space="preserve"><value>Muitos ports precisam do arquivo do jogo original, que você mesmo tira do seu cartucho ou disco. Indique a pasta e o Lotus Ports reconhece cada arquivo sozinho, sem copiar nem mover nada.</value></data>
+  <data name="WelcomeFilesRow" xml:space="preserve"><value>Pasta dos arquivos de jogos</value></data>
+  <data name="WelcomeFilesRowHint" xml:space="preserve"><value>Você pode adicionar mais pastas depois, em Configurações.</value></data>
+  <data name="WelcomeFilesChoose" xml:space="preserve"><value>Escolher pasta</value></data>
+  <data name="WelcomeFilesNone" xml:space="preserve"><value>Nenhuma pasta escolhida ainda.</value></data>
+  <data name="WelcomeFilesChosen" xml:space="preserve"><value>Pastas: {0}</value></data>
+  <data name="WelcomeFilesLegal" xml:space="preserve"><value>O Lotus Ports nunca baixa nem indica onde baixar arquivos de jogos.</value></data>
+  <data name="WelcomeStyleEyebrow" xml:space="preserve"><value>SEU JEITO DE JOGAR</value></data>
+  <data name="WelcomeStyleTitle" xml:space="preserve"><value>Qual estilo você prefere?</value></data>
+  <data name="WelcomeStyleBody" xml:space="preserve"><value>Quando um port oferece as duas opções, este é o estilo sugerido. Você muda por jogo quando quiser, e sempre dá para desfazer.</value></data>
+  <data name="WelcomeThemes" xml:space="preserve"><value>As cores seguem o tema do Lotus. Mais temas e banners ficam em Configurações &gt; Aparência.</value></data>
+  <data name="WelcomeThemesLink" xml:space="preserve"><value>Abrir a Aparência</value></data>
+  <data name="WelcomeLotusEyebrow" xml:space="preserve"><value>JUNTOS COM O LOTUS</value></data>
+  <data name="WelcomeLotusTitle" xml:space="preserve"><value>Lotus e controle</value></data>
+  <data name="WelcomeLotusBody" xml:space="preserve"><value>Com o Lotus aberto, o Lotus Ports ganha diagnóstico do PC e perfil de desempenho por jogo. Sem ele, tudo funciona do mesmo jeito.</value></data>
+  <data name="WelcomeGamepad" xml:space="preserve"><value>Use o controle</value></data>
+  <data name="WelcomeGamepadHint" xml:space="preserve"><value>Direcional ou analógico para andar, A para abrir, B para voltar, LB/RB para trocar de tela, Y para buscar.</value></data>
+  <data name="WelcomeTv" xml:space="preserve"><value>Modo TV</value></data>
+  <data name="WelcomeTvHint" xml:space="preserve"><value>Tela cheia com tudo maior, para jogar no sofá. Ligue em Configurações ou com o botão View do controle.</value></data>
 </root>

@@ -621,3 +621,38 @@ UpdateAllTitle	Atualizar todos os jogos?	Update all games?
 UpdateAllBody	O Lotus Ports baixa a versão nova de cada port, um de cada vez. A versão atual fica guardada e você pode voltar a ela na página do jogo. Seus saves não são tocados.	Lotus Ports downloads the new version of each port, one at a time. The current version is kept and you can go back to it on the game page. Your saves are not touched.
 UpdatingAll	Atualizando… acompanhe em Downloads.	Updating… follow along in Downloads.
 UpdateAllSomeFailed	{0} atualização(ões) não terminaram. Abra o jogo para ver o motivo.	{0} update(s) did not finish. Open the game to see why.
+WelcomeBack	Voltar	Back
+WelcomeNext	Próximo	Next
+WelcomeStart	Começar a jogar	Start playing
+WelcomeSkip	Pular	Skip
+WelcomeStepOf	Passo {0} de {1}	Step {0} of {1}
+WelcomeEyebrow	BEM-VINDO	WELCOME
+WelcomeTitle	Seus clássicos, rodando nativos no PC	Your classics, running natively on PC
+WelcomeBody	O Lotus Ports reúne ports nativos de jogos clássicos: baixa, atualiza e abre cada um num clique. Nada é baixado nem alterado sem você pedir.	Lotus Ports gathers native ports of classic games: it downloads, updates and opens each one in a click. Nothing is downloaded or changed unless you ask.
+WelcomeHello	Olá, {0}!	Hi, {0}!
+WelcomeProfileFound	Seu perfil veio do Lotus. Para mudar nome ou foto, use o Lotus.	Your profile comes from Lotus. To change your name or picture, use Lotus.
+WelcomeNoProfile	Você ainda não tem um perfil do Lotus	You don't have a Lotus profile yet
+WelcomeNoProfileHint	O perfil é criado no Lotus e aparece aqui também. Dá para fazer isso depois.	The profile is created in Lotus and shows up here too. You can do it later.
+WelcomeOpenLotus	Abrir o Lotus	Open Lotus
+WelcomeGetLotus	Baixar o Lotus	Get Lotus
+WelcomeFilesEyebrow	ARQUIVOS DOS JOGOS	GAME FILES
+WelcomeFilesTitle	Onde estão os arquivos dos seus jogos?	Where are your game files?
+WelcomeFilesBody	Muitos ports precisam do arquivo do jogo original, que você mesmo tira do seu cartucho ou disco. Indique a pasta e o Lotus Ports reconhece cada arquivo sozinho, sem copiar nem mover nada.	Many ports need the original game file, which you dump from your own cartridge or disc. Point to the folder and Lotus Ports recognizes each file on its own, without copying or moving anything.
+WelcomeFilesRow	Pasta dos arquivos de jogos	Game files folder
+WelcomeFilesRowHint	Você pode adicionar mais pastas depois, em Configurações.	You can add more folders later in Settings.
+WelcomeFilesChoose	Escolher pasta	Choose folder
+WelcomeFilesNone	Nenhuma pasta escolhida ainda.	No folder chosen yet.
+WelcomeFilesChosen	Pastas: {0}	Folders: {0}
+WelcomeFilesLegal	O Lotus Ports nunca baixa nem indica onde baixar arquivos de jogos.	Lotus Ports never downloads game files or points to where to get them.
+WelcomeStyleEyebrow	SEU JEITO DE JOGAR	YOUR WAY TO PLAY
+WelcomeStyleTitle	Qual estilo você prefere?	Which style do you prefer?
+WelcomeStyleBody	Quando um port oferece as duas opções, este é o estilo sugerido. Você muda por jogo quando quiser, e sempre dá para desfazer.	When a port offers both options, this is the suggested style. You can change it per game at any time and always undo it.
+WelcomeThemes	As cores seguem o tema do Lotus. Mais temas e banners ficam em Configurações > Aparência.	Colors follow your Lotus theme. More themes and banners are in Settings > Appearance.
+WelcomeThemesLink	Abrir a Aparência	Open Appearance
+WelcomeLotusEyebrow	JUNTOS COM O LOTUS	TOGETHER WITH LOTUS
+WelcomeLotusTitle	Lotus e controle	Lotus and controller
+WelcomeLotusBody	Com o Lotus aberto, o Lotus Ports ganha diagnóstico do PC e perfil de desempenho por jogo. Sem ele, tudo funciona do mesmo jeito.	With Lotus open, Lotus Ports gains PC diagnostics and a performance profile per game. Without it, everything works the same.
+WelcomeGamepad	Use o controle	Use your controller
+WelcomeGamepadHint	Direcional ou analógico para andar, A para abrir, B para voltar, LB/RB para trocar de tela, Y para buscar.	D-pad or stick to move, A to open, B to go back, LB/RB to switch screens, Y to search.
+WelcomeTv	Modo TV	TV mode
+WelcomeTvHint	Tela cheia com tudo maior, para jogar no sofá. Ligue em Configurações ou com o botão View do controle.	Full screen with everything larger, for the couch. Turn it on in Settings or with the controller's View button.
