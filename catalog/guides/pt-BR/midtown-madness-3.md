@@ -1,0 +1,19 @@
+<!-- source: https://github.com/lakshya16157/midtown-madness-3-PC-Native/blob/HEAD/README.md | fingerprint: 0a02db491ec98708 -->
+
+1. **Abra o MM3-Setup.exe.** O Windows pode dizer "O Windows protegeu o computador" porque o arquivo não tem assinatura digital: escolha **Mais informações** e depois **Executar assim mesmo**.
+
+2. **Escolha a imagem do jogo**: uma imagem do seu próprio disco do Midtown Madness 3 de Xbox (`.iso` ou `.xiso`). As versões Europa/Austrália e EUA funcionam. O instalador procura sozinho nas pastas Downloads, Área de Trabalho e Documentos e preenche; ele avisa em palavras simples se um arquivo não é o jogo, é de outra versão ou está incompleto, e mostra quanto espaço a instalação precisa antes de você clicar em Install.
+
+3. **Escolha as opções** (dá para mudar depois rodando o instalador de novo):
+
+- **Add extra cars**: nove carros da comunidade.
+
+- **Add game improvements** (ligado por padrão): padrões de imagem mais nítidos. Desmarque para começar com as configurações de imagem originais do Xbox.
+
+- **DLC oficial** (opcional): indique ao instalador o ZIP ou a pasta da DLC, se você tiver direito a usá-la. Ela acrescenta 14 carros e 40 corridas Blitz e Checkpoint.
+
+4. Clique em **Install** e depois em **Play now**. Depois, abra o jogo pelo atalho **Midtown Madness 3** na Área de Trabalho ou no menu Iniciar (o instalador cria, a não ser que você desmarque), ou pelo **Play Midtown Madness 3.cmd** na pasta de instalação. **Cancel install** para com segurança; a próxima instalação continua de onde parou. Se algo der errado, **Copy details** e **Report a problem on GitHub** aparecem embaixo da barra de progresso. **Uninstall...** (aparece quando o instalador encontra uma instalação na pasta) remove o programa e os atalhos e mantém os seus saves, a não ser que você peça para apagá-los também. **Já instalou?** Rode o instalador novo ao lado da pasta de instalação (ou apontando para ela) e clique em **Update this install**: não precisa da imagem nem da DLC. Ele aproveita os arquivos do jogo e a DLC que você já tem, atualiza o programa do jogo, os carros extras e os atalhos, e mantém saves e configurações. O instalador confere antes se os arquivos do jogo estão completos; se algo faltar ou estiver danificado, ele diz o quê e pede a imagem para reparar.
+
+5. **Atualizações:** clique em **Check for updates** no canto inferior esquerdo do instalador. Se houver uma versão mais nova, ele baixa (conferindo com a soma da versão), se substitui e reabre. Depois, clique em **Update this install** para colocar o programa novo na instalação existente; não precisa da imagem, saves e DLC ficam, e as opções de carros extras e melhorias começam como você deixou. (O instalador 2.1 em diante tem o botão; com um mais antigo, baixe a versão mais recente à mão uma vez.) A janela do launcher do jogo, a que aparece antes do jogo abrir, tem o mesmo botão **Check for updates**: ele baixa o instalador novo (conferido do mesmo jeito) para uma pasta `updates` na instalação, fecha e abre esse instalador já na sua pasta, pronto para **Update this install**. O launcher também tem um **Quick preset** (Low power, Balanced, Quality) na aba Settings que ajusta resolução, anti-aliasing, filtragem, distâncias e limite de FPS de uma vez, um botão **Folders and logs** (pastas do jogo, dos registros e das configurações, e uma cópia da versão e dos caminhos para relatar um erro, sem o seu nome de usuário do Windows), e avisa, em vez de abrir um jogo que não roda, quando faltam arquivos do jogo: rode o instalador de novo com a sua imagem para recolocá-los.
+
+Você precisa do Windows 10 ou 11 (64 bits), de uma placa de vídeo com Direct3D 11 e de cerca de 6 GB livres, ou de Linux / Steam Deck com Proton ou Wine. A primeira abertura mostra os vídeos de introdução por cerca de 3 minutos e meio; o jogo não travou.
