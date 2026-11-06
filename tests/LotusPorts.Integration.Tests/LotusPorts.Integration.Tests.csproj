@@ -11,6 +11,7 @@
     <PackageReference Include="AwesomeAssertions" />
     <PackageReference Include="NSubstitute" />
     <ProjectReference Include="../../src/Lotus.Integration.Contracts/Lotus.Integration.Contracts.csproj" />
+    <ProjectReference Include="../../src/LotusPorts.Integration/LotusPorts.Integration.csproj" />
   </ItemGroup>
   <ItemGroup><Using Include="Xunit" /><Using Include="AwesomeAssertions" /></ItemGroup>
 </Project>
