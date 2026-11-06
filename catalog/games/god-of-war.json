@@ -18,6 +18,10 @@
     {
       "portId": "god-of-war-2005",
       "differencePtBr": null
+    },
+    {
+      "portId": "god-of-war-recomp",
+      "differencePtBr": null
     }
   ],
   "lotusGameKey": "port:god-of-war",

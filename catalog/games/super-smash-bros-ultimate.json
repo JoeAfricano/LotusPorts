@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "super-smash-bros-ultimate",
+  "title": "Super Smash Bros. Ultimate",
+  "originalPlatform": "SWITCH",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Super Smash Bros. Ultimate, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "windowsmash",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-smash-bros-ultimate",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-06",
+    "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+  },
+  "cover": {
+    "url": "https://cdn2.steamgriddb.com/grid/2ef85f2ae5e56041ded26f67e18136be.png",
+    "source": "steamgriddb"
+  }
+}

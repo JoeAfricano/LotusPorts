@@ -12,6 +12,10 @@
     {
       "portId": "soleanna-sonic06-recomp-drummingbird1",
       "differencePtBr": null
+    },
+    {
+      "portId": "marathon-recompiled",
+      "differencePtBr": null
     }
   ],
   "lotusGameKey": "port:sonic-the-hedgehog-2006",

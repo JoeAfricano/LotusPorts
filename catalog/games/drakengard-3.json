@@ -10,7 +10,12 @@
   "descriptionPtBr": "Drakengard 3, lançado originalmente para PlayStation 3, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
   "recommendedPortId": "drakengard-3-recompiled",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "drakengard-3-recompile",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:drakengard-3",
   "review": {
     "state": "approved",

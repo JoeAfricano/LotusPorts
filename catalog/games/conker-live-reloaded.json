@@ -14,6 +14,10 @@
     {
       "portId": "conker-recomped-reloaded",
       "differencePtBr": null
+    },
+    {
+      "portId": "conker-lr-recomp",
+      "differencePtBr": null
     }
   ],
   "lotusGameKey": "port:conker-live-reloaded",

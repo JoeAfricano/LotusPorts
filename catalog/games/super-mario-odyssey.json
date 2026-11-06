@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "super-mario-odyssey",
+  "title": "Super Mario Odyssey",
+  "originalPlatform": "SWITCH",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Super Mario Odyssey, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "smo-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-mario-odyssey",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-06",
+    "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+  },
+  "cover": {
+    "url": "https://cdn2.steamgriddb.com/grid/505870c8848f2d550944bf64008c9472.png",
+    "source": "steamgriddb"
+  }
+}

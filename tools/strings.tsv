@@ -242,6 +242,7 @@ PlatformN3DS	Nintendo 3DS	Nintendo 3DS
 PlatformVIRTUAL_BOY	Virtual Boy	Virtual Boy
 PlatformWII	Wii	Wii
 PlatformSWITCH	Nintendo Switch	Nintendo Switch
+PlatformSWITCH_2	Nintendo Switch 2	Nintendo Switch 2
 PlatformPS3	PlayStation 3	PlayStation 3
 PlatformPS4	PlayStation 4	PlayStation 4
 PlatformPS5	PlayStation 5	PlayStation 5
@@ -401,3 +402,5 @@ GuideHint	Passos dos autores do port no GitHub, só a parte para Windows. O bot�
 GuideHintEnglish	Passos dos autores do port no GitHub, em inglês (ainda sem tradução), só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.	Steps by the port's authors on GitHub, only the part for Windows. The button above already downloads, extracts and opens the game for you.
 GuideHintTranslated	Tradução do Lotus Ports dos passos que os autores escreveram em inglês no GitHub, só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.	Lotus Ports translation of the steps the authors wrote on GitHub, only the part for Windows. The button above already downloads, extracts and opens the game for you.
 GuideHintOutdated	Os autores mudaram o original depois desta tradução; veja a versão atual no GitHub.	The authors changed the original after this translation; see the current one on GitHub.
+PlayFailedQuickly	O jogo fechou logo depois de abrir. Clique em Resolver para ver o motivo.	The game closed right after opening. Click Fix it to see why.
+GameOnlyPortBuilding	Único projeto deste jogo no catálogo. Ainda não tem versão para baixar; acompanhe pela página oficial.	The only project for this game in the catalog. There is no version to download yet; follow it on the official page.

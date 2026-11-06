@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ufc4-native",
+  "gameId": "ea-sports-ufc-4",
+  "title": "UFC4 Native",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "schans-arg",
+    "name": "UFC4-PC-Port"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^UFC4Native-ufc4-.*view\\.1-windows-x.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "UFC4.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/schans-arg/UFC4-PC-Port",
+    "docs": "https://github.com/schans-arg/UFC4-PC-Port#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-06",
+    "releaseTag": "ufc4-v0.0.11-preview.1",
+    "releaseDate": "2026-10-17",
+    "stars": 28,
+    "prerelease": true,
+    "assetName": "UFC4Native-ufc4-v0.0.11-preview.1-windows-x86_64.zip",
+    "assetSize": 20922475,
+    "assetSha256": "6e116b76a289146621ea417c9ff82689a93ca93c70f05e84cf30ec542cdde17a"
+  }
+}

@@ -21,7 +21,7 @@
     "url": { "type": "string", "format": "uri", "pattern": "^https://" },
     "optionalUrl": { "type": ["string", "null"], "format": "uri", "pattern": "^https://" },
     "date": { "type": ["string", "null"], "format": "date" },
-    "platform": { "enum": ["N64", "SNES", "NES", "GB", "GBC", "GBA", "NDS", "N3DS", "VIRTUAL_BOY", "GAMECUBE", "WII", "WII_U", "SWITCH", "PS1", "PS2", "PS3", "PS4", "PS5", "PSP", "XBOX", "XBOX_360", "GENESIS", "SEGA_32X", "GAME_GEAR", "SATURN", "DREAMCAST", "ARCADE", "CDI", "AMIGA", "PC", "MOBILE", "OTHER"] },
+    "platform": { "enum": ["N64", "SNES", "NES", "GB", "GBC", "GBA", "NDS", "N3DS", "VIRTUAL_BOY", "GAMECUBE", "WII", "WII_U", "SWITCH", "SWITCH_2", "PS1", "PS2", "PS3", "PS4", "PS5", "PSP", "XBOX", "XBOX_360", "GENESIS", "SEGA_32X", "GAME_GEAR", "SATURN", "DREAMCAST", "ARCADE", "CDI", "AMIGA", "PC", "MOBILE", "OTHER"] },
     "review": {
       "type": "object",
       "additionalProperties": false,

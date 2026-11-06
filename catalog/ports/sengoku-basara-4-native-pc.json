@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "sengoku-basara-4-native-pc",
+  "gameId": "sengoku-basara-4-sumeragi",
+  "title": "Sengoku Basara 4 Native PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "razzconnect",
+    "name": "basara4-native-pc"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^basara4-windows-.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Sengoku Basara 4.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/razzconnect/basara4-native-pc",
+    "docs": "https://github.com/razzconnect/basara4-native-pc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-06",
+    "releaseTag": "v1.0.6",
+    "releaseDate": "2026-11-04",
+    "stars": 58,
+    "prerelease": false,
+    "assetName": "basara4-windows-v1.06.zip",
+    "assetSize": 86513945,
+    "assetSha256": "2dbe7502eec9434b91a425dea2bc4970e4eb00b1c86668b31ad81b3e42ccbadb"
+  }
+}

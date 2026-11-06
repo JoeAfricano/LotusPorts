@@ -1,0 +1,28 @@
+{
+  "source": "Busca no GitHub em 06/11/2026 por recompilações de consoles recentes (Switch 2, Switch, PS4, PS5) e outras para Windows. Só fatos: qual jogo cada repositório porta, segundo a descrição e o README do próprio projeto. Tudo conferido pelo CatalogScout (scan-modern.json).",
+  "fetched": "2026-11-06",
+  "entries": [
+    { "repo": "raulzrrs/swsh-recomp", "app": "SwSh Recomp", "game": "Pokémon Sword and Shield", "origin": "switch", "genre": "rpg", "windows": "SwShRecomp-*-windows.zip", "exe": "SwShRecomp.exe" },
+    { "repo": "ZuanCrisp/Zelda-TOTK-Port", "app": "TotK Port", "game": "The Legend of Zelda: Tears of the Kingdom", "origin": "switch", "genre": "adventure", "windows": "TotK-Setup-*-windows.zip", "exe": "TotK-Setup.exe" },
+    { "repo": "IgorAugustoHH/The-Order-1886-PC-Port", "app": "TOport", "game": "The Order: 1886", "origin": "ps4", "genre": "shooter", "windows": "TOport-Windows.zip", "exe": "TOport.exe" },
+    { "repo": "lxnis/Order1886-PC", "app": "Order1886-PC", "game": "The Order: 1886", "origin": "ps4", "genre": "shooter", "windows": "Order1886-PC-portable-windows.zip", "exe": "Order1886-Launcher.exe" },
+    { "repo": "schans-arg/UFC4-PC-Port", "app": "UFC4 Native", "game": "EA Sports UFC 4", "origin": "ps4", "genre": "fighting", "windows": "UFC4Native-*-windows-x86_64.zip", "exe": "UFC4.exe" },
+    { "repo": "schans-arg/NHL24-PC-Port", "app": "NHL24 Native", "game": "NHL 24", "origin": "ps4", "genre": "sports", "windows": "NHL24Native-*-windows-x86_64.zip", "exe": "NHL 24.exe" },
+    { "repo": "razzconnect/basara4-native-pc", "app": "Sengoku Basara 4 Native PC", "game": "Sengoku Basara 4 Sumeragi", "origin": "ps4", "genre": "action", "windows": "basara4-windows-*.zip", "exe": "Sengoku Basara 4.exe" },
+    { "repo": "rashevskyv/conker-lr-recomp", "app": "Conker LR Recomp", "game": "Conker: Live & Reloaded", "origin": "xbox", "genre": "action", "windows": "conker-lr-recomp-windows-*.zip", "exe": "clx.exe" },
+    { "repo": "whylurking/IsaacRecomp", "app": "IsaacRecomp", "game": "The Binding of Isaac", "origin": "pc", "genre": "action", "windows": "IsaacRecomp_Win64.zip", "exe": "IsaacRecomp.exe" },
+
+    { "repo": "Lucas-blip-png/dkb-pc-recomp", "app": "DKB PC Recomp", "game": "Donkey Kong Bananza", "origin": "switch2", "genre": "platformer", "soon": true },
+    { "repo": "Coz-0/smo-recomp", "app": "SMO Recomp", "game": "Super Mario Odyssey", "origin": "switch", "genre": "platformer", "soon": true },
+    { "repo": "Nycolazs/EoWRecomp", "app": "EoW Recomp", "game": "The Legend of Zelda: Echoes of Wisdom", "origin": "switch", "genre": "adventure", "soon": true },
+    { "repo": "OpenSmash-Ultimate/WindowSmash", "app": "WindowSmash", "game": "Super Smash Bros. Ultimate", "origin": "switch", "genre": "fighting", "soon": true },
+    { "repo": "sonicnext-dev/MarathonRecomp", "app": "Marathon Recompiled", "game": "Sonic the Hedgehog (2006)", "origin": "x360", "genre": "platformer", "soon": true },
+    { "repo": "KIexster/god-of-war-recomp", "app": "God of War Recomp", "game": "God of War", "origin": "ps2", "genre": "action", "soon": true },
+    { "repo": "Castlesea/infamous-second-son-pc-port", "app": "inFAMOUS Second Son PC Port", "game": "inFAMOUS Second Son", "origin": "ps4", "genre": "action", "soon": true },
+    { "repo": "BlackLineInteractive/Driveclub-Port", "app": "Driveclub Port", "game": "Driveclub", "origin": "ps4", "genre": "racing", "soon": true },
+    { "repo": "TheNIKITO/LittleBigPlanet-3---PC", "app": "LittleBigPlanet 3 PC", "game": "LittleBigPlanet 3", "origin": "ps4", "genre": "platformer", "soon": true },
+    { "repo": "guichiapini/sotcport", "app": "SotC Port", "game": "Shadow of the Colossus", "origin": "ps4", "genre": "adventure", "soon": true },
+    { "repo": "WK2D/White-Knight-Chronicles-2-Recomp", "app": "White Knight Chronicles II Recomp", "game": "White Knight Chronicles II", "origin": "ps3", "genre": "rpg", "soon": true },
+    { "repo": "k1gs/Drakengard3Recompile", "app": "Drakengard 3 Recompile", "game": "Drakengard 3", "origin": "ps3", "genre": "action", "soon": true }
+  ]
+}

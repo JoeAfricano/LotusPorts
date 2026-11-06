@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "white-knight-chronicles-ii",
+  "title": "White Knight Chronicles II",
+  "originalPlatform": "PS3",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "White Knight Chronicles II, lançado originalmente para PlayStation 3, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "white-knight-chronicles-ii-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:white-knight-chronicles-ii",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-06",
+    "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+  },
+  "cover": {
+    "url": "https://cdn2.steamgriddb.com/grid/f7217487b0be00f475ba135450bff62c.png",
+    "source": "steamgriddb"
+  }
+}

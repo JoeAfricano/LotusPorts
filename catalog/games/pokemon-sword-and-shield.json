@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pokemon-sword-and-shield",
+  "title": "Pokémon Sword and Shield",
+  "originalPlatform": "SWITCH",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Pokémon Sword and Shield, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "swsh-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:pokemon-sword-and-shield",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-06",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "the-binding-of-isaac",
+  "title": "The Binding of Isaac",
+  "originalPlatform": "PC",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "The Binding of Isaac, lançado originalmente para PC, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "isaacrecomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:the-binding-of-isaac",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-06",
+    "notesPtBr": null
+  },
+  "cover": {
+    "url": "https://cdn2.steamgriddb.com/grid/9de4daf39d31cf4f464f452ac8278991.png",
+    "source": "steamgriddb"
+  }
+}

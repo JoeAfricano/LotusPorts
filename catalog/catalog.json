@@ -2065,6 +2065,10 @@
         {
           "portId": "conker-recomped-reloaded",
           "differencePtBr": null
+        },
+        {
+          "portId": "conker-lr-recomp",
+          "differencePtBr": null
         }
       ],
       "lotusGameKey": "port:conker-live-reloaded",
@@ -3240,6 +3244,31 @@
     },
     {
       "schemaVersion": 1,
+      "id": "donkey-kong-bananza",
+      "title": "Donkey Kong Bananza",
+      "originalPlatform": "SWITCH_2",
+      "releaseYear": null,
+      "genre": [
+        "plataforma"
+      ],
+      "descriptionPtBr": "Donkey Kong Bananza, lançado originalmente para Nintendo Switch 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "dkb-pc-recomp",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:donkey-kong-bananza",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/4e8f053b3087c9ecc66e2488b1551c72.png",
+        "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "donkey-kong-country-2-diddy-s-kong-quest",
       "title": "Donkey Kong Country 2: Diddy's Kong Quest",
       "originalPlatform": "SNES",
@@ -3758,7 +3787,12 @@
       "descriptionPtBr": "Drakengard 3, lançado originalmente para PlayStation 3, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "drakengard-3-recompiled",
       "recommendationReasonPtBr": null,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "portId": "drakengard-3-recompile",
+          "differencePtBr": null
+        }
+      ],
       "lotusGameKey": "port:drakengard-3",
       "review": {
         "state": "approved",
@@ -3901,6 +3935,27 @@
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/0607c476aa07de588bf6c695b9637131.png",
         "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ea-sports-ufc-4",
+      "title": "EA Sports UFC 4",
+      "originalPlatform": "PS4",
+      "releaseYear": null,
+      "genre": [
+        "luta"
+      ],
+      "descriptionPtBr": "EA Sports UFC 4, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "ufc4-native",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:ea-sports-ufc-4",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -4886,6 +4941,10 @@
         {
           "portId": "god-of-war-2005",
           "differencePtBr": null
+        },
+        {
+          "portId": "god-of-war-recomp",
+          "differencePtBr": null
         }
       ],
       "lotusGameKey": "port:god-of-war",
@@ -5865,6 +5924,10 @@
         {
           "portId": "issn-pc",
           "differencePtBr": null
+        },
+        {
+          "portId": "infamous-second-son-pc-port",
+          "differencePtBr": null
         }
       ],
       "lotusGameKey": "port:infamous-second-son",
@@ -6828,6 +6891,31 @@
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/5ff9bd734320ce13faf293ef5a6e4743.png",
+        "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "littlebigplanet-3",
+      "title": "LittleBigPlanet 3",
+      "originalPlatform": "PS4",
+      "releaseYear": null,
+      "genre": [
+        "plataforma"
+      ],
+      "descriptionPtBr": "LittleBigPlanet 3, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "littlebigplanet-3-pc",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:littlebigplanet-3",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/f36d015d428b570f21a7e947146729d5.png",
         "source": "steamgriddb"
       }
     },
@@ -8766,6 +8854,31 @@
     },
     {
       "schemaVersion": 1,
+      "id": "nhl-24",
+      "title": "NHL 24",
+      "originalPlatform": "PS4",
+      "releaseYear": null,
+      "genre": [
+        "esporte"
+      ],
+      "descriptionPtBr": "NHL 24, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "nhl24-native",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:nhl-24",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/b0242fc29460d29732416d2cae0ab006.png",
+        "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "nhl-2k8",
       "title": "NHL 2K8",
       "originalPlatform": "XBOX_360",
@@ -9711,6 +9824,27 @@
     },
     {
       "schemaVersion": 1,
+      "id": "pokemon-sword-and-shield",
+      "title": "Pokémon Sword and Shield",
+      "originalPlatform": "SWITCH",
+      "releaseYear": null,
+      "genre": [
+        "RPG"
+      ],
+      "descriptionPtBr": "Pokémon Sword and Shield, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "swsh-recomp",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:pokemon-sword-and-shield",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": null
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "pokemon-trading-card-game-2-the-invasion-of-team-gr",
       "title": "Pokémon Trading Card Game 2: The Invasion of Team GR!",
       "originalPlatform": "GBC",
@@ -10512,6 +10646,31 @@
     },
     {
       "schemaVersion": 1,
+      "id": "sengoku-basara-4-sumeragi",
+      "title": "Sengoku Basara 4 Sumeragi",
+      "originalPlatform": "PS4",
+      "releaseYear": null,
+      "genre": [
+        "ação"
+      ],
+      "descriptionPtBr": "Sengoku Basara 4 Sumeragi, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "sengoku-basara-4-native-pc",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:sengoku-basara-4-sumeragi",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/d681447081ede4845d9aca8c2706a365.png",
+        "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "serial-experiments-lain",
       "title": "Serial Experiments Lain",
       "originalPlatform": "PS1",
@@ -10603,6 +10762,31 @@
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/03440368ae777a908ab20b6fb052a69e.jpg",
+        "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "shadow-of-the-colossus",
+      "title": "Shadow of the Colossus",
+      "originalPlatform": "PS4",
+      "releaseYear": null,
+      "genre": [
+        "aventura"
+      ],
+      "descriptionPtBr": "Shadow of the Colossus, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "sotc-port",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:shadow-of-the-colossus",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/acaca856b38c00847ecc1ca2c02ae4b4.png",
         "source": "steamgriddb"
       }
     },
@@ -11307,6 +11491,10 @@
       "alternatives": [
         {
           "portId": "soleanna-sonic06-recomp-drummingbird1",
+          "differencePtBr": null
+        },
+        {
+          "portId": "marathon-recompiled",
           "differencePtBr": null
         }
       ],
@@ -12458,6 +12646,31 @@
     },
     {
       "schemaVersion": 1,
+      "id": "super-mario-odyssey",
+      "title": "Super Mario Odyssey",
+      "originalPlatform": "SWITCH",
+      "releaseYear": null,
+      "genre": [
+        "plataforma"
+      ],
+      "descriptionPtBr": "Super Mario Odyssey, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "smo-recomp",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:super-mario-odyssey",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/505870c8848f2d550944bf64008c9472.png",
+        "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "super-mario-rpg-legend-of-the-seven-stars",
       "title": "Super Mario RPG: Legend of the Seven Stars",
       "originalPlatform": "SNES",
@@ -12773,6 +12986,31 @@
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/6bc12f11f086c6c9dd8d09f936775fce.png",
+        "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "super-smash-bros-ultimate",
+      "title": "Super Smash Bros. Ultimate",
+      "originalPlatform": "SWITCH",
+      "releaseYear": null,
+      "genre": [
+        "luta"
+      ],
+      "descriptionPtBr": "Super Smash Bros. Ultimate, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "windowsmash",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:super-smash-bros-ultimate",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/2ef85f2ae5e56041ded26f67e18136be.png",
         "source": "steamgriddb"
       }
     },
@@ -13185,6 +13423,31 @@
     },
     {
       "schemaVersion": 1,
+      "id": "the-binding-of-isaac",
+      "title": "The Binding of Isaac",
+      "originalPlatform": "PC",
+      "releaseYear": null,
+      "genre": [
+        "ação"
+      ],
+      "descriptionPtBr": "The Binding of Isaac, lançado originalmente para PC, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "isaacrecomp",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:the-binding-of-isaac",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/9de4daf39d31cf4f464f452ac8278991.png",
+        "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "the-darkness",
       "title": "The Darkness",
       "originalPlatform": "XBOX_360",
@@ -13461,6 +13724,31 @@
     },
     {
       "schemaVersion": 1,
+      "id": "the-legend-of-zelda-echoes-of-wisdom",
+      "title": "The Legend of Zelda: Echoes of Wisdom",
+      "originalPlatform": "SWITCH",
+      "releaseYear": null,
+      "genre": [
+        "aventura"
+      ],
+      "descriptionPtBr": "The Legend of Zelda: Echoes of Wisdom, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "eow-recomp",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:the-legend-of-zelda-echoes-of-wisdom",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/e488d6f4064e1584c115f2cd7bed74f0.png",
+        "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "the-legend-of-zelda-link-s-awakening",
       "title": "The Legend of Zelda: Link's Awakening",
       "originalPlatform": "SWITCH",
@@ -13634,6 +13922,10 @@
         {
           "portId": "weeping-of-the-empire-daniel-madrid-07",
           "differencePtBr": null
+        },
+        {
+          "portId": "totk-port",
+          "differencePtBr": null
         }
       ],
       "lotusGameKey": "port:the-legend-of-zelda-tears-of-the-kingdom",
@@ -13713,7 +14005,16 @@
       "descriptionPtBr": "The Order: 1886, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "the-order-1886-pc-native-port",
       "recommendationReasonPtBr": null,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "portId": "toport",
+          "differencePtBr": null
+        },
+        {
+          "portId": "order1886-pc",
+          "differencePtBr": null
+        }
+      ],
       "lotusGameKey": "port:the-order-1886",
       "review": {
         "state": "approved",
@@ -15108,6 +15409,31 @@
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/fc60d6b831c51fa39e7fefd8b7479064.png",
+        "source": "steamgriddb"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "white-knight-chronicles-ii",
+      "title": "White Knight Chronicles II",
+      "originalPlatform": "PS3",
+      "releaseYear": null,
+      "genre": [
+        "RPG"
+      ],
+      "descriptionPtBr": "White Knight Chronicles II, lançado originalmente para PlayStation 3, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "recommendedPortId": "white-knight-chronicles-ii-recomp",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:white-knight-chronicles-ii",
+      "review": {
+        "state": "approved",
+        "by": "Claude (curadoria delegada pelo José)",
+        "at": "2026-11-06",
+        "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/f7217487b0be00f475ba135450bff62c.png",
         "source": "steamgriddb"
       }
     },
@@ -24210,6 +24536,78 @@
     },
     {
       "schemaVersion": 1,
+      "id": "conker-lr-recomp",
+      "gameId": "conker-live-reloaded",
+      "title": "Conker LR Recomp",
+      "portType": "static-recomp",
+      "status": "NAO_AVALIADO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "rashevskyv",
+        "name": "conker-lr-recomp"
+      },
+      "license": "MIT",
+      "windowsAsset": {
+        "pattern": "(?i)^conker-lr-recomp-windows-.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": "clx.exe",
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/rashevskyv/conker-lr-recomp",
+        "docs": "https://github.com/rashevskyv/conker-lr-recomp#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "releaseTag": "v0.56.0",
+        "releaseDate": "2026-11-03",
+        "stars": 28,
+        "prerelease": true,
+        "assetName": "conker-lr-recomp-windows-v0.56.zip",
+        "assetSize": 13896580,
+        "assetSha256": "5e30a709d8cf278c67c6d0434f4085c59a41fe1cb262529d92e7e332c34edc7c"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "conker-recomp",
       "gameId": "conker-live-reloaded",
       "title": "Conker Recomp",
@@ -27906,6 +28304,73 @@
     },
     {
       "schemaVersion": 1,
+      "id": "dkb-pc-recomp",
+      "gameId": "donkey-kong-bananza",
+      "title": "DKB PC Recomp",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "Lucas-blip-png",
+        "name": "dkb-pc-recomp"
+      },
+      "license": "GPL-3.0",
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
+        "docs": "https://github.com/Lucas-blip-png/dkb-pc-recomp#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 243,
+        "prerelease": false
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "dkc1-recomp-co-op",
       "gameId": "donkey-kong-country",
       "title": "DKC1 Recomp Co-op",
@@ -30105,6 +30570,73 @@
     },
     {
       "schemaVersion": 1,
+      "id": "drakengard-3-recompile",
+      "gameId": "drakengard-3",
+      "title": "Drakengard 3 Recompile",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "k1gs",
+        "name": "Drakengard3Recompile"
+      },
+      "license": null,
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/k1gs/Drakengard3Recompile",
+        "docs": "https://github.com/k1gs/Drakengard3Recompile#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 5,
+        "prerelease": false
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "drakengard-3-recompiled",
       "gameId": "drakengard-3",
       "title": "Drakengard 3 Recompiled",
@@ -31201,6 +31733,73 @@
         "assetName": "EnchantedArmsPC-0.5.8-windows-x64.zip",
         "assetSize": 32490245,
         "assetSha256": "8c6f26dec0da3b990de6cd5c09122136717252b79e393c1e4e9f43ff52e62881"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "eow-recomp",
+      "gameId": "the-legend-of-zelda-echoes-of-wisdom",
+      "title": "EoW Recomp",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "Nycolazs",
+        "name": "EoWRecomp"
+      },
+      "license": null,
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/Nycolazs/EoWRecomp",
+        "docs": "https://github.com/Nycolazs/EoWRecomp#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 93,
+        "prerelease": false
       }
     },
     {
@@ -35703,6 +36302,73 @@
     },
     {
       "schemaVersion": 1,
+      "id": "god-of-war-recomp",
+      "gameId": "god-of-war",
+      "title": "God of War Recomp",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "KIexster",
+        "name": "god-of-war-recomp"
+      },
+      "license": "GPL-3.0",
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/KIexster/god-of-war-recomp",
+        "docs": "https://github.com/KIexster/god-of-war-recomp#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 227,
+        "prerelease": false
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "goemon-s-great-adventure-recompiled",
       "gameId": "goemon-s-great-adventure",
       "title": "Goemon's Great Adventure: Recompiled",
@@ -39030,6 +39696,73 @@
     },
     {
       "schemaVersion": 1,
+      "id": "infamous-second-son-pc-port",
+      "gameId": "infamous-second-son",
+      "title": "inFAMOUS Second Son PC Port",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "Castlesea",
+        "name": "infamous-second-son-pc-port"
+      },
+      "license": null,
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/Castlesea/infamous-second-son-pc-port",
+        "docs": "https://github.com/Castlesea/infamous-second-son-pc-port#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 165,
+        "prerelease": false
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "infamous-second-son-pc",
       "gameId": "infamous-second-son",
       "title": "inFAMOUS Second Son PC",
@@ -39170,6 +39903,78 @@
         "assetName": "infinite-mario-64-ever.v0.1.5.windows.zip",
         "assetSize": 47971173,
         "assetSha256": "5bb8e4e694a4e3bcf236371751b7a101aad3230c42b6fada9f7dfb58d75135dd"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "isaacrecomp",
+      "gameId": "the-binding-of-isaac",
+      "title": "IsaacRecomp",
+      "portType": "static-recomp",
+      "status": "NAO_AVALIADO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "whylurking",
+        "name": "IsaacRecomp"
+      },
+      "license": null,
+      "windowsAsset": {
+        "pattern": "(?i)^IsaacRecomp_Win64\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": false,
+        "packageType": "zip"
+      },
+      "executable": "IsaacRecomp.exe",
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/whylurking/IsaacRecomp",
+        "docs": "https://github.com/whylurking/IsaacRecomp#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "releaseTag": "v1.5.0",
+        "releaseDate": "2026-10-30",
+        "stars": 77,
+        "prerelease": false,
+        "assetName": "IsaacRecomp_Win64.zip",
+        "assetSize": 6687330,
+        "assetSha256": "c1b1aa37fef038a5ce3ab61f409f534a72b7c34d8984055e43a4599476d9f057"
       }
     },
     {
@@ -42445,6 +43250,73 @@
     },
     {
       "schemaVersion": 1,
+      "id": "littlebigplanet-3-pc",
+      "gameId": "littlebigplanet-3",
+      "title": "LittleBigPlanet 3 PC",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "TheNIKITO",
+        "name": "LittleBigPlanet-3---PC"
+      },
+      "license": "GPL-2.0",
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/TheNIKITO/LittleBigPlanet-3---PC",
+        "docs": "https://github.com/TheNIKITO/LittleBigPlanet-3---PC#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 6,
+        "prerelease": false
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "looney-tunes-b-ball-recompiled",
       "gameId": "looney-tunes-b-ball",
       "title": "Looney Tunes B-Ball Recompiled",
@@ -42945,6 +43817,73 @@
         "assetName": "Majora-ReMasked-0.4.3-Windows-x64.zip",
         "assetSize": 101846425,
         "assetSha256": "e944254fa98a8cc88197c3abb5aea1caab503fa38921d1c980ab91b9b93ded51"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "marathon-recompiled",
+      "gameId": "sonic-the-hedgehog-2006",
+      "title": "Marathon Recompiled",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "sonicnext-dev",
+        "name": "MarathonRecomp"
+      },
+      "license": "GPL-3.0",
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/sonicnext-dev/MarathonRecomp",
+        "docs": "https://github.com/sonicnext-dev/MarathonRecomp#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 736,
+        "prerelease": false
       }
     },
     {
@@ -47716,6 +48655,78 @@
     },
     {
       "schemaVersion": 1,
+      "id": "nhl24-native",
+      "gameId": "nhl-24",
+      "title": "NHL24 Native",
+      "portType": "decomp-port",
+      "status": "NAO_AVALIADO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "schans-arg",
+        "name": "NHL24-PC-Port"
+      },
+      "license": "GPL-2.0",
+      "windowsAsset": {
+        "pattern": "(?i)^NHL24Native-nhl24-.*view\\.1-windows-x.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": "NHL 24.exe",
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/schans-arg/NHL24-PC-Port",
+        "docs": "https://github.com/schans-arg/NHL24-PC-Port#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "releaseTag": "nhl24-v0.1.0-preview.1",
+        "releaseDate": "2026-10-17",
+        "stars": 6,
+        "prerelease": true,
+        "assetName": "NHL24Native-nhl24-v0.1.0-preview.1-windows-x86_64.zip",
+        "assetSize": 41527304,
+        "assetSha256": "e58e10fc7318e450aea024754e6095bf918c572125c6b1179bc7079465ab1c6e"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "ninety-four",
       "gameId": "nhl-94",
       "title": "ninety-four",
@@ -49835,6 +50846,78 @@
         "assetName": "Oratan-recomp-0.3.0-win64.zip",
         "assetSize": 13618911,
         "assetSha256": "0682d414875fa011b78c7eddfb660790d0ac88eb8f34e505bf06a560f78fbf1a"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "order1886-pc",
+      "gameId": "the-order-1886",
+      "title": "Order1886-PC",
+      "portType": "decomp-port",
+      "status": "NAO_AVALIADO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "lxnis",
+        "name": "Order1886-PC"
+      },
+      "license": "GPL-2.0",
+      "windowsAsset": {
+        "pattern": "(?i)^Order1886-PC-portable-windows\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": false,
+        "packageType": "zip"
+      },
+      "executable": "Order1886-Launcher.exe",
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/lxnis/Order1886-PC",
+        "docs": "https://github.com/lxnis/Order1886-PC#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "releaseTag": "v0.2.2",
+        "releaseDate": "2026-10-29",
+        "stars": 10,
+        "prerelease": false,
+        "assetName": "Order1886-PC-portable-windows.zip",
+        "assetSize": 108643195,
+        "assetSha256": "8c6413f4ee24e056254979f2981479e62ad09c4aadaf24f76221a431157f3009"
       }
     },
     {
@@ -57909,6 +58992,78 @@
     },
     {
       "schemaVersion": 1,
+      "id": "sengoku-basara-4-native-pc",
+      "gameId": "sengoku-basara-4-sumeragi",
+      "title": "Sengoku Basara 4 Native PC",
+      "portType": "decomp-port",
+      "status": "NAO_AVALIADO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "razzconnect",
+        "name": "basara4-native-pc"
+      },
+      "license": "GPL-2.0",
+      "windowsAsset": {
+        "pattern": "(?i)^basara4-windows-.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": false,
+        "packageType": "zip"
+      },
+      "executable": "Sengoku Basara 4.exe",
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/razzconnect/basara4-native-pc",
+        "docs": "https://github.com/razzconnect/basara4-native-pc#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "releaseTag": "v1.0.6",
+        "releaseDate": "2026-11-04",
+        "stars": 58,
+        "prerelease": false,
+        "assetName": "basara4-windows-v1.06.zip",
+        "assetSize": 86513945,
+        "assetSha256": "2dbe7502eec9434b91a425dea2bc4970e4eb00b1c86668b31ad81b3e42ccbadb"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "serial-experiments-lain-psx",
       "gameId": "serial-experiments-lain",
       "title": "Serial Experiments Lain PSX",
@@ -59986,6 +61141,73 @@
     },
     {
       "schemaVersion": 1,
+      "id": "smo-recomp",
+      "gameId": "super-mario-odyssey",
+      "title": "SMO Recomp",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "Coz-0",
+        "name": "smo-recomp"
+      },
+      "license": "GPL-3.0",
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/Coz-0/smo-recomp",
+        "docs": "https://github.com/Coz-0/smo-recomp#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 68,
+        "prerelease": false
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "sms-launcher",
       "gameId": "super-mario-sunshine",
       "title": "SMS Launcher",
@@ -60872,6 +62094,73 @@
         "assetName": "SonsOfSparta-PS5-Native-0.4.2-win64.zip",
         "assetSize": 64630503,
         "assetSha256": "9553b4ec88349d2e1ddf8f452e5667e72641f007e0576893d0e37c7321e27f49"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "sotc-port",
+      "gameId": "shadow-of-the-colossus",
+      "title": "SotC Port",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "guichiapini",
+        "name": "sotcport"
+      },
+      "license": "GPL-2.0",
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/guichiapini/sotcport",
+        "docs": "https://github.com/guichiapini/sotcport#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 4,
+        "prerelease": false
       }
     },
     {
@@ -64763,6 +66052,78 @@
     },
     {
       "schemaVersion": 1,
+      "id": "swsh-recomp",
+      "gameId": "pokemon-sword-and-shield",
+      "title": "SwSh Recomp",
+      "portType": "static-recomp",
+      "status": "NAO_AVALIADO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "raulzrrs",
+        "name": "swsh-recomp"
+      },
+      "license": null,
+      "windowsAsset": {
+        "pattern": "(?i)^SwShRecomp-.*-windows\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": "SwShRecomp.exe",
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/raulzrrs/swsh-recomp",
+        "docs": "https://github.com/raulzrrs/swsh-recomp#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "releaseTag": "v0.1.0",
+        "releaseDate": "2026-10-22",
+        "stars": 24,
+        "prerelease": true,
+        "assetName": "SwShRecomp-0.1.0-windows.zip",
+        "assetSize": 88606202,
+        "assetSha256": "5878e562c37da8bdc67c977b8c55083e606be6ada42b84eb382051dfde15577f"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "symphony-recomp",
       "gameId": "castlevania-symphony-of-the-night",
       "title": "SymphonyRecomp",
@@ -68121,6 +69482,150 @@
     },
     {
       "schemaVersion": 1,
+      "id": "toport",
+      "gameId": "the-order-1886",
+      "title": "TOport",
+      "portType": "decomp-port",
+      "status": "NAO_AVALIADO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "IgorAugustoHH",
+        "name": "The-Order-1886-PC-Port"
+      },
+      "license": "GPL-2.0",
+      "windowsAsset": {
+        "pattern": "(?i)^TOport-Windows\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": "TOport.exe",
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/IgorAugustoHH/The-Order-1886-PC-Port",
+        "docs": "https://github.com/IgorAugustoHH/The-Order-1886-PC-Port#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "releaseTag": "v0.1.7",
+        "releaseDate": "2026-11-01",
+        "stars": 147,
+        "prerelease": true,
+        "assetName": "TOport-Windows.zip",
+        "assetSize": 105612065,
+        "assetSha256": "2482d030bdd12dcfae33c703f03d1e346287db4f3fe61aa984a8419d517d06a6"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "totk-port",
+      "gameId": "the-legend-of-zelda-tears-of-the-kingdom",
+      "title": "TotK Port",
+      "portType": "decomp-port",
+      "status": "NAO_AVALIADO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "ZuanCrisp",
+        "name": "Zelda-TOTK-Port"
+      },
+      "license": "MIT",
+      "windowsAsset": {
+        "pattern": "(?i)^TotK-Setup-.*-windows\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": false,
+        "packageType": "zip"
+      },
+      "executable": "TotK-Setup.exe",
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/ZuanCrisp/Zelda-TOTK-Port",
+        "docs": "https://github.com/ZuanCrisp/Zelda-TOTK-Port#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "releaseTag": "v0.3.7",
+        "releaseDate": "2026-11-04",
+        "stars": 9,
+        "prerelease": false,
+        "assetName": "TotK-Setup-0.3.7-windows.zip",
+        "assetSize": 143294704,
+        "assetSha256": "d73ce79580d0845eac04be8cc2d9f7b6b514cdfff9d00e264072f2356af6c499"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "totk-recomp",
       "gameId": "the-legend-of-zelda-tears-of-the-kingdom",
       "title": "TotK Recomp",
@@ -68909,6 +70414,78 @@
         "assetName": "UFC3MONS-BETA1.4-Windows.zip",
         "assetSize": 77091440,
         "assetSha256": "800fb36a1483595ed823affd7c322faed5b4e331dca72cad927941754f572336"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ufc4-native",
+      "gameId": "ea-sports-ufc-4",
+      "title": "UFC4 Native",
+      "portType": "decomp-port",
+      "status": "NAO_AVALIADO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "schans-arg",
+        "name": "UFC4-PC-Port"
+      },
+      "license": "GPL-2.0",
+      "windowsAsset": {
+        "pattern": "(?i)^UFC4Native-ufc4-.*view\\.1-windows-x.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": "UFC4.exe",
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/schans-arg/UFC4-PC-Port",
+        "docs": "https://github.com/schans-arg/UFC4-PC-Port#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "releaseTag": "ufc4-v0.0.11-preview.1",
+        "releaseDate": "2026-10-17",
+        "stars": 28,
+        "prerelease": true,
+        "assetName": "UFC4Native-ufc4-v0.0.11-preview.1-windows-x86_64.zip",
+        "assetSize": 20922475,
+        "assetSha256": "6e116b76a289146621ea417c9ff82689a93ca93c70f05e84cf30ec542cdde17a"
       }
     },
     {
@@ -71875,6 +73452,73 @@
     },
     {
       "schemaVersion": 1,
+      "id": "white-knight-chronicles-ii-recomp",
+      "gameId": "white-knight-chronicles-ii",
+      "title": "White Knight Chronicles II Recomp",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "WK2D",
+        "name": "White-Knight-Chronicles-2-Recomp"
+      },
+      "license": "MIT",
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/WK2D/White-Knight-Chronicles-2-Recomp",
+        "docs": "https://github.com/WK2D/White-Knight-Chronicles-2-Recomp#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 32,
+        "prerelease": false
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "whopping-collection-tekrantgaming",
       "gameId": "sneak-king-big-bumpin-and-pocketbike-racer",
       "title": "Whopping Collection",
@@ -72246,6 +73890,73 @@
         "assetName": "WindWakerHD-v0.5.0-windows-x86_64.zip",
         "assetSize": 36678476,
         "assetSha256": "11681f6584757567b0feeb2a464fcc2e792a3315ac27105d6c6d3345bf61d105"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "windowsmash",
+      "gameId": "super-smash-bros-ultimate",
+      "title": "WindowSmash",
+      "portType": "static-recomp",
+      "status": "EM_DESENVOLVIMENTO",
+      "knownIssuesPtBr": [],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "OpenSmash-Ultimate",
+        "name": "WindowSmash"
+      },
+      "license": "GPL-3.0",
+      "windowsAsset": {
+        "pattern": "(?i)win.*\\.zip$",
+        "excludePattern": null,
+        "preferPrerelease": true,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": null,
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": null,
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/OpenSmash-Ultimate/WindowSmash",
+        "docs": "https://github.com/OpenSmash-Ultimate/WindowSmash#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-06",
+        "stars": 452,
+        "prerelease": false
       }
     },
     {

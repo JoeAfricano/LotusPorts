@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "sengoku-basara-4-sumeragi",
+  "title": "Sengoku Basara 4 Sumeragi",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Sengoku Basara 4 Sumeragi, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "sengoku-basara-4-native-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:sengoku-basara-4-sumeragi",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-06",
+    "notesPtBr": null
+  },
+  "cover": {
+    "url": "https://cdn2.steamgriddb.com/grid/d681447081ede4845d9aca8c2706a365.png",
+    "source": "steamgriddb"
+  }
+}

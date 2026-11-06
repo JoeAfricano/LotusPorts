@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ea-sports-ufc-4",
+  "title": "EA Sports UFC 4",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "EA Sports UFC 4, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "ufc4-native",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:ea-sports-ufc-4",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-06",
+    "notesPtBr": null
+  }
+}

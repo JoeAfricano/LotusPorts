@@ -248,6 +248,7 @@
   <data name="PlatformVIRTUAL_BOY" xml:space="preserve"><value>Virtual Boy</value></data>
   <data name="PlatformWII" xml:space="preserve"><value>Wii</value></data>
   <data name="PlatformSWITCH" xml:space="preserve"><value>Nintendo Switch</value></data>
+  <data name="PlatformSWITCH_2" xml:space="preserve"><value>Nintendo Switch 2</value></data>
   <data name="PlatformPS3" xml:space="preserve"><value>PlayStation 3</value></data>
   <data name="PlatformPS4" xml:space="preserve"><value>PlayStation 4</value></data>
   <data name="PlatformPS5" xml:space="preserve"><value>PlayStation 5</value></data>
@@ -407,4 +408,6 @@
   <data name="GuideHintEnglish" xml:space="preserve"><value>Passos dos autores do port no GitHub, em inglês (ainda sem tradução), só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.</value></data>
   <data name="GuideHintTranslated" xml:space="preserve"><value>Tradução do Lotus Ports dos passos que os autores escreveram em inglês no GitHub, só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.</value></data>
   <data name="GuideHintOutdated" xml:space="preserve"><value>Os autores mudaram o original depois desta tradução; veja a versão atual no GitHub.</value></data>
+  <data name="PlayFailedQuickly" xml:space="preserve"><value>O jogo fechou logo depois de abrir. Clique em Resolver para ver o motivo.</value></data>
+  <data name="GameOnlyPortBuilding" xml:space="preserve"><value>Único projeto deste jogo no catálogo. Ainda não tem versão para baixar; acompanhe pela página oficial.</value></data>
 </root>

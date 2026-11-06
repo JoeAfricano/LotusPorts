@@ -10,7 +10,16 @@
   "descriptionPtBr": "The Order: 1886, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
   "recommendedPortId": "the-order-1886-pc-native-port",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "toport",
+      "differencePtBr": null
+    },
+    {
+      "portId": "order1886-pc",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:the-order-1886",
   "review": {
     "state": "approved",

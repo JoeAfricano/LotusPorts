@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "isaacrecomp",
+  "gameId": "the-binding-of-isaac",
+  "title": "IsaacRecomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "whylurking",
+    "name": "IsaacRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^IsaacRecomp_Win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "IsaacRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/whylurking/IsaacRecomp",
+    "docs": "https://github.com/whylurking/IsaacRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-06",
+    "releaseTag": "v1.5.0",
+    "releaseDate": "2026-10-30",
+    "stars": 77,
+    "prerelease": false,
+    "assetName": "IsaacRecomp_Win64.zip",
+    "assetSize": 6687330,
+    "assetSha256": "c1b1aa37fef038a5ce3ab61f409f534a72b7c34d8984055e43a4599476d9f057"
+  }
+}

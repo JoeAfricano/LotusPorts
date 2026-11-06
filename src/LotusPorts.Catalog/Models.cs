@@ -53,6 +53,7 @@ public enum Platform
     WII,
     WII_U,
     SWITCH,
+    SWITCH_2,
     PS1,
     PS2,
     PS3,

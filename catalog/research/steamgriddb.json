@@ -3766,5 +3766,77 @@
     "name": "Zone of the Enders",
     "grid": "https://cdn2.steamgriddb.com/grid/6bc44bf736056fecfd958fec6893cc83.png",
     "checkedAt": "2026-11-06"
+  },
+  "donkey-kong-bananza": {
+    "sgdbId": 5483961,
+    "name": "Donkey Kong: Bananza",
+    "grid": "https://cdn2.steamgriddb.com/grid/4e8f053b3087c9ecc66e2488b1551c72.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ea-sports-ufc-4": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "littlebigplanet-3": {
+    "sgdbId": 5249323,
+    "name": "LittleBigPlanet 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/f36d015d428b570f21a7e947146729d5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "nhl-24": {
+    "sgdbId": 5457791,
+    "name": "NHL 24",
+    "grid": "https://cdn2.steamgriddb.com/grid/b0242fc29460d29732416d2cae0ab006.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-sword-and-shield": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "sengoku-basara-4-sumeragi": {
+    "sgdbId": 5288292,
+    "name": "Sengoku BASARA 4 Sumeragi",
+    "grid": "https://cdn2.steamgriddb.com/grid/d681447081ede4845d9aca8c2706a365.png",
+    "checkedAt": "2026-11-06"
+  },
+  "shadow-of-the-colossus": {
+    "sgdbId": 86,
+    "name": "Shadow of the Colossus",
+    "grid": "https://cdn2.steamgriddb.com/grid/acaca856b38c00847ecc1ca2c02ae4b4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-odyssey": {
+    "sgdbId": 5245268,
+    "name": "Super Mario Odyssey",
+    "grid": "https://cdn2.steamgriddb.com/grid/505870c8848f2d550944bf64008c9472.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-smash-bros-ultimate": {
+    "sgdbId": 5245293,
+    "name": "Super Smash Bros. Ultimate",
+    "grid": "https://cdn2.steamgriddb.com/grid/2ef85f2ae5e56041ded26f67e18136be.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-binding-of-isaac": {
+    "sgdbId": 1307,
+    "name": "The Binding of Isaac",
+    "grid": "https://cdn2.steamgriddb.com/grid/9de4daf39d31cf4f464f452ac8278991.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda-echoes-of-wisdom": {
+    "sgdbId": 5455462,
+    "name": "The Legend of Zelda: Echoes of Wisdom",
+    "grid": "https://cdn2.steamgriddb.com/grid/e488d6f4064e1584c115f2cd7bed74f0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "white-knight-chronicles-ii": {
+    "sgdbId": 35896,
+    "name": "White Knight Chronicles II",
+    "grid": "https://cdn2.steamgriddb.com/grid/f7217487b0be00f475ba135450bff62c.png",
+    "checkedAt": "2026-11-06"
   }
 }

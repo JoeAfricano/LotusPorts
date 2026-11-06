@@ -18,8 +18,8 @@ internal static partial class Wide
     {
         ["n64"] = "N64", ["x360"] = "XBOX_360", ["xbox"] = "XBOX", ["ps1"] = "PS1", ["ps2"] = "PS2", ["ps3"] = "PS3", ["ps4"] = "PS4", ["ps5"] = "PS5",
         ["gc"] = "GAMECUBE", ["wii"] = "WII", ["wiiu"] = "WII_U", ["snes"] = "SNES", ["gba"] = "GBA", ["gb"] = "GB", ["gbc"] = "GBC", ["ds"] = "NDS",
-        ["3ds"] = "N3DS", ["dc"] = "DREAMCAST", ["saturn"] = "SATURN", ["psp"] = "PSP", ["switch"] = "SWITCH", ["nes"] = "NES", ["genesis"] = "GENESIS",
-        ["s32x"] = "SEGA_32X", ["gg"] = "GAME_GEAR", ["arcade"] = "ARCADE", ["cdi"] = "CDI", ["amiga"] = "AMIGA", ["vb"] = "VIRTUAL_BOY", ["other"] = "OTHER",
+        ["3ds"] = "N3DS", ["dc"] = "DREAMCAST", ["saturn"] = "SATURN", ["psp"] = "PSP", ["switch"] = "SWITCH", ["switch2"] = "SWITCH_2", ["nes"] = "NES", ["genesis"] = "GENESIS",
+        ["s32x"] = "SEGA_32X", ["gg"] = "GAME_GEAR", ["arcade"] = "ARCADE", ["cdi"] = "CDI", ["amiga"] = "AMIGA", ["vb"] = "VIRTUAL_BOY", ["pc"] = "PC", ["other"] = "OTHER",
     };
 
     private static readonly Dictionary<string, string> PlatformNames = new()
@@ -27,8 +27,8 @@ internal static partial class Wide
         ["N64"] = "Nintendo 64", ["XBOX_360"] = "Xbox 360", ["XBOX"] = "Xbox", ["PS1"] = "PlayStation", ["PS2"] = "PlayStation 2", ["PS3"] = "PlayStation 3",
         ["PS4"] = "PlayStation 4", ["PS5"] = "PlayStation 5", ["GAMECUBE"] = "GameCube", ["WII"] = "Wii", ["WII_U"] = "Wii U", ["SNES"] = "Super Nintendo",
         ["GBA"] = "Game Boy Advance", ["GB"] = "Game Boy", ["GBC"] = "Game Boy Color", ["NDS"] = "Nintendo DS", ["N3DS"] = "Nintendo 3DS", ["DREAMCAST"] = "Dreamcast",
-        ["SATURN"] = "Saturn", ["PSP"] = "PSP", ["SWITCH"] = "Nintendo Switch", ["NES"] = "NES", ["GENESIS"] = "Mega Drive", ["SEGA_32X"] = "32X",
-        ["GAME_GEAR"] = "Game Gear", ["ARCADE"] = "Arcade", ["CDI"] = "CD-i", ["AMIGA"] = "Amiga", ["VIRTUAL_BOY"] = "Virtual Boy", ["OTHER"] = "outra plataforma",
+        ["SATURN"] = "Saturn", ["PSP"] = "PSP", ["SWITCH"] = "Nintendo Switch", ["SWITCH_2"] = "Nintendo Switch 2", ["NES"] = "NES", ["GENESIS"] = "Mega Drive", ["SEGA_32X"] = "32X",
+        ["GAME_GEAR"] = "Game Gear", ["ARCADE"] = "Arcade", ["CDI"] = "CD-i", ["AMIGA"] = "Amiga", ["VIRTUAL_BOY"] = "Virtual Boy", ["PC"] = "PC", ["OTHER"] = "outra plataforma",
     };
 
     private static readonly Dictionary<string, string> Genres = new()
@@ -81,9 +81,16 @@ internal static partial class Wide
             var repo = s["fullName"]?.GetValue<string>() ?? s["repo"]!.GetValue<string>();
             if (Excluded.Contains(repo)) { Skip("excluído de propósito", repo); continue; }
             if (knownRepos.Contains(repo)) continue;
-            if (s["release"] is not JsonObject release) { Skip("sem release para Windows", repo); continue; }
             if (s["archived"]?.GetValue<bool>() == true) { Skip("repositório arquivado", repo); continue; }
             if (!map.TryGetValue(repo, out var facts) && !map.TryGetValue(s["repo"]!.GetValue<string>(), out facts)) { Skip("jogo não identificado", repo); continue; }
+            if (s["release"] is not JsonObject release)
+            {
+                // A project people follow but with nothing to download yet: listed only in "Em breve" (status EM_DESENVOLVIMENTO),
+                // with the button "Acompanhar". The download rule is the generic Windows one, checked again once a release exists.
+                if (facts["soon"]?.GetValue<bool>() == true) newPorts.Add((Soon(s, repo, facts, portIds, today), Norm(facts["game"]!.GetValue<string>()), s["stars"]?.GetValue<int>() ?? 0, facts));
+                else Skip("sem release para Windows", repo);
+                continue;
+            }
 
             var assets = release["windowsAssets"]!.AsArray().OfType<JsonObject>().Select(a => a["name"]!.GetValue<string>()).ToList();
             var asset = ChooseAsset(assets, facts["windows"]?.GetValue<string>());
@@ -103,9 +110,13 @@ internal static partial class Wide
             };
             if (package is null) { Skip("formato de pacote não suportado", repo); continue; }
 
+            var declaredExe = facts["exe"]?.GetValue<string>();
+            var zipExes = release["zips"]?[asset]?["executables"]?.AsArray().Select(x => x!.GetValue<string>()).ToList() ?? [];
             string? exe = package switch
             {
                 "portable-exe" => asset,
+                // The curator named the program: it must really be inside the zip.
+                "zip" when declaredExe is not null => zipExes.FirstOrDefault(e => e.EndsWith("/" + declaredExe, StringComparison.OrdinalIgnoreCase) || e.Equals(declaredExe, StringComparison.OrdinalIgnoreCase)) is { } found ? Path.GetFileName(found) : null,
                 "zip" => ChooseExe(release["zips"]?[asset]?["executables"]?.AsArray().Select(x => x!.GetValue<string>()).ToList() ?? [], facts["app"]!.GetValue<string>(), repo),
                 _ => null,
             };
@@ -225,6 +236,47 @@ internal static partial class Wide
         return Generator.Bundle(catalogDir);
     }
 
+    private static JsonObject Soon(JsonObject s, string repo, JsonObject facts, HashSet<string> portIds, string today)
+    {
+        var owner = repo.Split('/')[0];
+        var name = repo.Split('/')[1];
+        return new JsonObject
+        {
+            ["schemaVersion"] = 1,
+            ["id"] = UniqueId(Slug(facts["app"]!.GetValue<string>()), owner, portIds),
+            ["gameId"] = "",
+            ["title"] = facts["app"]!.GetValue<string>(),
+            ["portType"] = "static-recomp",
+            ["status"] = "EM_DESENVOLVIMENTO",
+            ["knownIssuesPtBr"] = new JsonArray(),
+            ["verifiedBy"] = null,
+            ["verifiedAt"] = null,
+            ["repo"] = new JsonObject { ["owner"] = owner, ["name"] = name },
+            ["license"] = s["license"]?.GetValue<string>() is { } lic && lic != "NOASSERTION" ? lic : null,
+            ["windowsAsset"] = new JsonObject { ["pattern"] = "(?i)win.*\\.zip$", ["excludePattern"] = null, ["preferPrerelease"] = true, ["packageType"] = "zip" },
+            ["executable"] = null,
+            ["launchArgs"] = new JsonArray(),
+            ["setup"] = new JsonObject { ["kind"] = null, ["targetFileName"] = null, ["targetFolder"] = null, ["notesPtBr"] = null, ["extractCommand"] = null, ["expectedOutput"] = null, ["requiredEntries"] = null },
+            ["requiredGameFiles"] = new JsonArray(),
+            ["persistentPaths"] = new JsonArray(),
+            ["experiencePresets"] = new JsonObject
+            {
+                ["configFile"] = null,
+                ["configFormat"] = null,
+                ["original"] = new JsonObject { ["values"] = new JsonObject(), ["verified"] = false },
+                ["remasterizado"] = new JsonObject { ["values"] = new JsonObject(), ["verified"] = false },
+            },
+            ["dependencies"] = null,
+            ["graphicsApis"] = null,
+            ["controllerSupport"] = null,
+            ["highlightsPtBr"] = new JsonArray(),
+            ["links"] = new JsonObject { ["repo"] = $"https://github.com/{owner}/{name}", ["docs"] = $"https://github.com/{owner}/{name}#readme", ["community"] = null },
+            ["art"] = new JsonObject { ["icon"] = null, ["banner"] = null, ["artLicense"] = null },
+            ["minWindowsBuild"] = null,
+            ["evidence"] = new JsonObject { ["scannedAt"] = today, ["stars"] = s["stars"]?.GetValue<int>(), ["prerelease"] = false },
+        };
+    }
+
     /// <summary>The Windows download: the discovery glob when it matches exactly one file, else the only Windows file, else a 64-bit zip.</summary>
     private static string? ChooseAsset(List<string> assets, string? glob)
     {
@@ -293,6 +345,14 @@ internal static partial class Wide
             ids.AddRange(game["alternatives"]!.AsArray().Select(a => a!["portId"]!.GetValue<string>()));
             bool Opens(string portId) => ports[portId]["executable"] is not null || ports[portId]["windowsAsset"]!["packageType"]!.GetValue<string>() == "installer";
             var openable = ids.Where(Opens).OrderByDescending(p => ports[p]["evidence"]?["stars"]?.GetValue<int>() ?? 0).ToList();
+            // Only projects still being built, with nothing to download yet: they appear only in "Em breve" (Acompanhar).
+            if (openable.Count == 0 && ids.All(p => ports[p]["status"]?.GetValue<string>() == "EM_DESENVOLVIMENTO"))
+            {
+                game["review"] = new JsonObject { ["state"] = "approved", ["by"] = reviewer, ["at"] = today, ["notesPtBr"] = "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial." };
+                Write(file, game);
+                approved++;
+                continue;
+            }
             if (openable.Count == 0)
             {
                 game["review"]!["notesPtBr"] = "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar.";

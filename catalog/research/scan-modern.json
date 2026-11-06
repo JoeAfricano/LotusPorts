@@ -1,0 +1,1813 @@
+[
+  {
+    "repo": "Lucas-blip-png/dkb-pc-recomp",
+    "fullName": "Lucas-blip-png/dkb-pc-recomp",
+    "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 243,
+    "homepage": "",
+    "pushedAt": "2026-11-06T10:01:13Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      ".venv\\Scripts\\python tools\\build_game.py --version dkb100 --expected tools\\data\\expected-dkb100.json --exefs <exefs> --romfs build\\extracted\\dkb100\\romfs"
+    ],
+    "readmeSetupLines": [
+      "> **No game files are included, and none ever will be.** You need your own copy of *Donkey Kong Bananza*, dumped"
+    ]
+  },
+  {
+    "repo": "Chiuauaa/oot-pc-recomp",
+    "fullName": "Chiuauaa/oot-pc-recomp",
+    "description": "Static recompilation of The Legend of Zelda: Ocarina of Time (Switch 2) for PC",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 16,
+    "homepage": null,
+    "pushedAt": "2026-11-06T09:50:20Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      ".venv\\Scripts\\python tools\\build_game.py --version dkb100 --expected tools\\data\\expected-dkb100.json --exefs <exefs> --romfs build\\extracted\\dkb100\\romfs"
+    ],
+    "readmeSetupLines": [
+      "> **No game files are included, and none ever will be.** You need your own copy of *Donkey Kong Bananza*, dumped"
+    ]
+  },
+  {
+    "repo": "Coz-0/smo-recomp",
+    "fullName": "Coz-0/smo-recomp",
+    "description": "Static recompilation of Super Mario Odyssey (Switch, 1.4.1) to native Windows x64. No game data included; bring your own dump.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 68,
+    "homepage": null,
+    "pushedAt": "2026-10-28T14:40:14Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "| Window and capture | a borderless window by default; F11 or a double-click switches to borderless fullscreen and back. The game keeps running at 60 frames a second while its window is not the active one or is minimised (`unfocused = pause` in `graphics.ini` …"
+    ],
+    "readmeSetupLines": [
+      "> You need your own copy of the game, dumped from your own console. The build reads the dump's decrypted files: no"
+    ]
+  },
+  {
+    "repo": "raulzrrs/swsh-recomp",
+    "fullName": "raulzrrs/swsh-recomp",
+    "description": "Native Windows port of Pokémon Sword / Shield (Switch, 1.3.2) by static recompilation, built on Let's Go Recomp and LAS Recomp. No game files included.",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 24,
+    "homepage": null,
+    "pushedAt": "2026-10-22T20:50:34Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "v0.1.0",
+      "name": "v0.1.0 (preview): Sword at 60 fps, shaders prepared on the first start, the Let's Go 0.6.0 launcher",
+      "publishedAt": "2026-10-22T20:50:35Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "SwShRecomp-0.1.0-windows.zip",
+          "size": 88606202,
+          "digest": "sha256:5878e562c37da8bdc67c977b8c55083e606be6ada42b84eb382051dfde15577f"
+        }
+      ],
+      "zips": {
+        "SwShRecomp-0.1.0-windows.zip": {
+          "entryCount": 138,
+          "executables": [
+            "SwShRecomp/lasgen/lasgen.exe",
+            "SwShRecomp/SwShRecomp.exe",
+            "SwShRecomp/zig/zig.exe"
+          ],
+          "topLevel": [
+            "SwShRecomp"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Everything stays in that folder (settings in `larecomp.ini`, saves in `save-sword` / `save-shield`, shader caches, the"
+    ],
+    "readmeSetupLines": [
+      "- Every shader of the game prepared for your GPU on the first start, then kept on disk; the vertex data of static models",
+      "**On the first start** the game's shaders are prepared for your GPU in the background (about 6 minutes on an 8-core",
+      "- During the first start's shader preparation the game runs slower, and a few shaders (those not in the game files)"
+    ]
+  },
+  {
+    "repo": "OpenSmash-Ultimate/WindowSmash",
+    "fullName": "OpenSmash-Ultimate/WindowSmash",
+    "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 452,
+    "homepage": null,
+    "pushedAt": "2026-11-03T13:41:59Z",
+    "releaseCount": 2,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "> **This source code does not contain the game.** It has no game files, keys or firmware. You need your own copy of Super Smash Bros. Ultimate, dumped from your own Nintendo Switch. WindowSmash builds a Windows program from that copy, on your PC.",
+      "- The first start takes a little longer. If you left *preparing the shaders* ticked, it runs in its own window at low priority; until it's done, some effects can stutter the first time they appear."
+    ]
+  },
+  {
+    "repo": "Nycolazs/EoWRecomp",
+    "fullName": "Nycolazs/EoWRecomp",
+    "description": "Static recompilation of The Legend of Zelda: Echoes of Wisdom (Switch) to native PC - work in progress, no game files included",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 93,
+    "homepage": null,
+    "pushedAt": "2026-10-21T10:01:17Z",
+    "releaseCount": 1,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "You must provide your own legally obtained copy of the game."
+    ]
+  },
+  {
+    "repo": "ILFforever/YW4Recomp",
+    "fullName": "ILFforever/YW4Recomp",
+    "description": "Fan static recompilation of Yokai Watch 4++ (Switch) to native Windows/Linux. ARM64 → C, NVN on Vulkan.",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 10,
+    "homepage": "https://ilfforever.github.io/YW4Recomp/",
+    "pushedAt": "2026-11-06T07:18:27Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "deps-mirror",
+      "name": "Build dependencies",
+      "publishedAt": "2026-11-05T08:32:54Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "llvm-mingw-20261006-ucrt-x86_64.zip",
+          "size": 190836485,
+          "digest": "sha256:317492c456aa27ee607a5919f1d2d38dcdc1112516a24d0bf4b00d078f52d17a"
+        }
+      ],
+      "zips": {
+        "llvm-mingw-20261006-ucrt-x86_64.zip": {
+          "entryCount": 9299,
+          "executables": [
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/basename.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/link.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/reset.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/rpm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/pgrep.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/uudecode.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/wc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/chmod.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/cut.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/make.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/lzma.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/egrep.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/du.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/tr.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/usleep.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/diff.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/rev.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/grep.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/id.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/hd.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/which.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/bzcat.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/busybox.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/gzip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/pidof.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/install.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ed.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ipcalc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/httpd.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/logname.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/drop.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/free.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ftpput.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ln.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/cp.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/paste.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/pkill.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/env.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/uptime.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/lash.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/xz.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/pwd.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/tail.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/expand.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/su.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/dd.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/cksum.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/od.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/cal.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/factor.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/bzip2.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/fold.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/dpkg-deb.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/readlink.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/whoami.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sh.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/dpkg.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sort.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sha1sum.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/killall.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/pdrop.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/iconv.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sha512sum.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/unlzma.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/base32.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/unix2dos.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sed.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/timeout.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/cmp.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ssl_client.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/tac.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/lzop.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/expr.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/whois.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/stty.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/jn.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/shred.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sum.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sync.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/patch.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/echo.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/watch.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/uuencode.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/find.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/split.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ls.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/fsync.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ftpget.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/fgrep.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/uname.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ttysize.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/zcat.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/rmdir.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ts.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/cdrop.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/touch.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sha3sum.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/cpio.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/base64.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/stat.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/tar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/clear.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/unzip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/lzopcat.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sha384sum.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/pdpmake.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/dos2unix.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/dirname.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/bash.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/yes.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/vi.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/printenv.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/comm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/unlink.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/mkdir.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/shuf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/false.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/dc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/lzcat.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/flock.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/gunzip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/getopt.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/cat.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/tee.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/rpm2cpio.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/realpath.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ascii.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/unxz.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/join.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/awk.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/wget.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/bunzip2.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/rm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/crc32.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/head.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/seq.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/xzcat.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/busybox-wrapper.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/chattr.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/true.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/unexpand.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/arch.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/tsort.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ash.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/xargs.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/nc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/truncate.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/man.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/df.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/mktemp.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/mv.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/uncompress.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sleep.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/date.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/nproc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/uniq.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/lsattr.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/xxd.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/sha256sum.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/bc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/nl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/groups.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/test.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/pipe_progress.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/less.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/md5sum.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/printf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/inotifyd.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/unlzop.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/hexdump.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/ps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/time.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/busybox/bin/kill.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/python/lib/python3.14/site-packages/lldb/lldb-argdumper.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/python/lib/python3.14/venv/scripts/nt/venvwlauncher.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/python/lib/python3.14/venv/scripts/nt/venvlauncher.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/python/bin/python3.14.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/python/bin/python3w.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/python/bin/python.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/python/bin/python3.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/python/bin/python3.14w.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/gendef.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/clang-scan-deps-real.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/clang-23.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-as.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/lldb-server.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/c11.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/clang-format.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-as.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-as.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-rc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/lldb-dap.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-cxxfilt.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/ld.lld.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-ml.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-cov.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/c99.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-as.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/mingw32-make.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-readobj.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-pdbutil.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-wrapper.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-as.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/clangd.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-objdump.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-as.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-lib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/lldb-mi.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-as.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-as.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-llvm-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/lldb-argdumper.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-cvtres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/clang-tidy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-symbolizer.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/clang-scan-deps-wrapper.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-as.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/lldb.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-gcc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-profdata.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/lldb-instr.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-objcopy.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32uwp-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/llvm-ar.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32uwp-readelf.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-strings.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-clang++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32-as.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-c++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-windres.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-nm.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32-dlltool.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-clang.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/i686-w64-mingw32uwp-widl.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-clang-scan-deps.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/arm64ec-w64-mingw32uwp-g++.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/x86_64-w64-mingw32-size.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/armv7-w64-mingw32-strip.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32-addr2line.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/ranlib.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/clang-target-wrapper.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/cc.exe",
+            "llvm-mingw-20261006-ucrt-x86_64/bin/aarch64-w64-mingw32uwp-windres.exe"
+          ],
+          "topLevel": [
+            "llvm-mingw-20261006-ucrt-x86_64"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "DLC, saves and logs. Its settings choose what happens when the game starts, where saves are kept, shortcuts and",
+      "`settings.ini` next to `yw4.exe` and kept for the next start. **F11** switches between full screen and a window (also"
+    ],
+    "readmeSetupLines": [
+      "![The launcher: the first start with the welcome popup; your game files; Play with what's new; Settings](docs/screenshots/99-launcher.jpg)",
+      "2. Copy `config.example.toml` to `config.local.toml`. Point `exefs_dir` and `romfs_dir` at your extracted ExeFS and",
+      "| `work/`, `build/` | Generated output from your own game files (gitignored, never committed) |"
+    ]
+  },
+  {
+    "repo": "ZuanCrisp/Zelda-TOTK-Port",
+    "fullName": "ZuanCrisp/Zelda-TOTK-Port",
+    "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Dump your own Switch Game.",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 9,
+    "homepage": "",
+    "pushedAt": "2026-11-04T01:58:58Z",
+    "releaseCount": 8,
+    "release": {
+      "tag": "v0.3.7",
+      "name": "v0.3.7",
+      "publishedAt": "2026-11-04T01:59:03Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "TotK-Setup-0.3.7-windows.zip",
+          "size": 143294704,
+          "digest": "sha256:d73ce79580d0845eac04be8cc2d9f7b6b514cdfff9d00e264072f2356af6c499"
+        }
+      ],
+      "zips": {
+        "TotK-Setup-0.3.7-windows.zip": {
+          "entryCount": 6798,
+          "executables": [
+            "TotK-Setup-0.3.7-windows/bin/hactool.exe",
+            "TotK-Setup-0.3.7-windows/bin/ninja.exe",
+            "TotK-Setup-0.3.7-windows/bin/totk_xlate.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/clang++.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/clang-23.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/clang.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/ld.lld.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-ar.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-cvtres.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-dlltool.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-nm.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-objcopy.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-objdump.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-ranlib.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-rc.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-readobj.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-strip.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-windres.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/llvm-wrapper.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/x86_64-w64-mingw32-clang++.exe",
+            "TotK-Setup-0.3.7-windows/llvm/bin/x86_64-w64-mingw32-clang.exe",
+            "TotK-Setup-0.3.7-windows/python/python.exe",
+            "TotK-Setup-0.3.7-windows/python/pythonw.exe",
+            "TotK-Setup-0.3.7-windows/TotK-Setup.exe"
+          ],
+          "topLevel": [
+            "TotK-Setup-0.3.7-windows"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "To update, run a newer setup on the same folder; saves and settings are kept. Settings are in the in-game menu and in `totk.ini` ([totk.ini.example](totk.ini.example) lists every key). Controls: [docs/controls.md](docs/controls.md)."
+    ],
+    "readmeSetupLines": [
+      "> **No game files are included.** You need your own legally obtained copy of *Tears of the Kingdom*, dumped from your own console: the base game and the 1.1.0, 1.2.1 or 1.4.3 update. Instructions for obtaining those files will not be provided."
+    ]
+  },
+  {
+    "repo": "circerio/XC2-Recomp",
+    "fullName": "circerio/XC2-Recomp",
+    "description": "Native Windows PC recompilation research for Xenoblade Chronicles 2 (Nintendo Switch).",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 8,
+    "homepage": null,
+    "pushedAt": "2026-11-05T05:27:16Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "- **You need your own game:** playing requires a copy of the game that you own and have legally dumped yourself.",
+      "- This repository does not and will not provide game executables, ExeFS / RomFS, keys, firmware, DLC, game assets,"
+    ]
+  },
+  {
+    "repo": "adosudo/nxnative-win",
+    "fullName": "adosudo/nxnative-win",
+    "description": "Play your own Nintendo Switch games natively on Windows PCs. Bring your game (NSP files) and your prod.keys; one script turns them into a Windows build (.exe). Not an emulator: the game’s code is recompiled to native x64/ARM64, with graphics rebuilt on Vulkan. No game data included; not affiliated with Nintendo.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 1,
+    "homepage": "",
+    "pushedAt": "2026-10-29T21:00:47Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "Initial-Release",
+      "name": "NXNativeWindows",
+      "publishedAt": "2026-10-29T20:36:34Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "NXNativeWindows.patch",
+          "size": 34655,
+          "digest": "sha256:68f21cf6c965f1cf89d7e3e8a47d2c5a79762eca6ca5da6c7c4034733e8f6a37"
+        },
+        {
+          "name": "NXNativeWindows.zip",
+          "size": 80838248,
+          "digest": "sha256:9d4b1ac124e25f558936694303a29abe423d0d445c93c1517abaa291537bd3a7"
+        }
+      ],
+      "zips": {
+        "NXNativeWindows.zip": {
+          "entryCount": 2167,
+          "executables": [],
+          "topLevel": [
+            ".gitignore",
+            "CONTRIBUTING.md",
+            "README.md",
+            "LICENSE",
+            "pyproject.toml",
+            "Build-IPA-GUI.bat",
+            "AGENTS.md",
+            "README.nxnative.md",
+            ".gitattributes",
+            "dm",
+            "win",
+            "docs",
+            ".github",
+            "scripts"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Copy `win\\toolchain.example.json` to `win\\toolchain.json` and fix the paths. Tools in their default install folders are found without it. For example:",
+      "| `doctor.py` shows `MISSING` | Install what the `get it:` line names, or set its path in `win\\toolchain.json`. |",
+      "Local files git ignores: `win/toolchain.json`, `win/gui_settings.json`, `win/sdk/out/` (the extracted SDK) and `win/build/`."
+    ],
+    "readmeSetupLines": [
+      "Install the IPA, open the app once (it says the game files are missing), then copy the whole `<Game>-data` folder into the app's Documents:",
+      "Close the app fully and open it again. The app looks for `romfs` in Documents and in every folder directly inside it, so the folder can keep its name. Re-signing the IPA later leaves Documents alone. Copy the data folder again only after a new build of the sam…",
+      "3. In the Files app, copy the folder (`glslc_capture` or `vk_capture`) next to the game files on the PC, and build again. The build checks it against the profile's table and makes the real IPA.",
+      "| `this game compiles … shaders only at run time; they are captured on your device` | Follow the three steps the message gives: install the capture IPA, play to the title screen, copy the capture folder next to the game files, build again. |",
+      "This repository contains no games, no game files, no keys, no firmware, and no means of bypassing copy protection. You must supply files you dumped yourself from hardware and software you legally own. Do not use this project to obtain or share copyrighted mate…"
+    ]
+  },
+  {
+    "repo": "mamcjr/BOTWRecompAndroid",
+    "fullName": "mamcjr/BOTWRecompAndroid",
+    "description": "Static recompilation of The Legend of Zelda: Breath of the Wild (Switch 1.0.0 / 1.6.0 / 1.8.2) for Android - no game files included",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 607,
+    "homepage": null,
+    "pushedAt": "2026-11-04T14:03:45Z",
+    "releaseCount": 15,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "builds it once. Under **Game files**, choose **Copy them** or **Use them in place**, then select the extracted folder."
+    ]
+  },
+  {
+    "repo": "IgorAugustoHH/The-Order-1886-PC-Port",
+    "fullName": "IgorAugustoHH/The-Order-1886-PC-Port",
+    "description": "The first PC port of The Order: 1886, and the one behind most of the bug fixes so far, now widely used by other projects. It runs natively on Windows 10/11: the PS4’s original cinematic camera, NVIDIA DLSS, up to 4K at 120 FPS, 21:9 ultrawide, 23 languages and its own launcher.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 147,
+    "homepage": "https://discord.gg/M9xEXsvAJ",
+    "pushedAt": "2026-11-01T10:00:42Z",
+    "releaseCount": 8,
+    "release": {
+      "tag": "v0.1.7",
+      "name": "TOport v0.1.7 — Halloween: iluminação global corrigida, áudio melhorado e mouse estilo shooter / global illumination fixed, improved audio, shooter-style mouse",
+      "publishedAt": "2026-11-01T07:14:31Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "TOport-Windows.zip",
+          "size": 105612065,
+          "digest": "sha256:2482d030bdd12dcfae33c703f03d1e346287db4f3fe61aa984a8419d517d06a6"
+        }
+      ],
+      "zips": {
+        "TOport-Windows.zip": {
+          "entryCount": 1076,
+          "executables": [
+            "TOport/TOport.exe",
+            "TOport/bin/bb-gpu-capabilities.exe",
+            "TOport/bin/bb-probe.exe"
+          ],
+          "topLevel": [
+            "TOport"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "lxnis/Order1886-PC",
+    "fullName": "lxnis/Order1886-PC",
+    "description": "Experimental native Windows port of The Order: 1886 (PS4, CUSA00035 v01.02). Own game dump required, no game files included. GPL-2.0-or-later.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 10,
+    "homepage": null,
+    "pushedAt": "2026-10-29T01:29:29Z",
+    "releaseCount": 4,
+    "release": {
+      "tag": "v0.2.2",
+      "name": "The Order: 1886 PC v0.2.2",
+      "publishedAt": "2026-10-29T01:29:30Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "Order1886-PC-portable-windows.zip",
+          "size": 108643195,
+          "digest": "sha256:8c6413f4ee24e056254979f2981479e62ad09c4aadaf24f76221a431157f3009"
+        }
+      ],
+      "zips": {
+        "Order1886-PC-portable-windows.zip": {
+          "entryCount": 160,
+          "executables": [
+            "Order1886-PC-portable/bin/bb-gpu-capabilities.exe",
+            "Order1886-PC-portable/bin/Order1886.exe",
+            "Order1886-PC-portable/Order1886-Launcher.exe",
+            "Order1886-PC-portable/python/python.exe",
+            "Order1886-PC-portable/python/pythonw.exe"
+          ],
+          "topLevel": [
+            "Order1886-PC-portable"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "3. Press **Play**. The first start prepares the game image from your dump (`out\\`, a few minutes)."
+    ]
+  },
+  {
+    "repo": "Castlesea/infamous-second-son-pc-port",
+    "fullName": "Castlesea/infamous-second-son-pc-port",
+    "description": "Native Windows port of inFAMOUS Second Son (PS4): custom runtime + Vulkan renderer derived from shadPS4. Bring your own game.",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 165,
+    "homepage": null,
+    "pushedAt": "2026-11-05T22:14:37Z",
+    "releaseCount": 2,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "| GPU crash diagnostics (on) | `gpu-stall-<n>.txt` when the GPU stops for over 1 s, `gpu-crash.txt` when the device is lost (`.txt` and `.json`) | GPU breadcrumbs on every submission |"
+    ],
+    "readmeSetupLines": [
+      "> **You need your own copy of the game.** No game files, keys or copyrighted assets are part of this repository or its releases.",
+      "- Shaders ahead of time: the game's compute shaders are compiled from the player's own game files before the first session (\"Preparing shaders (first run only)\", about 2 minutes). Graphics pipelines come from shader recipes (pipeline states and hashes, no shad…",
+      "- The first start prepares the shaders. Later starts load the cache in about a second."
+    ]
+  },
+  {
+    "repo": "BlackLineInteractive/Driveclub-Port",
+    "fullName": "BlackLineInteractive/Driveclub-Port",
+    "description": "Driveclub PS4 PC Port",
+    "archived": true,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 130,
+    "homepage": "",
+    "pushedAt": "2026-10-19T05:20:56Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "- Your own copy of the game as a decrypted dump (fSELF/fPKG)",
+      "- **No Proprietary Game Files**: This project does not distribute, host, or link to any copyrighted material, proprietary game assets, PKG dumps, ROMs, executables (`eboot.bin`), libraries (`.prx`), engine archives (`.dat`), audio, or textures. Users must prov…"
+    ]
+  },
+  {
+    "repo": "bloodborne-native/bloodborne-recomp",
+    "fullName": "bloodborne-native/bloodborne-recomp",
+    "description": "A static recompiler for Bloodborne (PS4): turns your own copy of the game's code into native C. With bbcpu, an x86-64 interpreter and arm64 translator.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 31,
+    "homepage": "https://discord.gg/QS6vHz45xA",
+    "pushedAt": "2026-11-03T14:36:44Z",
+    "releaseCount": 1,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "Astrr00/BloodbornePC",
+    "fullName": "Astrr00/BloodbornePC",
+    "description": "Native, open-source PC port of Bloodborne (PS4, v1.09 + The Old Hunters) for Windows and Linux.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 3,
+    "homepage": null,
+    "pushedAt": "2026-10-09T20:28:26Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "`%APPDATA%\\BloodbornePC` and verifies the copy):",
+      "Saves are written to `savedata\\` (`BB_SAVE_DIR`). If the game aborts with `unimplemented import`, `BB_STUB_IMPORTS=1` skips such",
+      "`<exe>.eboot.sha256` that the CMake build writes next to `bbgame`, a line `bbgame.exe=<sha256>` in a `games.ini` in that folder, or the output of",
+      "- Settings are written per game to `bbconfig.ini` (`KEY=VALUE` with the variable names of the runtime options below, `#` comments) in",
+      "`profiles\\<game>\\` and handed to `bbgame` via `BB_CONFIG`. `bbgame` itself reads `bbconfig.ini` next to its executable, else",
+      "`%APPDATA%\\BloodbornePC\\bbconfig.ini` (Linux: `$XDG_CONFIG_HOME/BloodbornePC`); real environment variables always win. `BB_FULLSCREEN=1` starts fullscreen.",
+      "- The launcher's own state is `launcher.ini` in `%APPDATA%\\BloodbornePC` (Linux: `$XDG_CONFIG_HOME/BloodbornePC`); installs go to",
+      "`games\\<TITLE_ID>-<version>\\` there. Command line: `--dry-run [--game <id>]` prints command, environment and `bbconfig.ini` without starting,"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "schans-arg/UFC4-PC-Port",
+    "fullName": "schans-arg/UFC4-PC-Port",
+    "description": "Experimental PS4-to-PC port of EA SPORTS UFC 4. Community source project; game files are not included.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 28,
+    "homepage": null,
+    "pushedAt": "2026-10-17T21:39:58Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "ufc4-v0.0.11-preview.1",
+      "name": "UFC 4 PC — 0.0.11 Community Preview",
+      "publishedAt": "2026-10-17T21:39:58Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "UFC4Native-ufc4-v0.0.11-preview.1-windows-x86_64.zip",
+          "size": 20922475,
+          "digest": "sha256:6e116b76a289146621ea417c9ff82689a93ca93c70f05e84cf30ec542cdde17a"
+        }
+      ],
+      "zips": {
+        "UFC4Native-ufc4-v0.0.11-preview.1-windows-x86_64.zip": {
+          "entryCount": 78,
+          "executables": [
+            "UFC4Native/bin/ufc4-runtime.exe",
+            "UFC4Native/python/python.exe",
+            "UFC4Native/python/pythonw.exe",
+            "UFC4Native/UFC4.exe"
+          ],
+          "topLevel": [
+            "UFC4Native"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Please report the exact game edition/update, Windows build, CPU/GPU/driver, runtime version, steps to reproduce, and relevant logs with personal paths and account identifiers removed. Never attach a game dump or save file to an issue."
+    ],
+    "readmeSetupLines": [
+      "Download the Windows ZIP from [Releases](https://github.com/schans-arg/UFC4-PC-Port/releases), extract the complete archive, and open `UFC4.exe`. On first launch, select `eboot.bin` from your own extracted UFC 4 copy. The measured profile is CUSA14209 v28.00 (…"
+    ]
+  },
+  {
+    "repo": "schans-arg/NHL24-PC-Port",
+    "fullName": "schans-arg/NHL24-PC-Port",
+    "description": "Experimental PS4-to-PC port of NHL 24. Community source project; game files are not included.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 6,
+    "homepage": null,
+    "pushedAt": "2026-10-17T21:41:01Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "nhl24-v0.1.0-preview.1",
+      "name": "NHL 24 PC — 0.1.0 Community Preview",
+      "publishedAt": "2026-10-17T21:41:01Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "NHL24Native-nhl24-v0.1.0-preview.1-windows-x86_64.zip",
+          "size": 41527304,
+          "digest": "sha256:e58e10fc7318e450aea024754e6095bf918c572125c6b1179bc7079465ab1c6e"
+        }
+      ],
+      "zips": {
+        "NHL24Native-nhl24-v0.1.0-preview.1-windows-x86_64.zip": {
+          "entryCount": 19,
+          "executables": [
+            "NHL24Native/NHL 24.exe",
+            "NHL24Native/NHL24.exe"
+          ],
+          "topLevel": [
+            "NHL24Native"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "The patch was captured against HajDEO/nhl24pc commit `bef7999707db27884cabe5780f301c4a5d2abdc8` (the source fork is GPL-2.0; preserve its license and notices). Clone that source at the exact base commit, then apply `patches/nhl24pc-port.patch`. See `docs/PORT_…"
+    ],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "This repository provides a source patch for the open-source HajDEO/nhl24pc compatibility runtime. It does not contain NHL 24, PS4 firmware, an update package, saves, or game assets. Provide your own legally obtained game dump; do not upload game files or saves…",
+      "The first [Release](https://github.com/schans-arg/NHL24-PC-Port/releases) provides a separate Windows runtime ZIP and a complete local source archive. Extract the runtime ZIP, open `NHL 24.exe`, and select `eboot.bin` from your own extracted CUSA37933 base v01…"
+    ]
+  },
+  {
+    "repo": "guichiapini/sotcport",
+    "fullName": "guichiapini/sotcport",
+    "description": "Shadow of the Colossus (PS4, CUSA08809) running natively on Windows — fork of the Bloodborne PC port (bbport) runtime and its shadPS4-based Vulkan renderer",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 4,
+    "homepage": null,
+    "pushedAt": "2026-10-14T20:01:08Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "All of this is configurable in `input.ini` (shadPS4's input config syntax: a Bloodborne file",
+      "launcher starts with the game. Its account file is `user\\bbbridge\\bbbridge_state.json`: never"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "heyzerr/ShadowOfTheColossus-PC",
+    "fullName": "heyzerr/ShadowOfTheColossus-PC",
+    "description": "AVX2 FIX Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - Port nativo para PC.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 3,
+    "homepage": null,
+    "pushedAt": "2026-10-16T02:52:06Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "- The first start after updating rebuilds the shaders: the first load is slow and stutters.",
+      "2. Run **`SotC.exe`**. On first start the launcher searches the PC's drives for:"
+    ]
+  },
+  {
+    "repo": "TheNIKITO/LittleBigPlanet-3---PC",
+    "fullName": "TheNIKITO/LittleBigPlanet-3---PC",
+    "description": "Port nativo e não oficial de LittleBigPlanet 3 (PS4) para Windows, em andamento. Nenhum arquivo do jogo incluído.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 6,
+    "homepage": null,
+    "pushedAt": "2026-10-18T15:32:02Z",
+    "releaseCount": 0,
+    "readmeHashLines": [
+      "| SHA-256 do `eboot.bin` | `c67ea6a4ad18a63c0fe64d207c341f6cd5f2a0aa95c2b36c69f2879e4000cd70` |"
+    ],
+    "readmePathLines": [
+      "| `tools/lbp3_status.py`, `docs/lbp3/status.json` | O estado do projeto acima e no `.recomp.json` |",
+      "| `.recomp.json` | Ficha do projeto lida pelo [recomp.board](https://recomp.fyi) |",
+      "Os números do topo e as notas do `.recomp.json` saem de `docs/lbp3/status.json`. Marque os marcos à",
+      "Sem argumentos, o script só reescreve o README e o `.recomp.json` a partir do `status.json`."
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "PurpleGitty/LittleBigPlanet-3-Recompiled",
+    "fullName": "PurpleGitty/LittleBigPlanet-3-Recompiled",
+    "description": "Native Windows port of LittleBigPlanet 3 (PS4), built with AI assistance. Runs the game’s own code from your legally owned dump through reimplemented PS4 system libraries and shadPS4’s GPU emulation. No game files included.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 2,
+    "homepage": "",
+    "pushedAt": "2026-10-28T17:13:51Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Controls are configured in `user\\config\\input.ini` (written on first start)."
+    ],
+    "readmeSetupLines": [
+      "3. Put your dump in a folder that holds `CUSA00473` (base game) and `CUSA00473-patch`",
+      "Controls are configured in `user\\config\\input.ini` (written on first start)."
+    ]
+  },
+  {
+    "repo": "razzconnect/basara4-native-pc",
+    "fullName": "razzconnect/basara4-native-pc",
+    "description": "Sengoku Basara 4 Sumeragi Native PC Port & Launcher. Direct x86-64 CPU Execution, Re-implemented PS4 System Contracts & Vulkan Translation by Razz",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 58,
+    "homepage": null,
+    "pushedAt": "2026-11-04T15:32:35Z",
+    "releaseCount": 7,
+    "release": {
+      "tag": "v1.0.6",
+      "name": "Sengoku Basara 4 Sumeragi PC Port v1.0.6",
+      "publishedAt": "2026-11-04T15:32:35Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "basara4-windows-v1.06.zip",
+          "size": 86513945,
+          "digest": "sha256:2dbe7502eec9434b91a425dea2bc4970e4eb00b1c86668b31ad81b3e42ccbadb"
+        }
+      ],
+      "zips": {
+        "basara4-windows-v1.06.zip": {
+          "entryCount": 1160,
+          "executables": [
+            "Sengoku Basara 4.exe",
+            "bin/basara4-core.exe",
+            "bin/basara4-pad-mapper.exe"
+          ],
+          "topLevel": [
+            "LICENSE",
+            "NOTICE.md",
+            "Play Sengoku Basara 4.cmd",
+            "README.id.txt",
+            "README.txt",
+            "Sengoku Basara 4.exe",
+            "bin",
+            "game",
+            "launcher",
+            "out",
+            "scripts",
+            "user",
+            "_internal"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "| **Sengoku Basara 4 Sumeragi cheats** | **Q8Despair** | Cheat data for CUSA01159 update 01.02, adapted from the [GoldHEN Cheat Repository](https://github.com/GoldHEN/GoldHEN_Cheat_Repository/blob/main/json/CUSA01159_01.02.json) | GPL-3.0 |"
+    ],
+    "readmeSetupLines": [
+      "> **No copyrighted game files are included.** You must provide your own legally dumped copy of the game from your PlayStation 4 console (tested: CUSA01159).",
+      "| **Game Copy** | Legal dump of Sengoku Basara 4 Sumeragi (`CUSA01159`) | Dump with update installed |",
+      "Place your decrypted PS4 game dump folder (which contains `eboot.bin`, `sce_module\\`, and `sce_sys\\`) into the `game\\` directory, or click **Browse** in the launcher to select its location.",
+      "- *Note:* The very first launch will automatically prepare the linked binary image into `out\\` (takes roughly 30–60 seconds). Subsequent boots start immediately."
+    ]
+  },
+  {
+    "repo": "indrasundanese/KamenRider-Recomp-PC",
+    "fullName": "indrasundanese/KamenRider-Recomp-PC",
+    "description": "Recompile Kamen Rider Launcher (PS4) untuk PC — masih dalam tahap development (test).",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 4,
+    "homepage": "",
+    "pushedAt": "2026-11-04T07:11:24Z",
+    "releaseCount": 2,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Setiap game punya file kontrolnya sendiri: `user\\input_config\\<TITLE_ID>.ini`."
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "cyberheater/RushOfBlood-PCVR",
+    "fullName": "cyberheater/RushOfBlood-PCVR",
+    "description": "A PCVR port of the Classic Rush of Blood PS4 VR game",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 7,
+    "homepage": null,
+    "pushedAt": "2026-10-24T17:09:54Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "v0.5.0",
+      "name": "RushVR 0.5.0: Quest controllers as Move wands",
+      "publishedAt": "2026-10-24T17:09:55Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "RushVR-0.5.0-PC-VR-Windows.zip",
+          "size": 32082467,
+          "digest": "sha256:435f3c3d9f0680c61f94cea8cc89c330df1ad85e7af0bfe8e867a24bb3de4161"
+        }
+      ],
+      "zips": {
+        "RushVR-0.5.0-PC-VR-Windows.zip": {
+          "entryCount": 15,
+          "executables": [
+            "RushVR-0.5.0-PC-VR-Windows/pc-vr/shadps4.exe"
+          ],
+          "topLevel": [
+            "RushVR-0.5.0-PC-VR-Windows"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "`pc-vr\\user\\log\\shad_log.txt`, the saves are in `pc-vr\\user\\home`.",
+      "| `runtime` | Which OpenXR runtime the game uses: `pc` (the one the PC has set up, the default), `virtualdesktop`, `steamvr`, or the full path of a runtime's `.json` file. Also in the start-up window. |",
+      "is described in `CMakeSettings.json`.) Copy the resulting `shadps4.exe` into `pc-vr`, next to"
+    ],
+    "readmeSetupLines": [
+      "2. **Put your copy of the game in its `games` folder**, anywhere in it: the game's folder or its"
+    ]
+  },
+  {
+    "repo": "k1gs/Drakengard3Recompile",
+    "fullName": "k1gs/Drakengard3Recompile",
+    "description": "Native Windows recompilation of Drakengard 3. Goal: a complete playable port through static recompilation, maximum native execution and minimal PS3 compatibility.",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 5,
+    "homepage": "https://dod3.keggs.ru/",
+    "pushedAt": "2026-11-02T20:48:02Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      ".\\.venv\\Scripts\\python.exe scripts\\inspect_input.py \"PATH_TO_COMPLETED_IMAGE_OR_DIRECTORY\" --download-complete --hash-all --out reports\\intake-001.json"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "sonicnext-dev/MarathonRecomp",
+    "fullName": "sonicnext-dev/MarathonRecomp",
+    "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 736,
+    "homepage": "",
+    "pushedAt": "2026-11-06T09:31:09Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "### Where is the save data and configuration file stored?",
+      "The save data and configuration files are stored at the following locations:",
+      "- Windows: `%APPDATA%\\MarathonRecomp\\`",
+      "You will find the save data under the `save` folder. The configuration file is named `config.toml`.",
+      "You can make the game ignore the [default configuration paths](#where-is-the-save-data-and-configuration-file-stored) and force it to save everything in the installation directory by creating an empty `portable.txt` file. You are directly responsible for the s…"
+    ],
+    "readmeSetupLines": [
+      "**This project does not include any game assets. You must provide the files from your own legally acquired copy of the game to install or build Marathon Recompiled.**",
+      "Due to some restrictions of how the desktop environment on the Steam Deck works whilst in Game Mode, please note that you may need to at least first boot into Desktop Mode to be able to use the file picker to provide the game files."
+    ]
+  },
+  {
+    "repo": "SpeedBreakerProject/speedbreaker",
+    "fullName": "SpeedBreakerProject/speedbreaker",
+    "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 629,
+    "homepage": "https://projectugarte.com/speedbreaker/",
+    "pushedAt": "2026-11-06T02:27:18Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v0.2.3",
+      "name": "SpeedBreaker v0.2.3",
+      "publishedAt": "2026-11-06T02:26:37Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "SpeedBreaker-steamos-x86_64.tar.xz",
+          "size": 19712440,
+          "digest": "sha256:1ed0d55f55a0d41fd33ee66142da46ca38757907af5b7352759ed7d4cc95f973"
+        },
+        {
+          "name": "SpeedBreaker-steamos-x86_64.tar.xz.sha256",
+          "size": 101,
+          "digest": "sha256:625b4c84bd21adfa0459ad4fb3a0e6539bae1e70b150fa530a457ab3cc39bd89"
+        }
+      ],
+      "zips": {}
+    },
+    "readmeHashLines": [
+      "`aebdf3c14d1e4e4ed2c130d94bc1a0e97bd6d5bf39bdfdef33c3909c9cc4ba4c`.",
+      "# must print aebdf3c14d1e4e4ed2c130d94bc1a0e97bd6d5bf39bdfdef33c3909c9cc4ba4c",
+      "# must print aad15fc218d034de3131f746e0b763dd8049a40dd676efc87667fcaf4fc72694"
+    ],
+    "readmePathLines": [
+      "Steam Machine or Linux PC, make an empty file named `portable.txt` next to `speedbreaker.sh`. That",
+      "puts the game in `%LOCALAPPDATA%\\SpeedBreaker`, where your saves, settings and logs go too.",
+      "backups (your saves are still backed up). Afterwards you can delete the disc image."
+    ],
+    "readmeSetupLines": [
+      "<td width=\"50%\"><img src=\"assets/screenshots/speedbreaker-11-installer-disc-image-found.png\" alt=\"The first-run installer, showing a disc image it found, ready to install\"><br><sub>First run: the installer has found the player's disc image.</sub></td>",
+      "the extracted disc files. No title update is needed. SpeedBreaker doesn't provide game files",
+      "3. **Start it and install.** On first run, SpeedBreaker looks for your disc image, checks that",
+      "3. **Put your disc image in Downloads,** or in the top folder of an SD card. SpeedBreaker also",
+      "3. **Put your disc image in Downloads.** SpeedBreaker also looks in your home folder, Desktop,",
+      "put your `.iso` in your home folder, Downloads, Desktop, Documents or Games (or on a USB drive),",
+      "3. **Put your disc image in a `Games` folder in your home folder** (`~/Games`). That's the only",
+      "1. **Get your disc image onto it** (the USA or the European (PAL) Spanish disc). Copy the `.iso` into **Files > On My iPhone (or iPad) >"
+    ]
+  },
+  {
+    "repo": "Thorhax/usf4-nx",
+    "fullName": "Thorhax/usf4-nx",
+    "description": "Ultra Street Fighter IV (Xbox 360) static recompilation for PC and Nintendo Switch (ReXGlue). No game data included.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 19,
+    "homepage": null,
+    "pushedAt": "2026-10-25T11:41:43Z",
+    "releaseCount": 10,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "**This repository holds no game data.** You need your own copy of the game: the Xbox 360 disc, dumped to a plain",
+      "2. Choose your game's disc image (a plain `.iso` of the Xbox 360 disc, about 8.7 GB, not a compressed CCI/GOD/ZAR",
+      "settings) at its first start."
+    ]
+  },
+  {
+    "repo": "rashevskyv/conker-lr-recomp",
+    "fullName": "rashevskyv/conker-lr-recomp",
+    "description": "Conker: Live & Reloaded (Xbox) on Nintendo Switch, Linux and Windows: static recompilation. Build it from your own XBE; no game data.",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 28,
+    "homepage": null,
+    "pushedAt": "2026-11-03T09:04:20Z",
+    "releaseCount": 7,
+    "release": {
+      "tag": "v0.56.0",
+      "name": "v0.56.0 (test build)",
+      "publishedAt": "2026-11-03T09:04:21Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "conker-lr-recomp-windows-v0.56.zip",
+          "size": 13896580,
+          "digest": "sha256:5e30a709d8cf278c67c6d0434f4085c59a41fe1cb262529d92e7e332c34edc7c"
+        }
+      ],
+      "zips": {
+        "conker-lr-recomp-windows-v0.56.zip": {
+          "entryCount": 8,
+          "executables": [
+            "conker-lr-recomp-windows/clx.exe"
+          ],
+          "topLevel": [
+            "conker-lr-recomp-windows"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "Its `default.xbe` must have this SHA-1: `2232a1b3874d67b4bb4cf53a940420d2dab59535`."
+    ],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "2. Copy your unpacked disc folder to `sdmc:/switch/clx/game/`.",
+      "4. Let the first start finish. It compiles shaders and can stutter for a few minutes.",
+      "- **Hang on the loading logo (0 fps).** You quit during the first start. Delete the cache folder"
+    ]
+  },
+  {
+    "repo": "KIexster/god-of-war-recomp",
+    "fullName": "KIexster/god-of-war-recomp",
+    "description": "Native PC port of God of War (PS2) via static recompilation with PS2Recomp",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 227,
+    "homepage": null,
+    "pushedAt": "2026-11-06T05:33:21Z",
+    "releaseCount": 0,
+    "readmeHashLines": [
+      "- [**SotC runtime fork**](https://github.com/LightVelox/PS2Recomp/tree/ac9efa070638ad3b3accd284de6f898d5ab271d1) by Taylor N. Albarnaz / LightVelox — OpenGL GS backend and command queue, and EE fixes (FPU, 64-bit branches, LQ/SQ, tail jumps, VU0 macro mode and…"
+    ],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "`.disc_layout` index in `game\\`. If the ELF is somewhere else, point `GOW_ELF` at it; the disc files must sit next",
+      "to it. `scripts\\ejecutar.ps1` extracts the disc by itself on first run if it finds `God of War.iso` in the folder"
+    ]
+  },
+  {
+    "repo": "goshavindtburg/NX1recomp",
+    "fullName": "goshavindtburg/NX1recomp",
+    "description": "This is a static recompilation/PC port of Call of Duty: Future Warfare",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 19,
+    "homepage": "https://discord.gg/EpRmD5HGXc",
+    "pushedAt": "2026-07-23T00:22:35Z",
+    "releaseCount": 3,
+    "release": {
+      "tag": "0.9.2",
+      "name": "Release v0.9.2",
+      "publishedAt": "2026-07-20T19:35:59Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "nx1_mp.exe",
+          "size": 57855488,
+          "digest": "sha256:68515cbe19fe391872b58eddfc988fd71c4d3cb34972980166457d8e163b4685"
+        }
+      ],
+      "zips": {}
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "this: they name the entry-point `.xex`, where generated code lands, and which hook and"
+    ]
+  },
+  {
+    "repo": "csrpfivem/PS3NHLLegacyRecomp",
+    "fullName": "csrpfivem/PS3NHLLegacyRecomp",
+    "description": "Native PC port of NHL Legacy Edition via PS3 static recompliation",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 6,
+    "homepage": null,
+    "pushedAt": "2026-11-02T00:53:45Z",
+    "releaseCount": 1,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "- **Settings**: every option above. Settings are saved to `nhl_settings.ini`.",
+      "- `ffmpeg.exe` for the movies. The installer puts its path in `nhl_settings.ini`;"
+    ],
+    "readmeSetupLines": [
+      "> notes. You need **your own legal copy of the game** (disc ISO or extracted folder, plus"
+    ]
+  },
+  {
+    "repo": "Mauryln/Bakugan-Battle-Brawlers-PS3-recomp",
+    "fullName": "Mauryln/Bakugan-Battle-Brawlers-PS3-recomp",
+    "description": "Native Windows x64 port of Bakugan: Battle Brawlers (PS3, BLES00758) built by static PPU+SPU recompilation - no emulator. Menus, FMVs and the narrative intro work; 3D models, gameplay and SFX are next.",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 3,
+    "homepage": "",
+    "pushedAt": "2026-11-03T23:24:19Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "| **Save data** — loading works, writing a save is incomplete | ❌ |"
+    ],
+    "readmeSetupLines": [
+      "#    put \"Bakugan - Battle Brawlers (Europe).iso\" in iso/"
+    ]
+  },
+  {
+    "repo": "sp00nznet/crimsonskies-recomp",
+    "fullName": "sp00nznet/crimsonskies-recomp",
+    "description": "Static recompilation of Crimson Skies: High Road to Revenge (Xbox, 2003) to native Windows. The one Xbox title Microsoft also statically recompiled.",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 2,
+    "homepage": null,
+    "pushedAt": "2026-09-21T09:01:34Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "py -3 -m tools.kernel_audit.coverage ../crimsonskies/game/crimsonskies_analysis.json",
+      "The pipeline order is not arbitrary: `disasm` rewrites `functions.json` from scratch, so"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "MegaCadeDev/NaughtyBearRecomp",
+    "fullName": "MegaCadeDev/NaughtyBearRecomp",
+    "description": "A Recompilation for Naughty Bear (Xbox 360) for PC and PS5",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-3.0",
+    "stars": 2,
+    "homepage": null,
+    "pushedAt": "2026-10-26T17:26:29Z",
+    "releaseCount": 1,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "(translated to SPIR-V on the first run), textures, render targets and resolves, the",
+      "On the first run the game prepares its shaders: it decompresses its data packages, finds"
+    ]
+  },
+  {
+    "repo": "TekRantGaming/king-kong-recompiled-beta",
+    "fullName": "TekRantGaming/king-kong-recompiled-beta",
+    "description": "Beta builds of the King Kong PC Port (releases only, no code). Switch to the beta from the launcher: About > Change version.",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 2,
+    "homepage": null,
+    "pushedAt": "2026-10-30T16:31:04Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "v2.0.0-beta.9",
+      "name": "v2.0.0-beta.9",
+      "publishedAt": "2026-10-18T06:49:06Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "KingKong-v2.0.0-beta.9-windows-x64.zip",
+          "size": 160006890,
+          "digest": "sha256:1fdb34eeb50b6e5cfb30ba31b3679f40d10ce79c9840c4913c69aac531e89acc"
+        }
+      ],
+      "zips": {
+        "KingKong-v2.0.0-beta.9-windows-x64.zip": {
+          "entryCount": 241,
+          "executables": [
+            "KingKong/king_kong.exe"
+          ],
+          "topLevel": [
+            "KingKong"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [
+      "| SHA-1 | `075F43709E9C9A095E099AB5056CC04B768288D1` |",
+      "| MD5 | `35D671ED4E9EAD9E6B288A3441B6C8F9` |"
+    ],
+    "readmePathLines": [
+      "**Playing together:** the host's game runs the story and the enemies, and your shots count in it. You see your partner in the world with their name over their head. Fall, and you come back next to your partner. The guest's own saves are kept apart from the hos…",
+      "- **Load game** lists your five saves. Your saves are copied to a backup folder before you play, and before one is deleted or overwritten",
+      "**Saving:** the game saves when you choose Save game, and when you quit from the pause menu with Quit to main menu or Quit game. Checkpoints are not saves, so if you close the window another way, for example with Alt+F4, progress since your last save is lost."
+    ],
+    "readmeSetupLines": [
+      "<sub>The original Xbox 360 game code, translated to native PC code with the <a href=\"https://github.com/rexglue/rexglue-sdk\">ReXGlue SDK</a>. <b>No game files included</b>: bring your own copy of the King Kong Xbox 360 disc.</sub>",
+      "3. Choose **Select disc image** and pick your King Kong disc image. The launcher checks it, copies the game files (about 6.3 GB) into a `game` folder next to the exe and takes its artwork from them.",
+      "The [game files page](https://kong.tekrantgaming.com/game-files.html) explains how to make an image of your own disc. We can't provide, link to or help you find game files.",
+      "4. Start it from Steam (Game Mode works too). The first start takes about half a minute while Steam sets Proton up for it. Pick your disc image as on Windows: your Linux home folder is on the **Z:** drive.",
+      "### First start",
+      "- The launcher asks for **your copy of the game** first, with a card showing exactly which disc works: pick your disc image and it checks it really is King Kong, then installs it",
+      "- **Ready before you play**: the graphics are prepared once on the first start. The port ships with a list of 16,842 graphics pipelines, built with the help of players who chose to share theirs, so new places stutter far less.",
+      "The game needs its effects (shaders) prepared before they can appear, which used to cause short pauses. Now the launcher prepares them on the first start and after an update, with one progress bar, and the game doesn't start until they are ready. This takes a …"
+    ]
+  },
+  {
+    "repo": "K-r0zen/Unwiished-Recomp",
+    "fullName": "K-r0zen/Unwiished-Recomp",
+    "description": "Unofficial native PC port of the Wii version of Sonic Unleashed via static recompilation. Free & open source. Made by a beloved fan.",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 8,
+    "homepage": null,
+    "pushedAt": "2026-07-14T20:10:41Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": [
+      "This project does not include any game files. You must provide your own legally obtained copy of Sonic Unleashed for Wii."
+    ]
+  },
+  {
+    "repo": "itsinspector/NSMBWii-3DS-Recomp",
+    "fullName": "itsinspector/NSMBWii-3DS-Recomp",
+    "description": "Static recompilation of New Super Mario Bros. Wii to PC and New 3DS. Bring your own disc; no game data included.",
+    "archived": false,
+    "fork": false,
+    "license": null,
+    "stars": 4,
+    "homepage": null,
+    "pushedAt": "2026-11-03T19:54:04Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "Save data is kept in `%LOCALAPPDATA%\\NSMBWii\\`."
+    ],
+    "readmeSetupLines": [
+      "> You need your own copy of the disc. Everything built from it (extracted files,"
+    ]
+  },
+  {
+    "repo": "OPaiva-1721/monster-high-recomp",
+    "fullName": "OPaiva-1721/monster-high-recomp",
+    "description": "Experimental Monster High New Ghoul in School PS3 recompilation port for Windows/D3D12. Sources and tools only.",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 1,
+    "homepage": null,
+    "pushedAt": "2026-10-29T18:37:33Z",
+    "releaseCount": 1,
+    "release": {
+      "tag": "v0.1.0",
+      "name": "Setup 0.1.0 experimental para Windows",
+      "publishedAt": "2026-10-29T18:37:34Z",
+      "prerelease": true,
+      "windowsAssets": [
+        {
+          "name": "monster-high-Setup.exe",
+          "size": 12497813,
+          "digest": "sha256:e2b0cba4a6e70373d9308041fea6dee8ec4df04e06f0dbb0c1e0176bcde7e150"
+        }
+      ],
+      "zips": {}
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "O SDK/patch é fixado em `ports/monster-high/sdk.lock.json`. PPU/SPU/jobs necessários são"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "MatRanc/mlb16-recomp",
+    "fullName": "MatRanc/mlb16-recomp",
+    "description": "Work in progress: MLB The Show 16 (PS3) as a native PC port via ps3recomp static recompilation. Bring your own game.",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 2,
+    "homepage": "",
+    "pushedAt": "2026-11-06T10:10:37Z",
+    "releaseCount": 0,
+    "readmeHashLines": [],
+    "readmePathLines": [],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "WK2D/White-Knight-Chronicles-2-Recomp",
+    "fullName": "WK2D/White-Knight-Chronicles-2-Recomp",
+    "description": "Native C/C++ recompilation for White Knight Chronicles II (PS3).",
+    "archived": false,
+    "fork": false,
+    "license": "MIT",
+    "stars": 32,
+    "homepage": "",
+    "pushedAt": "2026-10-22T09:26:30Z",
+    "releaseCount": 0,
+    "readmeHashLines": [
+      "- [Killzone 3 fix catalogue](https://gist.github.com/undecuple/2845432bf13e485634de122084d3fd56) by undecuple"
+    ],
+    "readmePathLines": [
+      "revision is recorded in [project.json](project.json), its license is retained in"
+    ],
+    "readmeSetupLines": []
+  },
+  {
+    "repo": "spacefarergames/AloneInTheDarkReHaunted",
+    "fullName": "spacefarergames/AloneInTheDarkReHaunted",
+    "description": "A heavily enhanced port and dynamic recomp of Alone In The Dark 1, with Textured Models, HD-4K background replacements, QOL improvements, controller support and so much more.",
+    "archived": false,
+    "fork": false,
+    "license": "GPL-2.0",
+    "stars": 141,
+    "homepage": "https://spacefarergames.com/aitdremaster/",
+    "pushedAt": "2026-11-03T11:04:35Z",
+    "releaseCount": 15,
+    "release": {
+      "tag": "2.5.0.0110",
+      "name": "2.5.0.0110",
+      "publishedAt": "2026-11-01T14:57:32Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "AITD_REHAUNTED_2.5.0.01010_Win64.zip",
+          "size": 799945406,
+          "digest": "sha256:aa1b164e44bdb9c08e4fd95fb0f9c4186b6fb898563736015a92754ea928a279"
+        }
+      ],
+      "zips": {
+        "AITD_REHAUNTED_2.5.0.01010_Win64.zip": {
+          "entryCount": 405,
+          "executables": [
+            "Tatou.exe",
+            "DOSBox.exe",
+            "upscayl/bin/upscayl-bin.exe"
+          ],
+          "topLevel": [
+            "aitd_remaster.cfg",
+            "Tatou.exe",
+            "version.txt",
+            "backgrounds_hd.hda",
+            "atlases.hda",
+            "audio_fre.hda",
+            "audio.hda",
+            "DOSBox.exe",
+            "imgui.ini",
+            "steam_api64.dll",
+            "BLKCHCRY.TTF",
+            "atlases",
+            "upscayl",
+            "masks_hd",
+            "backgrounds_hd"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "> All keyboard bindings are fully rebindable via the **Controls** option in the in-game system menu, or by editing `aitd_remaster.cfg`.",
+      "- Analog stick deadzone and sensitivity are configurable in `aitd_remaster.cfg`.",
+      "All remaster features are configurable through `aitd_remaster.cfg` — see [`fitd_remaster.cfg.example`](fitd_remaster.cfg.example) for the full reference. Detailed documentation is available in [`REMASTER.md`](REMASTER.md).",
+      "Copy `fitd_remaster.cfg.example` to `aitd_remaster.cfg` alongside the game data and edit to taste. Key sections:"
+    ],
+    "readmeSetupLines": [
+      "Beginning with Version 2.0, Rehaunted will automatically find and copy over the original game files if installed from Steam, GOG or the CD version is in the drive. If found, the game will copy the files and you will be good to go. In the event it doesn't copy …"
+    ]
+  },
+  {
+    "repo": "whylurking/IsaacRecomp",
+    "fullName": "whylurking/IsaacRecomp",
+    "description": "Native C++ recompilation of The Binding of Isaac (Flash) — 60 fps, 1080p, Windows/Linux/Switch. Requires the original game from Steam",
+    "archived": false,
+    "fork": false,
+    "license": "NOASSERTION",
+    "stars": 77,
+    "homepage": "",
+    "pushedAt": "2026-11-02T20:29:19Z",
+    "releaseCount": 8,
+    "release": {
+      "tag": "v1.5.0",
+      "name": "v1.5.0 - Modding, New Character and More!",
+      "publishedAt": "2026-10-30T17:57:55Z",
+      "prerelease": false,
+      "windowsAssets": [
+        {
+          "name": "IsaacRecomp_Win64.zip",
+          "size": 6687330,
+          "digest": "sha256:c1b1aa37fef038a5ce3ab61f409f534a72b7c34d8984055e43a4599476d9f057"
+        }
+      ],
+      "zips": {
+        "IsaacRecomp_Win64.zip": {
+          "entryCount": 19,
+          "executables": [
+            "IsaacRecomp_Win64/IsaacRecomp.exe"
+          ],
+          "topLevel": [
+            "IsaacRecomp_Win64"
+          ]
+        }
+      }
+    },
+    "readmeHashLines": [],
+    "readmePathLines": [
+      "at startup. Each version keeps its own save file.",
+      "It turns the Flash game's `so.sol` into the IsaacRecomp save file and back, for the original game, Wrath of the Lamb",
+      "your files: the game, `isaac.ini`, the saves and `log.txt` all live in that folder.",
+      "600, 540 or 480 by itself (remembered in `isaac.ini`). It runs at the screen's refresh rate (90 or 120 Hz screens",
+      "through Android's low-latency audio path. To choose the resolution yourself, set `render_height` in `isaac.ini`.",
+      "> ignored; touching shows the progress. Saves are written when the app goes to the background, and the run is",
+      "`isaac.ini` is created on first launch next to the program (Android: in the `IsaacRecomp` folder; Switch:",
+      "`sd:/switch/isaac/isaac.ini`).",
+      "**Save files:**",
+      "There is one save file per version (`isaac_og_save.sol`, `isaac_save.sol`, `isaac_eternal_save.sol`), and the",
+      "Up to 1.3.0 the PC versions saved in `%APPDATA%\\IsaacRecomp\\WrathOfTheLamb\\` (Windows) or",
+      "Press `F3` in game (L3 + R3 on Switch; on Android, set `performance = 1` in `isaac.ini`). The performance overlay"
+    ],
+    "readmeSetupLines": [
+      "`isaac.ini` is created on first launch next to the program (Android: in the `IsaacRecomp` folder; Switch:"
+    ]
+  }
+]

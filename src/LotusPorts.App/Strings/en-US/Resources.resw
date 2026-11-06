@@ -248,6 +248,7 @@
   <data name="PlatformVIRTUAL_BOY" xml:space="preserve"><value>Virtual Boy</value></data>
   <data name="PlatformWII" xml:space="preserve"><value>Wii</value></data>
   <data name="PlatformSWITCH" xml:space="preserve"><value>Nintendo Switch</value></data>
+  <data name="PlatformSWITCH_2" xml:space="preserve"><value>Nintendo Switch 2</value></data>
   <data name="PlatformPS3" xml:space="preserve"><value>PlayStation 3</value></data>
   <data name="PlatformPS4" xml:space="preserve"><value>PlayStation 4</value></data>
   <data name="PlatformPS5" xml:space="preserve"><value>PlayStation 5</value></data>
@@ -407,4 +408,6 @@
   <data name="GuideHintEnglish" xml:space="preserve"><value>Steps by the port&apos;s authors on GitHub, only the part for Windows. The button above already downloads, extracts and opens the game for you.</value></data>
   <data name="GuideHintTranslated" xml:space="preserve"><value>Lotus Ports translation of the steps the authors wrote on GitHub, only the part for Windows. The button above already downloads, extracts and opens the game for you.</value></data>
   <data name="GuideHintOutdated" xml:space="preserve"><value>The authors changed the original after this translation; see the current one on GitHub.</value></data>
+  <data name="PlayFailedQuickly" xml:space="preserve"><value>The game closed right after opening. Click Fix it to see why.</value></data>
+  <data name="GameOnlyPortBuilding" xml:space="preserve"><value>The only project for this game in the catalog. There is no version to download yet; follow it on the official page.</value></data>
 </root>

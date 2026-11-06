@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "littlebigplanet-3",
+  "title": "LittleBigPlanet 3",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "LittleBigPlanet 3, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "littlebigplanet-3-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:littlebigplanet-3",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-06",
+    "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+  },
+  "cover": {
+    "url": "https://cdn2.steamgriddb.com/grid/f36d015d428b570f21a7e947146729d5.png",
+    "source": "steamgriddb"
+  }
+}

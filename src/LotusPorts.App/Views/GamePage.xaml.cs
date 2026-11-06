@@ -89,7 +89,7 @@ public sealed partial class GamePage : Page
 
         RecommendedTitle.Text = port.Title;
         RecommendedReason.Text = g.Game.RecommendationReasonPtBr
-            ?? (g.Alternatives.Count == 0 ? Strings.Get("GameOnlyPort") : Strings.Get("GameReasonMissing"));
+            ?? (g.Alternatives.Count == 0 ? Strings.Get(port.Status == PortStatus.EM_DESENVOLVIMENTO ? "GameOnlyPortBuilding" : "GameOnlyPort") : Strings.Get("GameReasonMissing"));
 
         // Nothing below has been checked on this PC yet: every tile says so instead of showing OK.
         Tiles.Children.Add(GameFileTile());

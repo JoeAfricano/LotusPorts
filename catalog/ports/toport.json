@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "toport",
+  "gameId": "the-order-1886",
+  "title": "TOport",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "IgorAugustoHH",
+    "name": "The-Order-1886-PC-Port"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^TOport-Windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "TOport.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/IgorAugustoHH/The-Order-1886-PC-Port",
+    "docs": "https://github.com/IgorAugustoHH/The-Order-1886-PC-Port#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-06",
+    "releaseTag": "v0.1.7",
+    "releaseDate": "2026-11-01",
+    "stars": 147,
+    "prerelease": true,
+    "assetName": "TOport-Windows.zip",
+    "assetSize": 105612065,
+    "assetSha256": "2482d030bdd12dcfae33c703f03d1e346287db4f3fe61aa984a8419d517d06a6"
+  }
+}

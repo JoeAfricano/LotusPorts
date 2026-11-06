@@ -141,3 +141,12 @@ A chave da API do SteamGridDB é do curador e nunca entra no repositório nem no
 - variável de ambiente `SGDB_API_KEY`.
 
 Sem chave, ou com o GitHub indisponível, o comando mantém as capas que cada jogo já tem.
+
+## Consoles recentes (06/11/2026)
+
+- Busca no GitHub por recompilações de Switch 2, Switch, PS4, PS5 e outras para Windows (`catalog/research/candidates-modern.txt`, conferidas em `scan-modern.json`, fatos em `map-modern.json`).
+- Entraram com versão para Windows: Pokémon Sword and Shield, EA Sports UFC 4, NHL 24, Sengoku Basara 4 Sumeragi, The Binding of Isaac; e como outras formas de jogar: Tears of the Kingdom (TotK Port), The Order: 1886 (TOport e Order1886-PC), Conker: Live & Reloaded.
+- Em "Em breve" (ainda sem versão para baixar, botão Acompanhar): Donkey Kong Bananza (Switch 2), Super Mario Odyssey, Echoes of Wisdom, Super Smash Bros. Ultimate, LittleBigPlanet 3, Shadow of the Colossus (PS4), White Knight Chronicles II; e alternativas em construção para Sonic 2006, God of War, inFAMOUS Second Son e Drakengard 3.
+- Fora: ports que vão *para* Switch/PS4/PS5/Android/Mac (o Lotus Ports roda no Windows), os que só embutem um emulador, ferramentas genéricas, protótipos vazados, repositórios arquivados.
+- Plataforma nova: `SWITCH_2`. No gerador, `"soon": true` lista um projeto sem versão em "Em breve" e `"exe"` indica o programa quando o pacote tem mais de um.
+- Repetir a busca de tempos em tempos: os usuários procuram muito por esses consoles.

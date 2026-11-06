@@ -18,6 +18,10 @@
     {
       "portId": "issn-pc",
       "differencePtBr": null
+    },
+    {
+      "portId": "infamous-second-son-pc-port",
+      "differencePtBr": null
     }
   ],
   "lotusGameKey": "port:infamous-second-son",
