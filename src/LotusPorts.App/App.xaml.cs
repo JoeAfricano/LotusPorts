@@ -66,6 +66,7 @@ public partial class App : Application
             var catalogService = host.Services.GetRequiredService<CatalogService>();
             catalogService.IsInstalled = id => catalogService.Library.Find(id)?.AllPorts.Any(p => play.IsPortInstalled(p.Port.Id)) ?? false;
             await host.Services.GetRequiredService<GameFilesService>().InitializeAsync(dispatcher);
+            await host.Services.GetRequiredService<LotusBridge>().StartAsync(dispatcher);
             await host.StartAsync();
 
             window = new MainWindow(StartPage());
@@ -117,6 +118,12 @@ public partial class App : Application
         services.AddSingleton<LotusPorts.Infrastructure.GameFiles.GameFileStore>();
         services.AddSingleton<LotusPorts.Infrastructure.GameFiles.GameFileScanner>();
         services.AddSingleton<GameFilesService>();
+        services.AddSingleton<LotusPorts.Integration.ILotusDiscovery, LotusPorts.Integration.RegistryLotusDiscovery>();
+        services.AddSingleton<LotusPorts.Integration.IPeerValidator, LotusPorts.Integration.ProcessPeerValidator>();
+        services.AddSingleton(sp => new LotusPorts.Integration.LotusClient(
+            sp.GetRequiredService<LotusPorts.Integration.ILotusDiscovery>(), sp.GetRequiredService<LotusPorts.Integration.IPeerValidator>(),
+            sp.GetRequiredService<Microsoft.Extensions.Logging.ILogger<LotusPorts.Integration.LotusClient>>(), AppInfo.Version.Split('+')[0]));
+        services.AddSingleton<LotusBridge>();
         services.AddSingleton<LotusPorts.Infrastructure.Diagnostics.PortDiagnostics>();
         services.AddSingleton<LotusPorts.Infrastructure.Install.StyleService>();
         services.AddTransient<HomeViewModel>();

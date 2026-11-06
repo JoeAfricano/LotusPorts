@@ -55,6 +55,11 @@ public sealed partial class MainWindow : Window
         Navigate(split[0], split.Length > 1 ? split[1] : null);
         ShowProfile();
         Activated += OnActivated;
+        // The petal lights up only while Lotus is really connected.
+        var bridge = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<LotusBridge>(App.Services);
+        void ShowLotus() => NavLotusPetal.IsLit = bridge.Status.State == LotusPorts.Integration.LotusConnectionState.Connected;
+        bridge.Changed += ShowLotus;
+        ShowLotus();
     }
 
     public void Navigate(string page, object? parameter = null)
@@ -63,7 +68,8 @@ public sealed partial class MainWindow : Window
         {
             Pages.Library => typeof(LibraryPage),
             Pages.Catalog => typeof(CatalogPage),
-            Pages.Downloads or Pages.Lotus => typeof(SimplePage),
+            Pages.Downloads => typeof(SimplePage),
+            Pages.Lotus => typeof(LotusPage),
             Pages.Settings => typeof(SettingsPage),
             Pages.Help => typeof(HelpPage),
             Pages.Game => typeof(GamePage),

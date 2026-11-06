@@ -35,7 +35,7 @@ public sealed record PortRuntime(
 /// <see cref="Changed"/> on the UI thread.
 /// </summary>
 public sealed class PlayService(PortLibrary library, PortInstaller installer, GameLauncher launcher, GitHubClient github,
-    IOperationJournal journal, PreferencesService preferences, TimeProvider time, ILogger<PlayService> logger)
+    IOperationJournal journal, PreferencesService preferences, TimeProvider time, ILogger<PlayService> logger, LotusBridge lotus, LotusPorts.Infrastructure.Catalog.CatalogService catalog)
 {
     private static readonly TimeSpan LookupFreshFor = TimeSpan.FromMinutes(30);
 
@@ -136,7 +136,9 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         });
         try
         {
-            await installer.InstallAsync(port, choice, progress, cancel.Token);
+            var existed = library.Read(port.Id) is not null;
+            var done = await installer.InstallAsync(port, choice, progress, cancel.Token);
+            _ = lotus.NotifyAsync(existed ? Lotus.Integration.Contracts.Events.GameUpdated : Lotus.Integration.Contracts.Events.GameInstalled, new(port.GameId, port.Id, done.ActiveTag));
             return null;
         }
         catch (OperationCanceledException)
@@ -194,7 +196,8 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         if (working.ContainsKey(port.Id) || running.ContainsKey(port.Id)) return;
         try
         {
-            await installer.RollbackAsync(port);
+            var back = await installer.RollbackAsync(port);
+            _ = lotus.NotifyAsync(Lotus.Integration.Contracts.Events.GameRolledBack, new(port.GameId, port.Id, back.ActiveTag));
             problems.Remove(port.Id);
         }
         catch (Exception ex) when (ex is InstallException or IOException or UnauthorizedAccessException)
@@ -212,6 +215,7 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         try
         {
             await Task.Run(() => installer.RemoveAsync(port, keepSaves));
+            _ = lotus.NotifyAsync(Lotus.Integration.Contracts.Events.GameRemoved, new(port.GameId, port.Id, null));
             problems.Remove(port.Id);
         }
         catch (Exception ex) when (ex is InstallException or IOException or UnauthorizedAccessException)
@@ -253,12 +257,18 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         var since = time.GetUtcNow();
         running[port.Id] = (process, since);
         problems.Remove(port.Id);
+        // With Lotus: a session (Lotus applies the game's performance profile and measures it). Never delays the game.
+        var game = catalog.Library.Find(port.GameId);
+        var session = lotus.SessionStartAsync(new Lotus.Integration.Contracts.SessionStartParams(
+            game?.Game.LotusGameKey ?? "port:" + port.GameId, game?.Game.Title ?? port.Title, port.Id, manifest.ActiveTag,
+            launcher.ProgramPath(port, manifest), process.Id, manifest.Style?.Name));
         process.Exited += (_, _) =>
         {
             int code;
             try { code = process.ExitCode; } catch (InvalidOperationException) { code = 0; }
             var ranFor = time.GetUtcNow() - since;
             process.Dispose();
+            _ = EndSessionAsync(session, code, ranFor);
             ui?.TryEnqueue(() =>
             {
                 running.Remove(port.Id);
@@ -269,6 +279,11 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         };
         Raise(port.Id);
         return null;
+    }
+
+    private async Task EndSessionAsync(Task<string?> session, int exitCode, TimeSpan ranFor)
+    {
+        if (await session.ConfigureAwait(false) is { } id) await lotus.SessionEndAsync(id, exitCode, Math.Round(ranFor.TotalSeconds, 1)).ConfigureAwait(false);
     }
 
     public void CloseGame(string portId)

@@ -27,7 +27,6 @@ DownloadsSubtitle	Instalações e atualizações em andamento aparecem aqui e no
 DownloadsEmptyTitle	Nenhum download em andamento	No downloads in progress
 DownloadsEmptyMessage	Quando você instalar ou atualizar um jogo, o progresso aparece aqui.	When you install or update a game, its progress shows here.
 LotusTitle	Integração com o Lotus	Lotus integration
-LotusSubtitle	O Lotus Ports funciona sozinho. Com o Lotus instalado, os dois vão trabalhar juntos.	Lotus Ports works on its own. With Lotus installed, both will work together.
 LotusEmptyTitle	Integração ainda não disponível	Integration not available yet
 LotusEmptyMessage	Por enquanto o Lotus Ports não procura nem se conecta ao Lotus. Nenhum dado é trocado entre os dois.	For now Lotus Ports does not look for or connect to Lotus. No data is exchanged between them.
 LotusBulletsTitle	O que a integração vai trazer	What the integration will bring
@@ -475,3 +474,40 @@ StyleConfirmTitle	Aplicar o estilo {0}?	Apply the {0} style?
 StyleConfirmBody	O Lotus Ports guarda uma cópia da configuração do jogo, muda só as opções deste estilo e confere o arquivo depois. Dá para desfazer com um clique.	Lotus Ports keeps a copy of the game settings, changes only this style's options and checks the file afterwards. You can undo it with one click.
 StyleApply	Aplicar	Apply
 StyleFailed	Não foi possível aplicar o estilo. A configuração do jogo ficou como estava.	The style could not be applied. The game settings stayed as they were.
+LotusSubtitle	O Lotus Ports funciona sozinho. Com o Lotus instalado, os dois trabalham juntos: diagnóstico do sistema, perfil de desempenho por jogo e um histórico só do PC.	Lotus Ports works on its own. With Lotus installed, both work together: system diagnostics, a performance profile per game and one history for the PC.
+LotusRetry	Tentar de novo	Try again
+LotusOpen	Abrir o Lotus	Open Lotus
+LotusFeaturesTitle	O que está funcionando	What is working
+LotusFeatureDiagnostics	Diagnóstico do sistema no "Resolver" (driver de vídeo, gráficos, memória)	System diagnostics in "Fix it" (graphics driver, graphics, memory)
+LotusFeatureChanges	Mudanças recentes no PC como pista no "Resolver"	Recent PC changes as a clue in "Fix it"
+LotusFeatureProfile	Perfil de desempenho do Lotus ao jogar	Lotus performance profile while playing
+LotusFeatureDependencies	Kit de dependências do Lotus	Lotus dependency kit
+LotusFeatureHistory	Instalações e atualizações no histórico do Lotus	Installs and updates in the Lotus history
+LotusFeatureOn	Ligado	On
+LotusFeatureOff	Desligado por você	Turned off by you
+LotusFeatureNotOffered	Este Lotus ainda não oferece	This Lotus doesn't offer it yet
+LotusFeatureNeedsLotus	Precisa do Lotus conectado	Needs Lotus connected
+LotusPermissionsTitle	Permissões	Permissions
+LotusPermissionsHint	Valem quando o Lotus estiver conectado. O que o Lotus fizer no sistema, ele pergunta antes, no próprio Lotus.	They apply when Lotus is connected. Anything Lotus does to the system, it asks first, in Lotus itself.
+LotusAllowDependencies	Usar o kit de dependências do Lotus	Use the Lotus dependency kit
+LotusAllowDiagnostics	Usar o diagnóstico do Lotus no "Resolver"	Use Lotus diagnostics in "Fix it"
+LotusAllowPerformanceProfile	Aplicar perfil de desempenho ao jogar	Apply the performance profile while playing
+LotusAllowReports	Mostrar relatórios e sugestões do Lotus	Show Lotus reports and suggestions
+LotusAllowListAndOpenGames	Permitir que o Lotus liste e abra meus jogos	Let Lotus list and open my games
+LotusAllowShareHistory	Compartilhar o histórico de operações com o Lotus	Share the operation history with Lotus
+LotusStateConnected	Conectado ao Lotus (v{0})	Connected to Lotus (v{0})
+LotusStateNotFound	Lotus não encontrado	Lotus not found
+LotusStateNoIntegration	Lotus instalado, ainda sem a integração	Lotus installed, without the integration yet
+LotusStateConnecting	Conectando ao Lotus…	Connecting to Lotus…
+LotusStateIncompatible	Versão incompatível — atualize o Lotus	Incompatible version — update Lotus
+LotusStateUntrusted	Conexão recusada por segurança	Connection refused for safety
+LotusStateUnavailable	Lotus fechado	Lotus closed
+LotusStateHintConnected	Os dois apps trabalham juntos. Só aparece aqui o que esta versão do Lotus oferece.	Both apps work together. Only what this Lotus version offers shows here.
+LotusStateHintNotFound	O Lotus Ports funciona sozinho. Com o Lotus, ele ganha diagnóstico do sistema e perfil de desempenho por jogo.	Lotus Ports works on its own. With Lotus it gains system diagnostics and a performance profile per game.
+LotusStateHintNoIntegration	O Lotus deste PC ainda não oferece a conexão com o Lotus Ports. Ela chega numa próxima versão do Lotus.	The Lotus on this PC doesn't offer the connection with Lotus Ports yet. It comes in a later Lotus version.
+LotusStateHintConnecting	Isto leva no máximo alguns segundos.	This takes a few seconds at most.
+LotusStateHintIncompatible	Esta versão do Lotus fala outra versão da integração. Atualize o Lotus para os dois voltarem a conversar.	This Lotus version speaks another integration version. Update Lotus so both can talk again.
+LotusStateHintUntrusted	O programa do outro lado não é o Lotus instalado neste PC, então nada foi trocado.	The program on the other side is not the Lotus installed on this PC, so nothing was exchanged.
+LotusStateHintUnavailable	Abra o Lotus e a conexão volta sozinha em alguns segundos.	Open Lotus and the connection comes back by itself in a few seconds.
+ResolveFromLotus	{0}: {1} (conferido pelo Lotus)	{0}: {1} (checked by Lotus)
+ResolveSystemChangedBefore	O problema pode ter começado depois desta mudança no PC, registrada pelo Lotus: {0} ({1}).	The problem may have started after this PC change recorded by Lotus: {0} ({1}).

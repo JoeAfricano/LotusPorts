@@ -66,3 +66,9 @@
 - Nenhum port tem estilos `verified` no catálogo: o seletor Original/Remasterizado não aparece em nenhum jogo até a curadoria confirmar as chaves na configuração real de cada port. TOML ainda não é escrito.
 - A janela "Resolver" não foi vista na tela com um jogo real quebrado (exigiria quebrar uma instalação no PC); o comportamento está coberto por testes com um programa real que fecha com erro.
 - Placa de vídeo e dependências: sem o Lotus, o Resolver só confere se as bibliotecas existem no Windows (o suporte da placa fica "Não verificado"). Nenhum port declara `dependencies` no catálogo ainda.
+
+## Fase 5: pendências
+
+- **Lado do Lotus:** o Lotus (outro repositório) ainda não tem o servidor do pipe nem grava `HKCU\Software\Lotus\Integration`. O roteiro está em `docs/INTEGRACAO_LOTUS.md` ("Para o Lotus implementar"). Não mexi no projeto do Lotus.
+- **Não feito:** pedir instalação de dependência ao Lotus (`Dependencies.RequestInstall`) e o modo autônomo que instala redistribuíveis oficiais da Microsoft (Authenticode, UAC, códigos 0/3010/1638); `Dependencies.Check` só faz sentido quando os ports declararem `dependencies` (nenhum declara ainda); aviso no cartão após `Driver.Changed`; deep links `lotus://` ("Ver relatório no Lotus"), que dependem do Lotus registrar o protocolo.
+- O Lotus Ports ainda não grava `HKCU\Software\LotusPorts\Integration` nem serve o próprio pipe: Fase 6.

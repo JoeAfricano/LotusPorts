@@ -33,7 +33,6 @@
   <data name="DownloadsEmptyTitle" xml:space="preserve"><value>No downloads in progress</value></data>
   <data name="DownloadsEmptyMessage" xml:space="preserve"><value>When you install or update a game, its progress shows here.</value></data>
   <data name="LotusTitle" xml:space="preserve"><value>Lotus integration</value></data>
-  <data name="LotusSubtitle" xml:space="preserve"><value>Lotus Ports works on its own. With Lotus installed, both will work together.</value></data>
   <data name="LotusEmptyTitle" xml:space="preserve"><value>Integration not available yet</value></data>
   <data name="LotusEmptyMessage" xml:space="preserve"><value>For now Lotus Ports does not look for or connect to Lotus. No data is exchanged between them.</value></data>
   <data name="LotusBulletsTitle" xml:space="preserve"><value>What the integration will bring</value></data>
@@ -481,4 +480,41 @@
   <data name="StyleConfirmBody" xml:space="preserve"><value>Lotus Ports keeps a copy of the game settings, changes only this style&apos;s options and checks the file afterwards. You can undo it with one click.</value></data>
   <data name="StyleApply" xml:space="preserve"><value>Apply</value></data>
   <data name="StyleFailed" xml:space="preserve"><value>The style could not be applied. The game settings stayed as they were.</value></data>
+  <data name="LotusSubtitle" xml:space="preserve"><value>Lotus Ports works on its own. With Lotus installed, both work together: system diagnostics, a performance profile per game and one history for the PC.</value></data>
+  <data name="LotusRetry" xml:space="preserve"><value>Try again</value></data>
+  <data name="LotusOpen" xml:space="preserve"><value>Open Lotus</value></data>
+  <data name="LotusFeaturesTitle" xml:space="preserve"><value>What is working</value></data>
+  <data name="LotusFeatureDiagnostics" xml:space="preserve"><value>System diagnostics in &quot;Fix it&quot; (graphics driver, graphics, memory)</value></data>
+  <data name="LotusFeatureChanges" xml:space="preserve"><value>Recent PC changes as a clue in &quot;Fix it&quot;</value></data>
+  <data name="LotusFeatureProfile" xml:space="preserve"><value>Lotus performance profile while playing</value></data>
+  <data name="LotusFeatureDependencies" xml:space="preserve"><value>Lotus dependency kit</value></data>
+  <data name="LotusFeatureHistory" xml:space="preserve"><value>Installs and updates in the Lotus history</value></data>
+  <data name="LotusFeatureOn" xml:space="preserve"><value>On</value></data>
+  <data name="LotusFeatureOff" xml:space="preserve"><value>Turned off by you</value></data>
+  <data name="LotusFeatureNotOffered" xml:space="preserve"><value>This Lotus doesn&apos;t offer it yet</value></data>
+  <data name="LotusFeatureNeedsLotus" xml:space="preserve"><value>Needs Lotus connected</value></data>
+  <data name="LotusPermissionsTitle" xml:space="preserve"><value>Permissions</value></data>
+  <data name="LotusPermissionsHint" xml:space="preserve"><value>They apply when Lotus is connected. Anything Lotus does to the system, it asks first, in Lotus itself.</value></data>
+  <data name="LotusAllowDependencies" xml:space="preserve"><value>Use the Lotus dependency kit</value></data>
+  <data name="LotusAllowDiagnostics" xml:space="preserve"><value>Use Lotus diagnostics in &quot;Fix it&quot;</value></data>
+  <data name="LotusAllowPerformanceProfile" xml:space="preserve"><value>Apply the performance profile while playing</value></data>
+  <data name="LotusAllowReports" xml:space="preserve"><value>Show Lotus reports and suggestions</value></data>
+  <data name="LotusAllowListAndOpenGames" xml:space="preserve"><value>Let Lotus list and open my games</value></data>
+  <data name="LotusAllowShareHistory" xml:space="preserve"><value>Share the operation history with Lotus</value></data>
+  <data name="LotusStateConnected" xml:space="preserve"><value>Connected to Lotus (v{0})</value></data>
+  <data name="LotusStateNotFound" xml:space="preserve"><value>Lotus not found</value></data>
+  <data name="LotusStateNoIntegration" xml:space="preserve"><value>Lotus installed, without the integration yet</value></data>
+  <data name="LotusStateConnecting" xml:space="preserve"><value>Connecting to Lotus…</value></data>
+  <data name="LotusStateIncompatible" xml:space="preserve"><value>Incompatible version — update Lotus</value></data>
+  <data name="LotusStateUntrusted" xml:space="preserve"><value>Connection refused for safety</value></data>
+  <data name="LotusStateUnavailable" xml:space="preserve"><value>Lotus closed</value></data>
+  <data name="LotusStateHintConnected" xml:space="preserve"><value>Both apps work together. Only what this Lotus version offers shows here.</value></data>
+  <data name="LotusStateHintNotFound" xml:space="preserve"><value>Lotus Ports works on its own. With Lotus it gains system diagnostics and a performance profile per game.</value></data>
+  <data name="LotusStateHintNoIntegration" xml:space="preserve"><value>The Lotus on this PC doesn&apos;t offer the connection with Lotus Ports yet. It comes in a later Lotus version.</value></data>
+  <data name="LotusStateHintConnecting" xml:space="preserve"><value>This takes a few seconds at most.</value></data>
+  <data name="LotusStateHintIncompatible" xml:space="preserve"><value>This Lotus version speaks another integration version. Update Lotus so both can talk again.</value></data>
+  <data name="LotusStateHintUntrusted" xml:space="preserve"><value>The program on the other side is not the Lotus installed on this PC, so nothing was exchanged.</value></data>
+  <data name="LotusStateHintUnavailable" xml:space="preserve"><value>Open Lotus and the connection comes back by itself in a few seconds.</value></data>
+  <data name="ResolveFromLotus" xml:space="preserve"><value>{0}: {1} (checked by Lotus)</value></data>
+  <data name="ResolveSystemChangedBefore" xml:space="preserve"><value>The problem may have started after this PC change recorded by Lotus: {0} ({1}).</value></data>
 </root>

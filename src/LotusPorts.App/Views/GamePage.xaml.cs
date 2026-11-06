@@ -227,7 +227,11 @@ public sealed partial class GamePage : Page
         var name = Strings.Get(style == ExperienceStyle.Remastered ? "StyleRemastered" : "StyleOriginal");
         if (await Confirm(Strings.Format("StyleConfirmTitle", name), Strings.Get("StyleConfirmBody"), Strings.Get("StyleApply")))
         {
-            try { await App.Services.GetRequiredService<StyleService>().ApplyAsync(port, style); }
+            try
+            {
+                var applied = await App.Services.GetRequiredService<StyleService>().ApplyAsync(port, style);
+                _ = App.Services.GetRequiredService<LotusBridge>().NotifyAsync(Lotus.Integration.Contracts.Events.PresetApplied, new(port.GameId, port.Id, applied.ActiveTag));
+            }
             catch (Exception ex) when (ex is StyleException or IOException or UnauthorizedAccessException or System.Text.Json.JsonException or InvalidDataException)
             {
                 StyleStatus.Text = Strings.Get("StyleFailed");
@@ -608,6 +612,15 @@ public sealed partial class GamePage : Page
         {
             var diagnostics = App.Services.GetRequiredService<PortDiagnostics>();
             report = await Task.Run(() => diagnostics.Run(g, port, installed, fileState));
+            // With Lotus: its system checks replace the local "graphics libraries present" line, and a recent change on
+            // the PC (driver update…) appears as a clue. Nothing is duplicated.
+            var program = installed is null ? null : App.Services.GetRequiredService<GameLauncher>().ProgramPath(port, installed);
+            var fromLotus = await App.Services.GetRequiredService<LotusBridge>().SystemChecksAsync(port.GraphicsApis ?? [], program, installed?.LastLaunchFailed == true);
+            if (fromLotus.Count > 0)
+            {
+                var replaceGraphics = fromLotus.Any(c => c.Kind == ResolveCheckKind.Graphics);
+                report = report with { Checks = [.. report.Checks.Where(c => !(replaceGraphics && c.Kind == ResolveCheckKind.Graphics)), .. fromLotus] };
+            }
         }
         finally
         {

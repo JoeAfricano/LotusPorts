@@ -146,3 +146,26 @@ public sealed class LotusClientTests
         condition().Should().BeTrue();
     }
 }
+
+public sealed class MessageContractTests
+{
+    [Fact]
+    public async Task New_messages_round_trip_with_the_shared_options()
+    {
+        var start = new SessionStartParams("port:zelda", "Zelda", "zelda64-recompiled", "v1.2.2", @"C:\g.exe", 42, "Remastered");
+        var checks = new SystemChecksResult([new SystemCheckItem("gpu", CheckStatus.Failure, "Driver", "Antigo")]);
+        var changes = new JournalQueryRecentResult([new SystemChange(new DateTimeOffset(2026, 11, 5, 10, 0, 0, TimeSpan.Zero), "driver", "Driver de vídeo atualizado")]);
+
+        using var stream = new MemoryStream();
+        await MessageFraming.WriteAsync(stream, JsonRpcMessage.Request("1", Methods.SessionStart, start));
+        await MessageFraming.WriteAsync(stream, JsonRpcMessage.Success("2", checks));
+        await MessageFraming.WriteAsync(stream, JsonRpcMessage.Success("3", changes));
+        stream.Position = 0;
+
+        (await MessageFraming.ReadAsync(stream))!.ParamsAs<SessionStartParams>().Should().Be(start);
+        var readChecks = (await MessageFraming.ReadAsync(stream))!;
+        readChecks.Result!.Value.GetProperty("items")[0].GetProperty("state").GetString().Should().Be("Failure");
+        readChecks.ResultAs<SystemChecksResult>()!.Items.Should().Equal(checks.Items);
+        (await MessageFraming.ReadAsync(stream))!.ResultAs<JournalQueryRecentResult>()!.Changes.Should().Equal(changes.Changes);
+    }
+}

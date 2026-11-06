@@ -33,7 +33,6 @@
   <data name="DownloadsEmptyTitle" xml:space="preserve"><value>Nenhum download em andamento</value></data>
   <data name="DownloadsEmptyMessage" xml:space="preserve"><value>Quando você instalar ou atualizar um jogo, o progresso aparece aqui.</value></data>
   <data name="LotusTitle" xml:space="preserve"><value>Integração com o Lotus</value></data>
-  <data name="LotusSubtitle" xml:space="preserve"><value>O Lotus Ports funciona sozinho. Com o Lotus instalado, os dois vão trabalhar juntos.</value></data>
   <data name="LotusEmptyTitle" xml:space="preserve"><value>Integração ainda não disponível</value></data>
   <data name="LotusEmptyMessage" xml:space="preserve"><value>Por enquanto o Lotus Ports não procura nem se conecta ao Lotus. Nenhum dado é trocado entre os dois.</value></data>
   <data name="LotusBulletsTitle" xml:space="preserve"><value>O que a integração vai trazer</value></data>
@@ -481,4 +480,41 @@
   <data name="StyleConfirmBody" xml:space="preserve"><value>O Lotus Ports guarda uma cópia da configuração do jogo, muda só as opções deste estilo e confere o arquivo depois. Dá para desfazer com um clique.</value></data>
   <data name="StyleApply" xml:space="preserve"><value>Aplicar</value></data>
   <data name="StyleFailed" xml:space="preserve"><value>Não foi possível aplicar o estilo. A configuração do jogo ficou como estava.</value></data>
+  <data name="LotusSubtitle" xml:space="preserve"><value>O Lotus Ports funciona sozinho. Com o Lotus instalado, os dois trabalham juntos: diagnóstico do sistema, perfil de desempenho por jogo e um histórico só do PC.</value></data>
+  <data name="LotusRetry" xml:space="preserve"><value>Tentar de novo</value></data>
+  <data name="LotusOpen" xml:space="preserve"><value>Abrir o Lotus</value></data>
+  <data name="LotusFeaturesTitle" xml:space="preserve"><value>O que está funcionando</value></data>
+  <data name="LotusFeatureDiagnostics" xml:space="preserve"><value>Diagnóstico do sistema no &quot;Resolver&quot; (driver de vídeo, gráficos, memória)</value></data>
+  <data name="LotusFeatureChanges" xml:space="preserve"><value>Mudanças recentes no PC como pista no &quot;Resolver&quot;</value></data>
+  <data name="LotusFeatureProfile" xml:space="preserve"><value>Perfil de desempenho do Lotus ao jogar</value></data>
+  <data name="LotusFeatureDependencies" xml:space="preserve"><value>Kit de dependências do Lotus</value></data>
+  <data name="LotusFeatureHistory" xml:space="preserve"><value>Instalações e atualizações no histórico do Lotus</value></data>
+  <data name="LotusFeatureOn" xml:space="preserve"><value>Ligado</value></data>
+  <data name="LotusFeatureOff" xml:space="preserve"><value>Desligado por você</value></data>
+  <data name="LotusFeatureNotOffered" xml:space="preserve"><value>Este Lotus ainda não oferece</value></data>
+  <data name="LotusFeatureNeedsLotus" xml:space="preserve"><value>Precisa do Lotus conectado</value></data>
+  <data name="LotusPermissionsTitle" xml:space="preserve"><value>Permissões</value></data>
+  <data name="LotusPermissionsHint" xml:space="preserve"><value>Valem quando o Lotus estiver conectado. O que o Lotus fizer no sistema, ele pergunta antes, no próprio Lotus.</value></data>
+  <data name="LotusAllowDependencies" xml:space="preserve"><value>Usar o kit de dependências do Lotus</value></data>
+  <data name="LotusAllowDiagnostics" xml:space="preserve"><value>Usar o diagnóstico do Lotus no &quot;Resolver&quot;</value></data>
+  <data name="LotusAllowPerformanceProfile" xml:space="preserve"><value>Aplicar perfil de desempenho ao jogar</value></data>
+  <data name="LotusAllowReports" xml:space="preserve"><value>Mostrar relatórios e sugestões do Lotus</value></data>
+  <data name="LotusAllowListAndOpenGames" xml:space="preserve"><value>Permitir que o Lotus liste e abra meus jogos</value></data>
+  <data name="LotusAllowShareHistory" xml:space="preserve"><value>Compartilhar o histórico de operações com o Lotus</value></data>
+  <data name="LotusStateConnected" xml:space="preserve"><value>Conectado ao Lotus (v{0})</value></data>
+  <data name="LotusStateNotFound" xml:space="preserve"><value>Lotus não encontrado</value></data>
+  <data name="LotusStateNoIntegration" xml:space="preserve"><value>Lotus instalado, ainda sem a integração</value></data>
+  <data name="LotusStateConnecting" xml:space="preserve"><value>Conectando ao Lotus…</value></data>
+  <data name="LotusStateIncompatible" xml:space="preserve"><value>Versão incompatível — atualize o Lotus</value></data>
+  <data name="LotusStateUntrusted" xml:space="preserve"><value>Conexão recusada por segurança</value></data>
+  <data name="LotusStateUnavailable" xml:space="preserve"><value>Lotus fechado</value></data>
+  <data name="LotusStateHintConnected" xml:space="preserve"><value>Os dois apps trabalham juntos. Só aparece aqui o que esta versão do Lotus oferece.</value></data>
+  <data name="LotusStateHintNotFound" xml:space="preserve"><value>O Lotus Ports funciona sozinho. Com o Lotus, ele ganha diagnóstico do sistema e perfil de desempenho por jogo.</value></data>
+  <data name="LotusStateHintNoIntegration" xml:space="preserve"><value>O Lotus deste PC ainda não oferece a conexão com o Lotus Ports. Ela chega numa próxima versão do Lotus.</value></data>
+  <data name="LotusStateHintConnecting" xml:space="preserve"><value>Isto leva no máximo alguns segundos.</value></data>
+  <data name="LotusStateHintIncompatible" xml:space="preserve"><value>Esta versão do Lotus fala outra versão da integração. Atualize o Lotus para os dois voltarem a conversar.</value></data>
+  <data name="LotusStateHintUntrusted" xml:space="preserve"><value>O programa do outro lado não é o Lotus instalado neste PC, então nada foi trocado.</value></data>
+  <data name="LotusStateHintUnavailable" xml:space="preserve"><value>Abra o Lotus e a conexão volta sozinha em alguns segundos.</value></data>
+  <data name="ResolveFromLotus" xml:space="preserve"><value>{0}: {1} (conferido pelo Lotus)</value></data>
+  <data name="ResolveSystemChangedBefore" xml:space="preserve"><value>O problema pode ter começado depois desta mudança no PC, registrada pelo Lotus: {0} ({1}).</value></data>
 </root>
