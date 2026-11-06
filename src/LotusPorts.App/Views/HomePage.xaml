@@ -78,6 +78,11 @@
             </Grid>
 
             <StackPanel Margin="48,6,48,48" Spacing="28">
+                <StackPanel.ChildrenTransitions>
+                    <TransitionCollection>
+                        <EntranceThemeTransition FromVerticalOffset="28" IsStaggeringEnabled="True" />
+                    </TransitionCollection>
+                </StackPanel.ChildrenTransitions>
                 <Border Style="{StaticResource Lotus.Card}" Visibility="{x:Bind ViewModel.IsEmpty, Mode=OneWay}">
                     <controls:EmptyState
                         Illustration="Assets/Art/Illustrations/biblioteca-vazia.png"

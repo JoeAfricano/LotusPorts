@@ -91,6 +91,26 @@ public sealed class GitHubClient(HttpClient http)
         return new(response.StatusCode, Encoding.UTF8.GetString(limited.ToArray()), response.Headers.ETag?.ToString());
     }
 
+    /// <summary>Downloads a small binary file (box art). Null when missing; never more than maxBytes.</summary>
+    public async Task<byte[]?> GetBytesAsync(Uri url, long maxBytes, CancellationToken cancellationToken = default)
+    {
+        EnsureAllowed(url);
+        using var response = await http.GetAsync(url, HttpCompletionOption.ResponseHeadersRead, cancellationToken).ConfigureAwait(false);
+        if (response.StatusCode == HttpStatusCode.NotFound) return null;
+        response.EnsureSuccessStatusCode();
+        if (response.Content.Headers.ContentLength > maxBytes) throw new InvalidDataException("File is too large.");
+        await using var stream = await response.Content.ReadAsStreamAsync(cancellationToken).ConfigureAwait(false);
+        using var buffer = new MemoryStream();
+        var chunk = new byte[81920];
+        int read;
+        while ((read = await stream.ReadAsync(chunk, cancellationToken).ConfigureAwait(false)) > 0)
+        {
+            if (buffer.Length + read > maxBytes) throw new InvalidDataException("File is too large.");
+            buffer.Write(chunk, 0, read);
+        }
+        return buffer.ToArray();
+    }
+
     /// <summary>Lists the files inside a release zip by reading only its index at the end (range request). Nothing is saved.</summary>
     public async Task<IReadOnlyList<string>> ListZipEntriesAsync(ReleaseAssetInfo asset, CancellationToken cancellationToken = default)
     {

@@ -60,7 +60,17 @@
           }
         },
         "lotusGameKey": { "type": "string", "pattern": "^port:[a-z0-9]+(-[a-z0-9]+)*$" },
-        "review": { "$ref": "#/$defs/review" }
+        "review": { "$ref": "#/$defs/review" },
+        "cover": {
+          "type": ["object", "null"],
+          "description": "Box art shown by the app, fetched when displayed and cached locally; never bundled.",
+          "additionalProperties": false,
+          "required": ["url", "source"],
+          "properties": {
+            "url": { "type": "string", "pattern": "^https://raw\\.githubusercontent\\.com/libretro-thumbnails/[^?#]+\\.png$" },
+            "source": { "const": "libretro-thumbnails" }
+          }
+        }
       }
     },
     "port": {

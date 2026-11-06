@@ -17,5 +17,9 @@
     "by": null,
     "at": null,
     "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  },
+  "cover": {
+    "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Zelda%20II%20-%20The%20Adventure%20of%20Link%20%28USA%29.png",
+    "source": "libretro-thumbnails"
   }
 }

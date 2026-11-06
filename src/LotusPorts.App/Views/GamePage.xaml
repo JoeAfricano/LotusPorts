@@ -40,6 +40,11 @@
                     x:Name="Details"
                     Spacing="18"
                     Visibility="Collapsed">
+                    <StackPanel.ChildrenTransitions>
+                        <TransitionCollection>
+                            <EntranceThemeTransition FromVerticalOffset="28" IsStaggeringEnabled="True" />
+                        </TransitionCollection>
+                    </StackPanel.ChildrenTransitions>
                     <!--  Top: cover, title, badges, description  -->
                     <Grid ColumnSpacing="28">
                         <Grid.ColumnDefinitions>

@@ -45,6 +45,7 @@ public sealed partial class GamePage : Page
         Cover.Title = g.Game.Title;
         Cover.PlatformKey = g.Game.OriginalPlatform.ToString();
         Cover.PlatformLabel = CatalogLabels.Platform(g.Game.OriginalPlatform);
+        Cover.CoverUrl = g.Game.Cover?.Url;
         TitleText.Text = g.Game.Title;
         Description.Text = g.Game.DescriptionPtBr;
 

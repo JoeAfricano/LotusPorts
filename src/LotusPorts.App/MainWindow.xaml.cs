@@ -5,6 +5,7 @@ using Microsoft.UI.Windowing;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media.Animation;
 using Windows.Graphics;
 
 namespace LotusPorts.App;
@@ -64,7 +65,11 @@ public sealed partial class MainWindow : Window
             _ => typeof(HomePage),
         };
         if (page != Pages.Game) { lastPage = page; lastParameter = parameter; }
-        ContentFrame.Navigate(type, type == typeof(SimplePage) ? page : parameter);
+        // Game pages drill in; screens from the sidebar enter softly; nothing moves when Windows reduces animations.
+        NavigationTransitionInfo transition = !Lotus.Design.Motion.Enabled ? new SuppressNavigationTransitionInfo()
+            : page == Pages.Game ? new DrillInNavigationTransitionInfo()
+            : new EntranceNavigationTransitionInfo();
+        ContentFrame.Navigate(type, type == typeof(SimplePage) ? page : parameter, transition);
         navigating = true;
         var active = nav.ContainsKey(page) ? page : page == Pages.Game ? null : Pages.Home;
         foreach (var (id, button) in nav) button.IsChecked = id == active;

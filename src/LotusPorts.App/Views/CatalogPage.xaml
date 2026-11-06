@@ -14,6 +14,11 @@
                 <ColumnDefinition Width="*" MaxWidth="1240" />
             </Grid.ColumnDefinitions>
             <StackPanel Spacing="16">
+                <StackPanel.ChildrenTransitions>
+                    <TransitionCollection>
+                        <EntranceThemeTransition FromVerticalOffset="28" IsStaggeringEnabled="True" />
+                    </TransitionCollection>
+                </StackPanel.ChildrenTransitions>
                 <TextBlock Style="{StaticResource Type.Title}" Text="{local:Str Key=CatalogTitle}" />
                 <TextBlock
                     Foreground="{StaticResource Text.Secondary}"

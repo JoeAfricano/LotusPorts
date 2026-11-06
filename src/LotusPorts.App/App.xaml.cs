@@ -57,6 +57,9 @@ public partial class App : Application
             var preferences = await host.Services.GetRequiredService<PreferencesService>().LoadAsync();
             Strings.Initialize(preferences.Language);
             await host.Services.GetRequiredService<CatalogService>().LoadAsync();
+            var covers = host.Services.GetRequiredService<CoverCache>();
+            covers.Shrink = CoverShrinker.ShrinkAsync;
+            Lotus.Design.Controls.GameCover.CoverResolver = covers.GetAsync;
             await host.StartAsync();
 
             window = new MainWindow(StartPage());
@@ -99,6 +102,7 @@ public partial class App : Application
             return new GitHubClient(http);
         });
         services.AddSingleton<CatalogService>();
+        services.AddSingleton<CoverCache>();
         services.AddTransient<HomeViewModel>();
         services.AddTransient<LibraryViewModel>();
         services.AddTransient<CatalogViewModel>();

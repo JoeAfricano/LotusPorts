@@ -20,6 +20,11 @@ Especificação completa: `docs/PROMPT_MESTRE.md`. As decisões abaixo **prevale
 - **Saves e backups ficam com o Lotus**, que já faz isso. O Lotus Ports não tem seção de saves, backups antes de atualizar, tabela `Backups` nem operações Backup/Restore. Atualizar ainda migra `persistentPaths`, e o rollback de versão continua.
 - **A arte conceitual prevalece** sobre a seção 9: navegação lateral (Biblioteca, Catálogo, Downloads, Integração com o Lotus, Configurações, Ajuda), hero com cena japonesa, cartões e botões rosé. O item "Saves e Backups" da arte foi retirado pela decisão acima. Tokens ajustados à paleta da arte (`docs/UX.md`).
 - Validação do catálogo com JsonSchema.Net (MIT). Meta do José: o catálogo com a maior quantidade possível de ports, sem inventar dados.
+- **RecompLauncher é a base** (decisão de 05/11/2026): reimplementado em C#, sem copiar código (GPL-3.0), com a cara do Lotus e o pacote de arte premium como base visual. Plano em `docs/PLANO_BASE_RECOMPLAUNCHER.md`.
+- **Revisão do catálogo delegada ao Claude**, por critérios escritos (`CatalogScout auto-review`): aprova jogos com forma de abrir conferida; o status "Jogável" exige teste real e não é atribuído sem ele.
+- **Capas dos jogos**: buscadas na hora de exibir a partir de libretro-thumbnails (GitHub), reduzidas para JPEG de 400 px num cache local; nunca embutidas no app ou no catálogo (que guarda só o endereço). Sem capa, vale a capa tipográfica.
+- Interface intuitiva é o diferencial: animações fluidas e leves (só durante interação, desligadas com "reduzir animações").
+- **Navegação**: Início (vitrine), Biblioteca (os jogos do jogador), Catálogo (tudo, com filtros e fontes), Downloads, Integração com o Lotus, Configurações, Ajuda.
 - **Biblioteca** = a estante do jogador (prateleiras e filtros Todos/Favoritos/Instalados/Não instalados). **Catálogo** = todos os jogos para descobrir, mais as fontes de catálogo importadas.
 
 ## Arquitetura
@@ -44,4 +49,5 @@ Catálogo: `catalog/` (schema, `games/`, `ports/`, pacote `catalog.json` embutid
 
 - **Fase 0 (Fundação): concluída em 05/11/2026.** Build Debug sem avisos nem erros, 40 testes aprovados. Telas conferidas por captura de tela. Detalhes e pendências em `docs/PENDENCIAS.md`.
 - **Fase 1 (Catálogo por jogo): concluída em 05/11/2026.** 65 jogos e 70 ports verificados no GitHub (release Windows e executável conferidos), todos `pending` aguardando revisão do José; 77 testes; zero avisos. Pendências em `docs/PENDENCIAS.md` e no "O que revisar" de `docs/CATALOGO.md`.
-- Próxima: Fase 2 (orquestrador Jogar e ciclo de vida). Aguardar o comando do José.
+- **Expansão (05/11/2026):** 628 jogos e 804 ports (descoberta pela lista do recomplauncher.com e pelo tópico pc-port, tudo conferido no GitHub); 552 aprovados, 76 pendentes com motivo; 387 com capa. Início, Biblioteca nova, artes do pacote, animações. 77 testes, zero avisos.
+- Próxima: Fase 2 (orquestrador Jogar e ciclo de vida), incluindo leitura do `recomplauncher.json` das releases para o setup fácil.

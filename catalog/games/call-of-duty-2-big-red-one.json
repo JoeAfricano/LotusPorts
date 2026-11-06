@@ -15,5 +15,9 @@
     "by": null,
     "at": null,
     "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  },
+  "cover": {
+    "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Call%20of%20Duty%202%20-%20Big%20Red%20One%20%28USA%29.png",
+    "source": "libretro-thumbnails"
   }
 }

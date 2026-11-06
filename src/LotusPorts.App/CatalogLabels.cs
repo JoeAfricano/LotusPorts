@@ -50,7 +50,9 @@ public sealed record GameCardModel(
     BadgeTone StatusTone,
     string? OriginText,
     string StateLine,
-    bool Favorite)
+    bool Favorite,
+    bool ShowStatus,
+    string? CoverUrl)
 {
     public bool HasOrigin => OriginText is not null;
 
@@ -64,7 +66,9 @@ public sealed record GameCardModel(
         CatalogLabels.Origin(game),
         // Installing and game files arrive in phases 2 and 3: nothing is claimed before it is checked.
         state.Installed ? Strings.Get("StateInstalled") : Strings.Get("StateNotInstalled"),
-        state.Favorite);
+        state.Favorite,
+        game.Recommended.Port.Status != PortStatus.NAO_AVALIADO,
+        game.Game.Cover?.Url);
 }
 
 public sealed record ShelfModel(string Title, IReadOnlyList<GameCardModel> Games);

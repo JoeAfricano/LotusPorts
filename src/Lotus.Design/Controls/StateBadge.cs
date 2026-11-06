@@ -22,7 +22,7 @@ public sealed partial class StateBadge : UserControl
     public static readonly DependencyProperty TextProperty =
         DependencyProperty.Register(nameof(Text), typeof(string), typeof(StateBadge), new PropertyMetadata("", (d, _) => ((StateBadge)d).Paint()));
 
-    private readonly Border border = new() { CornerRadius = new CornerRadius(999), Padding = new Thickness(9, 3, 11, 4), BorderThickness = new Thickness(1) };
+    private readonly Border border = new() { CornerRadius = new CornerRadius(8), Padding = new Thickness(8, 3, 10, 4), BorderThickness = new Thickness(0) };
     private readonly FontIcon icon = new() { FontSize = 11, VerticalAlignment = VerticalAlignment.Center };
     private readonly TextBlock label = new() { FontSize = 12, FontWeight = Microsoft.UI.Text.FontWeights.SemiBold, VerticalAlignment = VerticalAlignment.Center };
 

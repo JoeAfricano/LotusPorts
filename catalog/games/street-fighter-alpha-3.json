@@ -15,5 +15,9 @@
     "by": null,
     "at": null,
     "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  },
+  "cover": {
+    "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Street%20Fighter%20Alpha%203%20%28USA%29.png",
+    "source": "libretro-thumbnails"
   }
 }

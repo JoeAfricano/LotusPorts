@@ -19,7 +19,11 @@ public sealed record Game(
     string? RecommendationReasonPtBr,
     IReadOnlyList<PortAlternative> Alternatives,
     string LotusGameKey,
-    Review Review);
+    Review Review,
+    GameCoverArt? Cover = null);
+
+/// <summary>Box art address (libretro-thumbnails). The app fetches and caches it when shown.</summary>
+public sealed record GameCoverArt(string Url, string Source);
 
 public sealed record PortAlternative(string PortId, string? DifferencePtBr);
 

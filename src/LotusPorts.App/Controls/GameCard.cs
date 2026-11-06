@@ -16,7 +16,8 @@ public sealed partial class GameCard : UserControl
     private readonly StateBadge status = new() { Margin = new Thickness(10, 0, 10, 10), VerticalAlignment = VerticalAlignment.Bottom };
     private readonly StateBadge origin = new() { Tone = BadgeTone.Unknown, Margin = new Thickness(12, 40, 0, 0), HorizontalAlignment = HorizontalAlignment.Left, VerticalAlignment = VerticalAlignment.Top };
     private readonly FontIcon heart = new() { Glyph = "\uEB52", FontSize = 14, Margin = new Thickness(0, 12, 12, 0), HorizontalAlignment = HorizontalAlignment.Right, VerticalAlignment = VerticalAlignment.Top };
-    private readonly TextBlock line = new() { FontSize = 12, Margin = new Thickness(4, 8, 4, 0), TextTrimming = TextTrimming.CharacterEllipsis };
+    private readonly TextBlock name = new() { FontSize = 13, FontWeight = Microsoft.UI.Text.FontWeights.SemiBold, Margin = new Thickness(4, 9, 4, 0), TextTrimming = TextTrimming.CharacterEllipsis, MaxLines = 1 };
+    private readonly TextBlock line = new() { FontSize = 12, Margin = new Thickness(4, 2, 4, 0), TextTrimming = TextTrimming.CharacterEllipsis };
     private readonly Button button;
 
     public GameCard()
@@ -29,9 +30,10 @@ public sealed partial class GameCard : UserControl
         {
             Style = (Style)resources["Lotus.CardButton"],
             Width = 180,
-            Content = new StackPanel { Padding = new Thickness(2), Children = { art, line } },
+            Content = new StackPanel { Padding = new Thickness(2), Children = { art, name, line } },
         };
         button.Click += (_, _) => { if (Model is not null) App.MainWindow?.Navigate(Pages.Game, Model.Id); };
+        Lotus.Design.Motion.Attach(button);
         Content = button;
     }
 
@@ -47,11 +49,16 @@ public sealed partial class GameCard : UserControl
         cover.Title = m.Title;
         cover.PlatformKey = m.PlatformKey;
         cover.PlatformLabel = m.PlatformLabel;
+        // Only statuses that tell the player something get a badge on the cover; "not rated" stays on the game page.
         status.Text = m.StatusText;
         status.Tone = m.StatusTone;
+        status.Visibility = m.ShowStatus ? Visibility.Visible : Visibility.Collapsed;
+        cover.TitleBottomInset = m.ShowStatus ? 30 : 0;
+        cover.CoverUrl = m.CoverUrl;
         origin.Text = m.OriginText ?? "";
         origin.Visibility = m.HasOrigin ? Visibility.Visible : Visibility.Collapsed;
         heart.Visibility = m.Favorite && !m.HasOrigin ? Visibility.Visible : Visibility.Collapsed;
+        name.Text = m.Title;
         line.Text = $"{m.PlatformLabel} · {m.StateLine}";
         AutomationProperties.SetName(button, $"{m.Title}. {m.PlatformLabel}. {m.StatusText}. {m.StateLine}" + (m.OriginText is null ? "" : $". {m.OriginText}"));
     }

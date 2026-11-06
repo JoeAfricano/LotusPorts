@@ -15,5 +15,9 @@
     "by": null,
     "at": null,
     "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  },
+  "cover": {
+    "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/MotorStorm%20-%20Arctic%20Edge%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CPt%2CRu%29.png",
+    "source": "libretro-thumbnails"
   }
 }

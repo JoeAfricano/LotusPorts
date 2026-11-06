@@ -2,7 +2,7 @@
   "$schema": "./catalog.schema.json",
   "schemaVersion": 1,
   "name": "Catálogo oficial do Lotus Ports",
-  "version": "2026-11-05",
+  "version": "2026-11-06",
   "games": [
     {
       "schemaVersion": 1,
@@ -21,6 +21,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/007%20-%20Agent%20Under%20Fire%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -42,6 +46,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/007%20-%20Everything%20or%20Nothing%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -63,6 +71,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/007%20-%20Nightfire%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -84,6 +96,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/1080%20Snowboarding%20%28USA%29%20%28En%2CJa%29%20%28LodgeNet%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -178,6 +194,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/40%20Winks%20%28USA%29%20%28Proto%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -225,6 +245,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ace%20Combat%2004%20-%20Shattered%20Skies%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -246,6 +270,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Adventure%20Island%20II%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -293,6 +321,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/AeroGauge%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -335,6 +367,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Aidyn%20Chronicles%20-%20The%20First%20Mage%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -361,6 +397,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Alien%20Resurrection%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -382,6 +422,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Alone%20in%20the%20Dark%20-%20The%20New%20Nightmare%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -403,6 +447,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Alundra%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -427,6 +475,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Amped%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -486,6 +538,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Animal%20Crossing%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -516,6 +572,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Ape%20Escape%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -535,6 +595,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Apocalypse%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -556,6 +620,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Army%20Men%20-%20Sarge%27s%20Heroes%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -615,6 +683,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Astro%20Boy%20-%20Omega%20Factor%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -678,6 +750,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Automobili%20Lamborghini%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -705,6 +781,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Banjo-Kazooie%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -732,6 +812,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Banjo-Tooie%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -756,6 +840,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Baroque%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -777,6 +865,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Battle%20Arena%20Toshinden%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -796,6 +888,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Battle%20Stadium%20D.O.N%20%28Japan%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -822,6 +918,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/BattleTanx%20-%20Global%20Assault%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -843,6 +943,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/BattleTanx%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -864,6 +968,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Battletoads%20in%20Battlemaniacs%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -885,6 +993,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Battlezone%20-%20Rise%20of%20the%20Black%20Dogs%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -925,6 +1037,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Beetle%20Adventure%20Racing%21%20%28USA%29%20%28En%2CFr%2CDe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -946,6 +1062,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Beyond%20Oasis%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -984,6 +1104,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Black%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1010,6 +1134,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Blast%20Corps%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1036,6 +1164,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Blood%20Wake%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1120,6 +1252,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Blue%20Stinger%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1141,6 +1277,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Body%20Harvest%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1160,6 +1300,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Bomberman%2064%20-%20The%20Second%20Attack%21%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1182,6 +1326,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Bomberman%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1201,6 +1349,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Bomberman%20Fantasy%20Race%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1223,6 +1375,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Bomberman%20Hero%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1242,6 +1398,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Bomberman%20-%20Party%20Edition%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1261,6 +1421,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Bomberman%20World%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1282,6 +1446,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Breakdown%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1312,6 +1480,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Burnout%203%20-%20Takedown%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1354,6 +1526,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Burnout%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1392,6 +1568,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Call%20of%20Duty%202%20-%20Big%20Red%20One%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1434,6 +1614,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Call%20of%20Duty%20-%20Finest%20Hour%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1474,6 +1658,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Commodore_-_Amiga/master/Named_Boxarts/Cannon%20Fodder%20%28Europe%29%20%28CD32%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1498,6 +1686,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Cartoon%20Network%20Racing%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1561,6 +1753,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Castlevania%20Chronicles%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1580,6 +1776,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Castlevania%20-%20Curse%20of%20Darkness%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1601,6 +1801,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Castlevania%20-%20Legacy%20of%20Darkness%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1623,6 +1827,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1685,6 +1893,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Chrono%20Trigger%20%28USA%29%20%28En%2CFr%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1777,6 +1989,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Conker%20-%20Live%20%26%20Reloaded%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1803,6 +2019,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Conker%27s%20Bad%20Fur%20Day%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1869,6 +2089,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Crash%20Bandicoot%202%20-%20Cortex%20Strikes%20Back%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1888,6 +2112,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Crash%20Bandicoot%203%20-%20Warped%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -1909,6 +2137,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Crash%20Bandicoot%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2006,6 +2238,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Crash%20Twinsanity%20%28USA%29%20%28v1.00%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2025,6 +2261,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Crimson%20Skies%20-%20High%20Road%20to%20Revenge%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2150,6 +2390,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Darkwatch%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2213,6 +2457,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Dead%20or%20Alive%203%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2347,6 +2595,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Def%20Jam%20-%20Fight%20for%20NY%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2368,6 +2620,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Def%20Jam%20-%20Vendetta%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2389,6 +2645,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Demon%27s%20Crest%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2431,6 +2691,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Desert%20Strike%20-%20Return%20to%20the%20Gulf%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2452,6 +2716,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/deSPIRIA%20%28Japan%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2551,6 +2819,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Diddy%20Kong%20Racing%20%28USA%29%20%28En%2CFr%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2572,6 +2844,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/FBNeo_-_Arcade_Games/master/Named_Boxarts/Dig%20Dug%20%28rev%202%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2591,6 +2867,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Dino%20Crisis%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2617,6 +2897,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Dino%20Crisis%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2659,6 +2943,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_3/master/Named_Boxarts/Disgaea%20D2%20-%20A%20Brighter%20Darkness%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2699,6 +2987,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Dissidia%20012%20-%20Duodecim%20Final%20Fantasy%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2739,6 +3031,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Commodore_-_Amiga/master/Named_Boxarts/Dogs%20of%20War.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2758,6 +3054,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Donald%20Duck%20-%20Goin%27%20Quackers%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2780,6 +3080,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Donkey%20Kong%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2806,6 +3110,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Donkey%20Kong%20Country%202%20-%20Diddy%27s%20Kong%20Quest%20%28USA%29%20%28En%2CFr%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2832,6 +3140,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Donkey%20Kong%20Country%203%20-%20Dixie%20Kong%27s%20Double%20Trouble%21%20%28USA%29%20%28En%2CFr%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2862,6 +3174,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Donkey%20Kong%20Country%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2883,6 +3199,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Donkey%20Kong%20%28World%29%20%28Rev%201%29%20%28SGB%20Enhanced%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2904,6 +3224,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Doom%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2930,6 +3254,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Doom%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2951,6 +3279,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Doraemon%203%20-%20Nobita%20no%20Machi%20SOS%21%20%28Japan%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -2998,6 +3330,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Downhill%20Domination%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3019,6 +3355,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Dr.%20Mario%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3040,6 +3380,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Dr.%20Mario%20%28USA%29%20%28Beta%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3087,6 +3431,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20%28USA%29%20%28En%2CJa%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3129,6 +3477,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20Buu%27s%20Fury%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3150,6 +3502,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20The%20Legacy%20of%20Goku%20II%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3176,6 +3532,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dragon%20Quest%20VIII%20-%20Journey%20of%20the%20Cursed%20King%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3216,6 +3576,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Dragon%20Valor%20%28USA%29%20%28Disc%201%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3237,6 +3601,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_3/master/Named_Boxarts/Drakengard%203%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3285,6 +3653,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Driver%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3307,6 +3679,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Duke%20Nukem%20-%20Zero%20Hour%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3328,6 +3704,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dynasty%20Warriors%205%20-%20Xtreme%20Legends%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3375,6 +3755,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/EarthBound%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3465,6 +3849,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Eternal%20Darkness%20-%20Sanity%27s%20Requiem%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3531,6 +3919,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/F-Zero%20X%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3557,6 +3949,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/F-Zero%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3599,6 +3995,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Fatal%20Frame%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3667,6 +4067,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Final%20Fantasy%20Crystal%20Chronicles%20-%20Echoes%20of%20Time%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3686,6 +4090,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20IX%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3712,6 +4120,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Final%20Fantasy%20Tactics%20Advance%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3733,6 +4145,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20Tactics%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3752,6 +4168,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20VIII%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3773,6 +4193,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Final%20Fantasy%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3794,6 +4218,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Fire%20Emblem%20-%20The%20Sacred%20Stones%20%28USA%29%20%28Virtual%20Console%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3939,6 +4367,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Futurama%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3960,6 +4392,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Galerians%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -3984,6 +4420,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Gauntlet%20-%20Dark%20Legacy%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4087,6 +4527,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Glover%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4108,6 +4552,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Go%20Go%20Ackman%20%28Japan%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4206,6 +4654,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/God%20of%20War%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4251,6 +4703,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Goemon%27s%20Great%20Adventure%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4272,6 +4728,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Golden%20Sun%20-%20The%20Lost%20Age%20%28USA%2C%20Europe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4293,6 +4753,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Golden%20Sun%20%28USA%2C%20Europe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4352,6 +4816,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/GoldenEye%20007%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4373,6 +4841,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Gran%20Turismo%203%20-%20A-Spec%20%28USA%29%20%28v1.00%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4394,6 +4866,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Gran%20Turismo%204%20%28USA%29%20%28v2.00%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4466,6 +4942,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20Stories%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4535,6 +5015,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_4/master/Named_Boxarts/Gravity%20Rush%20Remastered%20%28Europe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4573,6 +5057,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Guitar%20Hero%20II%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4594,6 +5082,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Gunstar%20Heroes%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4618,6 +5110,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Halo%20-%20Combat%20Evolved%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4670,6 +5166,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Harry%20Potter%20and%20the%20Chamber%20of%20Secrets%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4696,6 +5196,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Harry%20Potter%20and%20the%20Philosopher%27s%20Stone%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4715,6 +5219,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4753,6 +5261,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Harvest%20Moon%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4772,6 +5284,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Harvest%20Moon%20-%20Back%20to%20Nature%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4791,6 +5307,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Harvest%20Moon%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4810,6 +5330,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Haunting%20Ground%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4852,6 +5376,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Hellnight%20%28Europe%29%20%28En%2CFr%2CDe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4894,6 +5422,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Hot%20Shots%20Tennis%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4915,6 +5447,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Philips_-_CD-i/main/Named_Boxarts/Hotel%20Mario%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4941,6 +5477,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Hybrid%20Heaven%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -4983,6 +5523,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ico%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5002,6 +5546,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Illusion%20of%20Gaia%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5100,6 +5648,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/International%20Superstar%20Soccer%202000%20%28USA%29%20%28En%2CEs%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5119,6 +5671,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/International%20Superstar%20Soccer%20Deluxe%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5161,6 +5717,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Jackie%20Chan%20Stuntmaster%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5182,6 +5742,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Jade%20Cocoon%20-%20Story%20of%20the%20Tamamayu%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5204,6 +5768,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Jak%20and%20Daxter%20-%20The%20Precursor%20Legacy%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5251,6 +5819,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Jet%20Force%20Gemini%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5272,6 +5844,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Jet%20Moto%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5298,6 +5874,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Jet%20Set%20Radio%20Future%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5387,6 +5967,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_3/master/Named_Boxarts/Killzone%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5472,6 +6056,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/King%27s%20Field%20II%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5493,6 +6081,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Kingdom%20Hearts%20-%20358-2%20Days%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5514,6 +6106,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Kingdom%20Hearts%20-%20Chain%20of%20Memories%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5541,6 +6137,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/King%27s%20Field%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5560,6 +6160,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Kirby%20Air%20Ride%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5581,6 +6185,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Kirby%27s%20Return%20to%20Dream%20Land%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5600,6 +6208,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Kirby%20Super%20Star%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5619,6 +6231,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Klonoa%20-%20Door%20to%20Phantomile%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5690,6 +6306,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_32X/master/Named_Boxarts/Knuckles%27%20Chaotix%20%28Europe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5711,6 +6331,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Lagoon%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5730,6 +6354,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Philips_-_CD-i/main/Named_Boxarts/Laser%20Lords%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5772,6 +6400,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Legend%20of%20Dragoon%2C%20The%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5793,6 +6425,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Legend%20of%20Legaia%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5814,6 +6450,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Legendary%20Wings%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5865,6 +6505,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Philips_-_CD-i/main/Named_Boxarts/Link%20-%20The%20Faces%20of%20Evil%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5886,6 +6530,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Looney%20Tunes%20B-Ball%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5928,6 +6576,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Luigi%27s%20Mansion%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -5975,6 +6627,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Magical%20Tetris%20Challenge%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6001,6 +6657,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mario%20Kart%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6027,6 +6687,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Mario%20Kart_%20Double%20Dash%21%21%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6048,6 +6712,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Mario%20Kart%20DS%20%28USA%29%20%28Demo%29%20%28Kiosk%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6069,6 +6737,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Mario%20Kart%20-%20Super%20Circuit%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6093,6 +6765,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Kart%20Wii%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6112,6 +6788,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mario%20Party%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6131,6 +6811,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mario%20Party%203%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6155,6 +6839,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Mario%20Party%204%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6174,6 +6862,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Mario%20Party%206%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6193,6 +6885,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mario%20Party%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6214,6 +6910,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Virtual_Boy/master/Named_Boxarts/Mario%27s%20Tennis%20%28Japan%2C%20USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6235,6 +6935,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Strikers%20Charged%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6256,6 +6960,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Marvel%20Nemesis%20-%20Rise%20of%20the%20Imperfects%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6296,6 +7004,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Marvel%20vs.%20Capcom%20-%20Clash%20of%20Super%20Heroes%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6355,6 +7067,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Medal%20of%20Honor%20-%20Frontline%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6376,6 +7092,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Medal%20of%20Honor%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6410,6 +7130,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/MediEvil%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6432,6 +7156,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mega%20Man%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6453,6 +7181,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Mega%20Man%20Legends%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6474,6 +7206,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Mega%20Man%20X%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6495,6 +7231,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Mega%20Man%20X2%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6516,6 +7256,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Mega%20Man%20X4%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6537,6 +7281,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Mega%20Man%20X5%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6558,6 +7306,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Mega%20Man%20X6%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6579,6 +7331,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Megaman%20Zero%20%28USA%29%20%28Virtual%20Console%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6598,6 +7354,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Metal%20Arms%20-%20Glitch%20in%20the%20System%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6636,6 +7396,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Metal%20Gear%20Solid%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6655,6 +7419,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Metal%20Slug%20X%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6674,6 +7442,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Metroid%20II%20-%20Return%20of%20Samus%20%28World%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6695,6 +7467,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Metroid%20Prime%202%20-%20Echoes%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6714,6 +7490,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Metroid%20Prime%203_%20Corruption%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6740,6 +7520,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6782,6 +7566,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Metroid%20Prime%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6803,6 +7591,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Midnight%20Club%203%20-%20DUB%20Edition%20Remix%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6848,6 +7640,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Midtown%20Madness%203%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6869,6 +7665,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mischief%20Makers%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6918,6 +7718,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Monster%20Hunter%20Freedom%20Unite%20%28USA%29%20%28Demo%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6960,6 +7764,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Monster%20Hunter%20Portable%203rd%20%28Japan%29%20%28v1.02%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -6979,6 +7787,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Monster%20Hunter%20Tri%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7000,6 +7812,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Mortal%20Kombat%20-%20Shaolin%20Monks%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7042,6 +7858,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Mother%203%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7061,6 +7881,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/MotorStorm%20-%20Arctic%20Edge%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CPt%2CRu%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7085,6 +7909,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Muppet%20RaceMania%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7106,6 +7934,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Philips_-_CD-i/main/Named_Boxarts/Mutant%20Rampage%20-%20Bodyslam%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7125,6 +7957,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/MX%20Unleashed%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7147,6 +7983,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mystical%20Ninja%20Starring%20Goemon%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7206,6 +8046,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Naruto%20-%20Clash%20of%20Ninja%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7288,6 +8132,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Nascar%20Rumble%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7330,6 +8178,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/NBA%20Hangtime%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7372,6 +8224,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/NBA%20Street%20Vol.%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7414,6 +8270,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/FBNeo_-_Arcade_Games/master/Named_Boxarts/Neo%20Drift%20Out%20-%20New%20Technology.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7435,6 +8295,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/New%20Super%20Mario%20Bros.%20U%20%28USA%29%20%28En%2CFr%2CEs%29%20%28Rev%202%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7456,6 +8320,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/New%20Super%20Mario%20Bros.%20Wii%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7477,6 +8345,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/NFL%20Blitz%202003%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7540,6 +8412,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/NHL%20%2794%20%28USA%2C%20Europe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7561,6 +8437,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/NHL%20Hitz%202003%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7582,6 +8462,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/NHL%20Hitz%20Pro%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7608,6 +8492,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Ninja%20Gaiden%20Black%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7653,6 +8541,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_4/master/Named_Boxarts/Odin%20Sphere%20Leifthrasir%20%28Japan%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7679,6 +8571,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Ogre%20Battle%2064%20-%20Person%20of%20Lordly%20Caliber%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7740,6 +8636,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/FBNeo_-_Arcade_Games/master/Named_Boxarts/OutRunners%20%28World%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7806,6 +8706,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Panzer%20Dragoon%20Orta%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7833,6 +8737,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7852,6 +8760,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/PaRappa%20the%20Rapper%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7873,6 +8785,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Parasite%20Eve%20II%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7894,6 +8810,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Parasite%20Eve%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7950,6 +8870,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Perfect%20Dark%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7969,6 +8893,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Pikmin%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -7997,6 +8925,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Pilotwings%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8018,6 +8950,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Pilotwings%20Resort%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8096,6 +9032,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Point%20Blank%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8310,6 +9250,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Pokemon%20Snap%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8350,6 +9294,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Pokemon%20Trading%20Card%20Game%202%20-%20The%20Invasion%20of%20Team%20GR%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8390,6 +9338,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Prince%20of%20Persia%20-%20The%20Sands%20of%20Time%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8432,6 +9384,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Project%20Gotham%20Racing%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8483,6 +9439,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Project%20Gotham%20Racing%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8502,6 +9462,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Rampage%20-%20Through%20Time%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8523,6 +9487,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Rampage%20-%20Total%20Destruction%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8621,6 +9589,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Rayman%202%20-%20The%20Great%20Escape%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8673,6 +9645,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Resident%20Evil%203%20-%20Nemesis%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8697,6 +9673,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Resident%20Evil%20-%20Code%20-%20Veronica%20X%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8718,6 +9698,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Resident%20Evil%20Gaiden%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8744,6 +9728,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Resident%20Evil%20-%20Outbreak%20%28USA%29%20%28v1.01%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8765,6 +9753,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Resident%20Evil_%20The%20Umbrella%20Chronicles%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8786,6 +9778,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ridge%20Racer%20V%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8807,6 +9803,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Ridge%20Racer%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8828,6 +9828,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Road%20Rash%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8850,6 +9854,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Rocket%20-%20Robot%20on%20Wheels%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8913,6 +9921,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/San%20Francisco%20Rush%202049%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -8974,6 +9986,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Scooby-Doo%21%20Night%20of%20100%20Frights%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9016,6 +10032,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/FBNeo_-_Arcade_Games/master/Named_Boxarts/SegaSonic%20The%20Hedgehog%20%28Japan%2C%20rev.%20C%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9037,6 +10057,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Serial%20Experiments%20Lain%20%28Japan%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9058,6 +10082,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Serious%20Sam%20-%20Next%20Encounter%20%28USA%29%20%28Rev%201%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9077,6 +10105,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Sexy%20Parodius%20%28Japan%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9117,6 +10149,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Shadow%20Tower%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9138,6 +10174,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Shantae%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9201,6 +10241,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Shin%20Megami%20Tensei%20III%20-%20Nocturne%20%28Japan%29%20%28Deluxe%20Pack%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9222,6 +10266,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Shin%20Megami%20Tensei%20IV%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9241,6 +10289,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Shin%20Megami%20Tensei%20-%20NINE%20%28Japan%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9262,6 +10314,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Shiritsu%20Justice%20Gakuen%20-%20Nekketsu%20Seishun%20Nikki%202%20%28Japan%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9319,6 +10375,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/SimCity%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9340,6 +10400,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Sin%20and%20Punishment%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9412,6 +10476,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Skies%20of%20Arcadia%20Legends%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9505,6 +10573,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Snowboard%20Kids%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9526,6 +10598,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Snowboard%20Kids%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9568,6 +10644,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Sonic%20and%20the%20Black%20Knight%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9587,6 +10667,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Sonic%20and%20the%20Secret%20Rings%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9692,6 +10776,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20The%20Hedgehog%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9806,6 +10894,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/SoulCalibur%20II%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9827,6 +10919,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Soulcalibur%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9889,6 +10985,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/SpaceStation%20Silicon%20Valley%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9910,6 +11010,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Spider-Man%202%20-%20Enter%20-%20Electro%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -9976,6 +11080,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/SSX%203%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10002,6 +11110,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/SSX%20Tricky%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10029,6 +11141,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Star%20Fox%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10067,6 +11183,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Star%20Wars%20-%20Masters%20of%20Teras%20Kasi%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10086,6 +11206,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Street%20Fighter%20Alpha%203%20Max%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10105,6 +11229,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Street%20Fighter%20Alpha%203%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10126,6 +11254,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Street%20Fighter%20EX%20Plus%20Alpha%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10147,6 +11279,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Street%20Fighter%20EX2%20Plus%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10258,6 +11394,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Streets%20of%20Rage%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10279,6 +11419,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Strider%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10298,6 +11442,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Strike%20Gunner%20S.T.G%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10317,6 +11465,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Stunt%20Race%20FX%20%28USA%29%20%28Rev%201%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10359,6 +11511,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Stuntman%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10380,6 +11536,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Suikoden%20II%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10399,6 +11559,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Suikoden%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10420,6 +11584,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Bomberman%205%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10441,6 +11609,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Bomberman%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10462,6 +11634,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Castlevania%20IV%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10533,6 +11709,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10554,6 +11734,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Super%20Mario%20Advance%204%20-%20Super%20Mario%20Bros.%203%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10580,6 +11764,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20All-Stars%20%2B%20Super%20Mario%20World%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10601,6 +11789,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20Bros.%20%28World%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10622,6 +11814,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Mario%20Galaxy%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10643,6 +11839,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20Kart%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10664,6 +11864,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Super%20Mario%20Land%202%20-%206%20Golden%20Coins%20%28USA%2C%20Europe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10711,6 +11915,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10732,6 +11940,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Super%20Mario%20Strikers%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10753,6 +11965,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Super%20Mario%20Sunshine%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10774,6 +11990,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%202%20-%20Yoshi%27s%20Island%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10816,6 +12036,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10842,6 +12066,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Metroid%20%28USA%2C%20Europe%29%20%28En%2CJa%29%20%28Virtual%20Console%2C%20Classic%20Mini%2C%20Switch%20Online%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10863,6 +12091,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Super%20Monkey%20Ball%20Deluxe%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10924,6 +12156,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Smash%20Bros.%20Brawl%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10945,6 +12181,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Super%20Smash%20Bros.%20for%20Wii%20U%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10966,6 +12206,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Super%20Smash%20Bros.%20Melee%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -10987,6 +12231,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11074,6 +12322,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Syphon%20Filter%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11095,6 +12347,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Syphon%20Filter%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11114,6 +12370,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Game_Gear/master/Named_Boxarts/Tails%20Adventure%20%28World%29%20%28En%2CJa%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11135,6 +12395,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tecmo%27s%20Deception%20-%20Invitation%20to%20Darkness%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11161,6 +12425,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Teenage%20Mutant%20Ninja%20Turtles%20IV%20-%20Turtles%20in%20Time%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11187,6 +12455,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tekken%203%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11271,6 +12543,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Tetris%20%28World%29%20%28Rev%201%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11292,6 +12568,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Tetrisphere%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11403,6 +12683,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Incredible%20Crash%20Dummies%2C%20The%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11527,6 +12811,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11600,6 +12888,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%203D%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11626,6 +12918,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%203D%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11750,6 +13046,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11771,6 +13071,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Lord%20of%20the%20Rings%2C%20The%20-%20The%20Two%20Towers%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11835,6 +13139,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Simpsons%20Wrestling%2C%20The%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11854,6 +13162,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Sims%202%2C%20The%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11875,6 +13187,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Sims%20Bustin%27%20Out%2C%20The%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11894,6 +13210,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Sims%2C%20The%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11915,6 +13235,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Warriors%2C%20The%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11934,6 +13258,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/The%20Wing%20of%20Madoola%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -11995,6 +13323,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/TimeSplitters%20-%20Future%20Perfect%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12016,6 +13348,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/TimeSplitters%20%28USA%29%20%28v1.10%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12042,6 +13378,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Tiny%20Toon%20Adventures%20-%20Acme%20All-Stars%20%28Europe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12103,6 +13443,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tomba%21%202%20-%20The%20Evil%20Swine%20Return%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12143,6 +13487,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Tony%20Hawk%27s%20Pro%20Skater%202%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12164,6 +13512,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Tony%20Hawk%27s%20Pro%20Skater%202x%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12185,6 +13537,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Tony%20Hawk%27s%20Pro%20Skater%203%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12211,6 +13567,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tony%20Hawk%27s%20Pro%20Skater%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12258,6 +13618,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Top%20Gear%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12324,6 +13688,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Toy%20Story%202%20-%20Buzz%20Lightyear%20to%20the%20Rescue%21%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12383,6 +13751,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Turok%20-%20Rage%20Wars%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12472,6 +13844,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Uniracers%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12493,6 +13869,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Urban%20Chaos%20-%20Riot%20Response%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12514,6 +13894,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Vagrant%20Story%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12535,6 +13919,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Valkyrie%20Profile%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12557,6 +13945,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Vandal%20Hearts%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12641,6 +14033,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_32X/master/Named_Boxarts/Virtua%20Racing%20Deluxe%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12683,6 +14079,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Virtual%20Pro%20Wrestling%2064%20%28Japan%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12747,6 +14147,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/War%20of%20the%20Monsters%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12768,6 +14172,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Wario%20Blast%20Featuring%20Bomberman%21%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12787,6 +14195,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Wario%20Land%204%20%28USA%2C%20Europe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12808,6 +14220,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Wario%20Land_%20Shake%20It%21%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12829,6 +14245,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Wario%20Land%20-%20Super%20Mario%20Land%203%20%28World%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12850,6 +14270,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/WarioWare%20-%20Twisted%21%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12897,6 +14321,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Wayne%20Gretzky%27s%203D%20Hockey%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12918,6 +14346,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/WCW-nWo%20Revenge%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12939,6 +14371,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/WCW%20vs.%20nWo%20-%20World%20Tour%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -12990,6 +14426,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Wild%209%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13011,6 +14451,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/WinBack%20-%20Covert%20Operations%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13058,6 +14502,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/WipEout%20Pure%20%28USA%29%20%28En%2CFr%2CEs%29%20%28v1.04%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13082,6 +14530,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Wipeout%20XL%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13103,6 +14555,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Wipeout%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13124,6 +14580,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/World%20Driver%20Championship%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13192,6 +14652,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/WWE%20SmackDown%21%20Here%20Comes%20the%20Pain%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13234,6 +14698,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/WWF%20No%20Mercy%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13255,6 +14723,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/WWF%20SmackDown%21%202%20-%20Know%20Your%20Role%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13276,6 +14748,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/WWF%20WrestleMania%202000%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13302,6 +14778,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/X-Men%202%20-%20Clone%20Wars%20%28USA%2C%20Europe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13342,6 +14822,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/X-Men%20Legends%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13422,6 +14906,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Xenogears%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13443,6 +14931,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Yo-Kai%20Watch%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13464,6 +14956,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Yoshi%27s%20Cookie%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13485,6 +14981,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Yoshi%27s%20Story%20%28USA%29%20%28En%2CJa%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13506,6 +15006,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Yoshi%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13533,6 +15037,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Yu-Gi-Oh%21%20Forbidden%20Memories%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13554,6 +15062,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Zelda%20II%20-%20The%20Adventure%20of%20Link%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13581,6 +15093,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13603,6 +15119,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Minish%20Cap%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13625,6 +15145,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13644,6 +15168,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Philips_-_CD-i/main/Named_Boxarts/Zelda%27s%20Adventure%20%28Europe%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13666,6 +15194,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13688,6 +15220,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20HD%20%28USA%2C%20Asia%29%20%28En%2CFr%2CEs%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13710,6 +15246,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13752,6 +15292,10 @@
         "by": null,
         "at": null,
         "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Zombies%20Ate%20My%20Neighbors%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     },
     {
@@ -13773,6 +15317,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Zone%20of%20the%20Enders%20%28USA%29.png",
+        "source": "libretro-thumbnails"
       }
     }
   ],

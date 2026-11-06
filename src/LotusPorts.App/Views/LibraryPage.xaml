@@ -45,6 +45,11 @@
             </Grid>
 
             <StackPanel Margin="48,8,48,48" Spacing="18">
+                <StackPanel.ChildrenTransitions>
+                    <TransitionCollection>
+                        <EntranceThemeTransition FromVerticalOffset="28" IsStaggeringEnabled="True" />
+                    </TransitionCollection>
+                </StackPanel.ChildrenTransitions>
                 <StackPanel Orientation="Horizontal" Spacing="10">
                     <RadioButton
                         Checked="OnTabChecked"
