@@ -1,0 +1,3 @@
+<!-- source: https://github.com/yunophilia/BlackKnightRecomp/blob/HEAD/README.md | fingerprint: c606467500a380aa -->
+
+Abra o `BlackKnightRecomp.exe`. Na primeira vez, ele pede a imagem do seu próprio disco do jogo (USA `RENE8P`, Europa `RENP8P` ou Japão `RENJ8P`; ISO, RVZ, WIA ou WBFS): escolha na janela de arquivos, onde quer que esteja no seu PC. Não precisa copiar para lugar nenhum. O launcher instala os dados do jogo a partir dela em `game/extracted/`, ao lado do exe, o que leva cerca de um minuto e ocupa 3,5 GB. Depois disso, a imagem não é mais necessária. Mods podem substituir arquivos em `game/extracted/DATA/files/`. Para trocar de versão, escolha "Reinstall from disc image..." no launcher e selecione esse disco; cada versão mantém os próprios saves.
