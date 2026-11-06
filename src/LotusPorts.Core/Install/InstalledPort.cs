@@ -25,7 +25,8 @@ public sealed record InstalledPort(
     IReadOnlyList<InstalledVersion> Versions,
     bool PendingFirstLaunch,
     bool LastLaunchFailed,
-    string? PinnedTag = null)
+    string? PinnedTag = null,
+    LastRun? LastRun = null)
 {
     public const int CurrentSchema = 1;
 
@@ -34,6 +35,13 @@ public sealed record InstalledPort(
     public InstalledVersion? Previous => PreviousTag is null ? null : Versions.FirstOrDefault(v => v.Tag == PreviousTag);
 
     public bool CanRollback => Previous is not null;
+}
+
+/// <summary>How the last session went: when, the exit code, how long it ran and whether it was the first after an update.</summary>
+public sealed record LastRun(DateTimeOffset At, int ExitCode, double Seconds, bool FirstAfterUpdate, string Tag)
+{
+    /// <summary>Closed with an error code within 15 seconds: the game did not really open (master prompt, section 10.1).</summary>
+    public bool FailedQuickly => ExitCode != 0 && Seconds < 15;
 }
 
 /// <summary>Folder names for versions: the release tag, made safe for Windows.</summary>

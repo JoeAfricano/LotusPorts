@@ -262,8 +262,8 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
             ui?.TryEnqueue(() =>
             {
                 running.Remove(port.Id);
-                var after = installer.RecordFirstLaunch(port.Id, GameLauncher.FailedQuickly(ranFor, code));
-                if (after is { LastLaunchFailed: true }) problems[port.Id] = Strings.Get("PlayFailedAfterUpdate");
+                var after = installer.RecordLaunch(port.Id, code, ranFor);
+                if (after is { LastLaunchFailed: true, LastRun: { } run }) problems[port.Id] = Strings.Get(run.FirstAfterUpdate ? "PlayFailedAfterUpdate" : "PlayFailedQuickly");
                 Raise(port.Id);
             });
         };

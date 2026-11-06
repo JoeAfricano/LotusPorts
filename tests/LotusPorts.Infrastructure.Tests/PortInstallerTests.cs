@@ -105,7 +105,7 @@ public sealed class PortInstallerTests : IDisposable
         Directory.Exists(Active(v1)).Should().BeTrue();
 
         // The first launch after the update crashed: the button offers rollback.
-        installer.RecordFirstLaunch("sample-port", failed: true)!.LastLaunchFailed.Should().BeTrue();
+        installer.RecordLaunch("sample-port", exitCode: -1073741819, TimeSpan.FromSeconds(3))!.Should().Match<InstalledPort>(m => m.LastLaunchFailed && m.LastRun!.FirstAfterUpdate && m.LastRun.Tag == "v2.0");
         PlayButtonRules.Decide(new PlayContext(false, true, true, false, false, false, false, true, library.Read("sample-port")!.CanRollback))
             .Secondary.Should().StartWith(SecondaryAction.Rollback);
 

@@ -189,11 +189,15 @@ public sealed class PortInstaller(PortLibrary library, AppPaths paths, GitHubCli
         }, cancellationToken: cancellationToken).ConfigureAwait(false);
     }
 
-    /// <summary>How the first launch after an update went: a quick crash offers "Voltar para a versão anterior".</summary>
-    public InstalledPort? RecordFirstLaunch(string portId, bool failed)
+    /// <summary>
+    /// Records how a session went. A quick crash (error code within 15 s) turns the button into "Resolver"; when it was
+    /// the first launch after an update, "Voltar para a versão anterior" is offered first.
+    /// </summary>
+    public InstalledPort? RecordLaunch(string portId, int exitCode, TimeSpan ranFor)
     {
-        if (library.Read(portId) is not { PendingFirstLaunch: true } manifest) return library.Read(portId);
-        var updated = manifest with { PendingFirstLaunch = false, LastLaunchFailed = failed };
+        if (library.Read(portId) is not { } manifest) return null;
+        var run = new LastRun(time.GetUtcNow(), exitCode, Math.Round(ranFor.TotalSeconds, 1), manifest.PendingFirstLaunch, manifest.ActiveTag);
+        var updated = manifest with { PendingFirstLaunch = false, LastLaunchFailed = run.FailedQuickly, LastRun = run };
         library.Write(updated);
         return updated;
     }
