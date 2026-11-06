@@ -156,7 +156,6 @@
   <data name="GameMore" xml:space="preserve"><value>Mais opções</value></data>
   <data name="GameRecommended" xml:space="preserve"><value>Port recomendado</value></data>
   <data name="GameInstall" xml:space="preserve"><value>Instalar</value></data>
-  <data name="GameInstallLater" xml:space="preserve"><value>A instalação chega na próxima etapa do desenvolvimento.</value></data>
   <data name="GameOpenRepo" xml:space="preserve"><value>Repositório oficial</value></data>
   <data name="GameOpenDocs" xml:space="preserve"><value>Documentação oficial</value></data>
   <data name="GameOnlyPort" xml:space="preserve"><value>Única forma de jogar com versão para Windows no catálogo.</value></data>
@@ -302,4 +301,70 @@
   <data name="ProfileCreate" xml:space="preserve"><value>Criar seu perfil</value></data>
   <data name="ProfileInLotus" xml:space="preserve"><value>O Lotus abre para criar</value></data>
   <data name="ProfileGetLotus" xml:space="preserve"><value>Baixe o Lotus para criar</value></data>
+  <data name="PlayChecking" xml:space="preserve"><value>Procurando…</value></data>
+  <data name="PlayCancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="PlayRunning" xml:space="preserve"><value>Jogando…</value></data>
+  <data name="PlayFollow" xml:space="preserve"><value>Acompanhar</value></data>
+  <data name="PlayOfficialPage" xml:space="preserve"><value>Abrir página oficial</value></data>
+  <data name="PlayUpdateAndPlay" xml:space="preserve"><value>Atualizar e jogar</value></data>
+  <data name="PlayUpdate" xml:space="preserve"><value>Atualizar</value></data>
+  <data name="PlayResolve" xml:space="preserve"><value>Resolver</value></data>
+  <data name="PlayAddGameFile" xml:space="preserve"><value>Adicionar arquivo do jogo</value></data>
+  <data name="PlayPlay" xml:space="preserve"><value>Jogar</value></data>
+  <data name="PlayRollback" xml:space="preserve"><value>Voltar</value></data>
+  <data name="PlayTryAgain" xml:space="preserve"><value>Tentar de novo</value></data>
+  <data name="PlayDownloading" xml:space="preserve"><value>Baixando… {0}%</value></data>
+  <data name="PlayExtracting" xml:space="preserve"><value>Instalando… {0}%</value></data>
+  <data name="PlayFinishing" xml:space="preserve"><value>Finalizando…</value></data>
+  <data name="PlayRunningSince" xml:space="preserve"><value>Aberto às {0}. Feche o jogo para voltar aqui.</value></data>
+  <data name="PlayUpdateAvailable" xml:space="preserve"><value>Nova versão {0} disponível (você tem a {1})</value></data>
+  <data name="PlayInstalled" xml:space="preserve"><value>Instalado · versão {0}</value></data>
+  <data name="PlayStillBuilding" xml:space="preserve"><value>Este port ainda está em construção. Acompanhe pela página oficial.</value></data>
+  <data name="PlayUnsupported" xml:space="preserve"><value>Este port usa um instalador próprio. Instale pela página oficial.</value></data>
+  <data name="PlayLooking" xml:space="preserve"><value>Procurando a versão mais recente no GitHub…</value></data>
+  <data name="PlayRateLimited" xml:space="preserve"><value>O GitHub pediu uma pausa nas consultas. Tente de novo depois das {0}.</value></data>
+  <data name="PlayOffline" xml:space="preserve"><value>Sem conexão com o GitHub agora.</value></data>
+  <data name="PlayAvailable" xml:space="preserve"><value>Versão {0} · {1}</value></data>
+  <data name="PlayAmbiguous" xml:space="preserve"><value>Esta versão tem mais de um arquivo para Windows. Escolha pela página oficial.</value></data>
+  <data name="PlayNoRelease" xml:space="preserve"><value>Ainda não há versão para Windows publicada.</value></data>
+  <data name="PlayCheckedOk" xml:space="preserve"><value>Arquivo conferido com o publicado no GitHub.</value></data>
+  <data name="PlayCheckedNone" xml:space="preserve"><value>O autor não publicou como conferir este arquivo.</value></data>
+  <data name="PlayWillCheck" xml:space="preserve"><value>O arquivo é conferido com o publicado no GitHub antes de instalar.</value></data>
+  <data name="PlayWillNotCheck" xml:space="preserve"><value>O autor não publicou como conferir este arquivo; ele vem direto do GitHub oficial.</value></data>
+  <data name="PlayMenuUpdate" xml:space="preserve"><value>Atualizar para {0}</value></data>
+  <data name="PlayMenuPlayWithoutUpdate" xml:space="preserve"><value>Jogar sem atualizar</value></data>
+  <data name="PlayMenuRollback" xml:space="preserve"><value>Voltar para a versão anterior ({0})</value></data>
+  <data name="PlayMenuKeepVersion" xml:space="preserve"><value>Manter esta versão</value></data>
+  <data name="PlayMenuClose" xml:space="preserve"><value>Fechar jogo</value></data>
+  <data name="PlayMenuOpenFolder" xml:space="preserve"><value>Abrir pasta do jogo</value></data>
+  <data name="PlayMenuUninstall" xml:space="preserve"><value>Desinstalar</value></data>
+  <data name="PlayCancelled" xml:space="preserve"><value>Instalação cancelada. Nada foi alterado.</value></data>
+  <data name="PlayFailedIntegrity" xml:space="preserve"><value>O arquivo baixado não confere com o publicado. Nada foi instalado.</value></data>
+  <data name="PlayFailedProgram" xml:space="preserve"><value>Não encontrei o programa do jogo nesta versão. Nada foi instalado.</value></data>
+  <data name="PlayFailed" xml:space="preserve"><value>A instalação não terminou. Nada foi alterado.</value></data>
+  <data name="PlayFailedTooLarge" xml:space="preserve"><value>O arquivo é grande demais para ser aberto com segurança. Nada foi instalado.</value></data>
+  <data name="PlayFailedDiskFull" xml:space="preserve"><value>Falta espaço no disco. Nada foi instalado.</value></data>
+  <data name="PlayFailedNetwork" xml:space="preserve"><value>A conexão caiu durante o download. Nada foi instalado.</value></data>
+  <data name="PlayRollbackFailed" xml:space="preserve"><value>Não foi possível voltar para a versão anterior.</value></data>
+  <data name="PlayRemoveFailed" xml:space="preserve"><value>Não foi possível desinstalar tudo. Feche o jogo e tente de novo.</value></data>
+  <data name="PlayNeedsAdmin" xml:space="preserve"><value>Este jogo pede permissão de administrador, e o Lotus Ports não abre jogos assim.</value></data>
+  <data name="PlayMissingProgram" xml:space="preserve"><value>O programa do jogo sumiu da pasta. Desinstale e instale de novo.</value></data>
+  <data name="PlayCouldNotStart" xml:space="preserve"><value>Não foi possível abrir o jogo.</value></data>
+  <data name="PlayFailedAfterUpdate" xml:space="preserve"><value>O jogo fechou logo depois da atualização. Você pode voltar para a versão anterior.</value></data>
+  <data name="ConfirmInstallTitle" xml:space="preserve"><value>Instalar {0}?</value></data>
+  <data name="ConfirmInstallBody" xml:space="preserve"><value>O Lotus Ports vai baixar a versão {0} ({1}) do GitHub oficial do port, conferir o arquivo e instalar na pasta {2}. Nada fora dessa pasta é alterado.</value></data>
+  <data name="ConfirmUpdateTitle" xml:space="preserve"><value>Atualizar {0}?</value></data>
+  <data name="ConfirmUpdateBody" xml:space="preserve"><value>A versão {0} ({1}) é instalada ao lado da atual ({2}). Saves e configurações da pasta do jogo vão junto, e a versão atual fica guardada para você voltar se precisar.</value></data>
+  <data name="ConfirmRollbackTitle" xml:space="preserve"><value>Voltar para a versão {0}?</value></data>
+  <data name="ConfirmRollbackBody" xml:space="preserve"><value>A versão {0} volta a ser usada, com os saves que ela tinha antes da atualização. A versão {1} continua guardada.</value></data>
+  <data name="ConfirmRemoveTitle" xml:space="preserve"><value>Desinstalar {0}?</value></data>
+  <data name="ConfirmRemoveBody" xml:space="preserve"><value>Escolha o que fazer com os saves e configurações que ficam na pasta do jogo. Saves guardados em outras pastas do Windows não são tocados.</value></data>
+  <data name="ConfirmRemoveKeep" xml:space="preserve"><value>Desinstalar e manter saves</value></data>
+  <data name="ConfirmRemoveAll" xml:space="preserve"><value>Remover tudo</value></data>
+  <data name="ConfirmRemoveAllTitle" xml:space="preserve"><value>Apagar também os saves da pasta do jogo?</value></data>
+  <data name="ConfirmRemoveAllBody" xml:space="preserve"><value>Os saves e configurações que ficam dentro da pasta do jogo serão apagados e não voltam. Faça uma cópia pelo Lotus antes, se quiser guardar.</value></data>
+  <data name="SizeMb" xml:space="preserve"><value>{0} MB</value></data>
+  <data name="SizeGb" xml:space="preserve"><value>{0} GB</value></data>
+  <data name="PlayAvailableFromCatalog" xml:space="preserve"><value>Versão {0} · {1}</value></data>
+  <data name="PlayCatalogVersionNote" xml:space="preserve"><value>Versão conferida pelo catálogo, com verificação do arquivo. O GitHub pediu uma pausa nas consultas até as {0}; depois o app procura versões mais novas.</value></data>
 </root>

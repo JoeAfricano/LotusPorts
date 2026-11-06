@@ -150,7 +150,6 @@ GameFavorite	Favoritar	Favorite
 GameMore	Mais opções	More options
 GameRecommended	Port recomendado	Recommended port
 GameInstall	Instalar	Install
-GameInstallLater	A instalação chega na próxima etapa do desenvolvimento.	Installing arrives in the next development step.
 GameOpenRepo	Repositório oficial	Official repository
 GameOpenDocs	Documentação oficial	Official documentation
 GameOnlyPort	Única forma de jogar com versão para Windows no catálogo.	The only way to play with a Windows version in the catalog.
@@ -296,3 +295,69 @@ ProfileAutomation	{0}, perfil do Lotus. Abre o Lotus.	{0}, Lotus profile. Opens 
 ProfileCreate	Criar seu perfil	Create your profile
 ProfileInLotus	O Lotus abre para criar	Lotus opens to create it
 ProfileGetLotus	Baixe o Lotus para criar	Get Lotus to create it
+PlayChecking	Procurando…	Checking…
+PlayCancel	Cancelar	Cancel
+PlayRunning	Jogando…	Playing…
+PlayFollow	Acompanhar	Follow
+PlayOfficialPage	Abrir página oficial	Open official page
+PlayUpdateAndPlay	Atualizar e jogar	Update and play
+PlayUpdate	Atualizar	Update
+PlayResolve	Resolver	Fix it
+PlayAddGameFile	Adicionar arquivo do jogo	Add the game file
+PlayPlay	Jogar	Play
+PlayRollback	Voltar	Go back
+PlayTryAgain	Tentar de novo	Try again
+PlayDownloading	Baixando… {0}%	Downloading… {0}%
+PlayExtracting	Instalando… {0}%	Installing… {0}%
+PlayFinishing	Finalizando…	Finishing…
+PlayRunningSince	Aberto às {0}. Feche o jogo para voltar aqui.	Opened at {0}. Close the game to come back here.
+PlayUpdateAvailable	Nova versão {0} disponível (você tem a {1})	New version {0} available (you have {1})
+PlayInstalled	Instalado · versão {0}	Installed · version {0}
+PlayStillBuilding	Este port ainda está em construção. Acompanhe pela página oficial.	This port is still being built. Follow it on the official page.
+PlayUnsupported	Este port usa um instalador próprio. Instale pela página oficial.	This port uses its own installer. Install it from the official page.
+PlayLooking	Procurando a versão mais recente no GitHub…	Looking for the newest version on GitHub…
+PlayRateLimited	O GitHub pediu uma pausa nas consultas. Tente de novo depois das {0}.	GitHub asked for a pause. Try again after {0}.
+PlayOffline	Sem conexão com o GitHub agora.	No connection to GitHub right now.
+PlayAvailable	Versão {0} · {1}	Version {0} · {1}
+PlayAmbiguous	Esta versão tem mais de um arquivo para Windows. Escolha pela página oficial.	This version has more than one Windows file. Choose it on the official page.
+PlayNoRelease	Ainda não há versão para Windows publicada.	There is no Windows version published yet.
+PlayCheckedOk	Arquivo conferido com o publicado no GitHub.	File checked against the one published on GitHub.
+PlayCheckedNone	O autor não publicou como conferir este arquivo.	The author didn't publish a way to check this file.
+PlayWillCheck	O arquivo é conferido com o publicado no GitHub antes de instalar.	The file is checked against GitHub before installing.
+PlayWillNotCheck	O autor não publicou como conferir este arquivo; ele vem direto do GitHub oficial.	The author didn't publish a way to check this file; it comes straight from the official GitHub.
+PlayMenuUpdate	Atualizar para {0}	Update to {0}
+PlayMenuPlayWithoutUpdate	Jogar sem atualizar	Play without updating
+PlayMenuRollback	Voltar para a versão anterior ({0})	Go back to the previous version ({0})
+PlayMenuKeepVersion	Manter esta versão	Keep this version
+PlayMenuClose	Fechar jogo	Close game
+PlayMenuOpenFolder	Abrir pasta do jogo	Open game folder
+PlayMenuUninstall	Desinstalar	Uninstall
+PlayCancelled	Instalação cancelada. Nada foi alterado.	Install cancelled. Nothing was changed.
+PlayFailedIntegrity	O arquivo baixado não confere com o publicado. Nada foi instalado.	The downloaded file doesn't match the published one. Nothing was installed.
+PlayFailedProgram	Não encontrei o programa do jogo nesta versão. Nada foi instalado.	The game program wasn't found in this version. Nothing was installed.
+PlayFailed	A instalação não terminou. Nada foi alterado.	The install didn't finish. Nothing was changed.
+PlayFailedTooLarge	O arquivo é grande demais para ser aberto com segurança. Nada foi instalado.	The file is too large to open safely. Nothing was installed.
+PlayFailedDiskFull	Falta espaço no disco. Nada foi instalado.	Not enough disk space. Nothing was installed.
+PlayFailedNetwork	A conexão caiu durante o download. Nada foi instalado.	The connection dropped during the download. Nothing was installed.
+PlayRollbackFailed	Não foi possível voltar para a versão anterior.	Could not go back to the previous version.
+PlayRemoveFailed	Não foi possível desinstalar tudo. Feche o jogo e tente de novo.	Could not uninstall everything. Close the game and try again.
+PlayNeedsAdmin	Este jogo pede permissão de administrador, e o Lotus Ports não abre jogos assim.	This game asks for administrator rights, and Lotus Ports doesn't open games that way.
+PlayMissingProgram	O programa do jogo sumiu da pasta. Desinstale e instale de novo.	The game program is missing from its folder. Uninstall and install again.
+PlayCouldNotStart	Não foi possível abrir o jogo.	The game could not be opened.
+PlayFailedAfterUpdate	O jogo fechou logo depois da atualização. Você pode voltar para a versão anterior.	The game closed right after the update. You can go back to the previous version.
+ConfirmInstallTitle	Instalar {0}?	Install {0}?
+ConfirmInstallBody	O Lotus Ports vai baixar a versão {0} ({1}) do GitHub oficial do port, conferir o arquivo e instalar na pasta {2}. Nada fora dessa pasta é alterado.	Lotus Ports will download version {0} ({1}) from the port's official GitHub, check the file and install it in {2}. Nothing outside that folder is changed.
+ConfirmUpdateTitle	Atualizar {0}?	Update {0}?
+ConfirmUpdateBody	A versão {0} ({1}) é instalada ao lado da atual ({2}). Saves e configurações da pasta do jogo vão junto, e a versão atual fica guardada para você voltar se precisar.	Version {0} ({1}) is installed next to the current one ({2}). Saves and settings in the game folder come along, and the current version is kept so you can go back.
+ConfirmRollbackTitle	Voltar para a versão {0}?	Go back to version {0}?
+ConfirmRollbackBody	A versão {0} volta a ser usada, com os saves que ela tinha antes da atualização. A versão {1} continua guardada.	Version {0} is used again, with the saves it had before the update. Version {1} stays saved.
+ConfirmRemoveTitle	Desinstalar {0}?	Uninstall {0}?
+ConfirmRemoveBody	Escolha o que fazer com os saves e configurações que ficam na pasta do jogo. Saves guardados em outras pastas do Windows não são tocados.	Choose what to do with the saves and settings in the game folder. Saves kept in other Windows folders are not touched.
+ConfirmRemoveKeep	Desinstalar e manter saves	Uninstall, keep saves
+ConfirmRemoveAll	Remover tudo	Remove everything
+ConfirmRemoveAllTitle	Apagar também os saves da pasta do jogo?	Also delete the saves in the game folder?
+ConfirmRemoveAllBody	Os saves e configurações que ficam dentro da pasta do jogo serão apagados e não voltam. Faça uma cópia pelo Lotus antes, se quiser guardar.	The saves and settings inside the game folder will be deleted for good. Back them up with Lotus first if you want to keep them.
+SizeMb	{0} MB	{0} MB
+SizeGb	{0} GB	{0} GB
+PlayAvailableFromCatalog	Versão {0} · {1}	Version {0} · {1}
+PlayCatalogVersionNote	Versão conferida pelo catálogo, com verificação do arquivo. O GitHub pediu uma pausa nas consultas até as {0}; depois o app procura versões mais novas.	Version checked by the catalog, with file verification. GitHub paused lookups until {0}; after that the app looks for newer versions.

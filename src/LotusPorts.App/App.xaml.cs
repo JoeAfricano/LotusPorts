@@ -60,6 +60,7 @@ public partial class App : Application
             var covers = host.Services.GetRequiredService<CoverCache>();
             covers.Shrink = CoverShrinker.ShrinkAsync;
             Lotus.Design.Controls.GameCover.CoverResolver = covers.GetAsync;
+            await host.Services.GetRequiredService<PlayService>().InitializeAsync(Microsoft.UI.Dispatching.DispatcherQueue.GetForCurrentThread());
             await host.StartAsync();
 
             window = new MainWindow(StartPage());
@@ -103,6 +104,10 @@ public partial class App : Application
         });
         services.AddSingleton<CatalogService>();
         services.AddSingleton<CoverCache>();
+        services.AddSingleton<LotusPorts.Infrastructure.Install.PortLibrary>();
+        services.AddSingleton<LotusPorts.Infrastructure.Install.PortInstaller>();
+        services.AddSingleton<LotusPorts.Infrastructure.Install.GameLauncher>();
+        services.AddSingleton<PlayService>();
         services.AddTransient<HomeViewModel>();
         services.AddTransient<LibraryViewModel>();
         services.AddTransient<CatalogViewModel>();

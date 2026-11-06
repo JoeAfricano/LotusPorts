@@ -12,7 +12,7 @@ namespace LotusPorts.App.ViewModels;
 public sealed record JournalRow(string When, string Kind, string? PortId, string Outcome, BadgeTone Tone);
 
 /// <summary>Configurações. Every change is saved right away; the language applies after a restart.</summary>
-public sealed partial class SettingsViewModel(PreferencesService preferences, AppPaths paths, SystemFolders folders, IOperationJournal journal) : ObservableObject
+public sealed partial class SettingsViewModel(PreferencesService preferences, AppPaths paths, SystemFolders folders, IOperationJournal journal, LotusPorts.Infrastructure.Install.PortLibrary library) : ObservableObject
 {
     private bool loaded;
 
@@ -62,6 +62,7 @@ public sealed partial class SettingsViewModel(PreferencesService preferences, Ap
         }
         LibraryFolderError = "";
         LibraryFolder = path;
+        library.UseFolder(path); // new installs go there; games already installed stay where they are and keep working
         Save(() => preferences.SetLibraryFolderAsync(path));
     }
 

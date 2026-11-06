@@ -125,28 +125,58 @@
                         </Grid>
                     </Border>
 
-                    <!--  Main action: installing arrives in phase 2  -->
-                    <StackPanel Orientation="Horizontal" Spacing="16">
-                        <Button
-                            MinWidth="240"
-                            Padding="24,14"
-                            AutomationProperties.Name="{local:Str Key=GameInstall}"
-                            CornerRadius="12"
-                            IsEnabled="False"
-                            Style="{StaticResource AccentButtonStyle}">
-                            <StackPanel Orientation="Horizontal" Spacing="10">
-                                <FontIcon FontSize="16" Glyph="&#xE896;" />
-                                <TextBlock
-                                    FontSize="17"
-                                    FontWeight="SemiBold"
-                                    Text="{local:Str Key=GameInstall}" />
-                            </StackPanel>
-                        </Button>
-                        <StackPanel VerticalAlignment="Center" Spacing="4">
-                            <controls:StateBadge Text="{local:Str Key=BadgeInDevelopment}" />
-                            <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=GameInstallLater}" />
+                    <!--  Main action: one button whose meaning follows the game's state (section 7.3)  -->
+                    <Grid ColumnSpacing="18">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Spacing="8">
+                            <Button
+                                x:Name="MainButton"
+                                MinWidth="250"
+                                Padding="24,14"
+                                Click="OnMainClick"
+                                CornerRadius="12"
+                                IsEnabled="False"
+                                Style="{StaticResource AccentButtonStyle}">
+                                <StackPanel Orientation="Horizontal" Spacing="10">
+                                    <FontIcon
+                                        x:Name="MainIcon"
+                                        FontSize="16"
+                                        Glyph="&#xE896;" />
+                                    <TextBlock
+                                        x:Name="MainText"
+                                        FontSize="17"
+                                        FontWeight="SemiBold"
+                                        Text="{local:Str Key=PlayChecking}" />
+                                </StackPanel>
+                            </Button>
+                            <ProgressBar
+                                x:Name="MainProgress"
+                                MinWidth="250"
+                                Maximum="1"
+                                Visibility="Collapsed" />
                         </StackPanel>
-                    </StackPanel>
+                        <StackPanel
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            Spacing="6">
+                            <TextBlock
+                                x:Name="PlayStatus"
+                                Style="{StaticResource Type.Body}"
+                                TextWrapping="Wrap" />
+                            <TextBlock
+                                x:Name="PlayDetail"
+                                Style="{StaticResource Type.Caption}"
+                                TextWrapping="Wrap"
+                                Visibility="Collapsed" />
+                            <StackPanel
+                                x:Name="PlayLinks"
+                                Orientation="Horizontal"
+                                Spacing="4" />
+                        </StackPanel>
+                    </Grid>
 
                     <!--  Status tiles: nothing checked yet, so nothing is OK  -->
                     <Grid x:Name="Tiles" ColumnSpacing="12">

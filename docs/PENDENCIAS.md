@@ -24,8 +24,8 @@
 
 ## Previstos
 
-- Indicador de downloads com fila: Fase 2. A tela Downloads hoje mostra o estado vazio real.
-- Tratar operações interrompidas na abertura (limpar ou desfazer). `ListOpenAsync` já existe; a interface vem na Fase 2, quando houver operações.
+- Indicador de downloads com fila: ainda não feito (ver Fase 2: pendências).
+- Operações interrompidas: limpeza automática na abertura (ver Fase 2: pendências).
 - Ícone do app e instalador: Fase 9.
 
 ## Fase 1: pendências
@@ -40,3 +40,12 @@
   - favoritar pela Página do jogo.
 - **Fonte com campo de arquivo de jogo:** fica listada com AVISO e não pode ser ativada; a ação "Ativar" só funciona se houver uma cópia válida guardada.
 - **Ports "Adicionado por você":** o padrão do arquivo fica fixo no nome de hoje, e quem incluir no catálogo oficial deve generalizar.
+
+## Fase 2: pendências
+
+- **Critério de aceite ainda não cumprido:** instalar → jogar → atualizar → voltar versão → desinstalar num jogo real. Muda arquivos no PC (dentro de `%LOCALAPPDATA%\LotusPorts\library`), então exige aprovação do José. O ciclo completo está coberto por testes com downloads falsos, inclusive saves preservados.
+- **Saves:** só os que ficam dentro da pasta do jogo (`persistentPaths` com `location: install`) seguem para a nova versão; a versão anterior fica guardada com os saves dela, e é isso que "Voltar para a versão anterior" restaura. Saves em pastas do Windows (`location: user`) nunca são tocados; backup deles fica com o Lotus.
+- **Não instalados pelo app:** ports com instalador próprio (87) ou 7z (3) mostram "Abrir página oficial". Arquivo ambíguo (mais de um para Windows) também, sem adivinhar.
+- **Ainda não feito:** progresso nos cartões da Biblioteca e do Início (hoje só na Página do jogo); tela Downloads com fila; leitura do `recomplauncher.json` (setup fácil, junto da Fase 3); pré-releases e "Fixar versão" no modo avançado (o modelo já guarda `PinnedTag`); retentativas de rede (Polly); "Instalados" nas prateleiras usando o `active.json`.
+- **Integrações que dependem de outras fases:** verificar dependências e `Session.Start` (Fase 5), "Resolver" completo com causa e relatório (Fase 4). Hoje "Resolver" oferece voltar a versão quando o jogo fecha com erro em menos de 15 s logo depois de atualizar.
+- **Operações interrompidas:** na abertura, sobras de instalação (`*.staging`, `*.part`) são apagadas e entradas abertas do diário viram "Cancelado"; não há tela para isso.
