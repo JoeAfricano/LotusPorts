@@ -39,10 +39,11 @@
                 Margin="6,6,0,30"
                 Orientation="Horizontal"
                 Spacing="12">
-                <controls:LotusPetal
-                    Width="46"
-                    Height="40"
-                    IsLit="True" />
+                <Image
+                    Width="44"
+                    Height="44"
+                    VerticalAlignment="Center"
+                    Source="ms-appx:///Assets/Art/Brand/app-icon-128.png" />
                 <StackPanel VerticalAlignment="Center">
                     <TextBlock
                         CharacterSpacing="60"

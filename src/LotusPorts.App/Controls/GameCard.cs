@@ -35,6 +35,31 @@ public sealed partial class GameCard : UserControl
         button.Click += (_, _) => { if (Model is not null) App.MainWindow?.Navigate(Pages.Game, Model.Id); };
         Lotus.Design.Motion.Attach(button);
         Content = button;
+        // Live state (downloading, playing, update…): only while the card is on screen.
+        Loaded += (_, _) => { Live.GameChanged += OnGameChanged; ShowLive(); };
+        Unloaded += (_, _) => Live.GameChanged -= OnGameChanged;
+    }
+
+    private static LiveState Live => Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<LiveState>(App.Services);
+
+    private void OnGameChanged(string gameId)
+    {
+        if (Model is { } m && (gameId == m.Id || gameId == "*")) ShowLive();
+    }
+
+    private void ShowLive()
+    {
+        if (Model is not { } m) return;
+        var live = Live.LineFor(m.Id);
+        line.Text = $"{m.PlatformLabel} · {live.Text}";
+        line.Foreground = (Brush)Application.Current.Resources[live.Tone switch
+        {
+            BadgeTone.Ok => "State.Ok",
+            BadgeTone.Warning => "State.Warn",
+            BadgeTone.Accent => "Accent.Rose",
+            _ => "Text.Secondary",
+        }];
+        AutomationProperties.SetName(button, $"{m.Title}. {m.PlatformLabel}. {m.StatusText}. {live.Text}" + (m.OriginText is null ? "" : $". {m.OriginText}"));
     }
 
     public GameCardModel? Model
@@ -59,7 +84,6 @@ public sealed partial class GameCard : UserControl
         origin.Visibility = m.HasOrigin ? Visibility.Visible : Visibility.Collapsed;
         heart.Visibility = m.Favorite && !m.HasOrigin ? Visibility.Visible : Visibility.Collapsed;
         name.Text = m.Title;
-        line.Text = $"{m.PlatformLabel} · {m.StateLine}";
-        AutomationProperties.SetName(button, $"{m.Title}. {m.PlatformLabel}. {m.StatusText}. {m.StateLine}" + (m.OriginText is null ? "" : $". {m.OriginText}"));
+        ShowLive();
     }
 }

@@ -615,4 +615,9 @@
   <data name="KindModRemove" xml:space="preserve"><value>Mod removed</value></data>
   <data name="DownloadsActive" xml:space="preserve"><value>In progress</value></data>
   <data name="DownloadsOpenGame" xml:space="preserve"><value>Open the game page</value></data>
+  <data name="LivePlaying" xml:space="preserve"><value>Playing now</value></data>
+  <data name="LiveAttention" xml:space="preserve"><value>Needs attention</value></data>
+  <data name="LiveUpdate" xml:space="preserve"><value>Update available</value></data>
+  <data name="LiveReady" xml:space="preserve"><value>Ready to play</value></data>
+  <data name="LiveFileRecognized" xml:space="preserve"><value>Game file recognized</value></data>
 </root>

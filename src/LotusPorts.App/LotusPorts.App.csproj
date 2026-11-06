@@ -18,6 +18,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <!-- MVVMTK0045 is about Native AOT; the app is not published with AOT or trimming. -->
     <NoWarn>$(NoWarn);MVVMTK0045</NoWarn>
+    <ApplicationIcon>Assets\Art\Brand\app.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.WindowsAppSDK" />

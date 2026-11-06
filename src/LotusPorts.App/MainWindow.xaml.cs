@@ -22,6 +22,7 @@ public sealed partial class MainWindow : Window
     {
         InitializeComponent();
         Title = "Lotus Ports";
+        AppWindow.SetIcon(System.IO.Path.Combine(AppContext.BaseDirectory, "Assets", "Art", "Brand", "app.ico"));
         ExtendsContentIntoTitleBar = true;
         SetTitleBar(DragRegion);
         var titleBar = AppWindow.TitleBar;
