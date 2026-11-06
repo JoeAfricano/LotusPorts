@@ -1,0 +1,3770 @@
+{
+  "007-agent-under-fire": {
+    "sgdbId": 37559,
+    "name": "007: Agent Under Fire",
+    "grid": "https://cdn2.steamgriddb.com/grid/6c034f1be5fb0991b6c47485d34e1212.png",
+    "checkedAt": "2026-11-06"
+  },
+  "007-everything-or-nothing": {
+    "sgdbId": 38844,
+    "name": "007: Everything or Nothing",
+    "grid": "https://cdn2.steamgriddb.com/grid/f11220c36522b0ef428977cf57db089f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "007-nightfire": {
+    "sgdbId": 12863,
+    "name": "007: Nightfire",
+    "grid": "https://cdn2.steamgriddb.com/grid/29ec03bb2d04702c0e22fba276bf9a3e.png",
+    "checkedAt": "2026-11-06"
+  },
+  "1080-snowboarding": {
+    "sgdbId": 33916,
+    "name": "1080° Snowboarding",
+    "grid": "https://cdn2.steamgriddb.com/grid/0620eda93d00f0dca03b1473d7e5d0f5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "2010-fifa-world-cup-south-africa": {
+    "sgdbId": 5258744,
+    "name": "2010 FIFA World Cup South Africa",
+    "grid": "https://cdn2.steamgriddb.com/grid/5034c91e699f982a5983c737e358a48a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "2014-fifa-world-cup-brazil": {
+    "sgdbId": 5259701,
+    "name": "2014 FIFA World Cup Brazil",
+    "grid": "https://cdn2.steamgriddb.com/grid/e126b167d20ea9c81d1ec71b897f3180.png",
+    "checkedAt": "2026-11-06"
+  },
+  "3-on-3-nhl-arcade": {
+    "sgdbId": 5258677,
+    "name": "3 on 3 NHL Arcade",
+    "grid": "https://cdn2.steamgriddb.com/grid/ba8bd60d7367bd2c9e281ceddcc56c20.png",
+    "checkedAt": "2026-11-06"
+  },
+  "40-winks": {
+    "sgdbId": 24580,
+    "name": "40 Winks",
+    "grid": "https://cdn2.steamgriddb.com/grid/025fab6aca1e503be8442040f712a83e.png",
+    "checkedAt": "2026-11-06"
+  },
+  "50-cent-blood-on-the-sand": {
+    "sgdbId": 5250082,
+    "name": "50 Cent: Blood on the Sand",
+    "grid": "https://cdn2.steamgriddb.com/grid/10147600afa70393739bd5655789e13d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ace-combat-04-shattered-skies": {
+    "sgdbId": 36599,
+    "name": "Ace Combat 04: Shattered Skies",
+    "grid": "https://cdn2.steamgriddb.com/grid/bc2b1da9f5b34dbf4ecb38edc490514a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "adventure-island-ii": {
+    "sgdbId": 37554,
+    "name": "Adventure Island II",
+    "grid": "https://cdn2.steamgriddb.com/grid/95aab8ad5aaaf9a1a82264abff8ec608.png",
+    "checkedAt": "2026-11-06"
+  },
+  "aegis-wing": {
+    "sgdbId": 5287073,
+    "name": "Aegis Wing",
+    "grid": "https://cdn2.steamgriddb.com/grid/3c22ca09fac8ad6753f4edfffea7e7f7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "aerogauge": {
+    "sgdbId": 38227,
+    "name": "AeroGauge",
+    "grid": "https://cdn2.steamgriddb.com/grid/198f82a2ba5234553f8086b9ca3b4097.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "after-burner-climax": {
+    "sgdbId": 34023,
+    "name": "After Burner Climax",
+    "grid": "https://cdn2.steamgriddb.com/grid/66c0a5a57952264af78836110425be69.png",
+    "checkedAt": "2026-11-06"
+  },
+  "aidyn-chronicles-the-first-mage": {
+    "sgdbId": 37318,
+    "name": "Aidyn Chronicles: The First Mage",
+    "grid": "https://cdn2.steamgriddb.com/grid/c2383f4a63161feb0205374083002dab.png",
+    "checkedAt": "2026-11-06"
+  },
+  "alien-resurrection": {
+    "sgdbId": 36124,
+    "name": "Alien: Resurrection",
+    "grid": "https://cdn2.steamgriddb.com/grid/c598926732a1e7d7faad46a9fe133e01.png",
+    "checkedAt": "2026-11-06"
+  },
+  "alone-in-the-dark-the-new-nightmare": {
+    "sgdbId": 3277,
+    "name": "Alone in the Dark: The New Nightmare",
+    "grid": "https://cdn2.steamgriddb.com/grid/375414dbbfd4a32040300559e7961ecd.png",
+    "checkedAt": "2026-11-06"
+  },
+  "alundra": {
+    "sgdbId": 34913,
+    "name": "Alundra",
+    "grid": "https://cdn2.steamgriddb.com/grid/62369392c675ab68a37e5f5e5a819506.png",
+    "checkedAt": "2026-11-06"
+  },
+  "amped-2": {
+    "sgdbId": 5258580,
+    "name": "Amped 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/c0ea81a891959bd85d1dc22f609dba34.png",
+    "checkedAt": "2026-11-06"
+  },
+  "angry-birds-trilogy": {
+    "sgdbId": 33881,
+    "name": "Angry Birds Trilogy",
+    "grid": "https://cdn2.steamgriddb.com/grid/91baa87f990788efa43959f52041f877.png",
+    "checkedAt": "2026-11-06"
+  },
+  "animal-crossing-new-horizons": {
+    "sgdbId": 5257932,
+    "name": "Animal Crossing: New Horizons",
+    "grid": "https://cdn2.steamgriddb.com/grid/078d2a1275f0d53cda67d165440aeb50.png",
+    "checkedAt": "2026-11-06"
+  },
+  "animal-crossing": {
+    "sgdbId": 34931,
+    "name": "Animal Crossing",
+    "grid": "https://cdn2.steamgriddb.com/grid/d9e16849e6c8440f27574666b9e9735a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ape-escape": {
+    "sgdbId": 36806,
+    "name": "Ape Escape",
+    "grid": "https://cdn2.steamgriddb.com/grid/41653fbde31f556e57a71ea6edf1efaa.png",
+    "checkedAt": "2026-11-06"
+  },
+  "apocalypse": {
+    "sgdbId": 37616,
+    "name": "Apocalypse",
+    "grid": "https://cdn2.steamgriddb.com/grid/05c396b4ebe2ad12cd330de050269cfb.png",
+    "checkedAt": "2026-11-06"
+  },
+  "army-men-sarge-s-heroes": {
+    "sgdbId": 95,
+    "name": "Army Men: Sarge's Heroes",
+    "grid": "https://cdn2.steamgriddb.com/grid/7b6a6b12ff6c6098c26bce4f7dfe3d31.png",
+    "checkedAt": "2026-11-06"
+  },
+  "army-of-two": {
+    "sgdbId": 5258444,
+    "name": "Army of Two",
+    "grid": "https://cdn2.steamgriddb.com/grid/4ad9f5add488c97992ec7730571850b7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "astral-chain": {
+    "sgdbId": 5249585,
+    "name": "Astral Chain",
+    "grid": "https://cdn2.steamgriddb.com/grid/e9571c97ad8514c0aa6bb199bda1427b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "astro-boy-omega-factor": {
+    "sgdbId": 36902,
+    "name": "Astro Boy: Omega Factor",
+    "grid": "https://cdn2.steamgriddb.com/grid/7e97d66f2838c18200788809bbadff71.png",
+    "checkedAt": "2026-11-06"
+  },
+  "asura-s-wrath": {
+    "sgdbId": 29913,
+    "name": "Asura's Wrath",
+    "grid": "https://cdn2.steamgriddb.com/grid/c4c02d22655d5d3c383df7f2422409f1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "atlantis-the-lost-tales": {
+    "sgdbId": 5247438,
+    "name": "Atlantis: The Lost Tales",
+    "grid": "https://cdn2.steamgriddb.com/grid/05d5b29c9a6391435c33e612801fd36a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "automobili-lamborghini": {
+    "sgdbId": 38290,
+    "name": "Automobili Lamborghini",
+    "grid": "https://cdn2.steamgriddb.com/grid/1c7e02e71df12a6cdae7888b9785b38f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "banjo-kazooie": {
+    "sgdbId": 35564,
+    "name": "Banjo-Kazooie",
+    "grid": "https://cdn2.steamgriddb.com/grid/a154a70f923c579313aa9c47ed7c34e2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "banjo-tooie": {
+    "sgdbId": 1988,
+    "name": "Banjo-Tooie",
+    "grid": "https://cdn2.steamgriddb.com/grid/92072878dd6bcea843fb557598077392.png",
+    "checkedAt": "2026-11-06"
+  },
+  "baroque": {
+    "sgdbId": 4615,
+    "name": "Baroque",
+    "grid": "https://cdn2.steamgriddb.com/grid/a312de21eb3a14de7487aa9fb11bab16.png",
+    "checkedAt": "2026-11-06"
+  },
+  "battle-arena-toshinden": {
+    "sgdbId": 35693,
+    "name": "Battle Arena Tōshinden",
+    "grid": "https://cdn2.steamgriddb.com/grid/f11f0c6ad20e0378a5d1f7c1022b80c3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "battle-stadium-d-o-n": {
+    "sgdbId": 5260916,
+    "name": "Battle Stadium D.O.N",
+    "grid": "https://cdn2.steamgriddb.com/grid/760b335c18d63c6031ec332ffdd7b17f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "battletanx-global-assault": {
+    "sgdbId": 39008,
+    "name": "BattleTanx: Global Assault",
+    "grid": "https://cdn2.steamgriddb.com/grid/dd9b3c422d830f2d03f296f81239a156.png",
+    "checkedAt": "2026-11-06"
+  },
+  "battletanx": {
+    "sgdbId": 1992,
+    "name": "BattleTanx",
+    "grid": "https://cdn2.steamgriddb.com/grid/a2a17ee2619345c635b2987b3035741a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "battletoads-in-battlemaniacs": {
+    "sgdbId": 29408,
+    "name": "Battletoads in Battlemaniacs",
+    "grid": "https://cdn2.steamgriddb.com/grid/2207e8cc5dccb117cb5d5333761d5055.png",
+    "checkedAt": "2026-11-06"
+  },
+  "battlezone-rise-of-the-black-dogs": {
+    "sgdbId": 38605,
+    "name": "Battlezone: Rise of the Black Dogs",
+    "grid": "https://cdn2.steamgriddb.com/grid/20e621a87795781f63810ad11e201d25.png",
+    "checkedAt": "2026-11-06"
+  },
+  "bayonetta-3": {
+    "sgdbId": 5297427,
+    "name": "Bayonetta 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/ebd84dd9a85f413a34e9d8a21cc6ccc7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "beetle-adventure-racing": {
+    "sgdbId": 34001,
+    "name": "Beetle Adventure Racing!",
+    "grid": "https://cdn2.steamgriddb.com/grid/a53eaf73493994af66b20f4596410adc.png",
+    "checkedAt": "2026-11-06"
+  },
+  "beyond-oasis": {
+    "sgdbId": 37290,
+    "name": "Beyond Oasis",
+    "grid": "https://cdn2.steamgriddb.com/grid/5312cacba8c7e2867a6e95fa21f42c1b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "biplanes": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "black": {
+    "sgdbId": 35919,
+    "name": "Black",
+    "grid": "https://cdn2.steamgriddb.com/grid/e83bab0eff11d84c5e7d4199d9fa45a4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "blast-corps": {
+    "sgdbId": 38239,
+    "name": "Blast Corps",
+    "grid": "https://cdn2.steamgriddb.com/grid/3952cba60a062a66569d94bf6a3ee528.png",
+    "checkedAt": "2026-11-06"
+  },
+  "blood-wake": {
+    "sgdbId": 5262266,
+    "name": "Blood Wake",
+    "grid": "https://cdn2.steamgriddb.com/grid/cda6fa9bcdf238c4717b1f5c590f721f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "bloodborne": {
+    "sgdbId": 5246746,
+    "name": "Bloodborne",
+    "grid": "https://cdn2.steamgriddb.com/grid/021399af062379408df9c358a1a83cdb.png",
+    "checkedAt": "2026-11-06"
+  },
+  "blue-dragon": {
+    "sgdbId": 5254283,
+    "name": "Blue Dragon",
+    "grid": "https://cdn2.steamgriddb.com/grid/28e3bed162f123fc16f3084bbe61d98c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "blue-stinger": {
+    "sgdbId": 12920,
+    "name": "Blue Stinger",
+    "grid": "https://cdn2.steamgriddb.com/grid/023ebcfd3444e1cdc7aeb1421510f237.png",
+    "checkedAt": "2026-11-06"
+  },
+  "body-harvest": {
+    "sgdbId": 36354,
+    "name": "Body Harvest",
+    "grid": "https://cdn2.steamgriddb.com/grid/4aaf958684327e6687135d41687a6581.png",
+    "checkedAt": "2026-11-06"
+  },
+  "bomberman-64-the-second-attack": {
+    "sgdbId": 35722,
+    "name": "Bomberman 64: The Second Attack!",
+    "grid": "https://cdn2.steamgriddb.com/grid/f46c6cef80babb6e47f4c399e178d059.png",
+    "checkedAt": "2026-11-06"
+  },
+  "bomberman-64": {
+    "sgdbId": 1680,
+    "name": "Bomberman 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/c5b781ce025e8217c23f95f9569a0b96.png",
+    "checkedAt": "2026-11-06"
+  },
+  "bomberman-fantasy-race": {
+    "sgdbId": 36013,
+    "name": "Bomberman Fantasy Race",
+    "grid": "https://cdn2.steamgriddb.com/grid/82a22bbbb6468af6719f8ff87b388f52.png",
+    "checkedAt": "2026-11-06"
+  },
+  "bomberman-hero": {
+    "sgdbId": 38377,
+    "name": "Bomberman Hero",
+    "grid": "https://cdn2.steamgriddb.com/grid/0e6e9339d71b9008e8ecd4680608d0ec.png",
+    "checkedAt": "2026-11-06"
+  },
+  "bomberman-party-edition": {
+    "sgdbId": 5335362,
+    "name": "Bomberman Party Edition",
+    "grid": "https://cdn2.steamgriddb.com/grid/de2fb930e946829758828e1715da1d74.png",
+    "checkedAt": "2026-11-06"
+  },
+  "bomberman-world": {
+    "sgdbId": 5264611,
+    "name": "Bomberman World",
+    "grid": "https://cdn2.steamgriddb.com/grid/fd981c6de523ab65b22daa7f5d2ca791.png",
+    "checkedAt": "2026-11-06"
+  },
+  "breakdown": {
+    "sgdbId": 5259403,
+    "name": "Breakdown",
+    "grid": "https://cdn2.steamgriddb.com/grid/378dbfbbcd04a08195a5570e5be4e3c6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "burnout-3-takedown": {
+    "sgdbId": 37348,
+    "name": "Burnout 3: Takedown",
+    "grid": "https://cdn2.steamgriddb.com/grid/54cdd2db0fcfaa0134f43f363996161e.png",
+    "checkedAt": "2026-11-06"
+  },
+  "burnout-revenge": {
+    "sgdbId": 37108,
+    "name": "Burnout Revenge",
+    "grid": "https://cdn2.steamgriddb.com/grid/0066a9752d9cb8aaa8e517c703c5ad1f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "burnout": {
+    "sgdbId": 36141,
+    "name": "Burnout",
+    "grid": "https://cdn2.steamgriddb.com/grid/a5518c8bab30c4146c51fab75fe9623b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "cadence-of-hyrule": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "call-of-duty-2-big-red-one": {
+    "sgdbId": 5252158,
+    "name": "Call of Duty 2: Big Red One",
+    "grid": "https://cdn2.steamgriddb.com/grid/3e5589b2df55552e7716818b29ba2a2d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "call-of-duty-3": {
+    "sgdbId": 5248470,
+    "name": "Call of Duty 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/ebb4cd828b62543f83b337e48b333eb8.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "call-of-duty-finest-hour": {
+    "sgdbId": 5252406,
+    "name": "Call of Duty: Finest Hour",
+    "grid": "https://cdn2.steamgriddb.com/grid/f0dda1e19cb7596fcb7430e4b3f4f0b5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "call-of-duty-modern-warfare-2": {
+    "sgdbId": 710,
+    "name": "Call of Duty: Modern Warfare 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/cc96d0754de7d47e9a9a709eb2cd451f.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "cannon-fodder": {
+    "sgdbId": 38162,
+    "name": "Cannon Fodder",
+    "grid": "https://cdn2.steamgriddb.com/grid/a5b7343f3b6103bbc8b57f6158b561e7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "cartoon-network-racing": {
+    "sgdbId": 38630,
+    "name": "Cartoon Network Racing",
+    "grid": "https://cdn2.steamgriddb.com/grid/8fb512dd4fc5c4a606d8ebcffd81923d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "castle-of-illusion-quackshot-world-of-illusion": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "castlevania-64": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "castlevania-chronicles": {
+    "sgdbId": 37042,
+    "name": "Castlevania Chronicles",
+    "grid": "https://cdn2.steamgriddb.com/grid/1ccf6de7b9017b941e3fa12d17c66c88.png",
+    "checkedAt": "2026-11-06"
+  },
+  "castlevania-curse-of-darkness": {
+    "sgdbId": 38090,
+    "name": "Castlevania: Curse of Darkness",
+    "grid": "https://cdn2.steamgriddb.com/grid/f7840372da5ad42b5a4b2ce7cc30e3de.png",
+    "checkedAt": "2026-11-06"
+  },
+  "castlevania-legacy-of-darkness": {
+    "sgdbId": 12888,
+    "name": "Castlevania: Legacy of Darkness",
+    "grid": "https://cdn2.steamgriddb.com/grid/363ed890155b2eeda0aa492cc52e3d34.png",
+    "checkedAt": "2026-11-06"
+  },
+  "castlevania-symphony-of-the-night": {
+    "sgdbId": 37654,
+    "name": "Castlevania: Symphony of the Night",
+    "grid": "https://cdn2.steamgriddb.com/grid/13e50e203d8be253cc8cd7fbe1509c63.png",
+    "checkedAt": "2026-11-06"
+  },
+  "cave-story": {
+    "sgdbId": 38463,
+    "name": "Cave Story",
+    "grid": "https://cdn2.steamgriddb.com/grid/e646e2fec7dcbe33111f4481a96523af.png",
+    "checkedAt": "2026-11-06"
+  },
+  "chrono-trigger-snes": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "chrono-trigger": {
+    "sgdbId": 17593,
+    "name": "Chrono Trigger",
+    "grid": "https://cdn2.steamgriddb.com/grid/abc617f05e41620356626cf7761d5143.png",
+    "checkedAt": "2026-11-06"
+  },
+  "clayfighter-63-and-clayfighter-sculptor-s-cut": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "command-conquer-red-alert-2-yuri-s-revenge": {
+    "sgdbId": 38629,
+    "name": "Command & Conquer: Red Alert 2 - Yuri's Revenge",
+    "grid": "https://cdn2.steamgriddb.com/grid/144aab9a4e089f3752c58a6e6de16c61.png",
+    "checkedAt": "2026-11-06"
+  },
+  "condemned-2-bloodshot": {
+    "sgdbId": 5265030,
+    "name": "Condemned 2: Bloodshot",
+    "grid": "https://cdn2.steamgriddb.com/grid/93a77d951ae320600dc9619f3ddeee72.png",
+    "checkedAt": "2026-11-06"
+  },
+  "conker-live-reloaded": {
+    "sgdbId": 5256835,
+    "name": "Conker: Live & Reloaded",
+    "grid": "https://cdn2.steamgriddb.com/grid/92ffe39c405eb26368e5376f396d6ade.png",
+    "checkedAt": "2026-11-06"
+  },
+  "conker-s-bad-fur-day": {
+    "sgdbId": 36366,
+    "name": "Conker's Bad Fur Day",
+    "grid": "https://cdn2.steamgriddb.com/grid/e7ba692151c4e6c1c41c4770cdd15e8b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "crackdown-2": {
+    "sgdbId": 5245836,
+    "name": "Crackdown 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/9a0298d03a55b3da7c39eb509782ea81.png",
+    "checkedAt": "2026-11-06"
+  },
+  "crackdown": {
+    "sgdbId": 5245837,
+    "name": "Crackdown",
+    "grid": "https://cdn2.steamgriddb.com/grid/0d866018f63b5c0f9b822175e2c5d72c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "crash-bandicoot-2-cortex-strikes-back": {
+    "sgdbId": 35113,
+    "name": "Crash Bandicoot 2: Cortex Strikes Back",
+    "grid": "https://cdn2.steamgriddb.com/grid/4bdf589279f3060aaa0fd967c3c8a80b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "crash-bandicoot-3-warped": {
+    "sgdbId": 35404,
+    "name": "Crash Bandicoot 3: Warped",
+    "grid": "https://cdn2.steamgriddb.com/grid/04514b9893dd1719269aea025015ebe9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "crash-bandicoot": {
+    "sgdbId": 38107,
+    "name": "Crash Bandicoot",
+    "grid": "https://cdn2.steamgriddb.com/grid/8282b546dda9ec05515966ba0fe3e5d1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "crash-of-the-titans": {
+    "sgdbId": 90,
+    "name": "Crash of the Titans",
+    "grid": "https://cdn2.steamgriddb.com/grid/4cde7bfdc2fa8ba457b88daba87f73bf.png",
+    "checkedAt": "2026-11-06"
+  },
+  "crash-team-racing-nitro-fueled": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "crash-team-racing": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "crash-twinsanity": {
+    "sgdbId": 35121,
+    "name": "Crash Twinsanity",
+    "grid": "https://cdn2.steamgriddb.com/grid/2d76b54ba6edfbfbf547c7c2e76ed586.png",
+    "checkedAt": "2026-11-06"
+  },
+  "crimson-skies-high-road-to-revenge": {
+    "sgdbId": 5260755,
+    "name": "Crimson Skies: High Road to Revenge",
+    "grid": "https://cdn2.steamgriddb.com/grid/1fbd02197ce9924616402392d2554987.png",
+    "checkedAt": "2026-11-06"
+  },
+  "cruis-n-blast": {
+    "sgdbId": 5302176,
+    "name": "Cruis'n Blast",
+    "grid": "https://cdn2.steamgriddb.com/grid/7a4c857629826bb62461ffcf3fd4a0ca.png",
+    "checkedAt": "2026-11-06"
+  },
+  "crystal-defenders": {
+    "sgdbId": 5261837,
+    "name": "Crystal Defenders",
+    "grid": "https://cdn2.steamgriddb.com/grid/a6a0f08d32d29960d50ab17d1fc6b59f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "cut-the-rope": {
+    "sgdbId": 2330,
+    "name": "Cut the Rope",
+    "grid": "https://cdn2.steamgriddb.com/grid/0384e59d348a9248f08a2627cdf43741.png",
+    "checkedAt": "2026-11-06"
+  },
+  "cyber-troopers-virtual-on-oratorio-tangram": {
+    "sgdbId": 36015,
+    "name": "Cyber Troopers Virtual-On Oratorio Tangram",
+    "grid": "https://cdn2.steamgriddb.com/grid/39df28398f42561e13ee9d913fdcf467.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dante-s-inferno": {
+    "sgdbId": 29894,
+    "name": "Dante's Inferno",
+    "grid": "https://cdn2.steamgriddb.com/grid/4b16f49bdb6b891e01276afbaed1d675.png",
+    "checkedAt": "2026-11-06"
+  },
+  "darkwatch": {
+    "sgdbId": 5265079,
+    "name": "Darkwatch",
+    "grid": "https://cdn2.steamgriddb.com/grid/51b91b54e0d2a6c56c2e031d746f622a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dead-cells-return-to-castlevania-edition": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "dead-or-alive-2-ultimate": {
+    "sgdbId": 5438133,
+    "name": "Dead or Alive 2: Ultimate",
+    "grid": "https://cdn2.steamgriddb.com/grid/6bf3e08dc93915ecefa52d08164426e7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dead-or-alive-3": {
+    "sgdbId": 5252193,
+    "name": "Dead or Alive 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/e1e811bf16eb16068378b5051f7cb845.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dead-or-alive-xtreme-2": {
+    "sgdbId": 5274802,
+    "name": "Dead or Alive Xtreme 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/c1625916d047b11efde983e3e5500563.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dead-rising-2-case-west": {
+    "sgdbId": 5326701,
+    "name": "Dead Rising 2: Case West",
+    "grid": "https://cdn2.steamgriddb.com/grid/3de080c153a4d3d431cd08028f17bf1f.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "dead-rising-2-case-zero": {
+    "sgdbId": 5310558,
+    "name": "Dead Rising 2: Case Zero",
+    "grid": "https://cdn2.steamgriddb.com/grid/9ba0ccf0a69ae15c85d1b289baa4d494.png",
+    "checkedAt": "2026-11-06"
+  },
+  "deadbabiesx-xtreme": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "deadly-premonition": {
+    "sgdbId": 36900,
+    "name": "Deadly Premonition",
+    "grid": "https://cdn2.steamgriddb.com/grid/cd25d94f494c9aad155c867922594c01.png",
+    "checkedAt": "2026-11-06"
+  },
+  "def-jam-fight-for-ny": {
+    "sgdbId": 38885,
+    "name": "Def Jam: Fight for NY",
+    "grid": "https://cdn2.steamgriddb.com/grid/01d00d39c52785a9c0fe7736db8779b4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "def-jam-vendetta": {
+    "sgdbId": 36371,
+    "name": "Def Jam: Vendetta",
+    "grid": "https://cdn2.steamgriddb.com/grid/16580285a873fc78017c67eb862914a0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "demon-s-crest": {
+    "sgdbId": 34254,
+    "name": "Demon's Crest",
+    "grid": "https://cdn2.steamgriddb.com/grid/6f42d4d9b2b68c444a1ba052dbe647de.png",
+    "checkedAt": "2026-11-06"
+  },
+  "desert-strike-return-to-the-gulf-jungle-strike-urban-strike": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "desert-strike-return-to-the-gulf": {
+    "sgdbId": 36790,
+    "name": "Desert Strike: Return to the Gulf",
+    "grid": "https://cdn2.steamgriddb.com/grid/f03923abada8ac4917edee2c9d817a71.png",
+    "checkedAt": "2026-11-06"
+  },
+  "despiria": {
+    "sgdbId": 5274033,
+    "name": "deSpiria",
+    "grid": "https://cdn2.steamgriddb.com/grid/e5fb16cbbd7862913387e957fce85ca3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "destroy-all-humans-path-of-the-furon": {
+    "sgdbId": 5209440,
+    "name": "Destroy All Humans! Path of the Furon",
+    "grid": "https://cdn2.steamgriddb.com/grid/493af0ad2d85bdcf47fe9b1f11dc9fe2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "diablo-iii": {
+    "sgdbId": 35619,
+    "name": "Diablo III",
+    "grid": "https://cdn2.steamgriddb.com/grid/0f3839dc22ff5ad19a6b74203fac591f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "diablo": {
+    "sgdbId": 34237,
+    "name": "Diablo",
+    "grid": "https://cdn2.steamgriddb.com/grid/cced2922f69c1c789ba9d1c9c4210b1c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "diddy-kong-racing": {
+    "sgdbId": 36929,
+    "name": "Diddy Kong Racing",
+    "grid": "https://cdn2.steamgriddb.com/grid/4c38b84197c2e1a8444814d95c2487a8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dig-dug": {
+    "sgdbId": 37430,
+    "name": "Dig Dug",
+    "grid": "https://cdn2.steamgriddb.com/grid/1836593bd10614fe92922ef60de5be55.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dino-crisis-2": {
+    "sgdbId": 21188,
+    "name": "Dino Crisis 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/760b6b32a48664b8cf7f57254102184d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dino-crisis": {
+    "sgdbId": 35448,
+    "name": "Dino Crisis",
+    "grid": "https://cdn2.steamgriddb.com/grid/67674b5cb1d114a1786c5c3fbe1e224b.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "discord-times": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "disgaea-d2-a-brighter-darkness": {
+    "sgdbId": 5250412,
+    "name": "Disgaea D2: A Brighter Darkness",
+    "grid": "https://cdn2.steamgriddb.com/grid/9cb6cb6e1c6a47b97aaf0f2a1ec3d2de.png",
+    "checkedAt": "2026-11-06"
+  },
+  "disney-s-hercules": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "dissidia-012-duodecim-final-fantasy": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "dodonpachi-saidaioujou": {
+    "sgdbId": 5438703,
+    "name": "DoDonPachi SaiDaiOuJou",
+    "grid": "https://cdn2.steamgriddb.com/grid/70dd64544b4ea7668408e6034d8a2558.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dogs-of-war": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "donald-duck-goin-quackers": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "donkey-kong-64": {
+    "sgdbId": 37695,
+    "name": "Donkey Kong 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/86f7d456aa5848c284f7940bdecdef5d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "donkey-kong-country-2-diddy-s-kong-quest": {
+    "sgdbId": 36688,
+    "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "grid": "https://cdn2.steamgriddb.com/grid/5815383dbef0d664c7420eecc4303ae9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "donkey-kong-country-3-dixie-kong-s-double-trouble": {
+    "sgdbId": 22131,
+    "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+    "grid": "https://cdn2.steamgriddb.com/grid/3acf3ca403eefd71d9820f4a3910284f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "donkey-kong-country": {
+    "sgdbId": 36958,
+    "name": "Donkey Kong Country",
+    "grid": "https://cdn2.steamgriddb.com/grid/befa1d1faf9bc95c1a29d30ea9a751a2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "donkey-kong": {
+    "sgdbId": 35160,
+    "name": "Donkey Kong",
+    "grid": "https://cdn2.steamgriddb.com/grid/2feff4d998eb08c295cdecc02c3fb213.png",
+    "checkedAt": "2026-11-06"
+  },
+  "doom-64": {
+    "sgdbId": 25626,
+    "name": "DOOM 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/32b87d267730795171ae25b605e7cee3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "doom": {
+    "sgdbId": 2460,
+    "name": "Doom",
+    "grid": "https://cdn2.steamgriddb.com/grid/ef58f7ffe086514aa0164c7fc4f6cea8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "doraemon-3-nobita-no-machi-sos": {
+    "sgdbId": 5471108,
+    "name": "Doraemon 3: Nobita no Machi SOS!",
+    "grid": "https://cdn2.steamgriddb.com/grid/e60f7b9198bb93ca3adb012dc9f1f30f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "doraemon-nobita-to-mittsu-no-seireiseki": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "downhill-domination": {
+    "sgdbId": 5253254,
+    "name": "Downhill Domination",
+    "grid": "https://cdn2.steamgriddb.com/grid/1dae19678bca4026adbc6a5139a74d43.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dr-mario-64": {
+    "sgdbId": 37541,
+    "name": "Dr. Mario 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/c3884b938f2ccc63708d922671c5ea23.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dr-mario": {
+    "sgdbId": 38326,
+    "name": "Dr. Mario",
+    "grid": "https://cdn2.steamgriddb.com/grid/1b185660481de822df4d173fbdb90908.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dragon-age-origins": {
+    "sgdbId": 1557,
+    "name": "Dragon Age: Origins",
+    "grid": "https://cdn2.steamgriddb.com/grid/202712c96eef8d96aefae885bd6f20ea.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dragon-ball-z-budokai-tenkaichi-3": {
+    "sgdbId": 33972,
+    "name": "Dragon Ball Z: Budokai Tenkaichi 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/2fcd824d9156e24ad1f7344c8723ab5f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dragon-ball-z-budokai": {
+    "sgdbId": 33990,
+    "name": "Dragon Ball Z: Budokai",
+    "grid": "https://cdn2.steamgriddb.com/grid/fc5d2ffcd6a10b1863e56d5ec5859bab.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dragon-ball-z-buu-s-fury": {
+    "sgdbId": 34274,
+    "name": "Dragon Ball Z: Buu's Fury",
+    "grid": "https://cdn2.steamgriddb.com/grid/1dc43796fb1b397a7f2b43180068b580.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dragon-ball-z-the-legacy-of-goku-ii": {
+    "sgdbId": 33652,
+    "name": "Dragon Ball Z: The Legacy of Goku II",
+    "grid": "https://cdn2.steamgriddb.com/grid/fae504c7f3bdce5b17da7664b3efeded.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dragon-quest-viii-journey-of-the-cursed-king": {
+    "sgdbId": 38206,
+    "name": "Dragon Quest VIII: Journey of the Cursed King",
+    "grid": "https://cdn2.steamgriddb.com/grid/4e65af0726d49e19453f04a8d481b990.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dragon-s-crown-pro": {
+    "sgdbId": 5426974,
+    "name": "Dragon's Crown Pro",
+    "grid": "https://cdn2.steamgriddb.com/grid/75ee1d77d340cb0a97ddf66a3daf85af.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dragon-valor": {
+    "sgdbId": 35933,
+    "name": "Dragon Valor",
+    "grid": "https://cdn2.steamgriddb.com/grid/7ba33a7e7c4f4ea7fa80ea287e1d43c6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "drakengard-3": {
+    "sgdbId": 35049,
+    "name": "Drakengard 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/63a24a588a38679d827e8fcdd8ddff67.png",
+    "checkedAt": "2026-11-06"
+  },
+  "driveclub": {
+    "sgdbId": 5246739,
+    "name": "Driveclub",
+    "grid": "https://cdn2.steamgriddb.com/grid/feff3abc6ab1c5a09c3c537a1fc7b8a0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "driver-2": {
+    "sgdbId": 36700,
+    "name": "Driver 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/eb101d7eef150524b3cd895d08e4f673.png",
+    "checkedAt": "2026-11-06"
+  },
+  "duke-nukem-zero-hour": {
+    "sgdbId": 33833,
+    "name": "Duke Nukem: Zero Hour",
+    "grid": "https://cdn2.steamgriddb.com/grid/c2f8cdd9152894d36edf05bf7c2e5fd4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "dynasty-warriors-5-xtreme-legends": {
+    "sgdbId": 5353691,
+    "name": "Dynasty Warriors 5: Xtreme Legends",
+    "grid": "https://cdn2.steamgriddb.com/grid/c11ef6ac3013bc69fa311126ce443c72.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ea-sports-ufc-3": {
+    "sgdbId": 5361134,
+    "name": "EA Sports UFC 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/0607c476aa07de588bf6c695b9637131.png",
+    "checkedAt": "2026-11-06"
+  },
+  "earthbound": {
+    "sgdbId": 4601,
+    "name": "EarthBound",
+    "grid": "https://cdn2.steamgriddb.com/grid/7e9a8e67197bad8ec246bde2c4cebfb9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "earthworm-jim-hd": {
+    "sgdbId": 5268510,
+    "name": "Earthworm Jim HD",
+    "grid": "https://cdn2.steamgriddb.com/grid/8dc370db271ef582493a28ebc4b3684f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "einhander": {
+    "sgdbId": 38273,
+    "name": "Einhänder",
+    "grid": "https://cdn2.steamgriddb.com/grid/a98c9dca642830499f63e8749f01f7ec.png",
+    "checkedAt": "2026-11-06"
+  },
+  "enchanted-arms": {
+    "sgdbId": 5262751,
+    "name": "Enchanted Arms",
+    "grid": "https://cdn2.steamgriddb.com/grid/5a989d787772b7fd88c063aff8393d34.png",
+    "checkedAt": "2026-11-06"
+  },
+  "eternal-darkness-sanity-s-requiem": {
+    "sgdbId": 17,
+    "name": "Eternal Darkness: Sanity's Requiem",
+    "grid": "https://cdn2.steamgriddb.com/grid/8146fb923e941d002e56e87c534577c9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "eternal-sonata": {
+    "sgdbId": 33606,
+    "name": "Eternal Sonata",
+    "grid": "https://cdn2.steamgriddb.com/grid/8eebd21cc10fece20a43e9b1cc05e4a9.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "exit-2": {
+    "sgdbId": 5246718,
+    "name": "Exit 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/c48d7848e187d76c5a72510d5a5ca71e.png",
+    "checkedAt": "2026-11-06"
+  },
+  "f-zero-x": {
+    "sgdbId": 38893,
+    "name": "F-Zero X",
+    "grid": "https://cdn2.steamgriddb.com/grid/652e2fd3b2fa943f2b4ff310e419d7f2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "f-zero": {
+    "sgdbId": 36803,
+    "name": "F-Zero",
+    "grid": "https://cdn2.steamgriddb.com/grid/7f15033d73520667f4539ac0eaf8dc2c.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "fable-ii": {
+    "sgdbId": 70,
+    "name": "Fable II",
+    "grid": "https://cdn2.steamgriddb.com/grid/539ef09cdaadc97ead9ad8794efde829.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "fatal-frame": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "fifa-street": {
+    "sgdbId": 5257940,
+    "name": "FIFA Street",
+    "grid": "https://cdn2.steamgriddb.com/grid/2fb32ee97983c0b45a77ed7ff618bd94.png",
+    "checkedAt": "2026-11-06"
+  },
+  "fight-night-round-3": {
+    "sgdbId": 5258760,
+    "name": "Fight Night Round 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/83b08006b27d81262a207221672742d6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "final-fantasy-crystal-chronicles-echoes-of-time": {
+    "sgdbId": 4606,
+    "name": "Final Fantasy Crystal Chronicles: Echoes of Time",
+    "grid": "https://cdn2.steamgriddb.com/grid/76428cc494fcd402f2092a036aafb6fd.png",
+    "checkedAt": "2026-11-06"
+  },
+  "final-fantasy-ix": {
+    "sgdbId": 8025,
+    "name": "Final Fantasy IX",
+    "grid": "https://cdn2.steamgriddb.com/grid/afd61904eb25c8efcf646d0b04c521f9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "final-fantasy-tactics-advance": {
+    "sgdbId": 34478,
+    "name": "Final Fantasy Tactics Advance",
+    "grid": "https://cdn2.steamgriddb.com/grid/ad7e47ac25451511c59215d85a095489.png",
+    "checkedAt": "2026-11-06"
+  },
+  "final-fantasy-tactics": {
+    "sgdbId": 35500,
+    "name": "Final Fantasy Tactics",
+    "grid": "https://cdn2.steamgriddb.com/grid/69e3858f218bceb1a7875574075005b3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "final-fantasy-viii": {
+    "sgdbId": 8639,
+    "name": "Final Fantasy VIII",
+    "grid": "https://cdn2.steamgriddb.com/grid/6a8df01cf0d21e57333bbaa108877383.png",
+    "checkedAt": "2026-11-06"
+  },
+  "final-fantasy": {
+    "sgdbId": 33565,
+    "name": "Final Fantasy",
+    "grid": "https://cdn2.steamgriddb.com/grid/4c112afc9b1ebde9d311cca23e8eb2b8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "fire-emblem-the-sacred-stones": {
+    "sgdbId": 21146,
+    "name": "Fire Emblem: The Sacred Stones",
+    "grid": "https://cdn2.steamgriddb.com/grid/5b0663d2219eb76a6429291c85f74382.png",
+    "checkedAt": "2026-11-06"
+  },
+  "forza-horizon": {
+    "sgdbId": 19719,
+    "name": "Forza Horizon",
+    "grid": "https://cdn2.steamgriddb.com/grid/c43043335d711ee1590cfcba87ed0009.png",
+    "checkedAt": "2026-11-06"
+  },
+  "forza-motorsport-2": {
+    "sgdbId": 5246842,
+    "name": "Forza Motorsport 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/cab0c1402ec2d5a5301511ab089a08bf.png",
+    "checkedAt": "2026-11-06"
+  },
+  "forza-motorsport-4": {
+    "sgdbId": 5246841,
+    "name": "Forza Motorsport 4",
+    "grid": "https://cdn2.steamgriddb.com/grid/8a9c81aca7268690ab27d58cdd5f4431.png",
+    "checkedAt": "2026-11-06"
+  },
+  "fracture": {
+    "sgdbId": 5254318,
+    "name": "Fracture",
+    "grid": "https://cdn2.steamgriddb.com/grid/4b2a0ea3017d894b96de7bd4a45729d5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "fuse": {
+    "sgdbId": 3222,
+    "name": "Fuse",
+    "grid": "https://cdn2.steamgriddb.com/grid/8b5e72cc79a7693759eb98aa866accc6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "futurama": {
+    "sgdbId": 35533,
+    "name": "Futurama",
+    "grid": "https://cdn2.steamgriddb.com/grid/7eff6cd2ac4fe21916d9112687e554b1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "galerians": {
+    "sgdbId": 4593,
+    "name": "Galerians",
+    "grid": "https://cdn2.steamgriddb.com/grid/966ba328b62a88bcbb7b81810924b0cf.png",
+    "checkedAt": "2026-11-06"
+  },
+  "gauntlet-dark-legacy": {
+    "sgdbId": 34426,
+    "name": "Gauntlet: Dark Legacy",
+    "grid": "https://cdn2.steamgriddb.com/grid/1ed149cbea4722a29a9c9653cc3313aa.png",
+    "checkedAt": "2026-11-06"
+  },
+  "gears-of-war-2": {
+    "sgdbId": 37163,
+    "name": "Gears of War 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/537be42935b21c04fac5d9913777f7ee.png",
+    "checkedAt": "2026-11-06"
+  },
+  "gears-of-war-3": {
+    "sgdbId": 36635,
+    "name": "Gears of War 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/b8feb3cce1b12e57ed29dba92abb169a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "geometry-wars-retro-evolved-2": {
+    "sgdbId": 5254320,
+    "name": "Geometry Wars: Retro Evolved 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/fee75b05309b665fb5a6ec3b56dda5e1.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "glover": {
+    "sgdbId": 36874,
+    "name": "Glover",
+    "grid": "https://cdn2.steamgriddb.com/grid/62c2131970055ded2b03fb78dc5abf26.png",
+    "checkedAt": "2026-11-06"
+  },
+  "go-go-ackman": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "god-of-war-chains-of-olympus-god-of-war-ghost-of-sparta": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "god-of-war-iii-remastered": {
+    "sgdbId": 5246707,
+    "name": "God of War III Remastered",
+    "grid": "https://cdn2.steamgriddb.com/grid/bc6a17604012da6895c1bacd28cdb9fa.png",
+    "checkedAt": "2026-11-06"
+  },
+  "god-of-war-sons-of-sparta-ps5": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "god-of-war": {
+    "sgdbId": 36454,
+    "name": "God of War",
+    "grid": "https://cdn2.steamgriddb.com/grid/72d0eaa80cc3412fda4a133ca1f884e8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "godzilla": {
+    "sgdbId": 38668,
+    "name": "Godzilla",
+    "grid": "https://cdn2.steamgriddb.com/grid/c77206691d093e3055824d7063e7fa59.png",
+    "checkedAt": "2026-11-06"
+  },
+  "goemon-s-great-adventure": {
+    "sgdbId": 33690,
+    "name": "Goemon's Great Adventure",
+    "grid": "https://cdn2.steamgriddb.com/grid/69b717a1d64f62465d96885dcaf9a77d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "golden-sun-the-lost-age": {
+    "sgdbId": 39020,
+    "name": "Golden Sun: The Lost Age",
+    "grid": "https://cdn2.steamgriddb.com/grid/cb63e7c64dcccc594a9b3dd4783ec04c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "golden-sun": {
+    "sgdbId": 37072,
+    "name": "Golden Sun",
+    "grid": "https://cdn2.steamgriddb.com/grid/fc37c234a9b820027243ea2255da90b7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "goldeneye-007-reloaded": {
+    "sgdbId": 37089,
+    "name": "GoldenEye 007: Reloaded",
+    "grid": "https://cdn2.steamgriddb.com/grid/d2a3705b4550183211b94bf86b710bb5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "goldeneye-007": {
+    "sgdbId": 34306,
+    "name": "GoldenEye 007",
+    "grid": "https://cdn2.steamgriddb.com/grid/f0971d67a49ade9bab406f7664e8129d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "gran-turismo-3-a-spec": {
+    "sgdbId": 35696,
+    "name": "Gran Turismo 3: A-Spec",
+    "grid": "https://cdn2.steamgriddb.com/grid/490d3a9dd72716b3101890d0d8241c51.png",
+    "checkedAt": "2026-11-06"
+  },
+  "gran-turismo-4": {
+    "sgdbId": 36712,
+    "name": "Gran Turismo 4",
+    "grid": "https://cdn2.steamgriddb.com/grid/a27804f1148c12b96c96d0b5b2e98ebe.png",
+    "checkedAt": "2026-11-06"
+  },
+  "gran-turismo-5-prologue": {
+    "sgdbId": 5253541,
+    "name": "Gran Turismo 5 Prologue",
+    "grid": "https://cdn2.steamgriddb.com/grid/dd55802d0d54d57e54e503150916fe3b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "grand-theft-auto-v": {
+    "sgdbId": 3674,
+    "name": "Grand Theft Auto V",
+    "grid": "https://cdn2.steamgriddb.com/grid/af0a25e27510f77d97634a6bbe653b13.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "grand-theft-auto-vice-city-stories": {
+    "sgdbId": 34363,
+    "name": "Grand Theft Auto: Vice City Stories",
+    "grid": "https://cdn2.steamgriddb.com/grid/c8aa48a3667e7a29486f3f978b0e0279.png",
+    "checkedAt": "2026-11-06"
+  },
+  "gravity-rush-2": {
+    "sgdbId": 5254323,
+    "name": "Gravity Rush 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/cee0281e36d843e932cbabe3aaa22d50.png",
+    "checkedAt": "2026-11-06"
+  },
+  "gravity-rush-remastered-gravity-rush-2": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "gravity-rush-remastered": {
+    "sgdbId": 5270660,
+    "name": "Gravity Rush Remastered",
+    "grid": "https://cdn2.steamgriddb.com/grid/a5681ddbdf84643ab575935222d497f4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "guitar-hero-guitar-hero-ii-encore-rocks-the-80s-and-iii": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "guitar-hero-ii": {
+    "sgdbId": 5270730,
+    "name": "Guitar Hero II",
+    "grid": "https://cdn2.steamgriddb.com/grid/419cda65103d3e7b2cf524cc2bc52373.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "gunstar-heroes": {
+    "sgdbId": 35172,
+    "name": "Gunstar Heroes",
+    "grid": "https://cdn2.steamgriddb.com/grid/3ac75b967630b2f1bf15c38eea60e033.png",
+    "checkedAt": "2026-11-06"
+  },
+  "halo-combat-evolved": {
+    "sgdbId": 38383,
+    "name": "Halo: Combat Evolved",
+    "grid": "https://cdn2.steamgriddb.com/grid/09a146c8d1cfdbdb54ceb60ede93cdab.png",
+    "checkedAt": "2026-11-06"
+  },
+  "hard-corps-uprising": {
+    "sgdbId": 5253571,
+    "name": "Hard Corps: Uprising",
+    "grid": "https://cdn2.steamgriddb.com/grid/360045b0d83a05ef34eb3e4044bf1197.png",
+    "checkedAt": "2026-11-06"
+  },
+  "harry-potter-and-the-chamber-of-secrets": {
+    "sgdbId": 2259,
+    "name": "Harry Potter and the Chamber of Secrets",
+    "grid": "https://cdn2.steamgriddb.com/grid/c3be52b54804f58495806bd08faba616.png",
+    "checkedAt": "2026-11-06"
+  },
+  "harry-potter-and-the-philosopher-s-stone": {
+    "sgdbId": 37910,
+    "name": "Harry Potter and the Philosopher's Stone",
+    "grid": "https://cdn2.steamgriddb.com/grid/3bf0b0ab270ffde4815c5d38b17d1b80.png",
+    "checkedAt": "2026-11-06"
+  },
+  "harry-potter-and-the-prisoner-of-azkaban": {
+    "sgdbId": 36860,
+    "name": "Harry Potter and the Prisoner of Azkaban",
+    "grid": "https://cdn2.steamgriddb.com/grid/a6ebfe17b351634e76d0455d123bcbb1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "harry-potter-collection": {
+    "sgdbId": 5329119,
+    "name": "Harry Potter Collection",
+    "grid": "https://cdn2.steamgriddb.com/grid/3ae572550c9527bfa9e50893eacd53d1.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "harvest-moon-64": {
+    "sgdbId": 35297,
+    "name": "Harvest Moon 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/cab8fb3904dfe2e30a8579bc38e74ada.png",
+    "checkedAt": "2026-11-06"
+  },
+  "harvest-moon-back-to-nature": {
+    "sgdbId": 37642,
+    "name": "Harvest Moon: Back to Nature",
+    "grid": "https://cdn2.steamgriddb.com/grid/11a9ca970126fe6487e1b8028dec1174.png",
+    "checkedAt": "2026-11-06"
+  },
+  "harvest-moon": {
+    "sgdbId": 38092,
+    "name": "Harvest Moon",
+    "grid": "https://cdn2.steamgriddb.com/grid/3daefd0a4e4712eab44260d0a19d7e58.png",
+    "checkedAt": "2026-11-06"
+  },
+  "haunting-ground": {
+    "sgdbId": 36711,
+    "name": "Haunting Ground",
+    "grid": "https://cdn2.steamgriddb.com/grid/8c44f3c42a276de9021db0e585732485.png",
+    "checkedAt": "2026-11-06"
+  },
+  "haze": {
+    "sgdbId": 5258719,
+    "name": "Haze",
+    "grid": "https://cdn2.steamgriddb.com/grid/6870d34f7202149db659c332c79ffbe1.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "hellnight": {
+    "sgdbId": 5256927,
+    "name": "Hellnight",
+    "grid": "https://cdn2.steamgriddb.com/grid/9d52a1d22ae76500fa65957282b098bf.png",
+    "checkedAt": "2026-11-06"
+  },
+  "hexic-hd": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "hot-shots-tennis": {
+    "sgdbId": 5439906,
+    "name": "Hot Shots Tennis",
+    "grid": "https://cdn2.steamgriddb.com/grid/7605817ae23886bf3fd9fe4ab5895c32.png",
+    "checkedAt": "2026-11-06"
+  },
+  "hotel-mario": {
+    "sgdbId": 5260423,
+    "name": "Hotel Mario",
+    "grid": "https://cdn2.steamgriddb.com/grid/059a8aa8273c69364b11c325ff8b060f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "hybrid-heaven": {
+    "sgdbId": 36033,
+    "name": "Hybrid Heaven",
+    "grid": "https://cdn2.steamgriddb.com/grid/96d1ff3bb28021332079f48c008a5950.png",
+    "checkedAt": "2026-11-06"
+  },
+  "hydro-thunder-offroad-thunder": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "ico": {
+    "sgdbId": 33578,
+    "name": "ICO",
+    "grid": "https://cdn2.steamgriddb.com/grid/54c8077a3713597237f91535a6082b1f.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "illusion-of-gaia": {
+    "sgdbId": 36661,
+    "name": "Illusion of Gaia",
+    "grid": "https://cdn2.steamgriddb.com/grid/22abffc0501401bb45afe3b886d5df0f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "inazuma-eleven-3-sekai-heno-chousen-the-ogre": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "infamous-second-son": {
+    "sgdbId": 5246744,
+    "name": "inFAMOUS Second Son",
+    "grid": "https://cdn2.steamgriddb.com/grid/5b64cd5af426b00c26031e097fc60bfb.png",
+    "checkedAt": "2026-11-06"
+  },
+  "infamous": {
+    "sgdbId": 5173873,
+    "name": "Infamous",
+    "grid": "https://cdn2.steamgriddb.com/grid/9198689b820fc4a59bdcaa334b8cfbd5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "international-superstar-soccer-2000": {
+    "sgdbId": 37590,
+    "name": "International Superstar Soccer 2000",
+    "grid": "https://cdn2.steamgriddb.com/grid/42c055bbb7b45d6c5e247283fd96452f.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "international-superstar-soccer-deluxe": {
+    "sgdbId": 37746,
+    "name": "International Superstar Soccer Deluxe",
+    "grid": "https://cdn2.steamgriddb.com/grid/cf5b6f0e6477c48793e51e4f31e0cdb9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "j-stars-victory-vs": {
+    "sgdbId": 5265495,
+    "name": "J-Stars Victory VS+",
+    "grid": "https://cdn2.steamgriddb.com/grid/832fb8aa0fe3daf1b86316713c3adb7c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "jackie-chan-stuntmaster": {
+    "sgdbId": 5262934,
+    "name": "Jackie Chan Stuntmaster",
+    "grid": "https://cdn2.steamgriddb.com/grid/4370a09825ce603a74e42ef6eca56ef9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "jade-cocoon-story-of-the-tamamayu": {
+    "sgdbId": 1694,
+    "name": "Jade Cocoon: Story of the Tamamayu",
+    "grid": "https://cdn2.steamgriddb.com/grid/d175eeb42e10f666b53d627660450288.png",
+    "checkedAt": "2026-11-06"
+  },
+  "jak-and-daxter": {
+    "sgdbId": 37452,
+    "name": "Jak and Daxter: The Precursor Legacy",
+    "grid": "https://cdn2.steamgriddb.com/grid/a86c4aec1bcf14eb30646ed8df2d2401.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "james-pond-2-codename-robocod": {
+    "sgdbId": 37391,
+    "name": "James Pond 2: Codename: RoboCod",
+    "grid": "https://cdn2.steamgriddb.com/grid/0b86976b8b61f5c3a53862dd003a0cb8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "jet-force-gemini": {
+    "sgdbId": 12854,
+    "name": "Jet Force Gemini",
+    "grid": "https://cdn2.steamgriddb.com/grid/e40084a1c911addf8a36b6058c123cdc.png",
+    "checkedAt": "2026-11-06"
+  },
+  "jet-moto-2": {
+    "sgdbId": 21131,
+    "name": "Jet Moto 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/ab98275e8ce73bcedf3ba17c6aecd1fb.png",
+    "checkedAt": "2026-11-06"
+  },
+  "jet-set-radio-future": {
+    "sgdbId": 5248415,
+    "name": "Jet Set Radio Future",
+    "grid": "https://cdn2.steamgriddb.com/grid/1af811e7b980f0101940cface13124d4.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "juiced-2-hot-import-nights": {
+    "sgdbId": 31394,
+    "name": "Juiced 2: Hot Import Nights",
+    "grid": "https://cdn2.steamgriddb.com/grid/c95329a9f0de6c4c188e761fc2bcb91e.png",
+    "checkedAt": "2026-11-06"
+  },
+  "kameo-elements-of-power": {
+    "sgdbId": 5265763,
+    "name": "Kameo: Elements of Power",
+    "grid": "https://cdn2.steamgriddb.com/grid/94461b919021d58fa910449500cf8845.png",
+    "checkedAt": "2026-11-06"
+  },
+  "killer-instinct-arcade-1994-killer-instinct-2-arcade-1996": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "killzone-2": {
+    "sgdbId": 5258910,
+    "name": "Killzone 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/4d298f562e47760d2a52afb6fc553fb7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "killzone-3": {
+    "sgdbId": 5258911,
+    "name": "Killzone 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/cfc8e62fb3556624c35f6386cc084136.png",
+    "checkedAt": "2026-11-06"
+  },
+  "killzone-shadow-fall": {
+    "sgdbId": 5246679,
+    "name": "Killzone: Shadow Fall",
+    "grid": "https://cdn2.steamgriddb.com/grid/001c051f536279e94d0902528a70187d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "king-kong": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "king-s-field-ii": {
+    "sgdbId": 5260159,
+    "name": "King's Field II",
+    "grid": "https://cdn2.steamgriddb.com/grid/5affc3f36d025042de00215dadec347f.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "kingdom-hearts-358-2-days": {
+    "sgdbId": 38723,
+    "name": "Kingdom Hearts 358/2 Days",
+    "grid": "https://cdn2.steamgriddb.com/grid/51124bb11e4fb823e8a990629ded42e4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "kingdom-hearts-chain-of-memories": {
+    "sgdbId": 38142,
+    "name": "Kingdom Hearts: Chain of Memories",
+    "grid": "https://cdn2.steamgriddb.com/grid/674872a8edd6d08ff2b1ac2a4ae164b7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "kings-field": {
+    "sgdbId": 5270235,
+    "name": "King's Field",
+    "grid": "https://cdn2.steamgriddb.com/grid/b47071610ab585bc8d0db86cbe8d25dc.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "kirby-air-ride": {
+    "sgdbId": 37983,
+    "name": "Kirby Air Ride",
+    "grid": "https://cdn2.steamgriddb.com/grid/b83a52c035258ed43d787106b1765e35.png",
+    "checkedAt": "2026-11-06"
+  },
+  "kirby-s-return-to-dream-land": {
+    "sgdbId": 5245260,
+    "name": "Kirby's Return to Dream Land",
+    "grid": "https://cdn2.steamgriddb.com/grid/e63bb9e9a4b930959b8cc4259afc9ba4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "kirby-super-star": {
+    "sgdbId": 37158,
+    "name": "Kirby Super Star",
+    "grid": "https://cdn2.steamgriddb.com/grid/c1244453d731c77416cb4766e3bd76cb.png",
+    "checkedAt": "2026-11-06"
+  },
+  "klonoa-door-to-phantomile": {
+    "sgdbId": 36328,
+    "name": "Klonoa: Door to Phantomile",
+    "grid": "https://cdn2.steamgriddb.com/grid/f571a5dc0a3dc67c36a15651f34e60c4.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "knack-ii": {
+    "sgdbId": 5246705,
+    "name": "Knack II",
+    "grid": "https://cdn2.steamgriddb.com/grid/b96eb888b68dba9368dc81a02b77175a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "knack": {
+    "sgdbId": 25782,
+    "name": "KNACK",
+    "grid": "https://cdn2.steamgriddb.com/grid/27f5f9280a2fd1bbfad2e9dcfdf79519.png",
+    "checkedAt": "2026-11-06"
+  },
+  "knuckles-chaotix": {
+    "sgdbId": 37279,
+    "name": "Knuckles' Chaotix",
+    "grid": "https://cdn2.steamgriddb.com/grid/077b979962de7dcf9c6e6cf543f8c1e6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "lagoon": {
+    "sgdbId": 25594,
+    "name": "Lagoon",
+    "grid": "https://cdn2.steamgriddb.com/grid/0b70c7a36ac8a033283127165636e604.png",
+    "checkedAt": "2026-11-06"
+  },
+  "laser-lords": {
+    "sgdbId": 5351030,
+    "name": "Laser Lords",
+    "grid": "https://cdn2.steamgriddb.com/grid/0056cfede5c828edca07331794be1d31.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "laserlords": {
+    "sgdbId": 5351030,
+    "name": "Laser Lords",
+    "grid": "https://cdn2.steamgriddb.com/grid/0056cfede5c828edca07331794be1d31.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "legend-of-dragoon": {
+    "sgdbId": 34195,
+    "name": "The Legend of Dragoon",
+    "grid": "https://cdn2.steamgriddb.com/grid/aa82fd1c7df60df76d515816cbdb76a0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "legend-of-legaia": {
+    "sgdbId": 37002,
+    "name": "Legend of Legaia",
+    "grid": "https://cdn2.steamgriddb.com/grid/70b4d3e0b3d5c9c9869bf1fee1aebe19.png",
+    "checkedAt": "2026-11-06"
+  },
+  "legendary-wings": {
+    "sgdbId": 37472,
+    "name": "Legendary Wings",
+    "grid": "https://cdn2.steamgriddb.com/grid/467a4263e91eb731d1b69e44fd7d4f86.png",
+    "checkedAt": "2026-11-06"
+  },
+  "lego-dimensions": {
+    "sgdbId": 5246706,
+    "name": "LEGO Dimensions",
+    "grid": "https://cdn2.steamgriddb.com/grid/9772b7ba951a7ba095b34845e2c75632.png",
+    "checkedAt": "2026-11-06"
+  },
+  "link-the-faces-of-evil": {
+    "sgdbId": 5260424,
+    "name": "Link: The Faces of Evil",
+    "grid": "https://cdn2.steamgriddb.com/grid/5ff9bd734320ce13faf293ef5a6e4743.png",
+    "checkedAt": "2026-11-06"
+  },
+  "looney-tunes-b-ball": {
+    "sgdbId": 37714,
+    "name": "Looney Tunes B-Ball",
+    "grid": "https://cdn2.steamgriddb.com/grid/a7fbb261e1cfe7a826dc0ac7854005d8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "lost-odyssey": {
+    "sgdbId": 36456,
+    "name": "Lost Odyssey",
+    "grid": "https://cdn2.steamgriddb.com/grid/c935ae5eb3f0ae34220b8ea163a59d43.png",
+    "checkedAt": "2026-11-06"
+  },
+  "luigi-s-mansion": {
+    "sgdbId": 38627,
+    "name": "Luigi's Mansion",
+    "grid": "https://cdn2.steamgriddb.com/grid/ac7c433007ac68a863d12dd75b2d13eb.png",
+    "checkedAt": "2026-11-06"
+  },
+  "madden-nfl-08": {
+    "sgdbId": 38887,
+    "name": "Madden NFL 08",
+    "grid": "https://cdn2.steamgriddb.com/grid/88c3d892fc789e8d6071b564b37c5ea5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "magical-tetris-challenge": {
+    "sgdbId": 37767,
+    "name": "Magical Tetris Challenge",
+    "grid": "https://cdn2.steamgriddb.com/grid/409f95b49135f74d6f914dcb33639077.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-kart-64": {
+    "sgdbId": 21164,
+    "name": "Mario Kart 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/8908077ce7fd405516d81c2c929de429.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-kart-double-dash": {
+    "sgdbId": 36068,
+    "name": "Mario Kart: Double Dash!!",
+    "grid": "https://cdn2.steamgriddb.com/grid/c22ad3828656e72b71489a0e3b20df58.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-kart-ds": {
+    "sgdbId": 25624,
+    "name": "Mario Kart DS",
+    "grid": "https://cdn2.steamgriddb.com/grid/3eed6d27b0b2dd008c1be88cce8245fc.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-kart-super-circuit": {
+    "sgdbId": 35520,
+    "name": "Mario Kart: Super Circuit",
+    "grid": "https://cdn2.steamgriddb.com/grid/83d788e65786046542c9354d17b92450.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-kart-wii": {
+    "sgdbId": 36054,
+    "name": "Mario Kart Wii",
+    "grid": "https://cdn2.steamgriddb.com/grid/3fb22546e0a13fb8b5d7345218eef2a5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-party-2": {
+    "sgdbId": 35165,
+    "name": "Mario Party 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/c7a45163eda01f63ab1ddb70d0f086fe.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-party-3": {
+    "sgdbId": 38637,
+    "name": "Mario Party 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/5529e315db37fe1e54be2e67a06a07f5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-party-4": {
+    "sgdbId": 33887,
+    "name": "Mario Party 4",
+    "grid": "https://cdn2.steamgriddb.com/grid/34ee49ced5744eeb86d6e8e9661634aa.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-party-6": {
+    "sgdbId": 36364,
+    "name": "Mario Party 6",
+    "grid": "https://cdn2.steamgriddb.com/grid/1a2ba95b9b89cb8d9ce110d93bf3fa77.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-party": {
+    "sgdbId": 37972,
+    "name": "Mario Party",
+    "grid": "https://cdn2.steamgriddb.com/grid/3c490f9f5813cb310f1dd3a68d752852.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-s-tennis": {
+    "sgdbId": 35201,
+    "name": "Mario's Tennis",
+    "grid": "https://cdn2.steamgriddb.com/grid/b501152b1827b46f6c05f2465e45aa0f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mario-strikers-charged": {
+    "sgdbId": 38376,
+    "name": "Mario Strikers Charged",
+    "grid": "https://cdn2.steamgriddb.com/grid/c9814f056e558d72a9729ea56950fc9a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "marvel-nemesis-rise-of-the-imperfects": {
+    "sgdbId": 5252992,
+    "name": "Marvel Nemesis: Rise of the Imperfects",
+    "grid": "https://cdn2.steamgriddb.com/grid/3430f390b3006b584961bf0a8913ec08.png",
+    "checkedAt": "2026-11-06"
+  },
+  "marvel-ultimate-alliance": {
+    "sgdbId": 10313,
+    "name": "Marvel: Ultimate Alliance",
+    "grid": "https://cdn2.steamgriddb.com/grid/e3798cedd56de01caaa3ce86e2e2c32b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "marvel-vs-capcom-clash-of-super-heroes": {
+    "sgdbId": 37674,
+    "name": "Marvel vs. Capcom: Clash of Super Heroes",
+    "grid": "https://cdn2.steamgriddb.com/grid/35b615ecb7372362e325861080c2baa0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "matterfall": {
+    "sgdbId": 5283310,
+    "name": "Matterfall",
+    "grid": "https://cdn2.steamgriddb.com/grid/540c90edf9b6c8f658975acbb7e4f297.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mdk": {
+    "sgdbId": 8309,
+    "name": "MDK",
+    "grid": "https://cdn2.steamgriddb.com/grid/3aca62adf17c838f9c55c3e61d1cb88c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "medal-of-honor-frontline": {
+    "sgdbId": 38334,
+    "name": "Medal of Honor: Frontline",
+    "grid": "https://cdn2.steamgriddb.com/grid/f7ca7d028d1de42814caecded57249fa.png",
+    "checkedAt": "2026-11-06"
+  },
+  "medal-of-honor": {
+    "sgdbId": 12091,
+    "name": "Medal of Honor",
+    "grid": "https://cdn2.steamgriddb.com/grid/2adfdac87e4ebf116543ab5560b7fc19.png",
+    "checkedAt": "2026-11-06"
+  },
+  "medievil": {
+    "sgdbId": 38204,
+    "name": "MediEvil",
+    "grid": "https://cdn2.steamgriddb.com/grid/b8b0e9685190772ecdb089f0b4a0369f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mega-man-64": {
+    "sgdbId": 37399,
+    "name": "Mega Man 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/174cbbef75ac1b1b15847299d50f77bf.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "mega-man-legends": {
+    "sgdbId": 38725,
+    "name": "Mega Man Legends",
+    "grid": "https://cdn2.steamgriddb.com/grid/de46b308829039baf89d3f4aee7e22a9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mega-man-x": {
+    "sgdbId": 35466,
+    "name": "Mega Man X",
+    "grid": "https://cdn2.steamgriddb.com/grid/e24927b595bdddebb71671d11f76f067.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mega-man-x2": {
+    "sgdbId": 37734,
+    "name": "Mega Man X2",
+    "grid": "https://cdn2.steamgriddb.com/grid/5fe3254ca9f7e2d49bd9a2c35c5dbe58.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mega-man-x4": {
+    "sgdbId": 38080,
+    "name": "Mega Man X4",
+    "grid": "https://cdn2.steamgriddb.com/grid/1a8e3803ba73d4c2d88022c00c79cef7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mega-man-x5": {
+    "sgdbId": 37544,
+    "name": "Mega Man X5",
+    "grid": "https://cdn2.steamgriddb.com/grid/7dcd4bff3b5ea07afb71ea5306b95e4f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mega-man-x6": {
+    "sgdbId": 33539,
+    "name": "Mega Man X6",
+    "grid": "https://cdn2.steamgriddb.com/grid/fe16afd293bc4038086fbdf74718d077.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mega-man-zero": {
+    "sgdbId": 38780,
+    "name": "Mega Man Zero",
+    "grid": "https://cdn2.steamgriddb.com/grid/a60885f9e7b627bd7950f40f4acc824b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "metal-arms-glitch-in-the-system": {
+    "sgdbId": 38298,
+    "name": "Metal Arms: Glitch in the System",
+    "grid": "https://cdn2.steamgriddb.com/grid/563fcaf3a1013fdbd9989f0d78c7d679.png",
+    "checkedAt": "2026-11-06"
+  },
+  "metal-gear-solid-mobile": {
+    "sgdbId": 5444240,
+    "name": "Metal Gear Solid Mobile",
+    "grid": "https://cdn2.steamgriddb.com/grid/35e3931695792daac9e08a8218d03834.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "metal-gear-solid": {
+    "sgdbId": 34558,
+    "name": "Metal Gear Solid",
+    "grid": "https://cdn2.steamgriddb.com/grid/3ac4511ba0302570efea191ea1a2d0b4.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "metal-slug-x": {
+    "sgdbId": 5045,
+    "name": "Metal Slug X",
+    "grid": "https://cdn2.steamgriddb.com/grid/560f8f4b1f6a8f9b982c7ac33ffe30e1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "metroid-ii-return-of-samus": {
+    "sgdbId": 33587,
+    "name": "Metroid II: Return of Samus",
+    "grid": "https://cdn2.steamgriddb.com/grid/b6952e403e52ff901127c4701a2a3852.png",
+    "checkedAt": "2026-11-06"
+  },
+  "metroid-prime-2-echoes": {
+    "sgdbId": 36244,
+    "name": "Metroid Prime 2: Echoes",
+    "grid": "https://cdn2.steamgriddb.com/grid/a811009cca17955a869190961a215997.png",
+    "checkedAt": "2026-11-06"
+  },
+  "metroid-prime-3-corruption": {
+    "sgdbId": 37532,
+    "name": "Metroid Prime 3: Corruption",
+    "grid": "https://cdn2.steamgriddb.com/grid/054a8689760e13c71a174684335021ec.png",
+    "checkedAt": "2026-11-06"
+  },
+  "metroid-prime-hunters": {
+    "sgdbId": 34541,
+    "name": "Metroid Prime: Hunters",
+    "grid": "https://cdn2.steamgriddb.com/grid/bfa22713f10ab2395b2edc4555fb072e.png",
+    "checkedAt": "2026-11-06"
+  },
+  "metroid-prime-remastered": {
+    "sgdbId": 5370781,
+    "name": "Metroid Prime Remastered",
+    "grid": "https://cdn2.steamgriddb.com/grid/ac873fa8c17dba5e45c449c688c0ed9b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "metroid-prime": {
+    "sgdbId": 37640,
+    "name": "Metroid Prime",
+    "grid": "https://cdn2.steamgriddb.com/grid/0327d825efc9703e56afaa2e9e1cef9e.png",
+    "checkedAt": "2026-11-06"
+  },
+  "midnight-club-3-dub-edition-remix": {
+    "sgdbId": 35116,
+    "name": "Midnight Club 3: DUB Edition Remix",
+    "grid": "https://cdn2.steamgriddb.com/grid/53fc08a6421fcd803b6f7c6798241bf5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "midnight-club-los-angeles-complete-edition": {
+    "sgdbId": 5334363,
+    "name": "Midnight Club: Los Angeles Complete Edition",
+    "grid": "https://cdn2.steamgriddb.com/grid/72ffcfdb17b6eb45cd62d6023b280fc1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "midtown-madness-3": {
+    "sgdbId": 5267138,
+    "name": "Midtown Madness 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/a005601453d614aa599dfd7f02b0e944.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mischief-makers": {
+    "sgdbId": 38272,
+    "name": "Mischief Makers",
+    "grid": "https://cdn2.steamgriddb.com/grid/9f393794277e9179468aad98ce4eb57f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "monster-hunter-4-ultimate": {
+    "sgdbId": 5252764,
+    "name": "Monster Hunter 4 Ultimate",
+    "grid": "https://cdn2.steamgriddb.com/grid/2c62579aca22484241593050908a30be.png",
+    "checkedAt": "2026-11-06"
+  },
+  "monster-hunter-freedom-unite": {
+    "sgdbId": 21192,
+    "name": "Monster Hunter Freedom Unite",
+    "grid": "https://cdn2.steamgriddb.com/grid/3bf3cc7649920a539474fe28e6e3cda9.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "monster-hunter-generations-ultimate": {
+    "sgdbId": 5264579,
+    "name": "Monster Hunter Generations Ultimate",
+    "grid": "https://cdn2.steamgriddb.com/grid/7bf071f0838651b1a74f71df5003b3ca.png",
+    "checkedAt": "2026-11-06"
+  },
+  "monster-hunter-portable-3rd": {
+    "sgdbId": 35988,
+    "name": "Monster Hunter Portable 3rd",
+    "grid": "https://cdn2.steamgriddb.com/grid/8b8b244e4ee08601c6cb0e3a7daaa819.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "monster-hunter-tri": {
+    "sgdbId": 34724,
+    "name": "Monster Hunter Tri",
+    "grid": "https://cdn2.steamgriddb.com/grid/8aee574231ae3a2b39d11638a15022f4.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "mortal-kombat-shaolin-monks": {
+    "sgdbId": 37375,
+    "name": "Mortal Kombat: Shaolin Monks",
+    "grid": "https://cdn2.steamgriddb.com/grid/338c5458fadf5e13bddfcb4819942d15.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "mortal-kombat-vs-dc-universe": {
+    "sgdbId": 5249210,
+    "name": "Mortal Kombat vs. DC Universe",
+    "grid": "https://cdn2.steamgriddb.com/grid/5904b6370ca6b675fe164a884cf14a71.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mother-3": {
+    "sgdbId": 35152,
+    "name": "Mother 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/3573da7c02b254a2b7901dca40a5cc02.png",
+    "checkedAt": "2026-11-06"
+  },
+  "motorstorm-arctic-edge": {
+    "sgdbId": 38513,
+    "name": "MotorStorm: Arctic Edge",
+    "grid": "https://cdn2.steamgriddb.com/grid/2444e94c5ec2ca7d7653afc9d7fd21e4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "muppet-racemania": {
+    "sgdbId": 38282,
+    "name": "Muppet RaceMania",
+    "grid": "https://cdn2.steamgriddb.com/grid/0921c179447f8ca03425e3885c04c185.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mutant-rampage-bodyslam": {
+    "sgdbId": 5374203,
+    "name": "Mutant Rampage: Bodyslam",
+    "grid": "https://cdn2.steamgriddb.com/grid/9e18109b63582c8acae7470f7def0da8.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "mx-unleashed": {
+    "sgdbId": 34859,
+    "name": "MX Unleashed",
+    "grid": "https://cdn2.steamgriddb.com/grid/cbc8416e7ee704aadb036747f4ca5c28.png",
+    "checkedAt": "2026-11-06"
+  },
+  "mystical-ninja-goemon": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "n3-ninety-nine-nights": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "namco-2x-systems": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "naruto-clash-of-ninja": {
+    "sgdbId": 36095,
+    "name": "Naruto: Clash of Ninja",
+    "grid": "https://cdn2.steamgriddb.com/grid/e28159a83a9196b03c88f605bf2f1d50.png",
+    "checkedAt": "2026-11-06"
+  },
+  "naruto-rise-of-a-ninja": {
+    "sgdbId": 5268809,
+    "name": "Naruto: Rise of a Ninja",
+    "grid": "https://cdn2.steamgriddb.com/grid/f1cab1954b1fc4ff1914fc819d30f3c1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "naruto-shippuden-ultimate-ninja-storm-generations": {
+    "sgdbId": 5253785,
+    "name": "Naruto Shippūden: Ultimate Ninja STORM Generations",
+    "grid": "https://cdn2.steamgriddb.com/grid/e8aecad47e4f46616360c96e7d204ad6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "naruto-the-broken-bond": {
+    "sgdbId": 5272727,
+    "name": "Naruto: The Broken Bond",
+    "grid": "https://cdn2.steamgriddb.com/grid/6c3730422813674723203ea794e7d6e4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "nascar-rumble": {
+    "sgdbId": 5173847,
+    "name": "Nascar Rumble",
+    "grid": "https://cdn2.steamgriddb.com/grid/f37dcc45eddb2bd52900bacd2da836f3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "naughty-bear-gold-edition": {
+    "sgdbId": 5434596,
+    "name": "Naughty Bear: Gold Edition",
+    "grid": "https://cdn2.steamgriddb.com/grid/ee1a856488fea31e9380d958040040b8.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "nba-hangtime": {
+    "sgdbId": 36260,
+    "name": "NBA Hangtime",
+    "grid": "https://cdn2.steamgriddb.com/grid/084f8be32f34c2828f05d697a9d31e2f.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "nba-jam-on-fire-edition": {
+    "sgdbId": 5259440,
+    "name": "NBA JAM: On Fire Edition",
+    "grid": "https://cdn2.steamgriddb.com/grid/0dc1a49c77551455f35a216ed5a7e9fd.png",
+    "checkedAt": "2026-11-06"
+  },
+  "nba-street-vol-2": {
+    "sgdbId": 37246,
+    "name": "NBA Street Vol. 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/d9b83a0aed8a57ddc3f361e4b0aa76b2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "need-for-speed-most-wanted": {
+    "sgdbId": 38250,
+    "name": "Need for Speed: Most Wanted",
+    "grid": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png",
+    "checkedAt": "2026-11-06"
+  },
+  "neo-drift-out-new-technology": {
+    "sgdbId": 5279412,
+    "name": "Neo Drift Out: New Technology",
+    "grid": "https://cdn2.steamgriddb.com/grid/3f84889af94866ef0c117d8a8830874e.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "new-super-mario-bros-u": {
+    "sgdbId": 36219,
+    "name": "New Super Mario Bros. U",
+    "grid": "https://cdn2.steamgriddb.com/grid/fdb3bab581e62940c7c21d8cc3a6c238.png",
+    "checkedAt": "2026-11-06"
+  },
+  "new-super-mario-bros-wii": {
+    "sgdbId": 37961,
+    "name": "New Super Mario Bros. Wii",
+    "grid": "https://cdn2.steamgriddb.com/grid/daa4c479f8ca6bccf503a440032e72c2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "nfl-blitz-2003": {
+    "sgdbId": 29837,
+    "name": "NFL Blitz 2003",
+    "grid": "https://cdn2.steamgriddb.com/grid/c3dc8588c3fb15fc270acf19ab50c3e6.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "nfl-head-coach-09": {
+    "sgdbId": 5488177,
+    "name": "NFL Head Coach 09",
+    "grid": "https://cdn2.steamgriddb.com/grid/86fc0f2683dbae8bf952736438966f32.png",
+    "checkedAt": "2026-11-06"
+  },
+  "nhl-2k8": {
+    "sgdbId": 5346641,
+    "name": "NHL 2K8",
+    "grid": "https://cdn2.steamgriddb.com/grid/d7c170b5311cac94ef1ffdbe39115972.png",
+    "checkedAt": "2026-11-06"
+  },
+  "nhl-94": {
+    "sgdbId": 37464,
+    "name": "NHL '94",
+    "grid": "https://cdn2.steamgriddb.com/grid/eb18a6c720d5e836aa260967c230f437.png",
+    "checkedAt": "2026-11-06"
+  },
+  "nhl-hitz-20-03": {
+    "sgdbId": 21116,
+    "name": "NHL Hitz 2003",
+    "grid": "https://cdn2.steamgriddb.com/grid/50e9b99c2a260821f8f8df9667fc3956.png",
+    "checkedAt": "2026-11-06"
+  },
+  "nhl-hitz-pro": {
+    "sgdbId": 5295519,
+    "name": "NHL Hitz Pro",
+    "grid": "https://cdn2.steamgriddb.com/grid/82256bcfe6987104d2bb8198ac56dbe8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ninja-gaiden-black": {
+    "sgdbId": 5340725,
+    "name": "Ninja Gaiden Black",
+    "grid": "https://cdn2.steamgriddb.com/grid/dbbb8884f3d67a074c2c0ed5c0fec7e3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ninja-gaiden-ii": {
+    "sgdbId": 5253715,
+    "name": "Ninja Gaiden II",
+    "grid": "https://cdn2.steamgriddb.com/grid/952316a1c27f03d5b6cd9d6d530d1ee2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "odin-sphere-leifthrasir": {
+    "sgdbId": 35443,
+    "name": "Odin Sphere Leifthrasir",
+    "grid": "https://cdn2.steamgriddb.com/grid/a0159473c23821556b1f5fb937e1b640.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ogre-battle-64-person-of-lordly-caliber": {
+    "sgdbId": 38100,
+    "name": "Ogre Battle 64: Person of Lordly Caliber",
+    "grid": "https://cdn2.steamgriddb.com/grid/87e9eddf6aef2ff1b1c4c4490106fc25.png",
+    "checkedAt": "2026-11-06"
+  },
+  "outpost-kaloki-x": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "outrun-online-arcade": {
+    "sgdbId": 5287541,
+    "name": "OutRun Online Arcade",
+    "grid": "https://cdn2.steamgriddb.com/grid/f44ad35667e01f798f6b030f4a654f8f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "outrunners": {
+    "sgdbId": 5246243,
+    "name": "OutRunners",
+    "grid": "https://cdn2.steamgriddb.com/grid/ce2e5fba47bf03aa639a79cb2819ae95.png",
+    "checkedAt": "2026-11-06"
+  },
+  "p-t": {
+    "sgdbId": 5250177,
+    "name": "P.T.",
+    "grid": "https://cdn2.steamgriddb.com/grid/377533335b14e2767f4cd93a75573062.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pac-man-championship-edition": {
+    "sgdbId": 5282030,
+    "name": "Pac-Man Championship Edition",
+    "grid": "https://cdn2.steamgriddb.com/grid/629e7b6c20da227b0bdb33e3b60c0fe3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "panzer-dragoon-orta": {
+    "sgdbId": 5255145,
+    "name": "Panzer Dragoon Orta",
+    "grid": "https://cdn2.steamgriddb.com/grid/74f43b97b107bc10cb9f730ec8c797a9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "paper-mario": {
+    "sgdbId": 36997,
+    "name": "Paper Mario",
+    "grid": "https://cdn2.steamgriddb.com/grid/f98e8082f2b3924b8a137d1cfc12e08b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "parappa-the-rapper": {
+    "sgdbId": 34109,
+    "name": "PaRappa the Rapper",
+    "grid": "https://cdn2.steamgriddb.com/grid/49d71abeb9511c049336143fee67cff7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "parasite-eve-ii": {
+    "sgdbId": 35601,
+    "name": "Parasite Eve II",
+    "grid": "https://cdn2.steamgriddb.com/grid/bb4a3ec91ad6506afed401bc7b7d0590.png",
+    "checkedAt": "2026-11-06"
+  },
+  "parasite-eve": {
+    "sgdbId": 39031,
+    "name": "Parasite Eve",
+    "grid": "https://cdn2.steamgriddb.com/grid/0bdda950546ab40f55cb84fbc3f5f3c7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "perfect-dark-zero": {
+    "sgdbId": 5262078,
+    "name": "Perfect Dark Zero",
+    "grid": "https://cdn2.steamgriddb.com/grid/6757c5d828a29b814e9992332f70b2b7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "perfect-dark": {
+    "sgdbId": 37787,
+    "name": "Perfect Dark",
+    "grid": "https://cdn2.steamgriddb.com/grid/f2eaa301f9c53bb10fb8e5b9d3d0ea9c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pikmin": {
+    "sgdbId": 21114,
+    "name": "Pikmin",
+    "grid": "https://cdn2.steamgriddb.com/grid/fbb12b97a88a081cf8528b62df955103.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pilotwings-64": {
+    "sgdbId": 35115,
+    "name": "Pilotwings 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/b349a212c3e61e124ae04244eecde663.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pilotwings-resort": {
+    "sgdbId": 5274055,
+    "name": "Pilotwings Resort",
+    "grid": "https://cdn2.steamgriddb.com/grid/cf07fb01c625865824e487cc0d9bb9de.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pirates-of-the-caribbean-at-world-s-end": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "plants-vs-zombies": {
+    "sgdbId": 5331605,
+    "name": "Plants vs. Zombies",
+    "grid": "https://cdn2.steamgriddb.com/grid/3203535afc65b43bb6a05ffd462e58ff.png",
+    "checkedAt": "2026-11-06"
+  },
+  "point-blank": {
+    "sgdbId": 5305337,
+    "name": "Point Blank",
+    "grid": "https://cdn2.steamgriddb.com/grid/334813fe4fe4021b1f884619abef595a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-black-pokemon-white": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-brilliant-diamond": {
+    "sgdbId": 5303449,
+    "name": "Pokémon Brilliant Diamond",
+    "grid": "https://cdn2.steamgriddb.com/grid/a3b72a8d43e20bf7d83821d5b2c0752d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-crystal": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-emerald": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-firered": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-legends-z-a": {
+    "sgdbId": 5445395,
+    "name": "Pokémon Legends: Z-A",
+    "grid": "https://cdn2.steamgriddb.com/grid/e0a5caef34b7535c913610b035a2c9ab.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-let-s-go-pikachu": {
+    "sgdbId": 5246182,
+    "name": "Pokémon: Let's Go, Pikachu!",
+    "grid": "https://cdn2.steamgriddb.com/grid/0d2bb68b98bd5246fe99a698c9a3aa3e.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-platinum": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-ruby": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-snap": {
+    "sgdbId": 37585,
+    "name": "Pokémon Snap",
+    "grid": "https://cdn2.steamgriddb.com/grid/1661b79578c9a10b72cc4403977801bf.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-soulsilver": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "pokemon-trading-card-game-2-the-invasion-of-team-gr": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "pokopia": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "prince-of-persia-the-sands-of-time": {
+    "sgdbId": 1438,
+    "name": "Prince of Persia: The Sands of Time",
+    "grid": "https://cdn2.steamgriddb.com/grid/6a8cfab2aa11fbb342063df25c16a5f1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "pro-evolution-soccer-2017": {
+    "sgdbId": 11289,
+    "name": "Pro Evolution Soccer 2017",
+    "grid": "https://cdn2.steamgriddb.com/grid/ca7f048d0b4a63103e1f1ebc8f71fc14.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "project-gotham-racing-2": {
+    "sgdbId": 5270686,
+    "name": "Project Gotham Racing 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/9987bd9d7044653cbfdc52c6bc76f81b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "project-gotham-racing-4": {
+    "sgdbId": 5253137,
+    "name": "Project Gotham Racing 4",
+    "grid": "https://cdn2.steamgriddb.com/grid/90e6b40f3728f30b437e6b71ccda6d0b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "project-gotham-racing": {
+    "sgdbId": 5254742,
+    "name": "Project Gotham Racing",
+    "grid": "https://cdn2.steamgriddb.com/grid/d0931a221c3fc8873d15363688891317.png",
+    "checkedAt": "2026-11-06"
+  },
+  "rampage-through-time": {
+    "sgdbId": 35280,
+    "name": "Rampage Through Time",
+    "grid": "https://cdn2.steamgriddb.com/grid/99e338ed3400abc5e21f64082286fba8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "rampage-total-destruction": {
+    "sgdbId": 36476,
+    "name": "Rampage: Total Destruction",
+    "grid": "https://cdn2.steamgriddb.com/grid/ab63243d415513c2307a6ff350832d10.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ratchet-clank-clone-home": {
+    "sgdbId": 5506886,
+    "name": "Ratchet & Clank: Clone Home",
+    "grid": "https://cdn2.steamgriddb.com/grid/415afdd1b9563923821fbe5ce9c0009a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ratchet-clank-future-tools-of-destruction": {
+    "sgdbId": 12885,
+    "name": "Ratchet & Clank Future: Tools of Destruction",
+    "grid": "https://cdn2.steamgriddb.com/grid/3572ce83951ecf504ac2261564424f6e.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ratchet-clank": {
+    "sgdbId": 34743,
+    "name": "Ratchet & Clank",
+    "grid": "https://cdn2.steamgriddb.com/grid/da5a21d5b7479ac98965612f25b95a76.png",
+    "checkedAt": "2026-11-06"
+  },
+  "rayman-2-the-great-escape": {
+    "sgdbId": 1448,
+    "name": "Rayman 2: The Great Escape",
+    "grid": "https://cdn2.steamgriddb.com/grid/0980d98e422c37ac8c31e865405a6bf9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "rayman-3-hd": {
+    "sgdbId": 5280315,
+    "name": "Rayman 3 HD",
+    "grid": "https://cdn2.steamgriddb.com/grid/ad4f3918c0c99e416c2f485b391a4282.png",
+    "checkedAt": "2026-11-06"
+  },
+  "resident-evil-3-nemesis": {
+    "sgdbId": 37599,
+    "name": "Resident Evil 3: Nemesis",
+    "grid": "https://cdn2.steamgriddb.com/grid/39e1dd25e194367c68f7d040750f184b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "resident-evil-code-veronica-x": {
+    "sgdbId": 35742,
+    "name": "Resident Evil - Code: Veronica X",
+    "grid": "https://cdn2.steamgriddb.com/grid/9ab45beb213b81202a330cfa5e99b411.png",
+    "checkedAt": "2026-11-06"
+  },
+  "resident-evil-gaiden": {
+    "sgdbId": 37258,
+    "name": "Resident Evil: Gaiden",
+    "grid": "https://cdn2.steamgriddb.com/grid/ee53170806b5ded86ff5ad2083ae556f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "resident-evil-outbreak": {
+    "sgdbId": 37117,
+    "name": "Resident Evil Outbreak",
+    "grid": "https://cdn2.steamgriddb.com/grid/efc1129c3689cbcb00b243dfae22ac9c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "resident-evil-the-umbrella-chronicles": {
+    "sgdbId": 5255985,
+    "name": "Resident Evil: The Umbrella Chronicles",
+    "grid": "https://cdn2.steamgriddb.com/grid/019f3cf5cbc0411460f8b76e286c87e9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ridge-racer-v": {
+    "sgdbId": 5259370,
+    "name": "Ridge Racer V",
+    "grid": "https://cdn2.steamgriddb.com/grid/9c0f8b8536f786adc7c08b22753a63e6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ridge-racer": {
+    "sgdbId": 37186,
+    "name": "Ridge Racer",
+    "grid": "https://cdn2.steamgriddb.com/grid/7fccaf0a51b9cbbcbcca2a4e5cefe7c8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "road-rash-64": {
+    "sgdbId": 38158,
+    "name": "Road Rash 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/c7dfe95373bfe4bca2cfa4a1f7383fda.png",
+    "checkedAt": "2026-11-06"
+  },
+  "rocket-robot-on-wheels": {
+    "sgdbId": 34436,
+    "name": "Rocket: Robot on Wheels",
+    "grid": "https://cdn2.steamgriddb.com/grid/1a582d186ac50e181d47124169575618.png",
+    "checkedAt": "2026-11-06"
+  },
+  "rumble-roses-xx": {
+    "sgdbId": 5281201,
+    "name": "Rumble Roses XX",
+    "grid": "https://cdn2.steamgriddb.com/grid/8270a91ca239e552633bd323d8e5ac19.png",
+    "checkedAt": "2026-11-06"
+  },
+  "saints-row": {
+    "sgdbId": 35143,
+    "name": "Saints Row",
+    "grid": "https://cdn2.steamgriddb.com/grid/6518ad0c59b7e9c7f81c9ac142a1a0e0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "san-francisco-rush-2049": {
+    "sgdbId": 21170,
+    "name": "San Francisco Rush 2049",
+    "grid": "https://cdn2.steamgriddb.com/grid/149fc7df611affd0659740836d467a08.png",
+    "checkedAt": "2026-11-06"
+  },
+  "saru-get-you-saru-saru-daisakusen": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "saw-ii-flesh-blood": {
+    "sgdbId": 5263550,
+    "name": "Saw II: Flesh & Blood",
+    "grid": "https://cdn2.steamgriddb.com/grid/945ca62485f074e7d36f804e14fa278a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "scooby-doo-night-of-100-frights": {
+    "sgdbId": 5270264,
+    "name": "Scooby-Doo! Night of 100 Frights",
+    "grid": "https://cdn2.steamgriddb.com/grid/69903fad46618f37ca56d4039ccb54d7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "sega-superstars-tennis": {
+    "sgdbId": 5248634,
+    "name": "Sega Superstars Tennis",
+    "grid": "https://cdn2.steamgriddb.com/grid/cc4e7c9bb2d268a78876927c0343ac5c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "segasonic-the-hedgehog": {
+    "sgdbId": 5262676,
+    "name": "SegaSonic the Hedgehog",
+    "grid": "https://cdn2.steamgriddb.com/grid/d02174268802ab122d985ed2bd80125b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "serial-experiments-lain": {
+    "sgdbId": 5258936,
+    "name": "Serial Experiments Lain",
+    "grid": "https://cdn2.steamgriddb.com/grid/ff1bd6e5016e5aca10356877b8726d13.png",
+    "checkedAt": "2026-11-06"
+  },
+  "serious-sam-next-encounter": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "sexy-parodius": {
+    "sgdbId": 5357034,
+    "name": "Sexy Parodius",
+    "grid": "https://cdn2.steamgriddb.com/grid/971a040ade98a79dfe9c9fa7c91aa6ea.png",
+    "checkedAt": "2026-11-06"
+  },
+  "shadow-fight-2": {
+    "sgdbId": 5457753,
+    "name": "Shadow Fight 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/03440368ae777a908ab20b6fb052a69e.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "shadow-tower": {
+    "sgdbId": 5255725,
+    "name": "Shadow Tower",
+    "grid": "https://cdn2.steamgriddb.com/grid/9e33f592ddfb6e25341368b76acd4816.png",
+    "checkedAt": "2026-11-06"
+  },
+  "shantae": {
+    "sgdbId": 35206,
+    "name": "Shantae",
+    "grid": "https://cdn2.steamgriddb.com/grid/19d5254bda3efc525d2fbc731215b282.png",
+    "checkedAt": "2026-11-06"
+  },
+  "shin-kido-senki-gundam-wing-endless-duel": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "shin-megami-tensei-devil-survivor-2-record-breaker": {
+    "sgdbId": 5263375,
+    "name": "Shin Megami Tensei: Devil Survivor 2 Record Breaker",
+    "grid": "https://cdn2.steamgriddb.com/grid/3501f2e8a233c4273f0fe33f739378b0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "shin-megami-tensei-iii-nocturne": {
+    "sgdbId": 22556,
+    "name": "Shin Megami Tensei III Nocturne",
+    "grid": "https://cdn2.steamgriddb.com/grid/9321f807a30feeaa0fe17c312d4dd05a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "shin-megami-tensei-iv": {
+    "sgdbId": 38033,
+    "name": "Shin Megami Tensei IV",
+    "grid": "https://cdn2.steamgriddb.com/grid/08bedd4580031e9633ef1ca96093868c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "shin-megami-tensei-nine": {
+    "sgdbId": 5282385,
+    "name": "Shin Megami Tensei: Nine",
+    "grid": "https://cdn2.steamgriddb.com/grid/a91efbbeb8cc9eaaa564efdcabd9aeb0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "shiritsu-justice-gakuen-nekketsu-seishun-nikki-2": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "silent-hill-book-of-memories": {
+    "sgdbId": 5301396,
+    "name": "Silent Hill: Book of Memories",
+    "grid": "https://cdn2.steamgriddb.com/grid/3a0c7ee8bc3cb45e8b3934027b9a9f88.png",
+    "checkedAt": "2026-11-06"
+  },
+  "simcity-2000": {
+    "sgdbId": 38952,
+    "name": "SimCity 2000",
+    "grid": "https://cdn2.steamgriddb.com/grid/d235338629ecad229687a3b849672e38.png",
+    "checkedAt": "2026-11-06"
+  },
+  "simcity": {
+    "sgdbId": 36105,
+    "name": "SimCity",
+    "grid": "https://cdn2.steamgriddb.com/grid/297c5d34ea49c4c89da2c1d7a7a62b06.png",
+    "checkedAt": "2026-11-06"
+  },
+  "sin-and-punishment": {
+    "sgdbId": 35136,
+    "name": "Sin and Punishment",
+    "grid": "https://cdn2.steamgriddb.com/grid/2d5b98050c5dd3843bf05fbbf8a873bc.png",
+    "checkedAt": "2026-11-06"
+  },
+  "skate-2": {
+    "sgdbId": 5249408,
+    "name": "Skate 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/a36bdfdfb17345c5aa69a1c683ac7251.png",
+    "checkedAt": "2026-11-06"
+  },
+  "skate-3": {
+    "sgdbId": 5249006,
+    "name": "Skate 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/cb5afcadcac972f1c6d743c96936ebe3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "skies-of-arcadia-legends": {
+    "sgdbId": 25613,
+    "name": "Skies of Arcadia: Legends",
+    "grid": "https://cdn2.steamgriddb.com/grid/ae73c1f20b00bc238bb963f499f72a58.png",
+    "checkedAt": "2026-11-06"
+  },
+  "skylanders-spyro-s-adventure-skylanders-giants-skylanders-swap-force-s": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "sneak-king-big-bumpin-and-pocketbike-racer": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "snoopy-flying-ace": {
+    "sgdbId": 5371528,
+    "name": "Snoopy Flying Ace",
+    "grid": "https://cdn2.steamgriddb.com/grid/9cf19332e92aec8a8d95eb936b777eb9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "snowboard-kids-2": {
+    "sgdbId": 1667,
+    "name": "Snowboard Kids 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/b1a491999695f9df23123c2290041da8.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "snowboard-kids": {
+    "sgdbId": 37796,
+    "name": "Snowboard Kids",
+    "grid": "https://cdn2.steamgriddb.com/grid/5f817cc5ee20318a283837651cf1a808.png",
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-3-knuckles": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-and-the-black-knight": {
+    "sgdbId": 37046,
+    "name": "Sonic and the Black Knight",
+    "grid": "https://cdn2.steamgriddb.com/grid/0c29fc3d9a951928ed5b3db5d9ee7e55.png",
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-and-the-secret-rings": {
+    "sgdbId": 38588,
+    "name": "Sonic and the Secret Rings",
+    "grid": "https://cdn2.steamgriddb.com/grid/66137f04c1b19dceccb8aa0ddaca1bef.png",
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-cd": {
+    "sgdbId": 1734,
+    "name": "Sonic CD",
+    "grid": "https://cdn2.steamgriddb.com/grid/016ae4594cf80e0df1ec5acddc4b4b62.png",
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-free-riders": {
+    "sgdbId": 5265291,
+    "name": "Sonic Free Riders",
+    "grid": "https://cdn2.steamgriddb.com/grid/ccc66d981626c1be8f4f49ee64c4a8a8.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-mania": {
+    "sgdbId": 16424,
+    "name": "Sonic Mania",
+    "grid": "https://cdn2.steamgriddb.com/grid/850dc71b17efabd2c38aa16820445433.png",
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-the-hedgehog-2-2013": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-the-hedgehog-2": {
+    "sgdbId": 35189,
+    "name": "Sonic the Hedgehog 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/4a421463135a0f5e506740db32d16b97.png",
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-the-hedgehog-2006": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-the-hedgehog-2013": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "sonic-unleashed": {
+    "sgdbId": 34584,
+    "name": "Sonic Unleashed",
+    "grid": "https://cdn2.steamgriddb.com/grid/b80c0932cb6f7be27c8d37b4c847a8bd.png",
+    "checkedAt": "2026-11-06"
+  },
+  "soulcalibur-ii-hd-online": {
+    "sgdbId": 5276116,
+    "name": "SoulCalibur II HD Online",
+    "grid": "https://cdn2.steamgriddb.com/grid/3d24d39a56a337d738712dd32ca4f899.png",
+    "checkedAt": "2026-11-06"
+  },
+  "soulcalibur-ii": {
+    "sgdbId": 34146,
+    "name": "SoulCalibur II",
+    "grid": "https://cdn2.steamgriddb.com/grid/73751fa59c3cfa96c7d3330adb106066.png",
+    "checkedAt": "2026-11-06"
+  },
+  "soulcalibur": {
+    "sgdbId": 35327,
+    "name": "SoulCalibur",
+    "grid": "https://cdn2.steamgriddb.com/grid/28095729a217f6ec638df5f04a11e9f4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "south-park-let-s-go-tower-defense-play": {
+    "sgdbId": 5438999,
+    "name": "South Park Let's Go Tower Defense Play!",
+    "grid": "https://cdn2.steamgriddb.com/grid/cc79508d55cde3c439931bd13220a1fa.png",
+    "checkedAt": "2026-11-06"
+  },
+  "south-park-tenorman-s-revenge": {
+    "sgdbId": 5432517,
+    "name": "South Park: Tenorman's Revenge",
+    "grid": "https://cdn2.steamgriddb.com/grid/8f88c2a34fbb303dc28893b25d7518db.png",
+    "checkedAt": "2026-11-06"
+  },
+  "space-station-silicon-valley": {
+    "sgdbId": 35559,
+    "name": "Space Station Silicon Valley",
+    "grid": "https://cdn2.steamgriddb.com/grid/a540033cae33272f44875ca0a0921ed4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "spider-man-2-enter-electro": {
+    "sgdbId": 5245357,
+    "name": "Spider-Man 2: Enter Electro",
+    "grid": "https://cdn2.steamgriddb.com/grid/012774b2dcb281cc2135160b501ce8fe.png",
+    "checkedAt": "2026-11-06"
+  },
+  "spider-man-edge-of-time": {
+    "sgdbId": 33765,
+    "name": "Spider-Man: Edge of Time",
+    "grid": "https://cdn2.steamgriddb.com/grid/61c6ddc8fa35f40c7eb51fc06d66499a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "split-second": {
+    "sgdbId": 4478,
+    "name": "Split/Second",
+    "grid": "https://cdn2.steamgriddb.com/grid/a449fd632d461c8c447b6e8535d49675.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ssx-3": {
+    "sgdbId": 34626,
+    "name": "SSX 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/14a7008203a7a8e4ebb7abb51a4b4637.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ssx-tricky": {
+    "sgdbId": 1638,
+    "name": "SSX Tricky",
+    "grid": "https://cdn2.steamgriddb.com/grid/31437638722bf235fe549ba612469705.png",
+    "checkedAt": "2026-11-06"
+  },
+  "star-fox-64": {
+    "sgdbId": 36615,
+    "name": "Star Fox 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/9122b7acc2588eff1d20211ce8fb8798.png",
+    "checkedAt": "2026-11-06"
+  },
+  "star-ocean-integrity-and-faithlessness": {
+    "sgdbId": 5300220,
+    "name": "Star Ocean: Integrity and Faithlessness",
+    "grid": "https://cdn2.steamgriddb.com/grid/982d9c958a5295307675ebff615d7523.png",
+    "checkedAt": "2026-11-06"
+  },
+  "star-wars-masters-of-teras-kasi": {
+    "sgdbId": 5252583,
+    "name": "Star Wars: Masters of Teräs Käsi",
+    "grid": "https://cdn2.steamgriddb.com/grid/4d9c4c93d6808b8b74cf73c7d5dfa3a8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "street-fighter-alpha-3-max": {
+    "sgdbId": 36256,
+    "name": "Street Fighter Alpha 3 MAX",
+    "grid": "https://cdn2.steamgriddb.com/grid/c40759685fa03ee60de2c9620316542c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "street-fighter-alpha-3": {
+    "sgdbId": 1647,
+    "name": "Street Fighter Alpha 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/462f3e90d719b84b542de1d768d97110.png",
+    "checkedAt": "2026-11-06"
+  },
+  "street-fighter-ex-plus-alpha": {
+    "sgdbId": 35978,
+    "name": "Street Fighter EX Plus Alpha",
+    "grid": "https://cdn2.steamgriddb.com/grid/ee4003161017db88b94e95edcfcd4e99.png",
+    "checkedAt": "2026-11-06"
+  },
+  "street-fighter-ex2-plus": {
+    "sgdbId": 37664,
+    "name": "Street Fighter EX2 Plus",
+    "grid": "https://cdn2.steamgriddb.com/grid/6e3c361cae93ee68c24a2276320c8c71.png",
+    "checkedAt": "2026-11-06"
+  },
+  "street-fighter-ii-turbo-hyper-fighting": {
+    "sgdbId": 38181,
+    "name": "Street Fighter II Turbo: Hyper Fighting",
+    "grid": "https://cdn2.steamgriddb.com/grid/082eed51e2c30b45afafc5bc959eaf88.png",
+    "checkedAt": "2026-11-06"
+  },
+  "street-fighter-iii-3rd-strike-online-edition": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "street-fighter-iii-3rd-strike": {
+    "sgdbId": 37621,
+    "name": "Street Fighter III: 3rd Strike",
+    "grid": "https://cdn2.steamgriddb.com/grid/74795ed1eea8eff2d2ead49ad13475b3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "street-rod-street-rod-2": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "streets-of-rage": {
+    "sgdbId": 36744,
+    "name": "Streets of Rage",
+    "grid": "https://cdn2.steamgriddb.com/grid/786f2cc81ad1eeb3b8cd222ceb77d763.png",
+    "checkedAt": "2026-11-06"
+  },
+  "strider-2": {
+    "sgdbId": 73,
+    "name": "Strider 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/bbbbe1ade7fc26bb848062806c908d15.png",
+    "checkedAt": "2026-11-06"
+  },
+  "strike-gunner-s-t-g": {
+    "sgdbId": 4594,
+    "name": "Strike Gunner S.T.G",
+    "grid": "https://cdn2.steamgriddb.com/grid/0ab3d95560ca291f975dd4462c477285.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "stunt-race-fx": {
+    "sgdbId": 37237,
+    "name": "Stunt Race FX",
+    "grid": "https://cdn2.steamgriddb.com/grid/25b311c3cd4efa335daa2bd527046fad.png",
+    "checkedAt": "2026-11-06"
+  },
+  "stuntman-ignition": {
+    "sgdbId": 37960,
+    "name": "Stuntman: Ignition",
+    "grid": "https://cdn2.steamgriddb.com/grid/140beb20efa4b89f07ff67836aff2fa8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "stuntman": {
+    "sgdbId": 37624,
+    "name": "Stuntman",
+    "grid": "https://cdn2.steamgriddb.com/grid/4e08ae8b846ff76f94f685de69005336.png",
+    "checkedAt": "2026-11-06"
+  },
+  "suikoden-ii": {
+    "sgdbId": 37270,
+    "name": "Suikoden II",
+    "grid": "https://cdn2.steamgriddb.com/grid/ef4b2655b2f620f88c103bf168722663.png",
+    "checkedAt": "2026-11-06"
+  },
+  "suikoden": {
+    "sgdbId": 38126,
+    "name": "Suikoden",
+    "grid": "https://cdn2.steamgriddb.com/grid/6ba0fce53a8ea6f8738c9a301e4bf3a4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-bomberman-5": {
+    "sgdbId": 36530,
+    "name": "Super Bomberman 5",
+    "grid": "https://cdn2.steamgriddb.com/grid/66ff5dfffbd69d59d81ececa519188f3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-bomberman": {
+    "sgdbId": 36055,
+    "name": "Super Bomberman",
+    "grid": "https://cdn2.steamgriddb.com/grid/9a9fdd13109f9946013d639abf827ca0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-castlevania-iv": {
+    "sgdbId": 34925,
+    "name": "Super Castlevania IV",
+    "grid": "https://cdn2.steamgriddb.com/grid/e6ce24b04e4a46633d409debb0720914.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-kirby-clash": {
+    "sgdbId": 5255385,
+    "name": "Super Kirby Clash",
+    "grid": "https://cdn2.steamgriddb.com/grid/9693742e95befe78f58a0f06dcaddab5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-64-infinite-mario-64-ever": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-64": {
+    "sgdbId": 37177,
+    "name": "Super Mario 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/f293653ffa5c0e53453463a82401dbec.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-advance-4-super-mario-bros-3": {
+    "sgdbId": 34495,
+    "name": "Super Mario Advance 4: Super Mario Bros. 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/5b2a344cf5ab58855e60a88368877580.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-all-stars": {
+    "sgdbId": 36410,
+    "name": "Super Mario All-Stars + Super Mario World",
+    "grid": "https://cdn2.steamgriddb.com/grid/82261c4d50a370d548ed49b8d4c8cc95.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-bros": {
+    "sgdbId": 37382,
+    "name": "Super Mario Bros.",
+    "grid": "https://cdn2.steamgriddb.com/grid/75f29e87a3923053bde594667a5e33d3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-galaxy": {
+    "sgdbId": 36389,
+    "name": "Super Mario Galaxy",
+    "grid": "https://cdn2.steamgriddb.com/grid/850660ba5cb014184e5cc0e6b3d4c6bb.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-kart": {
+    "sgdbId": 37465,
+    "name": "Super Mario Kart",
+    "grid": "https://cdn2.steamgriddb.com/grid/366db7a591a75efd125cb44641124f2e.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-land-2-6-golden-coins": {
+    "sgdbId": 37773,
+    "name": "Super Mario Land 2: 6 Golden Coins",
+    "grid": "https://cdn2.steamgriddb.com/grid/634939760577ca8da325de06151f6281.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-maker-2": {
+    "sgdbId": 5249544,
+    "name": "Super Mario Maker 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/1a3377beff1ae18422f3a8dfe9ef7231.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-rpg-legend-of-the-seven-stars": {
+    "sgdbId": 37922,
+    "name": "Super Mario RPG: Legend of the Seven Stars",
+    "grid": "https://cdn2.steamgriddb.com/grid/394ef49f1d019ccaf6caf070c403cb32.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-strikers": {
+    "sgdbId": 37586,
+    "name": "Super Mario Strikers",
+    "grid": "https://cdn2.steamgriddb.com/grid/a85d58f89d4a5e8f8f9a6336b3dd18f7.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-sunshine": {
+    "sgdbId": 34899,
+    "name": "Super Mario Sunshine",
+    "grid": "https://cdn2.steamgriddb.com/grid/f5e97c0193978d636807084bf658fc1c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-world-2-yoshi-s-island": {
+    "sgdbId": 35346,
+    "name": "Super Mario World 2: Yoshi's Island",
+    "grid": "https://cdn2.steamgriddb.com/grid/59857cc70355243795b398b32447b862.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-world-super-mario-advance-2": {
+    "sgdbId": 34527,
+    "name": "Super Mario World: Super Mario Advance 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/5414ac8f3723b3b3b411cdd6e8b9f01b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-mario-world": {
+    "sgdbId": 36886,
+    "name": "Super Mario World",
+    "grid": "https://cdn2.steamgriddb.com/grid/2bf887cd37fa5ba4ce0ba9713013a4f7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-metroid": {
+    "sgdbId": 38157,
+    "name": "Super Metroid",
+    "grid": "https://cdn2.steamgriddb.com/grid/167248f62dbaf61aff4b7d1be9439282.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "super-monkey-ball-deluxe": {
+    "sgdbId": 5261043,
+    "name": "Super Monkey Ball Deluxe",
+    "grid": "https://cdn2.steamgriddb.com/grid/d01993d4b6ed9bb7791893bdc2fc87d6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-robot-wars-64": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "super-ryu-world-1": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "super-smash-bros-brawl": {
+    "sgdbId": 35465,
+    "name": "Super Smash Bros. Brawl",
+    "grid": "https://cdn2.steamgriddb.com/grid/d24296a1f65e4eedeb7b0426f1411cba.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-smash-bros-for-wii-u": {
+    "sgdbId": 34614,
+    "name": "Super Smash Bros. for Wii U",
+    "grid": "https://cdn2.steamgriddb.com/grid/5b2133764ba9ee4e211cf50a7e3c86f5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-smash-bros-melee": {
+    "sgdbId": 37285,
+    "name": "Super Smash Bros. Melee",
+    "grid": "https://cdn2.steamgriddb.com/grid/6bc12f11f086c6c9dd8d09f936775fce.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-smash-bros": {
+    "sgdbId": 33624,
+    "name": "Super Smash Bros.",
+    "grid": "https://cdn2.steamgriddb.com/grid/aedfc9ce6f9548cae0642eb628fa23c7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-street-fighter-ii-turbo-hd-remix": {
+    "sgdbId": 36949,
+    "name": "Super Street Fighter II Turbo HD Remix",
+    "grid": "https://cdn2.steamgriddb.com/grid/2fc95f92ad623a10ea9cb7e6f2f89caa.png",
+    "checkedAt": "2026-11-06"
+  },
+  "super-street-fighter-ii-turbo-street-fighter-alpha-street-fighter-alph": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "superman-returns": {
+    "sgdbId": 38982,
+    "name": "Superman Returns",
+    "grid": "https://cdn2.steamgriddb.com/grid/153f226197803645170e7750bf023968.png",
+    "checkedAt": "2026-11-06"
+  },
+  "syphon-filter-2": {
+    "sgdbId": 36920,
+    "name": "Syphon Filter 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/e8767ba6f1360ebb2bd5b8a1c61ad0f5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "syphon-filter": {
+    "sgdbId": 36733,
+    "name": "Syphon Filter",
+    "grid": "https://cdn2.steamgriddb.com/grid/dd3915f642b3304770608bf2d36a1346.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tails-adventure": {
+    "sgdbId": 5258644,
+    "name": "Tails Adventure",
+    "grid": "https://cdn2.steamgriddb.com/grid/447d8ce3ef1166710a63af6312ed56cb.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tecmo-s-deception-invitation-to-darkness": {
+    "sgdbId": 33731,
+    "name": "Tecmo's Deception: Invitation to Darkness",
+    "grid": "https://cdn2.steamgriddb.com/grid/de6e717e11835cc693a4ed7c8a722690.png",
+    "checkedAt": "2026-11-06"
+  },
+  "teenage-mutant-ninja-turtles-iv-turtles-in-time": {
+    "sgdbId": 33864,
+    "name": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+    "grid": "https://cdn2.steamgriddb.com/grid/c89718664fdf1d21c1cb164792ba3c51.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tekken-3": {
+    "sgdbId": 34876,
+    "name": "Tekken 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/a85032c0a15f3c7048a8077595f2ee66.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tekken-6": {
+    "sgdbId": 29851,
+    "name": "Tekken 6",
+    "grid": "https://cdn2.steamgriddb.com/grid/5ac473a513f5ab85e56d4f4efeb85379.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tekken-tag-tournament-2": {
+    "sgdbId": 5209426,
+    "name": "Tekken Tag Tournament 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/39c39eb6c34b4b3799fd38a0509dd76b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tenchu-z": {
+    "sgdbId": 5280393,
+    "name": "Tenchu Z",
+    "grid": "https://cdn2.steamgriddb.com/grid/db9d51709661c2a50a3f8f56117b994d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tetris": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "tetrisphere": {
+    "sgdbId": 29858,
+    "name": "Tetrisphere",
+    "grid": "https://cdn2.steamgriddb.com/grid/5ee361b42683e661d6187cb6740daf41.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-bigs-2": {
+    "sgdbId": 5322296,
+    "name": "The Bigs 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/da236841afbb631f33172a5d6803bf39.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "the-darkness": {
+    "sgdbId": 24046,
+    "name": "The Darkness",
+    "grid": "https://cdn2.steamgriddb.com/grid/0838b43cd426373043e340b9f79985bd.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-flintstones-the-jetsons-timewarp": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "the-house-of-the-dead": {
+    "sgdbId": 5209431,
+    "name": "The House of the Dead",
+    "grid": "https://cdn2.steamgriddb.com/grid/9982d3efd6dcab4387fc1817ef660f08.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-incredible-crash-dummies": {
+    "sgdbId": 36942,
+    "name": "The Incredible Crash Dummies",
+    "grid": "https://cdn2.steamgriddb.com/grid/ebc4dcd6245bdf46e4d6ffd89a1e3ec2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-incredible-hulk": {
+    "sgdbId": 36412,
+    "name": "The Incredible Hulk",
+    "grid": "https://cdn2.steamgriddb.com/grid/15dcbf18337d54ac76f9bd023c409064.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "the-king-of-fighters-98": {
+    "sgdbId": 5283505,
+    "name": "The King of Fighters '98",
+    "grid": "https://cdn2.steamgriddb.com/grid/4129970ba309510811271efc661fd669.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-last-guardian": {
+    "sgdbId": 5246743,
+    "name": "The Last Guardian",
+    "grid": "https://cdn2.steamgriddb.com/grid/9de0389a7c202d5101fa0543cd37daed.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-last-of-us-remastered": {
+    "sgdbId": 5246747,
+    "name": "The Last of Us Remastered",
+    "grid": "https://cdn2.steamgriddb.com/grid/8328a70fd14eddbcc8464712aaf52252.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda-a-link-to-the-past": {
+    "sgdbId": 38124,
+    "name": "The Legend of Zelda: A Link to the Past",
+    "grid": "https://cdn2.steamgriddb.com/grid/7edaadde50012f0860952123564eb1ba.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda-breath-of-the-wild": {
+    "sgdbId": 35744,
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "grid": "https://cdn2.steamgriddb.com/grid/121b81f7d167ca2c24fdab4f044048f8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda-link-s-awakening": {
+    "sgdbId": 34336,
+    "name": "The Legend of Zelda: Link's Awakening",
+    "grid": "https://cdn2.steamgriddb.com/grid/0ec360c243d4a23244accb3d04851604.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda-majora-s-mask-3d": {
+    "sgdbId": 5246697,
+    "name": "The Legend of Zelda: Majora's Mask 3D",
+    "grid": "https://cdn2.steamgriddb.com/grid/7451a2adba8556c1dd74192afb81fb07.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda-ocarina-of-time-3d": {
+    "sgdbId": 36271,
+    "name": "The Legend of Zelda: Ocarina of Time 3D",
+    "grid": "https://cdn2.steamgriddb.com/grid/ab6fe89d793b5a3c4153692779cb0680.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda-ocarina-of-time-majora-s-mask": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda-oracle-of-ages-the-legend-of-zelda-oracle-of-seaso": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda-tears-of-the-kingdom": {
+    "sgdbId": 5303117,
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "grid": "https://cdn2.steamgriddb.com/grid/ae758fbcbd5bd841516c53b3c08ebc6f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-legend-of-zelda": {
+    "sgdbId": 38050,
+    "name": "The Legend of Zelda",
+    "grid": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-lord-of-the-rings-the-two-towers": {
+    "sgdbId": 36485,
+    "name": "The Lord of the Rings: The Two Towers",
+    "grid": "https://cdn2.steamgriddb.com/grid/043d12ba178a464118c44248d381dbbb.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-order-1886": {
+    "sgdbId": 5246736,
+    "name": "The Order: 1886",
+    "grid": "https://cdn2.steamgriddb.com/grid/df7e3fff64f18730ca0423f5faa15cb1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-simpsons-game": {
+    "sgdbId": 35540,
+    "name": "The Simpsons Game",
+    "grid": "https://cdn2.steamgriddb.com/grid/df5ffddf7952e45a242c550a389dfb0b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-simpsons-wrestling": {
+    "sgdbId": 38458,
+    "name": "The Simpsons Wrestling",
+    "grid": "https://cdn2.steamgriddb.com/grid/278c310c60e30797cb89e36c84189428.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "the-sims-2": {
+    "sgdbId": 33546,
+    "name": "The Sims 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/a57a8a1178b3e2f02bbc4b8a26504d78.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-sims-bustin-out": {
+    "sgdbId": 34762,
+    "name": "The Sims Bustin' Out",
+    "grid": "https://cdn2.steamgriddb.com/grid/877d769d0387890bea03b63b85fdc83a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-sims": {
+    "sgdbId": 37838,
+    "name": "The Sims",
+    "grid": "https://cdn2.steamgriddb.com/grid/c60880d86249cb6b52cf3ab7eee27480.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-warriors": {
+    "sgdbId": 33536,
+    "name": "The Warriors",
+    "grid": "https://cdn2.steamgriddb.com/grid/4d895b36f6022d8abc0a30249da4df56.png",
+    "checkedAt": "2026-11-06"
+  },
+  "the-wing-of-madoola": {
+    "sgdbId": 5353854,
+    "name": "The Wing of Madoola",
+    "grid": "https://cdn2.steamgriddb.com/grid/f9b8b4ea166bacae49555b9de33d9b45.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "the-world-is-not-enough": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "theatrhythm-final-bar-line": {
+    "sgdbId": 5416708,
+    "name": "Theatrhythm: Final Bar Line",
+    "grid": "https://cdn2.steamgriddb.com/grid/35fd48f678a232b92cb35312eb90ecb2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "timesplitters-future-perfect": {
+    "sgdbId": 34840,
+    "name": "TimeSplitters: Future Perfect",
+    "grid": "https://cdn2.steamgriddb.com/grid/1c58c5146fcc1bade9f6ff54e1fc6aa2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "timesplitters": {
+    "sgdbId": 35537,
+    "name": "TimeSplitters",
+    "grid": "https://cdn2.steamgriddb.com/grid/434dd6cd0e9cabb79a9c1922a3e1b9e6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tiny-toon-adventures-acme-all-stars": {
+    "sgdbId": 33954,
+    "name": "Tiny Toon Adventures: Acme All-Stars",
+    "grid": "https://cdn2.steamgriddb.com/grid/c85f80a5c99ab17cf27256651c21a667.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tna-impact": {
+    "sgdbId": 5252642,
+    "name": "TNA Impact!",
+    "grid": "https://cdn2.steamgriddb.com/grid/bc2dda5eaff3b63a9ec6a4182569494a.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tomb-raider": {
+    "sgdbId": 1785,
+    "name": "Tomb Raider",
+    "grid": "https://cdn2.steamgriddb.com/grid/87368138229b6995db6b5c482f90a5bf.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "tomba-2-the-evil-swine-return": {
+    "sgdbId": 36291,
+    "name": "Tomba! 2: The Evil Swine Return",
+    "grid": "https://cdn2.steamgriddb.com/grid/5d13bb7b735d024d5046ae2b619ad787.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tomodachi-life": {
+    "sgdbId": 5264318,
+    "name": "Tomodachi Life",
+    "grid": "https://cdn2.steamgriddb.com/grid/37a4035c7e5f8bf6c84348cc768e02c4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tony-hawk-s-pro-skater-2": {
+    "sgdbId": 35898,
+    "name": "Tony Hawk's Pro Skater 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/835f33f22a524e6cc0f59d23b1cb4dc3.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tony-hawk-s-pro-skater-2x": {
+    "sgdbId": 5261605,
+    "name": "Tony Hawk's Pro Skater 2x",
+    "grid": "https://cdn2.steamgriddb.com/grid/55ef5eec3d54e782afbaf059e35ffb01.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tony-hawk-s-pro-skater-3": {
+    "sgdbId": 33986,
+    "name": "Tony Hawk's Pro Skater 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/bcc3bc4b265dd4f13ba2296293cec2d9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tony-hawk-s-pro-skater": {
+    "sgdbId": 34008,
+    "name": "Tony Hawk's Pro Skater",
+    "grid": "https://cdn2.steamgriddb.com/grid/d483c1937e7a464a1b64ef9c4c67c67e.png",
+    "checkedAt": "2026-11-06"
+  },
+  "tony-hawks-project-8": {
+    "sgdbId": 34809,
+    "name": "Tony Hawk's Project 8",
+    "grid": "https://cdn2.steamgriddb.com/grid/f4916a3556ed7cd820b7d66f984bdc9f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "top-gear": {
+    "sgdbId": 37613,
+    "name": "Top Gear",
+    "grid": "https://cdn2.steamgriddb.com/grid/10d12f4d6c7b2d0ba3d1d48c1f0e2261.png",
+    "checkedAt": "2026-11-06"
+  },
+  "top-spin-4": {
+    "sgdbId": 35870,
+    "name": "Top Spin 4",
+    "grid": "https://cdn2.steamgriddb.com/grid/22b3872c9768b6070e1111d85e8e9660.png",
+    "checkedAt": "2026-11-06"
+  },
+  "top-spin": {
+    "sgdbId": 36196,
+    "name": "Top Spin",
+    "grid": "https://cdn2.steamgriddb.com/grid/7c35745ceca7edc9f0200bc982854825.png",
+    "checkedAt": "2026-11-06"
+  },
+  "toy-story-2-buzz-lightyear-to-the-rescue": {
+    "sgdbId": 17828,
+    "name": "Toy Story 2: Buzz Lightyear to the Rescue!",
+    "grid": "https://cdn2.steamgriddb.com/grid/b6faaff41560efbdefb1687a06a4c57b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "trials-hd-trials-evolution-trials-fusion": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "tsukihime-a-piece-of-blue-glass-moon": {
+    "sgdbId": 5297442,
+    "name": "Tsukihime: A piece of blue glass moon",
+    "grid": "https://cdn2.steamgriddb.com/grid/0e8ccd187f56b3696422278ebb620efa.png",
+    "checkedAt": "2026-11-06"
+  },
+  "turok-rage-wars": {
+    "sgdbId": 36652,
+    "name": "Turok: Rage Wars",
+    "grid": "https://cdn2.steamgriddb.com/grid/427b6c3fa22a8b08981e0092c94f9c84.png",
+    "checkedAt": "2026-11-06"
+  },
+  "ufc-undisputed-3": {
+    "sgdbId": 5410707,
+    "name": "UFC Undisputed 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/c6d34619f7844c1a3cfc66708391d44a.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "uncharted-the-nathan-drake-collection": {
+    "sgdbId": 5246715,
+    "name": "Uncharted: The Nathan Drake Collection",
+    "grid": "https://cdn2.steamgriddb.com/grid/6374abaaafb1a4c0832a34ffa29b15b0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "unicorn-overlord": {
+    "sgdbId": 5431522,
+    "name": "Unicorn Overlord",
+    "grid": "https://cdn2.steamgriddb.com/grid/95a3781a6c50dbefc27ef134b39178e6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "uniracers": {
+    "sgdbId": 33656,
+    "name": "Uniracers",
+    "grid": "https://cdn2.steamgriddb.com/grid/c68e0c28eb6388ab6f5718ace510b61d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "urban-chaos-riot-response": {
+    "sgdbId": 5262989,
+    "name": "Urban Chaos: Riot Response",
+    "grid": "https://cdn2.steamgriddb.com/grid/62de74f0eafc639feced8b7b6d8484f9.png",
+    "checkedAt": "2026-11-06"
+  },
+  "vagrant-story": {
+    "sgdbId": 12,
+    "name": "Vagrant Story",
+    "grid": "https://cdn2.steamgriddb.com/grid/ca4b48b1d7cc3755fa151c151d6e3fb5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "valkyrie-profile": {
+    "sgdbId": 36257,
+    "name": "Valkyrie Profile",
+    "grid": "https://cdn2.steamgriddb.com/grid/6f1e903e8fca6d5649f73e37364d7c26.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "vandal-hearts": {
+    "sgdbId": 5253961,
+    "name": "Vandal Hearts",
+    "grid": "https://cdn2.steamgriddb.com/grid/3afe7eae0504b08cd09bd4474ef4dcf1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "virtua-fighter-2": {
+    "sgdbId": 36148,
+    "name": "Virtua Fighter 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/e2bd79902aa2c126084f080211564dc8.png",
+    "checkedAt": "2026-11-06"
+  },
+  "virtua-fighter-3": {
+    "sgdbId": 5263604,
+    "name": "Virtua Fighter 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/6cdd6db6a4be3ad8ff3512a4fa63eacc.png",
+    "checkedAt": "2026-11-06"
+  },
+  "virtua-fighter": {
+    "sgdbId": 35610,
+    "name": "Virtua Fighter",
+    "grid": "https://cdn2.steamgriddb.com/grid/ac279f547f662d776679cb629dc65227.png",
+    "checkedAt": "2026-11-06"
+  },
+  "virtua-racing-deluxe": {
+    "sgdbId": 38865,
+    "name": "Virtua Racing Deluxe",
+    "grid": "https://cdn2.steamgriddb.com/grid/e7be8d8e2b9e28afea9bd38a675cd65b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "virtual-pro-wrestling-2-odo-keisho": {
+    "sgdbId": 5300888,
+    "name": "Virtual Pro Wrestling 2: Ōdō Keishō",
+    "grid": "https://cdn2.steamgriddb.com/grid/b31fbd24d76f6cac6ba1cc0a692c635f.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "virtual-pro-wrestling-64": {
+    "sgdbId": 5293672,
+    "name": "Virtual Pro Wrestling 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/8bbf85d7126441ecff35e09dd0e29c0a.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "viva-pinata-trouble-in-paradise": {
+    "sgdbId": 5262214,
+    "name": "Viva Pinata: Trouble in Paradise",
+    "grid": "https://cdn2.steamgriddb.com/grid/e9437348054c27c0951c7d9d59bac04f.png",
+    "checkedAt": "2026-11-06"
+  },
+  "vkrt-nes-remaster": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "war-of-the-monsters": {
+    "sgdbId": 5248757,
+    "name": "War of the Monsters",
+    "grid": "https://cdn2.steamgriddb.com/grid/8423896e04d8cc356ddbb29d4cc9288d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wario-blast-featuring-bomberman": {
+    "sgdbId": 35862,
+    "name": "Wario Blast featuring Bomberman!",
+    "grid": "https://cdn2.steamgriddb.com/grid/db831141f22f577c6f4b061ec5d4a41c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wario-land-4": {
+    "sgdbId": 35607,
+    "name": "Wario Land 4",
+    "grid": "https://cdn2.steamgriddb.com/grid/05d473743a62f7f3bfc3ecad84c1519c.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wario-land-shake-it": {
+    "sgdbId": 5246546,
+    "name": "Wario Land: Shake It!",
+    "grid": "https://cdn2.steamgriddb.com/grid/2ade688b34d8b8adbb769b79e4fee500.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wario-land-super-mario-land-3": {
+    "sgdbId": 33588,
+    "name": "Wario Land: Super Mario Land 3",
+    "grid": "https://cdn2.steamgriddb.com/grid/7532e11ff40e244cedde99f723f5e882.png",
+    "checkedAt": "2026-11-06"
+  },
+  "warioware-twisted": {
+    "sgdbId": 36930,
+    "name": "WarioWare: Twisted!",
+    "grid": "https://cdn2.steamgriddb.com/grid/8ba2ae5e6a3e262b86a196d92a9c9546.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wave-race-64": {
+    "sgdbId": 39034,
+    "name": "Wave Race 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/16c64029140dab60eec81592c532597b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wayne-gretzky-s-3d-hockey": {
+    "sgdbId": 38855,
+    "name": "Wayne Gretzky's 3D Hockey",
+    "grid": "https://cdn2.steamgriddb.com/grid/f7a3918ab284128c602d5e58f4ee43d7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wcw-nwo-revenge": {
+    "sgdbId": 38314,
+    "name": "WCW/nWo Revenge",
+    "grid": "https://cdn2.steamgriddb.com/grid/3cec71c1070fd792e73a5c9a6cedef17.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wcw-vs-nwo-world-tour": {
+    "sgdbId": 34761,
+    "name": "WCW vs. nWo: World Tour",
+    "grid": "https://cdn2.steamgriddb.com/grid/6ec2250be411a2de7180a68849af421b.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "wet": {
+    "sgdbId": 5258572,
+    "name": "WET",
+    "grid": "https://cdn2.steamgriddb.com/grid/fc60d6b831c51fa39e7fefd8b7479064.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wild-9": {
+    "sgdbId": 5209441,
+    "name": "Wild 9",
+    "grid": "https://cdn2.steamgriddb.com/grid/f1479a5dd55fa3ee7c26d4bd15dc6588.png",
+    "checkedAt": "2026-11-06"
+  },
+  "winback-covert-operations": {
+    "sgdbId": 36282,
+    "name": "WinBack: Covert Operations",
+    "grid": "https://cdn2.steamgriddb.com/grid/2a0be62381ee1e274a7bbd924bbd7eef.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wipeout-omega-collection": {
+    "sgdbId": 5259406,
+    "name": "Wipeout Omega Collection",
+    "grid": "https://cdn2.steamgriddb.com/grid/122cce0c2017dde86f5390f410afd7c1.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wipeout-pure": {
+    "sgdbId": 5262140,
+    "name": "Wipeout Pure",
+    "grid": "https://cdn2.steamgriddb.com/grid/b5e76414155c3e87c1334b8f6974d8c5.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wipeout-xl": {
+    "sgdbId": 12907,
+    "name": "Wipeout XL",
+    "grid": "https://cdn2.steamgriddb.com/grid/6b48303c0ebaa7191a4df1e07d1a5147.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wipeout": {
+    "sgdbId": 15166,
+    "name": "WipeOut",
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "world-driver-championship": {
+    "sgdbId": 21184,
+    "name": "World Driver Championship",
+    "grid": "https://cdn2.steamgriddb.com/grid/980fe80838976ba694668cd13ee425e0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wwe-2k14": {
+    "sgdbId": 5252564,
+    "name": "WWE 2K14",
+    "grid": "https://cdn2.steamgriddb.com/grid/44adaadb095f40b587f4b409ac55799b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wwe-all-stars": {
+    "sgdbId": 5257938,
+    "name": "WWE All Stars",
+    "grid": "https://cdn2.steamgriddb.com/grid/a7f084b6c07ea2d68ea4a7243d836c7b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wwe-smackdown-here-comes-the-pain": {
+    "sgdbId": 5252226,
+    "name": "WWE SmackDown! Here Comes the Pain",
+    "grid": "https://cdn2.steamgriddb.com/grid/827d9f4815d35b71ec73dd55c66ce119.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wwe-smackdown-vs-raw-2007": {
+    "sgdbId": 5264777,
+    "name": "WWE Smackdown vs. Raw 2007",
+    "grid": "https://cdn2.steamgriddb.com/grid/9bcc55f2146b211f2cc87e59ec6b39c2.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wwf-no-mercy": {
+    "sgdbId": 29850,
+    "name": "WWF No Mercy",
+    "grid": "https://cdn2.steamgriddb.com/grid/bbf9bc732392ab9793f8b63b7a6793b7.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wwf-smackdown-2": {
+    "sgdbId": 36632,
+    "name": "WWF SmackDown! 2: Know Your Role",
+    "grid": "https://cdn2.steamgriddb.com/grid/92cf2be99aae5b8cfee486bd269d3aab.png",
+    "checkedAt": "2026-11-06"
+  },
+  "wwf-wrestlemania-2000": {
+    "sgdbId": 35493,
+    "name": "WWF WrestleMania 2000",
+    "grid": "https://cdn2.steamgriddb.com/grid/4f15aadf3e169cd0a6ede1b83501fc03.png",
+    "checkedAt": "2026-11-06"
+  },
+  "x-men-2-clone-wars": {
+    "sgdbId": 38069,
+    "name": "X-Men 2: Clone Wars",
+    "grid": "https://cdn2.steamgriddb.com/grid/069d8406c177865d545b9a143bb23abb.png",
+    "checkedAt": "2026-11-06"
+  },
+  "x-men-destiny": {
+    "sgdbId": 38971,
+    "name": "X-Men: Destiny",
+    "grid": "https://cdn2.steamgriddb.com/grid/3636d84dd596dd83dc16a81270036aeb.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "x-men-legends": {
+    "sgdbId": 5209482,
+    "name": "X-Men Legends",
+    "grid": "https://cdn2.steamgriddb.com/grid/0f571d03664566095a7b18ab790d7721.png",
+    "checkedAt": "2026-11-06"
+  },
+  "xalabaias-adventure": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "xenoblade-chronicles-2": {
+    "sgdbId": 5248288,
+    "name": "Xenoblade Chronicles 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/5ef6efaa8d75619baf4cb6a9cf2df5a6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "xenoblade-chronicles-x-definitive-edition": {
+    "sgdbId": 5482273,
+    "name": "Xenoblade Chronicles X: Definitive Edition",
+    "grid": "https://cdn2.steamgriddb.com/grid/cdbc3879830f9869766206c798af1645.png",
+    "checkedAt": "2026-11-06"
+  },
+  "xenogears": {
+    "sgdbId": 36268,
+    "name": "Xenogears",
+    "grid": "https://cdn2.steamgriddb.com/grid/ec730b8d8c471f0e7a0b4855ec716d0d.png",
+    "checkedAt": "2026-11-06"
+  },
+  "yo-kai-watch": {
+    "sgdbId": 5246688,
+    "name": "Yo-kai Watch",
+    "grid": "https://cdn2.steamgriddb.com/grid/fe6b0c87412607e9eff04a72be1fc88f.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "yoshi-s-cookie": {
+    "sgdbId": 36707,
+    "name": "Yoshi's Cookie",
+    "grid": "https://cdn2.steamgriddb.com/grid/9504d7c7e6a0691126e407a9b9c40e32.jpg",
+    "checkedAt": "2026-11-06"
+  },
+  "yoshi-s-story": {
+    "sgdbId": 38149,
+    "name": "Yoshi's Story",
+    "grid": "https://cdn2.steamgriddb.com/grid/98332a5df4d09a1390746ee7dbdb7982.png",
+    "checkedAt": "2026-11-06"
+  },
+  "yoshi": {
+    "sgdbId": 38093,
+    "name": "Yoshi",
+    "grid": "https://cdn2.steamgriddb.com/grid/4842c4ab6dcbbab41f960940a9b50ee0.png",
+    "checkedAt": "2026-11-06"
+  },
+  "yu-gi-oh-forbidden-memories": {
+    "sgdbId": 35707,
+    "name": "Yu-Gi-Oh! Forbidden Memories",
+    "grid": "https://cdn2.steamgriddb.com/grid/fb3fb416095812f23a22302e9efe50b6.png",
+    "checkedAt": "2026-11-06"
+  },
+  "zelda-ii-the-adventure-of-link": {
+    "sgdbId": 25608,
+    "name": "Zelda II: The Adventure of Link",
+    "grid": "https://cdn2.steamgriddb.com/grid/657b0ad0569f3ceae3427be2623753cc.png",
+    "checkedAt": "2026-11-06"
+  },
+  "zelda-majoras-mask": {
+    "sgdbId": 34302,
+    "name": "The Legend of Zelda: Majora's Mask",
+    "grid": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "zelda-minish-cap": {
+    "sgdbId": 34539,
+    "name": "The Legend of Zelda: The Minish Cap",
+    "grid": "https://cdn2.steamgriddb.com/grid/a687f78b9842c87225e74921765feb1b.png",
+    "checkedAt": "2026-11-06"
+  },
+  "zelda-ocarina-of-time": {
+    "sgdbId": 21202,
+    "name": "The Legend of Zelda: Ocarina of Time",
+    "grid": "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
+    "checkedAt": "2026-11-06"
+  },
+  "zelda-s-adventure": {
+    "sgdbId": 5290784,
+    "name": "Zelda's Adventure",
+    "grid": "https://cdn2.steamgriddb.com/grid/f2b235aa872c4f8e6c08ad92201eb478.png",
+    "checkedAt": "2026-11-06"
+  },
+  "zelda-twilight-princess": {
+    "sgdbId": 34645,
+    "name": "The Legend of Zelda: Twilight Princess",
+    "grid": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png",
+    "checkedAt": "2026-11-06"
+  },
+  "zelda-wind-waker-hd": {
+    "sgdbId": 35048,
+    "name": "The Legend of Zelda: The Wind Waker HD",
+    "grid": "https://cdn2.steamgriddb.com/grid/8d5c0500d7ec1c04842c4b33673d0f43.png",
+    "checkedAt": "2026-11-06"
+  },
+  "zelda-wind-waker": {
+    "sgdbId": 37510,
+    "name": "The Legend of Zelda: The Wind Waker",
+    "grid": "https://cdn2.steamgriddb.com/grid/304678bd2a45713cc7bfcb1a9e19c8e4.png",
+    "checkedAt": "2026-11-06"
+  },
+  "zero-racers": {
+    "sgdbId": null,
+    "name": null,
+    "grid": null,
+    "checkedAt": "2026-11-06"
+  },
+  "zombies-ate-my-neighbors": {
+    "sgdbId": 20672,
+    "name": "Zombies Ate My Neighbors",
+    "grid": "https://cdn2.steamgriddb.com/grid/f04fadf15f1bc7fac1043656f4d06394.png",
+    "checkedAt": "2026-11-06"
+  },
+  "zone-of-the-enders": {
+    "sgdbId": 36312,
+    "name": "Zone of the Enders",
+    "grid": "https://cdn2.steamgriddb.com/grid/6bc44bf736056fecfd958fec6893cc83.png",
+    "checkedAt": "2026-11-06"
+  }
+}
