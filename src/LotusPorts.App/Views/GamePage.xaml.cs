@@ -101,7 +101,10 @@ public sealed partial class GamePage : Page
         // Nothing below has been checked on this PC yet: every tile says so instead of showing OK.
         Tiles.Children.Add(GameFileTile());
         Tiles.Children.Add(Tile(1, "\uE74C", Strings.Get("TileDependencies"), Strings.Get("TileNotVerified"), BadgeTone.Unknown));
-        Tiles.Children.Add(Tile(2, null, Strings.Get("TileLotus"), Strings.Get("BadgeInDevelopment"), BadgeTone.Unknown));
+        var lotusTile = Tile(2, null, Strings.Get("TileLotus"), "", BadgeTone.Unknown);
+        lotusBadge = ((lotusTile.Child as StackPanel)?.Children.OfType<StackPanel>().FirstOrDefault())?.Children.OfType<StateBadge>().FirstOrDefault();
+        Tiles.Children.Add(lotusTile);
+        RefreshLotusTile();
 
         AddAbout(port, g);
 
@@ -432,7 +435,30 @@ public sealed partial class GamePage : Page
             await bridge.SetAllowedAsync(LotusPermission.PerformanceProfile, ProfileToggle.IsOn);
     }
 
-    private void OnBridgeChanged() => _ = RefreshExperienceAsync();
+    private void OnBridgeChanged()
+    {
+        RefreshLotusTile();
+        _ = RefreshExperienceAsync();
+    }
+
+    private StateBadge? lotusBadge;
+
+    /// <summary>The Lotus tile says the real connection state (the same words as the Integração com o Lotus screen).</summary>
+    private void RefreshLotusTile()
+    {
+        if (lotusBadge is null) return;
+        var status = bridge.Status;
+        lotusBadge.Text = status.State == LotusPorts.Integration.LotusConnectionState.Connected
+            ? Strings.Format("LotusStateConnected", status.Version ?? "?")
+            : Strings.Get("LotusState" + status.State);
+        lotusBadge.Tone = status.State switch
+        {
+            LotusPorts.Integration.LotusConnectionState.Connected => BadgeTone.Ok,
+            LotusPorts.Integration.LotusConnectionState.Incompatible => BadgeTone.Warning,
+            LotusPorts.Integration.LotusConnectionState.Untrusted => BadgeTone.Failure,
+            _ => BadgeTone.Unknown,
+        };
+    }
 
     // ---- Game file (phase 3) ------------------------------------------------------------------
 

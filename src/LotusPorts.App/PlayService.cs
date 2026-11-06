@@ -41,6 +41,11 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
 
     private readonly Dictionary<string, ReleaseLookup> lookups = [];
     private readonly Dictionary<string, (InstallProgress Progress, CancellationTokenSource Cancel)> working = [];
+    private readonly Dictionary<string, Port> workingPorts = [];
+
+    /// <summary>Installs and updates in progress, for the Downloads screen.</summary>
+    public IReadOnlyList<(Port Port, InstallProgress Progress)> Working =>
+        working.Where(w => workingPorts.ContainsKey(w.Key)).Select(w => (workingPorts[w.Key], w.Value.Progress)).ToList();
     private readonly Dictionary<string, (Process Process, DateTimeOffset Since)> running = [];
     private readonly Dictionary<string, string> problems = [];
     private DispatcherQueue? ui;
@@ -122,6 +127,7 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         if (working.ContainsKey(port.Id) || running.ContainsKey(port.Id)) return null;
         using var cancel = new CancellationTokenSource();
         working[port.Id] = (new InstallProgress(InstallStage.Downloading, 0), cancel);
+        workingPorts[port.Id] = port;
         problems.Remove(port.Id);
         Raise(port.Id);
         var lastReport = DateTimeOffset.MinValue;
@@ -167,6 +173,7 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         finally
         {
             working.Remove(port.Id);
+            workingPorts.Remove(port.Id);
             RefreshInstalled();
             Raise(port.Id);
         }

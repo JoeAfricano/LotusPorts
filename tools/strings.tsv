@@ -4,7 +4,6 @@ NavDownloads	Downloads	Downloads
 NavLotus	Integração com o Lotus	Lotus integration
 NavSettings	Configurações	Settings
 NavHelp	Ajuda	Help
-LotusStatusAutomation	Integração com o Lotus: em desenvolvimento	Lotus integration: in development
 BadgeInDevelopment	Em desenvolvimento	In development
 LibraryHeroLine1	Jogos clássicos,	Classic games,
 LibraryHeroLine2	prontos para jogar no PC	ready to play on PC
@@ -27,10 +26,6 @@ DownloadsSubtitle	Instalações e atualizações em andamento aparecem aqui e no
 DownloadsEmptyTitle	Nenhum download em andamento	No downloads in progress
 DownloadsEmptyMessage	Quando você instalar ou atualizar um jogo, o progresso aparece aqui.	When you install or update a game, its progress shows here.
 LotusTitle	Integração com o Lotus	Lotus integration
-LotusEmptyTitle	Integração ainda não disponível	Integration not available yet
-LotusEmptyMessage	Por enquanto o Lotus Ports não procura nem se conecta ao Lotus. Nenhum dado é trocado entre os dois.	For now Lotus Ports does not look for or connect to Lotus. No data is exchanged between them.
-LotusBulletsTitle	O que a integração vai trazer	What the integration will bring
-LotusBullets	Kit de dependências do Lotus, com a sua confirmação no próprio Lotus|Diagnóstico do sistema no "Resolver" de cada jogo|Perfil de desempenho aplicado ao jogar e desfeito ao fechar o jogo|Relatório da sessão só com valores medidos|Saves e backups protegidos pelo Lotus|Seus jogos do Lotus Ports dentro da biblioteca do Lotus	Lotus dependency kit, confirmed by you in Lotus itself|System diagnostics in each game's "Fix it"|Performance profile applied while playing and undone when the game closes|Session report with measured values only|Saves and backups protected by Lotus|Your Lotus Ports games inside the Lotus library
 SettingsGeneral	Geral	General
 SettingsLanguage	Idioma	Language
 SettingsLanguageHint	Português é o padrão.	Portuguese is the default.
@@ -57,7 +52,7 @@ SettingsGameFilesHint	Pastas onde ficam os seus arquivos de jogo e a lista dos a
 SettingsCatalogSources	Fontes de catálogo	Catalog sources
 SettingsCatalogSourcesHint	Fontes importadas e ports adicionados por você ficam na tela Catálogo.	Imported sources and ports you added live on the Catalog screen.
 SettingsAdvanced	Modo avançado	Advanced mode
-SettingsAdvancedHint	Mostra detalhes técnicos: histórico de operações, pasta de dados e, nas próximas etapas, versões e logs.	Shows technical details: operation history, data folder and, in later steps, versions and logs.
+SettingsAdvancedHint	Mostra detalhes técnicos: histórico de operações, pasta de dados, hashes dos arquivos e o repositório de cada port.	Shows technical details: operation history, data folder, file hashes and each port's repository.
 SettingsJournal	Diário de operações	Operation journal
 SettingsJournalEmpty	Nenhuma operação registrada ainda.	No operations recorded yet.
 SettingsDataFolder	Pasta de dados e logs	Data and logs folder
@@ -599,3 +594,18 @@ ModsConfirmBody	O arquivo {0} será copiado (o seu original fica como está) par
 ModsAdded	Mod {0} adicionado.	Mod {0} added.
 ModsRemoveTitle	Remover {0}?	Remove {0}?
 ModsRemoveBody	O mod sai da pasta do jogo e fica guardado na pasta de backups do Lotus Ports; nada é apagado.	The mod leaves the game folder and is kept in Lotus Ports' backup folder; nothing is deleted.
+KindInstall	Instalação	Install
+KindUpdate	Atualização	Update
+KindRollback	Volta de versão	Rollback
+KindRemove	Desinstalação	Uninstall
+KindCopyGameFile	Cópia do arquivo do jogo	Game file copy
+KindConvertGameFile	Conversão do arquivo do jogo	Game file conversion
+KindApplyPreset	Estilo aplicado	Style applied
+KindRevertPreset	Estilo desfeito	Style undone
+KindDependencyInstall	Componente instalado	Component installed
+KindModInstall	Mod adicionado	Mod added
+KindModEnable	Mod ativado	Mod enabled
+KindModDisable	Mod desativado	Mod disabled
+KindModRemove	Mod removido	Mod removed
+DownloadsActive	Em andamento	In progress
+DownloadsOpenGame	Abrir a página do jogo	Open the game page

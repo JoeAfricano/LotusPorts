@@ -10,7 +10,6 @@
   <data name="NavLotus" xml:space="preserve"><value>Integração com o Lotus</value></data>
   <data name="NavSettings" xml:space="preserve"><value>Configurações</value></data>
   <data name="NavHelp" xml:space="preserve"><value>Ajuda</value></data>
-  <data name="LotusStatusAutomation" xml:space="preserve"><value>Integração com o Lotus: em desenvolvimento</value></data>
   <data name="BadgeInDevelopment" xml:space="preserve"><value>Em desenvolvimento</value></data>
   <data name="LibraryHeroLine1" xml:space="preserve"><value>Jogos clássicos,</value></data>
   <data name="LibraryHeroLine2" xml:space="preserve"><value>prontos para jogar no PC</value></data>
@@ -33,10 +32,6 @@
   <data name="DownloadsEmptyTitle" xml:space="preserve"><value>Nenhum download em andamento</value></data>
   <data name="DownloadsEmptyMessage" xml:space="preserve"><value>Quando você instalar ou atualizar um jogo, o progresso aparece aqui.</value></data>
   <data name="LotusTitle" xml:space="preserve"><value>Integração com o Lotus</value></data>
-  <data name="LotusEmptyTitle" xml:space="preserve"><value>Integração ainda não disponível</value></data>
-  <data name="LotusEmptyMessage" xml:space="preserve"><value>Por enquanto o Lotus Ports não procura nem se conecta ao Lotus. Nenhum dado é trocado entre os dois.</value></data>
-  <data name="LotusBulletsTitle" xml:space="preserve"><value>O que a integração vai trazer</value></data>
-  <data name="LotusBullets" xml:space="preserve"><value>Kit de dependências do Lotus, com a sua confirmação no próprio Lotus|Diagnóstico do sistema no &quot;Resolver&quot; de cada jogo|Perfil de desempenho aplicado ao jogar e desfeito ao fechar o jogo|Relatório da sessão só com valores medidos|Saves e backups protegidos pelo Lotus|Seus jogos do Lotus Ports dentro da biblioteca do Lotus</value></data>
   <data name="SettingsGeneral" xml:space="preserve"><value>Geral</value></data>
   <data name="SettingsLanguage" xml:space="preserve"><value>Idioma</value></data>
   <data name="SettingsLanguageHint" xml:space="preserve"><value>Português é o padrão.</value></data>
@@ -63,7 +58,7 @@
   <data name="SettingsCatalogSources" xml:space="preserve"><value>Fontes de catálogo</value></data>
   <data name="SettingsCatalogSourcesHint" xml:space="preserve"><value>Fontes importadas e ports adicionados por você ficam na tela Catálogo.</value></data>
   <data name="SettingsAdvanced" xml:space="preserve"><value>Modo avançado</value></data>
-  <data name="SettingsAdvancedHint" xml:space="preserve"><value>Mostra detalhes técnicos: histórico de operações, pasta de dados e, nas próximas etapas, versões e logs.</value></data>
+  <data name="SettingsAdvancedHint" xml:space="preserve"><value>Mostra detalhes técnicos: histórico de operações, pasta de dados, hashes dos arquivos e o repositório de cada port.</value></data>
   <data name="SettingsJournal" xml:space="preserve"><value>Diário de operações</value></data>
   <data name="SettingsJournalEmpty" xml:space="preserve"><value>Nenhuma operação registrada ainda.</value></data>
   <data name="SettingsDataFolder" xml:space="preserve"><value>Pasta de dados e logs</value></data>
@@ -605,4 +600,19 @@
   <data name="ModsAdded" xml:space="preserve"><value>Mod {0} adicionado.</value></data>
   <data name="ModsRemoveTitle" xml:space="preserve"><value>Remover {0}?</value></data>
   <data name="ModsRemoveBody" xml:space="preserve"><value>O mod sai da pasta do jogo e fica guardado na pasta de backups do Lotus Ports; nada é apagado.</value></data>
+  <data name="KindInstall" xml:space="preserve"><value>Instalação</value></data>
+  <data name="KindUpdate" xml:space="preserve"><value>Atualização</value></data>
+  <data name="KindRollback" xml:space="preserve"><value>Volta de versão</value></data>
+  <data name="KindRemove" xml:space="preserve"><value>Desinstalação</value></data>
+  <data name="KindCopyGameFile" xml:space="preserve"><value>Cópia do arquivo do jogo</value></data>
+  <data name="KindConvertGameFile" xml:space="preserve"><value>Conversão do arquivo do jogo</value></data>
+  <data name="KindApplyPreset" xml:space="preserve"><value>Estilo aplicado</value></data>
+  <data name="KindRevertPreset" xml:space="preserve"><value>Estilo desfeito</value></data>
+  <data name="KindDependencyInstall" xml:space="preserve"><value>Componente instalado</value></data>
+  <data name="KindModInstall" xml:space="preserve"><value>Mod adicionado</value></data>
+  <data name="KindModEnable" xml:space="preserve"><value>Mod ativado</value></data>
+  <data name="KindModDisable" xml:space="preserve"><value>Mod desativado</value></data>
+  <data name="KindModRemove" xml:space="preserve"><value>Mod removido</value></data>
+  <data name="DownloadsActive" xml:space="preserve"><value>Em andamento</value></data>
+  <data name="DownloadsOpenGame" xml:space="preserve"><value>Abrir a página do jogo</value></data>
 </root>

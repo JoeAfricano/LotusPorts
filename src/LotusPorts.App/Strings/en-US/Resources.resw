@@ -10,7 +10,6 @@
   <data name="NavLotus" xml:space="preserve"><value>Lotus integration</value></data>
   <data name="NavSettings" xml:space="preserve"><value>Settings</value></data>
   <data name="NavHelp" xml:space="preserve"><value>Help</value></data>
-  <data name="LotusStatusAutomation" xml:space="preserve"><value>Lotus integration: in development</value></data>
   <data name="BadgeInDevelopment" xml:space="preserve"><value>In development</value></data>
   <data name="LibraryHeroLine1" xml:space="preserve"><value>Classic games,</value></data>
   <data name="LibraryHeroLine2" xml:space="preserve"><value>ready to play on PC</value></data>
@@ -33,10 +32,6 @@
   <data name="DownloadsEmptyTitle" xml:space="preserve"><value>No downloads in progress</value></data>
   <data name="DownloadsEmptyMessage" xml:space="preserve"><value>When you install or update a game, its progress shows here.</value></data>
   <data name="LotusTitle" xml:space="preserve"><value>Lotus integration</value></data>
-  <data name="LotusEmptyTitle" xml:space="preserve"><value>Integration not available yet</value></data>
-  <data name="LotusEmptyMessage" xml:space="preserve"><value>For now Lotus Ports does not look for or connect to Lotus. No data is exchanged between them.</value></data>
-  <data name="LotusBulletsTitle" xml:space="preserve"><value>What the integration will bring</value></data>
-  <data name="LotusBullets" xml:space="preserve"><value>Lotus dependency kit, confirmed by you in Lotus itself|System diagnostics in each game&apos;s &quot;Fix it&quot;|Performance profile applied while playing and undone when the game closes|Session report with measured values only|Saves and backups protected by Lotus|Your Lotus Ports games inside the Lotus library</value></data>
   <data name="SettingsGeneral" xml:space="preserve"><value>General</value></data>
   <data name="SettingsLanguage" xml:space="preserve"><value>Language</value></data>
   <data name="SettingsLanguageHint" xml:space="preserve"><value>Portuguese is the default.</value></data>
@@ -63,7 +58,7 @@
   <data name="SettingsCatalogSources" xml:space="preserve"><value>Catalog sources</value></data>
   <data name="SettingsCatalogSourcesHint" xml:space="preserve"><value>Imported sources and ports you added live on the Catalog screen.</value></data>
   <data name="SettingsAdvanced" xml:space="preserve"><value>Advanced mode</value></data>
-  <data name="SettingsAdvancedHint" xml:space="preserve"><value>Shows technical details: operation history, data folder and, in later steps, versions and logs.</value></data>
+  <data name="SettingsAdvancedHint" xml:space="preserve"><value>Shows technical details: operation history, data folder, file hashes and each port&apos;s repository.</value></data>
   <data name="SettingsJournal" xml:space="preserve"><value>Operation journal</value></data>
   <data name="SettingsJournalEmpty" xml:space="preserve"><value>No operations recorded yet.</value></data>
   <data name="SettingsDataFolder" xml:space="preserve"><value>Data and logs folder</value></data>
@@ -605,4 +600,19 @@
   <data name="ModsAdded" xml:space="preserve"><value>Mod {0} added.</value></data>
   <data name="ModsRemoveTitle" xml:space="preserve"><value>Remove {0}?</value></data>
   <data name="ModsRemoveBody" xml:space="preserve"><value>The mod leaves the game folder and is kept in Lotus Ports&apos; backup folder; nothing is deleted.</value></data>
+  <data name="KindInstall" xml:space="preserve"><value>Install</value></data>
+  <data name="KindUpdate" xml:space="preserve"><value>Update</value></data>
+  <data name="KindRollback" xml:space="preserve"><value>Rollback</value></data>
+  <data name="KindRemove" xml:space="preserve"><value>Uninstall</value></data>
+  <data name="KindCopyGameFile" xml:space="preserve"><value>Game file copy</value></data>
+  <data name="KindConvertGameFile" xml:space="preserve"><value>Game file conversion</value></data>
+  <data name="KindApplyPreset" xml:space="preserve"><value>Style applied</value></data>
+  <data name="KindRevertPreset" xml:space="preserve"><value>Style undone</value></data>
+  <data name="KindDependencyInstall" xml:space="preserve"><value>Component installed</value></data>
+  <data name="KindModInstall" xml:space="preserve"><value>Mod added</value></data>
+  <data name="KindModEnable" xml:space="preserve"><value>Mod enabled</value></data>
+  <data name="KindModDisable" xml:space="preserve"><value>Mod disabled</value></data>
+  <data name="KindModRemove" xml:space="preserve"><value>Mod removed</value></data>
+  <data name="DownloadsActive" xml:space="preserve"><value>In progress</value></data>
+  <data name="DownloadsOpenGame" xml:space="preserve"><value>Open the game page</value></data>
 </root>

@@ -99,7 +99,7 @@ public sealed partial class SettingsViewModel(PreferencesService preferences, Ap
         {
             Journal.Add(new JournalRow(
                 e.StartedAt.ToLocalTime().ToString("g", CultureInfo.CurrentCulture),
-                e.Kind.ToString(),
+                Strings.Get("Kind" + e.Kind),
                 e.PortId,
                 Strings.Get("Outcome" + (e.Outcome?.ToString() ?? "Open")),
                 e.Outcome switch
