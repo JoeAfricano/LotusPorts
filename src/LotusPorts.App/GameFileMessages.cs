@@ -19,7 +19,8 @@ public static class GameFileMessages
         var mine = forGame is null ? file.Matches.FirstOrDefault() : file.Matches.FirstOrDefault(m => m.Game.Id == forGame.Id);
         if (mine is not null)
             return new GameFileMessage(Strings.Format("GameFileRecognizedTitle", mine.VersionLabel),
-                Strings.Format("GameFileRecognizedBody", mine.Game.Game.Title, mine.VersionLabel, mine.MatchedBy) + " " + SetupHint(mine.Port, file.Info.Path), true, mine);
+                Strings.Format("GameFileRecognizedBody", mine.Game.Game.Title, mine.VersionLabel, mine.MatchedBy) + " " + SetupHint(mine.Port, file.Info.Path)
+                + (file.FromZip is { } zip ? " " + Strings.Format("GameFileFromZip", Path.GetFileName(zip)) : ""), true, mine);
 
         if (file.Matches.FirstOrDefault() is { } other)
             return new GameFileMessage(Strings.Get("GameFileOtherGameTitle"),

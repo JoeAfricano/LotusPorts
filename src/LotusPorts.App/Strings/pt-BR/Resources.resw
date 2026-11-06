@@ -388,7 +388,7 @@
   <data name="GameFileOtherGameTitle" xml:space="preserve"><value>Este arquivo é de outro jogo</value></data>
   <data name="GameFileOtherGameBody" xml:space="preserve"><value>Este arquivo é de {0} ({1}), não deste jogo.</value></data>
   <data name="GameFileUnknownTitle" xml:space="preserve"><value>Não reconheci este arquivo</value></data>
-  <data name="GameFileUnknownBody" xml:space="preserve"><value>Ele não parece ser um arquivo de jogo de console. Escolha a cópia do cartucho ou do disco do jogo.</value></data>
+  <data name="GameFileUnknownBody" xml:space="preserve"><value>Ele não parece ser um arquivo de jogo de console. Escolha a cópia do cartucho ou do disco do jogo (ou o .zip em que ela está).</value></data>
   <data name="GameFileWrongConsoleTitle" xml:space="preserve"><value>Este arquivo é de outro console</value></data>
   <data name="GameFileWrongConsoleBody" xml:space="preserve"><value>Este jogo precisa de um arquivo de {0}.</value></data>
   <data name="GameFileNotCheckedTitle" xml:space="preserve"><value>Não deu para confirmar a versão</value></data>
@@ -700,4 +700,7 @@
   <data name="AppUpdateStarting" xml:space="preserve"><value>Abrindo o instalador…</value></data>
   <data name="AppUpdateBadFile" xml:space="preserve"><value>O arquivo baixado não confere com o publicado e foi descartado. Nada foi instalado.</value></data>
   <data name="AppUpdateFailed" xml:space="preserve"><value>Não foi possível atualizar agora. Nada foi alterado.</value></data>
+  <data name="GameFileFromZip" xml:space="preserve"><value>Ele estava dentro de {0}; o Lotus Ports copiou o arquivo do jogo para esse caminho (o .zip ficou como estava).</value></data>
+  <data name="TileFileAccepts" xml:space="preserve"><value>Aceita: {0}. Outra versão não serve; o Lotus Ports confere o arquivo antes.</value></data>
+  <data name="TileFileAcceptsUnlisted" xml:space="preserve"><value>Precisa de: {0}. A lista exata de versões ainda não está no catálogo; o próprio port confere ao abrir.</value></data>
 </root>

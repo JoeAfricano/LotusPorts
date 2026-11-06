@@ -95,7 +95,20 @@ public static class PresetWriter
             if (raw is null) parent.Remove(leaf);
             else parent[leaf] = JsonNode.Parse(raw);
         }
-        return (root.ToJsonString(new JsonSerializerOptions { WriteIndented = true }) + "\n", previous);
+        // Keep the file's own look: its indentation width and whether it ends with a newline.
+        var options = new JsonSerializerOptions { WriteIndented = true, IndentSize = IndentOf(text) };
+        var ending = text.Length == 0 || text.EndsWith('\n') ? "\n" : "";
+        return (root.ToJsonString(options) + ending, previous);
+    }
+
+    private static int IndentOf(string text)
+    {
+        foreach (var line in text.Replace("\r\n", "\n").Split('\n'))
+        {
+            var spaces = line.Length - line.TrimStart(' ').Length;
+            if (spaces > 0 && line.Trim().Length > 0) return Math.Clamp(spaces, 1, 8);
+        }
+        return 2;
     }
 
     private static bool JsonEquals(string a, string b) => JsonNode.DeepEquals(JsonNode.Parse(a), JsonNode.Parse(b));

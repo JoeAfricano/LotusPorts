@@ -490,6 +490,7 @@ public sealed partial class GamePage : Page
     private readonly GameFilesService gameFiles = App.Services.GetRequiredService<GameFilesService>();
     private readonly StateBadge fileBadge = new();
     private readonly HyperlinkButton fileAction = new() { Padding = new Thickness(0, 2, 0, 2) };
+    private readonly TextBlock fileAccepted = new() { TextWrapping = TextWrapping.Wrap, MaxWidth = 280 };
 
     private Border GameFileTile()
     {
@@ -505,7 +506,7 @@ public sealed partial class GamePage : Page
                 Children =
                 {
                     new FontIcon { Glyph = "", FontSize = 22, Foreground = Brush("Text.Secondary"), VerticalAlignment = VerticalAlignment.Top, Margin = new Thickness(0, 2, 0, 0) },
-                    new StackPanel { Spacing = 4, Children = { new TextBlock { Text = Strings.Get("TileGameFile"), Style = StyleOf("Type.Body") }, fileBadge, fileAction } },
+                    new StackPanel { Spacing = 4, Children = { new TextBlock { Text = Strings.Get("TileGameFile"), Style = StyleOf("Type.Body") }, fileBadge, fileAccepted, fileAction } },
                 },
             },
         };
@@ -513,9 +514,22 @@ public sealed partial class GamePage : Page
         return tile;
     }
 
+    /// <summary>Before picking a file: which copy of the game this port takes ("Aceita: EUA 1.0"), so a wrong one is not picked.</summary>
+    private void ShowAccepted(Port port)
+    {
+        var accepted = GameFileMatcher.AcceptedLabels(port);
+        var label = port.RequiredGameFiles.FirstOrDefault()?.Label;
+        fileAccepted.Style = StyleOf("Type.Caption");
+        fileAccepted.Text = port.RequiredGameFiles.Count == 0 ? ""
+            : accepted.Count > 0 ? Strings.Format("TileFileAccepts", string.Join(", ", accepted))
+            : Strings.Format("TileFileAcceptsUnlisted", label ?? "");
+        fileAccepted.Visibility = fileAccepted.Text.Length == 0 ? Visibility.Collapsed : Visibility.Visible;
+    }
+
     private void RefreshFileTile()
     {
         if (game is null) return;
+        ShowAccepted(game.Recommended.Port);
         if (gameFiles.MatchFor(game.Id) is { } match)
         {
             fileBadge.Text = Strings.Format("TileFileRecognized", match.VersionLabel);

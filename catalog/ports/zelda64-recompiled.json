@@ -36,7 +36,18 @@
       "kind": "single-file",
       "format": "n64-rom",
       "canonicalFormat": null,
-      "acceptedVersions": [],
+      "acceptedVersions": [
+        {
+          "region": "EUA",
+          "version": "1.0",
+          "fileName": null,
+          "sha1": null,
+          "md5": "2a0a8acb61538235bc1094d297fb6556",
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/zeldaret/mm/blob/main/baseroms/n64-us/checksum-compressed.md5"
+        }
+      ],
       "officialDocsUrl": "https://github.com/Zelda64Recomp/Zelda64Recomp#readme"
     }
   ],

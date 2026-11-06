@@ -8,13 +8,14 @@ using Microsoft.UI.Dispatching;
 namespace LotusPorts.App;
 
 /// <summary>A file read on this PC and what it was recognized as (empty when no hash matched the catalog).</summary>
-public sealed record KnownGameFile(GameFileInfo Info, IReadOnlyList<GameFileMatch> Matches);
+/// <summary>FromZip: the .zip the file was copied out of (Info.Path is then Lotus Ports' copy).</summary>
+public sealed record KnownGameFile(GameFileInfo Info, IReadOnlyList<GameFileMatch> Matches, string? FromZip = null);
 
 /// <summary>
 /// Game files for the whole app: the folders being watched, the background search, and which games have a recognized
 /// file. Files are only read; hashes and paths never leave the PC. Changes raise <see cref="Changed"/> on the UI thread.
 /// </summary>
-public sealed class GameFilesService(GameFileStore store, GameFileScanner scanner, CatalogService catalog, ILogger<GameFilesService> logger)
+public sealed class GameFilesService(GameFileStore store, GameFileScanner scanner, CatalogService catalog, LotusPorts.Infrastructure.AppPaths paths, ILogger<GameFilesService> logger)
 {
     private IReadOnlyList<KnownGameFile> files = [];
     private Dictionary<string, GameFileMatch> byGame = [];
@@ -99,11 +100,52 @@ public sealed class GameFilesService(GameFileStore store, GameFileScanner scanne
     /// <summary>Reads one file the player picked or dropped and says what it is. The file is kept in the list.</summary>
     public async Task<KnownGameFile> IdentifyAsync(string path)
     {
+        if (GameFileZip.IsZip(path)) return await IdentifyZipAsync(path);
         var info = await Task.Run(() => GameFileReader.ReadAsync(path));
         await store.SaveAsync(info);
         Apply(await store.ListAsync());
         Raise();
         return new KnownGameFile(info, info.Hashes is { } h ? GameFileMatcher.Match(catalog.Library.Games, h) : []);
+    }
+
+    /// <summary>Folder for game files copied out of a .zip (%LOCALAPPDATA%\LotusPorts\game-files).</summary>
+    public string ExtractedFolder => Path.Combine(paths.Root, "game-files");
+
+    /// <summary>
+    /// A .zip: the game files inside are copied to <see cref="ExtractedFolder"/> and read. Copies that turn out not to be
+    /// game files are removed again (they are Lotus Ports' own copies); the .zip itself is never changed.
+    /// </summary>
+    private async Task<KnownGameFile> IdentifyZipAsync(string zip)
+    {
+        IReadOnlyList<string> copies;
+        try { copies = await Task.Run(() => GameFileZip.ExtractCandidatesAsync(zip, ExtractedFolder, GameFileReader.DefaultMaxHashBytes)); }
+        catch (InvalidDataException ex)
+        {
+            logger.LogInformation(ex, "Not a readable .zip");
+            copies = [];
+        }
+        var found = new List<KnownGameFile>();
+        foreach (var copy in copies)
+        {
+            var info = await Task.Run(() => GameFileReader.ReadAsync(copy));
+            var matches = info.Hashes is { } h ? GameFileMatcher.Match(catalog.Library.Games, h) : [];
+            // Not a game file after all: Lotus Ports' copy goes away. A game file is kept even when its version is not
+            // listed, because the port itself needs the plain file and checks it when the game opens.
+            if (info.Format == GameFileFormat.Unknown) { TryDelete(copy); found.Add(new KnownGameFile(info with { Path = zip }, [], zip)); continue; }
+            await store.SaveAsync(info);
+            found.Add(new KnownGameFile(info, matches, zip));
+        }
+        Apply(await store.ListAsync());
+        Raise();
+        var zipInfo = new FileInfo(zip);
+        return found.FirstOrDefault(f => f.Matches.Count > 0) ?? found.FirstOrDefault()
+            ?? new KnownGameFile(new GameFileInfo(zip, zipInfo.Length, zipInfo.LastWriteTimeUtc, GameFileFormat.Unknown, null, null, null), [], zip);
+    }
+
+    private void TryDelete(string file)
+    {
+        try { File.Delete(file); }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException) { logger.LogDebug(ex, "Could not remove {File}", file); }
     }
 
     private void Apply(IReadOnlyList<GameFileInfo> infos)
