@@ -575,4 +575,5 @@
   <data name="Bannercosmic_orbit" xml:space="preserve"><value>Cosmic Orbit</value></data>
   <data name="Bannerpurple_rift" xml:space="preserve"><value>Purple Rift</value></data>
   <data name="Bannerbamboo_path" xml:space="preserve"><value>Bamboo Path</value></data>
+  <data name="SettingsTvModeHint" xml:space="preserve"><value>Full screen with everything larger, for the couch. Controller: d-pad moves, A opens, B goes back, LB/RB switch sections, Y searches, View turns TV mode on or off.</value></data>
 </root>

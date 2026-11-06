@@ -68,6 +68,13 @@ public sealed partial class MainWindow : Window
         ShowTheme();
         Activated += (_, a) => { if (a.WindowActivationState != WindowActivationState.Deactivated) appearance.RefreshFromLotus(); };
 
+        // Controller everywhere; TV mode (full screen, everything larger) from Configurações or the View button.
+        navigator = new GamepadNavigator(DispatcherQueue, () => Content?.XamlRoot);
+        navigator.Command += OnPadCommand;
+        Activated += (_, a) => navigator.SetWindowActive(a.WindowActivationState != WindowActivationState.Deactivated);
+        SizeChanged += (_, _) => ApplyScale();
+        _ = LoadTvModeAsync();
+
         // The petal lights up only while Lotus is really connected.
         var bridge = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<LotusBridge>(App.Services);
         void ShowLotus() => NavLotusPetal.IsLit = bridge.Status.State == LotusPorts.Integration.LotusConnectionState.Connected;
@@ -176,6 +183,94 @@ public sealed partial class MainWindow : Window
         if (items.OfType<Windows.Storage.StorageFile>().FirstOrDefault() is not { } file) return;
         var forGame = ContentFrame.Content is GamePage page ? page.Game : null;
         await GamePage.IdentifyAndTellAsync(file.Path, forGame, Content.XamlRoot);
+    }
+
+    // ---- Modo TV e controle (phase 7) ----------------------------------------------------------
+
+    public const string TvModeKey = "general.tvMode";
+    private const double TvScale = 1.35;
+    private readonly GamepadNavigator navigator;
+
+    /// <summary>TV mode is on: full screen and the whole interface scaled up for the couch.</summary>
+    public bool TvMode { get; private set; }
+
+    public event Action? TvModeChanged;
+
+    private async Task LoadTvModeAsync()
+    {
+        var store = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<LotusPorts.Core.Preferences.ISettingsStore>(App.Services);
+        if (bool.TryParse(await store.GetAsync(TvModeKey), out var on) && on) SetTvMode(true, save: false);
+#if DEBUG
+        // --tv (Debug only): preview TV mode on screenshots without saving it.
+        if (Environment.GetCommandLineArgs().Contains("--tv")) SetTvMode(true, save: false);
+#endif
+    }
+
+    public void SetTvMode(bool on, bool save = true)
+    {
+        if (TvMode == on) return;
+        TvMode = on;
+        AppWindow.SetPresenter(on ? AppWindowPresenterKind.FullScreen : AppWindowPresenterKind.Overlapped);
+        ApplyScale();
+        if (save)
+        {
+            var store = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<LotusPorts.Core.Preferences.ISettingsStore>(App.Services);
+            _ = store.SetAsync(TvModeKey, on.ToString());
+        }
+        TvModeChanged?.Invoke();
+    }
+
+    /// <summary>
+    /// Scales the whole interface: layout is measured at the window size divided by the scale and then drawn larger, so
+    /// nothing is cut off and the same screens simply grow.
+    /// </summary>
+    private void ApplyScale()
+    {
+        if (Content is not FrameworkElement root) return;
+        var scale = TvMode ? TvScale : 1.0;
+        if (scale == 1.0)
+        {
+            root.RenderTransform = null;
+            root.Width = double.NaN;
+            root.Height = double.NaN;
+            return;
+        }
+        var size = AppWindow.Size;
+        var dpi = root.XamlRoot?.RasterizationScale ?? 1.0;
+        root.HorizontalAlignment = HorizontalAlignment.Left;
+        root.VerticalAlignment = VerticalAlignment.Top;
+        root.Width = size.Width / dpi / scale;
+        root.Height = size.Height / dpi / scale;
+        root.RenderTransform = new Microsoft.UI.Xaml.Media.ScaleTransform { ScaleX = scale, ScaleY = scale };
+    }
+
+    private static readonly string[] Sections = [Pages.Home, Pages.Library, Pages.Catalog, Pages.Downloads, Pages.Lotus, Pages.Settings, Pages.Help];
+
+    private void OnPadCommand(PadAction action)
+    {
+        switch (action)
+        {
+            case PadAction.Back:
+                if (ContentFrame.Content is GamePage) GoBack();
+                else if (TvMode) SetTvMode(false);
+                break;
+            case PadAction.PreviousSection or PadAction.NextSection:
+                var current = Array.IndexOf(Sections, lastPage);
+                var next = (Math.Max(0, current) + (action == PadAction.NextSection ? 1 : Sections.Length - 1)) % Sections.Length;
+                Navigate(Sections[next]);
+                break;
+            case PadAction.Search:
+                if (ContentFrame.Content is LibraryPage library) library.FocusSearch();
+                else
+                {
+                    if (ContentFrame.Content is not HomePage) Navigate(Pages.Home);
+                    (ContentFrame.Content as HomePage)?.FocusSearch();
+                }
+                break;
+            case PadAction.ToggleTvMode:
+                SetTvMode(!TvMode);
+                break;
+        }
     }
 
     private void OnSearchShortcut(KeyboardAccelerator sender, KeyboardAcceleratorInvokedEventArgs args)

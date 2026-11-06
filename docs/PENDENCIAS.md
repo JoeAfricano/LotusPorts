@@ -84,3 +84,8 @@
 
 - Estúdio de temas (criar e editar tema dentro do Lotus Ports) e fundos animados do Lotus não foram trazidos; temas novos se criam no Lotus e chegam por "Igual ao Lotus" ou pelo código.
 - O motor de temas está copiado do Lotus: qualquer mudança lá precisa ser repetida aqui até o `Lotus.Shared` existir.
+
+## Fase 7: pendências
+
+- A navegação por controle não foi testada com um controle de verdade (nenhum foi usado nos testes): falta você conferir no PC com um controle conectado.
+- Sem vibração nem ícones de botões do controle na tela; menus suspensos e diálogos usam o foco padrão do WinUI.

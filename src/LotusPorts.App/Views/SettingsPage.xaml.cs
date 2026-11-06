@@ -21,6 +21,7 @@ public sealed partial class SettingsPage : Page
             (ViewModel.DefaultStyle == ExperienceStyle.Remastered ? StyleRemastered : StyleOriginal).IsChecked = true;
             gameFiles.Changed += ShowGameFiles;
             await ShowAppearanceAsync();
+            TvModeToggle.IsOn = App.MainWindow?.TvMode == true;
             ShowGameFiles();
         };
         Unloaded += (_, _) => gameFiles.Changed -= ShowGameFiles;
@@ -43,6 +44,11 @@ public sealed partial class SettingsPage : Page
     }
 
     private void OnOpenCatalogSources(object sender, RoutedEventArgs e) => App.MainWindow?.Navigate(Pages.Catalog);
+
+    private void OnTvModeToggled(object sender, RoutedEventArgs e)
+    {
+        if (App.MainWindow is { } window && window.TvMode != TvModeToggle.IsOn) window.SetTvMode(TvModeToggle.IsOn);
+    }
 
     // ---- Aparência ------------------------------------------------------------------------------
 

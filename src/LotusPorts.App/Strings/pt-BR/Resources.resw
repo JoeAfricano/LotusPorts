@@ -575,4 +575,5 @@
   <data name="Bannercosmic_orbit" xml:space="preserve"><value>Órbita Cósmica</value></data>
   <data name="Bannerpurple_rift" xml:space="preserve"><value>Fenda Púrpura</value></data>
   <data name="Bannerbamboo_path" xml:space="preserve"><value>Caminho de Bambu</value></data>
+  <data name="SettingsTvModeHint" xml:space="preserve"><value>Tela cheia com tudo maior, para jogar no sofá. Controle: direcional move, A abre, B volta, LB/RB trocam de seção, Y busca, View liga ou desliga o modo TV.</value></data>
 </root>

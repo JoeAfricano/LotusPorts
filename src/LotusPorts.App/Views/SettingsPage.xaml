@@ -161,8 +161,21 @@
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsTvMode}" />
-                        <controls:StateBadge Grid.Column="1" Text="{local:Str Key=BadgeInDevelopment}" />
+                        <StackPanel Spacing="2">
+                            <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsTvMode}" />
+                            <TextBlock
+                                Style="{StaticResource Type.Caption}"
+                                Text="{local:Str Key=SettingsTvModeHint}"
+                                TextWrapping="Wrap" />
+                        </StackPanel>
+                        <ToggleSwitch
+                            x:Name="TvModeToggle"
+                            Grid.Column="1"
+                            MinWidth="0"
+                            AutomationProperties.Name="{local:Str Key=SettingsTvMode}"
+                            OffContent=""
+                            OnContent=""
+                            Toggled="OnTvModeToggled" />
                     </Grid>
                 </StackPanel>
             </Border>
