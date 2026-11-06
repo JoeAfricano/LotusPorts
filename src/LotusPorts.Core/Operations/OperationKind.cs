@@ -12,6 +12,10 @@ public enum OperationKind
     ApplyPreset,
     RevertPreset,
     DependencyInstall,
+    ModInstall,
+    ModEnable,
+    ModDisable,
+    ModRemove,
 }
 
 public enum OperationOutcome
