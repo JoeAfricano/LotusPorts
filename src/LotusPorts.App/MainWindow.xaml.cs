@@ -84,6 +84,18 @@ public sealed partial class MainWindow : Window
         ShowLotus();
     }
 
+    /// <summary>Shows the window and puts it in front (a second start of the app was redirected here).</summary>
+    public void BringToFront()
+    {
+        if (AppWindow.Presenter is OverlappedPresenter { State: OverlappedPresenterState.Minimized } p) p.Restore();
+        AppWindow.Show();
+        Activate();
+        SetForegroundWindow(WinRT.Interop.WindowNative.GetWindowHandle(this));
+    }
+
+    [System.Runtime.InteropServices.DllImport("user32.dll")]
+    private static extern bool SetForegroundWindow(IntPtr hWnd);
+
     public void Navigate(string page, object? parameter = null)
     {
         var type = page switch

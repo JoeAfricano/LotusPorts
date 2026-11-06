@@ -76,7 +76,7 @@
 ## Fase 6: pendências
 
 - Fluxo completo testado só com Lotus simulado; o Lotus real precisa implementar os dois lados (cliente do pipe do Lotus Ports e servidor do próprio).
-- Link `lotusports://` com o app já aberto abre uma segunda janela (ainda não há instância única que repassa o link para a primeira).
+- Janela única (06/11/2026): uma segunda abertura, inclusive por link `lotusports://`, repassa o link para a janela já aberta e fecha. Testado: a janela aberta foi para a página do jogo.
 - `System.GetHardwareProfile` está no contrato, mas o primeiro uso (que sugeriria o estilo padrão) ainda não existe.
 - Instalação cruzada (convite discreto para instalar o Lotus, baixando a release oficial com confirmação) não feita: hoje há só o botão "Baixe o Lotus" que abre a página de releases.
 

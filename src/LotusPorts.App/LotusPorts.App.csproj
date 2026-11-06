@@ -19,6 +19,8 @@
     <!-- MVVMTK0045 is about Native AOT; the app is not published with AOT or trimming. -->
     <NoWarn>$(NoWarn);MVVMTK0045</NoWarn>
     <ApplicationIcon>Assets\Art\Brand\app.ico</ApplicationIcon>
+    <!-- Program.cs owns Main: one window at a time (AppInstance redirection). -->
+    <DefineConstants>$(DefineConstants);DISABLE_XAML_GENERATED_MAIN</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.WindowsAppSDK" />

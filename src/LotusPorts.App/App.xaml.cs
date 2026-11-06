@@ -1,3 +1,4 @@
+using Microsoft.Windows.AppLifecycle;
 using LotusPorts.App.ViewModels;
 using LotusPorts.Core.Operations;
 using LotusPorts.Core.Preferences;
@@ -187,9 +188,34 @@ public partial class App : Application
     }
 
     /// <summary>The lotusports:// link this instance was started with, if any. Only a catalog-shaped id is accepted.</summary>
-    public static (string GameId, bool Play)? DeepLink()
+    public static (string GameId, bool Play)? DeepLink() => ParseDeepLink(Environment.GetCommandLineArgs().Skip(1));
+
+    /// <summary>
+    /// A second start of Lotus Ports was redirected here (see <see cref="Program"/>): bring the window to the
+    /// front and follow its lotusports:// link, if any. Raised on a background thread.
+    /// </summary>
+    internal static void OnRedirected(AppActivationArguments activation)
     {
-        var arg = Environment.GetCommandLineArgs().Skip(1).FirstOrDefault(a => a.StartsWith("lotusports://", StringComparison.OrdinalIgnoreCase));
+        var text = activation.Data switch
+        {
+            Windows.ApplicationModel.Activation.ILaunchActivatedEventArgs launch => launch.Arguments,
+            Windows.ApplicationModel.Activation.IProtocolActivatedEventArgs protocol => protocol.Uri.ToString(),
+            _ => "",
+        };
+        var link = ParseDeepLink(text.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(a => a.Trim('"')));
+        if (Current is not App app || app.window is not { } window) return;
+        window.DispatcherQueue.TryEnqueue(() =>
+        {
+            window.BringToFront();
+            if (link is not { } l) return;
+            window.Navigate(Pages.Game, l.GameId);
+            if (l.Play && app.host is not null) _ = app.host.Services.GetRequiredService<PortsHandler>().LaunchAsync(l.GameId);
+        });
+    }
+
+    private static (string GameId, bool Play)? ParseDeepLink(IEnumerable<string> args)
+    {
+        var arg = args.FirstOrDefault(a => a.StartsWith("lotusports://", StringComparison.OrdinalIgnoreCase));
         if (arg is null || !Uri.TryCreate(arg, UriKind.Absolute, out var uri)) return null;
         var id = uri.AbsolutePath.Trim('/');
         if (id.Length is 0 or > 100 || !id.All(c => c is (>= 'a' and <= 'z') or (>= '0' and <= '9') or '-')) return null;
