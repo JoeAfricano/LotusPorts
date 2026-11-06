@@ -595,6 +595,11 @@ ModsConfirmBody	O arquivo {0} será copiado (o seu original fica como está) par
 ModsAdded	Mod {0} adicionado.	Mod {0} added.
 ModsRemoveTitle	Remover {0}?	Remove {0}?
 ModsRemoveBody	O mod sai da pasta do jogo e fica guardado na pasta de backups do Lotus Ports; nada é apagado.	The mod leaves the game folder and is kept in Lotus Ports' backup folder; nothing is deleted.
+ModsAddFolder	Escolher pasta…	Pick folder…
+ModsTypesFolder	Arquivos aceitos: {0}. Mods em pasta também: a pasta (ou o .zip baixado) precisa ter o arquivo {1}.	Accepted files: {0}. Folder mods too: the folder (or the downloaded .zip) must have the file {1}.
+ModsFolderSize	Pasta · {0}	Folder · {0}
+ModsNotAMod	Isso não parece um mod deste jogo: falta o arquivo {0}. Escolha a pasta do mod (a que tem {0}) ou o .zip baixado.	This doesn't look like a mod for this game: the file {0} is missing. Pick the mod's folder (the one with {0}) or the downloaded .zip.
+ModsConfirmFolderBody	A pasta {0} será copiada (a sua original fica como está) para a pasta de mods do jogo: {1}. Mods são experimentais e podem mudar o jogo; dá para desativar ou remover depois.	The folder {0} will be copied (your original stays as it is) into the game's mods folder: {1}. Mods are experimental and can change the game; you can disable or remove them later.
 KindInstall	Instalação	Install
 KindUpdate	Atualização	Update
 KindRollback	Volta de versão	Rollback

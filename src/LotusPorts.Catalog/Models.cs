@@ -108,7 +108,8 @@ public sealed record Port(
 /// How the port officially takes mods (Phase 8, experimental): the folder the game reads, the accepted file types, the
 /// official page to get them (if the port names one) and where in the port's own repository this was declared.
 /// </summary>
-public sealed record PortMods(string Folder, string Location, IReadOnlyList<string> FileTypes, string? SourceUrl, string DeclaredIn, string? NotesPtBr);
+/// <summary>FolderMarker: the port also takes mods that are folders, recognized by this file at their root (e.g. mod.ini).</summary>
+public sealed record PortMods(string Folder, string Location, IReadOnlyList<string> FileTypes, string? SourceUrl, string DeclaredIn, string? NotesPtBr, string? FolderMarker = null);
 
 [JsonConverter(typeof(JsonStringEnumConverter<PortStatus>))]
 public enum PortStatus

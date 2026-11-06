@@ -91,5 +91,16 @@
     "assetName": "spaghetti-windows.zip",
     "assetSize": 7806456,
     "assetSha256": "bf7bd7cdb5f412c7b370af92949b9431ce7503968631f8cacd607933fb32aff3"
+  },
+  "mods": {
+    "folder": "mods/",
+    "location": "install",
+    "fileTypes": [
+      ".o2r",
+      ".zip"
+    ],
+    "sourceUrl": null,
+    "declaredIn": "https://github.com/HarbourMasters/SpaghettiKart#modding",
+    "notesPtBr": "Conteúdo personalizado em arquivos .o2r ou .zip, colocados na pasta mods do jogo."
   }
 }

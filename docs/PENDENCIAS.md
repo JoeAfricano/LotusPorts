@@ -100,8 +100,16 @@
 ## Fase 8: pendências
 
 - A seção Mods não foi vista na tela: aparece só com um port que declara mods instalado, e nenhum está instalado no PC agora. O motor está coberto por testes.
-- Só 3 ports declaram mods (os que têm instruções oficiais no README). Outros entram quando a curadoria confirmar no repositório de cada port.
-- O Lotus Ports não baixa mods: o jogador baixa na página oficial e escolhe o arquivo. Mods em pastas (não arquivo único) ainda não são aceitos.
+- 7 ports declaram mods, todos com instruções oficiais no repositório:
+  - Zelda 64: Recompiled, Ship of Harkinian e 2 Ship 2 Harkinian;
+  - desde 06/11/2026, também Starship, SpaghettiKart, Ghostship e sm64coopdx.
+  Outros entram quando a curadoria confirmar no repositório de cada port.
+  - Sonic Mania e RSDKv4 ficaram de fora: Sonic Mania não é instalado pelo app, e o README do RSDKv4 não diz onde fica a pasta de mods.
+- Mods em pasta (06/11/2026): o port declara `folderMarker`, o arquivo que identifica um mod (sm64coopdx: `main.lua`).
+  - O jogador escolhe a pasta ou o .zip baixado. O .zip é aberto como pasta: o arquivo identificador fica na raiz ou numa única pasta de topo.
+  - Caminhos que sairiam da pasta do mod são recusados, e uma cópia incompleta não fica na pasta de mods.
+  - Desativar, ativar, substituir e remover movem a pasta inteira, sempre com backup.
+- O Lotus Ports não baixa mods: o jogador baixa na página oficial e escolhe o arquivo.
 
 ## Biblioteca viva e primeiro uso: pendências
 

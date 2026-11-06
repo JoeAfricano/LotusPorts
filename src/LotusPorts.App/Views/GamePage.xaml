@@ -327,6 +327,12 @@
                                     Orientation="Horizontal"
                                     Spacing="8">
                                     <HyperlinkButton x:Name="ModsSource" Content="{local:Str Key=ModsOfficialPage}" />
+                                    <Button x:Name="ModsAddFolder" Click="OnAddModFolder" Visibility="Collapsed">
+                                        <StackPanel Orientation="Horizontal" Spacing="8">
+                                            <FontIcon FontSize="13" Glyph="&#xE8B7;" />
+                                            <TextBlock Text="{local:Str Key=ModsAddFolder}" />
+                                        </StackPanel>
+                                    </Button>
                                     <Button
                                         x:Name="ModsAdd"
                                         Click="OnAddMod"

@@ -195,7 +195,8 @@
             "fileTypes": { "type": "array", "minItems": 1, "maxItems": 8, "items": { "type": "string", "pattern": "^\\.[a-z0-9]{1,8}$" } },
             "sourceUrl": { "type": ["string", "null"], "format": "uri" },
             "declaredIn": { "type": "string", "format": "uri" },
-            "notesPtBr": { "type": ["string", "null"], "maxLength": 300 }
+            "notesPtBr": { "type": ["string", "null"], "maxLength": 300 },
+            "folderMarker": { "type": ["string", "null"], "pattern": "^[A-Za-z0-9_.-]{1,40}$" }
           }
         },
         "links": {

@@ -601,6 +601,11 @@
   <data name="ModsAdded" xml:space="preserve"><value>Mod {0} adicionado.</value></data>
   <data name="ModsRemoveTitle" xml:space="preserve"><value>Remover {0}?</value></data>
   <data name="ModsRemoveBody" xml:space="preserve"><value>O mod sai da pasta do jogo e fica guardado na pasta de backups do Lotus Ports; nada é apagado.</value></data>
+  <data name="ModsAddFolder" xml:space="preserve"><value>Escolher pasta…</value></data>
+  <data name="ModsTypesFolder" xml:space="preserve"><value>Arquivos aceitos: {0}. Mods em pasta também: a pasta (ou o .zip baixado) precisa ter o arquivo {1}.</value></data>
+  <data name="ModsFolderSize" xml:space="preserve"><value>Pasta · {0}</value></data>
+  <data name="ModsNotAMod" xml:space="preserve"><value>Isso não parece um mod deste jogo: falta o arquivo {0}. Escolha a pasta do mod (a que tem {0}) ou o .zip baixado.</value></data>
+  <data name="ModsConfirmFolderBody" xml:space="preserve"><value>A pasta {0} será copiada (a sua original fica como está) para a pasta de mods do jogo: {1}. Mods são experimentais e podem mudar o jogo; dá para desativar ou remover depois.</value></data>
   <data name="KindInstall" xml:space="preserve"><value>Instalação</value></data>
   <data name="KindUpdate" xml:space="preserve"><value>Atualização</value></data>
   <data name="KindRollback" xml:space="preserve"><value>Volta de versão</value></data>

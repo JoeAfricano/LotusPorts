@@ -277,10 +277,14 @@ public sealed partial class GamePage : Page
         if (installed is null || port.Mods is not { } declared) return;
 
         var busy = state.RunningSince is not null || state.Progress is not null;
-        ModsHint.Text = (declared.NotesPtBr is { } notes ? notes + " " : "") + Strings.Format("ModsTypes", string.Join(", ", declared.FileTypes));
+        var accepted = string.Join(", ", AcceptedTypes(port));
+        ModsHint.Text = (declared.NotesPtBr is { } notes ? notes + " " : "") + (declared.FolderMarker is { } marker
+            ? Strings.Format("ModsTypesFolder", accepted, marker)
+            : Strings.Format("ModsTypes", accepted));
         ModsSource.Visibility = declared.SourceUrl is null ? Visibility.Collapsed : Visibility.Visible;
         if (declared.SourceUrl is { } source) ModsSource.NavigateUri = new Uri(source);
-        ModsAdd.IsEnabled = !busy;
+        ModsAdd.IsEnabled = ModsAddFolder.IsEnabled = !busy;
+        ModsAddFolder.Visibility = ModService.TakesFolders(port) ? Visibility.Visible : Visibility.Collapsed;
 
         ModsList.Children.Clear();
         var list = mods.List(port, installed);
@@ -297,7 +301,7 @@ public sealed partial class GamePage : Page
                 Children =
                 {
                     new TextBlock { Text = mod.Name, Style = StyleOf("Type.Body"), TextTrimming = TextTrimming.CharacterEllipsis },
-                    new TextBlock { Text = Size(mod.Size), Style = StyleOf("Type.Caption") },
+                    new TextBlock { Text = mod.IsFolder ? Strings.Format("ModsFolderSize", Size(mod.Size)) : Size(mod.Size), Style = StyleOf("Type.Caption") },
                 },
             });
             var badge = new StateBadge
@@ -324,28 +328,49 @@ public sealed partial class GamePage : Page
         ModsStatus.Text = busy ? Strings.Get("ModsCloseGame") : "";
     }
 
-    private async Task ModActionAsync(Func<Task> action)
+    private static IEnumerable<string> AcceptedTypes(Port port) =>
+        ModService.UnpacksZip(port) ? port.Mods!.FileTypes.Append(".zip") : port.Mods!.FileTypes;
+
+    private async Task<bool> ModActionAsync(Func<Task> action)
     {
-        try { await action(); ModsStatus.Text = ""; }
-        catch (Exception ex) when (ex is ModException or IOException or UnauthorizedAccessException)
+        var ok = false;
+        try { await action(); ModsStatus.Text = ""; ok = true; }
+        catch (ModException ex) when (ex.Problem == ModProblem.NotAMod && game?.Recommended.Port.Mods?.FolderMarker is { } marker)
+        {
+            ModsStatus.Text = Strings.Format("ModsNotAMod", marker);
+        }
+        catch (Exception ex) when (ex is ModException or IOException or UnauthorizedAccessException or InvalidDataException)
         {
             ModsStatus.Text = Strings.Get("ModsFailed");
         }
         RefreshMods();
+        return ok;
     }
 
     private async void OnAddMod(object sender, RoutedEventArgs e)
     {
-        if (game is null || play.StateOf(game.Recommended.Port).Installed is not { } installed || game.Recommended.Port.Mods is not { } declared) return;
+        if (game is null || play.StateOf(game.Recommended.Port).Installed is not { } installed || game.Recommended.Port.Mods is null) return;
         var port = game.Recommended.Port;
         var picker = new Windows.Storage.Pickers.FileOpenPicker { SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.Downloads };
-        foreach (var type in declared.FileTypes) picker.FileTypeFilter.Add(type);
+        foreach (var type in AcceptedTypes(port)) picker.FileTypeFilter.Add(type);
         WinRT.Interop.InitializeWithWindow.Initialize(picker, WinRT.Interop.WindowNative.GetWindowHandle(App.MainWindow));
         if (await picker.PickSingleFileAsync() is not { } file) return;
         var body = Strings.Format("ModsConfirmBody", file.Name, mods.ModsFolder(port, installed) ?? "");
         if (!await Confirm(Strings.Get("ModsConfirmTitle"), body, Strings.Get("ModsAdd"))) return;
-        await ModActionAsync(() => mods.InstallAsync(port, installed, file.Path));
-        ModsStatus.Text = Strings.Format("ModsAdded", file.Name);
+        if (await ModActionAsync(() => mods.InstallAsync(port, installed, file.Path))) ModsStatus.Text = Strings.Format("ModsAdded", file.Name);
+    }
+
+    private async void OnAddModFolder(object sender, RoutedEventArgs e)
+    {
+        if (game is null || play.StateOf(game.Recommended.Port).Installed is not { } installed || !ModService.TakesFolders(game.Recommended.Port)) return;
+        var port = game.Recommended.Port;
+        var picker = new Windows.Storage.Pickers.FolderPicker { SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.Downloads };
+        picker.FileTypeFilter.Add("*");
+        WinRT.Interop.InitializeWithWindow.Initialize(picker, WinRT.Interop.WindowNative.GetWindowHandle(App.MainWindow));
+        if (await picker.PickSingleFolderAsync() is not { } folder) return;
+        var body = Strings.Format("ModsConfirmFolderBody", folder.Name, mods.ModsFolder(port, installed) ?? "");
+        if (!await Confirm(Strings.Get("ModsConfirmTitle"), body, Strings.Get("ModsAdd"))) return;
+        if (await ModActionAsync(() => mods.InstallFolderAsync(port, installed, folder.Path))) ModsStatus.Text = Strings.Format("ModsAdded", folder.Name);
     }
 
     private async Task RemoveModAsync(Port port, InstalledPort installed, string name)

@@ -601,6 +601,11 @@
   <data name="ModsAdded" xml:space="preserve"><value>Mod {0} added.</value></data>
   <data name="ModsRemoveTitle" xml:space="preserve"><value>Remove {0}?</value></data>
   <data name="ModsRemoveBody" xml:space="preserve"><value>The mod leaves the game folder and is kept in Lotus Ports&apos; backup folder; nothing is deleted.</value></data>
+  <data name="ModsAddFolder" xml:space="preserve"><value>Pick folder…</value></data>
+  <data name="ModsTypesFolder" xml:space="preserve"><value>Accepted files: {0}. Folder mods too: the folder (or the downloaded .zip) must have the file {1}.</value></data>
+  <data name="ModsFolderSize" xml:space="preserve"><value>Folder · {0}</value></data>
+  <data name="ModsNotAMod" xml:space="preserve"><value>This doesn&apos;t look like a mod for this game: the file {0} is missing. Pick the mod&apos;s folder (the one with {0}) or the downloaded .zip.</value></data>
+  <data name="ModsConfirmFolderBody" xml:space="preserve"><value>The folder {0} will be copied (your original stays as it is) into the game&apos;s mods folder: {1}. Mods are experimental and can change the game; you can disable or remove them later.</value></data>
   <data name="KindInstall" xml:space="preserve"><value>Install</value></data>
   <data name="KindUpdate" xml:space="preserve"><value>Update</value></data>
   <data name="KindRollback" xml:space="preserve"><value>Rollback</value></data>

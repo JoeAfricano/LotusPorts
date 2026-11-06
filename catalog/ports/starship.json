@@ -101,5 +101,16 @@
     "assetName": "Starship-Barnard-Alfa-Windows.zip",
     "assetSize": 4218590,
     "assetSha256": null
+  },
+  "mods": {
+    "folder": "mods/",
+    "location": "install",
+    "fileTypes": [
+      ".o2r",
+      ".otr"
+    ],
+    "sourceUrl": null,
+    "declaredIn": "https://github.com/HarbourMasters/Starship#custom-assets",
+    "notesPtBr": "Conteúdo personalizado em arquivos .o2r ou .otr, colocados na pasta mods do jogo."
   }
 }

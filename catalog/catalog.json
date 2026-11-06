@@ -35811,6 +35811,17 @@
         "assetName": "Nautilus-Alfa-Win64.zip",
         "assetSize": 20379303,
         "assetSha256": "49a0ab6c6624ccb20d29bb433f391d017f638f2b7db0601eae7808574a62aa18"
+      },
+      "mods": {
+        "folder": "mods/",
+        "location": "install",
+        "fileTypes": [
+          ".o2r",
+          ".otr"
+        ],
+        "sourceUrl": null,
+        "declaredIn": "https://github.com/HarbourMasters/Ghostship#custom-assets",
+        "notesPtBr": "Conteúdo personalizado em arquivos .o2r ou .otr, colocados na pasta mods do jogo."
       }
     },
     {
@@ -60874,6 +60885,17 @@
         "assetName": "sm64coopdx_Windows.zip",
         "assetSize": 41801915,
         "assetSha256": "2a98c40acb2a46d30cde89f3072c039b641dbdf977985f9e82a040615f1b2381"
+      },
+      "mods": {
+        "folder": "%APPDATA%/sm64coopdx/mods",
+        "location": "user",
+        "fileTypes": [
+          ".lua"
+        ],
+        "sourceUrl": null,
+        "declaredIn": "https://github.com/coop-deluxe/sm64coopdx/blob/main/docs/lua/lua.md",
+        "notesPtBr": "Mods em Lua: um arquivo .lua ou uma pasta com main.lua.",
+        "folderMarker": "main.lua"
       }
     },
     {
@@ -62866,6 +62888,17 @@
         "assetName": "spaghetti-windows.zip",
         "assetSize": 7806456,
         "assetSha256": "bf7bd7cdb5f412c7b370af92949b9431ce7503968631f8cacd607933fb32aff3"
+      },
+      "mods": {
+        "folder": "mods/",
+        "location": "install",
+        "fileTypes": [
+          ".o2r",
+          ".zip"
+        ],
+        "sourceUrl": null,
+        "declaredIn": "https://github.com/HarbourMasters/SpaghettiKart#modding",
+        "notesPtBr": "Conteúdo personalizado em arquivos .o2r ou .zip, colocados na pasta mods do jogo."
       }
     },
     {
@@ -63634,6 +63667,17 @@
         "assetName": "Starship-Barnard-Alfa-Windows.zip",
         "assetSize": 4218590,
         "assetSha256": null
+      },
+      "mods": {
+        "folder": "mods/",
+        "location": "install",
+        "fileTypes": [
+          ".o2r",
+          ".otr"
+        ],
+        "sourceUrl": null,
+        "declaredIn": "https://github.com/HarbourMasters/Starship#custom-assets",
+        "notesPtBr": "Conteúdo personalizado em arquivos .o2r ou .otr, colocados na pasta mods do jogo."
       }
     },
     {
