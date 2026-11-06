@@ -51,6 +51,21 @@ public class ValidationAndShelvesTests
         Validate(bundle).IsValid.Should().BeFalse();
     }
 
+    [Theory]
+    [InlineData("https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Sample.png", "libretro-thumbnails", true)]
+    [InlineData("https://cdn2.steamgriddb.com/grid/0123abcd.png", "steamgriddb", true)]
+    [InlineData("https://cdn2.steamgriddb.com/grid/0123abcd.jpg", "steamgriddb", true)]
+    [InlineData("https://www.steamgriddb.com/api/v2/grids/game/1", "steamgriddb", false)]
+    [InlineData("https://example.com/cover.png", "steamgriddb", false)]
+    [InlineData("https://cdn2.steamgriddb.com/grid/0123abcd.webp", "steamgriddb", false)]
+    [InlineData("https://cdn2.steamgriddb.com/grid/0123abcd.png", "anywhere", false)]
+    public void Cover_accepts_only_known_image_hosts(string url, string source, bool valid)
+    {
+        var bundle = Sample();
+        bundle["games"]![0]!["cover"] = new JsonObject { ["url"] = url, ["source"] = source };
+        Validate(bundle).IsValid.Should().Be(valid);
+    }
+
     [Fact]
     public void Broken_references_are_rejected()
     {

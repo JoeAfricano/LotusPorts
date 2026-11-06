@@ -35,6 +35,8 @@ public sealed class GitHubClient(HttpClient http)
     private static readonly HashSet<string> AllowedHosts = new(StringComparer.OrdinalIgnoreCase)
     {
         "api.github.com", "raw.githubusercontent.com", "github.com", "objects.githubusercontent.com", "release-assets.githubusercontent.com",
+        // Cover art only (catalog `cover.url`); the app never calls the SteamGridDB API.
+        "cdn2.steamgriddb.com",
     };
 
     public async Task<RepositoryInfo?> GetRepositoryAsync(string owner, string repo, CancellationToken cancellationToken = default)

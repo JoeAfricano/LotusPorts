@@ -67,8 +67,8 @@
           "additionalProperties": false,
           "required": ["url", "source"],
           "properties": {
-            "url": { "type": "string", "pattern": "^https://raw\\.githubusercontent\\.com/libretro-thumbnails/[^?#]+\\.png$" },
-            "source": { "const": "libretro-thumbnails" }
+            "url": { "type": "string", "pattern": "^(https://raw\\.githubusercontent\\.com/libretro-thumbnails/[^?#]+\\.png|https://cdn2\\.steamgriddb\\.com/[^?#]+\\.(png|jpg|jpeg))$" },
+            "source": { "enum": ["libretro-thumbnails", "steamgriddb"] }
           }
         }
       }

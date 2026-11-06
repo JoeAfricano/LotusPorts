@@ -37,46 +37,114 @@ internal static partial class Covers
         var gameFiles = Directory.GetFiles(Path.Combine(catalogDir, "games"), "*.json");
         var games = gameFiles.Select(f => (File: f, Node: JsonNode.Parse(File.ReadAllText(f))!.AsObject())).ToList();
         var lists = new Dictionary<string, (string Branch, List<string> Files)>();
+        var unavailable = new HashSet<string>();
         int matched = 0, tried = 0;
 
         foreach (var platform in games.Select(g => g.Node["originalPlatform"]!.GetValue<string>()).Distinct())
         {
             if (!Repos.TryGetValue(platform, out var repo)) continue;
-            var info = JsonNode.Parse(await api.GetStringAsync($"repos/libretro-thumbnails/{repo}"))!;
-            var branch = info["default_branch"]!.GetValue<string>();
-            var root = JsonNode.Parse(await api.GetStringAsync($"repos/libretro-thumbnails/{repo}/git/trees/{branch}"))!;
-            var boxSha = root["tree"]!.AsArray().FirstOrDefault(t => t!["path"]!.GetValue<string>() == "Named_Boxarts")?["sha"]?.GetValue<string>();
-            if (boxSha is null) continue;
-            var box = JsonNode.Parse(await api.GetStringAsync($"repos/libretro-thumbnails/{repo}/git/trees/{boxSha}"))!;
-            lists[platform] = (branch, box["tree"]!.AsArray().Select(t => t!["path"]!.GetValue<string>()).Where(p => p.EndsWith(".png", StringComparison.OrdinalIgnoreCase)).ToList());
-            Console.Error.WriteLine($"{repo}: {lists[platform].Files.Count} box arts");
+            try
+            {
+                var info = JsonNode.Parse(await api.GetStringAsync($"repos/libretro-thumbnails/{repo}"))!;
+                var branch = info["default_branch"]!.GetValue<string>();
+                var root = JsonNode.Parse(await api.GetStringAsync($"repos/libretro-thumbnails/{repo}/git/trees/{branch}"))!;
+                var boxSha = root["tree"]!.AsArray().FirstOrDefault(t => t!["path"]!.GetValue<string>() == "Named_Boxarts")?["sha"]?.GetValue<string>();
+                if (boxSha is null) continue;
+                var box = JsonNode.Parse(await api.GetStringAsync($"repos/libretro-thumbnails/{repo}/git/trees/{boxSha}"))!;
+                lists[platform] = (branch, box["tree"]!.AsArray().Select(t => t!["path"]!.GetValue<string>()).Where(p => p.EndsWith(".png", StringComparison.OrdinalIgnoreCase)).ToList());
+                Console.Error.WriteLine($"{repo}: {lists[platform].Files.Count} box arts");
+            }
+            catch (HttpRequestException ex)
+            {
+                // Not reachable now (rate limit, network): games of this console keep the cover they have.
+                unavailable.Add(platform);
+                Console.Error.WriteLine($"{repo}: indisponível ({ex.StatusCode}); capas atuais mantidas");
+            }
         }
+
+        // SteamGridDB first (uniform 600x900 portrait art), libretro box art as the fallback.
+        var sgdb = await SteamGridDbCoversAsync(catalogDir, games.Select(g => (g.Node["id"]!.GetValue<string>(), g.Node["title"]!.GetValue<string>())).ToList());
+        int fromSgdb = 0;
 
         foreach (var (file, game) in games)
         {
             var platform = game["originalPlatform"]!.GetValue<string>();
-            if (!lists.TryGetValue(platform, out var list)) continue;
-            tried++;
-            var wanted = Key(game["title"]!.GetValue<string>());
-            var best = list.Files
-                .Select(f => (File: f, Key: Key(StripTags(Path.GetFileNameWithoutExtension(f))), Region: RegionRank(f)))
-                .Where(x => x.Key == wanted)
-                .OrderBy(x => x.Region).ThenBy(x => x.File.Length)
-                .FirstOrDefault();
-            if (best.File is null) { game.Remove("cover"); }
-            else
+            var id = game["id"]!.GetValue<string>();
+            JsonObject? cover = null;
+            if (sgdb.TryGetValue(id, out var grid) && grid is not null)
             {
-                game["cover"] = new JsonObject
-                {
-                    ["url"] = $"https://raw.githubusercontent.com/libretro-thumbnails/{Repos[platform]}/{list.Branch}/Named_Boxarts/{Uri.EscapeDataString(best.File)}",
-                    ["source"] = "libretro-thumbnails",
-                };
-                matched++;
+                cover = new JsonObject { ["url"] = grid, ["source"] = "steamgriddb" };
+                fromSgdb++;
             }
+            else if (lists.TryGetValue(platform, out var list))
+            {
+                tried++;
+                var wanted = Key(game["title"]!.GetValue<string>());
+                var best = list.Files
+                    .Select(f => (File: f, Key: Key(StripTags(Path.GetFileNameWithoutExtension(f))), Region: RegionRank(f)))
+                    .Where(x => x.Key == wanted)
+                    .OrderBy(x => x.Region).ThenBy(x => x.File.Length)
+                    .FirstOrDefault();
+                if (best.File is not null)
+                {
+                    cover = new JsonObject
+                    {
+                        ["url"] = $"https://raw.githubusercontent.com/libretro-thumbnails/{Repos[platform]}/{list.Branch}/Named_Boxarts/{Uri.EscapeDataString(best.File)}",
+                        ["source"] = "libretro-thumbnails",
+                    };
+                    matched++;
+                }
+            }
+            if (cover is not null) game["cover"] = cover;
+            else if (!unavailable.Contains(platform)) game.Remove("cover");
             File.WriteAllText(file, game.ToJsonString(Pretty) + "\n");
         }
-        Console.Error.WriteLine($"covers: {matched} of {tried} games on covered consoles ({games.Count} total)");
+        var total = games.Count(g => g.Node["cover"] is not null);
+        Console.Error.WriteLine($"covers: {total} of {games.Count} games ({fromSgdb} SteamGridDB, {matched} libretro of {tried} tried)");
         return Generator.Bundle(catalogDir);
+    }
+
+    /// <summary>
+    /// Game id → SteamGridDB grid address (or null when there is no exact match). Results are kept in
+    /// research/steamgriddb.json so a rerun only asks about games not checked yet.
+    /// </summary>
+    private static async Task<Dictionary<string, string?>> SteamGridDbCoversAsync(string catalogDir, List<(string Id, string Title)> games)
+    {
+        var result = new Dictionary<string, string?>();
+        var cacheFile = Path.Combine(catalogDir, "research", "steamgriddb.json");
+        var cache = File.Exists(cacheFile) ? JsonNode.Parse(File.ReadAllText(cacheFile))!.AsObject() : [];
+        foreach (var (id, entry) in cache) result[id] = entry?["grid"]?.GetValue<string>();
+
+        if (SteamGridDb.ReadKey() is not { } key)
+        {
+            Console.Error.WriteLine("SteamGridDB: sem chave (SGDB_API_KEY ou %USERPROFILE%\\.lotusports\\steamgriddb.key); usando só o que já foi consultado.");
+            return result;
+        }
+        using var http = SteamGridDb.Client(key);
+        var todo = games.Where(g => !cache.ContainsKey(g.Id)).ToList();
+        Console.Error.WriteLine($"SteamGridDB: {todo.Count} jogos para consultar ({cache.Count} já consultados)");
+        var done = 0;
+        foreach (var (id, title) in todo)
+        {
+            var found = await SteamGridDb.FindAsync(http, title, Key);
+            string? grid = found is { } f ? await SteamGridDb.BestGridAsync(http, f.Id) : null;
+            cache[id] = new JsonObject
+            {
+                ["sgdbId"] = found?.Id,
+                ["name"] = found?.Name,
+                ["grid"] = grid,
+                ["checkedAt"] = DateTime.UtcNow.ToString("yyyy-MM-dd"),
+            };
+            result[id] = grid;
+            if (++done % 25 == 0)
+            {
+                File.WriteAllText(cacheFile, cache.ToJsonString(Pretty) + "\n");
+                Console.Error.WriteLine($"  {done}/{todo.Count}");
+            }
+            await Task.Delay(250); // gentle with a free community API
+        }
+        File.WriteAllText(cacheFile, cache.ToJsonString(Pretty) + "\n");
+        return result;
     }
 
     private static int RegionRank(string file)

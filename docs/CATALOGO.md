@@ -127,3 +127,17 @@ Na tela **Catálogo → Fontes de catálogo**, o jogador cola `https://github.co
 - Remover a fonte não desinstala jogos.
 
 **Adicionar port por link do GitHub** (modo avançado) lê as releases, sugere o arquivo para Windows e o executável e cria uma entrada local com status Jogável, com alguns bugs (EXPERIMENTAL) e o selo **Adicionado por você**. "Exportar meus ports" gera um JSON no formato do catálogo para incluir no oficial.
+
+## Capas
+
+`dotnet run --project tools\CatalogScout -- covers catalog` grava em cada jogo só o endereço da capa (`cover.url`); o app baixa ao exibir, confere a assinatura PNG/JPEG e guarda uma cópia reduzida em `%LOCALAPPDATA%\LotusPorts\cache\covers`.
+
+1. **SteamGridDB** (preferida): capas verticais 600x900, mesmo formato em todos os cartões. Só aceita nome exato (sem palpite). Resultados ficam em `catalog/research/steamgriddb.json`, então uma nova execução só consulta jogos novos.
+2. **libretro-thumbnails** (reserva): box art oficial por console.
+
+A chave da API do SteamGridDB é do curador e nunca entra no repositório nem no app. Crie em steamgriddb.com → Preferences → API e salve num destes lugares:
+
+- arquivo `%USERPROFILE%\.lotusports\steamgriddb.key` (só a chave, uma linha); ou
+- variável de ambiente `SGDB_API_KEY`.
+
+Sem chave, ou com o GitHub indisponível, o comando mantém as capas que cada jogo já tem.
