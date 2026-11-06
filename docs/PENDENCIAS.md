@@ -69,7 +69,7 @@
 
 ## Fase 5: pendências
 
-- **Lado do Lotus:** o Lotus (outro repositório) ainda não tem o servidor do pipe nem grava `HKCU\Software\Lotus\Integration`. O roteiro está em `docs/INTEGRACAO_LOTUS.md` ("Para o Lotus implementar"). Não mexi no projeto do Lotus.
+- **Lado do Lotus (06/11/2026):** implementado no repositório do Lotus, ainda sem commit lá (ver `docs/LOTUS_PORTS_INTEGRATION.md` do Lotus): servidor `lotus.integration.v1` com conferências do PC, dependências, alterações recentes, sessões (FPS só quando medido) e perfil de hardware; e "Seus jogos do Lotus Ports" em Meus Jogos, com Jogar. Ainda não oferecidos: instalar dependências e recomendações. O teste ponta a ponta com os dois apps depende das versões Release (só elas gravam o registro).
 - **Não feito:** pedir instalação de dependência ao Lotus (`Dependencies.RequestInstall`) e o modo autônomo que instala redistribuíveis oficiais da Microsoft (Authenticode, UAC, códigos 0/3010/1638); `Dependencies.Check` só faz sentido quando os ports declararem `dependencies` (nenhum declara ainda); aviso no cartão após `Driver.Changed`; deep links `lotus://` ("Ver relatório no Lotus"), que dependem do Lotus registrar o protocolo.
 - O Lotus Ports ainda não grava `HKCU\Software\LotusPorts\Integration` nem serve o próprio pipe: Fase 6.
 
