@@ -1,4 +1,4 @@
-<!-- source: https://github.com/theweathervane/sfa3max-decomp/blob/HEAD/README.md | fingerprint: ff2974db40c2b4b7 -->
+<!-- source: https://github.com/theweathervane/sfa3max-decomp/blob/HEAD/README.md | fingerprint: cad6909f783e1059 -->
 
 Os controles, modos e opções (inclusive as extensões):
 
@@ -24,7 +24,7 @@ Os controles, modos e opções (inclusive as extensões):
 
 - Controles e ícones dos botões: [docs/CONTROLLERS.md](https://github.com/theweathervane/sfa3max-decomp/blob/HEAD/docs/CONTROLLERS.md); botões: [docs/PLAYER_CONFIG.md](https://github.com/theweathervane/sfa3max-decomp/blob/HEAD/docs/PLAYER_CONFIG.md)
 
-- VSYNC e FRAME TIMING (SMOOTH, o padrão, acompanha um monitor com múltiplos de 60 Hz: 60, 120, 240...; ORIGINAL é o 59,94 Hz do PSP, melhor com VRR): [docs/DISPLAY.md](https://github.com/theweathervane/sfa3max-decomp/blob/HEAD/docs/DISPLAY.md)
+- VSYNC e FRAME TIMING (AUTO, o padrão, escolhe SMOOTH numa tela de 60, 120, 240 Hz... e ORIGINAL, o 59,94 Hz do PSP, com VRR ou outras taxas; o MODE MENU mostra qual foi escolhido): [docs/DISPLAY.md](https://github.com/theweathervane/sfa3max-decomp/blob/HEAD/docs/DISPLAY.md)
 
 - Saves e configurações (`saves/sfa3max.cfg`, `saves/sfa3max.dat`; arquivos de versões anteriores, `sfa3mr.cfg` / `sfa3mr.dat`, são renomeados na primeira abertura): [docs/SAVES.md](https://github.com/theweathervane/sfa3max-decomp/blob/HEAD/docs/SAVES.md)
 

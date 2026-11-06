@@ -1,4 +1,4 @@
-<!-- source: https://github.com/vyanhursky/DefJamFFNY-recomp/blob/HEAD/README.md | fingerprint: a19ca6dc49f55277 -->
+<!-- source: https://github.com/vyanhursky/DefJamFFNY-recomp/blob/HEAD/README.md | fingerprint: a1f82cfdd6cc65e8 -->
 
 1. Tenha a imagem do seu próprio disco americano de Xbox, ou uma cópia extraída, que bata com a [lista de cópias aceitas](https://github.com/vyanhursky/DefJamFFNY-recomp/blob/HEAD/config/dump-manifest.json).
 
@@ -11,6 +11,8 @@
 - Sistema · Download · Guia
 
 - Windows x64 · `DefJamRecompiled-<version>-windows-x64.exe` · [Windows](https://github.com/vyanhursky/DefJamFFNY-recomp/blob/HEAD/docs/install-guide.md#windows)
+
+Também disponível no [RecompLauncher](https://recomplauncher.com/game/defjamffny-recomp) e no [Quiver](https://quiverlauncher.com/apps/def-jam-fight-for-ny-def-jam-fight-for-ny-fan-recomp).
 
 O app monta o jogo a partir da sua cópia em vez de baixar um jogo pronto. O [guia de instalação](https://github.com/vyanhursky/DefJamFFNY-recomp/blob/HEAD/docs/install-guide.md) cobre requisitos, avisos de app sem assinatura, espaço em disco, atualizações e reparos, com uma imagem de cada passo. As Upscaled Original Textures precisam de mais espaço e tempo de instalação.
 
