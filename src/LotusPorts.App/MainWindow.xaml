@@ -149,30 +149,65 @@
                 </RadioButton>
             </StackPanel>
 
-            <!--  Lotus connection: honest state, the integration arrives in phase 5.  -->
+            <!--  Player profile shared with Lotus (read from Lotus, never written). Without one, Lotus creates it.  -->
             <Button
+                x:Name="ProfileButton"
                 Grid.Row="3"
-                Padding="14,12"
+                Padding="12,10"
                 HorizontalAlignment="Stretch"
-                HorizontalContentAlignment="Left"
-                AutomationProperties.Name="{local:Str Key=LotusStatusAutomation}"
+                HorizontalContentAlignment="Stretch"
                 Background="{StaticResource Bg.Surface}"
                 BorderBrush="{StaticResource Stroke.Subtle}"
-                Click="OnLotusStatusClick"
-                CornerRadius="12">
-                <StackPanel Orientation="Horizontal" Spacing="12">
-                    <controls:LotusPetal
-                        Width="30"
-                        Height="26"
-                        IsLit="False" />
-                    <StackPanel Spacing="4">
+                Click="OnProfileClick"
+                CornerRadius="14">
+                <Grid ColumnSpacing="12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid
+                        Width="40"
+                        Height="40"
+                        VerticalAlignment="Center">
+                        <Ellipse
+                            x:Name="ProfileRing"
+                            Stroke="{StaticResource Accent.Rose}"
+                            StrokeThickness="2" />
+                        <PersonPicture
+                            x:Name="ProfilePicture"
+                            Width="34"
+                            Height="34"
+                            Visibility="Collapsed" />
+                        <controls:LotusPetal
+                            x:Name="ProfilePetal"
+                            Width="24"
+                            Height="21"
+                            IsLit="False" />
+                    </Grid>
+                    <StackPanel
+                        Grid.Column="1"
+                        VerticalAlignment="Center"
+                        Spacing="2">
                         <TextBlock
+                            x:Name="ProfileName"
                             FontWeight="SemiBold"
                             Foreground="{StaticResource Text.Primary}"
-                            Text="Lotus" />
-                        <controls:StateBadge Text="{local:Str Key=BadgeInDevelopment}" Tone="Unknown" />
+                            TextTrimming="CharacterEllipsis" />
+                        <TextBlock
+                            x:Name="ProfileHint"
+                            FontSize="12"
+                            Foreground="{StaticResource Text.Secondary}"
+                            TextTrimming="CharacterEllipsis" />
                     </StackPanel>
-                </StackPanel>
+                    <FontIcon
+                        x:Name="ProfileArrow"
+                        Grid.Column="2"
+                        VerticalAlignment="Center"
+                        FontSize="12"
+                        Foreground="{StaticResource Text.Secondary}"
+                        Glyph="&#xE8A7;" />
+                </Grid>
             </Button>
         </Grid>
 

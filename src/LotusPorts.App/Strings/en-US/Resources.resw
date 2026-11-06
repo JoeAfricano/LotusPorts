@@ -297,4 +297,9 @@
   <data name="SortName" xml:space="preserve"><value>Name (A–Z)</value></data>
   <data name="SortPopular" xml:space="preserve"><value>Most popular</value></data>
   <data name="SortUpdated" xml:space="preserve"><value>Recently updated</value></data>
+  <data name="ProfileFromLotus" xml:space="preserve"><value>Lotus profile</value></data>
+  <data name="ProfileAutomation" xml:space="preserve"><value>{0}, Lotus profile. Opens Lotus.</value></data>
+  <data name="ProfileCreate" xml:space="preserve"><value>Create your profile</value></data>
+  <data name="ProfileInLotus" xml:space="preserve"><value>Lotus opens to create it</value></data>
+  <data name="ProfileGetLotus" xml:space="preserve"><value>Get Lotus to create it</value></data>
 </root>
