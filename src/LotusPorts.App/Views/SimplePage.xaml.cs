@@ -12,7 +12,7 @@ public sealed partial class SimplePage : Page
     protected override void OnNavigatedTo(NavigationEventArgs e)
     {
         var prefix = e.Parameter as string == Pages.Downloads ? "Downloads" : "Lotus";
-        Heading.Text = Strings.Get(prefix + "Title");
+        Heading.Title = Strings.Get(prefix + "Title");
         Subtitle.Text = Strings.Get(prefix + "Subtitle");
         Empty.Title = Strings.Get(prefix + "EmptyTitle");
         Empty.Message = Strings.Get(prefix + "EmptyMessage");

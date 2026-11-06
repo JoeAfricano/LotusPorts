@@ -61,6 +61,7 @@ public partial class App : Application
             covers.Shrink = CoverShrinker.ShrinkAsync;
             Lotus.Design.Controls.GameCover.CoverResolver = covers.GetAsync;
             var dispatcher = Microsoft.UI.Dispatching.DispatcherQueue.GetForCurrentThread();
+            await host.Services.GetRequiredService<AppearanceService>().InitializeAsync(dispatcher);
             var play = host.Services.GetRequiredService<PlayService>();
             await play.InitializeAsync(dispatcher);
             var catalogService = host.Services.GetRequiredService<CatalogService>();
@@ -131,6 +132,7 @@ public partial class App : Application
             sp.GetRequiredService<Microsoft.Extensions.Logging.ILogger<LotusPorts.Integration.LotusClient>>(), AppInfo.Version.Split('+')[0]));
         services.AddSingleton<LotusBridge>();
         services.AddSingleton<PortsHandler>();
+        services.AddSingleton<AppearanceService>();
         services.AddSingleton<LotusPorts.Infrastructure.Diagnostics.PortDiagnostics>();
         services.AddSingleton<LotusPorts.Infrastructure.Install.StyleService>();
         services.AddTransient<HomeViewModel>();

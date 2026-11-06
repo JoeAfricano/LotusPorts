@@ -536,4 +536,43 @@
   <data name="ExperienceOpenReport" xml:space="preserve"><value>Ver relatório completo no Lotus</value></data>
   <data name="ExperienceEditProfile" xml:space="preserve"><value>Editar perfil no Lotus</value></data>
   <data name="ExperienceDriverChanged" xml:space="preserve"><value>O driver de vídeo foi atualizado em {0}: o primeiro jogo depois disso pode engasgar um pouco enquanto se prepara.</value></data>
+  <data name="AppearanceTitle" xml:space="preserve"><value>Aparência</value></data>
+  <data name="AppearanceHint" xml:space="preserve"><value>O mesmo sistema de temas do Lotus. &quot;Igual ao Lotus&quot; segue o que você escolher lá, inclusive temas personalizados.</value></data>
+  <data name="AppearanceAccent" xml:space="preserve"><value>Cor de destaque</value></data>
+  <data name="AppearanceGallery" xml:space="preserve"><value>Galeria de temas do Lotus</value></data>
+  <data name="AppearanceCodePlaceholder" xml:space="preserve"><value>Cole aqui um código de tema do Lotus (LOTUS-THEME:…)</value></data>
+  <data name="AppearanceUseCode" xml:space="preserve"><value>Usar tema</value></data>
+  <data name="AppearanceFollowing" xml:space="preserve"><value>Seguindo o Lotus: {0}.</value></data>
+  <data name="AppearanceCustom" xml:space="preserve"><value>Tema personalizado: {0}.</value></data>
+  <data name="AppearanceBadCode" xml:space="preserve"><value>Esse código não é um tema do Lotus. Copie o código no Estúdio de temas do Lotus.</value></data>
+  <data name="ThemeLotus" xml:space="preserve"><value>Igual ao Lotus</value></data>
+  <data name="ThemeLotusHint" xml:space="preserve"><value>Os dois apps com a mesma cara</value></data>
+  <data name="ThemeMidnight" xml:space="preserve"><value>Escuro</value></data>
+  <data name="ThemeMidnightHint" xml:space="preserve"><value>Ameixa profunda</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Rosé porcelana</value></data>
+  <data name="ThemeLightHint" xml:space="preserve"><value>Claro e confortável</value></data>
+  <data name="ThemeGraphite" xml:space="preserve"><value>Grafite</value></data>
+  <data name="ThemeGraphiteHint" xml:space="preserve"><value>Escuro neutro</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Igual ao Windows</value></data>
+  <data name="ThemeSystemHint" xml:space="preserve"><value>Claro ou escuro, como o Windows</value></data>
+  <data name="ThemeCustom" xml:space="preserve"><value>Personalizado</value></data>
+  <data name="ThemeCustomHint" xml:space="preserve"><value>O tema que você escolheu</value></data>
+  <data name="Accentrose" xml:space="preserve"><value>Rosa</value></data>
+  <data name="Accentviolet" xml:space="preserve"><value>Violeta</value></data>
+  <data name="Accentblue" xml:space="preserve"><value>Azul</value></data>
+  <data name="Accentgreen" xml:space="preserve"><value>Verde</value></data>
+  <data name="Accentcrimson" xml:space="preserve"><value>Carmim</value></data>
+  <data name="Accentgold" xml:space="preserve"><value>Dourado</value></data>
+  <data name="Accentdark" xml:space="preserve"><value>Escuro</value></data>
+  <data name="AppearanceHomeBanner" xml:space="preserve"><value>Banner do Início</value></data>
+  <data name="Bannerjardim" xml:space="preserve"><value>Jardim Cibernético</value></data>
+  <data name="Bannersantuario" xml:space="preserve"><value>Santuário Lunar</value></data>
+  <data name="Bannersakura_temple" xml:space="preserve"><value>Templo das Sakuras</value></data>
+  <data name="Bannerlunar_torii" xml:space="preserve"><value>Torii da Lua</value></data>
+  <data name="Bannerlotus_river" xml:space="preserve"><value>Rio das Lótus</value></data>
+  <data name="Bannerlantern_town" xml:space="preserve"><value>Vila das Lanternas</value></data>
+  <data name="Banneraurora_peaks" xml:space="preserve"><value>Picos da Aurora</value></data>
+  <data name="Bannercosmic_orbit" xml:space="preserve"><value>Órbita Cósmica</value></data>
+  <data name="Bannerpurple_rift" xml:space="preserve"><value>Fenda Púrpura</value></data>
+  <data name="Bannerbamboo_path" xml:space="preserve"><value>Caminho de Bambu</value></data>
 </root>

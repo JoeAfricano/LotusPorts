@@ -11,7 +11,7 @@
             </Grid.ColumnDefinitions>
         <StackPanel
             Spacing="8">
-            <TextBlock x:Name="Heading" Style="{StaticResource Type.Title}" />
+            <controls:PageBanner x:Name="Heading" Source="Assets/Art/Banners/purple_rift.png" />
             <TextBlock
                 x:Name="Subtitle"
                 Margin="0,0,0,20"

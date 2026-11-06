@@ -22,7 +22,7 @@
         <StackPanel>
             <!--  Hero: thesis, search and the latest release (measured)  -->
             <Grid Height="380">
-                <controls:SceneHero Source="Assets/Art/Scenes/05_FUNDO_JARDIM_CIBERNETICO_HERO_WIDE_1920x650.png" />
+                <controls:SceneHero x:Name="HomeHero" Source="Assets/Art/Scenes/05_FUNDO_JARDIM_CIBERNETICO_HERO_WIDE_1920x650.png" />
                 <Grid
                     Margin="48,0,48,30"
                     VerticalAlignment="Bottom"

@@ -12,7 +12,7 @@
             </Grid.ColumnDefinitions>
             <StackPanel Spacing="16">
                 <StackPanel Spacing="6">
-                    <TextBlock Style="{StaticResource Type.Title}" Text="{local:Str Key=LotusTitle}" />
+                    <controls:PageBanner Source="Assets/Art/Banners/lotus_river.png" Title="{local:Str Key=LotusTitle}" />
                     <TextBlock
                         Foreground="{StaticResource Text.Secondary}"
                         Style="{StaticResource Type.Body}"

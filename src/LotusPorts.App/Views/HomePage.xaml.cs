@@ -18,6 +18,7 @@ public sealed partial class HomePage : Page
         InitializeComponent();
         Loaded += async (_, _) =>
         {
+            HomeHero.Source = await App.Services.GetRequiredService<AppearanceService>().HomeBannerAsync();
             await ViewModel.LoadAsync();
             var showInReview = (await App.Services.GetRequiredService<PreferencesService>().LoadAsync()).ShowInReview;
             Search.Load(App.Services.GetRequiredService<CatalogService>().Library.Visible(showInReview));

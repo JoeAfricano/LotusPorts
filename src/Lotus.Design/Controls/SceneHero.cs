@@ -1,3 +1,4 @@
+using Lotus.Design.Themes;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
@@ -8,8 +9,8 @@ using Windows.UI;
 namespace Lotus.Design.Controls;
 
 /// <summary>
-/// Hero backdrop from an illustrated scene (premium art pack), with the reading gradient on the left
-/// and a fade into the page at the bottom. Static: decoded once at the size shown, no animation.
+/// A scene or banner from the art package behind a page header, with a reading gradient on the left and a fade into the
+/// page. Both gradients use the current theme's page background, so the art blends into any theme (dark, light, custom).
 /// </summary>
 public sealed partial class SceneHero : UserControl
 {
@@ -17,26 +18,30 @@ public sealed partial class SceneHero : UserControl
         DependencyProperty.Register(nameof(Source), typeof(string), typeof(SceneHero), new PropertyMetadata("", (d, _) => ((SceneHero)d).Load()));
 
     private readonly Image image = new() { Stretch = Stretch.UniformToFill, HorizontalAlignment = HorizontalAlignment.Center, VerticalAlignment = VerticalAlignment.Center };
+    private readonly LinearGradientBrush reading;
+    private readonly LinearGradientBrush fade;
 
     public SceneHero()
     {
         IsTabStop = false;
         IsHitTestVisible = false;
-        var baseColor = Color.FromArgb(0xFF, 0x0D, 0x0A, 0x0F);
+        reading = Gradient(new Point(0, 0.5), new Point(1, 0.5), (0xEE, 0), (0x99, 0.42), (0x00, 0.78));
+        fade = Gradient(new Point(0.5, 0), new Point(0.5, 1), (0x00, 0.55), (0xFF, 1));
         Content = new Grid
         {
             Children =
             {
                 image,
-                // Reading gradient: text sits on the left.
-                new Border { Background = Gradient(new Point(0, 0.5), new Point(1, 0.5), (WithAlpha(baseColor, 0xEE), 0), (WithAlpha(baseColor, 0x99), 0.42), (WithAlpha(baseColor, 0x00), 0.78)) },
-                // Fade into the page.
-                new Border { Background = Gradient(new Point(0.5, 0), new Point(0.5, 1), (WithAlpha(baseColor, 0x00), 0.55), (baseColor, 1)) },
+                new Border { Background = reading }, // text sits on the left
+                new Border { Background = fade },    // the art fades into the page
             },
         };
+        Recolor(ThemePalette.BaseColor);
+        Loaded += (_, _) => ThemePalette.BaseColorChanged += Recolor;
+        Unloaded += (_, _) => ThemePalette.BaseColorChanged -= Recolor;
     }
 
-    /// <summary>App-relative path, for example Assets/Art/Scenes/04_FUNDO_SANTUARIO_LUNAR_HERO_WIDE_1920x650.png.</summary>
+    /// <summary>App-relative path, for example Assets/Art/Banners/lunar_torii.png.</summary>
     public string Source { get => (string)GetValue(SourceProperty); set => SetValue(SourceProperty, value); }
 
     private void Load()
@@ -46,12 +51,17 @@ public sealed partial class SceneHero : UserControl
         image.Source = new BitmapImage(new Uri("ms-appx:///" + Source.TrimStart('/'))) { DecodePixelWidth = 1920, DecodePixelType = DecodePixelType.Logical };
     }
 
-    private static Color WithAlpha(Color c, byte a) => Color.FromArgb(a, c.R, c.G, c.B);
+    private void Recolor(Color baseColor)
+    {
+        foreach (var brush in new[] { reading, fade })
+            foreach (var stop in brush.GradientStops)
+                stop.Color = Color.FromArgb(stop.Color.A, baseColor.R, baseColor.G, baseColor.B);
+    }
 
-    private static LinearGradientBrush Gradient(Point start, Point end, params (Color Color, double Offset)[] stops)
+    private static LinearGradientBrush Gradient(Point start, Point end, params (byte Alpha, double Offset)[] stops)
     {
         var brush = new LinearGradientBrush { StartPoint = start, EndPoint = end };
-        foreach (var (color, offset) in stops) brush.GradientStops.Add(new GradientStop { Color = color, Offset = offset });
+        foreach (var (alpha, offset) in stops) brush.GradientStops.Add(new GradientStop { Color = Color.FromArgb(alpha, 0, 0, 0), Offset = offset });
         return brush;
     }
 }

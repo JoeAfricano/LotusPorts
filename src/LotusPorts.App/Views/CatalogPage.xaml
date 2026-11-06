@@ -19,7 +19,7 @@
                         <EntranceThemeTransition FromVerticalOffset="28" IsStaggeringEnabled="True" />
                     </TransitionCollection>
                 </StackPanel.ChildrenTransitions>
-                <TextBlock Style="{StaticResource Type.Title}" Text="{local:Str Key=CatalogTitle}" />
+                <controls:PageBanner Source="Assets/Art/Banners/lantern_town.png" Title="{local:Str Key=CatalogTitle}" />
                 <TextBlock
                     Foreground="{StaticResource Text.Secondary}"
                     Style="{StaticResource Type.Body}"

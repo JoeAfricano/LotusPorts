@@ -20,6 +20,22 @@
             <SolidColorBrush x:Key="TextControlBorderBrush" Color="#FF33263A" />
             <SolidColorBrush x:Key="TextControlBorderBrushPointerOver" Color="#FF33263A" />
         </ResourceDictionary>
+        <!--  Light: same keys; ThemePalette recolors both versions with the chosen mode.  -->
+        <ResourceDictionary x:Key="Light">
+            <LinearGradientBrush x:Key="AccentButtonBackground" StartPoint="0,0" EndPoint="1,1"><GradientStop Offset="0" Color="#FFF25A93" /><GradientStop Offset="1" Color="#FFD23A7A" /></LinearGradientBrush>
+            <SolidColorBrush x:Key="AccentButtonBackgroundPointerOver" Color="#FFF46A9E" />
+            <SolidColorBrush x:Key="AccentButtonBackgroundPressed" Color="#FFC42A78" />
+            <SolidColorBrush x:Key="AccentButtonForeground" Color="#FFFFFFFF" />
+            <SolidColorBrush x:Key="AccentButtonForegroundPointerOver" Color="#FFFFFFFF" />
+            <SolidColorBrush x:Key="AccentButtonForegroundPressed" Color="#FFFFFFFF" />
+            <SolidColorBrush x:Key="AccentButtonBorderBrush" Color="Transparent" />
+            <SolidColorBrush x:Key="AccentButtonBorderBrushPointerOver" Color="Transparent" />
+            <SolidColorBrush x:Key="AccentButtonBorderBrushPressed" Color="Transparent" />
+            <SolidColorBrush x:Key="TextControlBackground" Color="#FF171219" />
+            <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="#FF221A26" />
+            <SolidColorBrush x:Key="TextControlBorderBrush" Color="#FF33263A" />
+            <SolidColorBrush x:Key="TextControlBorderBrushPointerOver" Color="#FF33263A" />
+        </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 
     <!--  Tokens (docs/UX.md). Views use the brushes below, never loose colors.  -->
@@ -86,6 +102,8 @@
     <SolidColorBrush x:Key="State.Fail.Subtle" Opacity="0.14" Color="{StaticResource Color.State.Fail}" />
     <SolidColorBrush x:Key="State.Unknown.Subtle" Opacity="0.16" Color="{StaticResource Color.State.Unknown}" />
     <SolidColorBrush x:Key="Accent.Pink.Subtle" Opacity="0.16" Color="{StaticResource Color.Accent.Pink}" />
+    <!--  Text on the accent fill (white for the built-in accents; dark on light custom accents, chosen by ThemePalette).  -->
+    <SolidColorBrush x:Key="Accent.OnFill" Color="#FFFFFFFF" />
 
     <LinearGradientBrush x:Key="Accent.Gradient" StartPoint="0,0" EndPoint="1,1">
         <GradientStop Offset="0" Color="#FFF25A93" />
@@ -200,7 +218,7 @@
                                     <VisualState.Setters>
                                         <Setter Target="Root.Background" Value="{StaticResource Accent.Gradient}" />
                                         <Setter Target="Root.BorderBrush" Value="{StaticResource Accent.Rose}" />
-                                        <Setter Target="Content.Foreground" Value="{StaticResource Text.Primary}" />
+                                        <Setter Target="Content.Foreground" Value="{StaticResource Accent.OnFill}" />
                                     </VisualState.Setters>
                                 </VisualState>
                                 <VisualState x:Name="Unchecked" />
@@ -256,7 +274,7 @@
                                     <VisualState.Setters>
                                         <Setter Target="Root.Background" Value="{StaticResource Accent.Gradient}" />
                                         <Setter Target="Root.BorderBrush" Value="{StaticResource Accent.Rose}" />
-                                        <Setter Target="Content.Foreground" Value="{StaticResource Text.Primary}" />
+                                        <Setter Target="Content.Foreground" Value="{StaticResource Accent.OnFill}" />
                                     </VisualState.Setters>
                                 </VisualState>
                                 <VisualState x:Name="Unchecked" />

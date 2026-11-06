@@ -8,6 +8,9 @@ namespace LotusPorts.Infrastructure.Lotus;
 /// <summary>The player profile created in Lotus (name, picture, accent color).</summary>
 public sealed record LotusProfile(string DisplayName, string? AvatarPath, string? Accent);
 
+/// <summary>Lotus's theme choice: mode (Midnight/Light/System/Graphite/Custom), accent and the custom theme's share code.</summary>
+public sealed record LotusAppearance(string Theme, string Accent, string? CustomTheme);
+
 /// <summary>
 /// Reads the player profile from Lotus's own preferences (%LOCALAPPDATA%\Lotus\preferences.json) and finds
 /// the installed Lotus. Read-only: Lotus Ports never writes to Lotus's files or registry.
@@ -40,6 +43,25 @@ public sealed class LotusProfileReader(string? lotusDataFolder = null)
             if (avatar is not null && !(Path.IsPathFullyQualified(avatar) && PictureExtensions.Contains(Path.GetExtension(avatar).ToLowerInvariant()) && File.Exists(avatar)))
                 avatar = null;
             return new LotusProfile(name, avatar, Text(root, "Accent"));
+        }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException or JsonException)
+        {
+            return null;
+        }
+    }
+
+    /// <summary>Lotus's look (Theme, Accent, CustomTheme from its preferences), so Lotus Ports can match it. Null without Lotus.</summary>
+    public LotusAppearance? ReadAppearance()
+    {
+        var file = Path.Combine(Folder, "preferences.json");
+        try
+        {
+            if (!File.Exists(file) || new FileInfo(file).Length > 1024 * 1024) return null;
+            using var stream = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite | FileShare.Delete);
+            using var doc = JsonDocument.Parse(stream);
+            var root = doc.RootElement;
+            if (root.ValueKind != JsonValueKind.Object) return null;
+            return new LotusAppearance(Text(root, "Theme") ?? "Midnight", Text(root, "Accent") ?? "rose", Text(root, "CustomTheme"));
         }
         catch (Exception ex) when (ex is IOException or UnauthorizedAccessException or JsonException)
         {

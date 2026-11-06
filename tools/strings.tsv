@@ -530,3 +530,42 @@ ExperienceApply	Aplicar	Apply
 ExperienceOpenReport	Ver relatório completo no Lotus	See the full report in Lotus
 ExperienceEditProfile	Editar perfil no Lotus	Edit profile in Lotus
 ExperienceDriverChanged	O driver de vídeo foi atualizado em {0}: o primeiro jogo depois disso pode engasgar um pouco enquanto se prepara.	The graphics driver was updated on {0}: the first game afterwards may stutter a little while it gets ready.
+AppearanceTitle	Aparência	Appearance
+AppearanceHint	O mesmo sistema de temas do Lotus. "Igual ao Lotus" segue o que você escolher lá, inclusive temas personalizados.	The same theme system as Lotus. "Same as Lotus" follows what you choose there, custom themes included.
+AppearanceAccent	Cor de destaque	Accent color
+AppearanceGallery	Galeria de temas do Lotus	Lotus theme gallery
+AppearanceCodePlaceholder	Cole aqui um código de tema do Lotus (LOTUS-THEME:…)	Paste a Lotus theme code here (LOTUS-THEME:…)
+AppearanceUseCode	Usar tema	Use theme
+AppearanceFollowing	Seguindo o Lotus: {0}.	Following Lotus: {0}.
+AppearanceCustom	Tema personalizado: {0}.	Custom theme: {0}.
+AppearanceBadCode	Esse código não é um tema do Lotus. Copie o código no Estúdio de temas do Lotus.	That code isn't a Lotus theme. Copy the code from the Lotus Theme Studio.
+ThemeLotus	Igual ao Lotus	Same as Lotus
+ThemeLotusHint	Os dois apps com a mesma cara	Both apps look the same
+ThemeMidnight	Escuro	Dark
+ThemeMidnightHint	Ameixa profunda	Deep plum
+ThemeLight	Rosé porcelana	Rosé porcelain
+ThemeLightHint	Claro e confortável	Light and comfortable
+ThemeGraphite	Grafite	Graphite
+ThemeGraphiteHint	Escuro neutro	Neutral dark
+ThemeSystem	Igual ao Windows	Same as Windows
+ThemeSystemHint	Claro ou escuro, como o Windows	Light or dark, like Windows
+ThemeCustom	Personalizado	Custom
+ThemeCustomHint	O tema que você escolheu	The theme you chose
+Accentrose	Rosa	Rose
+Accentviolet	Violeta	Violet
+Accentblue	Azul	Blue
+Accentgreen	Verde	Green
+Accentcrimson	Carmim	Crimson
+Accentgold	Dourado	Gold
+Accentdark	Escuro	Dark
+AppearanceHomeBanner	Banner do Início	Home banner
+Bannerjardim	Jardim Cibernético	Cyber Garden
+Bannersantuario	Santuário Lunar	Lunar Sanctuary
+Bannersakura_temple	Templo das Sakuras	Sakura Temple
+Bannerlunar_torii	Torii da Lua	Moon Torii
+Bannerlotus_river	Rio das Lótus	Lotus River
+Bannerlantern_town	Vila das Lanternas	Lantern Town
+Banneraurora_peaks	Picos da Aurora	Aurora Peaks
+Bannercosmic_orbit	Órbita Cósmica	Cosmic Orbit
+Bannerpurple_rift	Fenda Púrpura	Purple Rift
+Bannerbamboo_path	Caminho de Bambu	Bamboo Path

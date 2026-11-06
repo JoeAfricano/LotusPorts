@@ -55,6 +55,19 @@ public sealed partial class MainWindow : Window
         Navigate(split[0], split.Length > 1 ? split[1] : null);
         ShowProfile();
         Activated += OnActivated;
+        // Theme: light/dark for WinUI controls and the caption buttons follow the family theme, live.
+        var appearance = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<AppearanceService>(App.Services);
+        void ShowTheme()
+        {
+            Root.RequestedTheme = appearance.Element;
+            var light = appearance.Element == ElementTheme.Light;
+            titleBar.ButtonForegroundColor = light ? Windows.UI.Color.FromArgb(0xFF, 0x2B, 0x10, 0x20) : Colors.White;
+            titleBar.ButtonHoverBackgroundColor = light ? Windows.UI.Color.FromArgb(0x1F, 0x2B, 0x10, 0x20) : Windows.UI.Color.FromArgb(0x26, 0xFF, 0xFF, 0xFF);
+        }
+        appearance.Changed += ShowTheme;
+        ShowTheme();
+        Activated += (_, a) => { if (a.WindowActivationState != WindowActivationState.Deactivated) appearance.RefreshFromLotus(); };
+
         // The petal lights up only while Lotus is really connected.
         var bridge = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<LotusBridge>(App.Services);
         void ShowLotus() => NavLotusPetal.IsLit = bridge.Status.State == LotusPorts.Integration.LotusConnectionState.Connected;

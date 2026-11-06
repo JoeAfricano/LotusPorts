@@ -13,7 +13,7 @@
             </Grid.ColumnDefinitions>
         <StackPanel
             Spacing="16">
-            <TextBlock Style="{StaticResource Type.Title}" Text="{local:Str Key=NavSettings}" />
+            <controls:PageBanner Source="Assets/Art/Banners/cosmic_orbit.png" Title="{local:Str Key=NavSettings}" />
             <InfoBar
                 IsClosable="False"
                 IsOpen="{x:Bind local:Ui.HasText(ViewModel.SaveError), Mode=OneWay}"
@@ -164,6 +164,61 @@
                         <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=SettingsTvMode}" />
                         <controls:StateBadge Grid.Column="1" Text="{local:Str Key=BadgeInDevelopment}" />
                     </Grid>
+                </StackPanel>
+            </Border>
+
+            <!--  Aparência: the same theme system as Lotus (modes, accents, custom themes by code, gallery)  -->
+            <Border Style="{StaticResource Lotus.Card}">
+                <StackPanel Spacing="14">
+                    <StackPanel Spacing="4">
+                        <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=AppearanceTitle}" />
+                        <TextBlock
+                            Style="{StaticResource Type.Caption}"
+                            Text="{local:Str Key=AppearanceHint}"
+                            TextWrapping="Wrap" />
+                    </StackPanel>
+                    <GridView
+                        x:Name="ThemeChoices"
+                        IsItemClickEnabled="True"
+                        ItemClick="OnThemeClick"
+                        SelectionMode="Single" />
+                    <StackPanel x:Name="AccentRow" Spacing="8">
+                        <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=AppearanceAccent}" />
+                        <StackPanel
+                            x:Name="AccentChoices"
+                            Orientation="Horizontal"
+                            Spacing="10" />
+                    </StackPanel>
+                    <StackPanel Spacing="8">
+                        <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=AppearanceGallery}" />
+                        <StackPanel
+                            x:Name="GalleryChoices"
+                            Orientation="Horizontal"
+                            Spacing="8" />
+                    </StackPanel>
+                    <StackPanel Spacing="8">
+                        <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=AppearanceHomeBanner}" />
+                        <GridView
+                            x:Name="BannerChoices"
+                            IsItemClickEnabled="True"
+                            ItemClick="OnBannerClick"
+                            SelectionMode="Single" />
+                    </StackPanel>
+                    <Grid ColumnSpacing="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="ThemeCode" PlaceholderText="{local:Str Key=AppearanceCodePlaceholder}" />
+                        <Button
+                            Grid.Column="1"
+                            Click="OnUseThemeCode"
+                            Content="{local:Str Key=AppearanceUseCode}" />
+                    </Grid>
+                    <TextBlock
+                        x:Name="AppearanceStatus"
+                        Style="{StaticResource Type.Caption}"
+                        TextWrapping="Wrap" />
                 </StackPanel>
             </Border>
 

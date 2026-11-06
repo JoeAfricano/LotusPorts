@@ -10,7 +10,7 @@
     <ScrollViewer HorizontalScrollBarVisibility="Disabled" HorizontalScrollMode="Disabled">
         <StackPanel>
             <Grid Height="280">
-                <controls:SceneHero Source="Assets/Art/Scenes/04_FUNDO_SANTUARIO_LUNAR_HERO_COMPACT_1440x520.png" />
+                <controls:SceneHero Source="Assets/Art/Banners/lunar_torii.png" />
                 <StackPanel
                     MaxWidth="660"
                     Margin="48,0,48,26"
