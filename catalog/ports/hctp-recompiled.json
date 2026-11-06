@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "HCTP Recompiled/HCTP Recompiled Settings.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

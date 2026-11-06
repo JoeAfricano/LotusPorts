@@ -13,10 +13,10 @@
   "alternatives": [],
   "lotusGameKey": "port:def-jam-vendetta",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/16580285a873fc78017c67eb862914a0.png",

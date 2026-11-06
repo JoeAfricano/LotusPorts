@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "XC2-Setup/XC2-Setup.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

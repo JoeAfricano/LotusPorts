@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "ie3ogre-recomp/ie3-launcher.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

@@ -11,10 +11,10 @@
   "alternatives": [],
   "lotusGameKey": "port:xenoblade-chronicles-2",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/5ef6efaa8d75619baf4cb6a9cf2df5a6.png",

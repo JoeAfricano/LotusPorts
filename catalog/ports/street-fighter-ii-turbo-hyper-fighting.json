@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "sf2turbo-0.1.1-windows-x64/StreetFighterIiTurboSNESRecomp.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

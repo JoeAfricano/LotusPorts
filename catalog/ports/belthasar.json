@@ -19,7 +19,7 @@
     "preferPrerelease": true,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "Belthasar-v0.15.0-preview-windows-x64/Belthasar.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

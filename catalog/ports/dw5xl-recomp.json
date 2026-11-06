@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "DW5XL-4c22952-windows-x64/DW5XL.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

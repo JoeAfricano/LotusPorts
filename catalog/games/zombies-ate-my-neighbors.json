@@ -13,10 +13,10 @@
   "alternatives": [],
   "lotusGameKey": "port:zombies-ate-my-neighbors",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/f04fadf15f1bc7fac1043656f4d06394.png",

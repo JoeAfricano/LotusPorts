@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "cod_bro-0.2.2-windows/cod_bro_launcher.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

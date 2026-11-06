@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "WarioLand4-Native-PC-Port-v0.3.2-beta-Windows-x64/wl4-launcher.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

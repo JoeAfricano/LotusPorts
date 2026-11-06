@@ -11,10 +11,10 @@
   "alternatives": [],
   "lotusGameKey": "port:pokemon-trading-card-game-2-the-invasion-of-team-gr",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Pokemon%20Trading%20Card%20Game%202%20-%20The%20Invasion%20of%20Team%20GR%20%28USA%29.png",

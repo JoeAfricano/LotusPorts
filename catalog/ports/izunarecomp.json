@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "IzunaRecomp-0.2.0-windows/ng2.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

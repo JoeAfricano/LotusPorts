@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "supermariokart-0.1.4-windows-x64/SuperMarioKartSNESRecomp.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

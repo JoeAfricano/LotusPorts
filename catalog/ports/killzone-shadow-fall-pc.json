@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "Killzone Shadow Fall/Killzone Shadow Fall.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

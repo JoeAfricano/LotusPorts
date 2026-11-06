@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "TwoTowers-Recompiled-v1.9.9-win64/The Two Towers Recompiled.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "donkeykongcountry2-0.1.5-windows-x64/DonkeyKongCountry2SNESRecomp.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

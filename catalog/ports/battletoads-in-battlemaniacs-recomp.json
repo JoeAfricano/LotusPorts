@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "battletoads-0.1.4-windows-x64/BattletoadsInBattlemaniacsSNESRecomp.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

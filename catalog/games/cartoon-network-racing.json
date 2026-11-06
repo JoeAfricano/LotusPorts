@@ -7,7 +7,7 @@
   "genre": [],
   "descriptionPtBr": "Cartoon Network Racing, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
   "recommendedPortId": "cartoon-network-racing-recompiled",
-  "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
   "alternatives": [
     {
       "portId": "cartoon-network-racing-recompiled-tekrantgaming",
@@ -16,10 +16,10 @@
   ],
   "lotusGameKey": "port:cartoon-network-racing",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/8fb512dd4fc5c4a606d8ebcffd81923d.png",

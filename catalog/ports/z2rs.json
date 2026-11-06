@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "z2rs-0.6.0-x86_64-pc-windows-msvc/z2rs-launcher.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

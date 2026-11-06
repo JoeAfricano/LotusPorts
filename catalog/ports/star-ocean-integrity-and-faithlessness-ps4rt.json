@@ -19,7 +19,7 @@
     "preferPrerelease": true,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "ps4rt-star-ocean-5-windows-x64-v0.4.0-latest/bin/Star Ocean 5 Launcher.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

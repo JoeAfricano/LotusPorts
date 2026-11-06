@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "DOAX2-Recomp-v1.1.6/DOAX2 Recomp Launcher.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

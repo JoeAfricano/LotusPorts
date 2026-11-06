@@ -13,10 +13,10 @@
   "alternatives": [],
   "lotusGameKey": "port:call-of-duty-modern-warfare-2",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/cc96d0754de7d47e9a9a709eb2cd451f.jpg",

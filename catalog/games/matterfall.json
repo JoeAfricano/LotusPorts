@@ -11,10 +11,10 @@
   "alternatives": [],
   "lotusGameKey": "port:matterfall",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/540c90edf9b6c8f658975acbb7e4f297.png",

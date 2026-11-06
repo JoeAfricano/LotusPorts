@@ -13,10 +13,10 @@
   "alternatives": [],
   "lotusGameKey": "port:desert-strike-return-to-the-gulf",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/f03923abada8ac4917edee2c9d817a71.png",

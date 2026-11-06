@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "Sonic3KRecomp.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

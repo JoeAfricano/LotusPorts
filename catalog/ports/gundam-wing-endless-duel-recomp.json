@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "gundamwingendlessduel-0.1.12-windows-x64/GundamWingEndlessDuelSNESRecomp.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

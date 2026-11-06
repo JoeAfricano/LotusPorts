@@ -19,7 +19,7 @@
     "preferPrerelease": true,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "TriAevum-v0.8.0-beta.1.2-Windows-x64/TriAevumForge.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

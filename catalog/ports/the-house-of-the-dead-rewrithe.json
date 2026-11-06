@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "HOTD ReWrithe Release/bin/hotd_launch.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "WitchTime-v0.8.0-windows-x86_64/witch-time.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

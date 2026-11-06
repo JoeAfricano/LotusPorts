@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "Def Jam Vendetta Recompiled/Def Jam Vendetta Recompiled Settings.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

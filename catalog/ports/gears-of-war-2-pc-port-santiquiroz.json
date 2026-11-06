@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "gow2-recomp-0.3.13-win64/gow2.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

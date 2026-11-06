@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "spartanport-windows/SpartanPort.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

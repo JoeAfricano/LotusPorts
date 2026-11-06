@@ -150,3 +150,9 @@ Sem chave, ou com o GitHub indisponível, o comando mantém as capas que cada jo
 - Fora: ports que vão *para* Switch/PS4/PS5/Android/Mac (o Lotus Ports roda no Windows), os que só embutem um emulador, ferramentas genéricas, protótipos vazados, repositórios arquivados.
 - Plataforma nova: `SWITCH_2`. No gerador, `"soon": true` lista um projeto sem versão em "Em breve" e `"exe"` indica o programa quando o pacote tem mais de um.
 - Repetir a busca de tempos em tempos: os usuários procuram muito por esses consoles.
+
+## Revisão de 06/11/2026
+
+- **632 de 640 jogos aprovados.** Os 76 que estavam pendentes tiveram o índice do zip oficial lido (sem baixar o jogo) e o programa de entrada escolhido pela regra: o launcher ou instalador do próprio port quando existe, senão o executável do jogo; ferramentas de compilação nunca. Def Jam Vendetta e HCTP usam o "Settings.exe", que o README de cada um indica como entrada.
+- **8 continuam em revisão**, com o motivo em `review.notesPtBr`: FIFA 2010 (só pasta de compilação), 50 Cent (compilação de teste), Final Fantasy NES (zip de código-fonte), Namco System 22 (13 jogos num pacote só), Kirby Air Ride (só o editor de mapas), Tekken Tag 2 (só o servidor), Shadow Fight 2 (só ferramentas) e Cut the Rope (7z não conferido).
+- O status dos ports (Jogável, Com bugs…) continua "Ainda não avaliado": isso só se afirma jogando.

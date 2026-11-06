@@ -120,7 +120,7 @@
         "state": "pending",
         "by": null,
         "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "notesPtBr": "Mantido em revisão: a versão publicada é uma pasta de compilação (só ferramentas e o recompilador), sem o programa do jogo."
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/5034c91e699f982a5983c737e358a48a.png",
@@ -230,7 +230,7 @@
         "state": "pending",
         "by": null,
         "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "notesPtBr": "Mantido em revisão: a versão publicada é uma compilação de teste, só com uma DLL e um leia-me."
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/10147600afa70393739bd5655789e13d.png",
@@ -303,7 +303,7 @@
       ],
       "descriptionPtBr": "Aegis Wing, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "aegis-wing-xbla-recomp",
-      "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+      "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
       "alternatives": [
         {
           "portId": "aegis-wing-xbla-recomp-caiuscodes",
@@ -312,10 +312,10 @@
       ],
       "lotusGameKey": "port:aegis-wing",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/3c22ca09fac8ad6753f4edfffea7e7f7.png",
@@ -518,10 +518,10 @@
       "alternatives": [],
       "lotusGameKey": "port:angry-birds-trilogy",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/91baa87f990788efa43959f52041f877.png",
@@ -541,10 +541,10 @@
       "alternatives": [],
       "lotusGameKey": "port:animal-crossing-new-horizons",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/078d2a1275f0d53cda67d165440aeb50.png",
@@ -696,10 +696,10 @@
       "alternatives": [],
       "lotusGameKey": "port:astral-chain",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/e9571c97ad8514c0aa6bb199bda1427b.png",
@@ -1012,10 +1012,10 @@
       "alternatives": [],
       "lotusGameKey": "port:battletoads-in-battlemaniacs",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/2207e8cc5dccb117cb5d5333761d5055.png",
@@ -1060,10 +1060,10 @@
       "alternatives": [],
       "lotusGameKey": "port:bayonetta-3",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/ebd84dd9a85f413a34e9d8a21cc6ccc7.png",
@@ -1308,10 +1308,10 @@
       "alternatives": [],
       "lotusGameKey": "port:blue-stinger",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/023ebcfd3444e1cdc7aeb1421510f237.png",
@@ -1609,10 +1609,10 @@
       "alternatives": [],
       "lotusGameKey": "port:cadence-of-hyrule",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -1628,10 +1628,10 @@
       "alternatives": [],
       "lotusGameKey": "port:call-of-duty-2-big-red-one",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/3e5589b2df55552e7716818b29ba2a2d.png",
@@ -1703,10 +1703,10 @@
       "alternatives": [],
       "lotusGameKey": "port:call-of-duty-modern-warfare-2",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/cc96d0754de7d47e9a9a709eb2cd451f.jpg",
@@ -1745,7 +1745,7 @@
       "genre": [],
       "descriptionPtBr": "Cartoon Network Racing, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "cartoon-network-racing-recompiled",
-      "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+      "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
       "alternatives": [
         {
           "portId": "cartoon-network-racing-recompiled-tekrantgaming",
@@ -1754,10 +1754,10 @@
       ],
       "lotusGameKey": "port:cartoon-network-racing",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/8fb512dd4fc5c4a606d8ebcffd81923d.png",
@@ -1844,10 +1844,10 @@
       "alternatives": [],
       "lotusGameKey": "port:castlevania-curse-of-darkness",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/f7840372da5ad42b5a4b2ce7cc30e3de.png",
@@ -1946,10 +1946,10 @@
       "alternatives": [],
       "lotusGameKey": "port:chrono-trigger-snes",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -2126,10 +2126,10 @@
       "alternatives": [],
       "lotusGameKey": "port:crackdown-2",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/9a0298d03a55b3da7c39eb509782ea81.png",
@@ -2181,10 +2181,10 @@
       "alternatives": [],
       "lotusGameKey": "port:crash-bandicoot-2-cortex-strikes-back",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/4bdf589279f3060aaa0fd967c3c8a80b.png",
@@ -2382,10 +2382,10 @@
       "alternatives": [],
       "lotusGameKey": "port:cruis-n-blast",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/7a4c857629826bb62461ffcf3fd4a0ca.png",
@@ -2436,7 +2436,7 @@
         "state": "pending",
         "by": null,
         "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "notesPtBr": "Mantido em revisão: pacote 7z: o programa dentro dele ainda não pôde ser conferido."
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/0384e59d348a9248f08a2627cdf43741.png",
@@ -2600,10 +2600,10 @@
       "alternatives": [],
       "lotusGameKey": "port:dead-or-alive-xtreme-2",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/c1625916d047b11efde983e3e5500563.png",
@@ -2756,10 +2756,10 @@
       "alternatives": [],
       "lotusGameKey": "port:def-jam-vendetta",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/16580285a873fc78017c67eb862914a0.png",
@@ -2827,10 +2827,10 @@
       "alternatives": [],
       "lotusGameKey": "port:desert-strike-return-to-the-gulf",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/f03923abada8ac4917edee2c9d817a71.png",
@@ -3278,7 +3278,7 @@
       ],
       "descriptionPtBr": "Donkey Kong Country 2: Diddy's Kong Quest, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "dkc2recomp",
-      "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+      "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
       "alternatives": [
         {
           "portId": "donkey-kong-country-2-recomp",
@@ -3287,10 +3287,10 @@
       ],
       "lotusGameKey": "port:donkey-kong-country-2-diddy-s-kong-quest",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/5815383dbef0d664c7420eecc4303ae9.png",
@@ -3902,10 +3902,10 @@
       "alternatives": [],
       "lotusGameKey": "port:dynasty-warriors-5-xtreme-legends",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/c11ef6ac3013bc69fa311126ce443c72.png",
@@ -4451,7 +4451,7 @@
         "state": "pending",
         "by": null,
         "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "notesPtBr": "Mantido em revisão: o zip publicado traz o código-fonte, não o programa do jogo."
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/4c112afc9b1ebde9d311cca23e8eb2b8.png",
@@ -4716,7 +4716,7 @@
       ],
       "descriptionPtBr": "Gears of War 2, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "gears-of-war-2-pc-port",
-      "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+      "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
       "alternatives": [
         {
           "portId": "gears-of-war-2-pc-port-santiquiroz",
@@ -4725,10 +4725,10 @@
       ],
       "lotusGameKey": "port:gears-of-war-2",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/537be42935b21c04fac5d9913777f7ee.png",
@@ -4890,10 +4890,10 @@
       "alternatives": [],
       "lotusGameKey": "port:god-of-war-iii-remastered",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/bc6a17604012da6895c1bacd28cdb9fa.png",
@@ -4974,10 +4974,10 @@
       "alternatives": [],
       "lotusGameKey": "port:godzilla",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/c77206691d093e3055824d7063e7fa59.png",
@@ -5219,10 +5219,10 @@
       "alternatives": [],
       "lotusGameKey": "port:grand-theft-auto-v",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/af0a25e27510f77d97634a6bbe653b13.jpg",
@@ -5306,10 +5306,10 @@
       "alternatives": [],
       "lotusGameKey": "port:gravity-rush-remastered-gravity-rush-2",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -5898,10 +5898,10 @@
       "alternatives": [],
       "lotusGameKey": "port:inazuma-eleven-3-sekai-heno-chousen-the-ogre",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -6372,10 +6372,10 @@
       "alternatives": [],
       "lotusGameKey": "port:killzone-shadow-fall",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/001c051f536279e94d0902528a70187d.png",
@@ -6526,7 +6526,7 @@
         "state": "pending",
         "by": null,
         "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "notesPtBr": "Mantido em revisão: a versão publicada é o editor de mapas, não o jogo."
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/b83a52c035258ed43d787106b1765e35.png",
@@ -6750,10 +6750,10 @@
       "alternatives": [],
       "lotusGameKey": "port:laserlords",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: possível duplicado de outro jogo do catálogo."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/0056cfede5c828edca07331794be1d31.jpg",
@@ -6934,10 +6934,10 @@
       "alternatives": [],
       "lotusGameKey": "port:looney-tunes-b-ball",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/a7fbb261e1cfe7a826dc0ac7854005d8.png",
@@ -7090,7 +7090,7 @@
       ],
       "descriptionPtBr": "Mario Kart: Double Dash!!, lançado originalmente para GameCube, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "project-tandem",
-      "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+      "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
       "alternatives": [
         {
           "portId": "project-tandem-badcompany94-rcmp",
@@ -7099,10 +7099,10 @@
       ],
       "lotusGameKey": "port:mario-kart-double-dash",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/c22ad3828656e72b71489a0e3b20df58.png",
@@ -7443,10 +7443,10 @@
       "alternatives": [],
       "lotusGameKey": "port:matterfall",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/540c90edf9b6c8f658975acbb7e4f297.png",
@@ -8329,10 +8329,10 @@
       "alternatives": [],
       "lotusGameKey": "port:motorstorm-arctic-edge",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/2444e94c5ec2ca7d7653afc9d7fd21e4.png",
@@ -8348,7 +8348,7 @@
       "genre": [],
       "descriptionPtBr": "Muppet RaceMania, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "muppet-racemania-recompiled",
-      "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+      "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
       "alternatives": [
         {
           "portId": "muppet-racemania-recompiled-tekrantgaming",
@@ -8357,10 +8357,10 @@
       ],
       "lotusGameKey": "port:muppet-racemania",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/0921c179447f8ca03425e3885c04c185.png",
@@ -8476,7 +8476,7 @@
         "state": "pending",
         "by": null,
         "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "notesPtBr": "Mantido em revisão: o pacote traz 13 jogos diferentes num zip só; cada um precisa de uma entrada própria no catálogo."
       }
     },
     {
@@ -8667,10 +8667,10 @@
       "alternatives": [],
       "lotusGameKey": "port:nba-jam-on-fire-edition",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/0dc1a49c77551455f35a216ed5a7e9fd.png",
@@ -8717,10 +8717,10 @@
       "alternatives": [],
       "lotusGameKey": "port:need-for-speed-most-wanted",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png",
@@ -9020,10 +9020,10 @@
       "alternatives": [],
       "lotusGameKey": "port:ninja-gaiden-ii",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/952316a1c27f03d5b6cd9d6d530d1ee2.png",
@@ -9694,10 +9694,10 @@
       "alternatives": [],
       "lotusGameKey": "port:pokemon-legends-z-a",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/e0a5caef34b7535c913610b035a2c9ab.png",
@@ -9856,10 +9856,10 @@
       "alternatives": [],
       "lotusGameKey": "port:pokemon-trading-card-game-2-the-invasion-of-team-gr",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Pokemon%20Trading%20Card%20Game%202%20-%20The%20Invasion%20of%20Team%20GR%20%28USA%29.png",
@@ -9879,10 +9879,10 @@
       "alternatives": [],
       "lotusGameKey": "port:pokopia",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -10057,10 +10057,10 @@
       "alternatives": [],
       "lotusGameKey": "port:rampage-total-destruction",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/ab63243d415513c2307a6ff350832d10.png",
@@ -10540,10 +10540,10 @@
       "alternatives": [],
       "lotusGameKey": "port:saru-get-you-saru-saru-daisakusen",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -10758,7 +10758,7 @@
         "state": "pending",
         "by": null,
         "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "notesPtBr": "Mantido em revisão: o pacote só traz ferramentas de extração, sem o programa do jogo."
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/03440368ae777a908ab20b6fb052a69e.jpg",
@@ -10855,10 +10855,10 @@
       "alternatives": [],
       "lotusGameKey": "port:shin-kido-senki-gundam-wing-endless-duel",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -11197,7 +11197,7 @@
       "genre": [],
       "descriptionPtBr": "Sneak King, Big Bumpin' and PocketBike Racer, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "whopping-collection",
-      "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+      "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
       "alternatives": [
         {
           "portId": "whopping-collection-tekrantgaming",
@@ -11206,10 +11206,10 @@
       ],
       "lotusGameKey": "port:sneak-king-big-bumpin-and-pocketbike-racer",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -11303,10 +11303,10 @@
       "alternatives": [],
       "lotusGameKey": "port:sonic-3-knuckles",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -11884,10 +11884,10 @@
       "alternatives": [],
       "lotusGameKey": "port:star-ocean-integrity-and-faithlessness",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/982d9c958a5295307675ebff615d7523.png",
@@ -11953,10 +11953,10 @@
       "alternatives": [],
       "lotusGameKey": "port:street-fighter-alpha-3",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/462f3e90d719b84b542de1d768d97110.png",
@@ -12028,10 +12028,10 @@
       "alternatives": [],
       "lotusGameKey": "port:street-fighter-ii-turbo-hyper-fighting",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/082eed51e2c30b45afafc5bc959eaf88.png",
@@ -12174,10 +12174,10 @@
       "alternatives": [],
       "lotusGameKey": "port:strike-gunner-s-t-g",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/0ab3d95560ca291f975dd4462c477285.jpg",
@@ -12197,10 +12197,10 @@
       "alternatives": [],
       "lotusGameKey": "port:stunt-race-fx",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/25b311c3cd4efa335daa2bd527046fad.png",
@@ -12579,10 +12579,10 @@
       "alternatives": [],
       "lotusGameKey": "port:super-mario-kart",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/366db7a591a75efd125cb44641124f2e.jpg",
@@ -12809,10 +12809,10 @@
       "alternatives": [],
       "lotusGameKey": "port:super-mario-world",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/2bf887cd37fa5ba4ce0ba9713013a4f7.png",
@@ -12954,10 +12954,10 @@
       "alternatives": [],
       "lotusGameKey": "port:super-smash-bros-for-wii-u",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/5b2133764ba9ee4e211cf50a7e3c86f5.png",
@@ -13314,7 +13314,7 @@
         "state": "pending",
         "by": null,
         "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "notesPtBr": "Mantido em revisão: a versão publicada é só o servidor online."
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/39c39eb6c34b4b3799fd38a0509dd76b.png",
@@ -13515,10 +13515,10 @@
       "alternatives": [],
       "lotusGameKey": "port:the-house-of-the-dead",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/9982d3efd6dcab4387fc1817ef660f08.png",
@@ -13635,7 +13635,7 @@
       "genre": [],
       "descriptionPtBr": "The Last of Us Remastered, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "tlou-remastered-pc",
-      "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+      "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
       "alternatives": [
         {
           "portId": "tlou-remastered-pc-ravencaio",
@@ -13644,10 +13644,10 @@
       ],
       "lotusGameKey": "port:the-last-of-us-remastered",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/8328a70fd14eddbcc8464712aaf52252.png",
@@ -13813,7 +13813,7 @@
       ],
       "descriptionPtBr": "The Legend of Zelda: Ocarina of Time 3D, lançado originalmente para Nintendo 3DS, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "triaevum-echoes-of-time",
-      "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+      "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
       "alternatives": [
         {
           "portId": "ocarina-retuned",
@@ -13822,10 +13822,10 @@
       ],
       "lotusGameKey": "port:the-legend-of-zelda-ocarina-of-time-3d",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/ab6fe89d793b5a3c4153692779cb0680.png",
@@ -13983,10 +13983,10 @@
       "alternatives": [],
       "lotusGameKey": "port:the-lord-of-the-rings-the-two-towers",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/043d12ba178a464118c44248d381dbbb.png",
@@ -14068,10 +14068,10 @@
       "alternatives": [],
       "lotusGameKey": "port:the-simpsons-wrestling",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/278c310c60e30797cb89e36c84189428.jpg",
@@ -14256,10 +14256,10 @@
       "alternatives": [],
       "lotusGameKey": "port:timesplitters-future-perfect",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/1c58c5146fcc1bade9f6ff54e1fc6aa2.png",
@@ -14668,10 +14668,10 @@
       "alternatives": [],
       "lotusGameKey": "port:trials-hd-trials-evolution-trials-fusion",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       }
     },
     {
@@ -15131,7 +15131,7 @@
       ],
       "descriptionPtBr": "War of the Monsters, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "war-of-the-monsters-recomp",
-      "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+      "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
       "alternatives": [
         {
           "portId": "war-of-the-monsters-recomp-yanm1103",
@@ -15140,10 +15140,10 @@
       ],
       "lotusGameKey": "port:war-of-the-monsters",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/8423896e04d8cc356ddbb29d4cc9288d.png",
@@ -15188,10 +15188,10 @@
       "alternatives": [],
       "lotusGameKey": "port:wario-land-4",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/05d473743a62f7f3bfc3ecad84c1519c.png",
@@ -15690,10 +15690,10 @@
       "alternatives": [],
       "lotusGameKey": "port:wwe-smackdown-here-comes-the-pain",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/827d9f4815d35b71ec73dd55c66ce119.png",
@@ -15910,10 +15910,10 @@
       "alternatives": [],
       "lotusGameKey": "port:xenoblade-chronicles-2",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/5ef6efaa8d75619baf4cb6a9cf2df5a6.png",
@@ -15935,10 +15935,10 @@
       "alternatives": [],
       "lotusGameKey": "port:xenoblade-chronicles-x-definitive-edition",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/cdbc3879830f9869766206c798af1645.png",
@@ -15985,10 +15985,10 @@
       "alternatives": [],
       "lotusGameKey": "port:yo-kai-watch",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/fe6b0c87412607e9eff04a72be1fc88f.jpg",
@@ -16116,10 +16116,10 @@
       "alternatives": [],
       "lotusGameKey": "port:zelda-ii-the-adventure-of-link",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/657b0ad0569f3ceae3427be2623753cc.png",
@@ -16346,10 +16346,10 @@
       "alternatives": [],
       "lotusGameKey": "port:zombies-ate-my-neighbors",
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null,
-        "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-06",
+        "notesPtBr": null
       },
       "cover": {
         "url": "https://cdn2.steamgriddb.com/grid/f04fadf15f1bc7fac1043656f4d06394.png",
@@ -17230,7 +17230,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "ACNHRecomp/ACNHRecomp Launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -17374,7 +17374,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Aegis Wing/Aegis Wing.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -17446,7 +17446,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Aegis Wing/Aegis Wing.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -18310,7 +18310,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "AngryBirdsCollection/angry_birds_launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -18382,7 +18382,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "SaruSaruRecomp-v0.2.0-windows-x64/sarusaru.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -18886,7 +18886,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Astral Chain-Setup/Astral Chain-Setup.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -20201,7 +20201,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "battletoads-0.1.4-windows-x64/BattletoadsInBattlemaniacsSNESRecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -20561,7 +20561,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Belthasar-v0.15.0-preview-windows-x64/Belthasar.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -21713,7 +21713,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "BlueStinger-Builder-v0.8.0-win-x64/bs-builder.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -23270,7 +23270,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Cadence-Setup/Cadence-Setup.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -23414,7 +23414,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "CartoonNetworkRacing/cnr_launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -23486,7 +23486,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "CartoonNetworkRacing/cnr_launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -24062,7 +24062,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "clockwork-windows-x86_64/clockwork.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -24134,7 +24134,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "cod_bro-0.2.2-windows/cod_bro_launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -24998,7 +24998,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Crackdown2-Windows-1.0.1/Crackdown2Recomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -25214,7 +25214,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Crash2Launcher/Crash2Launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -25790,7 +25790,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "CruisnBlast/setup.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -27032,7 +27032,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Def Jam Vendetta Recompiled/Def Jam Vendetta Recompiled Settings.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -27248,7 +27248,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "desertstrike-0.1.2-windows-x64/DesertStrikeSNESRecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -28545,7 +28545,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "DKC2Recomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -28992,7 +28992,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "DOAX2-Recomp-v1.1.6/DOAX2 Recomp Launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -29208,7 +29208,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "donkeykongcountry2-0.1.5-windows-x64/DonkeyKongCountry2SNESRecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -31027,7 +31027,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "DW5XL-4c22952-windows-x64/DW5XL.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -35074,7 +35074,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "gow2-recomp-0.3.13-win64/gow2.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -35146,7 +35146,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "gow2-recomp-0.3.13-win64/gow2.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -37422,7 +37422,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "GRport-0.1.7-windows-fsr/GRport.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -37638,7 +37638,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "gtav-recomp-windows-x64/gtav_launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -37782,7 +37782,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "gundamwingendlessduel-0.1.12-windows-x64/GundamWingEndlessDuelSNESRecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -38574,7 +38574,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "HCTP Recompiled/HCTP Recompiled Settings.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -39510,7 +39510,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "ie3ogre-recomp/ie3-launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -40297,7 +40297,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "IzunaRecomp-0.2.0-windows/ng2.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -41233,7 +41233,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Killzone Shadow Fall/Killzone Shadow Fall.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -42568,7 +42568,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "LaserLords/LaserLords.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -43347,7 +43347,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "looneytunesbball-0.2.0-windows-x64/LooneyTunesBBallSNESRecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -44797,7 +44797,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Matterfall-windows/Matterfall Launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -47173,7 +47173,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "minustwo-windows/MinusTwo.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -47533,7 +47533,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "MuppetRaceManiaRecompiled/MuppetRaceMania.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -47605,7 +47605,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "MuppetRaceManiaRecompiled/MuppetRaceMania.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -47821,7 +47821,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "mw2-v0.8.2-windows/mw2-launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -48181,7 +48181,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "NFSMW Recomp/NFSMW Recomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -49071,7 +49071,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "NobleArchimedesLauncher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -49431,7 +49431,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Ocarina-ReTuned-Windows-x64/OcarinaReTuned.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -50160,7 +50160,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "OpenJam-v1.1-win64/nbajam_ofe.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -53413,7 +53413,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "pokemon-tcg2.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -53485,7 +53485,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "PokopiaRecomp-0.2.0/PokopiaLauncher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -54358,7 +54358,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "runtime/mkdd_lan.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -54430,7 +54430,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "runtime/mkdd_lan.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -54733,7 +54733,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "MotorStorm-0.2.0-windows-x64/MotorStormLauncher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -55237,7 +55237,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "RampageRE-windows-v1.2.3/RampageRE.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -60021,7 +60021,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "SimpsonsWrestling-v1.0.0-windows-x64/SimpsonsWrestling.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -61038,7 +61038,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Smash4PC-v0.1.2-Windows/Smash 4 PC.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -61851,7 +61851,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "Sonic3KRecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -62877,7 +62877,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "spartanport-windows/SpartanPort.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -63396,7 +63396,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "ps4rt-star-ocean-5-windows-x64-v0.4.0-latest/bin/Star Ocean 5 Launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -63789,7 +63789,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "SFA3-Setup-windows-x86_64/SFA3-Setup.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -64005,7 +64005,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "sf2turbo-0.1.1-windows-x64/StreetFighterIiTurboSNESRecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -64293,7 +64293,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "strikegunnerstg-0.3.0-windows-x64/StrikeGunnerSTGSNESRecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -64653,7 +64653,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "StuntRaceFX-beta-0.2-windows/Stunt Race FX.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -65373,7 +65373,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "supermariokart-0.1.4-windows-x64/SuperMarioKartSNESRecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -65517,7 +65517,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "SuperMarioWorldSNESRecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -67029,7 +67029,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "HOTD ReWrithe Release/bin/hotd_launch.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -68253,7 +68253,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "TimeSplitters-Future-Perfect-PC-v0.5.1-windows-x64/TimeSplitters Launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -68541,7 +68541,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "TLOU-Remastered-windows/TLOU Launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -68613,7 +68613,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "TLOU-Remastered-windows/TLOU Launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -69739,7 +69739,7 @@
         "preferPrerelease": true,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "TriAevum-v0.8.0-beta.1.2-Windows-x64/TriAevumForge.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -69811,7 +69811,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "TrialsCollection/trials_launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -70171,7 +70171,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "TwoTowers-Recompiled-v1.9.9-win64/The Two Towers Recompiled.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -72557,7 +72557,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "WotM-v0.1.1-win64/wotm.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -72629,7 +72629,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "WotM-v0.1.1-win64/wotm.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -72701,7 +72701,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "WarioLand4-Native-PC-Port-v0.3.2-beta-Windows-x64/wl4-launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -73560,7 +73560,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "WhoppingCollection/whopping_launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -73632,7 +73632,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "WhoppingCollection/whopping_launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -74434,7 +74434,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "WitchTime-v0.8.0-windows-x86_64/witch-time.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -75134,7 +75134,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "XC2-Setup/XC2-Setup.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -75206,7 +75206,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "XCX-Setup/XCX-Setup.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -75854,7 +75854,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "z2rs-0.6.0-x86_64-pc-windows-msvc/z2rs-launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -76070,7 +76070,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "ZA Recomp/lasrecomp.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,
@@ -76531,7 +76531,7 @@
         "preferPrerelease": false,
         "packageType": "zip"
       },
-      "executable": null,
+      "executable": "zamn_launcher.exe",
       "launchArgs": [],
       "setup": {
         "kind": null,

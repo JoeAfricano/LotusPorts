@@ -13,10 +13,10 @@
   "alternatives": [],
   "lotusGameKey": "port:blue-stinger",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/023ebcfd3444e1cdc7aeb1421510f237.png",

@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "ZA Recomp/lasrecomp.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

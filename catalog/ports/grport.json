@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "GRport-0.1.7-windows-fsr/GRport.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

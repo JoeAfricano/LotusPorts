@@ -11,10 +11,10 @@
   "alternatives": [],
   "lotusGameKey": "port:star-ocean-integrity-and-faithlessness",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/982d9c958a5295307675ebff615d7523.png",

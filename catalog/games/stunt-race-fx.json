@@ -11,10 +11,10 @@
   "alternatives": [],
   "lotusGameKey": "port:stunt-race-fx",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/25b311c3cd4efa335daa2bd527046fad.png",

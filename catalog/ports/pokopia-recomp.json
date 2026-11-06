@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "PokopiaRecomp-0.2.0/PokopiaLauncher.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,

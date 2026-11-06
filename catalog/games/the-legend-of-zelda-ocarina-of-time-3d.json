@@ -9,7 +9,7 @@
   ],
   "descriptionPtBr": "The Legend of Zelda: Ocarina of Time 3D, lançado originalmente para Nintendo 3DS, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
   "recommendedPortId": "triaevum-echoes-of-time",
-  "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
   "alternatives": [
     {
       "portId": "ocarina-retuned",
@@ -18,10 +18,10 @@
   ],
   "lotusGameKey": "port:the-legend-of-zelda-ocarina-of-time-3d",
   "review": {
-    "state": "pending",
-    "by": null,
-    "at": null,
-    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-06",
+    "notesPtBr": null
   },
   "cover": {
     "url": "https://cdn2.steamgriddb.com/grid/ab6fe89d793b5a3c4153692779cb0680.png",

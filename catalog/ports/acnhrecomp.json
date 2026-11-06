@@ -19,7 +19,7 @@
     "preferPrerelease": false,
     "packageType": "zip"
   },
-  "executable": null,
+  "executable": "ACNHRecomp/ACNHRecomp Launcher.exe",
   "launchArgs": [],
   "setup": {
     "kind": null,
