@@ -11,5 +11,6 @@
     <!-- The official catalog ships inside the app so it works offline. -->
     <EmbeddedResource Include="../../catalog/catalog.json" LogicalName="catalog.json" />
     <EmbeddedResource Include="../../catalog/catalog.schema.json" LogicalName="catalog.schema.json" />
+    <EmbeddedResource Include="../../catalog/guides/**/*.md" LogicalName="guides/%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
 </Project>

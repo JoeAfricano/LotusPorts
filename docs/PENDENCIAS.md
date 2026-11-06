@@ -54,3 +54,9 @@
 - **Ainda não feito:** progresso nos cartões da Biblioteca e do Início (hoje só na Página do jogo); tela Downloads com fila; leitura do `recomplauncher.json` (setup fácil, junto da Fase 3); pré-releases e "Fixar versão" no modo avançado (o modelo já guarda `PinnedTag`); retentativas de rede (Polly); "Instalados" nas prateleiras usando o `active.json`.
 - **Integrações que dependem de outras fases:** verificar dependências e `Session.Start` (Fase 5), "Resolver" completo com causa e relatório (Fase 4). Hoje "Resolver" oferece voltar a versão quando o jogo fecha com erro em menos de 15 s logo depois de atualizar.
 - **Operações interrompidas:** na abertura, sobras de instalação (`*.staging`, `*.part`) são apagadas e entradas abertas do diário viram "Cancelado"; não há tela para isso.
+## Como jogar: traduções
+
+- A Página do jogo mostra os passos de uso do README do port. Em português: a seção que os autores escreveram em português, se houver; senão a tradução do catálogo (`catalog/guides/pt-BR/{portId}.md`); senão o original marcado "em inglês".
+- **Feitas: 19** dos ports mais populares. **Faltam ~342**, deixadas para o final a pedido do José.
+- Para continuar: `dotnet run --project tools/CatalogScout -- guides catalog` exporta o inglês para `catalog/research/guides-en/` (fora do git) e lista as traduções que faltam ou ficaram desatualizadas. Cada tradução começa com a linha `<!-- source: … | fingerprint: … -->` copiada do arquivo exportado; o app avisa quando o original muda depois da tradução.
+- Links para arquivos de dados de jogo (ex.: `spawn.mpq`) não entram nas traduções.

@@ -368,7 +368,6 @@
   <data name="PlayAvailableFromCatalog" xml:space="preserve"><value>Versão {0} · {1}</value></data>
   <data name="PlayCatalogVersionNote" xml:space="preserve"><value>Versão conferida pelo catálogo, com verificação do arquivo. O GitHub pediu uma pausa nas consultas até as {0}; depois o app procura versões mais novas.</value></data>
   <data name="GuideTitle" xml:space="preserve"><value>Como jogar</value></data>
-  <data name="GuideHint" xml:space="preserve"><value>Passos dos autores do port no GitHub, como eles escreveram (geralmente em inglês), só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.</value></data>
   <data name="GuideOpenSource" xml:space="preserve"><value>Ver no GitHub</value></data>
   <data name="GuideShowAll" xml:space="preserve"><value>Mostrar tudo</value></data>
   <data name="GameFilesAddFolder" xml:space="preserve"><value>Adicionar pasta…</value></data>
@@ -404,4 +403,8 @@
   <data name="GameFileUnreadableTitle" xml:space="preserve"><value>Não foi possível ler o arquivo</value></data>
   <data name="GameFileUnreadableBody" xml:space="preserve"><value>O Windows não deixou ler este arquivo. Ele pode estar em uso ou numa pasta sem permissão.</value></data>
   <data name="GameFileOpenGame" xml:space="preserve"><value>Abrir {0}</value></data>
+  <data name="GuideHint" xml:space="preserve"><value>Passos dos autores do port no GitHub, só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.</value></data>
+  <data name="GuideHintEnglish" xml:space="preserve"><value>Passos dos autores do port no GitHub, em inglês (ainda sem tradução), só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.</value></data>
+  <data name="GuideHintTranslated" xml:space="preserve"><value>Tradução do Lotus Ports dos passos que os autores escreveram em inglês no GitHub, só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.</value></data>
+  <data name="GuideHintOutdated" xml:space="preserve"><value>Os autores mudaram o original depois desta tradução; veja a versão atual no GitHub.</value></data>
 </root>

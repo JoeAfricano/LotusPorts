@@ -46,3 +46,23 @@ public class GameFileMatcherTests
         matches.Should().Contain(m => m.Port.Id == port.Id && m.Game.Id == port.GameId && m.MatchedBy == "SHA-1");
     }
 }
+
+public class GuideTranslationTests
+{
+    [Fact]
+    public void Every_translation_in_the_catalog_is_embedded_with_its_source_and_fingerprint()
+    {
+        var dir = new DirectoryInfo(AppContext.BaseDirectory);
+        while (dir is not null && !File.Exists(Path.Combine(dir.FullName, "LotusPorts.slnx"))) dir = dir.Parent;
+        var files = Directory.GetFiles(Path.Combine(dir!.FullName, "catalog", "guides", "pt-BR"), "*.md");
+        files.Should().NotBeEmpty();
+        foreach (var file in files)
+        {
+            var translation = GuideTranslations.Find(Path.GetFileNameWithoutExtension(file), "pt-BR");
+            translation.Should().NotBeNull(file);
+            translation!.Source.Host.Should().Be("github.com");
+            translation.Markdown.Should().NotBeNullOrWhiteSpace();
+        }
+        GuideTranslations.Find("does-not-exist", "pt-BR").Should().BeNull();
+    }
+}

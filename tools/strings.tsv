@@ -362,7 +362,6 @@ SizeGb	{0} GB	{0} GB
 PlayAvailableFromCatalog	Versão {0} · {1}	Version {0} · {1}
 PlayCatalogVersionNote	Versão conferida pelo catálogo, com verificação do arquivo. O GitHub pediu uma pausa nas consultas até as {0}; depois o app procura versões mais novas.	Version checked by the catalog, with file verification. GitHub paused lookups until {0}; after that the app looks for newer versions.
 GuideTitle	Como jogar	How to play
-GuideHint	Passos dos autores do port no GitHub, como eles escreveram (geralmente em inglês), só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.	Steps by the port's authors on GitHub, as they wrote them, only the part for Windows. The button above already downloads, extracts and opens the game for you.
 GuideOpenSource	Ver no GitHub	View on GitHub
 GuideShowAll	Mostrar tudo	Show everything
 GameFilesAddFolder	Adicionar pasta…	Add folder…
@@ -398,3 +397,7 @@ GameFileHintDocs	Veja na documentação oficial do port como usar o arquivo.	See
 GameFileUnreadableTitle	Não foi possível ler o arquivo	The file could not be read
 GameFileUnreadableBody	O Windows não deixou ler este arquivo. Ele pode estar em uso ou numa pasta sem permissão.	Windows didn't allow reading this file. It may be in use or in a folder without permission.
 GameFileOpenGame	Abrir {0}	Open {0}
+GuideHint	Passos dos autores do port no GitHub, só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.	Steps by the port's authors on GitHub, only the part for Windows. The button above already downloads, extracts and opens the game for you.
+GuideHintEnglish	Passos dos autores do port no GitHub, em inglês (ainda sem tradução), só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.	Steps by the port's authors on GitHub, only the part for Windows. The button above already downloads, extracts and opens the game for you.
+GuideHintTranslated	Tradução do Lotus Ports dos passos que os autores escreveram em inglês no GitHub, só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.	Lotus Ports translation of the steps the authors wrote on GitHub, only the part for Windows. The button above already downloads, extracts and opens the game for you.
+GuideHintOutdated	Os autores mudaram o original depois desta tradução; veja a versão atual no GitHub.	The authors changed the original after this translation; see the current one on GitHub.

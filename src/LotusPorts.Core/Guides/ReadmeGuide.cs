@@ -37,6 +37,41 @@ public static partial class ReadmeGuide
 
     private sealed record Heading(int Line, int Level, string Title);
 
+    /// <summary>Simple Markdown for a guide (used to translate it and to notice when the original changes).</summary>
+    public static string ToMarkdown(PortGuide guide)
+    {
+        ArgumentNullException.ThrowIfNull(guide);
+        var sb = new StringBuilder();
+        foreach (var b in guide.Blocks)
+        {
+            var text = string.Concat(b.Spans.Select(s =>
+                s.Link is { } link ? $"[{s.Text}]({link.AbsoluteUri})" : s.Code && b.Kind != GuideBlockKind.Code ? $"`{s.Text}`" : s.Bold ? $"**{s.Text}**" : s.Text));
+            sb.Append(b.Kind switch
+            {
+                GuideBlockKind.Heading => $"### {text}",
+                GuideBlockKind.Bullet => $"- {text}",
+                GuideBlockKind.Numbered => $"{b.Number}. {text}",
+                GuideBlockKind.Note => $"> {text}",
+                GuideBlockKind.Code => $"```\n{text}\n```",
+                _ => text,
+            }).Append("\n\n");
+        }
+        return sb.ToString().TrimEnd() + "\n";
+    }
+
+    /// <summary>SHA-256 (first 16 hex digits) of the guide's Markdown: a translation records it to notice later changes.</summary>
+    public static string Fingerprint(PortGuide guide) =>
+        Convert.ToHexStringLower(System.Security.Cryptography.SHA256.HashData(Encoding.UTF8.GetBytes(ToMarkdown(guide))))[..16];
+
+    /// <summary>Reads a guide written as simple Markdown (a translation), every part of it.</summary>
+    public static PortGuide FromMarkdown(string markdown, Uri baseUrl, bool portuguese)
+    {
+        ArgumentNullException.ThrowIfNull(markdown);
+        var lines = Clean(markdown).Split('\n');
+        var headings = Headings(lines);
+        return new PortGuide([], Blocks(lines, 0, lines.Length, headings, baseUrl), portuguese);
+    }
+
     /// <param name="language">"pt-BR" or "en-US": when the README has usage sections in that language, only those are used.</param>
     public static PortGuide? Extract(string markdown, Uri baseUrl, string? language = null)
     {
@@ -290,7 +325,7 @@ public static partial class ReadmeGuide
     [GeneratedRegex(@"(?i)\b(quick[\s-]?start|getting\s+started|get\s+started|how\s+to\s+(install|play|use|run|set\s?up|get\s+started|launch)|installation|installing|install|usage|playing|setup|set\s?up|first\s+(run|launch|time)|running\s+the\s+game|launching|launch\s+the\s+game|como\s+(jogar|instalar|usar))\b")]
     private static partial Regex UsageTitle();
 
-    [GeneratedRegex(@"(?i)\b(build|building|compil\w*|develop\w*|contribut\w*|from\s+source|source\s+code|linux|mac\s?os|macos|osx|android|ios|switch|wii\s?u|ps\s?vita|vita|3ds|docker|nix|flatpak|appimage|steam\s?deck|arch|ubuntu|debian|fedora|emscripten|web\s?assembly|wasm|ai|disclosure)\b")]
+    [GeneratedRegex(@"(?i)\b(build|building|compil\w*|develop\w*|contribut\w*|from\s+source|source\s+code|linux|mac\s?os|macos|osx|android|ios|switch|wii\s?u|ps\s?vita|vita|3ds|docker|nix|flatpak|appimage|steam\s?deck|arch|ubuntu|debian|fedora|emscripten|web\s?assembly|wasm|ai|disclosure|mac|iphone|ipad|ipados|tvos)\b")]
     private static partial Regex Excluded();
 
     [GeneratedRegex(@"(?i)^\W*(the\s+|on\s+|for\s+)?(linux|mac\s?os|macos|osx|android|ios|steam\s?deck|switch|flatpak|appimage|docker|source\s+builds?)\b")]

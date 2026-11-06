@@ -6,13 +6,16 @@ using Microsoft.Extensions.Logging;
 
 namespace LotusPorts.Infrastructure.Catalog;
 
-/// <summary>The port's "how to play" guide and where it came from (the README on GitHub).</summary>
-public sealed record PortGuideResult(PortGuide Guide, Uri Source);
+/// <summary>
+/// The port's "how to play" guide and where it came from (the README on GitHub). <see cref="Translated"/>: the catalog's
+/// translation is shown; <see cref="Outdated"/>: the authors changed the original after it was translated.
+/// </summary>
+public sealed record PortGuideResult(PortGuide Guide, Uri Source, bool Translated = false, bool Outdated = false);
 
 /// <summary>
 /// Reads the README of the port's repository from raw.githubusercontent.com (not limited like the API) and keeps a copy
-/// in cache\guides for a day, also used when offline. The text is shown as the authors wrote it, with a link to them;
-/// nothing is copied into the catalog.
+/// in cache\guides for a day, also used when offline. In Portuguese, the authors' own Portuguese section is preferred;
+/// otherwise the catalog's translation of their English section, otherwise the English as they wrote it.
 /// </summary>
 public sealed class PortGuideService(AppPaths paths, GitHubClient github, TimeProvider time, ILogger<PortGuideService> logger)
 {
@@ -21,49 +24,55 @@ public sealed class PortGuideService(AppPaths paths, GitHubClient github, TimePr
 
     private string Folder => Path.Combine(paths.Root, "cache", "guides");
 
-    public async Task<PortGuideResult?> GetAsync(Port port, CancellationToken cancellationToken = default)
+    public async Task<PortGuideResult?> GetAsync(Port port, string language, CancellationToken cancellationToken = default)
     {
         ArgumentNullException.ThrowIfNull(port);
+        var (markdown, name) = await ReadmeAsync(port, cancellationToken).ConfigureAwait(false);
+        var baseUrl = new Uri($"https://github.com/{port.Repo.Owner}/{port.Repo.Name}/blob/HEAD/");
+        var original = markdown is null ? null : ReadmeGuide.Extract(markdown, baseUrl, language);
+        var source = name is null ? null : new Uri($"https://github.com/{port.Repo.Owner}/{port.Repo.Name}/blob/HEAD/{name}");
+
+        var wantPortuguese = language.StartsWith("pt", StringComparison.OrdinalIgnoreCase);
+        if (wantPortuguese && original is not { Portuguese: true } && GuideTranslations.Find(port.Id, language) is { } translation)
+        {
+            var outdated = original is not null && ReadmeGuide.Fingerprint(original) != translation.Fingerprint;
+            return new PortGuideResult(ReadmeGuide.FromMarkdown(translation.Markdown, baseUrl, portuguese: true), source ?? translation.Source, Translated: true, outdated);
+        }
+        return original is null || source is null ? null : new PortGuideResult(original, source);
+    }
+
+    private async Task<(string? Markdown, string? Name)> ReadmeAsync(Port port, CancellationToken cancellationToken)
+    {
         var key = $"{port.Repo.Owner}__{port.Repo.Name}".ToLowerInvariant();
         foreach (var c in Path.GetInvalidFileNameChars()) key = key.Replace(c, '_');
         var cacheFile = Path.Combine(Folder, key + ".md");
         var nameFile = Path.Combine(Folder, key + ".name");
 
-        string? markdown = null;
         string? name = File.Exists(nameFile) ? (await File.ReadAllTextAsync(nameFile, cancellationToken).ConfigureAwait(false)).Trim() : null;
-        var fresh = File.Exists(cacheFile) && time.GetUtcNow() - File.GetLastWriteTimeUtc(cacheFile) < FreshFor;
-        if (fresh && name is not null) markdown = await File.ReadAllTextAsync(cacheFile, cancellationToken).ConfigureAwait(false);
+        if (name is not null && File.Exists(cacheFile) && time.GetUtcNow() - File.GetLastWriteTimeUtc(cacheFile) < FreshFor)
+            return (await File.ReadAllTextAsync(cacheFile, cancellationToken).ConfigureAwait(false), name);
 
-        if (markdown is null)
+        try
         {
-            try
+            foreach (var candidate in name is null ? Names : [name, .. Names.Where(n => n != name)])
             {
-                foreach (var candidate in name is null ? Names : [name, .. Names.Where(n => n != name)])
-                {
-                    var url = new Uri($"https://raw.githubusercontent.com/{Uri.EscapeDataString(port.Repo.Owner)}/{Uri.EscapeDataString(port.Repo.Name)}/HEAD/{candidate}");
-                    var result = await github.GetTextAsync(url, null, cancellationToken).ConfigureAwait(false);
-                    if (result.Status == HttpStatusCode.NotFound) continue;
-                    if (result.Body is null) break;
-                    markdown = result.Body;
-                    name = candidate;
-                    Directory.CreateDirectory(Folder);
-                    await File.WriteAllTextAsync(cacheFile, markdown, cancellationToken).ConfigureAwait(false);
-                    await File.WriteAllTextAsync(nameFile, name, cancellationToken).ConfigureAwait(false);
-                    break;
-                }
+                var url = new Uri($"https://raw.githubusercontent.com/{Uri.EscapeDataString(port.Repo.Owner)}/{Uri.EscapeDataString(port.Repo.Name)}/HEAD/{candidate}");
+                var result = await github.GetTextAsync(url, null, cancellationToken).ConfigureAwait(false);
+                if (result.Status == HttpStatusCode.NotFound) continue;
+                if (result.Body is null) break;
+                Directory.CreateDirectory(Folder);
+                await File.WriteAllTextAsync(cacheFile, result.Body, cancellationToken).ConfigureAwait(false);
+                await File.WriteAllTextAsync(nameFile, candidate, cancellationToken).ConfigureAwait(false);
+                return (result.Body, candidate);
             }
-            catch (Exception ex) when (ex is HttpRequestException or TaskCanceledException { CancellationToken.IsCancellationRequested: false } or InvalidDataException)
-            {
-                logger.LogInformation(ex, "README not available for {Port}", port.Id);
-            }
-            // Offline or GitHub unavailable: the last copy is better than nothing.
-            if (markdown is null && File.Exists(cacheFile) && name is not null)
-                markdown = await File.ReadAllTextAsync(cacheFile, cancellationToken).ConfigureAwait(false);
         }
-        if (markdown is null || name is null) return null;
-
-        var source = new Uri($"https://github.com/{port.Repo.Owner}/{port.Repo.Name}/blob/HEAD/{name}");
-        var guide = ReadmeGuide.Extract(markdown, new Uri($"https://github.com/{port.Repo.Owner}/{port.Repo.Name}/blob/HEAD/"));
-        return guide is null ? null : new PortGuideResult(guide, source);
+        catch (Exception ex) when (ex is HttpRequestException or TaskCanceledException { CancellationToken.IsCancellationRequested: false } or InvalidDataException)
+        {
+            logger.LogInformation(ex, "README not available for {Port}", port.Id);
+        }
+        // Offline or GitHub unavailable: the last copy is better than nothing.
+        return name is not null && File.Exists(cacheFile)
+            ? (await File.ReadAllTextAsync(cacheFile, cancellationToken).ConfigureAwait(false), name)
+            : (null, null);
     }
 }

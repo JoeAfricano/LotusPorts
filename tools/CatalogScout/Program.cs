@@ -26,6 +26,8 @@ if (args.Length > 0 && args[0] == "generate-wide") return Wide.Generate(args[1],
 //   refresh-evidence <catalogDir> <scan.json>...   update measured release date and stars of existing ports
 //   covers <catalogDir>   match games to box art in libretro-thumbnails (stores the address only)
 if (args.Length > 0 && args[0] == "covers") return await Covers.Run(args[1]);
+//   guides <catalogDir>   export the English "how to play" README sections of recommended ports for translation
+if (args.Length > 0 && args[0] == "guides") return await Guides.Run(args[1]);
 //   auto-review <catalogDir> <reviewer> [--hold id ...]   approve pending games by the written rules in Wide.AutoReview
 if (args.Length > 0 && args[0] == "auto-review") return Wide.AutoReview(args[1], args[2], args.SkipWhile(a => a != "--hold").Skip(1).ToArray());
 if (args.Length > 0 && args[0] == "refresh-evidence") return Wide.RefreshEvidence(args[1], args[2..]);

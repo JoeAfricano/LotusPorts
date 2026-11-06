@@ -308,11 +308,12 @@ public sealed partial class GamePage : Page
     private async Task ShowGuideAsync(Port port)
     {
         PortGuideResult? result;
-        try { result = await App.Services.GetRequiredService<PortGuideService>().GetAsync(port); }
+        try { result = await App.Services.GetRequiredService<PortGuideService>().GetAsync(port, Strings.Language); }
         catch (Exception ex) when (ex is IOException or UnauthorizedAccessException) { result = null; }
         if (result is null || game?.Recommended.Port.Id != port.Id) return;
 
-        GuideHint.Text = Strings.Get("GuideHint");
+        GuideHint.Text = Strings.Get(result.Translated ? "GuideHintTranslated" : result.Guide.Portuguese || !Strings.Language.StartsWith("pt", StringComparison.Ordinal) ? "GuideHint" : "GuideHintEnglish")
+            + (result.Outdated ? " " + Strings.Get("GuideHintOutdated") : "");
         GuideSource.NavigateUri = result.Source;
         GuideText.Blocks.Clear();
         foreach (var block in result.Guide.Blocks) GuideText.Blocks.Add(Render(block));

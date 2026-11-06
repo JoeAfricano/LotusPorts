@@ -368,7 +368,6 @@
   <data name="PlayAvailableFromCatalog" xml:space="preserve"><value>Version {0} · {1}</value></data>
   <data name="PlayCatalogVersionNote" xml:space="preserve"><value>Version checked by the catalog, with file verification. GitHub paused lookups until {0}; after that the app looks for newer versions.</value></data>
   <data name="GuideTitle" xml:space="preserve"><value>How to play</value></data>
-  <data name="GuideHint" xml:space="preserve"><value>Steps by the port&apos;s authors on GitHub, as they wrote them, only the part for Windows. The button above already downloads, extracts and opens the game for you.</value></data>
   <data name="GuideOpenSource" xml:space="preserve"><value>View on GitHub</value></data>
   <data name="GuideShowAll" xml:space="preserve"><value>Show everything</value></data>
   <data name="GameFilesAddFolder" xml:space="preserve"><value>Add folder…</value></data>
@@ -404,4 +403,8 @@
   <data name="GameFileUnreadableTitle" xml:space="preserve"><value>The file could not be read</value></data>
   <data name="GameFileUnreadableBody" xml:space="preserve"><value>Windows didn&apos;t allow reading this file. It may be in use or in a folder without permission.</value></data>
   <data name="GameFileOpenGame" xml:space="preserve"><value>Open {0}</value></data>
+  <data name="GuideHint" xml:space="preserve"><value>Steps by the port&apos;s authors on GitHub, only the part for Windows. The button above already downloads, extracts and opens the game for you.</value></data>
+  <data name="GuideHintEnglish" xml:space="preserve"><value>Steps by the port&apos;s authors on GitHub, only the part for Windows. The button above already downloads, extracts and opens the game for you.</value></data>
+  <data name="GuideHintTranslated" xml:space="preserve"><value>Lotus Ports translation of the steps the authors wrote on GitHub, only the part for Windows. The button above already downloads, extracts and opens the game for you.</value></data>
+  <data name="GuideHintOutdated" xml:space="preserve"><value>The authors changed the original after this translation; see the current one on GitHub.</value></data>
 </root>
