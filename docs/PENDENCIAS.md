@@ -63,7 +63,14 @@
 
 ## Fase 4: pendências
 
-- Nenhum port tem estilos `verified` no catálogo: o seletor Original/Remasterizado não aparece em nenhum jogo até a curadoria confirmar as chaves na configuração real de cada port. TOML ainda não é escrito.
+- Estilos verificados no código-fonte (06/11/2026) em 3 ports. Os demais só ganham o seletor quando a curadoria confirmar as chaves. TOML ainda não é escrito.
+  - **Zelda 64: Recompiled:** `%LOCALAPPDATA%\Zelda64Recompiled\graphics.json`, enums do N64ModernRuntime.
+    - Original: resolução, proporção, HUD e taxa de quadros originais, sem MSAA.
+    - Remasterizado: os padrões do port (Auto, Expand, Clamp16x9, Display, MSAA2X).
+  - **Ship of Harkinian / 2 Ship 2 Harkinian:** `shipofharkinian.json` / `2ship2harkinian.json` na pasta do jogo, chaves `CVars.*`.
+    - Original: 20 FPS, MSAA 1.
+    - Remasterizado: 60 FPS, MSAA 2x.
+- O estilo só é aplicado depois que o jogo criou a própria configuração: antes disso o app pede para abrir o jogo uma vez. Configuração na pasta do usuário vale para todas as versões, então "Desfazer" sempre a restaura.
 - A janela "Resolver" não foi vista na tela com um jogo real quebrado (exigiria quebrar uma instalação no PC); o comportamento está coberto por testes com um programa real que fecha com erro.
 - Placa de vídeo e dependências: sem o Lotus, o Resolver só confere se as bibliotecas existem no Windows (o suporte da placa fica "Não verificado"). Nenhum port declara `dependencies` no catálogo ainda.
 

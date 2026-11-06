@@ -53,15 +53,21 @@
     }
   ],
   "experiencePresets": {
-    "configFile": null,
-    "configFormat": null,
+    "configFile": "2ship2harkinian.json",
+    "configFormat": "json",
     "original": {
-      "values": {},
-      "verified": false
+      "values": {
+        "CVars.gInterpolationFPS": 20,
+        "CVars.gSettings.MSAAValue": 1
+      },
+      "verified": true
     },
     "remasterizado": {
-      "values": {},
-      "verified": false
+      "values": {
+        "CVars.gInterpolationFPS": 60,
+        "CVars.gSettings.MSAAValue": 2
+      },
+      "verified": true
     }
   },
   "dependencies": null,
@@ -74,7 +80,10 @@
   "mods": {
     "folder": "mods/",
     "location": "install",
-    "fileTypes": [".o2r", ".otr"],
+    "fileTypes": [
+      ".o2r",
+      ".otr"
+    ],
     "sourceUrl": null,
     "declaredIn": "https://github.com/2ship2harkinian/2ship2harkinian#custom-assets",
     "notesPtBr": "Conteúdo personalizado em arquivos .o2r ou .otr, colocados na pasta mods do jogo."

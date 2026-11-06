@@ -58,15 +58,21 @@
     }
   ],
   "experiencePresets": {
-    "configFile": null,
-    "configFormat": null,
+    "configFile": "shipofharkinian.json",
+    "configFormat": "json",
     "original": {
-      "values": {},
-      "verified": false
+      "values": {
+        "CVars.gSettings.InterpolationFPS": 20,
+        "CVars.gSettings.MSAAValue": 1
+      },
+      "verified": true
     },
     "remasterizado": {
-      "values": {},
-      "verified": false
+      "values": {
+        "CVars.gSettings.InterpolationFPS": 60,
+        "CVars.gSettings.MSAAValue": 2
+      },
+      "verified": true
     }
   },
   "dependencies": null,
@@ -79,7 +85,10 @@
   "mods": {
     "folder": "mods/",
     "location": "install",
-    "fileTypes": [".otr", ".o2r"],
+    "fileTypes": [
+      ".otr",
+      ".o2r"
+    ],
     "sourceUrl": null,
     "declaredIn": "https://github.com/HarbourMasters/Shipwright#custom-assets",
     "notesPtBr": "Conteúdo personalizado em arquivos .otr, colocados na pasta mods do jogo."

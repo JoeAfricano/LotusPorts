@@ -22,6 +22,9 @@ public enum StyleProblem
 
     /// <summary>The file read back did not have the values: the backup was put back.</summary>
     NotConfirmed,
+
+    /// <summary>The game has not created its configuration yet: it must be opened once first.</summary>
+    ConfigMissing,
 }
 
 public sealed class StyleException(StyleProblem problem, string message) : Exception(message)
@@ -46,11 +49,13 @@ public sealed class StyleService(PortLibrary library, IOperationJournal journal,
         ArgumentNullException.ThrowIfNull(port);
         if (!CanOffer(port)) throw new StyleException(port.ExperiencePresets.IsVerified ? StyleProblem.UnsupportedFormat : StyleProblem.NotVerified, "Style not available.");
         var manifest = library.Read(port.Id) ?? throw new StyleException(StyleProblem.NotInstalled, "Not installed.");
-        if (manifest.Style is { } current && current.Tag == manifest.ActiveTag) manifest = await RevertAsync(port, cancellationToken).ConfigureAwait(false);
+        var file = ConfigPath(port, manifest);
+        // Only a configuration the game already wrote is changed: a file it never created could be read differently.
+        if (!File.Exists(file)) throw new StyleException(StyleProblem.ConfigMissing, "Open the game once first.");
+        if (manifest.Style is { } current && (current.Tag == manifest.ActiveTag || IsUserConfig(port))) manifest = await RevertAsync(port, cancellationToken).ConfigureAwait(false);
 
         var presets = port.ExperiencePresets;
         var values = (style == ExperienceStyle.Remastered ? presets.Remasterizado : presets.Original).Values;
-        var file = ConfigPath(port, manifest);
         var format = presets.ConfigFormat!;
         InstalledPort? result = null;
         await JournaledOperation.RunAsync(journal, OperationKind.ApplyPreset, port.Id, State(manifest, file), async ct =>
@@ -89,7 +94,8 @@ public sealed class StyleService(PortLibrary library, IOperationJournal journal,
         await JournaledOperation.RunAsync(journal, OperationKind.RevertPreset, port.Id, State(manifest, file), async ct =>
         {
             // A style applied to another version is only forgotten: that version's file is not this one.
-            if (applied.Tag == manifest.ActiveTag && File.Exists(file))
+            // A file in the user's app data is shared by every version, so it is always reverted.
+            if ((applied.Tag == manifest.ActiveTag || IsUserConfig(port)) && File.Exists(file))
             {
                 var text = PresetWriter.Revert(await File.ReadAllTextAsync(file, ct).ConfigureAwait(false), format, applied.Previous);
                 await WriteAsync(file, text, ct).ConfigureAwait(false);
@@ -108,8 +114,25 @@ public sealed class StyleService(PortLibrary library, IOperationJournal journal,
         actual == expected || (format == "json" && actual is not null && expected is not null
             && System.Text.Json.Nodes.JsonNode.DeepEquals(System.Text.Json.Nodes.JsonNode.Parse(actual), System.Text.Json.Nodes.JsonNode.Parse(expected)));
 
+    /// <summary>Configuration in the user's app data (%LOCALAPPDATA% or %APPDATA%) instead of the game folder.</summary>
+    public static bool IsUserConfig(Port port) => IsUserPath(port.ExperiencePresets.ConfigFile);
+
+    private static bool IsUserPath(string? file) =>
+        file is not null && (file.StartsWith("%LOCALAPPDATA%\\", StringComparison.OrdinalIgnoreCase) || file.StartsWith("%APPDATA%\\", StringComparison.OrdinalIgnoreCase)
+            || file.StartsWith("%LOCALAPPDATA%/", StringComparison.OrdinalIgnoreCase) || file.StartsWith("%APPDATA%/", StringComparison.OrdinalIgnoreCase));
+
     private string ConfigPath(Port port, InstalledPort manifest)
     {
+        if (IsUserPath(port.ExperiencePresets.ConfigFile))
+        {
+            var declared = port.ExperiencePresets.ConfigFile!.Replace('/', '\\');
+            var variable = declared[..declared.IndexOf('\\')];
+            var baseFolder = Path.GetFullPath(Environment.ExpandEnvironmentVariables(variable)).TrimEnd('\\') + "\\";
+            var full = Path.GetFullPath(Path.Combine(baseFolder, declared[(variable.Length + 1)..]));
+            if (declared.Split('\\').Contains("..") || !full.StartsWith(baseFolder, StringComparison.OrdinalIgnoreCase) || full.Length <= baseFolder.Length)
+                throw new StyleException(StyleProblem.InvalidPath, "The configuration file must be inside the game folder or the user's app data.");
+            return full;
+        }
         var root = Path.GetFullPath(library.VersionFolder(port.Id, manifest.Active.Folder)).TrimEnd('\\') + "\\";
         var relative = port.ExperiencePresets.ConfigFile!.Replace('/', '\\');
         var path = Path.GetFullPath(Path.Combine(root, relative));

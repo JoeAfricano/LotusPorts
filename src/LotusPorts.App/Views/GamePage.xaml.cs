@@ -241,7 +241,7 @@ public sealed partial class GamePage : Page
             }
             catch (Exception ex) when (ex is StyleException or IOException or UnauthorizedAccessException or System.Text.Json.JsonException or InvalidDataException)
             {
-                StyleStatus.Text = Strings.Get("StyleFailed");
+                StyleStatus.Text = Strings.Get(ex is StyleException { Problem: StyleProblem.ConfigMissing } ? "StyleOpenFirst" : "StyleFailed");
                 return;
             }
         }

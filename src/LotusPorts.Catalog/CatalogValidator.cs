@@ -175,6 +175,14 @@ public static partial class CatalogValidator
                 issues.Add(new(IssueSeverity.Error, CatalogIssueCodes.Schema, $"{at}/mods/folder", "The mods folder must be inside the game folder or the user's app data."));
         }
 
+        if (port.ExperiencePresets.ConfigFile is { } config)
+        {
+            var file = config.Replace('/', '\\');
+            var inUserData = file.StartsWith("%LOCALAPPDATA%\\", StringComparison.OrdinalIgnoreCase) || file.StartsWith("%APPDATA%\\", StringComparison.OrdinalIgnoreCase);
+            if (file.Split('\\').Contains("..") || (!inUserData && (Path.IsPathRooted(file) || file.Contains('%'))))
+                issues.Add(new(IssueSeverity.Error, CatalogIssueCodes.Schema, $"{at}/experiencePresets/configFile", "The configuration file must be inside the game folder or the user's app data."));
+        }
+
         foreach (var (path, url) in urls)
         {
             if (url is null) continue;

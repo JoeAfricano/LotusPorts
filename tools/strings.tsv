@@ -469,6 +469,7 @@ StyleConfirmTitle	Aplicar o estilo {0}?	Apply the {0} style?
 StyleConfirmBody	O Lotus Ports guarda uma cópia da configuração do jogo, muda só as opções deste estilo e confere o arquivo depois. Dá para desfazer com um clique.	Lotus Ports keeps a copy of the game settings, changes only this style's options and checks the file afterwards. You can undo it with one click.
 StyleApply	Aplicar	Apply
 StyleFailed	Não foi possível aplicar o estilo. A configuração do jogo ficou como estava.	The style could not be applied. The game settings stayed as they were.
+StyleOpenFirst	Abra o jogo uma vez para ele criar as configurações e feche; depois escolha o estilo.	Open the game once so it creates its settings, then close it and pick the style.
 LotusSubtitle	O Lotus Ports funciona sozinho. Com o Lotus instalado, os dois trabalham juntos: diagnóstico do sistema, perfil de desempenho por jogo e um histórico só do PC.	Lotus Ports works on its own. With Lotus installed, both work together: system diagnostics, a performance profile per game and one history for the PC.
 LotusRetry	Tentar de novo	Try again
 LotusOpen	Abrir o Lotus	Open Lotus

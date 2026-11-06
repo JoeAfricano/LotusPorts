@@ -475,6 +475,7 @@
   <data name="StyleConfirmBody" xml:space="preserve"><value>O Lotus Ports guarda uma cópia da configuração do jogo, muda só as opções deste estilo e confere o arquivo depois. Dá para desfazer com um clique.</value></data>
   <data name="StyleApply" xml:space="preserve"><value>Aplicar</value></data>
   <data name="StyleFailed" xml:space="preserve"><value>Não foi possível aplicar o estilo. A configuração do jogo ficou como estava.</value></data>
+  <data name="StyleOpenFirst" xml:space="preserve"><value>Abra o jogo uma vez para ele criar as configurações e feche; depois escolha o estilo.</value></data>
   <data name="LotusSubtitle" xml:space="preserve"><value>O Lotus Ports funciona sozinho. Com o Lotus instalado, os dois trabalham juntos: diagnóstico do sistema, perfil de desempenho por jogo e um histórico só do PC.</value></data>
   <data name="LotusRetry" xml:space="preserve"><value>Tentar de novo</value></data>
   <data name="LotusOpen" xml:space="preserve"><value>Abrir o Lotus</value></data>

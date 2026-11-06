@@ -99,4 +99,67 @@ public sealed class ExperienceFlowTests : IDisposable
         await Task.Delay(200);
         lotus.Received.Select(m => m.Method).Should().Contain(Events.PresetApplied);
     }
+
+    [Fact]
+    public async Task A_style_in_the_user_app_data_needs_the_game_opened_once_and_survives_versions()
+    {
+        // Like Zelda 64: Recompiled, whose graphics.json lives in %LOCALAPPDATA%\Zelda64Recompiled (here a temp APPDATA).
+        var appData = Path.Combine(folder, "appdata");
+        var previous = Environment.GetEnvironmentVariable("APPDATA");
+        Environment.SetEnvironmentVariable("APPDATA", appData);
+        try
+        {
+            var port = VerifiedPort() with
+            {
+                ExperiencePresets = VerifiedPort().ExperiencePresets with { ConfigFile = "%APPDATA%\\FlowGame\\graphics.json" },
+            };
+            var paths = new AppPaths(Path.Combine(folder, "lib"));
+            paths.EnsureStartupFolders();
+            var db = new SqliteDatabase(paths.DatabaseFile);
+            await new MigrationRunner(db, AllMigrations.List, NullLogger<MigrationRunner>.Instance).MigrateAsync();
+            var library = new PortLibrary(paths);
+            library.Write(new InstalledPort(InstalledPort.CurrentSchema, "flow-port", "v1",
+                null, [new InstalledVersion("v1", "v1", "x.zip", 1, null, Core.Verification.CheckState.NotVerified, "Game.exe", DateTimeOffset.UtcNow)], false, false));
+            var styles = new StyleService(library, new SqliteOperationJournal(db, TimeProvider.System), TimeProvider.System);
+
+            // Not created by the game yet: nothing is written.
+            var missing = await Assert.ThrowsAsync<StyleException>(() => styles.ApplyAsync(port, ExperienceStyle.Remastered));
+            missing.Problem.Should().Be(StyleProblem.ConfigMissing);
+            var config = Path.Combine(appData, "FlowGame", "graphics.json");
+            File.Exists(config).Should().BeFalse();
+
+            Directory.CreateDirectory(Path.GetDirectoryName(config)!);
+            File.WriteAllText(config, """{ "scale": 2, "volume": 80 }""");
+            var applied = await styles.ApplyAsync(port, ExperienceStyle.Remastered);
+            PresetWriter.Read(File.ReadAllText(config), "json", ["scale"]).Values.Should().Equal("4");
+
+            // Another version is active: the shared file is still the one reverted.
+            library.Write(applied with
+            {
+                ActiveTag = "v2",
+                Versions = [.. applied.Versions, new InstalledVersion("v2", "v2", "x.zip", 1, null, Core.Verification.CheckState.NotVerified, "Game.exe", DateTimeOffset.UtcNow)],
+            });
+            await styles.RevertAsync(port);
+            PresetWriter.Read(File.ReadAllText(config), "json", ["scale", "volume"]).Values.Should().Equal("2", "80");
+        }
+        finally
+        {
+            Environment.SetEnvironmentVariable("APPDATA", previous);
+        }
+    }
+
+    [Fact]
+    public async Task A_style_path_that_leaves_the_user_app_data_is_refused()
+    {
+        var port = VerifiedPort() with { ExperiencePresets = VerifiedPort().ExperiencePresets with { ConfigFile = "%LOCALAPPDATA%\\..\\evil.json" } };
+        var paths = new AppPaths(Path.Combine(folder, "lib2"));
+        paths.EnsureStartupFolders();
+        var db = new SqliteDatabase(paths.DatabaseFile);
+        await new MigrationRunner(db, AllMigrations.List, NullLogger<MigrationRunner>.Instance).MigrateAsync();
+        var library = new PortLibrary(paths);
+        library.Write(new InstalledPort(InstalledPort.CurrentSchema, "flow-port", "v1",
+            null, [new InstalledVersion("v1", "v1", "x.zip", 1, null, Core.Verification.CheckState.NotVerified, "Game.exe", DateTimeOffset.UtcNow)], false, false));
+        var styles = new StyleService(library, new SqliteOperationJournal(db, TimeProvider.System), TimeProvider.System);
+        (await Assert.ThrowsAsync<StyleException>(() => styles.ApplyAsync(port, ExperienceStyle.Original))).Problem.Should().Be(StyleProblem.InvalidPath);
+    }
 }
