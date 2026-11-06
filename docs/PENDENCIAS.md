@@ -57,7 +57,7 @@
 ## Como jogar: traduções
 
 - A Página do jogo mostra os passos de uso do README do port. Em português: a seção que os autores escreveram em português, se houver; senão a tradução do catálogo (`catalog/guides/pt-BR/{portId}.md`); senão o original marcado "em inglês".
-- **Feitas: 19** dos ports mais populares. **Faltam ~342**, deixadas para o final a pedido do José.
+- **Todas feitas (366), em 06/11/2026.** Quando um README muda, o comando abaixo lista a tradução como desatualizada.
 - Para continuar: `dotnet run --project tools/CatalogScout -- guides catalog` exporta o inglês para `catalog/research/guides-en/` (fora do git) e lista as traduções que faltam ou ficaram desatualizadas. Cada tradução começa com a linha `<!-- source: … | fingerprint: … -->` copiada do arquivo exportado; o app avisa quando o original muda depois da tradução.
 - Links para arquivos de dados de jogo (ex.: `spawn.mpq`) não entram nas traduções.
 
