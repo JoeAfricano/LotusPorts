@@ -675,4 +675,20 @@
   <data name="HelpWelcomeTitle" xml:space="preserve"><value>Boas-vindas</value></data>
   <data name="HelpWelcomeText" xml:space="preserve"><value>Reveja os primeiros passos: perfil, pasta dos arquivos de jogos, estilo e controle.</value></data>
   <data name="HelpWelcomeButton" xml:space="preserve"><value>Ver de novo</value></data>
+  <data name="AppUpdateTitle" xml:space="preserve"><value>Atualizações do Lotus Ports</value></data>
+  <data name="AppUpdateCheck" xml:space="preserve"><value>Procurar atualização</value></data>
+  <data name="AppUpdateInstall" xml:space="preserve"><value>Baixar e instalar</value></data>
+  <data name="AppUpdateNotPublished" xml:space="preserve"><value>O Lotus Ports ainda não foi publicado. As atualizações do app chegam por aqui quando houver uma versão oficial.</value></data>
+  <data name="AppUpdateIdle" xml:space="preserve"><value>Procura a versão mais nova nas releases oficiais do Lotus Ports no GitHub.</value></data>
+  <data name="AppUpdateChecking" xml:space="preserve"><value>Procurando…</value></data>
+  <data name="AppUpdateAvailable" xml:space="preserve"><value>Versão {0} disponível.</value></data>
+  <data name="AppUpdateUpToDate" xml:space="preserve"><value>Você já está na versão mais nova.</value></data>
+  <data name="AppUpdateRateLimited" xml:space="preserve"><value>O GitHub limitou as consultas por agora. Tente de novo em até uma hora.</value></data>
+  <data name="AppUpdateOffline" xml:space="preserve"><value>Sem conexão com o GitHub agora. Tente de novo mais tarde.</value></data>
+  <data name="AppUpdateConfirmTitle" xml:space="preserve"><value>Instalar o Lotus Ports {0}?</value></data>
+  <data name="AppUpdateConfirmBody" xml:space="preserve"><value>O instalador é baixado do GitHub e conferido pelo SHA-256 que o GitHub registrou antes de abrir. O Lotus Ports fecha para a instalação; seus jogos, saves e configurações continuam onde estão.</value></data>
+  <data name="AppUpdateDownloading" xml:space="preserve"><value>Baixando o instalador…</value></data>
+  <data name="AppUpdateStarting" xml:space="preserve"><value>Abrindo o instalador…</value></data>
+  <data name="AppUpdateBadFile" xml:space="preserve"><value>O arquivo baixado não confere com o publicado e foi descartado. Nada foi instalado.</value></data>
+  <data name="AppUpdateFailed" xml:space="preserve"><value>Não foi possível atualizar agora. Nada foi alterado.</value></data>
 </root>

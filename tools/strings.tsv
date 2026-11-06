@@ -669,3 +669,19 @@ HelpGamepadText	Todo o app funciona com controle: direcional ou analógico para 
 HelpWelcomeTitle	Boas-vindas	Welcome
 HelpWelcomeText	Reveja os primeiros passos: perfil, pasta dos arquivos de jogos, estilo e controle.	See the first steps again: profile, game files folder, style and controller.
 HelpWelcomeButton	Ver de novo	Show again
+AppUpdateTitle	Atualizações do Lotus Ports	Lotus Ports updates
+AppUpdateCheck	Procurar atualização	Check for updates
+AppUpdateInstall	Baixar e instalar	Download and install
+AppUpdateNotPublished	O Lotus Ports ainda não foi publicado. As atualizações do app chegam por aqui quando houver uma versão oficial.	Lotus Ports has not been published yet. App updates arrive here once there is an official release.
+AppUpdateIdle	Procura a versão mais nova nas releases oficiais do Lotus Ports no GitHub.	Looks for the newest version in Lotus Ports' official GitHub releases.
+AppUpdateChecking	Procurando…	Checking…
+AppUpdateAvailable	Versão {0} disponível.	Version {0} available.
+AppUpdateUpToDate	Você já está na versão mais nova.	You are on the newest version.
+AppUpdateRateLimited	O GitHub limitou as consultas por agora. Tente de novo em até uma hora.	GitHub has limited requests for now. Try again within an hour.
+AppUpdateOffline	Sem conexão com o GitHub agora. Tente de novo mais tarde.	No connection to GitHub right now. Try again later.
+AppUpdateConfirmTitle	Instalar o Lotus Ports {0}?	Install Lotus Ports {0}?
+AppUpdateConfirmBody	O instalador é baixado do GitHub e conferido pelo SHA-256 que o GitHub registrou antes de abrir. O Lotus Ports fecha para a instalação; seus jogos, saves e configurações continuam onde estão.	The installer is downloaded from GitHub and checked against the SHA-256 GitHub recorded before it opens. Lotus Ports closes for the install; your games, saves and settings stay where they are.
+AppUpdateDownloading	Baixando o instalador…	Downloading the installer…
+AppUpdateStarting	Abrindo o instalador…	Opening the installer…
+AppUpdateBadFile	O arquivo baixado não confere com o publicado e foi descartado. Nada foi instalado.	The downloaded file does not match the published one and was discarded. Nothing was installed.
+AppUpdateFailed	Não foi possível atualizar agora. Nada foi alterado.	Could not update right now. Nothing was changed.

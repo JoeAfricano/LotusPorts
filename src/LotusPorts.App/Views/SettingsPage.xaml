@@ -432,6 +432,29 @@
                     <TextBlock Style="{StaticResource Type.Body}">
                         <Run Text="Lotus Ports" /><Run Foreground="{StaticResource Text.Secondary}" Text="{x:Bind local:Ui.VersionLabel(ViewModel.Version)}" />
                     </TextBlock>
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel VerticalAlignment="Center" Spacing="4">
+                            <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=AppUpdateTitle}" />
+                            <TextBlock
+                                x:Name="AppUpdateStatus"
+                                Style="{StaticResource Type.Caption}"
+                                TextWrapping="Wrap" />
+                            <ProgressBar
+                                x:Name="AppUpdateProgress"
+                                Maximum="1"
+                                Visibility="Collapsed" />
+                        </StackPanel>
+                        <Button
+                            x:Name="AppUpdateButton"
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            Click="OnAppUpdate"
+                            Content="{local:Str Key=AppUpdateCheck}" />
+                    </Grid>
                     <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=LegalNotAffiliated}" />
                     <TextBlock Style="{StaticResource Type.Body}" Text="{local:Str Key=LegalNoGameFiles}" />
                     <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=LegalPortLicenses}" />

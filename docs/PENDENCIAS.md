@@ -95,3 +95,15 @@
 - A seção Mods não foi vista na tela: aparece só com um port que declara mods instalado, e nenhum está instalado no PC agora. O motor está coberto por testes.
 - Só 3 ports declaram mods (os que têm instruções oficiais no README). Outros entram quando a curadoria confirmar no repositório de cada port.
 - O Lotus Ports não baixa mods: o jogador baixa na página oficial e escolhe o arquivo. Mods em pastas (não arquivo único) ainda não são aceitos.
+
+## Biblioteca viva e primeiro uso: pendências
+
+- Estados "Baixando", "Jogando", "Atualização disponível" e "Precisa de atenção" nos cartões e o aviso "Atualizar tudo" só foram vistos em código e testes: nenhum port está instalado no PC agora para conferir na tela.
+- A verificação diária só roda com o app aberto (20 s após abrir e depois a cada 24 h); não há tarefa em segundo plano com o app fechado.
+- A boas-vindas aparece uma vez (`general.welcomeDone`); em Ajuda há "Ver de novo".
+
+## Fase 9: pendências
+
+- Atualização do próprio Lotus Ports: pronta, mas desligada até a publicação. Quando o repositório existir, preencher `AppUpdateService.Repository` (dono/nome). As releases precisam de um `*Setup*.exe`; o SHA-256 vem do próprio GitHub. Versões de teste só chegam para quem já está numa versão de teste.
+- Instalador: `tools\Build-Installer.ps1` + `tools\installer\LotusPorts.iss` (Inno Setup 6, por usuário, sem administrador). Ainda não foi gerado: só quando você pedir. Arte própria do assistente (como a do Lotus) não foi feita.
+- "Iniciar com o Windows" não foi feito (o Lotus Ports não precisa ficar aberto; o Lotus é quem acompanha o PC).

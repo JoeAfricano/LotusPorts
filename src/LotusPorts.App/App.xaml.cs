@@ -128,6 +128,7 @@ public partial class App : Application
         services.AddSingleton<LotusPorts.Infrastructure.GameFiles.GameFileScanner>();
         services.AddSingleton<GameFilesService>();
         services.AddSingleton<LiveState>();
+        services.AddSingleton<LotusPorts.Infrastructure.Updates.AppUpdateService>();
         services.AddSingleton<LotusPorts.Integration.ILotusDiscovery, LotusPorts.Integration.RegistryLotusDiscovery>();
         services.AddSingleton<LotusPorts.Integration.IPeerValidator, LotusPorts.Integration.ProcessPeerValidator>();
         services.AddSingleton(sp => new LotusPorts.Integration.LotusClient(

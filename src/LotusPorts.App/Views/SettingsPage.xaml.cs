@@ -25,6 +25,7 @@ public sealed partial class SettingsPage : Page
             await ShowAppearanceAsync();
             TvModeToggle.IsOn = App.MainWindow?.TvMode == true;
             ShowGameFiles();
+            ShowAppUpdateIdle();
         };
         Unloaded += (_, _) => gameFiles.Changed -= ShowGameFiles;
     }
@@ -397,4 +398,75 @@ public sealed partial class SettingsPage : Page
 
     private void OnOpenDataFolder(object sender, RoutedEventArgs e) =>
         Process.Start(new ProcessStartInfo("explorer.exe", $"\"{ViewModel.DataFolder}\"") { UseShellExecute = true });
+
+    // ---- Atualização do Lotus Ports ------------------------------------------------------------
+
+    private readonly LotusPorts.Infrastructure.Updates.AppUpdateService appUpdates = App.Services.GetRequiredService<LotusPorts.Infrastructure.Updates.AppUpdateService>();
+    private LotusPorts.Infrastructure.Updates.AppRelease? appRelease;
+    private bool appUpdateBusy;
+
+    private void ShowAppUpdateIdle()
+    {
+        AppUpdateStatus.Text = LotusPorts.Infrastructure.Updates.AppUpdateService.Repository is null
+            ? Strings.Get("AppUpdateNotPublished")
+            : Strings.Get("AppUpdateIdle");
+        AppUpdateButton.IsEnabled = LotusPorts.Infrastructure.Updates.AppUpdateService.Repository is not null;
+    }
+
+    /// <summary>First click looks for a new version; when one exists, the next click asks, downloads, verifies and installs it.</summary>
+    private async void OnAppUpdate(object sender, RoutedEventArgs e)
+    {
+        if (appUpdateBusy) return;
+        appUpdateBusy = true;
+        AppUpdateButton.IsEnabled = false;
+        try
+        {
+            if (appRelease is null)
+            {
+                AppUpdateStatus.Text = Strings.Get("AppUpdateChecking");
+                var check = await appUpdates.CheckAsync(AppInfo.Version);
+                appRelease = check.Release;
+                AppUpdateStatus.Text = check.State switch
+                {
+                    LotusPorts.Infrastructure.Updates.AppUpdateState.Available => Strings.Format("AppUpdateAvailable", check.Release!.Tag),
+                    LotusPorts.Infrastructure.Updates.AppUpdateState.UpToDate => Strings.Get("AppUpdateUpToDate"),
+                    LotusPorts.Infrastructure.Updates.AppUpdateState.RateLimited => Strings.Get("AppUpdateRateLimited"),
+                    LotusPorts.Infrastructure.Updates.AppUpdateState.Offline => Strings.Get("AppUpdateOffline"),
+                    _ => Strings.Get("AppUpdateNotPublished"),
+                };
+                AppUpdateButton.Content = Strings.Get(appRelease is null ? "AppUpdateCheck" : "AppUpdateInstall");
+                return;
+            }
+
+            var dialog = new ContentDialog
+            {
+                XamlRoot = XamlRoot,
+                Title = Strings.Format("AppUpdateConfirmTitle", appRelease.Tag),
+                Content = new TextBlock { Text = Strings.Get("AppUpdateConfirmBody"), TextWrapping = TextWrapping.Wrap },
+                PrimaryButtonText = Strings.Get("AppUpdateInstall"),
+                CloseButtonText = Strings.Get("Cancel"),
+                DefaultButton = ContentDialogButton.Primary,
+            };
+            if (await dialog.ShowAsync() != ContentDialogResult.Primary) return;
+            AppUpdateProgress.Visibility = Visibility.Visible;
+            AppUpdateProgress.Value = 0;
+            var size = Math.Max(1, appRelease.Installer.Size);
+            AppUpdateStatus.Text = Strings.Get("AppUpdateDownloading");
+            var file = await appUpdates.DownloadAsync(appRelease, new Progress<long>(b => AppUpdateProgress.Value = (double)b / size), CancellationToken.None);
+            AppUpdateStatus.Text = Strings.Get("AppUpdateStarting");
+            LotusPorts.Infrastructure.Updates.AppUpdateService.RunInstaller(file);
+            Application.Current.Exit(); // the installer replaces the app's files, so Lotus Ports must not be running
+        }
+        catch (Exception ex) when (ex is HttpRequestException or IOException or InvalidDataException or UnauthorizedAccessException or System.ComponentModel.Win32Exception or InvalidOperationException)
+        {
+            Serilog.Log.Warning(ex, "Lotus Ports update failed");
+            AppUpdateStatus.Text = Strings.Get(ex is InvalidDataException ? "AppUpdateBadFile" : "AppUpdateFailed");
+            AppUpdateProgress.Visibility = Visibility.Collapsed;
+        }
+        finally
+        {
+            appUpdateBusy = false;
+            AppUpdateButton.IsEnabled = true;
+        }
+    }
 }
