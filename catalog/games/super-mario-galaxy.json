@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "super-mario-galaxy",
+  "title": "Super Mario Galaxy",
+  "originalPlatform": "WII",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Super Mario Galaxy, lançado originalmente para Wii, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "nebula",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-mario-galaxy",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

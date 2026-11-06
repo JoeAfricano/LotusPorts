@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "super-monkey-ball-deluxe",
+  "title": "Super Monkey Ball Deluxe",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "quebra-cabeça"
+  ],
+  "descriptionPtBr": "Super Monkey Ball Deluxe, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "super-monkey-ball-deluxe-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-monkey-ball-deluxe",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

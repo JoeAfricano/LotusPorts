@@ -11,7 +11,20 @@
   "descriptionPtBr": "A agente Joanna Dark investiga uma conspiração corporativa neste jogo de tiro em primeira pessoa.",
   "recommendedPortId": "perfect-dark-port",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "dab-s-mod",
+      "differencePtBr": null
+    },
+    {
+      "portId": "perfect-dark-remaster-recomp",
+      "differencePtBr": null
+    },
+    {
+      "portId": "perfect-dark-recompiled",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:perfect-dark",
   "review": {
     "state": "approved",

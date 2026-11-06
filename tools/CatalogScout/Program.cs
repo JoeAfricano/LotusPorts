@@ -24,6 +24,8 @@ if (args.Length > 0 && args[0] == "approve") return Generator.Approve(args[1], a
 //   generate-wide <map.json> <catalogDir> <scan.json>...   many ports at once from a discovery map (facts only), checked against scans
 if (args.Length > 0 && args[0] == "generate-wide") return Wide.Generate(args[1], args[3..], args[2]);
 //   refresh-evidence <catalogDir> <scan.json>...   update measured release date and stars of existing ports
+//   auto-review <catalogDir> <reviewer> [--hold id ...]   approve pending games by the written rules in Wide.AutoReview
+if (args.Length > 0 && args[0] == "auto-review") return Wide.AutoReview(args[1], args[2], args.SkipWhile(a => a != "--hold").Skip(1).ToArray());
 if (args.Length > 0 && args[0] == "refresh-evidence") return Wide.RefreshEvidence(args[1], args[2..]);
 if (args.Length > 0 && args[0] == "apply-review") return Generator.ApplyReview(args[1], args[2], args[3]);
 if (args.Length > 0 && args[0] == "scan") args = args[1..];

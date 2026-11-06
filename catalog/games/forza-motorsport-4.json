@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "forza-motorsport-4",
+  "title": "Forza Motorsport 4",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Forza Motorsport 4, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "fm4-recomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "forza-motorsport-4-recompiled",
+      "differencePtBr": null
+    },
+    {
+      "portId": "fm4-static-recomp",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:forza-motorsport-4",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

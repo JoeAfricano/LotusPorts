@@ -271,7 +271,7 @@ HomeCategories	Categorias	Categories
 HomeConsoleOne	{0} jogo	{0} game
 HomeConsoleMany	{0} jogos	{0} games
 HomeEmptyMessage	Os jogos aparecem aqui depois da revisão do curador. No modo avançado, ative "Mostrar jogos em revisão" para vê-los antes.	Games show up here after the curator reviews them. In advanced mode, turn on "Show games in review" to see them now.
-CardStars	★ {0} no GitHub	★ {0} on GitHub
+CardStars	★ {0}	★ {0}
 CardUpdated	Atualizado em {0}	Updated {0}
 ShelfFavorites	Favoritos	Favorites
 LibraryEyebrow	SUA ESTANTE	YOUR SHELF

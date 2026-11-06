@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "fire-emblem-the-sacred-stones",
+  "title": "Fire Emblem: The Sacred Stones",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Fire Emblem: The Sacred Stones, lançado originalmente para Game Boy Advance, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "fire-emblem-the-sacred-stones-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:fire-emblem-the-sacred-stones",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

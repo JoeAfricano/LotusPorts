@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "opentricky",
+  "gameId": "ssx-tricky",
+  "title": "OpenTricky",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "GiZcesi",
+    "name": "OpenTricky"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^OpenTricky-.*-win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "OpenTricky-0.1.5-win64/OpenTricky.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/GiZcesi/OpenTricky",
+    "docs": "https://github.com/GiZcesi/OpenTricky#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.5",
+    "releaseDate": "2026-11-02",
+    "stars": 138,
+    "prerelease": false,
+    "assetName": "OpenTricky-0.1.5-win64.zip",
+    "assetSize": 73625513,
+    "assetSha256": "adac0b52da78151fae5a52bb0a1291bf27b73c9f6636d0f1ca4053e4037931d7"
+  }
+}

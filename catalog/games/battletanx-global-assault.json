@@ -10,7 +10,12 @@
   "descriptionPtBr": "Batalhas de tanques num mundo pós-apocalíptico, com campanha e modo para vários jogadores.",
   "recommendedPortId": "battletanx-ga-pc-port",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "btgarecomp",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:battletanx-global-assault",
   "review": {
     "state": "approved",

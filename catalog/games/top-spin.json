@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "top-spin",
+  "title": "Top Spin",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Top Spin, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "max-spin",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:top-spin",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

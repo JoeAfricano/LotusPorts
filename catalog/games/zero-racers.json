@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "zero-racers",
+  "title": "Zero Racers",
+  "originalPlatform": "VIRTUAL_BOY",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Zero Racers, lançado originalmente para Virtual Boy, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "zero-racers-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:zero-racers",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

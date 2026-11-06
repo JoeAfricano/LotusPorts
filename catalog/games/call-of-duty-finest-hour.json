@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "call-of-duty-finest-hour",
+  "title": "Call of Duty: Finest Hour",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Call of Duty: Finest Hour, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "finest-hour-remastered",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:call-of-duty-finest-hour",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

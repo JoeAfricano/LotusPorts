@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "wave-race-64",
+  "title": "Wave Race 64",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Wave Race 64, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "wave-race-64-recompiled",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "wave-race-64-vr",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:wave-race-64",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

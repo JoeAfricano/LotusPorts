@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "god-of-war",
+  "title": "God of War",
+  "originalPlatform": "PS2",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "God of War, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "god-of-war-native-pc",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "god-of-war-native-pc-vnnc1",
+      "differencePtBr": null
+    },
+    {
+      "portId": "god-of-war-2005",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:god-of-war",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

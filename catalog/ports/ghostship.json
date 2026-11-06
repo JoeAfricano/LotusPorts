@@ -96,6 +96,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "3.0.0",
+    "releaseDate": "2026-09-07",
+    "stars": 887,
     "prerelease": false,
     "assetName": "Nautilus-Alfa-Win64.zip",
     "assetSize": 20379303,

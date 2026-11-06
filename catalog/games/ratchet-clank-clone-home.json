@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ratchet-clank-clone-home",
+  "title": "Ratchet & Clank: Clone Home",
+  "originalPlatform": "OTHER",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Ratchet & Clank: Clone Home, lançado originalmente para outra plataforma, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "rac-j2me-remastered",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:ratchet-clank-clone-home",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

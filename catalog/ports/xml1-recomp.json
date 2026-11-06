@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "xml1-recomp",
+  "gameId": "x-men-legends",
+  "title": "XML1-recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "GTTeancum",
+    "name": "XML1-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^XML1-recomp-.*-win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "x-men legends.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/GTTeancum/XML1-recomp",
+    "docs": "https://github.com/GTTeancum/XML1-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "1.0.1",
+    "releaseDate": "2026-10-31",
+    "stars": 55,
+    "prerelease": false,
+    "assetName": "XML1-recomp-1.0.1-win64.zip",
+    "assetSize": 44811016,
+    "assetSha256": "d1b2ed71a76d33b331047461aa51368ee352f344c47523866828e9f1d850c2ba"
+  }
+}

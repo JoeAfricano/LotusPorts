@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "project-gotham-racing-2",
+  "title": "Project Gotham Racing 2",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Project Gotham Racing 2, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "pgr2-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:project-gotham-racing-2",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

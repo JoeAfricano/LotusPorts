@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "lagoon",
+  "title": "Lagoon",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Lagoon, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "lagoon-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:lagoon",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -11,7 +11,12 @@
   "descriptionPtBr": "O primeiro King's Field, RPG em primeira pessoa da FromSoftware lançado só no Japão.",
   "recommendedPortId": "kings-field-enhanced",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "verdite2",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:kings-field",
   "review": {
     "state": "approved",

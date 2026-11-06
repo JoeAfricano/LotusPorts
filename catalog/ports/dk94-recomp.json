@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "dk94-recomp",
+  "gameId": "donkey-kong",
+  "title": "DK94 Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "gnome41",
+    "name": "DK94-SGB"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^DK94-Recomp-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "DK94-Recomp-1.3.0-windows-x64/dk94.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/gnome41/DK94-SGB",
+    "docs": "https://github.com/gnome41/DK94-SGB#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.3.0",
+    "releaseDate": "2026-10-27",
+    "stars": 1,
+    "prerelease": false,
+    "assetName": "DK94-Recomp-1.3.0-windows-x64.zip",
+    "assetSize": 2122467,
+    "assetSha256": "22e1bccd96de8dd1fef189cc190df39a592864c6092467682a3dad2801f58bc0"
+  }
+}

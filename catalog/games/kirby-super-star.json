@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kirby-super-star",
+  "title": "Kirby Super Star",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Kirby Super Star, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "kirby-super-star",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:kirby-super-star",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

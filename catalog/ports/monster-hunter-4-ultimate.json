@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "monster-hunter-4-ultimate",
+  "gameId": "monster-hunter-4-ultimate",
+  "title": "Monster Hunter 4 Ultimate",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "CompaLarios18",
+    "name": "MH4UltimateDC"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^mh4u-port-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "mh4u-port-windows/mh4u.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/CompaLarios18/MH4UltimateDC",
+    "docs": "https://github.com/CompaLarios18/MH4UltimateDC#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.7",
+    "releaseDate": "2026-11-03",
+    "stars": 105,
+    "prerelease": false,
+    "assetName": "mh4u-port-windows.zip",
+    "assetSize": 106294383,
+    "assetSha256": "d3cf81eebf8ad101ba17f94bda0bcbc817dff097c284fd06955b9b2688d7c3df"
+  }
+}

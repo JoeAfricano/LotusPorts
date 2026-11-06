@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "pokopia-recomp",
+  "gameId": "pokopia",
+  "title": "Pokopia Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "drakolordx7",
+    "name": "switch2-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^PokopiaRecomp-.*-win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/drakolordx7/switch2-recomp",
+    "docs": "https://github.com/drakolordx7/switch2-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.0",
+    "releaseDate": "2026-11-04",
+    "stars": 440,
+    "prerelease": false,
+    "assetName": "PokopiaRecomp-0.2.0-win64.zip",
+    "assetSize": 171179854,
+    "assetSha256": "fd2630b439917a874676ed8bea53d6aff95ece443ab999568633a1acc716572a"
+  }
+}

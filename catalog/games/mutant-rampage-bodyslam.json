@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mutant-rampage-bodyslam",
+  "title": "Mutant Rampage: Bodyslam",
+  "originalPlatform": "CDI",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Mutant Rampage: Bodyslam, lançado originalmente para CD-i, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "mutant-rampage-bodyslam-static-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:mutant-rampage-bodyslam",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

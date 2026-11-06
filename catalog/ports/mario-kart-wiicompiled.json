@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "mario-kart-wiicompiled",
+  "gameId": "mario-kart-wii",
+  "title": "Mario Kart WiiCompiled",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "patchzyy",
+    "name": "Wiicompiled"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^WiiCompiled-Setup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/patchzyy/Wiicompiled",
+    "docs": "https://github.com/patchzyy/Wiicompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.9.3",
+    "releaseDate": "2026-10-25",
+    "stars": 1342,
+    "prerelease": false,
+    "assetName": "WiiCompiled-Setup.exe",
+    "assetSize": 392477226,
+    "assetSha256": "a1c93c0e6b9203a1b3c0b91b87aa13be90f02c3c9b380b65d694f7555bf12b46"
+  }
+}

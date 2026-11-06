@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "sega-superstars-tennis-rematch",
+  "gameId": "sega-superstars-tennis",
+  "title": "Sega Superstars Tennis ReMatch",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "m1ndcrap",
+    "name": "Sega-Superstars-Tennis-ReMatch"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^sst_rematch_windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "sst_rematch_windows/sst_rematch.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch",
+    "docs": "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.6.1",
+    "releaseDate": "2026-10-24",
+    "stars": 20,
+    "prerelease": false,
+    "assetName": "sst_rematch_windows.zip",
+    "assetSize": 186553945,
+    "assetSha256": "9f05822739e3b30454d157cf924e700289eca7826738947b56b4bab8bc5f77fd"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "starlit-party",
+  "gameId": "mario-party-6",
+  "title": "Starlit Party",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "iirg4x",
+    "name": "mp6-native-port"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^starlit-party-.*-61a99d3-win-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "starlit-party-v0.5.0-61a99d3-win-x64/mp6native.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/iirg4x/mp6-native-port",
+    "docs": "https://github.com/iirg4x/mp6-native-port#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.5.0",
+    "releaseDate": "2026-10-23",
+    "stars": 24,
+    "prerelease": false,
+    "assetName": "starlit-party-v0.5.0-61a99d3-win-x64.zip",
+    "assetSize": 44270946,
+    "assetSha256": "c7c8117300fd47f7048a0a282019b2c51fda5ae332d11c791ddb8fdbac7aed16"
+  }
+}

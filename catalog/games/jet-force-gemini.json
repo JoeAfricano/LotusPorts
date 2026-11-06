@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "jet-force-gemini",
+  "title": "Jet Force Gemini",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Jet Force Gemini, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "jet-force-gemini-recompiled",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "jet-force-gemini-recomp",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:jet-force-gemini",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

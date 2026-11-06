@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "exit-recomp",
+  "gameId": "exit-2",
+  "title": "EXIT Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "FluffyQuack",
+    "name": "ReXGlue-EXIT"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^rexglue-sdk-.*-win-amd64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "win-amd64/bin/rexglue.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/FluffyQuack/ReXGlue-EXIT",
+    "docs": "https://github.com/FluffyQuack/ReXGlue-EXIT#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.9.1",
+    "releaseDate": "2026-07-07",
+    "stars": 14,
+    "prerelease": false,
+    "assetName": "rexglue-sdk-0.9.1-win-amd64.zip",
+    "assetSize": 43286090,
+    "assetSha256": "4138498e6dd27ec4f8da0df4577fe57441ae39804a52b96e58766d3f1433b49a"
+  }
+}

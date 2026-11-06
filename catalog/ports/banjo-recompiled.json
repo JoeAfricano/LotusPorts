@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v1.0.2",
+    "releaseDate": "2026-07-31",
+    "stars": 2119,
     "prerelease": false,
     "assetName": "BanjoRecompiled-v1.0.2-Windows.zip",
     "assetSize": 18669475,

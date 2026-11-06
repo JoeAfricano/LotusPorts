@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "army-of-two-recomp",
+  "gameId": "army-of-two",
+  "title": "Army of Two Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "nikolaygorb",
+    "name": "ArmyOfTwoRecomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^Ao2-win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Ao2-win64/armyoftworecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/nikolaygorb/ArmyOfTwoRecomp",
+    "docs": "https://github.com/nikolaygorb/ArmyOfTwoRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "1.5",
+    "releaseDate": "2026-11-05",
+    "stars": 106,
+    "prerelease": false,
+    "assetName": "Ao2-win64.zip",
+    "assetSize": 39671343,
+    "assetSha256": "5cf6b8548725fa1041e5fa36efda8bbad7bde8b7761f6dfcf3f8a52d2e98b389"
+  }
+}

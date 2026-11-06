@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "vkrt-nes-remaster",
+  "title": "VKRT NES Remaster",
+  "originalPlatform": "NES",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "VKRT NES Remaster, lançado originalmente para NES, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "vkrt-nes-remaster",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:vkrt-nes-remaster",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

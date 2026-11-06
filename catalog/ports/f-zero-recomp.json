@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "f-zero-recomp",
+  "gameId": "f-zero",
+  "title": "F-Zero Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "craigshaw",
+    "name": "FZeroRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^FZeroRecomp-.*-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "F-Zero Recomp/fzero_recomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/craigshaw/FZeroRecomp",
+    "docs": "https://github.com/craigshaw/FZeroRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.6.0",
+    "releaseDate": "2026-10-17",
+    "stars": 46,
+    "prerelease": false,
+    "assetName": "FZeroRecomp-v0.6.0-Windows-x64.zip",
+    "assetSize": 4441359,
+    "assetSha256": "f3f2fd443c90c097fc281464fbfef7182eef5c557c3ef135f4689f4161c1b47a"
+  }
+}

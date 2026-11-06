@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "super-mario-64-infinite-mario-64-ever",
+  "title": "Super Mario 64 [Infinite Mario 64 Ever]",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Super Mario 64 [Infinite Mario 64 Ever], lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "infinite-mario-64-ever",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-mario-64-infinite-mario-64-ever",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

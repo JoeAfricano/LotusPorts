@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "oracles-decomp",
+  "gameId": "the-legend-of-zelda-oracle-of-ages-the-legend-of-zelda-oracle-of-seaso",
+  "title": "Oracles Decomp",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "kirby-letsgo",
+    "name": "oracles-decomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^Oracles-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Oracles/Oracles.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/kirby-letsgo/oracles-decomp",
+    "docs": "https://github.com/kirby-letsgo/oracles-decomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.6",
+    "releaseDate": "2026-11-02",
+    "stars": 105,
+    "prerelease": false,
+    "assetName": "Oracles-windows-x64.zip",
+    "assetSize": 10998130,
+    "assetSha256": "c6fe52b28cd676cfffe79c54d9351fa38aa3a15f94cc6c6b96a34b5b5f5de4d7"
+  }
+}

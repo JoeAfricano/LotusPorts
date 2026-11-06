@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "the-bigs-2-recompiled",
+  "gameId": "the-bigs-2",
+  "title": "The Bigs 2 Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "mdomangue26",
+    "name": "The-Bigs-2-Recompiled"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^TheBigs2-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "TheBigs2-windows-x64/thebigs2.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/mdomangue26/The-Bigs-2-Recompiled",
+    "docs": "https://github.com/mdomangue26/The-Bigs-2-Recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.1",
+    "releaseDate": "2026-10-25",
+    "stars": 10,
+    "prerelease": false,
+    "assetName": "TheBigs2-windows-x64.zip",
+    "assetSize": 14877233,
+    "assetSha256": "1632c970b00a359de07fb692a0b993973a523059efa7dacb2b41bf9aa9382a02"
+  }
+}

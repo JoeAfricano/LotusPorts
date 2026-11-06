@@ -62,6 +62,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "7.4-rc2",
+    "releaseDate": "2022-02-04",
+    "stars": 1451,
     "prerelease": false,
     "assetName": "REDRIVER2_Win32_Release.zip",
     "assetSize": 9772801,

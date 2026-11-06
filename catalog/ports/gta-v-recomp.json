@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "gta-v-recomp",
+  "gameId": "grand-theft-auto-v",
+  "title": "GTA V Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "andrewnakas",
+    "name": "gtav-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^gtav-recomp-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/andrewnakas/gtav-recomp",
+    "docs": "https://github.com/andrewnakas/gtav-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.3.0",
+    "releaseDate": "2026-11-02",
+    "stars": 158,
+    "prerelease": false,
+    "assetName": "gtav-recomp-windows-x64.zip",
+    "assetSize": 98934566,
+    "assetSha256": "fb92dc92dad774ba2b8b20ac6f5162e557306161e6dd9608cb76b28c2aa76303"
+  }
+}

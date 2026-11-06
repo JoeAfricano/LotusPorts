@@ -90,6 +90,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "9.3.1",
+    "releaseDate": "2026-10-18",
+    "stars": 5858,
     "prerelease": false,
     "assetName": "SoH-Dewey-Bravo-Win64.zip",
     "assetSize": 72980600,

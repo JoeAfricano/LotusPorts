@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "god-of-war-iii-remastered",
+  "title": "God of War III Remastered",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "God of War III Remastered, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "spartanport",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:god-of-war-iii-remastered",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

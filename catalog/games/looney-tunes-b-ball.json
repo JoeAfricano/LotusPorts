@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "looney-tunes-b-ball",
+  "title": "Looney Tunes B-Ball",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Looney Tunes B-Ball, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "looney-tunes-b-ball-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:looney-tunes-b-ball",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

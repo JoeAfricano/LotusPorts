@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "skies-of-arcadia-legends",
+  "title": "Skies of Arcadia Legends",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Skies of Arcadia Legends, lançado originalmente para GameCube, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "skies-of-arcadia-legends-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:skies-of-arcadia-legends",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

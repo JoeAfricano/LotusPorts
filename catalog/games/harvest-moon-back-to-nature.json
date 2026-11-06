@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "harvest-moon-back-to-nature",
+  "title": "Harvest Moon: Back to Nature",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Harvest Moon: Back to Nature, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "hmbtn-refarmed",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:harvest-moon-back-to-nature",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

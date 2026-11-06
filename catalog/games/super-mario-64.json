@@ -15,6 +15,10 @@
     {
       "portId": "sm64coopdx",
       "differencePtBr": "Foco em jogar online com outras pessoas."
+    },
+    {
+      "portId": "super-mario-64-recompiled",
+      "differencePtBr": null
     }
   ],
   "lotusGameKey": "port:super-mario-64",

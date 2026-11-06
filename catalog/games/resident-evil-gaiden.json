@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "resident-evil-gaiden",
+  "title": "Resident Evil Gaiden",
+  "originalPlatform": "GBC",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Resident Evil Gaiden, lançado originalmente para Game Boy Color, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "resident-evil-gaiden-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:resident-evil-gaiden",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

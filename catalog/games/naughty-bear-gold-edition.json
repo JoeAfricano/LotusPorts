@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "naughty-bear-gold-edition",
+  "title": "Naughty Bear Gold Edition",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Naughty Bear Gold Edition, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "restuff",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:naughty-bear-gold-edition",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

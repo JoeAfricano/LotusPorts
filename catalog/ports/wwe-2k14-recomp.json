@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "wwe-2k14-recomp",
+  "gameId": "wwe-2k14",
+  "title": "WWE 2K14 Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "PromethenDev",
+    "name": "wwe2k14-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^WWE2K14-Recomp-.*-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "WWE2K14-Recomp-x64/wwe2k14.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/PromethenDev/wwe2k14-recomp",
+    "docs": "https://github.com/PromethenDev/wwe2k14-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.4.10",
+    "releaseDate": "2026-11-05",
+    "stars": 94,
+    "prerelease": false,
+    "assetName": "WWE2K14-Recomp-v1.4.10-x64.zip",
+    "assetSize": 219383146,
+    "assetSha256": "6d95a320333207e14aaea528853f510216e7aaaccba416a85fdcd8f52c8c1a3c"
+  }
+}

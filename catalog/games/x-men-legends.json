@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "x-men-legends",
+  "title": "X-Men Legends",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "X-Men Legends, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "xml1-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:x-men-legends",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

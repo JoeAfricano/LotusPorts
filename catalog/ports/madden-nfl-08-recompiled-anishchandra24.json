@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "madden-nfl-08-recompiled-anishchandra24",
+  "gameId": "madden-nfl-08",
+  "title": "Madden NFL 08 Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "anishchandra24",
+    "name": "MaddenNFL08-Recompiled"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^MaddenNFL08-Recompiled-Setup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/anishchandra24/MaddenNFL08-Recompiled",
+    "docs": "https://github.com/anishchandra24/MaddenNFL08-Recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.0",
+    "releaseDate": "2026-10-25",
+    "stars": 13,
+    "prerelease": true,
+    "assetName": "MaddenNFL08-Recompiled-Setup.exe",
+    "assetSize": 530432,
+    "assetSha256": "d47bdd5fd48f4dab41c9f5d7eb3847fa280e22e089792a8fb2ddcc137207d3fb"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "forza-motorsport-2-regpu",
+  "gameId": "forza-motorsport-2",
+  "title": "Forza Motorsport 2 ReGPU",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "zer0ducksgiven",
+    "name": "Forza-Motorsport-2-ReGPU"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^FM2-Setup-.*\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU",
+    "docs": "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.10.10",
+    "releaseDate": "2026-11-05",
+    "stars": 68,
+    "prerelease": false,
+    "assetName": "FM2-Setup-0.10.10.exe",
+    "assetSize": 110436601,
+    "assetSha256": "85d32b1aaa4cb13d682e02a7d2ce37fb2992cfa0d5c5edc35608e837cbfa9a93"
+  }
+}

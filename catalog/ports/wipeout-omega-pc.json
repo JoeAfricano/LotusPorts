@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "wipeout-omega-pc",
+  "gameId": "wipeout-omega-collection",
+  "title": "WipEout Omega PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "AbdelmoumenDeghbouche",
+    "name": "wipeout_pc"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^wipeout-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "wipeout-windows/WipEout.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc",
+    "docs": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "windows-v0.2.59",
+    "releaseDate": "2026-11-04",
+    "stars": 236,
+    "prerelease": false,
+    "assetName": "wipeout-windows.zip",
+    "assetSize": 76152255,
+    "assetSha256": "c19a450dce664b5a9d1e35655660f6e8f94438f353ea32f90782540cff84f675"
+  }
+}

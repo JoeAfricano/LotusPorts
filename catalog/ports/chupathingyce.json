@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "chupathingyce",
+  "gameId": "halo-combat-evolved",
+  "title": "ChupathingyCE",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "ChupathingyCE",
+    "name": "chupathingyce"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^chupathingyce-windows-release\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "halo.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/ChupathingyCE/chupathingyce",
+    "docs": "https://github.com/ChupathingyCE/chupathingyce#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.8.1d",
+    "releaseDate": "2026-10-30",
+    "stars": 124,
+    "prerelease": false,
+    "assetName": "chupathingyce-windows-release.zip",
+    "assetSize": 24844551,
+    "assetSha256": "fb526a96beedfeaf6e4a2bffdcfed89caa8659a6aa78870cec83110c70bd9f60"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ea-sports-ufc-3",
+  "title": "EA Sports UFC 3",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "EA Sports UFC 3, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "ufc-3-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:ea-sports-ufc-3",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -277,7 +277,7 @@
   <data name="HomeConsoleOne" xml:space="preserve"><value>{0} jogo</value></data>
   <data name="HomeConsoleMany" xml:space="preserve"><value>{0} jogos</value></data>
   <data name="HomeEmptyMessage" xml:space="preserve"><value>Os jogos aparecem aqui depois da revisão do curador. No modo avançado, ative &quot;Mostrar jogos em revisão&quot; para vê-los antes.</value></data>
-  <data name="CardStars" xml:space="preserve"><value>★ {0} no GitHub</value></data>
+  <data name="CardStars" xml:space="preserve"><value>★ {0}</value></data>
   <data name="CardUpdated" xml:space="preserve"><value>Atualizado em {0}</value></data>
   <data name="ShelfFavorites" xml:space="preserve"><value>Favoritos</value></data>
   <data name="LibraryEyebrow" xml:space="preserve"><value>SUA ESTANTE</value></data>

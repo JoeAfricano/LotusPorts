@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sin-and-punishment",
+  "title": "Sin and Punishment",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Sin and Punishment, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "sin-and-punishment-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:sin-and-punishment",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

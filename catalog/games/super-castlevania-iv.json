@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "super-castlevania-iv",
+  "title": "Super Castlevania IV",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Super Castlevania IV, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "super-castlevania-iv",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-castlevania-iv",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

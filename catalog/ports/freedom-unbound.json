@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "freedom-unbound",
+  "gameId": "monster-hunter-freedom-unite",
+  "title": "Freedom Unbound",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Dudux42",
+    "name": "FreedomUnbound"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^FreedomUnbound-.*windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "FreedomUnbound-0.1.6-alpha-windows-x64/FreedomUnbound.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Dudux42/FreedomUnbound",
+    "docs": "https://github.com/Dudux42/FreedomUnbound#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.6-alpha",
+    "releaseDate": "2026-10-31",
+    "stars": 24,
+    "prerelease": false,
+    "assetName": "FreedomUnbound-0.1.6-alpha-windows-x64.zip",
+    "assetSize": 110121118,
+    "assetSha256": "ea70beb3c2219c1a71186d238dc93e1babb524c08da5d9f97db7017173e0bc0a"
+  }
+}

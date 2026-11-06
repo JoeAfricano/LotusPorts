@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "bomberman-64-the-second-attack",
+  "title": "Bomberman 64: The Second Attack!",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Bomberman 64: The Second Attack!, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "bomberman-64-the-second-attack-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:bomberman-64-the-second-attack",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

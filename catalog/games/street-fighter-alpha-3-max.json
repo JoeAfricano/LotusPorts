@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "street-fighter-alpha-3-max",
+  "title": "Street Fighter Alpha 3 MAX",
+  "originalPlatform": "PSP",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Street Fighter Alpha 3 MAX, lançado originalmente para PSP, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "street-fighter-alpha-3-max",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:street-fighter-alpha-3-max",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

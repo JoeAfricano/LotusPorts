@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "totk-recomp",
+  "gameId": "the-legend-of-zelda-tears-of-the-kingdom",
+  "title": "TotK Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "valentderah",
+    "name": "totk-pc-recomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^TotK-Setup-.*-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/valentderah/totk-pc-recomp",
+    "docs": "https://github.com/valentderah/totk-pc-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.3.11",
+    "releaseDate": "2026-11-05",
+    "stars": 5144,
+    "prerelease": false,
+    "assetName": "TotK-Setup-0.3.11-windows.zip",
+    "assetSize": 164515808,
+    "assetSha256": "e77c12f29c3f39c54c0f8c357b87fc89e8ff4c9bb87dababe6fa9c4e686f7427"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "donald-duck-goin-quackers",
+  "title": "Donald Duck: Goin' Quackers",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Donald Duck: Goin' Quackers, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "donald-duck-goin-quackers-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:donald-duck-goin-quackers",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

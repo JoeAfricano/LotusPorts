@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "goemon-s-great-adventure-recompiled",
+  "gameId": "goemon-s-great-adventure",
+  "title": "Goemon's Great Adventure: Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "StopSine",
+    "name": "GGA64Recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^GGA64Recompiled-Windows-RelWithDebInfo\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "GGA64Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/StopSine/GGA64Recomp",
+    "docs": "https://github.com/StopSine/GGA64Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.0",
+    "releaseDate": "2026-09-19",
+    "stars": 14,
+    "prerelease": true,
+    "assetName": "GGA64Recompiled-Windows-RelWithDebInfo.zip",
+    "assetSize": 19956602,
+    "assetSha256": "ce2301089d964545db5d58ff04d68dccd8c79e078f53a353b3e56bbf86220883"
+  }
+}

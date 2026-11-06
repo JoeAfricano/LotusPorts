@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "legendary-wings",
+  "title": "Legendary Wings",
+  "originalPlatform": "NES",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Legendary Wings, lançado originalmente para NES, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "legendary-wings-nes-to-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:legendary-wings",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

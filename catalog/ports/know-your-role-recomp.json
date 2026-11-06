@@ -71,6 +71,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.2.0",
+    "releaseDate": "2026-09-30",
+    "stars": 8,
     "prerelease": false,
     "assetName": "KnowYourRole-win-x64.zip",
     "assetSize": 127898385,

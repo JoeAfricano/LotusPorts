@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tomb-raider",
+  "title": "Tomb Raider",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Tomb Raider, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "tomb-raider-de-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:tomb-raider",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

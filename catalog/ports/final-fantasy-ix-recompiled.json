@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-ix-recompiled",
+  "gameId": "final-fantasy-ix",
+  "title": "Final Fantasy IX Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "alexbeavs-ps1-ports",
+    "name": "final-fantasy-ix-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^final-fantasy-ix-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Final_Fantasy_IX_Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp",
+    "docs": "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.1",
+    "releaseDate": "2026-09-30",
+    "stars": 17,
+    "prerelease": false,
+    "assetName": "final-fantasy-ix-0.1.1-windows-x64.zip",
+    "assetSize": 26208499,
+    "assetSha256": "6ef4295d9d87c7075c517e87ab6b16943c7d4497c95e707b667f43be05b2072d"
+  }
+}

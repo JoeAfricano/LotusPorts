@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "rubysapphirerecomp",
+  "gameId": "pokemon-ruby",
+  "title": "RubySapphireRecomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "mstan",
+    "name": "RubySapphireRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^RubyRecomp-windows-x64-.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "RubyRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/mstan/RubySapphireRecomp",
+    "docs": "https://github.com/mstan/RubySapphireRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.0.9",
+    "releaseDate": "2026-11-01",
+    "stars": 24,
+    "prerelease": false,
+    "assetName": "RubyRecomp-windows-x64-v0.0.9.zip",
+    "assetSize": 59308238,
+    "assetSha256": "fbb3eeeda6baeec00f104e5158f0e6a3a4c763b2439a742db5ea4962a2257982"
+  }
+}

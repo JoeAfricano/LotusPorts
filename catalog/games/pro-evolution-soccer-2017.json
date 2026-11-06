@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pro-evolution-soccer-2017",
+  "title": "Pro Evolution Soccer 2017",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Pro Evolution Soccer 2017, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "pro17port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:pro-evolution-soccer-2017",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rayman-2-the-great-escape",
+  "title": "Rayman 2: The Great Escape",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Rayman 2: The Great Escape, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "rayman-2-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:rayman-2-the-great-escape",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

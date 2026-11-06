@@ -108,6 +108,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "0.2.0-pre",
+    "releaseDate": "2026-05-17",
+    "stars": 403,
     "prerelease": false,
     "assetName": "tmc-usa-windows-20260517-0932-52701ac.zip",
     "assetSize": 18746262,

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "medievil-pc",
+  "gameId": "medievil",
+  "title": "MediEvil PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "bc160201983",
+    "name": "medievil_2019_pc_port"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^medievil-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "medievil-windows/MediEvil.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/bc160201983/medievil_2019_pc_port",
+    "docs": "https://github.com/bc160201983/medievil_2019_pc_port#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.3.8",
+    "releaseDate": "2026-10-29",
+    "stars": 228,
+    "prerelease": false,
+    "assetName": "medievil-windows.zip",
+    "assetSize": 78406334,
+    "assetSha256": "0930ada458c0eb04855049519ff8af3dbc12e2140760fc46bbe0b683978e42a6"
+  }
+}

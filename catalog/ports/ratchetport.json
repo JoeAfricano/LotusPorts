@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ratchetport",
+  "gameId": "ratchet-clank",
+  "title": "RatchetPort",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "shehab4546",
+    "name": "RatchetPort"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^RatchetPort-V.*-Stellar-Update-Windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/shehab4546/RatchetPort",
+    "docs": "https://github.com/shehab4546/RatchetPort#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2.0",
+    "releaseDate": "2026-10-28",
+    "stars": 152,
+    "prerelease": false,
+    "assetName": "RatchetPort-V2.0-Stellar-Update-Windows.zip",
+    "assetSize": 39000683,
+    "assetSha256": "1abe687f1572a52cf4e153be1bed309d92325ba57609cdfe71cb850fb36f0e9e"
+  }
+}

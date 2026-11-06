@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "segasonic-the-hedgehog",
+  "title": "SegaSonic the Hedgehog",
+  "originalPlatform": "ARCADE",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "SegaSonic the Hedgehog, lançado originalmente para Arcade, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "segasonic-the-hedgehog-native-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:segasonic-the-hedgehog",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

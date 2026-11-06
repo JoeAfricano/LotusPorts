@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "n3-ninety-nine-nights",
+  "title": "N3: Ninety-Nine Nights",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "N3: Ninety-Nine Nights, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "n3-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:n3-ninety-nine-nights",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cartoon-network-racing",
+  "title": "Cartoon Network Racing",
+  "originalPlatform": "PS2",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Cartoon Network Racing, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "cartoon-network-racing-recompiled",
+  "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "cartoon-network-racing-recompiled-tekrantgaming",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:cartoon-network-racing",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nascar-rumble",
+  "title": "NASCAR Rumble",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "NASCAR Rumble, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "full-rumble",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:nascar-rumble",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

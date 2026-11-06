@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "gran-turismo-3-a-spec",
+  "title": "Gran Turismo 3: A-Spec",
+  "originalPlatform": "PS2",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Gran Turismo 3: A-Spec, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "gt3-revisited",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:gran-turismo-3-a-spec",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

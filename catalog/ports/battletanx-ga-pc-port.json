@@ -82,6 +82,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.2.5",
+    "releaseDate": "2026-10-13",
+    "stars": 20,
     "prerelease": false,
     "assetName": "BattleTanxGA-0.2.5-windows-x64-portable.zip",
     "assetSize": 13559683,

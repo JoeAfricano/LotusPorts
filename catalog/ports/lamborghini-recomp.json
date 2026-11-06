@@ -68,6 +68,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.10.3",
+    "releaseDate": "2026-10-30",
+    "stars": 48,
     "prerelease": false,
     "assetName": "lamborghini-recomp-windows-x64.zip",
     "assetSize": 36420367,

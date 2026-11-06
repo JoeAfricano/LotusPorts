@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ogre-battle-64-recomp-lfarroco",
+  "gameId": "ogre-battle-64-person-of-lordly-caliber",
+  "title": "Ogre Battle 64: Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "lfarroco",
+    "name": "ogre-battle-64-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^ogre-battle-64-recomp-windows-x.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "ogre-battle-64-recomp/ogrebattle64.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/lfarroco/ogre-battle-64-recomp",
+    "docs": "https://github.com/lfarroco/ogre-battle-64-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.9.1",
+    "releaseDate": "2026-11-03",
+    "stars": 89,
+    "prerelease": false,
+    "assetName": "ogre-battle-64-recomp-windows-x86_64.zip",
+    "assetSize": 17239840,
+    "assetSha256": "183ca5e7289e0996934a739c54586b508f201815a9f13ac20bf27e1dfeb552ea"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "super-smash-bros-brawl",
+  "title": "Super Smash Bros. Brawl",
+  "originalPlatform": "WII",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Super Smash Bros. Brawl, lançado originalmente para Wii, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "brawl-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-smash-bros-brawl",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

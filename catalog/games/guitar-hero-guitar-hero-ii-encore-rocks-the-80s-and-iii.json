@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "guitar-hero-guitar-hero-ii-encore-rocks-the-80s-and-iii",
+  "title": "Guitar Hero, Guitar Hero II, Encore: Rocks the 80s and III",
+  "originalPlatform": "OTHER",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Guitar Hero, Guitar Hero II, Encore: Rocks the 80s and III, lançado originalmente para outra plataforma, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "guitar-dream-engine-guitar-hero-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:guitar-hero-guitar-hero-ii-encore-rocks-the-80s-and-iii",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

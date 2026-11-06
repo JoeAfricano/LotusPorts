@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "infamous-second-son-pc",
+  "gameId": "infamous-second-son",
+  "title": "inFAMOUS Second Son PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "HayatoG",
+    "name": "iss_pc"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^infamous-windows-x.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "infamous-windows-x86_64/inFAMOUS Second Son.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/HayatoG/iss_pc",
+    "docs": "https://github.com/HayatoG/iss_pc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0",
+    "releaseDate": "2026-10-22",
+    "stars": 1097,
+    "prerelease": false,
+    "assetName": "infamous-windows-x86_64.zip",
+    "assetSize": 122650527,
+    "assetSha256": "25cf4c6a27547b0d714efee15ceb7058165f316ae65348d2a8e583650154e4ca"
+  }
+}

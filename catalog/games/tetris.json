@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tetris",
+  "title": "Tetris",
+  "originalPlatform": "GB",
+  "releaseYear": null,
+  "genre": [
+    "quebra-cabeça"
+  ],
+  "descriptionPtBr": "Tetris, lançado originalmente para Game Boy, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "tetrisgbrecomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:tetris",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

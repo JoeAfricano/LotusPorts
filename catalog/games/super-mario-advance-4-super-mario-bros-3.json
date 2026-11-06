@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "super-mario-advance-4-super-mario-bros-3",
+  "title": "Super Mario Advance 4: Super Mario Bros. 3",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Super Mario Advance 4: Super Mario Bros. 3, lançado originalmente para Game Boy Advance, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "super-mario-advance-4-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-mario-advance-4-super-mario-bros-3",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

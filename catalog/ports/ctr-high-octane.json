@@ -71,6 +71,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v.1.5",
+    "releaseDate": "2026-10-12",
+    "stars": 221,
     "prerelease": false,
     "assetName": "ctr-high-octane-x64.win.zip",
     "assetSize": 2403121,

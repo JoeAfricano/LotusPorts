@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "yoshiscookierecomp",
+  "gameId": "yoshi-s-cookie",
+  "title": "YoshisCookieRecomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "mstan",
+    "name": "YoshisCookieRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^YoshisCookieRecomp-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "YoshisCookieRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/mstan/YoshisCookieRecomp",
+    "docs": "https://github.com/mstan/YoshisCookieRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.1.1",
+    "releaseDate": "2026-10-19",
+    "stars": 13,
+    "prerelease": false,
+    "assetName": "YoshisCookieRecomp-windows-x64.zip",
+    "assetSize": 4902569,
+    "assetSha256": "5238356ea207ba358602f01b6febd0569b9ffadbf70945e610d8a6c5cc231b98"
+  }
+}

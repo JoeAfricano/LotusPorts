@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "madden-nfl-08",
+  "title": "Madden NFL 08",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Madden NFL 08, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "madden-nfl-08-recompiled",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "madden-nfl-08-recompiled-anishchandra24",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:madden-nfl-08",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

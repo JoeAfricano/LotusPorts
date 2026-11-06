@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pikmin",
+  "title": "Pikmin",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Pikmin, lançado originalmente para GameCube, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "open-nectar",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:pikmin",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

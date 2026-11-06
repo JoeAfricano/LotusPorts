@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "jet-set-radio-future",
+  "title": "Jet Set Radio Future",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Jet Set Radio Future, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "jsrf-unleashed",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "jsrf-pc",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:jet-set-radio-future",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

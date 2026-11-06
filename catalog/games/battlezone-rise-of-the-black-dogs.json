@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "battlezone-rise-of-the-black-dogs",
+  "title": "Battlezone: Rise of the Black Dogs",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Battlezone: Rise of the Black Dogs, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "battlezone-rise-of-the-black-dogs-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:battlezone-rise-of-the-black-dogs",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

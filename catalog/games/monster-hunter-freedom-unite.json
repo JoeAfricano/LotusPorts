@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "monster-hunter-freedom-unite",
+  "title": "Monster Hunter Freedom Unite",
+  "originalPlatform": "PSP",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Monster Hunter Freedom Unite, lançado originalmente para PSP, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "mhforever",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "mhforever-mango77x",
+      "differencePtBr": null
+    },
+    {
+      "portId": "freedom-unbound",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:monster-hunter-freedom-unite",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

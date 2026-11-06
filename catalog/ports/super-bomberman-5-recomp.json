@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "super-bomberman-5-recomp",
+  "gameId": "super-bomberman-5",
+  "title": "Super Bomberman 5 Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "MauricioSuporte",
+    "name": "SuperBomberman5SNESRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^superbomberman5-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "superbomberman5-3.0.4-windows-x64/SuperBomberman5Recomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/MauricioSuporte/SuperBomberman5SNESRecomp",
+    "docs": "https://github.com/MauricioSuporte/SuperBomberman5SNESRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v3.0.4",
+    "releaseDate": "2026-11-05",
+    "stars": 9,
+    "prerelease": false,
+    "assetName": "superbomberman5-3.0.4-windows-x64.zip",
+    "assetSize": 19329004,
+    "assetSha256": "a7483fde2495acdbf2faa96de28eb3277d6f91000aca3a678866ea88f6d69d6c"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "finest-hour-remastered",
+  "gameId": "call-of-duty-finest-hour",
+  "title": "Finest Hour Remastered",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "crazyriddler",
+    "name": "FinestHourRemastered"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^FinestHourRemasteredUpdate\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "portable-exe"
+  },
+  "executable": "FinestHourRemasteredUpdate.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/crazyriddler/FinestHourRemastered",
+    "docs": "https://github.com/crazyriddler/FinestHourRemastered#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "update",
+    "releaseDate": "2026-11-04",
+    "stars": 173,
+    "prerelease": false,
+    "assetName": "FinestHourRemasteredUpdate.exe",
+    "assetSize": 270999150,
+    "assetSha256": "80dd749b054eb2567347f19665a4ded0f2106a8cada70074ae846d35f0865d9d"
+  }
+}

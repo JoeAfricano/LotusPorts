@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "midnight-club-3-dub-edition-remix",
+  "title": "Midnight Club 3: DUB Edition Remix",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Midnight Club 3: DUB Edition Remix, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "mc3port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:midnight-club-3-dub-edition-remix",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

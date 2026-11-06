@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "blood-wake",
+  "title": "Blood Wake",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Blood Wake, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "blood-wake-recomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "blood-wake-recomp-minimalice92",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:blood-wake",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

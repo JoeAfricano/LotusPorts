@@ -10,7 +10,12 @@
   "descriptionPtBr": "Hóquei arcade rápido em partidas de três contra três.",
   "recommendedPortId": "3on3-nhl-recomp",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "3on3-arcade-recomp",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:3-on-3-nhl-arcade",
   "review": {
     "state": "approved",

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "new-super-mario-bros-wii",
+  "title": "New Super Mario Bros. Wii",
+  "originalPlatform": "WII",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "New Super Mario Bros. Wii, lançado originalmente para Wii, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "nsmb-wii-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:new-super-mario-bros-wii",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

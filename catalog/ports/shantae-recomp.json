@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "shantae-recomp",
+  "gameId": "shantae",
+  "title": "Shantae Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "vibecodekun",
+    "name": "shantaerecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^shantae-recomp-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "shantae-recomp-0.2.0-windows-x64/shantae.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/vibecodekun/shantaerecomp",
+    "docs": "https://github.com/vibecodekun/shantaerecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.0",
+    "releaseDate": "2026-10-22",
+    "stars": 10,
+    "prerelease": false,
+    "assetName": "shantae-recomp-0.2.0-windows-x64.zip",
+    "assetSize": 85452643,
+    "assetSha256": "d85e17f17b2f25415ae5be237c29a3eba7b48b96d53a591b84aa1e84fa76a3e3"
+  }
+}

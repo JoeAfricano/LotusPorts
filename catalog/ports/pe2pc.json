@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "pe2pc",
+  "gameId": "parasite-eve-ii",
+  "title": "PE2PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Snaity-CORE",
+    "name": "pe2-pc-port"
+  },
+  "license": "CC0-1.0",
+  "windowsAsset": {
+    "pattern": "(?i)^pe2-pc-port-.*-windows-x86\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "pe2.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Snaity-CORE/pe2-pc-port",
+    "docs": "https://github.com/Snaity-CORE/pe2-pc-port#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.5.1",
+    "releaseDate": "2026-11-05",
+    "stars": 75,
+    "prerelease": false,
+    "assetName": "pe2-pc-port-v0.5.1-windows-x86.zip",
+    "assetSize": 10727973,
+    "assetSha256": "26c728d282f1d5c88412cdd77ae561a43e1c030bb17c4c9a4c292b786744fb15"
+  }
+}

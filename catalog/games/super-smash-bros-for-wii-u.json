@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "super-smash-bros-for-wii-u",
+  "title": "Super Smash Bros. for Wii U",
+  "originalPlatform": "WII_U",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Super Smash Bros. for Wii U, lançado originalmente para Wii U, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "smash-4-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-smash-bros-for-wii-u",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

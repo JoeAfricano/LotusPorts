@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crimson-skies-high-road-to-revenge",
+  "title": "Crimson Skies: High Road to Revenge",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Crimson Skies: High Road to Revenge, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "crimson-skies-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:crimson-skies-high-road-to-revenge",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

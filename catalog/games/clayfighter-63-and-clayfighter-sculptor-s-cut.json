@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "clayfighter-63-and-clayfighter-sculptor-s-cut",
+  "title": "ClayFighter 63⅓ and ClayFighter: Sculptor's Cut",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "ClayFighter 63⅓ and ClayFighter: Sculptor's Cut, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "clayfighter-64",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:clayfighter-63-and-clayfighter-sculptor-s-cut",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

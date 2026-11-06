@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "warioware-twisted",
+  "title": "WarioWare: Twisted!",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "quebra-cabeça"
+  ],
+  "descriptionPtBr": "WarioWare: Twisted!, lançado originalmente para Game Boy Advance, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "warioware-twisted-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:warioware-twisted",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

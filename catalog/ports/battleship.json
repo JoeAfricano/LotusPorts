@@ -92,6 +92,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v1.6",
+    "releaseDate": "2026-08-12",
+    "stars": 532,
     "prerelease": false,
     "assetName": "BattleShip-windows.zip",
     "assetSize": 8818427,

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "super-monkey-ball-deluxe-recompiled",
+  "gameId": "super-monkey-ball-deluxe",
+  "title": "Super Monkey Ball Deluxe Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "timftw21",
+    "name": "smbd-recompilation"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^smbd-.*-windows-x64-setup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/timftw21/smbd-recompilation",
+    "docs": "https://github.com/timftw21/smbd-recompilation#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.3.0",
+    "releaseDate": "2026-11-04",
+    "stars": 6,
+    "prerelease": false,
+    "assetName": "smbd-0.3.0-windows-x64-setup.exe",
+    "assetSize": 35664896,
+    "assetSha256": "937ee57a3dfee8a99d2441779f53b32d2c88666bc27c803c649e48a1551aa31a"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pokemon-trading-card-game-2-the-invasion-of-team-gr",
+  "title": "Pokémon Trading Card Game 2: The Invasion of Team GR!",
+  "originalPlatform": "GBC",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Pokémon Trading Card Game 2: The Invasion of Team GR!, lançado originalmente para Game Boy Color, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "pokemon-tcg-2-native-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:pokemon-trading-card-game-2-the-invasion-of-team-gr",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tsukihime-a-piece-of-blue-glass-moon",
+  "title": "Tsukihime -A piece of blue glass moon-",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Tsukihime -A piece of blue glass moon-, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "tsukihime-native-pc-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:tsukihime-a-piece-of-blue-glass-moon",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

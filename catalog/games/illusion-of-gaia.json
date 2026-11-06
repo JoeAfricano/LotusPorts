@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "illusion-of-gaia",
+  "title": "Illusion of Gaia",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Illusion of Gaia, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "babel-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:illusion-of-gaia",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "link-the-faces-of-evil",
+  "title": "Link: The Faces of Evil",
+  "originalPlatform": "CDI",
+  "releaseYear": null,
+  "genre": [
+    "aventura"
+  ],
+  "descriptionPtBr": "Link: The Faces of Evil, lançado originalmente para CD-i, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "link-the-faces-of-evil-static-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:link-the-faces-of-evil",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

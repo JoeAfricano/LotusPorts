@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ape-escape-mind-over-monkey",
+  "gameId": "saru-get-you-saru-saru-daisakusen",
+  "title": "Ape Escape Mind Over Monkey",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "jackgllghr",
+    "name": "bigmission-recomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^SaruSaruRecomp-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/jackgllghr/bigmission-recomp",
+    "docs": "https://github.com/jackgllghr/bigmission-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.0",
+    "releaseDate": "2026-10-18",
+    "stars": 7,
+    "prerelease": false,
+    "assetName": "SaruSaruRecomp-v0.2.0-windows-x64.zip",
+    "assetSize": 36836086,
+    "assetSha256": "ca9feb9a0f0f699393ec50bac31981bf41c6560a1be9b50222b0d6a7a9df8d0f"
+  }
+}

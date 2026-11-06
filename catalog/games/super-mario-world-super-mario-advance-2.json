@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "super-mario-world-super-mario-advance-2",
+  "title": "Super Mario World: Super Mario Advance 2",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Super Mario World: Super Mario Advance 2, lançado originalmente para Game Boy Advance, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "supermarioadvance2recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-mario-world-super-mario-advance-2",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

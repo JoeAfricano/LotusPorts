@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ape-escape-recompiled-enhanced-edition-nvd123-yt",
+  "gameId": "ape-escape",
+  "title": "Ape Escape Recompiled — Enhanced Edition",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "nvd123-YT",
+    "name": "ApeEscapeRecompiled"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^ApeEscapeRecomp-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "ApeEscapeRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/nvd123-YT/ApeEscapeRecompiled",
+    "docs": "https://github.com/nvd123-YT/ApeEscapeRecompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "macos-nightly",
+    "releaseDate": "2026-10-15",
+    "stars": 31,
+    "prerelease": false,
+    "assetName": "ApeEscapeRecomp-v2.0.0-windows-x64.zip",
+    "assetSize": 47214279,
+    "assetSha256": "5916294f2ef08984acccc58fa7ed717a506d4f8b69d19893a5ea957d05e7fb1e"
+  }
+}

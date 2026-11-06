@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "0.0.3",
+    "releaseDate": "2025-11-01",
+    "stars": 208,
     "prerelease": false,
     "assetName": "DNZHRecompiled-0.0.3-Windows-RelWithDebInfo.zip",
     "assetSize": 24044294,

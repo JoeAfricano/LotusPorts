@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "top-gear-pc",
+  "gameId": "top-gear",
+  "title": "Top Gear PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "thebradshaw",
+    "name": "topgear-pc"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^topgear-pc-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "topgear-pc/topgear.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/thebradshaw/topgear-pc",
+    "docs": "https://github.com/thebradshaw/topgear-pc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.2.0",
+    "releaseDate": "2026-11-04",
+    "stars": 39,
+    "prerelease": false,
+    "assetName": "topgear-pc-windows-x64.zip",
+    "assetSize": 3847693,
+    "assetSha256": "5a686a8c53f470de41b229cb7f0a7c806a842a22d3bb6b40daad30c219527904"
+  }
+}

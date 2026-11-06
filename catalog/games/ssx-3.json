@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ssx-3",
+  "title": "SSX 3",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "SSX 3, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "ssx3-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:ssx-3",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

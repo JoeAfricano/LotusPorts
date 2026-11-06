@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "rampagere",
+  "gameId": "rampage-total-destruction",
+  "title": "RampageRE",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "jjmhalew",
+    "name": "RampageRE"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^RampageRE-windows-.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/jjmhalew/RampageRE",
+    "docs": "https://github.com/jjmhalew/RampageRE#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.2.3",
+    "releaseDate": "2026-11-05",
+    "stars": 61,
+    "prerelease": false,
+    "assetName": "RampageRE-windows-v1.2.3.zip",
+    "assetSize": 2315629,
+    "assetSha256": "6e32863dda483c1779b6a289e60a2f2a387b7fd5dc1a49ced7c3429951908445"
+  }
+}

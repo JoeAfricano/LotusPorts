@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "wet-recompiled",
+  "gameId": "wet",
+  "title": "WET Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "zonehammer",
+    "name": "wet-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^WetSetup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/zonehammer/wet-recomp",
+    "docs": "https://github.com/zonehammer/wet-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.78",
+    "releaseDate": "2026-11-03",
+    "stars": 9,
+    "prerelease": false,
+    "assetName": "WetSetup.exe",
+    "assetSize": 2435584,
+    "assetSha256": "5fe748b75644917a2df7259c86fe8cb292fbcf509717b40a7c607644d15b5df7"
+  }
+}

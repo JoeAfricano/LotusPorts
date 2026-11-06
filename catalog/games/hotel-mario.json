@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hotel-mario",
+  "title": "Hotel Mario",
+  "originalPlatform": "CDI",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Hotel Mario, lançado originalmente para CD-i, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "hotel-mario-static-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:hotel-mario",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

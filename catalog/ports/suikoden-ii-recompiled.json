@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "suikoden-ii-recompiled",
+  "gameId": "suikoden-ii",
+  "title": "Suikoden II Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "alexbeavs-ps1-ports",
+    "name": "suikoden-ii-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^suikodenii-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Suikoden_II.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/alexbeavs-ps1-ports/suikoden-ii-recomp",
+    "docs": "https://github.com/alexbeavs-ps1-ports/suikoden-ii-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.0",
+    "releaseDate": "2026-09-14",
+    "stars": 9,
+    "prerelease": false,
+    "assetName": "suikodenii-0.1.0-windows-x64.zip",
+    "assetSize": 27059994,
+    "assetSha256": "c83d77c076476e0360a91f70d05d802fc6decb77bcd92c5df7bd89a5e78dcf7a"
+  }
+}

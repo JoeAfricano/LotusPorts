@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "disgaea-d2-a-brighter-darkness",
+  "title": "Disgaea D2: A Brighter Darkness",
+  "originalPlatform": "PS3",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Disgaea D2: A Brighter Darkness, lançado originalmente para PlayStation 3, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "disgaea-d2-a-brighter-darkness",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:disgaea-d2-a-brighter-darkness",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

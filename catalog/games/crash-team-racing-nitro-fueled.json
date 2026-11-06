@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "crash-team-racing-nitro-fueled",
+  "title": "Crash Team Racing: Nitro-Fueled",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Crash Team Racing: Nitro-Fueled, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "ctr-nitrofueled-pc",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "ctr-nitro-fueled-online",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:crash-team-racing-nitro-fueled",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

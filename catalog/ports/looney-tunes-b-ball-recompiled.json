@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "looney-tunes-b-ball-recompiled",
+  "gameId": "looney-tunes-b-ball",
+  "title": "Looney Tunes B-Ball Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "SlippyGetBackHere",
+    "name": "looney_tunes_b-ball_recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^looneytunesbball-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/SlippyGetBackHere/looney_tunes_b-ball_recomp",
+    "docs": "https://github.com/SlippyGetBackHere/looney_tunes_b-ball_recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.0",
+    "releaseDate": "2026-10-27",
+    "stars": 4,
+    "prerelease": false,
+    "assetName": "looneytunesbball-0.2.0-windows-x64.zip",
+    "assetSize": 54928894,
+    "assetSha256": "9d6f26896ed17109e9a39cfb819f72403d68bcef7838290665563232050f67fa"
+  }
+}

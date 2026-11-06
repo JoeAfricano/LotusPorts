@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "super-mario-all-stars-recomp",
+  "gameId": "super-mario-all-stars",
+  "title": "Super Mario All-Stars Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "TanookiStudios",
+    "name": "SuperMarioAllStarsRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^SuperMarioAllStars-Windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "SuperMarioAllStars-Windows/SuperMarioAllStars.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp",
+    "docs": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.0",
+    "releaseDate": "2026-10-21",
+    "stars": 63,
+    "prerelease": false,
+    "assetName": "SuperMarioAllStars-Windows.zip",
+    "assetSize": 11677284,
+    "assetSha256": "d3ceb68c48bbbd586643fdf3c65d71303eeb91e99fca0c7e05e707d34497adb7"
+  }
+}

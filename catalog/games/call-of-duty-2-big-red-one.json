@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "call-of-duty-2-big-red-one",
+  "title": "Call of Duty 2: Big Red One",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Call of Duty 2: Big Red One, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "cod2-bro-native-loader",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:call-of-duty-2-big-red-one",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

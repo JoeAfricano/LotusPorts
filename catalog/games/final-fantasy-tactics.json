@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-tactics",
+  "title": "Final Fantasy Tactics",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Final Fantasy Tactics, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "final-fantasy-tactics-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:final-fantasy-tactics",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

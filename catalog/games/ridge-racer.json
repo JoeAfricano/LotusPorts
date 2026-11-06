@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ridge-racer",
+  "title": "Ridge Racer",
+  "originalPlatform": "PSP",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Ridge Racer, lançado originalmente para PSP, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "ridge-racer-psp-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:ridge-racer",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

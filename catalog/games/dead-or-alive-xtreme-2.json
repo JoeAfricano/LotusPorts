@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dead-or-alive-xtreme-2",
+  "title": "Dead or Alive Xtreme 2",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Dead or Alive Xtreme 2, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "doax2-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dead-or-alive-xtreme-2",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

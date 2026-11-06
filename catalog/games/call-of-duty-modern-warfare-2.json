@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "call-of-duty-modern-warfare-2",
+  "title": "Call of Duty: Modern Warfare 2",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Call of Duty: Modern Warfare 2, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "mw2-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:call-of-duty-modern-warfare-2",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

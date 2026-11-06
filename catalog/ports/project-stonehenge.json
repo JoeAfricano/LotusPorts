@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "project-stonehenge",
+  "gameId": "ace-combat-04-shattered-skies",
+  "title": "Project Stonehenge",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Onaga00",
+    "name": "ProjectStonehenge"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^ProjectStonehenge-.*-win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "ProjectStonehenge-0.9.6-win64/ProjectStonehenge.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Onaga00/ProjectStonehenge",
+    "docs": "https://github.com/Onaga00/ProjectStonehenge#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "Beta",
+    "releaseDate": "2026-10-27",
+    "stars": 56,
+    "prerelease": false,
+    "assetName": "ProjectStonehenge-0.9.6-win64.zip",
+    "assetSize": 3475860,
+    "assetSha256": "beaaabf5e19002fc406508820eaa9aea1165627b4cbd694e0458c0d4f9f664e7"
+  }
+}

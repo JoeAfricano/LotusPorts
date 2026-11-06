@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hot-shots-tennis",
+  "title": "Hot Shots Tennis",
+  "originalPlatform": "PS2",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Hot Shots Tennis, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "opentennis",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:hot-shots-tennis",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "ssx-tricky",
+  "title": "SSX Tricky",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "SSX Tricky, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "opentricky",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "opentricky-gizcesi",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:ssx-tricky",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

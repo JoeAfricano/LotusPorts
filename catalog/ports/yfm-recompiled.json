@@ -62,6 +62,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.3.0",
+    "releaseDate": "2026-10-11",
+    "stars": 289,
     "prerelease": false,
     "assetName": "yfm-redecomp-v0.3.0-windows.zip",
     "assetSize": 7829947,

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "wipeout-omega-collection",
+  "title": "WipEout Omega Collection",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "WipEout Omega Collection, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "wipeout-omega-pc",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "wipeout-omega-pc-abdelmoumendeghbouche",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:wipeout-omega-collection",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

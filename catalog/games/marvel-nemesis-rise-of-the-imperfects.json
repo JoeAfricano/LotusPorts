@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "marvel-nemesis-rise-of-the-imperfects",
+  "title": "Marvel Nemesis: Rise of the Imperfects",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Marvel Nemesis: Rise of the Imperfects, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "marvel-nemesis-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:marvel-nemesis-rise-of-the-imperfects",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

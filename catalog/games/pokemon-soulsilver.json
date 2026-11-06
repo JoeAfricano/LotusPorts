@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pokemon-soulsilver",
+  "title": "Pokémon SoulSilver",
+  "originalPlatform": "NDS",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Pokémon SoulSilver, lançado originalmente para Nintendo DS, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "soulsilver-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:pokemon-soulsilver",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

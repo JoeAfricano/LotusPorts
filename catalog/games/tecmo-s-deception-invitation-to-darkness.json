@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tecmo-s-deception-invitation-to-darkness",
+  "title": "Tecmo's Deception: Invitation to Darkness",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Tecmo's Deception: Invitation to Darkness, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "deception-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:tecmo-s-deception-invitation-to-darkness",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

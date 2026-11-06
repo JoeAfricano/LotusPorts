@@ -85,6 +85,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "5.0.1",
+    "releaseDate": "2026-08-25",
+    "stars": 2427,
     "prerelease": false,
     "assetName": "2Ship-Battler-Bravo-Win64.zip",
     "assetSize": 44976935,

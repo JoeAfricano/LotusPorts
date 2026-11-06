@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "castle-of-illusion-quackshot-world-of-illusion",
+  "title": "Castle of Illusion / QuackShot / World of Illusion",
+  "originalPlatform": "GENESIS",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Castle of Illusion / QuackShot / World of Illusion, lançado originalmente para Mega Drive, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "mickey-donald-collection",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:castle-of-illusion-quackshot-world-of-illusion",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

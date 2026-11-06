@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "chrono-trigger",
+  "title": "Chrono Trigger",
+  "originalPlatform": "NDS",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Chrono Trigger, lançado originalmente para Nintendo DS, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "egg-of-time",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:chrono-trigger",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

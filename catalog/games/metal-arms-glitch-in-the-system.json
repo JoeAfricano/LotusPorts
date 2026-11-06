@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "metal-arms-glitch-in-the-system",
+  "title": "Metal Arms: Glitch In The System",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Metal Arms: Glitch In The System, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "metal-arms-pc-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:metal-arms-glitch-in-the-system",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

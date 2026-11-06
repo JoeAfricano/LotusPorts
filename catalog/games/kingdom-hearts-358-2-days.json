@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "kingdom-hearts-358-2-days",
+  "title": "Kingdom Hearts 358/2 Days",
+  "originalPlatform": "NDS",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Kingdom Hearts 358/2 Days, lançado originalmente para Nintendo DS, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "kh-days-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:kingdom-hearts-358-2-days",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

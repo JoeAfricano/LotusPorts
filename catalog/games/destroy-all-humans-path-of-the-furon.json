@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "destroy-all-humans-path-of-the-furon",
+  "title": "Destroy All Humans! Path of the Furon",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Destroy All Humans! Path of the Furon, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "redahm",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:destroy-all-humans-path-of-the-furon",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

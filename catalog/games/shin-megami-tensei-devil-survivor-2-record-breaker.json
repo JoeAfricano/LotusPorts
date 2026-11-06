@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "shin-megami-tensei-devil-survivor-2-record-breaker",
+  "title": "Shin Megami Tensei: Devil Survivor 2 Record Breaker",
+  "originalPlatform": "OTHER",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Shin Megami Tensei: Devil Survivor 2 Record Breaker, lançado originalmente para outra plataforma, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "canopus-protocol",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:shin-megami-tensei-devil-survivor-2-record-breaker",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

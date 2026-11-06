@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "metroid-prime-2-echoes",
+  "title": "Metroid Prime 2: Echoes",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [
+    "aventura"
+  ],
+  "descriptionPtBr": "Metroid Prime 2: Echoes, lançado originalmente para GameCube, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "echoes-unbound",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:metroid-prime-2-echoes",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

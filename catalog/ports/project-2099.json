@@ -71,6 +71,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v2.0.0-beta.5",
+    "releaseDate": "2026-10-13",
+    "stars": 87,
     "prerelease": false,
     "assetName": "Project2099-Beta5-Setup.exe",
     "assetSize": 4613632,

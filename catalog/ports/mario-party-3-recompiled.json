@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "mario-party-3-recompiled",
+  "gameId": "mario-party-3",
+  "title": "Mario Party 3: Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "n64hub",
+    "name": "mario-party-3-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^MarioParty3Recompiled-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "MarioParty3Recompiled-v0.2.16-windows-x64/MarioParty3Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/n64hub/mario-party-3-recomp",
+    "docs": "https://github.com/n64hub/mario-party-3-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.16",
+    "releaseDate": "2026-11-05",
+    "stars": 25,
+    "prerelease": false,
+    "assetName": "MarioParty3Recompiled-v0.2.16-windows-x64.zip",
+    "assetSize": 26257738,
+    "assetSha256": "b068dd71f69fe64d279704466986258bbbb87685f7924b846041c1efccf15d06"
+  }
+}

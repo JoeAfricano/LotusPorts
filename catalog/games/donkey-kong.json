@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "donkey-kong",
+  "title": "Donkey Kong",
+  "originalPlatform": "GB",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Donkey Kong, lançado originalmente para Game Boy, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dk94-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:donkey-kong",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.0.6.5",
+    "releaseDate": "2026-10-10",
+    "stars": 415,
     "prerelease": false,
     "assetName": "TheSimpsonsGame-Recompiled-Windows-x64.zip",
     "assetSize": 390757356,

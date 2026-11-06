@@ -71,6 +71,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.1.8",
+    "releaseDate": "2026-10-27",
+    "stars": 389,
     "prerelease": true,
     "assetName": "The-Darkness-Recomp-v0.1.8-windows-x64.zip",
     "assetSize": 44570424,

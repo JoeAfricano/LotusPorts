@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "army-men-sarge-s-heroes",
+  "title": "Army Men: Sarge's Heroes",
+  "originalPlatform": "DREAMCAST",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Army Men: Sarge's Heroes, lançado originalmente para Dreamcast, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "army-men-sarge-s-heroes-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:army-men-sarge-s-heroes",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

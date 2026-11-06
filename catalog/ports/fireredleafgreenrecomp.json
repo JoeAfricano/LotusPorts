@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "fireredleafgreenrecomp",
+  "gameId": "pokemon-firered",
+  "title": "FireRedLeafGreenRecomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "mstan",
+    "name": "FireRedLeafGreenRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^FireRedRecomp-windows-x64-.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "FireRedRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/mstan/FireRedLeafGreenRecomp",
+    "docs": "https://github.com/mstan/FireRedLeafGreenRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.0.8",
+    "releaseDate": "2026-11-01",
+    "stars": 36,
+    "prerelease": false,
+    "assetName": "FireRedRecomp-windows-x64-v0.0.8.zip",
+    "assetSize": 63984492,
+    "assetSha256": "04f678d796420a2cea77c70abedafbc5383237b04e6362354f44fade72ad8947"
+  }
+}

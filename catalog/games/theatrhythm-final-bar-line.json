@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "theatrhythm-final-bar-line",
+  "title": "Theatrhythm Final Bar Line",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Theatrhythm Final Bar Line, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "theatrhythm-final-bar-line-on-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:theatrhythm-final-bar-line",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

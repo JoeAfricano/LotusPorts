@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "mhforever",
+  "gameId": "monster-hunter-freedom-unite",
+  "title": "MHForever",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Mango77x",
+    "name": "MHForever"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^MHForever-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "MHForever-0.8.3/MHForever.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Mango77x/MHForever",
+    "docs": "https://github.com/Mango77x/MHForever#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.8.3",
+    "releaseDate": "2026-11-03",
+    "stars": 63,
+    "prerelease": false,
+    "assetName": "MHForever-0.8.3-windows-x64.zip",
+    "assetSize": 101611169,
+    "assetSha256": "3cadb94b91825ae11da6ac619dfb6c105101e9cc6ba6f873e02931e0ff24cd4b"
+  }
+}

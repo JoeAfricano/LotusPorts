@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mario-party",
+  "title": "Mario Party",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Mario Party, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "mario-party-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:mario-party",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

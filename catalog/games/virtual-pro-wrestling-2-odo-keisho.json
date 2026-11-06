@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "virtual-pro-wrestling-2-odo-keisho",
+  "title": "Virtual Pro Wrestling 2: Ōdō Keishō",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Virtual Pro Wrestling 2: Ōdō Keishō, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "virtual-pro-wrestling-2-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:virtual-pro-wrestling-2-odo-keisho",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

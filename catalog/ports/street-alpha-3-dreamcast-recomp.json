@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "street-alpha-3-dreamcast-recomp",
+  "gameId": "street-fighter-alpha-3",
+  "title": "Street-Alpha-3-Dreamcast-Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "irnutsmurt",
+    "name": "Street-Alpha-3-Dreamcast-Recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^SFA3-Setup-windows-x.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/irnutsmurt/Street-Alpha-3-Dreamcast-Recomp",
+    "docs": "https://github.com/irnutsmurt/Street-Alpha-3-Dreamcast-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.13",
+    "releaseDate": "2026-10-30",
+    "stars": 3,
+    "prerelease": false,
+    "assetName": "SFA3-Setup-windows-x86_64.zip",
+    "assetSize": 92814051,
+    "assetSha256": "b32bcaeff99d9e47533bb785dfd3e1281e8c6e3554cfe2e53afbf4086397ad5a"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sonic-the-hedgehog-2",
+  "title": "Sonic the Hedgehog 2",
+  "originalPlatform": "GENESIS",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Sonic the Hedgehog 2, lançado originalmente para Mega Drive, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "sonicthehedgehog2recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:sonic-the-hedgehog-2",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "metal-arms-pc-port",
+  "gameId": "metal-arms-glitch-in-the-system",
+  "title": "metal-arms-pc-port",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "tvall43",
+    "name": "metal-arms-pc-port"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^ma_win_release_r153_o2\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "ma_win.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/tvall43/metal-arms-pc-port",
+    "docs": "https://github.com/tvall43/metal-arms-pc-port#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "R153",
+    "releaseDate": "2026-11-03",
+    "stars": 7,
+    "prerelease": false,
+    "assetName": "ma_win_release_r153_o2.zip",
+    "assetSize": 3323955,
+    "assetSha256": "c78f820e036b723c0b7a2baa2ef9d6d25443d42c873e1ec689bbc331360b227a"
+  }
+}

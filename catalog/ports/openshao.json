@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "openshao",
+  "gameId": "mortal-kombat-shaolin-monks",
+  "title": "OpenShao",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "OAleex",
+    "name": "OpenShao"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^OpenShao-.*-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "OpenShao.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/OAleex/OpenShao",
+    "docs": "https://github.com/OAleex/OpenShao#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.4.1",
+    "releaseDate": "2026-10-30",
+    "stars": 326,
+    "prerelease": false,
+    "assetName": "OpenShao-0.4.1-Windows-x64.zip",
+    "assetSize": 11299255,
+    "assetSha256": "05da923a8523de1507da86ec8842a6232ffd20cbb41c258c4ae593ce5f9ff210"
+  }
+}

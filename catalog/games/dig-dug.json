@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dig-dug",
+  "title": "Dig Dug",
+  "originalPlatform": "ARCADE",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Dig Dug, lançado originalmente para Arcade, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dig-dug-native-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dig-dug",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

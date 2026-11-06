@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "mikupan",
+  "gameId": "fatal-frame",
+  "title": "MikuPan",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Mikompilation",
+    "name": "MikuPan"
+  },
+  "license": "AGPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^MikuPan_windows_nightly\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "MikuPan.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Mikompilation/MikuPan",
+    "docs": "https://github.com/Mikompilation/MikuPan#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "nightly",
+    "releaseDate": "2026-06-04",
+    "stars": 138,
+    "prerelease": true,
+    "assetName": "MikuPan_windows_nightly.zip",
+    "assetSize": 71834010,
+    "assetSha256": "463162fcd3691b5e0621ac988c254efb1ca5efaaf109cfd99e344b8b15acd77c"
+  }
+}

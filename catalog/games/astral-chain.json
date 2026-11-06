@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "astral-chain",
+  "title": "Astral Chain",
+  "originalPlatform": "SWITCH",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Astral Chain, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "astral-chain-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:astral-chain",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

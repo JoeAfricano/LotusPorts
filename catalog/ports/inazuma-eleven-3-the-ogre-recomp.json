@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "inazuma-eleven-3-the-ogre-recomp",
+  "gameId": "inazuma-eleven-3-sekai-heno-chousen-the-ogre",
+  "title": "Inazuma Eleven 3: The Ogre Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "matheus2x",
+    "name": "ie3ogre-nds-recomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^ie3ogre-recomp-.*-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/matheus2x/ie3ogre-nds-recomp",
+    "docs": "https://github.com/matheus2x/ie3ogre-nds-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.34",
+    "releaseDate": "2026-11-05",
+    "stars": 10,
+    "prerelease": false,
+    "assetName": "ie3ogre-recomp-0.1.34-windows.zip",
+    "assetSize": 10865014,
+    "assetSha256": "78f4adeef030cd021b357c4e121d7128cdb7bde6bacdeb78848fdbcafb5ea33a"
+  }
+}

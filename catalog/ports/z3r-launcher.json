@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "z3r-launcher",
+  "gameId": "the-legend-of-zelda-a-link-to-the-past",
+  "title": "Z3R Launcher",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "xander-haj",
+    "name": "Z3R-Launcher"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^Z3R-Launcher-windows-x64\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "portable-exe"
+  },
+  "executable": "Z3R-Launcher-windows-x64.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/xander-haj/Z3R-Launcher",
+    "docs": "https://github.com/xander-haj/Z3R-Launcher#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.1",
+    "releaseDate": "2026-06-28",
+    "stars": 13,
+    "prerelease": false,
+    "assetName": "Z3R-Launcher-windows-x64.exe",
+    "assetSize": 23129749,
+    "assetSha256": "3b344d2135b605ef8650e90e39f9c4b76d98c7e84acff269cb8eff5dc093a46d"
+  }
+}

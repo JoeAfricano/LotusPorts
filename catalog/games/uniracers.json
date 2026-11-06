@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "uniracers",
+  "title": "Uniracers",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Uniracers, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "uniracers-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:uniracers",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

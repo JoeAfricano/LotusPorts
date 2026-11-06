@@ -11,7 +11,12 @@
   "descriptionPtBr": "A continuação de Banjo-Kazooie: Gruntilda volta, e a dupla parte para mundos maiores e interligados.",
   "recommendedPortId": "banjo-tooie-recompiled",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "banjo-tooie-xbla-recomp",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:banjo-tooie",
   "review": {
     "state": "approved",

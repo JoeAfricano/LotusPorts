@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "dragon-ball-z-budokai-tenkaichi-3",
+  "title": "Dragon Ball Z: Budokai Tenkaichi 3",
+  "originalPlatform": "PS2",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Dragon Ball Z: Budokai Tenkaichi 3, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "tenkaichi-3-decomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "bt4-tag-team-decomp",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:dragon-ball-z-budokai-tenkaichi-3",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

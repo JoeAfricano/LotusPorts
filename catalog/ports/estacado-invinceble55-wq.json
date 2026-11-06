@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "estacado-invinceble55-wq",
+  "gameId": "the-darkness",
+  "title": "Estacado",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "invinceble55-wq",
+    "name": "Estacado-The-Darkness-Recomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^Estacado-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "TheDarkness.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp",
+    "docs": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.9.8",
+    "releaseDate": "2026-10-12",
+    "stars": 134,
+    "prerelease": true,
+    "assetName": "Estacado-0.9.8-windows-x64.zip",
+    "assetSize": 123003992,
+    "assetSha256": "b30cab28fe41491c05db7a156f2357f32afdaec1bd8adb826960a47b6100d613"
+  }
+}

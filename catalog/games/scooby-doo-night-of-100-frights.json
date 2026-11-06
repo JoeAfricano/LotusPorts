@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "scooby-doo-night-of-100-frights",
+  "title": "Scooby-Doo! Night of 100 Frights",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Scooby-Doo! Night of 100 Frights, lançado originalmente para GameCube, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "frightworks-night-of-100-frights",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:scooby-doo-night-of-100-frights",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

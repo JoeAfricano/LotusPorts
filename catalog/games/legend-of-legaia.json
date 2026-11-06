@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "legend-of-legaia",
+  "title": "Legend of Legaia",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Legend of Legaia, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "legend-of-legaia-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:legend-of-legaia",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

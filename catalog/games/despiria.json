@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "despiria",
+  "title": "deSPIRIA",
+  "originalPlatform": "DREAMCAST",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "deSPIRIA, lançado originalmente para Dreamcast, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "despiria-rebirth",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:despiria",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "metroid-prime-remastered",
+  "title": "Metroid Prime Remastered",
+  "originalPlatform": "SWITCH",
+  "releaseYear": null,
+  "genre": [
+    "aventura"
+  ],
+  "descriptionPtBr": "Metroid Prime Remastered, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "primerecomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:metroid-prime-remastered",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -71,6 +71,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "1.0.0",
+    "releaseDate": "2026-06-03",
+    "stars": 1324,
     "prerelease": false,
     "assetName": "doukutsu-rs_windows_1.0.0.x86_64.exe",
     "assetSize": 8534016,

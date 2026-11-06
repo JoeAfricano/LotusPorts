@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "j-stars-victory-vs",
+  "title": "J-Stars Victory VS+",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "J-Stars Victory VS+, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "j-stars-victory-vs-jstars-reborn",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:j-stars-victory-vs",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

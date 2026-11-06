@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "plants-vs-zombies",
+  "title": "Plants vs. Zombies",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "quebra-cabeça"
+  ],
+  "descriptionPtBr": "Plants vs. Zombies, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "pvz-console-edition",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "pvz-console-edition-itseniy",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:plants-vs-zombies",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

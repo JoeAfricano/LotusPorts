@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "twipe-00sheven",
+  "gameId": "the-world-is-not-enough",
+  "title": "TWIPE 00Sheven",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "riseio",
+    "name": "TWIPE_00Sheven"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^ICHGYTW-Portable\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "portable-exe"
+  },
+  "executable": "ICHGYTW-Portable.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/riseio/TWIPE_00Sheven",
+    "docs": "https://github.com/riseio/TWIPE_00Sheven#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "ICHGYTW_0.1.96",
+    "releaseDate": "2026-10-17",
+    "stars": 87,
+    "prerelease": false,
+    "assetName": "ICHGYTW-Portable.exe",
+    "assetSize": 99857920,
+    "assetSha256": "c409afc085fcbd5346e794ca30e13c4421e5f4a367481f2c02001355e5cb0707"
+  }
+}

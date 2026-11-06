@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "f-zero-x",
+  "title": "F-Zero X",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "F-Zero X, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "g-diffuser",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "f-zero-x-recompiled",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:f-zero-x",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

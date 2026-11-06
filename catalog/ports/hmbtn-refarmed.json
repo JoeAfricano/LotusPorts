@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "hmbtn-refarmed",
+  "gameId": "harvest-moon-back-to-nature",
+  "title": "HMBTN-ReFarmed",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "d4rksp4rt4n",
+    "name": "HMBTN-ReFarmed"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^HarvestMoonBTN-Launcher\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "portable-exe"
+  },
+  "executable": "HarvestMoonBTN-Launcher.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/d4rksp4rt4n/HMBTN-ReFarmed",
+    "docs": "https://github.com/d4rksp4rt4n/HMBTN-ReFarmed#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.1.0",
+    "releaseDate": "2026-11-04",
+    "stars": 9,
+    "prerelease": false,
+    "assetName": "HarvestMoonBTN-Launcher.exe",
+    "assetSize": 16818506,
+    "assetSha256": "e283e009916ebe550c083418188d3618390d72bca6ed1ea613d3f6e74fed1968"
+  }
+}

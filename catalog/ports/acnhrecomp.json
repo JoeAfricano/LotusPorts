@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "acnhrecomp",
+  "gameId": "animal-crossing-new-horizons",
+  "title": "ACNHRecomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Nycolazs",
+    "name": "ACNHRecomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^ACNHRecomp-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Nycolazs/ACNHRecomp",
+    "docs": "https://github.com/Nycolazs/ACNHRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.8.0",
+    "releaseDate": "2026-11-05",
+    "stars": 252,
+    "prerelease": false,
+    "assetName": "ACNHRecomp-v0.8.0-windows-x64.zip",
+    "assetSize": 15242161,
+    "assetSha256": "0d331dff16582e7596b6788b8df6e6d378f994289db21e75ddc9d497b0582207"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "infamous-second-son",
+  "title": "inFAMOUS Second Son",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "inFAMOUS Second Son, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "infamous-second-son-pc",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "infamous-second-son-pc-hayatog",
+      "differencePtBr": null
+    },
+    {
+      "portId": "issn-pc",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:infamous-second-son",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -95,6 +95,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v2.0.0",
+    "releaseDate": "2025-05-25",
+    "stars": 2133,
     "prerelease": false,
     "assetName": "Starship-Barnard-Alfa-Windows.zip",
     "assetSize": 4218590,

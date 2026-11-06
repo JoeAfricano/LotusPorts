@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "majora-remasked",
+  "gameId": "the-legend-of-zelda-majora-s-mask-3d",
+  "title": "Majora ReMasked",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "OTPR26",
+    "name": "DekUI-Fork"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^Majora-ReMasked-.*-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "dekui/Majora-ReMasked.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/OTPR26/DekUI-Fork",
+    "docs": "https://github.com/OTPR26/DekUI-Fork#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.4.3",
+    "releaseDate": "2026-10-23",
+    "stars": 18,
+    "prerelease": false,
+    "assetName": "Majora-ReMasked-0.4.3-Windows-x64.zip",
+    "assetSize": 101846425,
+    "assetSha256": "e944254fa98a8cc88197c3abb5aea1caab503fa38921d1c980ab91b9b93ded51"
+  }
+}

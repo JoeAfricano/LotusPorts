@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.2.0-dev",
+    "releaseDate": "2026-01-31",
+    "stars": 333,
     "prerelease": false,
     "assetName": "Goemon64Recompiled-Windows-RelWithDebInfo.zip",
     "assetSize": 25007915,

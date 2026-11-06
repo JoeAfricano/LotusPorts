@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "wipeout-xl",
+  "title": "Wipeout XL",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Wipeout XL, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "wipeout-xl-rewrite",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "wipeout-xl-recompiled",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:wipeout-xl",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

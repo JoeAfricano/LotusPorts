@@ -11,7 +11,12 @@
   "descriptionPtBr": "Duelos de cartas no Egito antigo, com fusões de monstros e um longo modo história.",
   "recommendedPortId": "yfm-recompiled",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "yu-gi-oh-forbidden-memories-recomp",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:yu-gi-oh-forbidden-memories",
   "review": {
     "state": "approved",

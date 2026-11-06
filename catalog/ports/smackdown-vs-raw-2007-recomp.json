@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "smackdown-vs-raw-2007-recomp",
+  "gameId": "wwe-smackdown-vs-raw-2007",
+  "title": "SmackDown vs. Raw 2007 Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "HollywoodAkeem",
+    "name": "SVR07-Recomp"
+  },
+  "license": "BSD-3-Clause",
+  "windowsAsset": {
+    "pattern": "(?i)^svr07\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "portable-exe"
+  },
+  "executable": "svr07.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/HollywoodAkeem/SVR07-Recomp",
+    "docs": "https://github.com/HollywoodAkeem/SVR07-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.5a",
+    "releaseDate": "2026-04-14",
+    "stars": 159,
+    "prerelease": true,
+    "assetName": "svr07.exe",
+    "assetSize": 48019456,
+    "assetSha256": "51c47cb773af2a57d3ba09723499e85a3e63f05e14fb1ec69b2c8fa2929206a7"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "cut-the-rope",
+  "title": "Cut the Rope",
+  "originalPlatform": "OTHER",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Cut the Rope, lançado originalmente para outra plataforma, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "cut-the-rope-dx",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:cut-the-rope",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

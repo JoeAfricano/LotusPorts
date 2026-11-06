@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "six-golden-coins",
+  "gameId": "super-mario-land-2-6-golden-coins",
+  "title": "Six Golden Coins",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "patricksmill",
+    "name": "sml2-rs"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^six-golden-coins-windows-x64\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "portable-exe"
+  },
+  "executable": "six-golden-coins-windows-x64.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/patricksmill/sml2-rs",
+    "docs": "https://github.com/patricksmill/sml2-rs#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.1",
+    "releaseDate": "2026-11-02",
+    "stars": 18,
+    "prerelease": false,
+    "assetName": "six-golden-coins-windows-x64.exe",
+    "assetSize": 15173120,
+    "assetSha256": "e4c967ec8a87a9d99ccd3da49eb38364e269483b053cd9779c2e3fa6408ecc6e"
+  }
+}

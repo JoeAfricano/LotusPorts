@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "donald-duck-goin-quackers-recompiled",
+  "gameId": "donald-duck-goin-quackers",
+  "title": "Donald Duck: Goin' Quackers Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "n64hub",
+    "name": "donald-duck-goin-quackers-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^GoinQuackersRecompiled-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "GoinQuackersRecompiled-v0.1.7-windows-x64/GoinQuackersRecompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/n64hub/donald-duck-goin-quackers-recomp",
+    "docs": "https://github.com/n64hub/donald-duck-goin-quackers-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.7",
+    "releaseDate": "2026-11-05",
+    "stars": 4,
+    "prerelease": false,
+    "assetName": "GoinQuackersRecompiled-v0.1.7-windows-x64.zip",
+    "assetSize": 22325578,
+    "assetSha256": "5f799ee2dbc8b6d313c1bc6afd0d734fe59ca00bde22e01774b468a98133b410"
+  }
+}

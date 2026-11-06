@@ -277,7 +277,7 @@
   <data name="HomeConsoleOne" xml:space="preserve"><value>{0} game</value></data>
   <data name="HomeConsoleMany" xml:space="preserve"><value>{0} games</value></data>
   <data name="HomeEmptyMessage" xml:space="preserve"><value>Games show up here after the curator reviews them. In advanced mode, turn on &quot;Show games in review&quot; to see them now.</value></data>
-  <data name="CardStars" xml:space="preserve"><value>★ {0} on GitHub</value></data>
+  <data name="CardStars" xml:space="preserve"><value>★ {0}</value></data>
   <data name="CardUpdated" xml:space="preserve"><value>Updated {0}</value></data>
   <data name="ShelfFavorites" xml:space="preserve"><value>Favorites</value></data>
   <data name="LibraryEyebrow" xml:space="preserve"><value>YOUR SHELF</value></data>

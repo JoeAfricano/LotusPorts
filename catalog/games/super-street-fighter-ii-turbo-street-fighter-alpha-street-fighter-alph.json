@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "super-street-fighter-ii-turbo-street-fighter-alpha-street-fighter-alph",
+  "title": "Super Street Fighter II Turbo; Street Fighter Alpha; Street Fighter Alpha 2; Street Fighter Zero 2 Alpha; Street Fighter",
+  "originalPlatform": "OTHER",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Super Street Fighter II Turbo; Street Fighter Alpha; Street Fighter Alpha 2; Street Fighter Zero 2 Alpha; Street Fighter, lançado originalmente para outra plataforma, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "cps-2-recomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "cps-2-recomp-tmcleroy",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:super-street-fighter-ii-turbo-street-fighter-alpha-street-fighter-alph",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

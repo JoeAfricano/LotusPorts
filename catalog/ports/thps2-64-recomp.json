@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "thps2-64-recomp",
+  "gameId": "tony-hawk-s-pro-skater-2",
+  "title": "THPS2 64 Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "THPS64Recomp",
+    "name": "THPS2-64Recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^THPS2-64Recomp-.*view-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "THPS2-64Recomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/THPS64Recomp/THPS2-64Recomp",
+    "docs": "https://github.com/THPS64Recomp/THPS2-64Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.0-preview",
+    "releaseDate": "2026-10-28",
+    "stars": 4,
+    "prerelease": true,
+    "assetName": "THPS2-64Recomp-v0.2.0-preview-Windows-x64.zip",
+    "assetSize": 149138355,
+    "assetSha256": "b675e2cfafb508b8012149411d901e12ff795c5fd272cf5c351b1c4f9df24b82"
+  }
+}

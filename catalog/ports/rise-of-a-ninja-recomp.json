@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "rise-of-a-ninja-recomp",
+  "gameId": "naruto-rise-of-a-ninja",
+  "title": "Rise of a Ninja Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "jorjbarbosa",
+    "name": "naruto-rise-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^naruto-rise-recomp-win-amd64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "narutorise.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/jorjbarbosa/naruto-rise-recomp",
+    "docs": "https://github.com/jorjbarbosa/naruto-rise-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.4.2-beta",
+    "releaseDate": "2026-11-01",
+    "stars": 238,
+    "prerelease": false,
+    "assetName": "naruto-rise-recomp-win-amd64.zip",
+    "assetSize": 53428102,
+    "assetSha256": "197f61e10f5a28a2b9c0fca6dfc73ab0dfdff4748c2971c423ccd4e1ee87dfaf"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "astro-boy-omega-factor",
+  "title": "Astro Boy: Omega Factor",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Astro Boy: Omega Factor, lançado originalmente para Game Boy Advance, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "astro-boy-omega-factor-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:astro-boy-omega-factor",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

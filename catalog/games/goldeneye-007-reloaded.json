@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "goldeneye-007-reloaded",
+  "title": "GoldenEye 007: Reloaded",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "GoldenEye 007: Reloaded, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "goldeneye-007-reloaded-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:goldeneye-007-reloaded",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "outrun-online-arcade",
+  "title": "OutRun Online Arcade",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "OutRun Online Arcade, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "outrun-online-arcade-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:outrun-online-arcade",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

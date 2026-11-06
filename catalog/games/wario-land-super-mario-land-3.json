@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wario-land-super-mario-land-3",
+  "title": "Wario Land: Super Mario Land 3",
+  "originalPlatform": "GB",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Wario Land: Super Mario Land 3, lançado originalmente para Game Boy, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "bigodao",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:wario-land-super-mario-land-3",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

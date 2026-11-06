@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "castlevania-curse-of-darkness",
+  "title": "Castlevania: Curse of Darkness",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Castlevania: Curse of Darkness, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "noble-archimedes",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:castlevania-curse-of-darkness",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

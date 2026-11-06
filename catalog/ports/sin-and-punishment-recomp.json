@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "sin-and-punishment-recomp",
+  "gameId": "sin-and-punishment",
+  "title": "Sin and Punishment Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "wootbeer",
+    "name": "snprecomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^SnPRecompiled-.*-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "SnPRecompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/wootbeer/snprecomp",
+    "docs": "https://github.com/wootbeer/snprecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "0.2.10",
+    "releaseDate": "2026-11-02",
+    "stars": 87,
+    "prerelease": false,
+    "assetName": "SnPRecompiled-0.2.10-windows.zip",
+    "assetSize": 17275709,
+    "assetSha256": "207e37a5f68119e12a59e57b2e0add40c212a406a14ee11650901c2b20fed829"
+  }
+}

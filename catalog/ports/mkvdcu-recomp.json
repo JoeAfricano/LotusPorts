@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "mkvdcu-recomp",
+  "gameId": "mortal-kombat-vs-dc-universe",
+  "title": "MKVDCU Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "KawaiiBunga",
+    "name": "MKVDCU-Recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^MKVDCU-Recomp\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "portable-exe"
+  },
+  "executable": "MKVDCU-Recomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/KawaiiBunga/MKVDCU-Recomp",
+    "docs": "https://github.com/KawaiiBunga/MKVDCU-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.1",
+    "releaseDate": "2026-09-23",
+    "stars": 56,
+    "prerelease": false,
+    "assetName": "MKVDCU-Recomp.exe",
+    "assetSize": 145144134,
+    "assetSha256": "7774a4aeb21c49971eaf75b6b9233f2c681195363164a4ec92e1a937573d2e2a"
+  }
+}

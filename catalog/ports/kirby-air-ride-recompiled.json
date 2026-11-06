@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "kirby-air-ride-recompiled",
+  "gameId": "kirby-air-ride",
+  "title": "Kirby Air Ride: Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "sonsegajp",
+    "name": "Kirby-Air-Ride-Recompiled"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^KarMapEditor-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled",
+    "docs": "https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.3.1",
+    "releaseDate": "2026-11-03",
+    "stars": 18,
+    "prerelease": false,
+    "assetName": "KarMapEditor-1.3.1-windows-x64.zip",
+    "assetSize": 78024394,
+    "assetSha256": "0e4ed9ff2c132f50809591571eee138c3363d1735342fce0444ae55bc35dabb9"
+  }
+}

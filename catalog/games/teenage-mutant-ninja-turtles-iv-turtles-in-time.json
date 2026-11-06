@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "teenage-mutant-ninja-turtles-iv-turtles-in-time",
+  "title": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Teenage Mutant Ninja Turtles IV: Turtles in Time, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "tmnt-iv-turtles-in-time-pc",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "tmnt-iv-turtles-in-time-pc-emanuelcnjunior",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:teenage-mutant-ninja-turtles-iv-turtles-in-time",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

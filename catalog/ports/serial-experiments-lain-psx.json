@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "serial-experiments-lain-psx",
+  "gameId": "serial-experiments-lain",
+  "title": "Serial Experiments Lain PSX",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Y0oshi",
+    "name": "lain-psx-decompiled"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^Lain-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Lain/lain.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Y0oshi/lain-psx-decompiled",
+    "docs": "https://github.com/Y0oshi/lain-psx-decompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.0",
+    "releaseDate": "2026-10-01",
+    "stars": 146,
+    "prerelease": false,
+    "assetName": "Lain-windows.zip",
+    "assetSize": 3619151,
+    "assetSha256": "14c7255c4fa584553de927d006a596a0c44f6be212ad0017e0590bd43c81eaeb"
+  }
+}

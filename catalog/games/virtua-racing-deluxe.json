@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "virtua-racing-deluxe",
+  "title": "Virtua Racing Deluxe",
+  "originalPlatform": "SEGA_32X",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Virtua Racing Deluxe, lançado originalmente para 32X, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "virtua-racing-deluxe-enhanced",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:virtua-racing-deluxe",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

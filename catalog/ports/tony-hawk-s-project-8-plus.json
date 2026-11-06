@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "tony-hawk-s-project-8-plus",
+  "gameId": "tony-hawks-project-8",
+  "title": "Tony Hawk's Project 8 Plus",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "MaxLeiter",
+    "name": "project-8-plus"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^Project8Plus-.*-hd-pack-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/MaxLeiter/project-8-plus",
+    "docs": "https://github.com/MaxLeiter/project-8-plus#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.9.2",
+    "releaseDate": "2026-10-27",
+    "stars": 19,
+    "prerelease": false,
+    "assetName": "Project8Plus-0.9.2-hd-pack-windows-x64.zip",
+    "assetSize": 45627999,
+    "assetSha256": "d1a2dd6cfdc45fc5dcc1b3acb85da05185ac65cd9e6c45e0ab49f9ddb9fcdc5d"
+  }
+}

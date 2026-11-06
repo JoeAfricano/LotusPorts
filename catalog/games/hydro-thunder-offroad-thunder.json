@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hydro-thunder-offroad-thunder",
+  "title": "Hydro Thunder; Offroad Thunder",
+  "originalPlatform": "ARCADE",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Hydro Thunder; Offroad Thunder, lançado originalmente para Arcade, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "vcthunder",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:hydro-thunder-offroad-thunder",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

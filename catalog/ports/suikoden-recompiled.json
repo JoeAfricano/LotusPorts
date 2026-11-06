@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "suikoden-recompiled",
+  "gameId": "suikoden",
+  "title": "Suikoden Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "alexbeavs-ps1-ports",
+    "name": "suikoden-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^suikoden-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Suikoden_Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/alexbeavs-ps1-ports/suikoden-recomp",
+    "docs": "https://github.com/alexbeavs-ps1-ports/suikoden-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.1",
+    "releaseDate": "2026-09-30",
+    "stars": 7,
+    "prerelease": false,
+    "assetName": "suikoden-0.1.1-windows-x64.zip",
+    "assetSize": 26205124,
+    "assetSha256": "51ac6d1446e429f55af5edbdc8d053cf3f2e76186142dd40f11bb5f77a4ce0f3"
+  }
+}

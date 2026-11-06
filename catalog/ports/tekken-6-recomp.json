@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "tekken-6-recomp",
+  "gameId": "tekken-6",
+  "title": "Tekken 6 Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "mahmoud-mess",
+    "name": "tekken6-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^Tekken6-Builder-Windows-.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Tekken6-Builder-Windows/builder/llvm-mingw/bin/c++.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/mahmoud-mess/tekken6-recomp",
+    "docs": "https://github.com/mahmoud-mess/tekken6-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "Iterate",
+    "releaseDate": "2026-10-16",
+    "stars": 80,
+    "prerelease": false,
+    "assetName": "Tekken6-Builder-Windows-0.9.4.zip",
+    "assetSize": 384863227,
+    "assetSha256": "e46cf590bc681d3e49bda6b4bfa1e13f011700a6f58d3d0cf58afad046042b34"
+  }
+}

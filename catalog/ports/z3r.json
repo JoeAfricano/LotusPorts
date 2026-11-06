@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "z3r",
+  "gameId": "the-legend-of-zelda-a-link-to-the-past",
+  "title": "Z3R",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "xander-haj",
+    "name": "Z3R"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^Z3R-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "zelda3.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/xander-haj/Z3R",
+    "docs": "https://github.com/xander-haj/Z3R#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.4",
+    "releaseDate": "2026-06-16",
+    "stars": 33,
+    "prerelease": false,
+    "assetName": "Z3R-windows-x64.zip",
+    "assetSize": 1573323,
+    "assetSha256": "3a44ee3688ffe4e78ed51af25b547f70428d53388394aa032a079a4d45b7ceb7"
+  }
+}

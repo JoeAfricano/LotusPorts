@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "blue-stinger",
+  "title": "Blue Stinger",
+  "originalPlatform": "DREAMCAST",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Blue Stinger, lançado originalmente para Dreamcast, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "blue-stinger-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:blue-stinger",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

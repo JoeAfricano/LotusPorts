@@ -62,6 +62,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v2.0.3",
+    "releaseDate": "2026-09-30",
+    "stars": 6241,
     "prerelease": false,
     "assetName": "Dusklight-v2.0.3-win32-x86_64.zip",
     "assetSize": 56037777,

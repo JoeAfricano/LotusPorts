@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sonic-and-the-black-knight",
+  "title": "Sonic and the Black Knight",
+  "originalPlatform": "WII",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Sonic and the Black Knight, lançado originalmente para Wii, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "blackknightrecomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:sonic-and-the-black-knight",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "silent-hill-book-of-memories",
+  "title": "Silent Hill: Book of Memories",
+  "originalPlatform": "OTHER",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Silent Hill: Book of Memories, lançado originalmente para outra plataforma, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "silent-hill-book-of-memories-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:silent-hill-book-of-memories",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

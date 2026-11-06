@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "odin-sphere-leifthrasir",
+  "title": "Odin Sphere Leifthrasir",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Odin Sphere Leifthrasir, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "odin-sphere-leifthrasir-pc-port",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "odin-sphere-leifthrasir-pc-port-saulob",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:odin-sphere-leifthrasir",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

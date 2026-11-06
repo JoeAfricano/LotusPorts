@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dissidia-012-duodecim-final-fantasy",
+  "title": "Dissidia 012 Duodecim Final Fantasy",
+  "originalPlatform": "PSP",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Dissidia 012 Duodecim Final Fantasy, lançado originalmente para PSP, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dissidia012-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dissidia-012-duodecim-final-fantasy",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

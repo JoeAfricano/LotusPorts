@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "gauntlet-dark-legacy",
+  "title": "Gauntlet Dark Legacy",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Gauntlet Dark Legacy, lançado originalmente para GameCube, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "gauntlet-dark-legacy-pc-port",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "gauntlet-dark-legacy-pc-port-sabishii-bit",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:gauntlet-dark-legacy",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

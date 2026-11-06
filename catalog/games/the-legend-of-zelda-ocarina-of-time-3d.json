@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "the-legend-of-zelda-ocarina-of-time-3d",
+  "title": "The Legend of Zelda: Ocarina of Time 3D",
+  "originalPlatform": "N3DS",
+  "releaseYear": null,
+  "genre": [
+    "aventura"
+  ],
+  "descriptionPtBr": "The Legend of Zelda: Ocarina of Time 3D, lançado originalmente para Nintendo 3DS, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "triaevum-echoes-of-time",
+  "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "ocarina-retuned",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:the-legend-of-zelda-ocarina-of-time-3d",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

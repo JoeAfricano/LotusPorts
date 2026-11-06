@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "stunt-race-fx",
+  "title": "Stunt Race FX",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Stunt Race FX, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "stunt-race-fx-decomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:stunt-race-fx",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

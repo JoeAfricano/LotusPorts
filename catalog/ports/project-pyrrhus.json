@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "project-pyrrhus",
+  "gameId": "killzone-2",
+  "title": "Project Pyrrhus",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "undecuple",
+    "name": "project-pyrrhus"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^Project-Pyrrhus-setup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/undecuple/project-pyrrhus",
+    "docs": "https://github.com/undecuple/project-pyrrhus#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.11",
+    "releaseDate": "2026-11-05",
+    "stars": 114,
+    "prerelease": true,
+    "assetName": "Project-Pyrrhus-setup.exe",
+    "assetSize": 103118316,
+    "assetSha256": "1f470a820d66d120939fa35240fc8d317746e8c3a72f4f044f3743b02bada75f"
+  }
+}

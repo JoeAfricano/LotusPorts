@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-viii",
+  "title": "Final Fantasy VIII",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Final Fantasy VIII, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "final-fantasy-viii-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:final-fantasy-viii",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

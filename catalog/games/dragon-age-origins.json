@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dragon-age-origins",
+  "title": "Dragon Age: Origins",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Dragon Age: Origins, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dragon-age-origins-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dragon-age-origins",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

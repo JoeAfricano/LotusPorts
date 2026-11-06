@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pokemon-ruby",
+  "title": "Pokemon Ruby",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Pokemon Ruby, lançado originalmente para Game Boy Advance, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "rubysapphirerecomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:pokemon-ruby",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

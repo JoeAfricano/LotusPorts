@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "rayman-3-hd",
+  "title": "Rayman 3 HD",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Rayman 3 HD, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "rayman-3-hd-recompiled",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "rayman-3-hd-recompiled-mysteriousaeon",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:rayman-3-hd",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pokemon-let-s-go-pikachu",
+  "title": "Pokémon: Let's Go, Pikachu!",
+  "originalPlatform": "SWITCH",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Pokémon: Let's Go, Pikachu!, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "let-s-go-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:pokemon-let-s-go-pikachu",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

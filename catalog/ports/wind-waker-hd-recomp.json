@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.5.0",
+    "releaseDate": "2026-10-29",
+    "stars": 1296,
     "prerelease": false,
     "assetName": "WindWakerHD-v0.5.0-windows-x86_64.zip",
     "assetSize": 36678476,

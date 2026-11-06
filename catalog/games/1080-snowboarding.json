@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "1080-snowboarding",
+  "title": "1080° Snowboarding",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "1080° Snowboarding, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "1080-snowboarding-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:1080-snowboarding",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

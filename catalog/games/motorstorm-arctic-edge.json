@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "motorstorm-arctic-edge",
+  "title": "MotorStorm: Arctic Edge",
+  "originalPlatform": "PSP",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "MotorStorm: Arctic Edge, lançado originalmente para PSP, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "psprecomp-msae",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:motorstorm-arctic-edge",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

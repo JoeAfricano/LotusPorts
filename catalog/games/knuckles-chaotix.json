@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "knuckles-chaotix",
+  "title": "Knuckles' Chaotix",
+  "originalPlatform": "SEGA_32X",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Knuckles' Chaotix, lançado originalmente para 32X, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "chaotix-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:knuckles-chaotix",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "marvel-vs-capcom-clash-of-super-heroes",
+  "title": "Marvel vs. Capcom: Clash of Super Heroes",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Marvel vs. Capcom: Clash of Super Heroes, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "marvel-vs-capcom-clash-of-super-heroes-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:marvel-vs-capcom-clash-of-super-heroes",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

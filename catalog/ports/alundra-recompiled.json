@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "alundra-recompiled",
+  "gameId": "alundra",
+  "title": "Alundra Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "alexbeavs-ps1-ports",
+    "name": "alundra-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^Alundra-Recomp-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Alundra_Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/alexbeavs-ps1-ports/alundra-recomp",
+    "docs": "https://github.com/alexbeavs-ps1-ports/alundra-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.3.6",
+    "releaseDate": "2026-09-04",
+    "stars": 12,
+    "prerelease": false,
+    "assetName": "Alundra-Recomp-0.3.6-windows-x64.zip",
+    "assetSize": 30152761,
+    "assetSha256": "bb6883acd83b54d24857fa045192567e5716ca5476521b79e1887303a75a9a9f"
+  }
+}

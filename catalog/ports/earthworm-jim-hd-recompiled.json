@@ -82,6 +82,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.9.6",
+    "releaseDate": "2026-10-18",
+    "stars": 107,
     "prerelease": false,
     "assetName": "EarthwormJimHD-v0.9.6-windows-x64.zip",
     "assetSize": 32436439,

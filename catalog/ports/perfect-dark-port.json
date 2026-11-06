@@ -118,6 +118,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "ci-dev-build",
+    "releaseDate": "2024-05-14",
+    "stars": 2103,
     "prerelease": false,
     "assetName": "pd-x86_64-windows.zip",
     "assetSize": 25739820,

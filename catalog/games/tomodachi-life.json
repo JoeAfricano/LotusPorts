@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tomodachi-life",
+  "title": "Tomodachi Life",
+  "originalPlatform": "SWITCH",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Tomodachi Life, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "tomodachilife-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:tomodachi-life",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

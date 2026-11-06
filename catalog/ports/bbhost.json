@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "bbhost",
+  "gameId": "bloodborne",
+  "title": "bbhost",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "droogie",
+    "name": "bbhost"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^bbhost-win-.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "bbhost-win-v0.2.26/bbhost.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/droogie/bbhost",
+    "docs": "https://github.com/droogie/bbhost#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.26",
+    "releaseDate": "2026-11-04",
+    "stars": 782,
+    "prerelease": false,
+    "assetName": "bbhost-win-v0.2.26.zip",
+    "assetSize": 29018882,
+    "assetSha256": "67377800f638ad5f0dc317cb1f507535336dae40db5fb398e810c0c134592b2a"
+  }
+}

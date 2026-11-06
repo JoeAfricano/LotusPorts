@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "asura-s-wrath-recompiled",
+  "gameId": "asura-s-wrath",
+  "title": "Asura's Wrath Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "PauloUbirajara",
+    "name": "asuras-wrath-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^asura_wrath_recomp_windows_x.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "asura_wrath_recomp_windows_x86_64/asura_wrath_recomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/PauloUbirajara/asuras-wrath-recomp",
+    "docs": "https://github.com/PauloUbirajara/asuras-wrath-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.3.1",
+    "releaseDate": "2026-09-05",
+    "stars": 93,
+    "prerelease": true,
+    "assetName": "asura_wrath_recomp_windows_x86_64.zip",
+    "assetSize": 26889654,
+    "assetSha256": "283c34878135366a217dea33b61a652097b65d104d11e42de919085f7ba59da1"
+  }
+}

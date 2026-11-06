@@ -11,7 +11,16 @@
   "descriptionPtBr": "Jackie Estacado, possuído por uma força sombria, busca vingança contra a máfia.",
   "recommendedPortId": "darkness-recomp",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "estacado",
+      "differencePtBr": null
+    },
+    {
+      "portId": "estacado-invinceble55-wq",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:the-darkness",
   "review": {
     "state": "approved",

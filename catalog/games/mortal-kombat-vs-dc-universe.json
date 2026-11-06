@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mortal-kombat-vs-dc-universe",
+  "title": "Mortal Kombat vs. DC Universe",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Mortal Kombat vs. DC Universe, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "mkvdcu-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:mortal-kombat-vs-dc-universe",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

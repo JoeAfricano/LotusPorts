@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "vkrt-nes-remaster",
+  "gameId": "vkrt-nes-remaster",
+  "title": "VKRT NES Remaster",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "FranTriems",
+    "name": "VKRT-NES-Remaster"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^VKRT-NES-.*-windows-x64-R.*-AUDITED-CANDIDATE\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "VKRT NES Remaster.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/FranTriems/VKRT-NES-Remaster",
+    "docs": "https://github.com/FranTriems/VKRT-NES-Remaster#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.0-rc.1",
+    "releaseDate": "2026-11-01",
+    "stars": 3,
+    "prerelease": true,
+    "assetName": "VKRT-NES-v0.1.0-windows-x64-R12_1-AUDITED-CANDIDATE.zip",
+    "assetSize": 428457,
+    "assetSha256": "309265e74e4b722274fd8617e52d6ead0f9ae96682cfec3fee0660ceea214d61"
+  }
+}

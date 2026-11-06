@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "tenkaichi-3-decomp",
+  "gameId": "dragon-ball-z-budokai-tenkaichi-3",
+  "title": "Tenkaichi 3 Decomp",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "z3xox",
+    "name": "Tenkaichi3Decomp"
+  },
+  "license": "AGPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^Tenkaichi3Decomp-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Tenkaichi3Decomp/Tenkaichi3Decomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/z3xox/Tenkaichi3Decomp",
+    "docs": "https://github.com/z3xox/Tenkaichi3Decomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.39.6",
+    "releaseDate": "2026-11-03",
+    "stars": 704,
+    "prerelease": false,
+    "assetName": "Tenkaichi3Decomp-windows-x64.zip",
+    "assetSize": 12652743,
+    "assetSha256": "ea2cb924528513a3cdfe991dbb0c02b8c000701bbe8cfeb10fafc42f98efb517"
+  }
+}

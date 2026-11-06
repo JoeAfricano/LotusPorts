@@ -88,6 +88,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.2.0",
+    "releaseDate": "2026-10-14",
+    "stars": 44,
     "prerelease": true,
     "assetName": "WCWRecompiled-v0.2.0-Windows.zip",
     "assetSize": 22238444,

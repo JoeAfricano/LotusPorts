@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "harry-potter-and-the-philosopher-s-stone-xbox-recomp",
+  "gameId": "harry-potter-and-the-philosopher-s-stone",
+  "title": "Harry Potter and the Philosopher's Stone (Xbox Recomp)",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "MiddleDucky",
+    "name": "HP-PS-Xbox-Recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^hpps_.*_windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "hpps.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/MiddleDucky/HP-PS-Xbox-Recomp",
+    "docs": "https://github.com/MiddleDucky/HP-PS-Xbox-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.4.2",
+    "releaseDate": "2026-11-05",
+    "stars": 21,
+    "prerelease": false,
+    "assetName": "hpps_v0.4.2_windows.zip",
+    "assetSize": 15529995,
+    "assetSha256": "e5e6b63e7a73d83636e9636f208efb8d52b6dbda3c57cce655fe0e4d0f82a0db"
+  }
+}

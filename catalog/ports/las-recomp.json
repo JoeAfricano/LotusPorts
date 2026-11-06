@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "las-recomp",
+  "gameId": "the-legend-of-zelda-link-s-awakening",
+  "title": "LAS Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "peiikai",
+    "name": "LASRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^LAS\\.Recomp-beta_.*-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "LAS Recomp/lasrecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/peiikai/LASRecomp",
+    "docs": "https://github.com/peiikai/LASRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "beta_5.4",
+    "releaseDate": "2026-10-29",
+    "stars": 2154,
+    "prerelease": false,
+    "assetName": "LAS.Recomp-beta_5.4-windows.zip",
+    "assetSize": 98872297,
+    "assetSha256": "e1e268a886cf626d1af9886d225f92004f5369b977cfa8a551abdb5be68c9559"
+  }
+}

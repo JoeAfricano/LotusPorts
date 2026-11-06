@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "diddy-kong-racing",
+  "title": "Diddy Kong Racing",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Diddy Kong Racing, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "golden-balloon",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "dkr-r",
+      "differencePtBr": null
+    },
+    {
+      "portId": "diddy-kong-racing-recomp",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:diddy-kong-racing",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

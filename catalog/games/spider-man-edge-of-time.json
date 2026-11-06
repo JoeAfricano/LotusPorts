@@ -10,7 +10,12 @@
   "descriptionPtBr": "Peter Parker e o Homem-Aranha 2099 agem em duas épocas ao mesmo tempo para consertar a linha do tempo.",
   "recommendedPortId": "project-2099",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "edge-of-time-recomp",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:spider-man-edge-of-time",
   "review": {
     "state": "approved",

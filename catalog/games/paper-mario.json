@@ -11,7 +11,12 @@
   "descriptionPtBr": "Mario em papel enfrenta Bowser num RPG com batalhas por turnos e parceiros carismáticos.",
   "recommendedPortId": "paperboat",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "paper-mario-recompiled",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:paper-mario",
   "review": {
     "state": "approved",

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nhl-hitz-pro",
+  "title": "NHL Hitz Pro",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "NHL Hitz Pro, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "nhl-hitz-pro-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:nhl-hitz-pro",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

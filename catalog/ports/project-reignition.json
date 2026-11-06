@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "project-reignition",
+  "gameId": "sonic-and-the-secret-rings",
+  "title": "Project Reignition",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "kumapauz",
+    "name": "project-reignition"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^Project\\.Reignition\\.Windows\\..*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Project Reignition - Windows v0.4.2/Project Reignition.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/kumapauz/project-reignition",
+    "docs": "https://github.com/kumapauz/project-reignition#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.4.2",
+    "releaseDate": "2025-09-20",
+    "stars": 307,
+    "prerelease": false,
+    "assetName": "Project.Reignition.Windows.v0.4.2.zip",
+    "assetSize": 1325364701,
+    "assetSha256": "09d9185d9efb3ce5825365e1f09306767df1bf08ffacf9287a7d5e70bc91ab32"
+  }
+}

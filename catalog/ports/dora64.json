@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "dora64",
+  "gameId": "doraemon-nobita-to-mittsu-no-seireiseki",
+  "title": "Dora64",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "citrongames",
+    "name": "Dora64"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^Dora64-.*-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Dora64-1.0.5-Windows-x64/Dora64.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/citrongames/Dora64",
+    "docs": "https://github.com/citrongames/Dora64#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.4",
+    "releaseDate": "2026-09-25",
+    "stars": 10,
+    "prerelease": false,
+    "assetName": "Dora64-1.0.5-Windows-x64.zip",
+    "assetSize": 15225415,
+    "assetSha256": "1602bbe7cf5a0791851880a6c360fbf068270bc84da1f5aba597fbc8c76773ae"
+  }
+}

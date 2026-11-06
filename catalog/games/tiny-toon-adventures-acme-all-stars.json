@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "tiny-toon-adventures-acme-all-stars",
+  "title": "Tiny Toon Adventures: ACME All-Stars",
+  "originalPlatform": "GENESIS",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Tiny Toon Adventures: ACME All-Stars, lançado originalmente para Mega Drive, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "tiny-toon-adventures-acme-all-stars",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "tiny-toon-adventures-acme-all-stars-rafarvns",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:tiny-toon-adventures-acme-all-stars",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

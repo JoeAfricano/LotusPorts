@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "2014-fifa-world-cup-brazil",
+  "title": "2014 FIFA World Cup Brazil",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "2014 FIFA World Cup Brazil, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "fifa-wc-2014-recompiled",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "fifa-wc-2014-recompiled-hossez",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:2014-fifa-world-cup-brazil",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

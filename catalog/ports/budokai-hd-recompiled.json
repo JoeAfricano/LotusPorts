@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "budokai-hd-recompiled",
+  "gameId": "dragon-ball-z-budokai",
+  "title": "Budokai HD Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "WistfulHopes",
+    "name": "DBZ1"
+  },
+  "license": "BSD-3-Clause",
+  "windowsAsset": {
+    "pattern": "(?i)^dbz1\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "portable-exe"
+  },
+  "executable": "dbz1.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/WistfulHopes/DBZ1",
+    "docs": "https://github.com/WistfulHopes/DBZ1#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.0.2",
+    "releaseDate": "2026-02-22",
+    "stars": 133,
+    "prerelease": false,
+    "assetName": "dbz1.exe",
+    "assetSize": 21129216,
+    "assetSha256": "a2a5a42344b4da7b240911b12cdcba466c195f9f9579e9aba8017ee7772ef46e"
+  }
+}

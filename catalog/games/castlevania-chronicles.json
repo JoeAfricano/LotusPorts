@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "castlevania-chronicles",
+  "title": "Castlevania Chronicles",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Castlevania Chronicles, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "castlevania-chronicles-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:castlevania-chronicles",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

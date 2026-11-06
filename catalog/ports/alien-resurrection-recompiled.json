@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "alien-resurrection-recompiled",
+  "gameId": "alien-resurrection",
+  "title": "Alien Resurrection Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "alexbeavs-ps1-ports",
+    "name": "alien-resurrection-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^alien-resurrection-recomp-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Alien_Resurrection_Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/alexbeavs-ps1-ports/alien-resurrection-recomp",
+    "docs": "https://github.com/alexbeavs-ps1-ports/alien-resurrection-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.4",
+    "releaseDate": "2026-10-02",
+    "stars": 10,
+    "prerelease": false,
+    "assetName": "alien-resurrection-recomp-0.1.4-windows-x64.zip",
+    "assetSize": 29907400,
+    "assetSha256": "2eb2ba6aa955684145271393f635e43854deab116a629de69443a7d310e994d5"
+  }
+}

@@ -91,6 +91,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "1.0.3",
+    "releaseDate": "2026-10-11",
+    "stars": 550,
     "prerelease": false,
     "assetName": "Paperboat-Mulberry-Delta-Win64.zip",
     "assetSize": 27512774,

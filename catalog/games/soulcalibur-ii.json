@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "soulcalibur-ii",
+  "title": "Soulcalibur II",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Soulcalibur II, lançado originalmente para GameCube, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "ring-out",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "soulcalibur-ii-recomp",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:soulcalibur-ii",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

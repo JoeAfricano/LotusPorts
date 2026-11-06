@@ -11,7 +11,12 @@
   "descriptionPtBr": "Desça às profundezas sob a cidade de Tristram para enfrentar o Senhor do Terror.",
   "recommendedPortId": "devilutionx",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "diablo-recompiled",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:diablo",
   "review": {
     "state": "approved",

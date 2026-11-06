@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dead-cells-return-to-castlevania-edition",
+  "title": "Dead Cells: Return to Castlevania Edition",
+  "originalPlatform": "PS5",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Dead Cells: Return to Castlevania Edition, lançado originalmente para PlayStation 5, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dead-cells-ps5-native",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dead-cells-return-to-castlevania-edition",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

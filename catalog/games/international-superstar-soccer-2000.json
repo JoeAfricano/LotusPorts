@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "international-superstar-soccer-2000",
+  "title": "International Superstar Soccer 2000",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "International Superstar Soccer 2000, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "iss-2000-widescreen",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "iss2000",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:international-superstar-soccer-2000",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

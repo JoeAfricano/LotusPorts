@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "super-castlevania-iv",
+  "gameId": "super-castlevania-iv",
+  "title": "Super Castlevania IV",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "mpolizel",
+    "name": "SCIVRecomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^supercastlevania4-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "supercastlevania4-0.1.1-windows-x64/SuperCastlevaniaIvSNESRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/mpolizel/SCIVRecomp",
+    "docs": "https://github.com/mpolizel/SCIVRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.1",
+    "releaseDate": "2026-11-03",
+    "stars": 0,
+    "prerelease": false,
+    "assetName": "supercastlevania4-0.1.1-windows-x64.zip",
+    "assetSize": 51580813,
+    "assetSha256": "fd79a1458c2a2a13ae6561dc66977f51cecc81c8f0333b9d3133cd9c012e0a3b"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "retip",
+  "gameId": "viva-pinata-trouble-in-paradise",
+  "title": "ReTiP",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "SolarCookies",
+    "name": "TiP-Recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^retip_.*_windows_amd64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "retip.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/SolarCookies/TiP-Recomp",
+    "docs": "https://github.com/SolarCookies/TiP-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "1.14.0",
+    "releaseDate": "2026-10-24",
+    "stars": 244,
+    "prerelease": false,
+    "assetName": "retip_1.14.0_windows_amd64.zip",
+    "assetSize": 71114628,
+    "assetSha256": "b7ca2843078de1e9b25b24ca2ccacc0809f8e816b44dc1b3e9eb4c1465d4135c"
+  }
+}

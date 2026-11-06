@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "lost-odyssey-recomp",
+  "gameId": "lost-odyssey",
+  "title": "Lost Odyssey Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "freefrank",
+    "name": "LostOdysseyRecomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^LostOdysseyRecomp-windows-x64-.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "LostOdysseyRecomp-windows-x64-v1.1.0/LostOdysseyRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/freefrank/LostOdysseyRecomp",
+    "docs": "https://github.com/freefrank/LostOdysseyRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.1.0",
+    "releaseDate": "2026-10-26",
+    "stars": 927,
+    "prerelease": false,
+    "assetName": "LostOdysseyRecomp-windows-x64-v1.1.0.zip",
+    "assetSize": 154696631,
+    "assetSha256": "df82ac4e111f4c23ef925e6c044676e045bca421b657efbb4234591ddc6cb9ab"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "soulcalibur-ii-hd-online",
+  "title": "SoulCalibur II HD Online",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "SoulCalibur II HD Online, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "soulcalibur-ii-hd-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:soulcalibur-ii-hd-online",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "doa3-recomp",
+  "gameId": "dead-or-alive-3",
+  "title": "DOA3 Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "parkerallan",
+    "name": "doa3-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^DOA3-.*-win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "DOA3.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/parkerallan/doa3-recomp",
+    "docs": "https://github.com/parkerallan/doa3-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.7",
+    "releaseDate": "2026-10-24",
+    "stars": 104,
+    "prerelease": false,
+    "assetName": "DOA3-v1.0.7-win64.zip",
+    "assetSize": 8222510,
+    "assetSha256": "4d749122ceb7ba27a95798c99961cd06a64b3468f6a695bcf06da7efa6fd4e68"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "doraemon-3-nobita-no-machi-sos",
+  "title": "Doraemon 3: Nobita no Machi SOS!",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Doraemon 3: Nobita no Machi SOS!, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dora64-3",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:doraemon-3-nobita-no-machi-sos",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

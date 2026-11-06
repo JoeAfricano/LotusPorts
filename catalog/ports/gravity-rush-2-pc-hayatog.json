@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "gravity-rush-2-pc-hayatog",
+  "gameId": "gravity-rush-2",
+  "title": "Gravity Rush 2 PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "HayatoG",
+    "name": "gr2_pc"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^gr2-windows-x.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "gr2-windows-x86_64/Gravity Rush 2.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/HayatoG/gr2_pc",
+    "docs": "https://github.com/HayatoG/gr2_pc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2026.10.24-a2e69a1",
+    "releaseDate": "2026-10-24",
+    "stars": 171,
+    "prerelease": false,
+    "assetName": "gr2-windows-x86_64.zip",
+    "assetSize": 113543088,
+    "assetSha256": "4fe3d0e2da7e1fa0a9dfaa231b2b35b62ce08e9ebf31c5cea75584c41dd253c6"
+  }
+}

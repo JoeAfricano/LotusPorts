@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tekken-tag-tournament-2",
+  "title": "Tekken Tag Tournament 2",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Tekken Tag Tournament 2, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "ttt2-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:tekken-tag-tournament-2",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

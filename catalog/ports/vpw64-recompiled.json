@@ -88,6 +88,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.2.0",
+    "releaseDate": "2026-10-14",
+    "stars": 11,
     "prerelease": true,
     "assetName": "Vpw64Recompiled-v0.2.0-Windows.zip",
     "assetSize": 22480983,

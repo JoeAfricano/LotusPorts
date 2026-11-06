@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "clayfighter-64",
+  "gameId": "clayfighter-63-and-clayfighter-sculptor-s-cut",
+  "title": "ClayFighter 64",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "djultra64",
+    "name": "ClayFighter64"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^clayfighter64-.*-windows-x.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "clayfighter64-2.1.1-windows-x86_64/clayfighter64.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/djultra64/ClayFighter64",
+    "docs": "https://github.com/djultra64/ClayFighter64#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2.1.1",
+    "releaseDate": "2026-10-27",
+    "stars": 11,
+    "prerelease": false,
+    "assetName": "clayfighter64-2.1.1-windows-x86_64.zip",
+    "assetSize": 28647470,
+    "assetSha256": "3a73c8f549d416040848ce8aa14b3d9af3f7d02980fdb26be4303d26e1037748"
+  }
+}

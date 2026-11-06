@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "downhill-domination",
+  "title": "Downhill Domination",
+  "originalPlatform": "PS2",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Downhill Domination, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "downhill-revived",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "downhill-revived-skuza-oss",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:downhill-domination",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

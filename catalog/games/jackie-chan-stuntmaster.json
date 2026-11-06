@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "jackie-chan-stuntmaster",
+  "title": "Jackie Chan Stuntmaster",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Jackie Chan Stuntmaster, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "rechan",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:jackie-chan-stuntmaster",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

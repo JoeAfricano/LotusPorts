@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "burnout-3-takedown",
+  "title": "Burnout 3: Takedown",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Burnout 3: Takedown, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "takedawn",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "burnout-3-pc",
+      "differencePtBr": null
+    },
+    {
+      "portId": "burnout-3-recomp",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:burnout-3-takedown",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

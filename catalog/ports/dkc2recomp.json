@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "dkc2recomp",
+  "gameId": "donkey-kong-country-2-diddy-s-kong-quest",
+  "title": "DKC2Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "elliotttate",
+    "name": "DKC2Recomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^DKC2Recomp-.*-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/elliotttate/DKC2Recomp",
+    "docs": "https://github.com/elliotttate/DKC2Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.0.8",
+    "releaseDate": "2026-09-13",
+    "stars": 190,
+    "prerelease": false,
+    "assetName": "DKC2Recomp-v0.0.8-Windows-x64.zip",
+    "assetSize": 11650330,
+    "assetSha256": "61f3b29a6624b4999dcd5ee6d439dac52528fe85352b95d62f127c9e6fd35eee"
+  }
+}

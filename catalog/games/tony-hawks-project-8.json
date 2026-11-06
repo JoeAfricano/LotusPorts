@@ -10,7 +10,12 @@
   "descriptionPtBr": "Skate em mundo aberto, com o modo Nail the Trick para controlar cada pé em câmera lenta.",
   "recommendedPortId": "project8-recomp",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "tony-hawk-s-project-8-plus",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:tony-hawks-project-8",
   "review": {
     "state": "approved",

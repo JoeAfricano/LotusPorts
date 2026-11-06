@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mario-s-tennis",
+  "title": "Mario's Tennis",
+  "originalPlatform": "VIRTUAL_BOY",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Mario's Tennis, lançado originalmente para Virtual Boy, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "mariotennisvirtualboyrecomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:mario-s-tennis",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

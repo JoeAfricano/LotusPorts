@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "james-pond-2-codename-robocod",
+  "title": "James Pond 2: Codename RoboCod",
+  "originalPlatform": "AMIGA",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "James Pond 2: Codename RoboCod, lançado originalmente para Amiga, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "james-pond-2-codename-robocod-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:james-pond-2-codename-robocod",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

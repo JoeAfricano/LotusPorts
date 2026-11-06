@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "shin-megami-tensei-iv-recomp",
+  "gameId": "shin-megami-tensei-iv",
+  "title": "Shin Megami Tensei IV Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Invictus-potens",
+    "name": "smt4-recomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^smt4-launcher\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "portable-exe"
+  },
+  "executable": "smt4-launcher.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Invictus-potens/smt4-recomp",
+    "docs": "https://github.com/Invictus-potens/smt4-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.9",
+    "releaseDate": "2026-11-04",
+    "stars": 93,
+    "prerelease": true,
+    "assetName": "smt4-launcher.exe",
+    "assetSize": 15248384,
+    "assetSha256": "3aed4adc220a628a311ca51ad241a39696fd33cd60ca1b174f636a908c63500b"
+  }
+}

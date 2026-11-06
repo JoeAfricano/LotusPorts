@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "voldorium",
+  "gameId": "soulcalibur",
+  "title": "Voldorium",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "enrique363",
+    "name": "voldorium"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^Voldorium-.*-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Voldorium-1.1.3-windows/Voldorium.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/enrique363/voldorium",
+    "docs": "https://github.com/enrique363/voldorium#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.1.3",
+    "releaseDate": "2026-10-31",
+    "stars": 38,
+    "prerelease": false,
+    "assetName": "Voldorium-1.1.3-windows.zip",
+    "assetSize": 1749291,
+    "assetSha256": "01e1cbb32c3eb208b2f76a8e9d05e754c175f079c31c65e981b32f912bf7a4ea"
+  }
+}

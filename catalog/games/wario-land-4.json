@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "wario-land-4",
+  "title": "Wario Land 4",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Wario Land 4, lançado originalmente para Game Boy Advance, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "wario-land-4-pc-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:wario-land-4",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

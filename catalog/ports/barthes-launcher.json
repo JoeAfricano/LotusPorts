@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "barthes-launcher",
+  "gameId": "harry-potter-collection",
+  "title": "Barthes Launcher",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Barthes-Recompiled",
+    "name": "Barthes-Launcher"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^BarthesLauncher-windows-.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "BarthesLauncher/barthes_launcher.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Barthes-Recompiled/Barthes-Launcher",
+    "docs": "https://github.com/Barthes-Recompiled/Barthes-Launcher#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.1.0",
+    "releaseDate": "2026-11-01",
+    "stars": 13,
+    "prerelease": false,
+    "assetName": "BarthesLauncher-windows-1.1.0.zip",
+    "assetSize": 924190,
+    "assetSha256": "a8899c66acbf38e9add3953aac7af64fa0f0eb5f6b55edb4dcf933d51dda44ea"
+  }
+}

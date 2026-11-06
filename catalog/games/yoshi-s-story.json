@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "yoshi-s-story",
+  "title": "Yoshi's Story",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Yoshi's Story, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dinotale-yoshi-s-story-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:yoshi-s-story",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

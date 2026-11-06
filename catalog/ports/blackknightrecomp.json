@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "blackknightrecomp",
+  "gameId": "sonic-and-the-black-knight",
+  "title": "BlackKnightRecomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "yunophilia",
+    "name": "BlackKnightRecomp"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^BlackKnightRecomp-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "BlackKnightRecomp/BlackKnightRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/yunophilia/BlackKnightRecomp",
+    "docs": "https://github.com/yunophilia/BlackKnightRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.1",
+    "releaseDate": "2026-10-23",
+    "stars": 32,
+    "prerelease": false,
+    "assetName": "BlackKnightRecomp-v1.0.1-windows-x64.zip",
+    "assetSize": 59006720,
+    "assetSha256": "4f335a362e9e3ab0665b67ec901300ff515bb87e6a1f3900e357984972367896"
+  }
+}

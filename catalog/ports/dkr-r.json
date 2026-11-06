@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "dkr-r",
+  "gameId": "diddy-kong-racing",
+  "title": "DKR-R",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "ThatGuyMcd",
+    "name": "DKR-R"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^DKR-R-.*-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/ThatGuyMcd/DKR-R",
+    "docs": "https://github.com/ThatGuyMcd/DKR-R#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "Version1.0.14",
+    "releaseDate": "2026-11-04",
+    "stars": 261,
+    "prerelease": false,
+    "assetName": "DKR-R-1.0.14-Windows-x64.zip",
+    "assetSize": 61206504,
+    "assetSha256": "174929b84d85ea9df24896f94522ae73a81143056f755e92e341efbe154546a9"
+  }
+}

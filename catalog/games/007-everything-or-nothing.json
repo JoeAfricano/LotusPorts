@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "007-everything-or-nothing",
+  "title": "007: Everything or Nothing",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "007: Everything or Nothing, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "007-everything-or-nothing-xbe-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:007-everything-or-nothing",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

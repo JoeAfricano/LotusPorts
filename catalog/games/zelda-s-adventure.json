@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "zelda-s-adventure",
+  "title": "Zelda's Adventure",
+  "originalPlatform": "CDI",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Zelda's Adventure, lançado originalmente para CD-i, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "zelda-s-adventure",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:zelda-s-adventure",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

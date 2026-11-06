@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "pac-man-championship-edition-native-pc-port",
+  "gameId": "pac-man-championship-edition",
+  "title": "Pac-Man Championship Edition: Native PC Port",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "jedeyesniv-art",
+    "name": "Pacman-CE-PC-Recomp"
+  },
+  "license": "MIT-0",
+  "windowsAsset": {
+    "pattern": "(?i)^PacManCE-.*-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "PacManCE/pacman.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/jedeyesniv-art/Pacman-CE-PC-Recomp",
+    "docs": "https://github.com/jedeyesniv-art/Pacman-CE-PC-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.0",
+    "releaseDate": "2026-10-21",
+    "stars": 15,
+    "prerelease": false,
+    "assetName": "PacManCE-1.0.0-windows.zip",
+    "assetSize": 8913751,
+    "assetSha256": "d056f96e5e69746b0d56aa9d11317ac96cf48922282c97bbf388ecf53e2214a8"
+  }
+}

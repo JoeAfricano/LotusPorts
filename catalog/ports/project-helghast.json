@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "project-helghast",
+  "gameId": "killzone-3",
+  "title": "Project Helghast",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "undecuple",
+    "name": "project-helghast"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^Project-Helghast-setup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/undecuple/project-helghast",
+    "docs": "https://github.com/undecuple/project-helghast#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.9",
+    "releaseDate": "2026-11-04",
+    "stars": 115,
+    "prerelease": true,
+    "assetName": "Project-Helghast-setup.exe",
+    "assetSize": 100807826,
+    "assetSha256": "fa431ca45c2f44f83a03ef03190a45e93937de0698029ab8b3a5c012ac6ab456"
+  }
+}

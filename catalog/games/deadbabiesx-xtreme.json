@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "deadbabiesx-xtreme",
+  "title": "DeadBabiesX Xtreme",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "DeadBabiesX Xtreme, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "deadbabiesx-windows-native-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:deadbabiesx-xtreme",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

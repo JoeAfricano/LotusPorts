@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "doax2-recomp",
+  "gameId": "dead-or-alive-xtreme-2",
+  "title": "DOAX2 Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "hibikifukui22",
+    "name": "Dead-or-Alive-Xtreme-2-Recompilation"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^DOAX2-Recomp-.*-win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/hibikifukui22/Dead-or-Alive-Xtreme-2-Recompilation",
+    "docs": "https://github.com/hibikifukui22/Dead-or-Alive-Xtreme-2-Recompilation#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.1.6",
+    "releaseDate": "2026-11-04",
+    "stars": 72,
+    "prerelease": false,
+    "assetName": "DOAX2-Recomp-v1.1.6-win64.zip",
+    "assetSize": 20625726,
+    "assetSha256": "3e9445962a03a3a91fc4fa760dfb00526c4bad9c049fd44599441317d9974457"
+  }
+}

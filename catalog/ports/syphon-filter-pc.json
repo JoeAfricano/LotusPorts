@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "syphon-filter-pc",
+  "gameId": "syphon-filter",
+  "title": "Syphon Filter PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Madxbio97",
+    "name": "SF-pc-port"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^SyphonFilterPC-.*-public-test\\.16-win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "SyphonFilterPC-0.1.0-public-test.16-win64/syphon_filter.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Madxbio97/SF-pc-port",
+    "docs": "https://github.com/Madxbio97/SF-pc-port#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.0-public-test.16",
+    "releaseDate": "2026-08-02",
+    "stars": 143,
+    "prerelease": false,
+    "assetName": "SyphonFilterPC-0.1.0-public-test.16-win64.zip",
+    "assetSize": 12455493,
+    "assetSha256": "f024c650267583f36a9931682e2541244001ff348c68e925ed6faa3f4831610e"
+  }
+}

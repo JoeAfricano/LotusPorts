@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "despiria-rebirth",
+  "gameId": "despiria",
+  "title": "deSPIRIA reBIRTH",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "goodshepherd23",
+    "name": "deSPIRIA-DreamRecomp"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^deSPIRIA-DreamRecomp-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "deSPIRIA.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/goodshepherd23/deSPIRIA-DreamRecomp",
+    "docs": "https://github.com/goodshepherd23/deSPIRIA-DreamRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.1",
+    "releaseDate": "2026-10-30",
+    "stars": 2,
+    "prerelease": false,
+    "assetName": "deSPIRIA-DreamRecomp-v0.1.1-windows-x64.zip",
+    "assetSize": 133445,
+    "assetSha256": "6b7250ac6335bd9c1c7a5a85c74ddc62f024b95852a694d980eea278d84a6ab1"
+  }
+}

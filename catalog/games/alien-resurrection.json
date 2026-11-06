@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "alien-resurrection",
+  "title": "Alien Resurrection",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Alien Resurrection, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "alien-resurrection-recompiled-diegodedios",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "alien-resurrection-recompiled",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:alien-resurrection",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

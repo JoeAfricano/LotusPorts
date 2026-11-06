@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "vice-city-stories-recompiled",
+  "gameId": "grand-theft-auto-vice-city-stories",
+  "title": "Vice City Stories Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "theurbanninja1993-sketch",
+    "name": "vcs-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^VCS-Recomp-.*-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/theurbanninja1993-sketch/vcs-recomp",
+    "docs": "https://github.com/theurbanninja1993-sketch/vcs-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.2",
+    "releaseDate": "2026-11-05",
+    "stars": 4,
+    "prerelease": false,
+    "assetName": "VCS-Recomp-v0.1.2-Windows-x64.zip",
+    "assetSize": 6107900,
+    "assetSha256": "7fabd253d49771ef84a97817e8e232d29766247ce6df91b8e21d1a703cff6072"
+  }
+}

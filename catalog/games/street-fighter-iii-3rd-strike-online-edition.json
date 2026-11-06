@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "street-fighter-iii-3rd-strike-online-edition",
+  "title": "Street Fighter III: 3rd Strike Online Edition",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Street Fighter III: 3rd Strike Online Edition, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "sf3tsoe-reborn",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:street-fighter-iii-3rd-strike-online-edition",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

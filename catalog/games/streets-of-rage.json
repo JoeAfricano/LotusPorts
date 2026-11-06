@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "streets-of-rage",
+  "title": "Streets of Rage",
+  "originalPlatform": "GENESIS",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Streets of Rage, lançado originalmente para Mega Drive, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "streets-of-rage-collection-recomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "stritoraige",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:streets-of-rage",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

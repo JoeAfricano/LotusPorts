@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "reticulating-splines",
+  "gameId": "simcity-2000",
+  "title": "Reticulating Splines",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Realm667",
+    "name": "Reticulating-Splines"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^ReticulatingSplines-.*-rs\\.9-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "ReticulatingSplines-0.3.0-rs.9-windows-x64/ReticulatingSplines.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Realm667/Reticulating-Splines",
+    "docs": "https://github.com/Realm667/Reticulating-Splines#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.3.0-rs.9",
+    "releaseDate": "2026-11-05",
+    "stars": 27,
+    "prerelease": true,
+    "assetName": "ReticulatingSplines-0.3.0-rs.9-windows-x64.zip",
+    "assetSize": 238348213,
+    "assetSha256": "95316279522e2675e98da16062b7af58032254746433bd3fb66d21aac8f282fc"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "bloodborne",
+  "title": "Bloodborne",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Bloodborne, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "bloodborne-pc-supermedo",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "bloodborne-pc",
+      "differencePtBr": null
+    },
+    {
+      "portId": "bbhost",
+      "differencePtBr": null
+    },
+    {
+      "portId": "bloodborne-windows-port",
+      "differencePtBr": null
+    },
+    {
+      "portId": "bloodborne-pc-stability",
+      "differencePtBr": null
+    },
+    {
+      "portId": "bbport-windows",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:bloodborne",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

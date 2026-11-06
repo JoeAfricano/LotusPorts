@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "tomb-raider-de-pc",
+  "gameId": "tomb-raider",
+  "title": "Tomb Raider DE PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "drakenabarion",
+    "name": "tombraider_pc"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^tombraider-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "tombraider-windows/TombRaider.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/drakenabarion/tombraider_pc",
+    "docs": "https://github.com/drakenabarion/tombraider_pc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.3.0",
+    "releaseDate": "2026-10-25",
+    "stars": 2,
+    "prerelease": false,
+    "assetName": "tombraider-windows.zip",
+    "assetSize": 78741059,
+    "assetSha256": "2fb4f355888588bfde8bb19954602b0f1020ef42799005f07f87fb06e719fed2"
+  }
+}

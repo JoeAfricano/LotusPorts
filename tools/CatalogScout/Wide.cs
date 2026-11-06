@@ -261,6 +261,64 @@ internal static partial class Wide
         return shallow.Count == 1 ? shallow[0] : null;
     }
 
+    /// <summary>
+    /// Curator review with written, objective rules (delegated by José on 05/11/2026):
+    /// a pending game is approved when some port has a checked way to open it (executable inside the
+    /// package, a standalone program or the official installer); that port becomes the recommended one
+    /// if the current one has none. Otherwise the game stays pending with the reason. Port status is
+    /// never raised here: saying "playable" needs someone to play it.
+    /// </summary>
+    public static int AutoReview(string catalogDir, string reviewer, string[] hold)
+    {
+        var gamesDir = Path.Combine(catalogDir, "games");
+        var ports = Directory.GetFiles(Path.Combine(catalogDir, "ports"), "*.json")
+            .Select(f => JsonNode.Parse(File.ReadAllText(f))!.AsObject())
+            .ToDictionary(p => p["id"]!.GetValue<string>());
+        var today = DateTime.UtcNow.ToString("yyyy-MM-dd");
+        int approved = 0, kept = 0;
+        foreach (var file in Directory.GetFiles(gamesDir, "*.json"))
+        {
+            var game = JsonNode.Parse(File.ReadAllText(file))!.AsObject();
+            if (game["review"]!["state"]!.GetValue<string>() != "pending") continue;
+            var id = game["id"]!.GetValue<string>();
+            if (hold.Contains(id))
+            {
+                game["review"]!["notesPtBr"] = "Mantido em revisão: possível duplicado de outro jogo do catálogo.";
+                Write(file, game);
+                kept++;
+                continue;
+            }
+
+            var ids = new List<string> { game["recommendedPortId"]!.GetValue<string>() };
+            ids.AddRange(game["alternatives"]!.AsArray().Select(a => a!["portId"]!.GetValue<string>()));
+            bool Opens(string portId) => ports[portId]["executable"] is not null || ports[portId]["windowsAsset"]!["packageType"]!.GetValue<string>() == "installer";
+            var openable = ids.Where(Opens).OrderByDescending(p => ports[p]["evidence"]?["stars"]?.GetValue<int>() ?? 0).ToList();
+            if (openable.Count == 0)
+            {
+                game["review"]!["notesPtBr"] = "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar.";
+                Write(file, game);
+                kept++;
+                continue;
+            }
+
+            if (!Opens(ids[0]))
+            {
+                var chosen = openable[0];
+                var differences = game["alternatives"]!.AsArray().OfType<JsonObject>().ToDictionary(a => a["portId"]!.GetValue<string>(), a => a["differencePtBr"]?.DeepClone());
+                game["recommendedPortId"] = chosen;
+                game["alternatives"] = new JsonArray(ids.Where(p => p != chosen)
+                    .Select(p => (JsonNode)new JsonObject { ["portId"] = p, ["differencePtBr"] = differences.GetValueOrDefault(p) }).ToArray());
+            }
+            if (game["recommendationReasonPtBr"]?.GetValue<string>() is { } reason && reason.StartsWith("Proposta: ", StringComparison.Ordinal))
+                game["recommendationReasonPtBr"] = char.ToUpperInvariant(reason[10]) + reason[11..];
+            game["review"] = new JsonObject { ["state"] = "approved", ["by"] = reviewer, ["at"] = today, ["notesPtBr"] = null };
+            Write(file, game);
+            approved++;
+        }
+        Console.Error.WriteLine($"auto-review: {approved} approved, {kept} kept pending");
+        return Generator.Bundle(catalogDir);
+    }
+
     internal static string? DateOnly(string? iso) => iso is { Length: >= 10 } ? iso[..10] : null;
 
     /// <summary>Refreshes the measured facts (release date, stars) of ports already in the catalog, by repository.</summary>

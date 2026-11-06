@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "woohoo-flight-school",
+  "gameId": "pilotwings-resort",
+  "title": "Woohoo! Flight School",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "thefixinhixon",
+    "name": "woohoo-flight-school"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^WoohooFlightSchool-Windows-kit\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "WoohooFlightSchool-Windows-kit/mingw64/bin/c++.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/thefixinhixon/woohoo-flight-school",
+    "docs": "https://github.com/thefixinhixon/woohoo-flight-school#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.1",
+    "releaseDate": "2026-11-02",
+    "stars": 20,
+    "prerelease": true,
+    "assetName": "WoohooFlightSchool-Windows-kit.zip",
+    "assetSize": 206660282,
+    "assetSha256": "686c2c1b27793ec2b153a760ba072e33775fb53b48aef3092a609f7ee80abae8"
+  }
+}

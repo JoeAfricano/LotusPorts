@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "infinite-mario-64-ever",
+  "gameId": "super-mario-64-infinite-mario-64-ever",
+  "title": "Infinite Mario 64 Ever",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Brawmario",
+    "name": "infinite-mario-64-ever"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^infinite-mario-64-ever\\..*\\.windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Infinite Mario 64.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Brawmario/infinite-mario-64-ever",
+    "docs": "https://github.com/Brawmario/infinite-mario-64-ever#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.5",
+    "releaseDate": "2026-01-18",
+    "stars": 14,
+    "prerelease": false,
+    "assetName": "infinite-mario-64-ever.v0.1.5.windows.zip",
+    "assetSize": 47971173,
+    "assetSha256": "5bb8e4e694a4e3bcf236371751b7a101aad3230c42b6fada9f7dfb58d75135dd"
+  }
+}

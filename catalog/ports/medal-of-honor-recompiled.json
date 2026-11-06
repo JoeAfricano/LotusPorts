@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "medal-of-honor-recompiled",
+  "gameId": "medal-of-honor",
+  "title": "Medal of Honor Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "FractalEngineer",
+    "name": "Medal-Of-Honor-PSX-Recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^moh-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Medal_of_Honor__Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/FractalEngineer/Medal-Of-Honor-PSX-Recomp",
+    "docs": "https://github.com/FractalEngineer/Medal-Of-Honor-PSX-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.6",
+    "releaseDate": "2026-10-22",
+    "stars": 46,
+    "prerelease": false,
+    "assetName": "moh-0.1.6-windows-x64.zip",
+    "assetSize": 27340206,
+    "assetSha256": "6b4a2dff29433e02c3b08ca40804a3747355c5d9844382051377967695e96a02"
+  }
+}

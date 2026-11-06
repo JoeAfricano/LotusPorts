@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "canopus-protocol",
+  "gameId": "shin-megami-tensei-devil-survivor-2-record-breaker",
+  "title": "Canopus Protocol",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "riomoo",
+    "name": "canopus-protocol"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^CanopusProtocol-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Canopus-Protocol/Canopus Protocol.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/riomoo/canopus-protocol",
+    "docs": "https://github.com/riomoo/canopus-protocol#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2.0.1",
+    "releaseDate": "2026-10-30",
+    "stars": 1,
+    "prerelease": false,
+    "assetName": "CanopusProtocol-windows-x64.zip",
+    "assetSize": 79966860,
+    "assetSha256": "5452645a89d3395e3516c7da4af17369361fc903ea54d6c89e1d5cf3efb11013"
+  }
+}

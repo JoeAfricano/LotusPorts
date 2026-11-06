@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "panzer-dragoon-orta",
+  "title": "Panzer Dragoon Orta",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Panzer Dragoon Orta, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "orta-recomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "panzer-dragoon-orta",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:panzer-dragoon-orta",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

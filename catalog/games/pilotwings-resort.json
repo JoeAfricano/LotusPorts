@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pilotwings-resort",
+  "title": "Pilotwings Resort",
+  "originalPlatform": "N3DS",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Pilotwings Resort, lançado originalmente para Nintendo 3DS, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "woohoo-flight-school",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:pilotwings-resort",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

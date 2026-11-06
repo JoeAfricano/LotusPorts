@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "def-jam-vendetta",
+  "title": "Def Jam Vendetta",
+  "originalPlatform": "PS2",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Def Jam Vendetta, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "def-jam-vendetta-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:def-jam-vendetta",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

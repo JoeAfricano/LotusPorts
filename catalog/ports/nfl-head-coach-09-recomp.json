@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "nfl-head-coach-09-recomp",
+  "gameId": "nfl-head-coach-09",
+  "title": "NFL Head Coach 09 Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "tools81",
+    "name": "nfl-head-coach-09-static-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^HC09Setup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/tools81/nfl-head-coach-09-static-recomp",
+    "docs": "https://github.com/tools81/nfl-head-coach-09-static-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.9.4",
+    "releaseDate": "2026-11-05",
+    "stars": 20,
+    "prerelease": false,
+    "assetName": "HC09Setup.exe",
+    "assetSize": 583168,
+    "assetSha256": "e8fb789fb0ced5b34da626b9c5bddc29b0a1b018c2dc1df74b29c35711d8b102"
+  }
+}

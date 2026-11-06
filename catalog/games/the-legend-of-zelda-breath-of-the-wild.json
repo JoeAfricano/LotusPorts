@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "the-legend-of-zelda-breath-of-the-wild",
+  "title": "The Legend of Zelda: Breath of the Wild",
+  "originalPlatform": "SWITCH",
+  "releaseYear": null,
+  "genre": [
+    "aventura"
+  ],
+  "descriptionPtBr": "The Legend of Zelda: Breath of the Wild, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "savage-wind-recomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "botw-native",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:the-legend-of-zelda-breath-of-the-wild",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "crash-twinsanity",
+  "title": "Crash Twinsanity",
+  "originalPlatform": "PS2",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Crash Twinsanity, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "crash-twinsanity-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:crash-twinsanity",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

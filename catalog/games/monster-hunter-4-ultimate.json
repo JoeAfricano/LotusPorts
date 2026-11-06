@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "monster-hunter-4-ultimate",
+  "title": "Monster Hunter 4 Ultimate",
+  "originalPlatform": "OTHER",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Monster Hunter 4 Ultimate, lançado originalmente para outra plataforma, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "monster-hunter-4-ultimate",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:monster-hunter-4-ultimate",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

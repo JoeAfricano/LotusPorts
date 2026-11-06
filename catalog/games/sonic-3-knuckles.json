@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sonic-3-knuckles",
+  "title": "Sonic 3 & Knuckles",
+  "originalPlatform": "GENESIS",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Sonic 3 & Knuckles, lançado originalmente para Mega Drive, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "sonic-3-knuckles-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:sonic-3-knuckles",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

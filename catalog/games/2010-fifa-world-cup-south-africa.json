@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "2010-fifa-world-cup-south-africa",
+  "title": "2010 FIFA World Cup South Africa",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "2010 FIFA World Cup South Africa, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "fifa-world-cup-2010",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:2010-fifa-world-cup-south-africa",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

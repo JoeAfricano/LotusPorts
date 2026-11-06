@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "shin-megami-tensei-iv",
+  "title": "Shin Megami Tensei IV",
+  "originalPlatform": "N3DS",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Shin Megami Tensei IV, lançado originalmente para Nintendo 3DS, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "shin-megami-tensei-iv-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:shin-megami-tensei-iv",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

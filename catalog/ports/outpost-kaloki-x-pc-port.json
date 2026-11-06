@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "outpost-kaloki-x-pc-port",
+  "gameId": "outpost-kaloki-x",
+  "title": "Outpost Kaloki X PC Port",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "TekRantGaming",
+    "name": "outpost-kaloki-x-recompiled"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^OutpostKalokiX-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "OutpostKalokiX/outpost_kaloki_x.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/TekRantGaming/outpost-kaloki-x-recompiled",
+    "docs": "https://github.com/TekRantGaming/outpost-kaloki-x-recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.1.1",
+    "releaseDate": "2026-10-18",
+    "stars": 7,
+    "prerelease": false,
+    "assetName": "OutpostKalokiX-v1.1.1-windows-x64.zip",
+    "assetSize": 9505124,
+    "assetSha256": "0ea63e834df5d565479b473c8671a3088ba9f8a1fc8c76a44174d33371ba9ca0"
+  }
+}

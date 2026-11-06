@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v2.0.14",
+    "releaseDate": "2026-10-03",
+    "stars": 185,
     "prerelease": false,
     "assetName": "DPRecomp-2.0.14-win64.zip",
     "assetSize": 46811589,

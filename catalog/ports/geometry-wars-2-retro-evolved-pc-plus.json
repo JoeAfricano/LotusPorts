@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "geometry-wars-2-retro-evolved-pc-plus",
+  "gameId": "geometry-wars-retro-evolved-2",
+  "title": "Geometry Wars 2: Retro Evolved PC PLUS+",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "omenhachi",
+    "name": "geometry-wars-2-pc-plus"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^GeometryWarsRetroEvolved2-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "geometry_wars_retro_evolved_2.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/omenhachi/geometry-wars-2-pc-plus",
+    "docs": "https://github.com/omenhachi/geometry-wars-2-pc-plus#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.4.2",
+    "releaseDate": "2026-11-05",
+    "stars": 12,
+    "prerelease": false,
+    "assetName": "GeometryWarsRetroEvolved2-v1.4.2-windows-x64.zip",
+    "assetSize": 9859268,
+    "assetSha256": "62bdc92030974b9fbeca819f25d38682a80660a8e58069c9c60285af6c5dfea2"
+  }
+}

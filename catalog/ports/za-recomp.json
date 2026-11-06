@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "za-recomp",
+  "gameId": "pokemon-legends-z-a",
+  "title": "ZA Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Hexveil404",
+    "name": "PokeZ-ARecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^ZA-Recomp-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Hexveil404/PokeZ-ARecomp",
+    "docs": "https://github.com/Hexveil404/PokeZ-ARecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.18",
+    "releaseDate": "2026-11-05",
+    "stars": 181,
+    "prerelease": false,
+    "assetName": "ZA-Recomp-windows.zip",
+    "assetSize": 190379903,
+    "assetSha256": "0d08f3325bf7ace24a23392923d85c722ac461a2dc5bcdca21d0d9933b1f5f2e"
+  }
+}

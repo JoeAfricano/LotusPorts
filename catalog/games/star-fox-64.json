@@ -11,7 +11,12 @@
   "descriptionPtBr": "Fox McCloud e sua equipe enfrentam Andross pelo sistema Lylat a bordo das naves Arwing.",
   "recommendedPortId": "starship",
   "recommendationReasonPtBr": null,
-  "alternatives": [],
+  "alternatives": [
+    {
+      "portId": "star-fox-64-recompiled",
+      "differencePtBr": null
+    }
+  ],
   "lotusGameKey": "port:star-fox-64",
   "review": {
     "state": "approved",

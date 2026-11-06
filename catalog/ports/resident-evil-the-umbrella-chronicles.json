@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "resident-evil-the-umbrella-chronicles",
+  "gameId": "resident-evil-the-umbrella-chronicles",
+  "title": "Resident Evil: The Umbrella Chronicles",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "solleo95",
+    "name": "reuc-recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^UC-Windows-.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "uc.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/solleo95/reuc-recomp",
+    "docs": "https://github.com/solleo95/reuc-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "0.2.0",
+    "releaseDate": "2026-11-04",
+    "stars": 157,
+    "prerelease": false,
+    "assetName": "UC-Windows-0.2.0.zip",
+    "assetSize": 118673986,
+    "assetSha256": "29cec20e7954fc939e53e4fab71257e31adab6cd9f6a22abe440da813889e5a5"
+  }
+}

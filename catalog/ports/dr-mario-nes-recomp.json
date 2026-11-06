@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "dr-mario-nes-recomp",
+  "gameId": "dr-mario",
+  "title": "Dr. Mario NES Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "mstan",
+    "name": "DrMarioNesRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^DrMarioRecomp-usa-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "DrMarioRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/mstan/DrMarioNesRecomp",
+    "docs": "https://github.com/mstan/DrMarioNesRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.3.1",
+    "releaseDate": "2026-10-19",
+    "stars": 15,
+    "prerelease": false,
+    "assetName": "DrMarioRecomp-usa-windows-x64.zip",
+    "assetSize": 4701280,
+    "assetSha256": "26f694557a977501206cc2395704de086d96af7c9972b5185315eee169a87aac"
+  }
+}

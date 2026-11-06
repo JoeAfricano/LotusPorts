@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "inazuma-eleven-3-sekai-heno-chousen-the-ogre",
+  "title": "Inazuma Eleven 3: Sekai heno Chousen!! The Ogre",
+  "originalPlatform": "NDS",
+  "releaseYear": null,
+  "genre": [
+    "esporte"
+  ],
+  "descriptionPtBr": "Inazuma Eleven 3: Sekai heno Chousen!! The Ogre, lançado originalmente para Nintendo DS, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "inazuma-eleven-3-the-ogre-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:inazuma-eleven-3-sekai-heno-chousen-the-ogre",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

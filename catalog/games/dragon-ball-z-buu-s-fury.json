@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dragon-ball-z-buu-s-fury",
+  "title": "Dragon Ball Z: Buu's Fury",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Dragon Ball Z: Buu's Fury, lançado originalmente para Game Boy Advance, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dragon-ball-z-buu-s-fury-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dragon-ball-z-buu-s-fury",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

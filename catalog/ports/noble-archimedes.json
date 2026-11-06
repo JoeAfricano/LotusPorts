@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "noble-archimedes",
+  "gameId": "castlevania-curse-of-darkness",
+  "title": "Noble Archimedes",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "sergiomanzur",
+    "name": "noble-archimedes"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^Noble-Archimedes-.*b-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/sergiomanzur/noble-archimedes",
+    "docs": "https://github.com/sergiomanzur/noble-archimedes#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.9.1b",
+    "releaseDate": "2026-11-03",
+    "stars": 38,
+    "prerelease": true,
+    "assetName": "Noble-Archimedes-0.9.1b-Windows-x64.zip",
+    "assetSize": 81683158,
+    "assetSha256": "0b94abd5849db23b66c32a6235a301ec71552d1052cfe41997665fd9a889c415"
+  }
+}

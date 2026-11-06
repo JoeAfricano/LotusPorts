@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "rampage-through-time-recompiled",
+  "gameId": "rampage-through-time",
+  "title": "Rampage Through Time Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "TechnicallyComputers",
+    "name": "Rampage---Through-Time-Recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^rtt-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Rampage___Through_Time__Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp",
+    "docs": "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.23",
+    "releaseDate": "2026-10-01",
+    "stars": 10,
+    "prerelease": false,
+    "assetName": "rtt-0.1.23-windows-x64.zip",
+    "assetSize": 60779814,
+    "assetSha256": "988b25641322ebfac21870efa56e7ca4fd31611cea9143960d270f3cfec8e20f"
+  }
+}

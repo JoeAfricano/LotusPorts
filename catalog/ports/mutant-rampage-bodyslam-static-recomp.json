@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "mutant-rampage-bodyslam-static-recomp",
+  "gameId": "mutant-rampage-bodyslam",
+  "title": "Mutant Rampage: Bodyslam Static Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "tools81",
+    "name": "mutant-rampage-bodyslam-static-recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^MutantRampageBodyslam-.*-win64-portable\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "MutantRampageBodyslam/bodyslam.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/tools81/mutant-rampage-bodyslam-static-recomp",
+    "docs": "https://github.com/tools81/mutant-rampage-bodyslam-static-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.0",
+    "releaseDate": "2026-10-21",
+    "stars": 1,
+    "prerelease": false,
+    "assetName": "MutantRampageBodyslam-1.0.0-win64-portable.zip",
+    "assetSize": 2163868,
+    "assetSha256": "39ce14a43b231565d6578389e4438f6641bef5fdada5eaa1c139638327967651"
+  }
+}

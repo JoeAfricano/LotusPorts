@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "south-park-tenorman-s-revenge-recompiled",
+  "gameId": "south-park-tenorman-s-revenge",
+  "title": "South Park: Tenorman's Revenge Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "TekRantGaming",
+    "name": "south-park-tenormans-revenge-recompiled"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^SouthParkTR-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "SouthParkTR/south_park_tr.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/TekRantGaming/south-park-tenormans-revenge-recompiled",
+    "docs": "https://github.com/TekRantGaming/south-park-tenormans-revenge-recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.0",
+    "releaseDate": "2026-10-17",
+    "stars": 11,
+    "prerelease": false,
+    "assetName": "SouthParkTR-v0.1.0-windows-x64.zip",
+    "assetSize": 18779709,
+    "assetSha256": "0e5795c28b741f77fdf1eedc2e01a82b930dbaa6b30823e1c9afe04ec4c85271"
+  }
+}

@@ -73,6 +73,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v1.1.6",
+    "releaseDate": "2026-10-23",
+    "stars": 130,
     "prerelease": false,
     "assetName": "Snap64Recomp-1.1.6-win64.zip",
     "assetSize": 16580695,

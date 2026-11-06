@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "harry-potter-and-the-prisoner-of-azkaban",
+  "title": "Harry Potter and the Prisoner of Azkaban",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Harry Potter and the Prisoner of Azkaban, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "hp3-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:harry-potter-and-the-prisoner-of-azkaban",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

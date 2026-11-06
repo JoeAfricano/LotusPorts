@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "harvest-moon",
+  "title": "Harvest Moon",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Harvest Moon, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "harvest-moon-decomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:harvest-moon",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "diddy-kong-racing-recomp",
+  "gameId": "diddy-kong-racing",
+  "title": "Diddy Kong Racing Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "sp00nznet",
+    "name": "diddykongracing"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^DKR-Installer-windows-x64\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/sp00nznet/diddykongracing",
+    "docs": "https://github.com/sp00nznet/diddykongracing#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.3.0",
+    "releaseDate": "2026-10-24",
+    "stars": 7,
+    "prerelease": false,
+    "assetName": "DKR-Installer-windows-x64.exe",
+    "assetSize": 19222016,
+    "assetSha256": "7c006c75476dbaf5d62fc791797a17ab145cd760ff1f16f540de974216694e4f"
+  }
+}

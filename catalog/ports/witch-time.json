@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "witch-time",
+  "gameId": "bayonetta-3",
+  "title": "Witch Time",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Zexyen",
+    "name": "Witch-Time"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^WitchTime-.*-windows-x.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Zexyen/Witch-Time",
+    "docs": "https://github.com/Zexyen/Witch-Time#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.8.0",
+    "releaseDate": "2026-11-05",
+    "stars": 222,
+    "prerelease": false,
+    "assetName": "WitchTime-v0.8.0-windows-x86_64.zip",
+    "assetSize": 91981498,
+    "assetSha256": "63ee8e67a9df9f26b58de93ab2736641569e50a844ee693aae30f89292f5d3c5"
+  }
+}

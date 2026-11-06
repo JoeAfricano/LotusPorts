@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "desert-strike-return-to-the-gulf-jungle-strike-urban-strike",
+  "title": "Desert Strike: Return to the Gulf; Jungle Strike; Urban Strike",
+  "originalPlatform": "GENESIS",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Desert Strike: Return to the Gulf; Jungle Strike; Urban Strike, lançado originalmente para Mega Drive, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "strike-remastered-collection-hd",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:desert-strike-return-to-the-gulf-jungle-strike-urban-strike",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

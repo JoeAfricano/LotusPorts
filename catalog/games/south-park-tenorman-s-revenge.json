@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "south-park-tenorman-s-revenge",
+  "title": "South Park: Tenorman's Revenge",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "South Park: Tenorman's Revenge, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "south-park-tenorman-s-revenge-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:south-park-tenorman-s-revenge",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

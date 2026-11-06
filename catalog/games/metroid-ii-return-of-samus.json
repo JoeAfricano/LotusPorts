@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "metroid-ii-return-of-samus",
+  "title": "Metroid II: Return of Samus",
+  "originalPlatform": "GB",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Metroid II: Return of Samus, lançado originalmente para Game Boy, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "am2rlauncher",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:metroid-ii-return-of-samus",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "x-men-2-clone-wars-pc-crabsmack",
+  "gameId": "x-men-2-clone-wars",
+  "title": "X-Men 2: Clone Wars PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "crabsmack",
+    "name": "xmen2-pc"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^xmen2-native-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "XMen2.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/crabsmack/xmen2-pc",
+    "docs": "https://github.com/crabsmack/xmen2-pc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.2.0",
+    "releaseDate": "2026-10-31",
+    "stars": 32,
+    "prerelease": false,
+    "assetName": "xmen2-native-windows.zip",
+    "assetSize": 2421341,
+    "assetSha256": "c5ba379d8bac151e3a24614c12c63d55b047d74a17a3321a107f5f5e5cddac02"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "chrono-trigger-snes",
+  "title": "Chrono Trigger (SNES)",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Chrono Trigger (SNES), lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "belthasar",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:chrono-trigger-snes",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "def-jam-fight-for-ny",
+  "title": "Def Jam: Fight for NY",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Def Jam: Fight for NY, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "def-jam-ffny-recomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "def-jam-ffny-recomp-vyanhursky",
+      "differencePtBr": null
+    },
+    {
+      "portId": "def-jam-fight-for-ny-online",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:def-jam-fight-for-ny",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

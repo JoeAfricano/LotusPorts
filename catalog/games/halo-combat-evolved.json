@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "halo-combat-evolved",
+  "title": "Halo: Combat Evolved",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Halo: Combat Evolved, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "opence",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "chupathingyce",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:halo-combat-evolved",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

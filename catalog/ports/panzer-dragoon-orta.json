@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "panzer-dragoon-orta",
+  "gameId": "panzer-dragoon-orta",
+  "title": "Panzer Dragoon Orta",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "almost-drowned-rat",
+    "name": "Orta-Recompiled"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^Orta-Recompiled-.*win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Panzer Dragoon Orta Recomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/almost-drowned-rat/Orta-Recompiled",
+    "docs": "https://github.com/almost-drowned-rat/Orta-Recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.6.1-beta",
+    "releaseDate": "2026-11-05",
+    "stars": 2,
+    "prerelease": false,
+    "assetName": "Orta-Recompiled-v0.6.1-beta-win64.zip",
+    "assetSize": 209433237,
+    "assetSha256": "f127fe3df53e20e7c426cfa959d9c67370d670d663f52664db8c8c2e0bc8ed9a"
+  }
+}

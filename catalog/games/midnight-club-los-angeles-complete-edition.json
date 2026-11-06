@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "midnight-club-los-angeles-complete-edition",
+  "title": "Midnight Club: Los Angeles Complete Edition",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Midnight Club: Los Angeles Complete Edition, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "rusty-mcla",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "mcla-recomp",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:midnight-club-los-angeles-complete-edition",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

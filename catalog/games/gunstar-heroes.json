@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "gunstar-heroes",
+  "title": "Gunstar Heroes",
+  "originalPlatform": "GENESIS",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Gunstar Heroes, lançado originalmente para Mega Drive, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "gunstars",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:gunstar-heroes",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

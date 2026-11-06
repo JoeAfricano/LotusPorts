@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.2.0",
+    "releaseDate": "2026-03-13",
+    "stars": 104,
     "prerelease": false,
     "assetName": "SSSVRecompiled_v0.2.0_Windows.zip",
     "assetSize": 46548721,

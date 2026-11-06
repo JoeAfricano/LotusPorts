@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "namco-2x-systems",
+  "title": "Namco 2x Systems",
+  "originalPlatform": "ARCADE",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Namco 2x Systems, lançado originalmente para Arcade, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "namco-22-decompile",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:namco-2x-systems",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

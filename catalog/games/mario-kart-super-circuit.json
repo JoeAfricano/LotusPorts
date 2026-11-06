@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mario-kart-super-circuit",
+  "title": "Mario Kart: Super Circuit",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Mario Kart: Super Circuit, lançado originalmente para Game Boy Advance, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "mario-kart-super-circuit-recompiled",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:mario-kart-super-circuit",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

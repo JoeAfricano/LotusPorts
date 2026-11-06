@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "1080-snowboarding-recompiled",
+  "gameId": "1080-snowboarding",
+  "title": "1080° Snowboarding: Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "thebradshaw",
+    "name": "1080-Snowboarding-decomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^1080SnowboardingRecompiled-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "1080SnowboardingRecompiled/1080SnowboardingRecompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/thebradshaw/1080-Snowboarding-decomp",
+    "docs": "https://github.com/thebradshaw/1080-Snowboarding-decomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "1.2.2",
+    "releaseDate": "2026-11-05",
+    "stars": 23,
+    "prerelease": false,
+    "assetName": "1080SnowboardingRecompiled-windows-x64.zip",
+    "assetSize": 22689956,
+    "assetSha256": "ed3de75dd877d6b1a4269d2e7501e4bd64d959a5906d1663d43e5d6791989d21"
+  }
+}

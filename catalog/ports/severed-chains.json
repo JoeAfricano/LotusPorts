@@ -71,6 +71,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "release-3.0.0",
+    "releaseDate": "2026-10-17",
+    "stars": 585,
     "prerelease": false,
     "assetName": "Severed_Chains_Windows.zip",
     "assetSize": 131446655,

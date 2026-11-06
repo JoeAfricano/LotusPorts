@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v1.0.3",
+    "releaseDate": "2025-04-03",
+    "stars": 5344,
     "prerelease": false,
     "assetName": "UnleashedRecomp-Windows.zip",
     "assetSize": 53386467,

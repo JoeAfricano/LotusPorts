@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "donkey-kong-country",
+  "title": "Donkey Kong Country",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Donkey Kong Country, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dkc1-recomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "dkc1-recomp-co-op",
+      "differencePtBr": null
+    },
+    {
+      "portId": "donkey-kong-country-recomp",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:donkey-kong-country",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ico-pc",
+  "gameId": "ico",
+  "title": "ICO PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "nathanialf",
+    "name": "ico-pc"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^ico-pc-.*-win-portable\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "ico-pc-v0.10.3/x64/ico_pc_x64.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/nathanialf/ico-pc",
+    "docs": "https://github.com/nathanialf/ico-pc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.10.3",
+    "releaseDate": "2026-11-05",
+    "stars": 502,
+    "prerelease": false,
+    "assetName": "ico-pc-v0.10.3-win-portable.zip",
+    "assetSize": 26651964,
+    "assetSha256": "8ecb9d7fcd712e79672194619bb68300472ab2958c1407fb3caef361dddc9757"
+  }
+}

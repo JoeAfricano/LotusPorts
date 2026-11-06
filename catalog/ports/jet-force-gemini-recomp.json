@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "jet-force-gemini-recomp",
+  "gameId": "jet-force-gemini",
+  "title": "Jet Force Gemini Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "TK22-26",
+    "name": "JetForceGemini-Recomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^JFG-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/TK22-26/JetForceGemini-Recomp",
+    "docs": "https://github.com/TK22-26/JetForceGemini-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.4.0",
+    "releaseDate": "2026-10-22",
+    "stars": 83,
+    "prerelease": false,
+    "assetName": "JFG-1.4.0-windows-x64.zip",
+    "assetSize": 47897012,
+    "assetSha256": "8bf60c984a23143285c6ccaf7bb489667d21c3fcf936f18d95681a92d9d8d5b1"
+  }
+}

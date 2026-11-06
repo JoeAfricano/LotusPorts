@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "the-warriors",
+  "gameId": "the-warriors",
+  "title": "The Warriors",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Matt-code-d",
+    "name": "TheWarriorsRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^TheWarriorsRecomp-.*win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Warriors.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Matt-code-d/TheWarriorsRecomp",
+    "docs": "https://github.com/Matt-code-d/TheWarriorsRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.3-alpha",
+    "releaseDate": "2026-11-05",
+    "stars": 26,
+    "prerelease": false,
+    "assetName": "TheWarriorsRecomp-v0.1.3-alpha-win64.zip",
+    "assetSize": 71141012,
+    "assetSha256": "9bfc761d5011532ea3b8557c169e73fee98fa7dd808b0f11b87d1f6ddca7d438"
+  }
+}

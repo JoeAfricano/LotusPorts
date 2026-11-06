@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "haze-recomp",
+  "gameId": "haze",
+  "title": "Haze Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "zdiemer",
+    "name": "haze-recomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^HazeRecomp-.*-Setup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/zdiemer/haze-recomp",
+    "docs": "https://github.com/zdiemer/haze-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.13",
+    "releaseDate": "2026-10-25",
+    "stars": 27,
+    "prerelease": false,
+    "assetName": "HazeRecomp-0.1.13-Setup.exe",
+    "assetSize": 41798656,
+    "assetSha256": "64df0221f39efa72e957c19e48d76696343224523e6244135a24fb3615f8f36f"
+  }
+}

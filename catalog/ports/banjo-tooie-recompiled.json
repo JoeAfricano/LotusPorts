@@ -88,6 +88,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v1.0.1",
+    "releaseDate": "2026-10-25",
+    "stars": 26,
     "prerelease": false,
     "assetName": "BanjoTooieRecompiled-windows-x64.zip",
     "assetSize": 20697028,

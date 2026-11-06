@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "strike-remastered-collection-hd",
+  "gameId": "desert-strike-return-to-the-gulf-jungle-strike-urban-strike",
+  "title": "Strike Remastered Collection HD",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Icedomega13",
+    "name": "StrikeHDCollection"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^StrikeCollectionHD-.*-Setup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Icedomega13/StrikeHDCollection",
+    "docs": "https://github.com/Icedomega13/StrikeHDCollection#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.8.2",
+    "releaseDate": "2026-10-30",
+    "stars": 59,
+    "prerelease": false,
+    "assetName": "StrikeCollectionHD-0.8.2-Setup.exe",
+    "assetSize": 15651756,
+    "assetSha256": "b51aa1a39d90df7afb288ed6cde4499edea9fa4be7cebcdd6ff3c7aa65aed664"
+  }
+}

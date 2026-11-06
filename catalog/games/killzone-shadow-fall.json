@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "killzone-shadow-fall",
+  "title": "Killzone Shadow Fall",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Killzone Shadow Fall, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "killzone-shadow-fall-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:killzone-shadow-fall",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

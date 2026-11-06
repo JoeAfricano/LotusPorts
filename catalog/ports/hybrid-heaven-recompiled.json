@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "hybrid-heaven-recompiled",
+  "gameId": "hybrid-heaven",
+  "title": "Hybrid Heaven: Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "ogdanimal",
+    "name": "HybridHeaven-Recomp"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^HybridHeaven-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "HybridHeaven-1.0.1-windows-x64/HybridHeavenRecompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/ogdanimal/HybridHeaven-Recomp",
+    "docs": "https://github.com/ogdanimal/HybridHeaven-Recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.1",
+    "releaseDate": "2026-10-04",
+    "stars": 19,
+    "prerelease": false,
+    "assetName": "HybridHeaven-1.0.1-windows-x64.zip",
+    "assetSize": 28360277,
+    "assetSha256": "8d43773f0d6cab6d89394da30c95339861dfa268ebfd8edb29921418245d1f9b"
+  }
+}

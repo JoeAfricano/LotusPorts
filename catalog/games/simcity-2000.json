@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "simcity-2000",
+  "title": "SimCity 2000",
+  "originalPlatform": "OTHER",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "SimCity 2000, lançado originalmente para outra plataforma, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "reticulating-splines",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:simcity-2000",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "the-last-guardian",
+  "title": "The Last Guardian",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "aventura"
+  ],
+  "descriptionPtBr": "The Last Guardian, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "the-last-guardian-pc",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "the-last-guardian-pc-hayatog",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:the-last-guardian",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

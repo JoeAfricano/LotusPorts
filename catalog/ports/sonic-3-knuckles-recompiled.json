@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "sonic-3-knuckles-recompiled",
+  "gameId": "sonic-3-knuckles",
+  "title": "Sonic 3 & Knuckles Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "mstan",
+    "name": "Sonic3AndKnucklesRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^Sonic3KRecomp-windows-x64-.*\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/mstan/Sonic3AndKnucklesRecomp",
+    "docs": "https://github.com/mstan/Sonic3AndKnucklesRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.7.3",
+    "releaseDate": "2026-11-03",
+    "stars": 25,
+    "prerelease": false,
+    "assetName": "Sonic3KRecomp-windows-x64-v0.7.3.zip",
+    "assetSize": 37897124,
+    "assetSha256": "3e668006665507a12107ce553a21752a80c0403858d139bb1b46e1e98ed54187"
+  }
+}

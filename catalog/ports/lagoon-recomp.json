@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "lagoon-recomp",
+  "gameId": "lagoon",
+  "title": "Lagoon Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "rages4calm",
+    "name": "LagoonSNESRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^Lagoon-Companion-.*-win-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "game/LagoonSNESRecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/rages4calm/LagoonSNESRecomp",
+    "docs": "https://github.com/rages4calm/LagoonSNESRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.4.0",
+    "releaseDate": "2026-11-02",
+    "stars": 5,
+    "prerelease": false,
+    "assetName": "Lagoon-Companion-0.4.0-win-x64.zip",
+    "assetSize": 392977736,
+    "assetSha256": "21a4900a93d307088dbd5e394407e1c3ed27a1654a17c4b8a2462fc3d80c8fc1"
+  }
+}

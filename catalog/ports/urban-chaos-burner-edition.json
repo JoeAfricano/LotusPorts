@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "urban-chaos-burner-edition",
+  "gameId": "urban-chaos-riot-response",
+  "title": "Urban Chaos: Burner Edition",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "linkssy2",
+    "name": "UrbanChaosRiotResponseBurnerEdition"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^UrbanChaos-BurnerEdition-.*-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Play Burner Edition.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/linkssy2/UrbanChaosRiotResponseBurnerEdition",
+    "docs": "https://github.com/linkssy2/UrbanChaosRiotResponseBurnerEdition#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.12",
+    "releaseDate": "2026-11-05",
+    "stars": 117,
+    "prerelease": false,
+    "assetName": "UrbanChaos-BurnerEdition-0.12-Windows-x64.zip",
+    "assetSize": 255010160,
+    "assetSha256": "6b7fa38c81dbfacd706811f0fb27933c5c281c19fdde1edd7a768e872ee28457"
+  }
+}

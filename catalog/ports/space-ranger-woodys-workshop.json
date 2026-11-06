@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "space-ranger-woodys-workshop",
+  "gameId": "toy-story-2-buzz-lightyear-to-the-rescue",
+  "title": "Space Ranger",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "woodys-workshop",
+    "name": "SpaceRanger"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^SpaceRanger-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "SpaceRanger/SpaceRanger.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/woodys-workshop/SpaceRanger",
+    "docs": "https://github.com/woodys-workshop/SpaceRanger#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.0",
+    "releaseDate": "2026-10-12",
+    "stars": 21,
+    "prerelease": true,
+    "assetName": "SpaceRanger-v0.1.0-windows-x64.zip",
+    "assetSize": 15997071,
+    "assetSha256": "bfe1a4f5eadcea9c3bd1b134857756150037369c29f993108cae88c5f394ca7b"
+  }
+}

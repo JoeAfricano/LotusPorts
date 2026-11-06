@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "marvel-nemesis-recomp",
+  "gameId": "marvel-nemesis-rise-of-the-imperfects",
+  "title": "Marvel Nemesis Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "15Cyber",
+    "name": "marvel-nemesis-recomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^MarvelNemesis-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "MarvelNemesis.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/15Cyber/marvel-nemesis-recomp",
+    "docs": "https://github.com/15Cyber/marvel-nemesis-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.0-alpha.4",
+    "releaseDate": "2026-10-29",
+    "stars": 31,
+    "prerelease": true,
+    "assetName": "MarvelNemesis-Windows-x64.zip",
+    "assetSize": 78679954,
+    "assetSha256": "5597d763847410d3aaed94d696b86fe40af0e932ea54f54da844bbed31900713"
+  }
+}

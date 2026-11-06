@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "nebula",
+  "gameId": "super-mario-galaxy",
+  "title": "Nebula",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "keepvaibin",
+    "name": "nebula"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^Nebula-Setup\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/keepvaibin/nebula",
+    "docs": "https://github.com/keepvaibin/nebula#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.2",
+    "releaseDate": "2026-10-27",
+    "stars": 549,
+    "prerelease": false,
+    "assetName": "Nebula-Setup.exe",
+    "assetSize": 14495744,
+    "assetSha256": "40eee81e1ba4df8f3f4701023f4c4d7ed8b43c1d0296f60872f10dde169812f8"
+  }
+}

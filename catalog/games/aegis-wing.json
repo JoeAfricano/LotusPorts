@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "aegis-wing",
+  "title": "Aegis Wing",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Aegis Wing, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "aegis-wing-xbla-recomp",
+  "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "aegis-wing-xbla-recomp-caiuscodes",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:aegis-wing",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

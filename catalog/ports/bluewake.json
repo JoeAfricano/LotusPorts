@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.10.0",
+    "releaseDate": "2026-11-01",
+    "stars": 560,
     "prerelease": false,
     "assetName": "BlueWake-v0.10.0-windows-x64.zip",
     "assetSize": 228756634,

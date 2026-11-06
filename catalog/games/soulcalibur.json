@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "soulcalibur",
+  "title": "SoulCalibur",
+  "originalPlatform": "DREAMCAST",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "SoulCalibur, lançado originalmente para Dreamcast, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "voldorium",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:soulcalibur",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

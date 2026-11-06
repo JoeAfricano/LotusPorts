@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "disgaea-d2-a-brighter-darkness",
+  "gameId": "disgaea-d2-a-brighter-darkness",
+  "title": "Disgaea D2: A Brighter Darkness",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "LUUKASR1",
+    "name": "disgaea-d2-recomp-windows"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^DisgaeaD2Launcher-.*-Windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "DisgaeaD2Launcher.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/LUUKASR1/disgaea-d2-recomp-windows",
+    "docs": "https://github.com/LUUKASR1/disgaea-d2-recomp-windows#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.2.4",
+    "releaseDate": "2026-10-20",
+    "stars": 19,
+    "prerelease": false,
+    "assetName": "DisgaeaD2Launcher-0.2.4-Windows-x64.zip",
+    "assetSize": 60170181,
+    "assetSha256": "e3ec22318d9a00e7fc02a0ae66359b5cb67533f80ec327a0221b0aa37326a887"
+  }
+}

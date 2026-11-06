@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "p-t-for-pc",
+  "gameId": "p-t",
+  "title": "P.T. for PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "LoreanXavier",
+    "name": "pt-pc"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^P\\.T\\.PC\\.Port-portable-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "pt-port-20261022-484d2c1d/pt.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/LoreanXavier/pt-pc",
+    "docs": "https://github.com/LoreanXavier/pt-pc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.0.8",
+    "releaseDate": "2026-10-22",
+    "stars": 2410,
+    "prerelease": false,
+    "assetName": "P.T.PC.Port-portable-windows.zip",
+    "assetSize": 492274173,
+    "assetSha256": "bbe35c93bb767354672a4b3bb885bef94ba78fc48f5a69d208d7201575cdc02e"
+  }
+}

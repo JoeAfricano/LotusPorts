@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "monster-hunter-portable-3rd",
+  "title": "Monster Hunter Portable 3rd",
+  "originalPlatform": "PSP",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Monster Hunter Portable 3rd, lançado originalmente para PSP, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "yakumo",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:monster-hunter-portable-3rd",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

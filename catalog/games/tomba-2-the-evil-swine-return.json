@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tomba-2-the-evil-swine-return",
+  "title": "Tomba! 2 - The Evil Swine Return",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "plataforma"
+  ],
+  "descriptionPtBr": "Tomba! 2 - The Evil Swine Return, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "tomba2recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:tomba-2-the-evil-swine-return",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

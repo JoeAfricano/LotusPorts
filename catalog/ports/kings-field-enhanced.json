@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.1.0-pre.3",
+    "releaseDate": "2026-10-01",
+    "stars": 7,
     "prerelease": true,
     "assetName": "KingsFieldEnhanced-v0.1.0-pre.3-windows.zip",
     "assetSize": 3511950,

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "streetball-revival",
+  "gameId": "nba-street-vol-2",
+  "title": "Streetball Revival",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "luckvj",
+    "name": "streetball-revival"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^streetball-revival-.*windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": "Streetball Revival/StreetballRevival.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/luckvj/streetball-revival",
+    "docs": "https://github.com/luckvj/streetball-revival#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.5-beta",
+    "releaseDate": "2026-10-31",
+    "stars": 36,
+    "prerelease": true,
+    "assetName": "streetball-revival-v0.1.5-beta-windows.zip",
+    "assetSize": 41083518,
+    "assetSha256": "8f414673118075dda8f75130c47a7f630d02be11c8ac690a057957a45a8a93fa"
+  }
+}

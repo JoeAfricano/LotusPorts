@@ -71,6 +71,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "launcher",
+    "releaseDate": "2023-10-19",
+    "stars": 61,
     "prerelease": false,
     "assetName": "SMAS_LAUNCHER_Windows.zip",
     "assetSize": 51532477,

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "xc2-recomp",
+  "gameId": "xenoblade-chronicles-2",
+  "title": "XC2 Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "AksharDP",
+    "name": "xc2-recomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^XC2-Setup-.*-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/AksharDP/xc2-recomp",
+    "docs": "https://github.com/AksharDP/xc2-recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.11",
+    "releaseDate": "2026-11-05",
+    "stars": 112,
+    "prerelease": false,
+    "assetName": "XC2-Setup-0.1.11-windows.zip",
+    "assetSize": 182331350,
+    "assetSha256": "4f6c7f9c7ee6a172b2660c7a8238a740a7abb589876893c8bbf284775944ed1b"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "kameo-elements-of-power",
+  "title": "Kameo: Elements of Power",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "aventura"
+  ],
+  "descriptionPtBr": "Kameo: Elements of Power, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "kameo-repowered",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:kameo-elements-of-power",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

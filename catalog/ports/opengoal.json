@@ -71,6 +71,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v2.11.2",
+    "releaseDate": "2026-10-09",
+    "stars": 250,
     "prerelease": false,
     "assetName": "OpenGOAL-Launcher_2.11.2_x64_en-US.msi",
     "assetSize": 16228352,

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "rusty-mcla",
+  "gameId": "midnight-club-los-angeles-complete-edition",
+  "title": "Rusty MCLA",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "holdmysocks",
+    "name": "rusty-mcla"
+  },
+  "license": "GPL-3.0",
+  "windowsAsset": {
+    "pattern": "(?i)^RustyMCLA\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "portable-exe"
+  },
+  "executable": "RustyMCLA.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/holdmysocks/rusty-mcla",
+    "docs": "https://github.com/holdmysocks/rusty-mcla#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.14.0",
+    "releaseDate": "2026-11-05",
+    "stars": 90,
+    "prerelease": false,
+    "assetName": "RustyMCLA.exe",
+    "assetSize": 8859136,
+    "assetSha256": "586e88adf204e8f8576faa9d23ff7cc98ee28ebc23713777f206b5b2eeea9cc9"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "south-park-let-s-go-tower-defense-play",
+  "title": "South Park: Let's Go Tower Defense Play!",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "South Park: Let's Go Tower Defense Play!, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "south-park-tower-defense-pc-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:south-park-let-s-go-tower-defense-play",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

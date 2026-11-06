@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "resident-evil-code-veronica-x",
+  "title": "Resident Evil Code: Veronica X",
+  "originalPlatform": "PS2",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Resident Evil Code: Veronica X, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "recvx-enhanced-port",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "project-veronica",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:resident-evil-code-veronica-x",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

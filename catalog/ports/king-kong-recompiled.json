@@ -71,6 +71,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v2.1.0",
+    "releaseDate": "2026-11-05",
+    "stars": 265,
     "prerelease": false,
     "assetName": "KingKong-v2.1.0-windows-x64.zip",
     "assetSize": 421240317,

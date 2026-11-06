@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "xmd-recompiled",
+  "gameId": "x-men-destiny",
+  "title": "XMD Recompiled",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "florinp93",
+    "name": "xmd-recompiled"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^xmd_installer\\.exe$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "installer"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/florinp93/xmd-recompiled",
+    "docs": "https://github.com/florinp93/xmd-recompiled#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.1.0-alpha.3",
+    "releaseDate": "2026-08-31",
+    "stars": 33,
+    "prerelease": false,
+    "assetName": "xmd_installer.exe",
+    "assetSize": 22821885,
+    "assetSha256": "ae7d8ed81149dedc67fc69cebfedf70dc7c98897ecb6e1a8fd5babd2cd781f3c"
+  }
+}

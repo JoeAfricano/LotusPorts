@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "atlantis-the-lost-tales",
+  "title": "Atlantis: The Lost Tales",
+  "originalPlatform": "OTHER",
+  "releaseYear": null,
+  "genre": [
+    "aventura"
+  ],
+  "descriptionPtBr": "Atlantis: The Lost Tales, lançado originalmente para outra plataforma, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "atlantis-native",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:atlantis-the-lost-tales",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

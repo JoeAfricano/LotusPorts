@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "bomberman-party-edition-recomp",
+  "gameId": "bomberman-party-edition",
+  "title": "Bomberman Party Edition Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "TechnicallyComputers",
+    "name": "BombermanPartyEditionRecomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^bpe-.*-windows-x64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Bomberman_Party_Edition_Recompiled.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp",
+    "docs": "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.3.18",
+    "releaseDate": "2026-10-01",
+    "stars": 8,
+    "prerelease": false,
+    "assetName": "bpe-0.3.18-windows-x64.zip",
+    "assetSize": 30996808,
+    "assetSha256": "59dd36c374b5c6b421c9b57d23784800ab2050790a4b27310f90d4ef7dfe6dc3"
+  }
+}

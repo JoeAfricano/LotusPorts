@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "metal-gear-solid-mobile",
+  "title": "Metal Gear Solid Mobile",
+  "originalPlatform": "OTHER",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Metal Gear Solid Mobile, lançado originalmente para outra plataforma, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "metal-gear-solid-mobile-native-port",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:metal-gear-solid-mobile",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

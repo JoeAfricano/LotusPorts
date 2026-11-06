@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "eternal-darkness-sanity-s-requiem",
+  "title": "Eternal Darkness: Sanity's Requiem",
+  "originalPlatform": "GAMECUBE",
+  "releaseYear": null,
+  "genre": [
+    "aventura"
+  ],
+  "descriptionPtBr": "Eternal Darkness: Sanity's Requiem, lançado originalmente para GameCube, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "eternal-darkness-recomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "eternal-darkness-recomp-griches",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:eternal-darkness-sanity-s-requiem",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

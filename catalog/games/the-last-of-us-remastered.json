@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "the-last-of-us-remastered",
+  "title": "The Last of Us Remastered",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "The Last of Us Remastered, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "tlou-remastered-pc",
+  "recommendationReasonPtBr": "Proposta: o port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "tlou-remastered-pc-ravencaio",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:the-last-of-us-remastered",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

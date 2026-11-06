@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "medievil",
+  "title": "MediEvil",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "MediEvil, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "medievil-recomp",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "medievil-pc",
+      "differencePtBr": null
+    },
+    {
+      "portId": "medievil-recomp-esp",
+      "differencePtBr": null
+    },
+    {
+      "portId": "medievil-recomp-ita",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:medievil",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

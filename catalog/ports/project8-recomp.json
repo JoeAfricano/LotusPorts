@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v0.3.0",
+    "releaseDate": "2026-08-24",
+    "stars": 54,
     "prerelease": false,
     "assetName": "Project8Recomp-v0.3.0-windows-x86_64.zip",
     "assetSize": 21674894,

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "unicorn-overlord-pc",
+  "gameId": "unicorn-overlord",
+  "title": "Unicorn Overlord PC",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "hachi23",
+    "name": "unicorn_overlord_pc"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^Unicorn-Overlord-PC-windows\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Unicorn Overlord PC/Unicorn Overlord.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/hachi23/unicorn_overlord_pc",
+    "docs": "https://github.com/hachi23/unicorn_overlord_pc#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v1.4.0",
+    "releaseDate": "2026-10-31",
+    "stars": 203,
+    "prerelease": false,
+    "assetName": "Unicorn-Overlord-PC-windows.zip",
+    "assetSize": 23269802,
+    "assetSha256": "bef009b8265e3db0d9e95f29dff05f728a4e79c8146c1bfc121bfd4c97b38e98"
+  }
+}

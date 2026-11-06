@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pokemon-black-pokemon-white",
+  "title": "Pokemon Black / Pokemon White",
+  "originalPlatform": "NDS",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Pokemon Black / Pokemon White, lançado originalmente para Nintendo DS, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "eidos",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:pokemon-black-pokemon-white",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

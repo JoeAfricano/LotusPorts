@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "fuse-recomp",
+  "gameId": "fuse",
+  "title": "Fuse Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "nikolaygorb",
+    "name": "FuseRecomp"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^Fuse-win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Fuse-win64/fuserecomp.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/nikolaygorb/FuseRecomp",
+    "docs": "https://github.com/nikolaygorb/FuseRecomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "1.3",
+    "releaseDate": "2026-11-05",
+    "stars": 14,
+    "prerelease": false,
+    "assetName": "Fuse-win64.zip",
+    "assetSize": 37414210,
+    "assetSha256": "94f2250d6e4f6dddc0e9860a6bb51bc9b9230a7a67d5ab79f8aa37f927235928"
+  }
+}

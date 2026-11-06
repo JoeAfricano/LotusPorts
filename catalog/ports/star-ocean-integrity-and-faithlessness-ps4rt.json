@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "star-ocean-integrity-and-faithlessness-ps4rt",
+  "gameId": "star-ocean-integrity-and-faithlessness",
+  "title": "Star Ocean Integrity and Faithlessness PS4RT",
+  "portType": "decomp-port",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "Hoverbike51",
+    "name": "Star-Ocean-Integrity-and-Faithlessness-PS4RT"
+  },
+  "license": "GPL-2.0",
+  "windowsAsset": {
+    "pattern": "(?i)^ps4rt-star-ocean-5-windows-x64-.*-latest\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": true,
+    "packageType": "zip"
+  },
+  "executable": null,
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/Hoverbike51/Star-Ocean-Integrity-and-Faithlessness-PS4RT",
+    "docs": "https://github.com/Hoverbike51/Star-Ocean-Integrity-and-Faithlessness-PS4RT#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v0.4.0",
+    "releaseDate": "2026-11-01",
+    "stars": 29,
+    "prerelease": true,
+    "assetName": "ps4rt-star-ocean-5-windows-x64-v0.4.0-latest.zip",
+    "assetSize": 90728062,
+    "assetSha256": "82d8f695dd85d0438037fe9722f4b8674170b0902df77f0b0bbf7c13cdb61f36"
+  }
+}

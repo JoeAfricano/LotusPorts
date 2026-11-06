@@ -126,6 +126,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "1.2.2",
+    "releaseDate": "2026-10-30",
+    "stars": 543,
     "prerelease": false,
     "assetName": "Lighthouse-Montauk-Charlie-Win64.zip",
     "assetSize": 36631216,

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "saw-ii-flesh-blood",
+  "title": "Saw II: Flesh & Blood",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "ação"
+  ],
+  "descriptionPtBr": "Saw II: Flesh & Blood, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "saw-ii-flesh-blood",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:saw-ii-flesh-blood",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

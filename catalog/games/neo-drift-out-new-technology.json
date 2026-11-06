@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "neo-drift-out-new-technology",
+  "title": "Neo Drift Out: New Technology",
+  "originalPlatform": "ARCADE",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Neo Drift Out: New Technology, lançado originalmente para Arcade, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "neo-drift-out-enhanced",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:neo-drift-out-new-technology",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

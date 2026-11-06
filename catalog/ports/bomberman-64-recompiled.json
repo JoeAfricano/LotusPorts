@@ -77,6 +77,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v1.0.0",
+    "releaseDate": "2026-03-22",
+    "stars": 310,
     "prerelease": false,
     "assetName": "BM64Recompiled-Windows-RelWithDebInfo.zip",
     "assetSize": 25227040,

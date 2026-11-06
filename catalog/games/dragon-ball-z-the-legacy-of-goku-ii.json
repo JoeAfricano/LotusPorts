@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dragon-ball-z-the-legacy-of-goku-ii",
+  "title": "Dragon Ball Z: The Legacy of Goku II",
+  "originalPlatform": "GBA",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Dragon Ball Z: The Legacy of Goku II, lançado originalmente para Game Boy Advance, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dragon-ball-z-the-legacy-of-goku-ii-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dragon-ball-z-the-legacy-of-goku-ii",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

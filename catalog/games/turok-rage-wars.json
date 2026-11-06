@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "turok-rage-wars",
+  "title": "Turok: Rage Wars",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [
+    "tiro"
+  ],
+  "descriptionPtBr": "Turok: Rage Wars, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "paxdino-rage-wars-modernized",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:turok-rage-wars",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

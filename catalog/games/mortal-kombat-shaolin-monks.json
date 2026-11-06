@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mortal-kombat-shaolin-monks",
+  "title": "Mortal Kombat: Shaolin Monks",
+  "originalPlatform": "XBOX",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Mortal Kombat: Shaolin Monks, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "openshao",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:mortal-kombat-shaolin-monks",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

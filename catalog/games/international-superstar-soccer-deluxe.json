@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "international-superstar-soccer-deluxe",
+  "title": "International Superstar Soccer Deluxe",
+  "originalPlatform": "SNES",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "International Superstar Soccer Deluxe, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "issd-native",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:international-superstar-soccer-deluxe",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

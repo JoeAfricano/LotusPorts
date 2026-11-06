@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "goemon-s-great-adventure",
+  "title": "Goemon's Great Adventure",
+  "originalPlatform": "N64",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Goemon's Great Adventure, lançado originalmente para Nintendo 64, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "goemon-s-great-adventure-recompiled",
+  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "alternatives": [
+    {
+      "portId": "gga-recompiled",
+      "differencePtBr": null
+    }
+  ],
+  "lotusGameKey": "port:goemon-s-great-adventure",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

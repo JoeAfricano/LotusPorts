@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "street-fighter-ex-plus-alpha",
+  "title": "Street Fighter EX Plus Alpha",
+  "originalPlatform": "PS1",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Street Fighter EX Plus Alpha, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "plus-alpha-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:street-fighter-ex-plus-alpha",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

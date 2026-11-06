@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "the-house-of-the-dead",
+  "title": "The House of the Dead",
+  "originalPlatform": "ARCADE",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "The House of the Dead, lançado originalmente para Arcade, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "the-house-of-the-dead-rewrithe",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:the-house-of-the-dead",
+  "review": {
+    "state": "pending",
+    "by": null,
+    "at": null,
+    "notesPtBr": "Mantido em revisão: o programa que abre o jogo não pôde ser identificado sem adivinhar."
+  }
+}

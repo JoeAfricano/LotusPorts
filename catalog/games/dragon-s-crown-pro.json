@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dragon-s-crown-pro",
+  "title": "Dragon's Crown Pro",
+  "originalPlatform": "PS4",
+  "releaseYear": null,
+  "genre": [
+    "RPG"
+  ],
+  "descriptionPtBr": "Dragon's Crown Pro, lançado originalmente para PlayStation 4, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "dragons-crown-pro",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:dragon-s-crown-pro",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

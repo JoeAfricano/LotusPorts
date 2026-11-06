@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "superman-returns-recomp",
+  "gameId": "superman-returns",
+  "title": "Superman Returns Recomp",
+  "portType": "static-recomp",
+  "status": "NAO_AVALIADO",
+  "knownIssuesPtBr": [],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "MrPowerUp82",
+    "name": "superman_returns_recomp"
+  },
+  "license": null,
+  "windowsAsset": {
+    "pattern": "(?i)^superman_returns_win64\\.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "superman_returns.exe",
+  "launchArgs": [],
+  "setup": {
+    "kind": null,
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": null,
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/MrPowerUp82/superman_returns_recomp",
+    "docs": "https://github.com/MrPowerUp82/superman_returns_recomp#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-05",
+    "releaseTag": "v2026.11.04-0e4e359",
+    "releaseDate": "2026-11-04",
+    "stars": 23,
+    "prerelease": false,
+    "assetName": "superman_returns_win64.zip",
+    "assetSize": 146866404,
+    "assetSha256": "30f8e3e49859ea43f0e32e5f6a6c508380d95d2b87af10b6b4f133a91f0198ca"
+  }
+}

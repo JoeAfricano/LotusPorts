@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rumble-roses-xx",
+  "title": "Rumble Roses XX",
+  "originalPlatform": "XBOX_360",
+  "releaseYear": null,
+  "genre": [
+    "luta"
+  ],
+  "descriptionPtBr": "Rumble Roses XX, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "rumble-roses-xx-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:rumble-roses-xx",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

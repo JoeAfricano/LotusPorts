@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "street-rod-street-rod-2",
+  "title": "Street Rod; Street Rod 2",
+  "originalPlatform": "AMIGA",
+  "releaseYear": null,
+  "genre": [
+    "corrida"
+  ],
+  "descriptionPtBr": "Street Rod; Street Rod 2, lançado originalmente para Amiga, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "rodlegacy",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:street-rod-street-rod-2",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "metroid-prime-3-corruption",
+  "title": "Metroid Prime 3: Corruption",
+  "originalPlatform": "WII",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Metroid Prime 3: Corruption, lançado originalmente para Wii, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "recommendedPortId": "metroid-prime-3-corruption-pc",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:metroid-prime-3-corruption",
+  "review": {
+    "state": "approved",
+    "by": "Claude (curadoria delegada pelo José)",
+    "at": "2026-11-05",
+    "notesPtBr": null
+  }
+}

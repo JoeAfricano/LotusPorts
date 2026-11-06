@@ -103,6 +103,8 @@
   "evidence": {
     "scannedAt": "2026-11-05",
     "releaseTag": "v2.1.0",
+    "releaseDate": "2026-08-31",
+    "stars": 58,
     "prerelease": false,
     "assetName": "VandalHearts-v2.1.0-windows-x64.zip",
     "assetSize": 5771542,
