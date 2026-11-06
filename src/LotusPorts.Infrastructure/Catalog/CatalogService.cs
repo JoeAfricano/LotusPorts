@@ -61,13 +61,17 @@ public sealed class CatalogService(
     /// <summary>Set by the app: was a game file recognized for this game (an exact hash match)?</summary>
     public Func<string, bool>? HasRecognizedFile { get; set; }
 
+    /// <summary>Set by the app: when a port of this game was last opened through Lotus Ports (from active.json).</summary>
+    public Func<string, DateTimeOffset?>? LastPlayed { get; set; }
+
     public GameUserState StateOf(string gameId)
     {
         var installed = IsInstalled?.Invoke(gameId) ?? false;
         var file = HasRecognizedFile?.Invoke(gameId) ?? false;
+        var played = LastPlayed?.Invoke(gameId);
         return states.TryGetValue(gameId, out var s)
-            ? new GameUserState(s.Favorite, installed, file, LastPlayed: null, s.FirstSeenAt, s.DismissedFromNew)
-            : new GameUserState(false, installed, file, null, null, false);
+            ? new GameUserState(s.Favorite, installed, file, played, s.FirstSeenAt, s.DismissedFromNew)
+            : new GameUserState(false, installed, file, played, null, false);
     }
 
     public async Task LoadAsync(CancellationToken cancellationToken = default)

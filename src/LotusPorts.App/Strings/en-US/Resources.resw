@@ -620,4 +620,11 @@
   <data name="LiveUpdate" xml:space="preserve"><value>Update available</value></data>
   <data name="LiveReady" xml:space="preserve"><value>Ready to play</value></data>
   <data name="LiveFileRecognized" xml:space="preserve"><value>Game file recognized</value></data>
+  <data name="UpdateAll" xml:space="preserve"><value>Update all</value></data>
+  <data name="UpdatesOne" xml:space="preserve"><value>1 update available</value></data>
+  <data name="UpdatesMany" xml:space="preserve"><value>{0} updates available</value></data>
+  <data name="UpdateAllTitle" xml:space="preserve"><value>Update all games?</value></data>
+  <data name="UpdateAllBody" xml:space="preserve"><value>Lotus Ports downloads the new version of each port, one at a time. The current version is kept and you can go back to it on the game page. Your saves are not touched.</value></data>
+  <data name="UpdatingAll" xml:space="preserve"><value>Updating… follow along in Downloads.</value></data>
+  <data name="UpdateAllSomeFailed" xml:space="preserve"><value>{0} update(s) did not finish. Open the game to see why.</value></data>
 </root>

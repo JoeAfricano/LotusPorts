@@ -66,9 +66,11 @@ public partial class App : Application
             await play.InitializeAsync(dispatcher);
             var catalogService = host.Services.GetRequiredService<CatalogService>();
             catalogService.IsInstalled = id => catalogService.Library.Find(id)?.AllPorts.Any(p => play.IsPortInstalled(p.Port.Id)) ?? false;
+            catalogService.LastPlayed = id => catalogService.Library.Find(id)?.AllPorts.Select(p => play.LastPlayed(p.Port.Id)).Max();
             await host.Services.GetRequiredService<GameFilesService>().InitializeAsync(dispatcher);
             await host.Services.GetRequiredService<LotusBridge>().StartAsync(dispatcher);
             await host.StartAsync();
+            play.StartDailyUpdateCheck();
 
             window = new MainWindow(StartPage());
             var server = StartIntegrationServer(dispatcher);

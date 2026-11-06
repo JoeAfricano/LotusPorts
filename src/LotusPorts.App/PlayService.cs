@@ -88,7 +88,57 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
 
     public bool IsInstalled(string portId) => library.Read(portId) is not null;
 
+    /// <summary>When this port was last opened, from its active.json (null if never or not installed).</summary>
+    public DateTimeOffset? LastPlayed(string portId) => installedPorts.Contains(portId) ? library.Read(portId)?.LastRun?.At : null;
+
     public string Folder(Port port) => library.PortFolder(port.Id);
+
+    private DispatcherQueueTimer? dailyCheck;
+
+    /// <summary>Installed ports with a newer version found by the last check (not pinned, not busy).</summary>
+    public IReadOnlyList<Port> UpdatesAvailable =>
+        InstalledCatalogPorts().Where(p => !working.ContainsKey(p.Id) && !running.ContainsKey(p.Id) && StateOf(p).UpdateAvailable).ToList();
+
+    private IEnumerable<Port> InstalledCatalogPorts() =>
+        catalog.Library.Games.SelectMany(g => g.AllPorts.Select(p => p.Port)).Where(p => installedPorts.Contains(p.Id)).DistinctBy(p => p.Id);
+
+    /// <summary>
+    /// Looks for new versions of installed ports: a little after startup and then once a day while the app is open.
+    /// Only reads GitHub (one request per installed port); nothing is downloaded until the player confirms.
+    /// </summary>
+    public void StartDailyUpdateCheck()
+    {
+        if (ui is null || dailyCheck is not null) return;
+        dailyCheck = ui.CreateTimer();
+        dailyCheck.Interval = TimeSpan.FromSeconds(20);
+        dailyCheck.Tick += async (t, _) =>
+        {
+            t.Interval = TimeSpan.FromHours(24);
+            await CheckUpdatesAsync();
+        };
+        dailyCheck.Start();
+    }
+
+    public async Task CheckUpdatesAsync()
+    {
+        foreach (var port in InstalledCatalogPorts().ToList())
+        {
+            var lookup = await LookupAsync(port);
+            if (lookup.RateLimitedUntil is not null) break; // the hourly limit: try again on the next check
+        }
+    }
+
+    /// <summary>Updates the given ports one after another. The caller already asked the player.</summary>
+    public async Task<int> UpdateAllAsync(IReadOnlyList<Port> ports)
+    {
+        var failed = 0;
+        foreach (var port in ports)
+        {
+            if (StateOf(port) is not { UpdateAvailable: true, Latest.Choice: { } choice }) continue;
+            if (await InstallAsync(port, choice) is not null || problems.ContainsKey(port.Id)) failed++;
+        }
+        return failed;
+    }
 
     /// <summary>Asks GitHub for the port's releases (cached for a while). Rate limits and network errors are reported, not thrown.</summary>
     public async Task<ReleaseLookup> LookupAsync(Port port, bool force = false, CancellationToken cancellationToken = default)

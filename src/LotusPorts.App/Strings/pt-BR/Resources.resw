@@ -620,4 +620,11 @@
   <data name="LiveUpdate" xml:space="preserve"><value>Atualização disponível</value></data>
   <data name="LiveReady" xml:space="preserve"><value>Pronto para jogar</value></data>
   <data name="LiveFileRecognized" xml:space="preserve"><value>Arquivo do jogo reconhecido</value></data>
+  <data name="UpdateAll" xml:space="preserve"><value>Atualizar tudo</value></data>
+  <data name="UpdatesOne" xml:space="preserve"><value>1 atualização disponível</value></data>
+  <data name="UpdatesMany" xml:space="preserve"><value>{0} atualizações disponíveis</value></data>
+  <data name="UpdateAllTitle" xml:space="preserve"><value>Atualizar todos os jogos?</value></data>
+  <data name="UpdateAllBody" xml:space="preserve"><value>O Lotus Ports baixa a versão nova de cada port, um de cada vez. A versão atual fica guardada e você pode voltar a ela na página do jogo. Seus saves não são tocados.</value></data>
+  <data name="UpdatingAll" xml:space="preserve"><value>Atualizando… acompanhe em Downloads.</value></data>
+  <data name="UpdateAllSomeFailed" xml:space="preserve"><value>{0} atualização(ões) não terminaram. Abra o jogo para ver o motivo.</value></data>
 </root>

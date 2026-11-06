@@ -72,6 +72,44 @@
                         Tag="Installed" />
                 </StackPanel>
 
+                <Border
+                    x:Name="UpdatesCard"
+                    Padding="20,16"
+                    Style="{StaticResource Lotus.Card}"
+                    Visibility="Collapsed">
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <FontIcon
+                            FontSize="22"
+                            Foreground="{StaticResource Accent.Rose}"
+                            Glyph="&#xE895;" />
+                        <StackPanel
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            Spacing="2">
+                            <TextBlock
+                                x:Name="UpdatesTitle"
+                                FontWeight="SemiBold"
+                                Style="{StaticResource Type.Body}" />
+                            <TextBlock
+                                x:Name="UpdatesNames"
+                                Style="{StaticResource Type.Caption}"
+                                TextTrimming="CharacterEllipsis" />
+                        </StackPanel>
+                        <Button
+                            x:Name="UpdateAllButton"
+                            Grid.Column="2"
+                            VerticalAlignment="Center"
+                            Click="OnUpdateAll"
+                            Content="{local:Str Key=UpdateAll}"
+                            Style="{StaticResource AccentButtonStyle}" />
+                    </Grid>
+                </Border>
+
                 <Border Style="{StaticResource Lotus.Card}" Visibility="{x:Bind ViewModel.IsEmpty, Mode=OneWay}">
                     <StackPanel Spacing="4" Padding="0,0,0,24">
                         <controls:EmptyState

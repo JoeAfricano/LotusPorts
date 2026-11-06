@@ -614,3 +614,10 @@ LiveAttention	Precisa de atenção	Needs attention
 LiveUpdate	Atualização disponível	Update available
 LiveReady	Pronto para jogar	Ready to play
 LiveFileRecognized	Arquivo do jogo reconhecido	Game file recognized
+UpdateAll	Atualizar tudo	Update all
+UpdatesOne	1 atualização disponível	1 update available
+UpdatesMany	{0} atualizações disponíveis	{0} updates available
+UpdateAllTitle	Atualizar todos os jogos?	Update all games?
+UpdateAllBody	O Lotus Ports baixa a versão nova de cada port, um de cada vez. A versão atual fica guardada e você pode voltar a ela na página do jogo. Seus saves não são tocados.	Lotus Ports downloads the new version of each port, one at a time. The current version is kept and you can go back to it on the game page. Your saves are not touched.
+UpdatingAll	Atualizando… acompanhe em Downloads.	Updating… follow along in Downloads.
+UpdateAllSomeFailed	{0} atualização(ões) não terminaram. Abra o jogo para ver o motivo.	{0} update(s) did not finish. Open the game to see why.
