@@ -13,7 +13,7 @@ public enum ViewState
     Ready,
 }
 
-public sealed record PlatformChip(Platform? Platform, string Label);
+public sealed record PlatformChip(Platform? Platform, string Label, int Count = 0);
 
 /// <summary>
 /// Biblioteca: the player's own games (favorites, installed, ready, played). Discovering new games
@@ -39,6 +39,11 @@ public sealed partial class LibraryViewModel(CatalogService catalog, Preferences
 
     public LibraryTab Tab { get; private set; } = LibraryTab.All;
 
+    public Platform? Platform { get; private set; }
+
+    /// <summary>Platforms of the player's own games, for the icon rail ("Todas" first).</summary>
+    public List<PlatformChip> Platforms { get; } = [];
+
     public ObservableCollection<ShelfModel> Shelves { get; } = [];
     public SearchViewModel Search { get; } = new();
 
@@ -49,12 +54,23 @@ public sealed partial class LibraryViewModel(CatalogService catalog, Preferences
         var visible = catalog.Library.Visible(showInReview).ToList();
         Search.Load(visible);
         mine = visible.Where(g => IsMine(catalog.StateOf(g.Id))).ToList();
+        Platforms.Clear();
+        Platforms.Add(new PlatformChip(null, Strings.Get("FilterAllPlatforms"), mine.Count));
+        Platforms.AddRange(mine.GroupBy(g => g.Game.OriginalPlatform).OrderByDescending(g => g.Count())
+            .Select(g => new PlatformChip(g.Key, CatalogLabels.Platform(g.Key), g.Count())));
+        if (Platform is { } p && !Platforms.Any(c => c.Platform == p)) Platform = null;
         Rebuild();
     }
 
     public void SetTab(LibraryTab tab)
     {
         Tab = tab;
+        Rebuild();
+    }
+
+    public void SetPlatform(Platform? platform)
+    {
+        Platform = platform;
         Rebuild();
     }
 
@@ -66,7 +82,7 @@ public sealed partial class LibraryViewModel(CatalogService catalog, Preferences
         FavoritesLabel = Strings.Format("TabFavorites", mine.Count(g => catalog.StateOf(g.Id).Favorite));
         InstalledLabel = Strings.Format("TabInstalled", mine.Count(g => catalog.StateOf(g.Id).Installed));
 
-        var filtered = ShelfBuilder.Apply(mine, new LibraryFilter(Tab), catalog.StateOf);
+        var filtered = ShelfBuilder.Apply(mine, new LibraryFilter(Tab, Platform), catalog.StateOf);
         Shelves.Clear();
         var resume = filtered.Where(g => catalog.StateOf(g.Id).LastPlayed is not null).OrderByDescending(g => catalog.StateOf(g.Id).LastPlayed).ToList();
         var ready = filtered.Where(g => catalog.StateOf(g.Id) is { Installed: true } or { FileRecognized: true }).Except(resume).ToList();

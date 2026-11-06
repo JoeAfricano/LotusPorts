@@ -17,7 +17,8 @@ public sealed partial class GameCard : UserControl
     private readonly StateBadge origin = new() { Tone = BadgeTone.Unknown, Margin = new Thickness(12, 40, 0, 0), HorizontalAlignment = HorizontalAlignment.Left, VerticalAlignment = VerticalAlignment.Top };
     private readonly FontIcon heart = new() { Glyph = "\uEB52", FontSize = 14, Margin = new Thickness(0, 12, 12, 0), HorizontalAlignment = HorizontalAlignment.Right, VerticalAlignment = VerticalAlignment.Top };
     private readonly TextBlock name = new() { FontSize = 13, FontWeight = Microsoft.UI.Text.FontWeights.SemiBold, Margin = new Thickness(4, 9, 4, 0), TextTrimming = TextTrimming.CharacterEllipsis, MaxLines = 1 };
-    private readonly TextBlock line = new() { FontSize = 12, Margin = new Thickness(4, 2, 4, 0), TextTrimming = TextTrimming.CharacterEllipsis };
+    private readonly TextBlock line = new() { FontSize = 12, TextTrimming = TextTrimming.CharacterEllipsis, VerticalAlignment = VerticalAlignment.Center };
+    private readonly PlatformIcon platformIcon = new() { Size = 15, VerticalAlignment = VerticalAlignment.Center, Margin = new Thickness(0, 0, 6, 0) };
     private readonly Button button;
 
     public GameCard()
@@ -30,7 +31,7 @@ public sealed partial class GameCard : UserControl
         {
             Style = (Style)resources["Lotus.CardButton"],
             Width = 180,
-            Content = new StackPanel { Padding = new Thickness(2), Children = { art, name, line } },
+            Content = new StackPanel { Padding = new Thickness(2), Children = { art, name, LineRow() } },
         };
         button.Click += (_, _) => { if (Model is not null) App.MainWindow?.Navigate(Pages.Game, Model.Id); };
         Lotus.Design.Motion.Attach(button);
@@ -38,6 +39,18 @@ public sealed partial class GameCard : UserControl
         // Live state (downloading, playing, update…): only while the card is on screen.
         Loaded += (_, _) => { Live.GameChanged += OnGameChanged; ShowLive(); };
         Unloaded += (_, _) => Live.GameChanged -= OnGameChanged;
+    }
+
+    /// <summary>Platform icon, then "Nintendo 64 · Pronto para jogar".</summary>
+    private Grid LineRow()
+    {
+        var row = new Grid { Margin = new Thickness(4, 3, 4, 0) };
+        row.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+        row.ColumnDefinitions.Add(new ColumnDefinition());
+        row.Children.Add(platformIcon);
+        Grid.SetColumn(line, 1);
+        row.Children.Add(line);
+        return row;
     }
 
     private static LiveState Live => Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<LiveState>(App.Services);
@@ -74,6 +87,8 @@ public sealed partial class GameCard : UserControl
         cover.Title = m.Title;
         cover.PlatformKey = m.PlatformKey;
         cover.PlatformLabel = m.PlatformLabel;
+        platformIcon.PlatformKey = m.PlatformKey;
+        platformIcon.Foreground = PlatformIcon.SignatureBrush(m.PlatformKey) ?? (Brush)Application.Current.Resources["Text.Secondary"];
         // Only statuses that tell the player something get a badge on the cover; "not rated" stays on the game page.
         status.Text = m.StatusText;
         status.Tone = m.StatusTone;

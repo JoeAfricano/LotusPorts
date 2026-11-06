@@ -129,9 +129,12 @@
   <data name="StateInstalled" xml:space="preserve"><value>Instalado</value></data>
   <data name="StateNotInstalled" xml:space="preserve"><value>Não instalado</value></data>
   <data name="FilterAllPlatforms" xml:space="preserve"><value>Todas as plataformas</value></data>
-  <data name="FilterAllGenres" xml:space="preserve"><value>Todos os gêneros</value></data>
+  <data name="FilterAllGenres" xml:space="preserve"><value>Todos</value></data>
   <data name="FilterGenre" xml:space="preserve"><value>Gênero</value></data>
   <data name="FilterPlatform" xml:space="preserve"><value>Plataforma</value></data>
+  <data name="PlatformChipName" xml:space="preserve"><value>{0}, {1} jogos</value></data>
+  <data name="RailBack" xml:space="preserve"><value>Plataformas anteriores</value></data>
+  <data name="RailForward" xml:space="preserve"><value>Mais plataformas</value></data>
   <data name="ShelfNew" xml:space="preserve"><value>Chegou!</value></data>
   <data name="ShelfNewDismiss" xml:space="preserve"><value>Dispensar as novidades</value></data>
   <data name="ShelfContinue" xml:space="preserve"><value>Continuar jogando</value></data>

@@ -176,18 +176,42 @@
         <Setter Property="Padding" Value="16,11" />
         <Setter Property="UseSystemFocusVisuals" Value="True" />
         <Setter Property="FocusVisualMargin" Value="-2" />
+        <Setter Property="FocusVisualPrimaryBrush" Value="{StaticResource Accent.Rose}" />
+        <Setter Property="FocusVisualPrimaryThickness" Value="1.5" />
+        <Setter Property="FocusVisualSecondaryThickness" Value="0" />
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
                     <Grid
                         x:Name="Root"
-                        Padding="{TemplateBinding Padding}"
                         Background="Transparent"
                         BorderBrush="Transparent"
                         BorderThickness="1"
                         CornerRadius="10">
+                        <!--  The selected fill fades in and a small bar grows at the left edge.  -->
+                        <Border
+                            x:Name="Fill"
+                            Background="{StaticResource Accent.Gradient}"
+                            CornerRadius="9"
+                            Opacity="0" />
+                        <Border
+                            x:Name="Indicator"
+                            Width="3"
+                            Height="18"
+                            Margin="5,0,0,0"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            Background="{StaticResource Accent.OnFill}"
+                            CornerRadius="2"
+                            Opacity="0"
+                            RenderTransformOrigin="0.5,0.5">
+                            <Border.RenderTransform>
+                                <ScaleTransform x:Name="IndicatorScale" ScaleY="0" />
+                            </Border.RenderTransform>
+                        </Border>
                         <ContentPresenter
                             x:Name="Content"
+                            Margin="{TemplateBinding Padding}"
                             HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
                             VerticalAlignment="Center"
                             Content="{TemplateBinding Content}"
@@ -216,12 +240,30 @@
                             <VisualStateGroup x:Name="CheckStates">
                                 <VisualState x:Name="Checked">
                                     <VisualState.Setters>
-                                        <Setter Target="Root.Background" Value="{StaticResource Accent.Gradient}" />
                                         <Setter Target="Root.BorderBrush" Value="{StaticResource Accent.Rose}" />
                                         <Setter Target="Content.Foreground" Value="{StaticResource Accent.OnFill}" />
                                     </VisualState.Setters>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="Fill" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.22">
+                                            <DoubleAnimation.EasingFunction>
+                                                <CubicEase EasingMode="EaseOut" />
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                        <DoubleAnimation Storyboard.TargetName="Indicator" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.18" />
+                                        <DoubleAnimation BeginTime="0:0:0.06" Storyboard.TargetName="IndicatorScale" Storyboard.TargetProperty="ScaleY" To="1" Duration="0:0:0.28">
+                                            <DoubleAnimation.EasingFunction>
+                                                <BackEase Amplitude="0.4" EasingMode="EaseOut" />
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                    </Storyboard>
                                 </VisualState>
-                                <VisualState x:Name="Unchecked" />
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="Fill" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.16" />
+                                        <DoubleAnimation Storyboard.TargetName="Indicator" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.12" />
+                                        <DoubleAnimation Storyboard.TargetName="IndicatorScale" Storyboard.TargetProperty="ScaleY" To="0" Duration="0:0:0.12" />
+                                    </Storyboard>
+                                </VisualState>
                                 <VisualState x:Name="Indeterminate" />
                             </VisualStateGroup>
                         </VisualStateManager.VisualStateGroups>
@@ -237,18 +279,26 @@
         <Setter Property="FontSize" Value="13" />
         <Setter Property="Padding" Value="16,8" />
         <Setter Property="UseSystemFocusVisuals" Value="True" />
+        <Setter Property="FocusVisualPrimaryBrush" Value="{StaticResource Accent.Rose}" />
+        <Setter Property="FocusVisualPrimaryThickness" Value="1.5" />
+        <Setter Property="FocusVisualSecondaryThickness" Value="0" />
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
                     <Grid
                         x:Name="Root"
-                        Padding="{TemplateBinding Padding}"
                         Background="{StaticResource Bg.Surface}"
                         BorderBrush="{StaticResource Stroke.Subtle}"
                         BorderThickness="1"
                         CornerRadius="999">
+                        <Border
+                            x:Name="Fill"
+                            Background="{StaticResource Accent.Gradient}"
+                            CornerRadius="999"
+                            Opacity="0" />
                         <ContentPresenter
                             x:Name="Content"
+                            Margin="{TemplateBinding Padding}"
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center"
                             Content="{TemplateBinding Content}"
@@ -272,12 +322,22 @@
                             <VisualStateGroup x:Name="CheckStates">
                                 <VisualState x:Name="Checked">
                                     <VisualState.Setters>
-                                        <Setter Target="Root.Background" Value="{StaticResource Accent.Gradient}" />
                                         <Setter Target="Root.BorderBrush" Value="{StaticResource Accent.Rose}" />
                                         <Setter Target="Content.Foreground" Value="{StaticResource Accent.OnFill}" />
                                     </VisualState.Setters>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="Fill" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.2">
+                                            <DoubleAnimation.EasingFunction>
+                                                <CubicEase EasingMode="EaseOut" />
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                    </Storyboard>
                                 </VisualState>
-                                <VisualState x:Name="Unchecked" />
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="Fill" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.15" />
+                                    </Storyboard>
+                                </VisualState>
                                 <VisualState x:Name="Indeterminate" />
                             </VisualStateGroup>
                         </VisualStateManager.VisualStateGroups>

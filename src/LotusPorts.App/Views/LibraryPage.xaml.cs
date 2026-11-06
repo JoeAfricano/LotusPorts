@@ -18,7 +18,11 @@ public sealed partial class LibraryPage : Page
             play.Changed += OnPlayChanged;
             ShowUpdates();
             await ViewModel.LoadAsync();
+            // The icon rail only helps when the player's games span more than one platform.
+            Rail.SetPlatforms(ViewModel.Platforms, ViewModel.Platform);
+            Rail.Visibility = ViewModel.Platforms.Count > 2 ? Visibility.Visible : Visibility.Collapsed;
         };
+        Rail.SelectionChanged += (_, platform) => ViewModel.SetPlatform(platform);
         Unloaded += (_, _) => play.Changed -= OnPlayChanged;
     }
 

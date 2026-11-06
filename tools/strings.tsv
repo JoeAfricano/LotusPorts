@@ -123,9 +123,12 @@ OriginExternalUntrusted	Fonte externa: {0} (não verificada)	External source: {0
 StateInstalled	Instalado	Installed
 StateNotInstalled	Não instalado	Not installed
 FilterAllPlatforms	Todas as plataformas	All platforms
-FilterAllGenres	Todos os gêneros	All genres
+FilterAllGenres	Todos	All
 FilterGenre	Gênero	Genre
 FilterPlatform	Plataforma	Platform
+PlatformChipName	{0}, {1} jogos	{0}, {1} games
+RailBack	Plataformas anteriores	Previous platforms
+RailForward	Mais plataformas	More platforms
 ShelfNew	Chegou!	Just arrived!
 ShelfNewDismiss	Dispensar as novidades	Dismiss what's new
 ShelfContinue	Continuar jogando	Continue playing

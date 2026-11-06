@@ -25,46 +25,47 @@
                     Style="{StaticResource Type.Body}"
                     Text="{local:Str Key=CatalogSubtitle}" />
 
-                <Grid ColumnSpacing="12">
+                <Grid ColumnSpacing="10">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" MaxWidth="420" />
+                        <ColumnDefinition Width="*" MaxWidth="380" />
+                        <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <TextBox
-                        x:Name="FilterBox"
-                        AutomationProperties.Name="{local:Str Key=CatalogFilter}"
-                        PlaceholderText="{local:Str Key=CatalogFilter}"
-                        TextChanged="OnFilterChanged" />
-                    <StackPanel
+                    <Grid>
+                        <TextBox
+                            x:Name="FilterBox"
+                            Padding="38,8,12,8"
+                            VerticalContentAlignment="Center"
+                            AutomationProperties.Name="{local:Str Key=CatalogFilter}"
+                            CornerRadius="999"
+                            PlaceholderText="{local:Str Key=CatalogFilter}"
+                            TextChanged="OnFilterChanged" />
+                        <FontIcon
+                            Margin="14,0,0,0"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            Foreground="{StaticResource Text.Secondary}"
+                            Glyph="&#xE721;"
+                            IsHitTestVisible="False" />
+                    </Grid>
+                    <cards:SelectPill
+                        x:Name="GenrePill"
                         Grid.Column="1"
-                        Orientation="Horizontal"
-                        Spacing="10">
-                        <ComboBox
-                            x:Name="PlatformBox"
-                            MinWidth="190"
-                            AutomationProperties.Name="{local:Str Key=FilterPlatform}"
-                            DisplayMemberPath="Label"
-                            SelectionChanged="OnFilterChanged" />
-                        <ComboBox
-                            x:Name="GenreBox"
-                            MinWidth="170"
-                            AutomationProperties.Name="{local:Str Key=FilterGenre}"
-                            SelectionChanged="OnFilterChanged" />
-                        <ComboBox
-                            x:Name="SortBox"
-                            MinWidth="190"
-                            AutomationProperties.Name="{local:Str Key=SortBy}"
-                            ItemsSource="{x:Bind ViewModel.Sorts}"
-                            PlaceholderText="{local:Str Key=SortBy}"
-                            SelectionChanged="OnFilterChanged" />
-                    </StackPanel>
-                    <TextBlock
+                        SelectionChanged="OnFilterChanged" />
+                    <cards:SelectPill
+                        x:Name="SortPill"
                         Grid.Column="2"
+                        SelectionChanged="OnFilterChanged" />
+                    <TextBlock
+                        Grid.Column="3"
                         VerticalAlignment="Center"
                         Style="{StaticResource Type.Caption}"
-                        Text="{x:Bind ViewModel.Summary, Mode=OneWay}" />
+                        Text="{x:Bind ViewModel.Summary, Mode=OneWay}"
+                        TextWrapping="Wrap" />
                 </Grid>
+                <cards:PlatformRail x:Name="Rail" SelectionChanged="OnPlatformChanged" />
 
                 <Border Style="{StaticResource Lotus.Card}" Visibility="{x:Bind ViewModel.NoMatches, Mode=OneWay}">
                     <controls:EmptyState

@@ -40,8 +40,10 @@ public sealed partial class CatalogViewModel(CatalogService catalog, Preferences
         AdvancedMode = prefs.AdvancedMode;
         visible = catalog.Library.Visible(prefs.ShowInReview).ToList();
         Platforms.Clear();
-        Platforms.Add(new PlatformChip(null, Strings.Get("FilterAllPlatforms")));
-        Platforms.AddRange(visible.Select(g => g.Game.OriginalPlatform).Distinct().OrderBy(p => CatalogLabels.Platform(p), StringComparer.CurrentCultureIgnoreCase).Select(p => new PlatformChip(p, CatalogLabels.Platform(p))));
+        Platforms.Add(new PlatformChip(null, Strings.Get("FilterAllPlatforms"), visible.Count));
+        // Most games first: the platforms people look for come first in the icon rail.
+        Platforms.AddRange(visible.GroupBy(g => g.Game.OriginalPlatform).OrderByDescending(g => g.Count()).ThenBy(g => CatalogLabels.Platform(g.Key), StringComparer.CurrentCultureIgnoreCase)
+            .Select(g => new PlatformChip(g.Key, CatalogLabels.Platform(g.Key), g.Count())));
         Genres.Clear();
         Genres.Add(Strings.Get("FilterAllGenres"));
         Genres.AddRange(visible.SelectMany(g => g.Game.Genre).Distinct(StringComparer.OrdinalIgnoreCase).Order(StringComparer.CurrentCultureIgnoreCase));

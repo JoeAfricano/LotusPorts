@@ -7,7 +7,20 @@ using LotusPorts.Infrastructure.Catalog;
 
 namespace LotusPorts.App.ViewModels;
 
-public sealed record ConsoleTile(Platform Platform, string Label, string CountText);
+public sealed record ConsoleTile(Platform Platform, string Label, string CountText)
+{
+    public string Key => Platform.ToString();
+
+    /// <summary>The platform's color, for the icon.</summary>
+    public Microsoft.UI.Xaml.Media.Brush IconBrush =>
+        Lotus.Design.Controls.PlatformIcon.SignatureBrush(Key) ?? (Microsoft.UI.Xaml.Media.Brush)Microsoft.UI.Xaml.Application.Current.Resources["Text.Primary"];
+
+    /// <summary>A faint wash of the platform's color behind the icon.</summary>
+    public Microsoft.UI.Xaml.Media.Brush TileBrush =>
+        Lotus.Design.Controls.PlatformIcon.SignatureBrush(Key) is Microsoft.UI.Xaml.Media.SolidColorBrush b
+            ? new Microsoft.UI.Xaml.Media.SolidColorBrush(b.Color) { Opacity = 0.16 }
+            : (Microsoft.UI.Xaml.Media.Brush)Microsoft.UI.Xaml.Application.Current.Resources["Bg.Elevated"];
+}
 
 public sealed record GenreChip(string Genre, string Label);
 

@@ -71,6 +71,7 @@
                         Style="{StaticResource Lotus.Pill}"
                         Tag="Installed" />
                 </StackPanel>
+                <cards:PlatformRail x:Name="Rail" Visibility="Collapsed" />
 
                 <Border
                     x:Name="UpdatesCard"

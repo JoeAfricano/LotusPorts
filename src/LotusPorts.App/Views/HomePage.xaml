@@ -205,10 +205,31 @@
                                     Click="OnConsole"
                                     CornerRadius="12"
                                     Tag="{x:Bind Platform}">
-                                    <StackPanel Spacing="2">
-                                        <TextBlock FontWeight="SemiBold" Text="{x:Bind Label}" />
-                                        <TextBlock Style="{StaticResource Type.Caption}" Text="{x:Bind CountText}" />
-                                    </StackPanel>
+                                    <Grid ColumnSpacing="14">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Border
+                                            Width="46"
+                                            Height="46"
+                                            Background="{x:Bind TileBrush}"
+                                            CornerRadius="12">
+                                            <controls:PlatformIcon
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Foreground="{x:Bind IconBrush}"
+                                                PlatformKey="{x:Bind Key}"
+                                                Size="30" />
+                                        </Border>
+                                        <StackPanel
+                                            Grid.Column="1"
+                                            VerticalAlignment="Center"
+                                            Spacing="2">
+                                            <TextBlock FontWeight="SemiBold" Text="{x:Bind Label}" />
+                                            <TextBlock Style="{StaticResource Type.Caption}" Text="{x:Bind CountText}" />
+                                        </StackPanel>
+                                    </Grid>
                                 </Button>
                             </DataTemplate>
                         </ItemsRepeater.ItemTemplate>

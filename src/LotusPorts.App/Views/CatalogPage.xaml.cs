@@ -21,14 +21,15 @@ public sealed partial class CatalogPage : Page
         {
             await ViewModel.LoadAsync();
             loading = true;
-            PlatformBox.ItemsSource = ViewModel.Platforms;
-            GenreBox.ItemsSource = ViewModel.Genres;
+            GenrePill.Label = Strings.Get("FilterGenre");
+            GenrePill.Items = ViewModel.Genres;
+            SortPill.Label = Strings.Get("SortBy");
+            SortPill.Items = ViewModel.Sorts;
             // Opened from Início with a console or a category already chosen.
-            var wantedPlatform = initial?.Platform;
-            PlatformBox.SelectedIndex = wantedPlatform is null ? 0 : Math.Max(0, ViewModel.Platforms.FindIndex(p => p.Platform == wantedPlatform));
+            Rail.SetPlatforms(ViewModel.Platforms, initial?.Platform);
             var wantedGenre = initial?.Genre;
-            GenreBox.SelectedIndex = wantedGenre is null ? 0 : Math.Max(0, ViewModel.Genres.FindIndex(g => string.Equals(g, wantedGenre, StringComparison.OrdinalIgnoreCase)));
-            SortBox.SelectedIndex = (int)(initial?.Sort ?? CatalogSort.Name);
+            GenrePill.SelectedIndex = wantedGenre is null ? 0 : Math.Max(0, ViewModel.Genres.FindIndex(g => string.Equals(g, wantedGenre, StringComparison.OrdinalIgnoreCase)));
+            SortPill.SelectedIndex = (int)(initial?.Sort ?? CatalogSort.Name);
             loading = false;
             OnFilterChanged(this, EventArgs.Empty);
         };
@@ -46,9 +47,11 @@ public sealed partial class CatalogPage : Page
     private void OnFilterChanged(object sender, object e)
     {
         if (loading) return;
-        ViewModel.Filter(FilterBox.Text, (PlatformBox.SelectedItem as PlatformChip)?.Platform, GenreBox.SelectedIndex <= 0 ? null : GenreBox.SelectedItem as string,
-            (CatalogSort)Math.Max(0, SortBox.SelectedIndex));
+        ViewModel.Filter(FilterBox.Text, Rail.Selected, GenrePill.SelectedIndex <= 0 ? null : GenrePill.SelectedItem,
+            (CatalogSort)Math.Max(0, SortPill.SelectedIndex));
     }
+
+    private void OnPlatformChanged(object? sender, Platform? platform) => OnFilterChanged(this, EventArgs.Empty);
 
     private async void OnAddSource(object sender, RoutedEventArgs e)
     {

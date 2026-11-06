@@ -56,6 +56,10 @@ public sealed partial class MainWindow : Window
         Navigate(split[0], split.Length > 1 ? split[1] : null);
         ShowProfile();
         Activated += OnActivated;
+        // Windows gives the first nav item keyboard focus when the window opens, which draws a focus ring nobody asked
+        // for. Start with quiet (programmatic) focus on the current page's item instead; Tab still shows the ring.
+        if (Content is FrameworkElement root)
+            root.Loaded += (_, _) => (nav.GetValueOrDefault(split[0]) ?? NavHome).Focus(FocusState.Programmatic);
         // Theme: light/dark for WinUI controls and the caption buttons follow the family theme, live.
         var appearance = Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<AppearanceService>(App.Services);
         void ShowTheme()
