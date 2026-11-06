@@ -89,3 +89,9 @@
 
 - A navegação por controle não foi testada com um controle de verdade (nenhum foi usado nos testes): falta você conferir no PC com um controle conectado.
 - Sem vibração nem ícones de botões do controle na tela; menus suspensos e diálogos usam o foco padrão do WinUI.
+
+## Fase 8: pendências
+
+- A seção Mods não foi vista na tela: aparece só com um port que declara mods instalado, e nenhum está instalado no PC agora. O motor está coberto por testes.
+- Só 3 ports declaram mods (os que têm instruções oficiais no README). Outros entram quando a curadoria confirmar no repositório de cada port.
+- O Lotus Ports não baixa mods: o jogador baixa na página oficial e escolhe o arquivo. Mods em pastas (não arquivo único) ainda não são aceitos.

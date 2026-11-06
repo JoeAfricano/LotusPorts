@@ -587,4 +587,22 @@
   <data name="AppearanceCopyCode" xml:space="preserve"><value>Copy code</value></data>
   <data name="AppearanceCopied" xml:space="preserve"><value>Code copied. It works in Lotus and Lotus Ports.</value></data>
   <data name="AppearancePasted" xml:space="preserve"><value>Theme &quot;{0}&quot; applied.</value></data>
+  <data name="ModsTitle" xml:space="preserve"><value>Mods</value></data>
+  <data name="ModsExperimental" xml:space="preserve"><value>Experimental</value></data>
+  <data name="ModsTypes" xml:space="preserve"><value>Accepted files: {0}.</value></data>
+  <data name="ModsOfficialPage" xml:space="preserve"><value>Official mods page</value></data>
+  <data name="ModsAdd" xml:space="preserve"><value>Add mod…</value></data>
+  <data name="ModsEmpty" xml:space="preserve"><value>No mods installed. Download from the official page and add here; Lotus Ports doesn&apos;t download mods for you.</value></data>
+  <data name="ModsOn" xml:space="preserve"><value>On</value></data>
+  <data name="ModsOff" xml:space="preserve"><value>Off</value></data>
+  <data name="ModsDisable" xml:space="preserve"><value>Disable</value></data>
+  <data name="ModsEnable" xml:space="preserve"><value>Enable</value></data>
+  <data name="ModsRemove" xml:space="preserve"><value>Remove</value></data>
+  <data name="ModsCloseGame" xml:space="preserve"><value>Close the game to change mods.</value></data>
+  <data name="ModsFailed" xml:space="preserve"><value>The mod could not be changed. Nothing was deleted.</value></data>
+  <data name="ModsConfirmTitle" xml:space="preserve"><value>Add this mod?</value></data>
+  <data name="ModsConfirmBody" xml:space="preserve"><value>The file {0} will be copied (your original stays as it is) into the game&apos;s mods folder: {1}. Mods are experimental and can change the game; you can disable or remove them later.</value></data>
+  <data name="ModsAdded" xml:space="preserve"><value>Mod {0} added.</value></data>
+  <data name="ModsRemoveTitle" xml:space="preserve"><value>Remove {0}?</value></data>
+  <data name="ModsRemoveBody" xml:space="preserve"><value>The mod leaves the game folder and is kept in Lotus Ports&apos; backup folder; nothing is deleted.</value></data>
 </root>

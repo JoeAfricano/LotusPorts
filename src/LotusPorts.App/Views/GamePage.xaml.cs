@@ -62,6 +62,7 @@ public sealed partial class GamePage : Page
         _ = RefreshExperienceAsync();
         RefreshPlay();
         RefreshStyle();
+        RefreshMods();
         var guide = ShowGuideAsync(game.Recommended.Port);
         await LookupAsync();
         RefreshPlay();
@@ -257,6 +258,97 @@ public sealed partial class GamePage : Page
             return;
         }
         RefreshStyle();
+    }
+
+    // ---- Mods (phase 8, experimental) ----------------------------------------------------------
+
+    private readonly ModService mods = App.Services.GetRequiredService<ModService>();
+
+    private void RefreshMods()
+    {
+        if (game is null) return;
+        var port = game.Recommended.Port;
+        var state = play.StateOf(port);
+        var installed = state.Installed;
+        ModsCard.Visibility = ModService.Offers(port) && installed is not null ? Visibility.Visible : Visibility.Collapsed;
+        if (installed is null || port.Mods is not { } declared) return;
+
+        var busy = state.RunningSince is not null || state.Progress is not null;
+        ModsHint.Text = (declared.NotesPtBr is { } notes ? notes + " " : "") + Strings.Format("ModsTypes", string.Join(", ", declared.FileTypes));
+        ModsSource.Visibility = declared.SourceUrl is null ? Visibility.Collapsed : Visibility.Visible;
+        if (declared.SourceUrl is { } source) ModsSource.NavigateUri = new Uri(source);
+        ModsAdd.IsEnabled = !busy;
+
+        ModsList.Children.Clear();
+        var list = mods.List(port, installed);
+        if (list.Count == 0) ModsList.Children.Add(new TextBlock { Text = Strings.Get("ModsEmpty"), Style = StyleOf("Type.Caption") });
+        foreach (var mod in list)
+        {
+            var row = new Grid { ColumnSpacing = 12, Padding = new Thickness(14, 8, 14, 8), Background = Brush("Bg.Elevated"), CornerRadius = new CornerRadius(10) };
+            row.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            row.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+            row.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+            row.Children.Add(new StackPanel
+            {
+                Spacing = 2,
+                Children =
+                {
+                    new TextBlock { Text = mod.Name, Style = StyleOf("Type.Body"), TextTrimming = TextTrimming.CharacterEllipsis },
+                    new TextBlock { Text = Size(mod.Size), Style = StyleOf("Type.Caption") },
+                },
+            });
+            var badge = new StateBadge
+            {
+                Text = Strings.Get(mod.State == ModState.Enabled ? "ModsOn" : "ModsOff"),
+                Tone = mod.State == ModState.Enabled ? BadgeTone.Ok : BadgeTone.Unknown,
+                VerticalAlignment = VerticalAlignment.Center,
+            };
+            Grid.SetColumn(badge, 1);
+            row.Children.Add(badge);
+            var actions = new StackPanel { Orientation = Orientation.Horizontal, Spacing = 2, VerticalAlignment = VerticalAlignment.Center };
+            var name = mod.Name;
+            var toggle = Action(Strings.Get(mod.State == ModState.Enabled ? "ModsDisable" : "ModsEnable"), mod.State == ModState.Enabled
+                ? () => ModActionAsync(() => mods.DisableAsync(port, installed, name))
+                : () => ModActionAsync(() => mods.EnableAsync(port, installed, name)));
+            var remove = Action(Strings.Get("ModsRemove"), () => RemoveModAsync(port, installed, name));
+            toggle.IsEnabled = remove.IsEnabled = !busy;
+            actions.Children.Add(toggle);
+            actions.Children.Add(remove);
+            Grid.SetColumn(actions, 2);
+            row.Children.Add(actions);
+            ModsList.Children.Add(row);
+        }
+        ModsStatus.Text = busy ? Strings.Get("ModsCloseGame") : "";
+    }
+
+    private async Task ModActionAsync(Func<Task> action)
+    {
+        try { await action(); ModsStatus.Text = ""; }
+        catch (Exception ex) when (ex is ModException or IOException or UnauthorizedAccessException)
+        {
+            ModsStatus.Text = Strings.Get("ModsFailed");
+        }
+        RefreshMods();
+    }
+
+    private async void OnAddMod(object sender, RoutedEventArgs e)
+    {
+        if (game is null || play.StateOf(game.Recommended.Port).Installed is not { } installed || game.Recommended.Port.Mods is not { } declared) return;
+        var port = game.Recommended.Port;
+        var picker = new Windows.Storage.Pickers.FileOpenPicker { SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.Downloads };
+        foreach (var type in declared.FileTypes) picker.FileTypeFilter.Add(type);
+        WinRT.Interop.InitializeWithWindow.Initialize(picker, WinRT.Interop.WindowNative.GetWindowHandle(App.MainWindow));
+        if (await picker.PickSingleFileAsync() is not { } file) return;
+        var body = Strings.Format("ModsConfirmBody", file.Name, mods.ModsFolder(port, installed) ?? "");
+        if (!await Confirm(Strings.Get("ModsConfirmTitle"), body, Strings.Get("ModsAdd"))) return;
+        await ModActionAsync(() => mods.InstallAsync(port, installed, file.Path));
+        ModsStatus.Text = Strings.Format("ModsAdded", file.Name);
+    }
+
+    private async Task RemoveModAsync(Port port, InstalledPort installed, string name)
+    {
+        if (!await Confirm(Strings.Format("ModsRemoveTitle", name), Strings.Get("ModsRemoveBody"), Strings.Get("ModsRemove"))) return;
+        await ModActionAsync(() => mods.RemoveAsync(port, installed, name));
     }
 
     // ---- Sua experiência (phase 6) -------------------------------------------------------------
@@ -521,7 +613,7 @@ public sealed partial class GamePage : Page
 
     private void OnPlayChanged(string portId)
     {
-        if (game is not null && game.Recommended.Port.Id == portId) { RefreshPlay(); RefreshStyle(); _ = RefreshExperienceAsync(); }
+        if (game is not null && game.Recommended.Port.Id == portId) { RefreshPlay(); RefreshStyle(); RefreshMods(); _ = RefreshExperienceAsync(); }
     }
 
     private async Task LookupAsync(bool force = false)

@@ -294,6 +294,58 @@
                         </StackPanel>
                     </Border>
 
+                    <!--  Mods (experimental): only when the port's own repository declares how it takes mods  -->
+                    <Border
+                        x:Name="ModsCard"
+                        Style="{StaticResource Lotus.Card}"
+                        Visibility="Collapsed">
+                        <StackPanel Spacing="12">
+                            <Grid ColumnSpacing="12">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <FontIcon
+                                    VerticalAlignment="Center"
+                                    FontSize="20"
+                                    Foreground="{StaticResource Accent.Pink}"
+                                    Glyph="&#xE74C;" />
+                                <StackPanel Grid.Column="1" Spacing="2">
+                                    <StackPanel Orientation="Horizontal" Spacing="10">
+                                        <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=ModsTitle}" />
+                                        <controls:StateBadge VerticalAlignment="Center" Text="{local:Str Key=ModsExperimental}" Tone="Warning" />
+                                    </StackPanel>
+                                    <TextBlock
+                                        x:Name="ModsHint"
+                                        Style="{StaticResource Type.Caption}"
+                                        TextWrapping="Wrap" />
+                                </StackPanel>
+                                <StackPanel
+                                    Grid.Column="2"
+                                    VerticalAlignment="Center"
+                                    Orientation="Horizontal"
+                                    Spacing="8">
+                                    <HyperlinkButton x:Name="ModsSource" Content="{local:Str Key=ModsOfficialPage}" />
+                                    <Button
+                                        x:Name="ModsAdd"
+                                        Click="OnAddMod"
+                                        Style="{StaticResource AccentButtonStyle}">
+                                        <StackPanel Orientation="Horizontal" Spacing="8">
+                                            <FontIcon FontSize="13" Glyph="&#xE710;" />
+                                            <TextBlock Text="{local:Str Key=ModsAdd}" />
+                                        </StackPanel>
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
+                            <StackPanel x:Name="ModsList" Spacing="8" />
+                            <TextBlock
+                                x:Name="ModsStatus"
+                                Style="{StaticResource Type.Caption}"
+                                TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+
                     <!--  How to play: the usage part of the port's README, as the authors wrote it (only when it exists)  -->
                     <Border
                         x:Name="GuideCard"

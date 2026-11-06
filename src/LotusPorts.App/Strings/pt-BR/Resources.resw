@@ -587,4 +587,22 @@
   <data name="AppearanceCopyCode" xml:space="preserve"><value>Copiar código</value></data>
   <data name="AppearanceCopied" xml:space="preserve"><value>Código copiado. Ele funciona no Lotus e no Lotus Ports.</value></data>
   <data name="AppearancePasted" xml:space="preserve"><value>Tema &quot;{0}&quot; aplicado.</value></data>
+  <data name="ModsTitle" xml:space="preserve"><value>Mods</value></data>
+  <data name="ModsExperimental" xml:space="preserve"><value>Experimental</value></data>
+  <data name="ModsTypes" xml:space="preserve"><value>Arquivos aceitos: {0}.</value></data>
+  <data name="ModsOfficialPage" xml:space="preserve"><value>Página oficial de mods</value></data>
+  <data name="ModsAdd" xml:space="preserve"><value>Adicionar mod…</value></data>
+  <data name="ModsEmpty" xml:space="preserve"><value>Nenhum mod instalado. Baixe pela página oficial e adicione aqui; o Lotus Ports não baixa mods por você.</value></data>
+  <data name="ModsOn" xml:space="preserve"><value>Ativo</value></data>
+  <data name="ModsOff" xml:space="preserve"><value>Desativado</value></data>
+  <data name="ModsDisable" xml:space="preserve"><value>Desativar</value></data>
+  <data name="ModsEnable" xml:space="preserve"><value>Ativar</value></data>
+  <data name="ModsRemove" xml:space="preserve"><value>Remover</value></data>
+  <data name="ModsCloseGame" xml:space="preserve"><value>Feche o jogo para mexer nos mods.</value></data>
+  <data name="ModsFailed" xml:space="preserve"><value>Não foi possível mudar o mod. Nada foi apagado.</value></data>
+  <data name="ModsConfirmTitle" xml:space="preserve"><value>Adicionar este mod?</value></data>
+  <data name="ModsConfirmBody" xml:space="preserve"><value>O arquivo {0} será copiado (o seu original fica como está) para a pasta de mods do jogo: {1}. Mods são experimentais e podem mudar o jogo; dá para desativar ou remover depois.</value></data>
+  <data name="ModsAdded" xml:space="preserve"><value>Mod {0} adicionado.</value></data>
+  <data name="ModsRemoveTitle" xml:space="preserve"><value>Remover {0}?</value></data>
+  <data name="ModsRemoveBody" xml:space="preserve"><value>O mod sai da pasta do jogo e fica guardado na pasta de backups do Lotus Ports; nada é apagado.</value></data>
 </root>

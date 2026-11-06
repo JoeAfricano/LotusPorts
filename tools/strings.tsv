@@ -581,3 +581,21 @@ AppearanceUse	Usar	Use
 AppearanceCopyCode	Copiar código	Copy code
 AppearanceCopied	Código copiado. Ele funciona no Lotus e no Lotus Ports.	Code copied. It works in Lotus and Lotus Ports.
 AppearancePasted	Tema "{0}" aplicado.	Theme "{0}" applied.
+ModsTitle	Mods	Mods
+ModsExperimental	Experimental	Experimental
+ModsTypes	Arquivos aceitos: {0}.	Accepted files: {0}.
+ModsOfficialPage	Página oficial de mods	Official mods page
+ModsAdd	Adicionar mod…	Add mod…
+ModsEmpty	Nenhum mod instalado. Baixe pela página oficial e adicione aqui; o Lotus Ports não baixa mods por você.	No mods installed. Download from the official page and add here; Lotus Ports doesn't download mods for you.
+ModsOn	Ativo	On
+ModsOff	Desativado	Off
+ModsDisable	Desativar	Disable
+ModsEnable	Ativar	Enable
+ModsRemove	Remover	Remove
+ModsCloseGame	Feche o jogo para mexer nos mods.	Close the game to change mods.
+ModsFailed	Não foi possível mudar o mod. Nada foi apagado.	The mod could not be changed. Nothing was deleted.
+ModsConfirmTitle	Adicionar este mod?	Add this mod?
+ModsConfirmBody	O arquivo {0} será copiado (o seu original fica como está) para a pasta de mods do jogo: {1}. Mods são experimentais e podem mudar o jogo; dá para desativar ou remover depois.	The file {0} will be copied (your original stays as it is) into the game's mods folder: {1}. Mods are experimental and can change the game; you can disable or remove them later.
+ModsAdded	Mod {0} adicionado.	Mod {0} added.
+ModsRemoveTitle	Remover {0}?	Remove {0}?
+ModsRemoveBody	O mod sai da pasta do jogo e fica guardado na pasta de backups do Lotus Ports; nada é apagado.	The mod leaves the game folder and is kept in Lotus Ports' backup folder; nothing is deleted.
