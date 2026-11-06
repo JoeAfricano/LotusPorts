@@ -187,6 +187,50 @@
                         </Grid.ColumnDefinitions>
                     </Grid>
 
+                    <!--  How to play: the usage part of the port's README, as the authors wrote it (only when it exists)  -->
+                    <Border
+                        x:Name="GuideCard"
+                        Style="{StaticResource Lotus.Card}"
+                        Visibility="Collapsed">
+                        <StackPanel Spacing="12">
+                            <Grid ColumnSpacing="12">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <FontIcon
+                                    VerticalAlignment="Center"
+                                    FontSize="20"
+                                    Foreground="{StaticResource Accent.Pink}"
+                                    Glyph="&#xE736;" />
+                                <StackPanel Grid.Column="1" Spacing="2">
+                                    <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=GuideTitle}" />
+                                    <TextBlock
+                                        x:Name="GuideHint"
+                                        Style="{StaticResource Type.Caption}"
+                                        TextWrapping="Wrap" />
+                                </StackPanel>
+                                <HyperlinkButton
+                                    x:Name="GuideSource"
+                                    Grid.Column="2"
+                                    VerticalAlignment="Center"
+                                    Content="{local:Str Key=GuideOpenSource}" />
+                            </Grid>
+                            <RichTextBlock
+                                x:Name="GuideText"
+                                MaxHeight="420"
+                                IsTextSelectionEnabled="True"
+                                TextWrapping="Wrap" />
+                            <HyperlinkButton
+                                x:Name="GuideMore"
+                                Padding="0,2"
+                                Click="OnGuideMore"
+                                Content="{local:Str Key=GuideShowAll}"
+                                Visibility="Collapsed" />
+                        </StackPanel>
+                    </Border>
+
                     <!--  About this port  -->
                     <Border Style="{StaticResource Lotus.Card}">
                         <StackPanel x:Name="About" Spacing="12">

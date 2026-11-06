@@ -1,6 +1,7 @@
 using System.Globalization;
 using Lotus.Design.Controls;
 using LotusPorts.Catalog;
+using LotusPorts.Core.Guides;
 using LotusPorts.Core.Install;
 using LotusPorts.Core.Preferences;
 using LotusPorts.Core.Verification;
@@ -46,8 +47,10 @@ public sealed partial class GamePage : Page
         DispatcherQueue.TryEnqueue(() => Scroller.ChangeView(null, 0, null, disableAnimation: true));
         play.Changed += OnPlayChanged;
         RefreshPlay();
+        var guide = ShowGuideAsync(game.Recommended.Port);
         await LookupAsync();
         RefreshPlay();
+        await guide;
     }
 
     private static Style StyleOf(string key) => (Style)Application.Current.Resources[key];
@@ -189,6 +192,79 @@ public sealed partial class GamePage : Page
     }
 
     private void OnBack(object sender, RoutedEventArgs e) => App.MainWindow?.GoBack();
+
+    // ---- How to play: from the port's README on GitHub ----------------------------------------
+
+    private async Task ShowGuideAsync(Port port)
+    {
+        PortGuideResult? result;
+        try { result = await App.Services.GetRequiredService<PortGuideService>().GetAsync(port); }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException) { result = null; }
+        if (result is null || game?.Recommended.Port.Id != port.Id) return;
+
+        GuideHint.Text = Strings.Get("GuideHint");
+        GuideSource.NavigateUri = result.Source;
+        GuideText.Blocks.Clear();
+        foreach (var block in result.Guide.Blocks) GuideText.Blocks.Add(Render(block));
+        GuideCard.Visibility = Visibility.Visible;
+        GuideText.SizeChanged += (_, _) =>
+            GuideMore.Visibility = GuideText.MaxHeight < double.PositiveInfinity && GuideText.ActualHeight >= GuideText.MaxHeight - 1 ? Visibility.Visible : Visibility.Collapsed;
+    }
+
+    private void OnGuideMore(object sender, RoutedEventArgs e)
+    {
+        GuideText.MaxHeight = double.PositiveInfinity;
+        GuideMore.Visibility = Visibility.Collapsed;
+    }
+
+    private static Paragraph Render(GuideBlock block)
+    {
+        var paragraph = new Paragraph { Margin = new Thickness(0, 0, 0, 8), LineHeight = 22 };
+        switch (block.Kind)
+        {
+            case GuideBlockKind.Heading:
+                paragraph.Margin = new Thickness(0, 6, 0, 6);
+                paragraph.FontWeight = Microsoft.UI.Text.FontWeights.SemiBold;
+                paragraph.FontSize = 15;
+                break;
+            case GuideBlockKind.Bullet:
+                paragraph.Margin = new Thickness(18, 0, 0, 6);
+                paragraph.TextIndent = -14;
+                paragraph.Inlines.Add(new Run { Text = "•   ", Foreground = Brush("Accent.Pink") });
+                break;
+            case GuideBlockKind.Numbered:
+                paragraph.Margin = new Thickness(22, 0, 0, 6);
+                paragraph.TextIndent = -20;
+                paragraph.Inlines.Add(new Run { Text = $"{block.Number}.  ", FontWeight = Microsoft.UI.Text.FontWeights.SemiBold, Foreground = Brush("Accent.Pink") });
+                break;
+            case GuideBlockKind.Note:
+                paragraph.Margin = new Thickness(18, 0, 0, 8);
+                paragraph.Foreground = Brush("Text.Secondary");
+                paragraph.FontStyle = Windows.UI.Text.FontStyle.Italic;
+                break;
+            case GuideBlockKind.Code:
+                paragraph.FontFamily = new FontFamily("Cascadia Mono, Consolas");
+                paragraph.FontSize = 13;
+                paragraph.Margin = new Thickness(18, 0, 0, 8);
+                paragraph.Foreground = Brush("Text.Secondary");
+                break;
+        }
+        foreach (var span in block.Spans)
+        {
+            if (span.Link is { } link)
+            {
+                var hyperlink = new Hyperlink { NavigateUri = link };
+                hyperlink.Inlines.Add(new Run { Text = span.Text });
+                paragraph.Inlines.Add(hyperlink);
+                continue;
+            }
+            var run = new Run { Text = span.Text };
+            if (span.Bold) run.FontWeight = Microsoft.UI.Text.FontWeights.SemiBold;
+            if (span.Code && block.Kind != GuideBlockKind.Code) run.FontFamily = new FontFamily("Cascadia Mono, Consolas");
+            paragraph.Inlines.Add(run);
+        }
+        return paragraph;
+    }
 
     // ---- Main button: install, play, update, roll back, uninstall (phase 2) ---------------------
 

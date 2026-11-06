@@ -361,3 +361,7 @@ SizeMb	{0} MB	{0} MB
 SizeGb	{0} GB	{0} GB
 PlayAvailableFromCatalog	Versão {0} · {1}	Version {0} · {1}
 PlayCatalogVersionNote	Versão conferida pelo catálogo, com verificação do arquivo. O GitHub pediu uma pausa nas consultas até as {0}; depois o app procura versões mais novas.	Version checked by the catalog, with file verification. GitHub paused lookups until {0}; after that the app looks for newer versions.
+GuideTitle	Como jogar	How to play
+GuideHint	Passos dos autores do port no GitHub, como eles escreveram (geralmente em inglês), só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.	Steps by the port's authors on GitHub, as they wrote them, only the part for Windows. The button above already downloads, extracts and opens the game for you.
+GuideOpenSource	Ver no GitHub	View on GitHub
+GuideShowAll	Mostrar tudo	Show everything

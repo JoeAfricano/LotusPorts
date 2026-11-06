@@ -367,4 +367,8 @@
   <data name="SizeGb" xml:space="preserve"><value>{0} GB</value></data>
   <data name="PlayAvailableFromCatalog" xml:space="preserve"><value>Version {0} · {1}</value></data>
   <data name="PlayCatalogVersionNote" xml:space="preserve"><value>Version checked by the catalog, with file verification. GitHub paused lookups until {0}; after that the app looks for newer versions.</value></data>
+  <data name="GuideTitle" xml:space="preserve"><value>How to play</value></data>
+  <data name="GuideHint" xml:space="preserve"><value>Steps by the port&apos;s authors on GitHub, as they wrote them, only the part for Windows. The button above already downloads, extracts and opens the game for you.</value></data>
+  <data name="GuideOpenSource" xml:space="preserve"><value>View on GitHub</value></data>
+  <data name="GuideShowAll" xml:space="preserve"><value>Show everything</value></data>
 </root>

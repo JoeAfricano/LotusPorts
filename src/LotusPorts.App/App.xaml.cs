@@ -108,6 +108,7 @@ public partial class App : Application
         services.AddSingleton<LotusPorts.Infrastructure.Install.PortInstaller>();
         services.AddSingleton<LotusPorts.Infrastructure.Install.GameLauncher>();
         services.AddSingleton<PlayService>();
+        services.AddSingleton<PortGuideService>();
         services.AddTransient<HomeViewModel>();
         services.AddTransient<LibraryViewModel>();
         services.AddTransient<CatalogViewModel>();
