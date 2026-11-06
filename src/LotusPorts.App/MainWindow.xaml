@@ -5,7 +5,12 @@
     xmlns:controls="using:Lotus.Design.Controls"
     xmlns:local="using:LotusPorts.App">
 
-    <Grid Background="{StaticResource Bg.Base}">
+    <Grid
+        x:Name="Root"
+        AllowDrop="True"
+        Background="{StaticResource Bg.Base}"
+        DragOver="OnDragOver"
+        Drop="OnDrop">
         <Grid.KeyboardAccelerators>
             <KeyboardAccelerator
                 Invoked="OnSearchShortcut"

@@ -142,6 +142,23 @@ public sealed partial class MainWindow : Window
         await Windows.System.Launcher.LaunchUriAsync(LotusProfileReader.DownloadPage);
     }
 
+    // A game file dropped anywhere is read and identified (nothing is copied or moved).
+    private void OnDragOver(object sender, DragEventArgs e)
+    {
+        if (!e.DataView.Contains(Windows.ApplicationModel.DataTransfer.StandardDataFormats.StorageItems)) return;
+        e.AcceptedOperation = Windows.ApplicationModel.DataTransfer.DataPackageOperation.Link;
+        e.DragUIOverride.Caption = Strings.Get("DropIdentify");
+    }
+
+    private async void OnDrop(object sender, DragEventArgs e)
+    {
+        if (!e.DataView.Contains(Windows.ApplicationModel.DataTransfer.StandardDataFormats.StorageItems)) return;
+        var items = await e.DataView.GetStorageItemsAsync();
+        if (items.OfType<Windows.Storage.StorageFile>().FirstOrDefault() is not { } file) return;
+        var forGame = ContentFrame.Content is GamePage page ? page.Game : null;
+        await GamePage.IdentifyAndTellAsync(file.Path, forGame, Content.XamlRoot);
+    }
+
     private void OnSearchShortcut(KeyboardAccelerator sender, KeyboardAcceleratorInvokedEventArgs args)
     {
         args.Handled = true;

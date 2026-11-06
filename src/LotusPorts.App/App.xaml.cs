@@ -60,7 +60,12 @@ public partial class App : Application
             var covers = host.Services.GetRequiredService<CoverCache>();
             covers.Shrink = CoverShrinker.ShrinkAsync;
             Lotus.Design.Controls.GameCover.CoverResolver = covers.GetAsync;
-            await host.Services.GetRequiredService<PlayService>().InitializeAsync(Microsoft.UI.Dispatching.DispatcherQueue.GetForCurrentThread());
+            var dispatcher = Microsoft.UI.Dispatching.DispatcherQueue.GetForCurrentThread();
+            var play = host.Services.GetRequiredService<PlayService>();
+            await play.InitializeAsync(dispatcher);
+            var catalogService = host.Services.GetRequiredService<CatalogService>();
+            catalogService.IsInstalled = id => catalogService.Library.Find(id)?.AllPorts.Any(p => play.IsPortInstalled(p.Port.Id)) ?? false;
+            await host.Services.GetRequiredService<GameFilesService>().InitializeAsync(dispatcher);
             await host.StartAsync();
 
             window = new MainWindow(StartPage());
@@ -109,6 +114,9 @@ public partial class App : Application
         services.AddSingleton<LotusPorts.Infrastructure.Install.GameLauncher>();
         services.AddSingleton<PlayService>();
         services.AddSingleton<PortGuideService>();
+        services.AddSingleton<LotusPorts.Infrastructure.GameFiles.GameFileStore>();
+        services.AddSingleton<LotusPorts.Infrastructure.GameFiles.GameFileScanner>();
+        services.AddSingleton<GameFilesService>();
         services.AddTransient<HomeViewModel>();
         services.AddTransient<LibraryViewModel>();
         services.AddTransient<CatalogViewModel>();

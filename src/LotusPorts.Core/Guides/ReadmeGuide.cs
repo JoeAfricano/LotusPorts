@@ -22,7 +22,8 @@ public sealed record GuideBlock(GuideBlockKind Kind, IReadOnlyList<GuideSpan> Sp
 }
 
 /// <summary>The "how to play" part of a port's README, as the authors wrote it.</summary>
-public sealed record PortGuide(IReadOnlyList<string> SectionTitles, IReadOnlyList<GuideBlock> Blocks);
+/// <summary>The "how to play" part of a port's README, as the authors wrote it. <see cref="Portuguese"/>: the sections are in Portuguese.</summary>
+public sealed record PortGuide(IReadOnlyList<string> SectionTitles, IReadOnlyList<GuideBlock> Blocks, bool Portuguese = false);
 
 /// <summary>
 /// Finds the sections of a README that explain how to install and play (Quick Start, How to install, Usage…) and turns
@@ -36,32 +37,43 @@ public static partial class ReadmeGuide
 
     private sealed record Heading(int Line, int Level, string Title);
 
-    public static PortGuide? Extract(string markdown, Uri baseUrl)
+    /// <param name="language">"pt-BR" or "en-US": when the README has usage sections in that language, only those are used.</param>
+    public static PortGuide? Extract(string markdown, Uri baseUrl, string? language = null)
     {
         ArgumentNullException.ThrowIfNull(markdown);
         ArgumentNullException.ThrowIfNull(baseUrl);
         var lines = Clean(markdown).Split('\n');
         var headings = Headings(lines);
 
-        var titles = new List<string>();
-        var blocks = new List<GuideBlock>();
+        var sections = new List<(Heading Heading, List<GuideBlock> Blocks, bool Portuguese)>();
         var taken = new List<(int From, int To)>();
         foreach (var h in headings)
         {
-            if (titles.Count >= MaxSections || blocks.Count >= MaxBlocks) break;
             if (taken.Any(t => h.Line >= t.From && h.Line < t.To)) continue;
-            if (!UsageTitle().IsMatch(h.Title) || Excluded().IsMatch(h.Title)) continue;
+            if (!(UsageTitle().IsMatch(h.Title) || PortugueseTitle().IsMatch(h.Title)) || Excluded().IsMatch(h.Title)) continue;
             // FAQ questions and navigation bars ("Download · Installation guide · …") are not guides.
             if (h.Title.EndsWith('?') || h.Title.Contains('·') || h.Title.Contains(" | ", StringComparison.Ordinal)) continue;
             var end = headings.FirstOrDefault(n => n.Line > h.Line && n.Level <= h.Level)?.Line ?? lines.Length;
             var sectionBlocks = Blocks(lines, h.Line + 1, end, headings, baseUrl);
             if (sectionBlocks.Count(b => b.Kind != GuideBlockKind.Heading) == 0) continue;
             taken.Add((h.Line, end));
+            sections.Add((h, sectionBlocks, PortugueseTitle().IsMatch(h.Title)));
+        }
+
+        // Same language as the app when the authors wrote it; otherwise whatever they wrote.
+        var wantPortuguese = language?.StartsWith("pt", StringComparison.OrdinalIgnoreCase);
+        if (wantPortuguese is { } pt && sections.Any(s => s.Portuguese == pt)) sections = sections.Where(s => s.Portuguese == pt).ToList();
+
+        var titles = new List<string>();
+        var blocks = new List<GuideBlock>();
+        foreach (var (h, sectionBlocks, _) in sections.Take(MaxSections))
+        {
+            if (blocks.Count >= MaxBlocks) break;
             titles.Add(h.Title);
             if (titles.Count > 1) blocks.Add(new GuideBlock(GuideBlockKind.Heading, [new GuideSpan(h.Title)]));
             blocks.AddRange(sectionBlocks.Take(MaxBlocks - blocks.Count));
         }
-        return titles.Count == 0 ? null : new PortGuide(titles, blocks);
+        return titles.Count == 0 ? null : new PortGuide(titles, blocks, sections.Take(titles.Count).All(s => s.Portuguese));
     }
 
     /// <summary>Line endings, HTML comments and HTML tags out; images out.</summary>
@@ -283,6 +295,9 @@ public static partial class ReadmeGuide
 
     [GeneratedRegex(@"(?i)^\W*(the\s+|on\s+|for\s+)?(linux|mac\s?os|macos|osx|android|ios|steam\s?deck|switch|flatpak|appimage|docker|source\s+builds?)\b")]
     private static partial Regex PlatformStart();
+
+    [GeneratedRegex(@"(?i)\b(como\s+(jogar|instalar|usar|rodar|executar)|instala[çc][ãa]o|instalando|jogando|primeiros\s+passos|in[íi]cio\s+r[áa]pido)\b")]
+    private static partial Regex PortugueseTitle();
 
     [GeneratedRegex(@"^\s*(step\s+)?\d{1,2}[.):]\s")]
     private static partial Regex StepTitle();

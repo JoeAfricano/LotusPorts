@@ -371,4 +371,37 @@
   <data name="GuideHint" xml:space="preserve"><value>Passos dos autores do port no GitHub, como eles escreveram (geralmente em inglês), só a parte para Windows. O botão acima já baixa, extrai e abre o jogo por você.</value></data>
   <data name="GuideOpenSource" xml:space="preserve"><value>Ver no GitHub</value></data>
   <data name="GuideShowAll" xml:space="preserve"><value>Mostrar tudo</value></data>
+  <data name="GameFilesAddFolder" xml:space="preserve"><value>Adicionar pasta…</value></data>
+  <data name="GameFilesScan" xml:space="preserve"><value>Procurar agora</value></data>
+  <data name="GameFilesStop" xml:space="preserve"><value>Parar</value></data>
+  <data name="GameFilesRemoveFolder" xml:space="preserve"><value>Remover</value></data>
+  <data name="GameFilesNoFolders" xml:space="preserve"><value>Nenhuma pasta escolhida. Adicione a pasta onde ficam suas cópias dos jogos; o Lotus Ports só lê os arquivos, nunca move nem altera.</value></data>
+  <data name="GameFilesReading" xml:space="preserve"><value>Lendo {0}…</value></data>
+  <data name="GameFilesSearching" xml:space="preserve"><value>Procurando arquivos de jogo…</value></data>
+  <data name="GameFilesSummary" xml:space="preserve"><value>{0} arquivos de jogo encontrados, {1} reconhecidos. Nada sai do seu PC.</value></data>
+  <data name="TileFileRecognized" xml:space="preserve"><value>Reconhecido: {0}</value></data>
+  <data name="TileFileShow" xml:space="preserve"><value>Mostrar arquivo</value></data>
+  <data name="TileFileSearching" xml:space="preserve"><value>Procurando…</value></data>
+  <data name="TileFileMissing" xml:space="preserve"><value>Não encontrado</value></data>
+  <data name="DropIdentify" xml:space="preserve"><value>Identificar arquivo do jogo</value></data>
+  <data name="Close" xml:space="preserve"><value>Fechar</value></data>
+  <data name="GameFileHeader" xml:space="preserve"><value>(cartucho: {0}, código {1})</value></data>
+  <data name="GameFileRecognizedTitle" xml:space="preserve"><value>Arquivo reconhecido: {0}. Pronto!</value></data>
+  <data name="GameFileRecognizedBody" xml:space="preserve"><value>É {0}, versão {1} (conferido por {2}).</value></data>
+  <data name="GameFileOtherGameTitle" xml:space="preserve"><value>Este arquivo é de outro jogo</value></data>
+  <data name="GameFileOtherGameBody" xml:space="preserve"><value>Este arquivo é de {0} ({1}), não deste jogo.</value></data>
+  <data name="GameFileUnknownTitle" xml:space="preserve"><value>Não reconheci este arquivo</value></data>
+  <data name="GameFileUnknownBody" xml:space="preserve"><value>Ele não parece ser um arquivo de jogo de console. Escolha a cópia do cartucho ou do disco do jogo.</value></data>
+  <data name="GameFileWrongConsoleTitle" xml:space="preserve"><value>Este arquivo é de outro console</value></data>
+  <data name="GameFileWrongConsoleBody" xml:space="preserve"><value>Este jogo precisa de um arquivo de {0}.</value></data>
+  <data name="GameFileNotCheckedTitle" xml:space="preserve"><value>Não deu para confirmar a versão</value></data>
+  <data name="GameFileTooLargeBody" xml:space="preserve"><value>O arquivo é grande demais para ser conferido aqui; o próprio port confere quando você abrir o jogo.</value></data>
+  <data name="GameFileOtherVersionBody" xml:space="preserve"><value>Este arquivo é de outra versão. Este jogo aceita: {0}.</value></data>
+  <data name="GameFileNoListBody" xml:space="preserve"><value>O catálogo ainda não tem a lista de versões aceitas por este port, então o arquivo não pôde ser confirmado. O próprio port confere quando você abrir o jogo.</value></data>
+  <data name="GameFileHintSelect" xml:space="preserve"><value>Na primeira vez que o jogo abrir, escolha este arquivo no menu: {0}</value></data>
+  <data name="GameFileHintBeside" xml:space="preserve"><value>Este port lê o arquivo na pasta do jogo; copiar para lá chega numa próxima etapa.</value></data>
+  <data name="GameFileHintDocs" xml:space="preserve"><value>Veja na documentação oficial do port como usar o arquivo.</value></data>
+  <data name="GameFileUnreadableTitle" xml:space="preserve"><value>Não foi possível ler o arquivo</value></data>
+  <data name="GameFileUnreadableBody" xml:space="preserve"><value>O Windows não deixou ler este arquivo. Ele pode estar em uso ou numa pasta sem permissão.</value></data>
+  <data name="GameFileOpenGame" xml:space="preserve"><value>Abrir {0}</value></data>
 </root>

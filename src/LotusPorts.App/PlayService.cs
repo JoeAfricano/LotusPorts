@@ -56,6 +56,7 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
     {
         ui = dispatcher;
         library.UseFolder((await preferences.LoadAsync().ConfigureAwait(false)).LibraryFolder);
+        RefreshInstalled();
         try
         {
             var cleaned = library.CleanLeftovers();
@@ -164,6 +165,7 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         finally
         {
             working.Remove(port.Id);
+            RefreshInstalled();
             Raise(port.Id);
         }
     }
@@ -217,6 +219,7 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
             logger.LogWarning(ex, "Remove of {Port} failed", port.Id);
             problems[port.Id] = Strings.Get("PlayRemoveFailed");
         }
+        RefreshInstalled();
         Raise(port.Id);
     }
 
@@ -274,6 +277,13 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         try { r.Process.CloseMainWindow(); }
         catch (InvalidOperationException) { }
     }
+
+    private HashSet<string> installedPorts = [];
+
+    /// <summary>Installed ports, kept in memory so shelves can ask for hundreds of games cheaply.</summary>
+    public bool IsPortInstalled(string portId) => installedPorts.Contains(portId);
+
+    private void RefreshInstalled() => installedPorts = [.. library.ReadAll().Keys];
 
     private void Raise(string portId)
     {

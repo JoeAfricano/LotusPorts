@@ -55,10 +55,20 @@ public sealed class CatalogService(
     private string SourcesFolder => Path.Combine(paths.Data, "catalog-sources");
     private string UserCatalogFile => Path.Combine(paths.Data, "user-catalog.json");
 
-    public GameUserState StateOf(string gameId) =>
-        states.TryGetValue(gameId, out var s)
-            ? new GameUserState(s.Favorite, Installed: false, FileRecognized: false, LastPlayed: null, s.FirstSeenAt, s.DismissedFromNew)
-            : new GameUserState(false, false, false, null, null, false);
+    /// <summary>Set by the app: is any port of this game installed (from the library's active.json)?</summary>
+    public Func<string, bool>? IsInstalled { get; set; }
+
+    /// <summary>Set by the app: was a game file recognized for this game (an exact hash match)?</summary>
+    public Func<string, bool>? HasRecognizedFile { get; set; }
+
+    public GameUserState StateOf(string gameId)
+    {
+        var installed = IsInstalled?.Invoke(gameId) ?? false;
+        var file = HasRecognizedFile?.Invoke(gameId) ?? false;
+        return states.TryGetValue(gameId, out var s)
+            ? new GameUserState(s.Favorite, installed, file, LastPlayed: null, s.FirstSeenAt, s.DismissedFromNew)
+            : new GameUserState(false, installed, file, null, null, false);
+    }
 
     public async Task LoadAsync(CancellationToken cancellationToken = default)
     {

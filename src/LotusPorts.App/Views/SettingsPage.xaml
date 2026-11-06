@@ -167,19 +167,40 @@
                 </StackPanel>
             </Border>
 
-            <!--  Arquivos de jogo / Catálogo: arrive in phases 3 and 1  -->
+            <!--  Arquivos de jogo: watched folders and the files recognized there (phase 3)  -->
             <Border Style="{StaticResource Lotus.Card}">
-                <Grid ColumnSpacing="24">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="Auto" />
-                    </Grid.ColumnDefinitions>
-                    <StackPanel Spacing="4">
-                        <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=SettingsGameFiles}" />
-                        <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=SettingsGameFilesHint}" />
-                    </StackPanel>
-                    <controls:StateBadge Grid.Column="1" Text="{local:Str Key=BadgeInDevelopment}" />
-                </Grid>
+                <StackPanel Spacing="14">
+                    <Grid ColumnSpacing="24">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Spacing="4">
+                            <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=SettingsGameFiles}" />
+                            <TextBlock
+                                Style="{StaticResource Type.Caption}"
+                                Text="{local:Str Key=SettingsGameFilesHint}"
+                                TextWrapping="Wrap" />
+                        </StackPanel>
+                        <StackPanel
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            Orientation="Horizontal"
+                            Spacing="8">
+                            <Button Click="OnAddGameFolder" Content="{local:Str Key=GameFilesAddFolder}" />
+                            <Button
+                                x:Name="ScanButton"
+                                Click="OnScanGameFiles"
+                                Content="{local:Str Key=GameFilesScan}" />
+                        </StackPanel>
+                    </Grid>
+                    <TextBlock
+                        x:Name="GameFilesStatus"
+                        Style="{StaticResource Type.Caption}"
+                        TextWrapping="Wrap" />
+                    <StackPanel x:Name="GameFolderList" Spacing="6" />
+                    <StackPanel x:Name="RecognizedList" Spacing="6" />
+                </StackPanel>
             </Border>
             <Border Style="{StaticResource Lotus.Card}">
                 <Grid ColumnSpacing="24">

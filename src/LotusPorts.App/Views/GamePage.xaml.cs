@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Globalization;
 using Lotus.Design.Controls;
 using LotusPorts.Catalog;
@@ -24,11 +25,18 @@ public sealed partial class GamePage : Page
     private readonly PlayService play = App.Services.GetRequiredService<PlayService>();
     private LibraryGame? game;
     private bool advanced;
+
+    /// <summary>The game shown, so a file dropped on the window is checked against it.</summary>
+    public LibraryGame? Game => game;
     private bool autoUpdate;
 
     public GamePage() => InitializeComponent();
 
-    protected override void OnNavigatedFrom(NavigationEventArgs e) => play.Changed -= OnPlayChanged;
+    protected override void OnNavigatedFrom(NavigationEventArgs e)
+    {
+        play.Changed -= OnPlayChanged;
+        gameFiles.Changed -= OnGameFilesChanged;
+    }
 
     protected override async void OnNavigatedTo(NavigationEventArgs e)
     {
@@ -46,6 +54,7 @@ public sealed partial class GamePage : Page
         // Start at the top even after the sections above were filled in.
         DispatcherQueue.TryEnqueue(() => Scroller.ChangeView(null, 0, null, disableAnimation: true));
         play.Changed += OnPlayChanged;
+        gameFiles.Changed += OnGameFilesChanged;
         RefreshPlay();
         var guide = ShowGuideAsync(game.Recommended.Port);
         await LookupAsync();
@@ -83,7 +92,7 @@ public sealed partial class GamePage : Page
             ?? (g.Alternatives.Count == 0 ? Strings.Get("GameOnlyPort") : Strings.Get("GameReasonMissing"));
 
         // Nothing below has been checked on this PC yet: every tile says so instead of showing OK.
-        Tiles.Children.Add(Tile(0, "\uE8B7", Strings.Get("TileGameFile"), Strings.Get("TileNotVerified"), BadgeTone.Unknown));
+        Tiles.Children.Add(GameFileTile());
         Tiles.Children.Add(Tile(1, "\uE74C", Strings.Get("TileDependencies"), Strings.Get("TileNotVerified"), BadgeTone.Unknown));
         Tiles.Children.Add(Tile(2, null, Strings.Get("TileLotus"), Strings.Get("BadgeInDevelopment"), BadgeTone.Unknown));
 
@@ -98,8 +107,8 @@ public sealed partial class GamePage : Page
     private Border Tile(int column, string? glyph, string title, string state, BadgeTone tone)
     {
         UIElement icon = glyph is null
-            ? new LotusPetal { IsLit = false, Width = 26, Height = 22 }
-            : new FontIcon { Glyph = glyph, FontSize = 22, Foreground = Brush("Text.Secondary") };
+            ? new LotusPetal { IsLit = false, Width = 26, Height = 22, VerticalAlignment = VerticalAlignment.Top }
+            : new FontIcon { Glyph = glyph, FontSize = 22, Foreground = Brush("Text.Secondary"), VerticalAlignment = VerticalAlignment.Top, Margin = new Thickness(0, 2, 0, 0) };
         var tile = new Border
         {
             Style = StyleOf("Lotus.Card"),
@@ -192,6 +201,107 @@ public sealed partial class GamePage : Page
     }
 
     private void OnBack(object sender, RoutedEventArgs e) => App.MainWindow?.GoBack();
+
+    // ---- Game file (phase 3) ------------------------------------------------------------------
+
+    private readonly GameFilesService gameFiles = App.Services.GetRequiredService<GameFilesService>();
+    private readonly StateBadge fileBadge = new();
+    private readonly HyperlinkButton fileAction = new() { Padding = new Thickness(0, 2, 0, 2) };
+
+    private Border GameFileTile()
+    {
+        fileAction.Click += OnAddGameFile;
+        var tile = new Border
+        {
+            Style = StyleOf("Lotus.Card"),
+            Padding = new Thickness(18, 14, 18, 14),
+            Child = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 14,
+                Children =
+                {
+                    new FontIcon { Glyph = "", FontSize = 22, Foreground = Brush("Text.Secondary"), VerticalAlignment = VerticalAlignment.Top, Margin = new Thickness(0, 2, 0, 0) },
+                    new StackPanel { Spacing = 4, Children = { new TextBlock { Text = Strings.Get("TileGameFile"), Style = StyleOf("Type.Body") }, fileBadge, fileAction } },
+                },
+            },
+        };
+        RefreshFileTile();
+        return tile;
+    }
+
+    private void RefreshFileTile()
+    {
+        if (game is null) return;
+        if (gameFiles.MatchFor(game.Id) is { } match)
+        {
+            fileBadge.Text = Strings.Format("TileFileRecognized", match.VersionLabel);
+            fileBadge.Tone = BadgeTone.Ok;
+            fileAction.Content = Strings.Get("TileFileShow");
+            ToolTipService.SetToolTip(fileBadge, gameFiles.Files.FirstOrDefault(f => f.Matches.Contains(match))?.Info.Path);
+            return;
+        }
+        var searched = gameFiles.Folders.Count > 0 && !gameFiles.Scanning;
+        fileBadge.Text = Strings.Get(gameFiles.Scanning ? "TileFileSearching" : searched ? "TileFileMissing" : "TileNotVerified");
+        fileBadge.Tone = searched ? BadgeTone.Warning : BadgeTone.Unknown;
+        fileAction.Content = Strings.Get("PlayAddGameFile");
+    }
+
+    private void OnGameFilesChanged()
+    {
+        if (DispatcherQueue.HasThreadAccess) RefreshFileTile();
+        else DispatcherQueue.TryEnqueue(RefreshFileTile);
+    }
+
+    private async void OnAddGameFile(object sender, RoutedEventArgs e)
+    {
+        if (game is null) return;
+        if (gameFiles.MatchFor(game.Id) is { } match && gameFiles.Files.FirstOrDefault(f => f.Matches.Contains(match)) is { } known)
+        {
+            // Already recognized: show where it is (Explorer selects it; nothing is moved).
+            Process.Start(new ProcessStartInfo("explorer.exe", $"/select,\"{known.Info.Path}\"") { UseShellExecute = true })?.Dispose();
+            return;
+        }
+        var picker = new Windows.Storage.Pickers.FileOpenPicker { SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.ComputerFolder };
+        picker.FileTypeFilter.Add("*");
+        WinRT.Interop.InitializeWithWindow.Initialize(picker, WinRT.Interop.WindowNative.GetWindowHandle(App.MainWindow));
+        if (await picker.PickSingleFileAsync() is not { } file) return;
+        await IdentifyAndTellAsync(file.Path, game, XamlRoot);
+    }
+
+    /// <summary>Reads a file, then says in plain words what it is (also used when a file is dropped on the window).</summary>
+    public static async Task IdentifyAndTellAsync(string path, LibraryGame? forGame, XamlRoot root)
+    {
+        var service = App.Services.GetRequiredService<GameFilesService>();
+        KnownGameFile known;
+        try { known = await service.IdentifyAsync(path); }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
+        {
+            await new ContentDialog { XamlRoot = root, Title = Strings.Get("GameFileUnreadableTitle"), Content = Strings.Get("GameFileUnreadableBody"), CloseButtonText = Strings.Get("Close") }.ShowAsync();
+            return;
+        }
+        var message = GameFileMessages.Describe(known, forGame);
+        var dialog = new ContentDialog
+        {
+            XamlRoot = root,
+            Title = message.Title,
+            Content = new TextBlock { Text = message.Body, TextWrapping = TextWrapping.Wrap, IsTextSelectionEnabled = true },
+            CloseButtonText = Strings.Get("Close"),
+            DefaultButton = ContentDialogButton.Close,
+        };
+        var docs = forGame?.Recommended.Port.Links.Docs;
+        if (!message.Recognized && docs is not null)
+        {
+            dialog.SecondaryButtonText = Strings.Get("GameOpenDocs");
+            dialog.SecondaryButtonClick += async (_, _) => await Windows.System.Launcher.LaunchUriAsync(new Uri(docs));
+        }
+        if (message.Match is { } m && (forGame is null || m.Game.Id != forGame.Id))
+        {
+            dialog.PrimaryButtonText = Strings.Format("GameFileOpenGame", m.Game.Game.Title);
+            dialog.PrimaryButtonClick += (_, _) => App.MainWindow?.Navigate(Pages.Game, m.Game.Id);
+        }
+        await dialog.ShowAsync();
+    }
 
     // ---- How to play: from the port's README on GitHub ----------------------------------------
 

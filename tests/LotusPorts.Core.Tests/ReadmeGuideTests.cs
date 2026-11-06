@@ -72,6 +72,19 @@ public class ReadmeGuideTests
     }
 
     [Fact]
+    public void The_section_in_the_app_language_is_preferred()
+    {
+        var md = "## How to play\nRun it.\n## Como jogar\nAbra o jogo.\n";
+        var pt = ReadmeGuide.Extract(md, Base, "pt-BR")!;
+        pt.SectionTitles.Should().Equal("Como jogar");
+        pt.Portuguese.Should().BeTrue();
+        var en = ReadmeGuide.Extract(md, Base, "en-US")!;
+        en.SectionTitles.Should().Equal("How to play");
+        en.Portuguese.Should().BeFalse();
+        ReadmeGuide.Extract("## Instalação\nBaixe e rode.", Base, "en-US")!.Portuguese.Should().BeTrue("only Portuguese exists, so it is used");
+    }
+
+    [Fact]
     public void No_usage_section_means_no_guide()
     {
         ReadmeGuide.Extract("# Game\n## Features\nFast.\n## Building\nRun make.\n## FAQ\n### How do I set up gyro on Steam Deck?\nLike this.", Base).Should().BeNull();
