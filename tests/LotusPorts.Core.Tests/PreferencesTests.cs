@@ -47,6 +47,26 @@ public class PreferencesTests
     }
 
     [Fact]
+    public async Task Appearance_defaults_to_lotus_and_round_trips()
+    {
+        var store = new MemoryStore();
+        var service = new PreferencesService(store);
+        (await service.LoadAsync()).Theme.Should().Be(AppPreferences.FollowLotus);
+
+        await service.SetAppearanceAsync("Graphite", "violet", null);
+        (await service.LoadAsync()).Should().Match<AppPreferences>(p => p.Theme == "Graphite" && p.Accent == "violet" && p.CustomTheme == null);
+
+        await service.SetAppearanceAsync("Custom", "rose", "LOTUS-THEME:abc");
+        (await service.LoadAsync()).CustomTheme.Should().Be("LOTUS-THEME:abc");
+
+        // "Custom" without a code is not a theme: back to following Lotus.
+        store.Values[SettingKeys.CustomTheme] = "";
+        (await service.LoadAsync()).Theme.Should().Be(AppPreferences.FollowLotus);
+        var act = () => service.SetAppearanceAsync("Neon", "rose", null);
+        await act.Should().ThrowAsync<ArgumentException>();
+    }
+
+    [Fact]
     public async Task Unsupported_language_is_rejected()
     {
         var act = () => new PreferencesService(new MemoryStore()).SetLanguageAsync("fr-FR");

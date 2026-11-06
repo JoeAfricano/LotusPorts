@@ -79,3 +79,8 @@
 - Link `lotusports://` com o app já aberto abre uma segunda janela (ainda não há instância única que repassa o link para a primeira).
 - `System.GetHardwareProfile` está no contrato, mas o primeiro uso (que sugeriria o estilo padrão) ainda não existe.
 - Instalação cruzada (convite discreto para instalar o Lotus, baixando a release oficial com confirmação) não feita: hoje há só o botão "Baixe o Lotus" que abre a página de releases.
+
+## Temas: pendências
+
+- Estúdio de temas (criar e editar tema dentro do Lotus Ports) e fundos animados do Lotus não foram trazidos; temas novos se criam no Lotus e chegam por "Igual ao Lotus" ou pelo código.
+- O motor de temas está copiado do Lotus: qualquer mudança lá precisa ser repetida aqui até o `Lotus.Shared` existir.
