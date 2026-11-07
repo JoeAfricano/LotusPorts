@@ -1954,6 +1954,10 @@
         "by": "José",
         "at": "2026-11-06",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/abc617f05e41620356626cf7761d5143.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -4921,6 +4925,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/7cf56ae5ff50cdc9f4d18f0b943251da.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -11478,6 +11486,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/4a421463135a0f5e506740db32d16b97.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -11531,7 +11543,8 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
-      }
+      },
+      "cover": null
     },
     {
       "schemaVersion": 1,
@@ -11552,6 +11565,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/6babf6559ebc185d02860ca79b1088a5.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -12449,6 +12466,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/f293653ffa5c0e53453463a82401dbec.png",
+        "source": "steamgriddb"
       }
     },
     {

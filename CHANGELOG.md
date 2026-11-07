@@ -1,5 +1,17 @@
 # Novidades
 
+## 0.1.2-alpha (07/11/2026)
+
+**Versão alpha, em pré-teste.** Pode ter falhas; mantenha cópias dos seus saves importantes.
+
+- Visual do Catálogo e do Início refeito: filtros e busca com cantos arredondados de verdade, categorias em cartões com cor e contador, nomes de console inteiros.
+- Mais capas, inclusive de títulos com o ano entre parênteses (como "Sonic the Hedgehog (2013)").
+- Pasta de instalação organizada: os arquivos do programa ficam em `app\`; a pasta mostra só o atalho e o desinstalador.
+- Instalador menor (63 MB): saíram componentes de IA do Windows App SDK que o app não usa.
+- O instalador pede ao app para fechar normalmente antes de atualizar.
+- Atualização automática ligada pelas Releases deste repositório.
+
+
 ## 0.1.1-alpha (07/11/2026)
 
 - Arquivo do jogo entregue ao port: "Colocar na pasta do jogo" nos ports que leem o arquivo da própria pasta.

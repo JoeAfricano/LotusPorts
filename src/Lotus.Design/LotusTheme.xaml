@@ -290,11 +290,11 @@
                         Background="{StaticResource Bg.Surface}"
                         BorderBrush="{StaticResource Stroke.Subtle}"
                         BorderThickness="1"
-                        CornerRadius="999">
+                        CornerRadius="18">
                         <Border
                             x:Name="Fill"
                             Background="{StaticResource Accent.Gradient}"
-                            CornerRadius="999"
+                            CornerRadius="18"
                             Opacity="0" />
                         <ContentPresenter
                             x:Name="Content"

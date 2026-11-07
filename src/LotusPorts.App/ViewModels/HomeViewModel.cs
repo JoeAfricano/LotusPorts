@@ -22,7 +22,25 @@ public sealed record ConsoleTile(Platform Platform, string Label, string CountTe
             : (Microsoft.UI.Xaml.Media.Brush)Microsoft.UI.Xaml.Application.Current.Resources["Bg.Elevated"];
 }
 
-public sealed record GenreChip(string Genre, string Label);
+/// <summary>A category tile on Início: name, how many games, and a color of its own.</summary>
+public sealed record GenreChip(string Genre, string Label, string Name = "", int Count = 0)
+{
+    public string CountText => Count.ToString(CultureInfo.CurrentCulture);
+
+    private static readonly string[] Palette = ["#E0315A", "#8B6FD6", "#3A6FD8", "#1AA3C9", "#3FA79A", "#D9A441", "#D87A3A", "#B0457A"];
+
+    /// <summary>The same genre always gets the same color.</summary>
+    public Microsoft.UI.Xaml.Media.Brush AccentBrush
+    {
+        get
+        {
+            var hex = Palette[(int)((uint)StableHash(Genre) % (uint)Palette.Length)];
+            return new Microsoft.UI.Xaml.Media.SolidColorBrush(Windows.UI.Color.FromArgb(255, Convert.ToByte(hex[1..3], 16), Convert.ToByte(hex[3..5], 16), Convert.ToByte(hex[5..7], 16)));
+        }
+    }
+
+    private static int StableHash(string s) { unchecked { var h = 17; foreach (var c in s.ToLowerInvariant()) h = h * 31 + c; return h; } }
+}
 
 /// <summary>Order used by Catálogo and by the "Ver todos" links on Início.</summary>
 public enum CatalogSort
@@ -131,7 +149,7 @@ public sealed partial class HomeViewModel(CatalogService catalog, PreferencesSer
             Consoles.Add(new ConsoleTile(group.Key, CatalogLabels.Platform(group.Key), Strings.Format(group.Count() == 1 ? "HomeConsoleOne" : "HomeConsoleMany", group.Count())));
         Genres.Clear();
         foreach (var genre in visible.SelectMany(g => g.Game.Genre).GroupBy(x => x, StringComparer.OrdinalIgnoreCase).OrderByDescending(g => g.Count()))
-            Genres.Add(new GenreChip(genre.Key, $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(genre.Key)} ({genre.Count()})"));
+            Genres.Add(new GenreChip(genre.Key, $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(genre.Key)} ({genre.Count()})", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(genre.Key), genre.Count()));
         HasConsoles = Consoles.Count > 0;
         HasGenres = Genres.Count > 0;
     }

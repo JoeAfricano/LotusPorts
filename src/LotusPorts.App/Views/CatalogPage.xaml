@@ -38,7 +38,7 @@
                             Padding="38,8,12,8"
                             VerticalContentAlignment="Center"
                             AutomationProperties.Name="{local:Str Key=CatalogFilter}"
-                            CornerRadius="999"
+                            CornerRadius="18"
                             PlaceholderText="{local:Str Key=CatalogFilter}"
                             TextChanged="OnFilterChanged" />
                         <FontIcon

@@ -199,7 +199,7 @@
                             <UniformGridLayout
                                 ItemsStretch="Fill"
                                 MinColumnSpacing="12"
-                                MinItemWidth="190"
+                                MinItemWidth="215"
                                 MinRowSpacing="12" />
                         </ItemsRepeater.Layout>
                         <ItemsRepeater.ItemTemplate>
@@ -236,7 +236,7 @@
                                             Grid.Column="1"
                                             VerticalAlignment="Center"
                                             Spacing="2">
-                                            <TextBlock FontWeight="SemiBold" Text="{x:Bind Label}" />
+                                            <TextBlock FontWeight="SemiBold" Text="{x:Bind Label}" TextTrimming="CharacterEllipsis" ToolTipService.ToolTip="{x:Bind Label}" />
                                             <TextBlock Style="{StaticResource Type.Caption}" Text="{x:Bind CountText}" />
                                         </StackPanel>
                                     </Grid>
@@ -252,22 +252,55 @@
                         <ItemsRepeater.Layout>
                             <UniformGridLayout
                                 ItemsStretch="Fill"
-                                MinColumnSpacing="10"
-                                MinItemWidth="160"
-                                MinRowSpacing="10" />
+                                MinColumnSpacing="12"
+                                MinItemWidth="200"
+                                MinRowSpacing="12" />
                         </ItemsRepeater.Layout>
                         <ItemsRepeater.ItemTemplate>
                             <DataTemplate x:DataType="vm:GenreChip">
                                 <Button
-                                    Padding="14,8"
+                                    Padding="0"
                                     HorizontalAlignment="Stretch"
+                                    HorizontalContentAlignment="Stretch"
                                     design:Motion.Lift="True"
+                                    AutomationProperties.Name="{x:Bind Label}"
                                     Background="{StaticResource Bg.Surface}"
                                     BorderBrush="{StaticResource Stroke.Subtle}"
                                     Click="OnGenre"
-                                    Content="{x:Bind Label}"
-                                    CornerRadius="999"
-                                    Tag="{x:Bind Genre}" />
+                                    CornerRadius="12"
+                                    Tag="{x:Bind Genre}">
+                                    <Grid Height="56" ColumnSpacing="12">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="4" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <Border
+                                            Margin="0,12,0,12"
+                                            Background="{x:Bind AccentBrush}"
+                                            CornerRadius="0,3,3,0" />
+                                        <TextBlock
+                                            Grid.Column="1"
+                                            VerticalAlignment="Center"
+                                            FontSize="15"
+                                            FontWeight="SemiBold"
+                                            Text="{x:Bind Name}"
+                                            TextTrimming="CharacterEllipsis" />
+                                        <Border
+                                            Grid.Column="2"
+                                            Margin="0,0,14,0"
+                                            Padding="10,3"
+                                            VerticalAlignment="Center"
+                                            Background="{StaticResource Bg.Elevated}"
+                                            CornerRadius="10">
+                                            <TextBlock
+                                                FontSize="12"
+                                                FontWeight="SemiBold"
+                                                Foreground="{StaticResource Text.Secondary}"
+                                                Text="{x:Bind CountText}" />
+                                        </Border>
+                                    </Grid>
+                                </Button>
                             </DataTemplate>
                         </ItemsRepeater.ItemTemplate>
                     </ItemsRepeater>

@@ -145,21 +145,30 @@ internal static partial class Covers
         }
         // Bundles and remasters named "A + B", "A / B" or "A and B": no exact match for the whole name, so the first game
         // of the bundle is tried once (its box art is a fair face for the entry). Marked so it is not asked again.
+        // Also titles with a year or note in parentheses ("Sonic the Hedgehog (2013)"): each simpler name is tried once,
+        // in order, and the first exact match wins. The ":" subtitle is never dropped: "The Legend of Zelda" would bring
+        // the box of another game.
         foreach (var (id, title) in games)
         {
-            if (cache[id] is not JsonObject entry || entry["grid"] is not null || entry["firstPartTried"] is not null) continue;
-            var first = BundleSeparator().Split(title)[0].Trim();
-            entry["firstPartTried"] = true;
-            if (first.Length < 3 || first.Equals(title, StringComparison.OrdinalIgnoreCase)) continue;
-            var found = await SteamGridDb.FindAsync(http, first, Key);
-            var grid = found is { } f ? await SteamGridDb.BestGridAsync(http, f.Id) : null;
-            if (grid is null) continue;
-            entry["sgdbId"] = found!.Value.Id;
-            entry["name"] = found.Value.Name;
-            entry["grid"] = grid;
-            entry["matchedOn"] = first;
-            result[id] = grid;
-            await Task.Delay(250);
+            if (cache[id] is not JsonObject entry || entry["grid"] is not null || entry["variantsTried"] is not null) continue;
+            entry["variantsTried"] = true;
+            var noNotes = Parentheses().Replace(title, "").Trim();
+            var first = BundleSeparator().Split(noNotes)[0].Trim();
+            string[] variants = [noNotes, first];
+            foreach (var variant in variants.Distinct(StringComparer.OrdinalIgnoreCase))
+            {
+                if (variant.Length < 3 || variant.Equals(title, StringComparison.OrdinalIgnoreCase)) continue;
+                var found = await SteamGridDb.FindAsync(http, variant, Key);
+                var grid = found is { } f ? await SteamGridDb.BestGridAsync(http, f.Id) : null;
+                await Task.Delay(250);
+                if (grid is null) continue;
+                entry["sgdbId"] = found!.Value.Id;
+                entry["name"] = found.Value.Name;
+                entry["grid"] = grid;
+                entry["matchedOn"] = variant;
+                result[id] = grid;
+                break;
+            }
         }
         File.WriteAllText(cacheFile, cache.ToJsonString(Pretty) + "\n");
         return result;
@@ -167,6 +176,9 @@ internal static partial class Covers
 
     [GeneratedRegex(@"\s+\+\s+|\s+/\s+|\s+&\s+|\s+and\s+|\s+e\s+|,\s+|\s+-\s+", RegexOptions.IgnoreCase)]
     private static partial Regex BundleSeparator();
+
+    [GeneratedRegex(@"\s*[(\[][^)\]]*[)\]]")]
+    private static partial Regex Parentheses();
 
     private static int RegionRank(string file)
     {

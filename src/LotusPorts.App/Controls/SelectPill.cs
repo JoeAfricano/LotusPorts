@@ -28,7 +28,7 @@ public sealed partial class SelectPill : UserControl
         button = new DropDownButton
         {
             Flyout = menu,
-            CornerRadius = new CornerRadius(999),
+            CornerRadius = new CornerRadius(18),
             Padding = new Thickness(16, 8, 12, 8),
             Background = (Brush)resources["Bg.Surface"],
             BorderBrush = (Brush)resources["Stroke.Subtle"],

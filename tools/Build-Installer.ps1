@@ -21,6 +21,13 @@ $keepLanguages = @('en-US', 'pt-BR')
 Get-ChildItem $out -Directory | Where-Object { $_.Name -match '^[a-z]{2,3}(-[A-Za-z]{2,4})*(-[A-Za-z0-9]{2,8})?$' -and $keepLanguages -notcontains $_.Name -and
     (Get-ChildItem $_.FullName -Recurse -File | Where-Object { $_.Extension -notin '.mui', '.dll' }).Count -eq 0 } | Remove-Item -Recurse -Force
 foreach ($dev in 'createdump.exe', 'Microsoft.DiaSymReader.Native.amd64.dll') { Remove-Item (Join-Path $out $dev) -Force -ErrorAction SilentlyContinue }
+# Windows App SDK AI features (on-device models, DirectML, vision, semantic search): Lotus Ports never uses them, and
+# they are only loaded when an AI API is called. About 49 MB and dozens of files fewer.
+$unusedAi = @('onnxruntime.dll', 'Microsoft.ML.OnnxRuntime.dll', 'DirectML.dll', 'Microsoft.Windows.AI.*', 'Microsoft.Windows.Internal.AI.*',
+    'Microsoft.Windows.*SemanticSearch*', 'Microsoft.Asg.SemanticIndex*', 'Microsoft.Windows.Vision*', 'Microsoft.Windows.Internal.Vision*',
+    'Microsoft.Graphics.Imaging*', 'Microsoft.Graphics.ImagingInternal*', 'Microsoft.Graphics.Internal.Imaging*',
+    'Microsoft.Windows.Workloads*', 'Microsoft.Windows.Private.Workloads*', 'workloads*.json')
+foreach ($pattern in $unusedAi) { Get-ChildItem $out -Filter $pattern -File | Remove-Item -Force }
 $exe = Join-Path $out 'LotusPorts.exe'
 $version = (Get-Item $exe).VersionInfo.ProductVersion -replace '\+.*$', ''
 $numeric = (Get-Item $exe).VersionInfo.FileVersion

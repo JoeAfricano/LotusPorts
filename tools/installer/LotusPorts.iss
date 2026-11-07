@@ -35,7 +35,7 @@ MinVersion=10.0.19041
 OutputDir={#OutputDir}
 OutputBaseFilename=LotusPorts-Setup-{#AppVersion}
 SetupIconFile=..\..\src\LotusPorts.App\Assets\Art\Brand\app.ico
-UninstallDisplayIcon={app}\LotusPorts.exe
+UninstallDisplayIcon={app}\app\LotusPorts.exe
 UninstallDisplayName=Lotus Ports
 Compression=lzma2/ultra64
 SolidCompression=yes
@@ -73,16 +73,35 @@ en.FinishedHeadingLabel=All set. Have a great game!
 Name: "desktopicon"; Description: "{cm:DesktopIcon}"; Flags: checkedonce
 
 [Files]
-Source: "{#SourceDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+; The program lives in {app}\app; the install folder itself only shows a "Lotus Ports" shortcut and the uninstaller.
+Source: "{#SourceDir}\*"; DestDir: "{app}\app"; Flags: ignoreversion recursesubdirs createallsubdirs
+
+[InstallDelete]
+; Versions before 0.1.2 put every file straight in {app}: only those program files leave (player data lives elsewhere).
+Type: files; Name: "{app}\*.dll"
+Type: files; Name: "{app}\*.winmd"
+Type: files; Name: "{app}\*.pri"
+Type: files; Name: "{app}\*.json"
+Type: files; Name: "{app}\LotusPorts.exe"
+Type: files; Name: "{app}\*.pdb"
+Type: files; Name: "{app}\createdump.exe"
+Type: files; Name: "{app}\RestartAgent.exe"
+Type: filesandordirs; Name: "{app}\Assets"
+Type: filesandordirs; Name: "{app}\Lotus.Design"
+Type: filesandordirs; Name: "{app}\Microsoft.UI.Xaml"
+Type: filesandordirs; Name: "{app}\*-*"
+; An older app folder from a previous build of this layout is replaced whole.
+Type: filesandordirs; Name: "{app}\app"
 
 [Icons]
-Name: "{userprograms}\Lotus Ports"; Filename: "{app}\LotusPorts.exe"; WorkingDir: "{app}"
-Name: "{userdesktop}\Lotus Ports"; Filename: "{app}\LotusPorts.exe"; WorkingDir: "{app}"; Tasks: desktopicon
+Name: "{userprograms}\Lotus Ports"; Filename: "{app}\app\LotusPorts.exe"; WorkingDir: "{app}\app"
+Name: "{app}\Lotus Ports"; Filename: "{app}\app\LotusPorts.exe"; WorkingDir: "{app}\app"
+Name: "{userdesktop}\Lotus Ports"; Filename: "{app}\app\LotusPorts.exe"; WorkingDir: "{app}\app"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\LotusPorts.exe"; Description: "{cm:Launch}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\app\LotusPorts.exe"; Description: "{cm:Launch}"; Flags: nowait postinstall skipifsilent
 ; Update started from inside Lotus Ports (/relaunch=1): open it again once the files are in place.
-Filename: "{app}\LotusPorts.exe"; Flags: nowait; Check: RelaunchAfterUpdate
+Filename: "{app}\app\LotusPorts.exe"; Flags: nowait; Check: RelaunchAfterUpdate
 
 [UninstallRun]
 ; The lotusports:// links and the integration entry that Release builds write for Lotus (HKCU only).
