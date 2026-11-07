@@ -1,6 +1,6 @@
 # Novidades
 
-## Próxima versão (em desenvolvimento)
+## 0.1.1-alpha (07/11/2026)
 
 - Arquivo do jogo entregue ao port: "Colocar na pasta do jogo" nos ports que leem o arquivo da própria pasta.
 - A busca automática encontra jogos dentro de arquivos .zip, sem extrair nada que não seja reconhecido.

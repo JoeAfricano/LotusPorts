@@ -95,9 +95,12 @@ begin
   Result := WizardSilent() and (ExpandConstant('{param:relaunch|0}') = '1');
 end;
 
+// Asks the app to close normally first (it finishes writing its database), and forces it only if it is still open.
 procedure CloseLotusPorts();
 var Code: Integer;
 begin
+  Exec(ExpandConstant('{sys}\taskkill.exe'), '/IM LotusPorts.exe', '', SW_HIDE, ewWaitUntilTerminated, Code);
+  if Code = 0 then Sleep(4000);
   Exec(ExpandConstant('{sys}\taskkill.exe'), '/IM LotusPorts.exe /F', '', SW_HIDE, ewWaitUntilTerminated, Code);
   Sleep(600);
 end;
