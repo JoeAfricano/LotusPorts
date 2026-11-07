@@ -308,6 +308,14 @@ PlayTryAgain	Tentar de novo	Try again
 PlayDownloading	Baixando… {0}%	Downloading… {0}%
 PlayExtracting	Instalando… {0}%	Installing… {0}%
 PlayFinishing	Finalizando…	Finishing…
+PlayTimeTotal	Jogado por {0}	Played for {0}
+PlayTimeSessionsOne	1 partida	1 session
+PlayTimeSessionsMany	{0} partidas	{0} sessions
+PlayTimeLast	última vez {0}	last time {0}
+PlayTimeHours	{0} h {1} min	{0} h {1} min
+PlayTimeMinutes	{0} min	{0} min
+PlayTimeToday	hoje	today
+PlayTimeYesterday	ontem	yesterday
 PlayQueued	Na fila: começa quando o download anterior terminar	Queued: starts when the previous download finishes
 PlayRunningSince	Aberto às {0}. Feche o jogo para voltar aqui.	Opened at {0}. Close the game to come back here.
 PlayUpdateAvailable	Nova versão {0} disponível (você tem a {1})	New version {0} available (you have {1})
@@ -711,3 +719,12 @@ AppUpdateFailed	Não foi possível atualizar agora. Nada foi alterado.	Could not
 GameFileFromZip	Ele estava dentro de {0}; o Lotus Ports copiou o arquivo do jogo para esse caminho (o .zip ficou como estava).	It was inside {0}; Lotus Ports copied the game file to that path (the .zip stayed as it was).
 TileFileAccepts	Aceita: {0}. Outra versão não serve; o Lotus Ports confere o arquivo antes.	Accepts: {0}. Another version won't work; Lotus Ports checks the file first.
 TileFileAcceptsUnlisted	Precisa de: {0}. A lista exata de versões ainda não está no catálogo; o próprio port confere ao abrir.	Needs: {0}. The exact version list is not in the catalog yet; the port checks it when it opens.
+FavNewsTitle	Novidades nos seus favoritos	News in your favorites
+FavNewsHint	Jogos favoritos que ganharam uma versão nova desde a última vez que você olhou.	Favorite games that got a new version since you last looked.
+FavNewsVersion	Versão {0} de {1}	Version {0} of {1}
+FavNewsOpen	Ver	View
+PerfBadge	Funciona no seu PC · {0} FPS	Works on your PC · {0} FPS
+PerfBadgeTip	Medido pelo Lotus em {0} (1% low: {1} FPS).	Measured by Lotus on {0} (1% low: {1} FPS).
+ShotsTitle	Imagens do port	Port pictures
+ShotsSource	Imagens publicadas pelos autores no repositório oficial do port.	Pictures published by the authors in the port's official repository.
+ShotsOpen	Abrir imagem em tamanho real	Open picture full size

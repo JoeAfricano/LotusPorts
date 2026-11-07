@@ -352,6 +352,24 @@
                         </StackPanel>
                     </Border>
 
+                    <!--  The port's own screenshots, from its README (loaded when shown; only when there are some)  -->
+                    <Border
+                        x:Name="ShotsCard"
+                        Style="{StaticResource Lotus.Card}"
+                        Visibility="Collapsed">
+                        <StackPanel Spacing="12">
+                            <TextBlock Style="{StaticResource Type.Subtitle}" Text="{local:Str Key=ShotsTitle}" />
+                            <ScrollViewer
+                                HorizontalScrollBarVisibility="Auto"
+                                HorizontalScrollMode="Enabled"
+                                VerticalScrollBarVisibility="Disabled"
+                                VerticalScrollMode="Disabled">
+                                <StackPanel x:Name="Shots" Orientation="Horizontal" Spacing="12" />
+                            </ScrollViewer>
+                            <TextBlock Style="{StaticResource Type.Caption}" Text="{local:Str Key=ShotsSource}" />
+                        </StackPanel>
+                    </Border>
+
                     <!--  How to play: the usage part of the port's README, as the authors wrote it (only when it exists)  -->
                     <Border
                         x:Name="GuideCard"

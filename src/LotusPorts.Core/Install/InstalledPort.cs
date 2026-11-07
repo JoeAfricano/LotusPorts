@@ -27,7 +27,9 @@ public sealed record InstalledPort(
     bool LastLaunchFailed,
     string? PinnedTag = null,
     LastRun? LastRun = null,
-    AppliedStyle? Style = null)
+    AppliedStyle? Style = null,
+    double PlayedSeconds = 0,
+    int Sessions = 0)
 {
     public const int CurrentSchema = 1;
 

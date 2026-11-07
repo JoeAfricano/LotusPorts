@@ -96,6 +96,16 @@
                     </TransitionCollection>
                 </StackPanel.ChildrenTransitions>
 
+                <Border
+                    x:Name="FavoriteNewsCard"
+                    Style="{StaticResource Lotus.Card}"
+                    Visibility="Collapsed">
+                    <StackPanel Spacing="12">
+                        <controls:SectionHeader Glyph="&#xEB52;" Title="{local:Str Key=FavNewsTitle}" Subtitle="{local:Str Key=FavNewsHint}" />
+                        <StackPanel x:Name="FavoriteNewsList" Spacing="8" />
+                    </StackPanel>
+                </Border>
+
                 <Border Style="{StaticResource Lotus.Card}" Visibility="{x:Bind ViewModel.IsEmpty, Mode=OneWay}">
                     <controls:EmptyState
                         Illustration="Assets/Art/Illustrations/biblioteca-vazia.png"

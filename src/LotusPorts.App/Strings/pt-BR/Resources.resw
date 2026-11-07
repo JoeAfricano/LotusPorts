@@ -314,6 +314,14 @@
   <data name="PlayDownloading" xml:space="preserve"><value>Baixando… {0}%</value></data>
   <data name="PlayExtracting" xml:space="preserve"><value>Instalando… {0}%</value></data>
   <data name="PlayFinishing" xml:space="preserve"><value>Finalizando…</value></data>
+  <data name="PlayTimeTotal" xml:space="preserve"><value>Jogado por {0}</value></data>
+  <data name="PlayTimeSessionsOne" xml:space="preserve"><value>1 partida</value></data>
+  <data name="PlayTimeSessionsMany" xml:space="preserve"><value>{0} partidas</value></data>
+  <data name="PlayTimeLast" xml:space="preserve"><value>última vez {0}</value></data>
+  <data name="PlayTimeHours" xml:space="preserve"><value>{0} h {1} min</value></data>
+  <data name="PlayTimeMinutes" xml:space="preserve"><value>{0} min</value></data>
+  <data name="PlayTimeToday" xml:space="preserve"><value>hoje</value></data>
+  <data name="PlayTimeYesterday" xml:space="preserve"><value>ontem</value></data>
   <data name="PlayQueued" xml:space="preserve"><value>Na fila: começa quando o download anterior terminar</value></data>
   <data name="PlayRunningSince" xml:space="preserve"><value>Aberto às {0}. Feche o jogo para voltar aqui.</value></data>
   <data name="PlayUpdateAvailable" xml:space="preserve"><value>Nova versão {0} disponível (você tem a {1})</value></data>
@@ -717,4 +725,13 @@
   <data name="GameFileFromZip" xml:space="preserve"><value>Ele estava dentro de {0}; o Lotus Ports copiou o arquivo do jogo para esse caminho (o .zip ficou como estava).</value></data>
   <data name="TileFileAccepts" xml:space="preserve"><value>Aceita: {0}. Outra versão não serve; o Lotus Ports confere o arquivo antes.</value></data>
   <data name="TileFileAcceptsUnlisted" xml:space="preserve"><value>Precisa de: {0}. A lista exata de versões ainda não está no catálogo; o próprio port confere ao abrir.</value></data>
+  <data name="FavNewsTitle" xml:space="preserve"><value>Novidades nos seus favoritos</value></data>
+  <data name="FavNewsHint" xml:space="preserve"><value>Jogos favoritos que ganharam uma versão nova desde a última vez que você olhou.</value></data>
+  <data name="FavNewsVersion" xml:space="preserve"><value>Versão {0} de {1}</value></data>
+  <data name="FavNewsOpen" xml:space="preserve"><value>Ver</value></data>
+  <data name="PerfBadge" xml:space="preserve"><value>Funciona no seu PC · {0} FPS</value></data>
+  <data name="PerfBadgeTip" xml:space="preserve"><value>Medido pelo Lotus em {0} (1% low: {1} FPS).</value></data>
+  <data name="ShotsTitle" xml:space="preserve"><value>Imagens do port</value></data>
+  <data name="ShotsSource" xml:space="preserve"><value>Imagens publicadas pelos autores no repositório oficial do port.</value></data>
+  <data name="ShotsOpen" xml:space="preserve"><value>Abrir imagem em tamanho real</value></data>
 </root>

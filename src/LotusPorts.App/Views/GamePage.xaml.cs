@@ -64,6 +64,7 @@ public sealed partial class GamePage : Page
         RefreshStyle();
         RefreshMods();
         var guide = ShowGuideAsync(game.Recommended.Port);
+        _ = ShowScreenshotsAsync(game.Recommended.Port);
         await LookupAsync();
         RefreshPlay();
         await guide;
@@ -86,6 +87,7 @@ public sealed partial class GamePage : Page
         Badges.Children.Add(new StateBadge { Text = CatalogLabels.Status(port.Status), Tone = CatalogLabels.StatusTone(port.Status) });
         Badges.Children.Add(new StateBadge { Text = CatalogLabels.Platform(g.Game.OriginalPlatform), Tone = BadgeTone.Accent });
         if (CatalogLabels.Origin(g) is { } origin) Badges.Children.Add(new StateBadge { Text = origin, Tone = BadgeTone.Unknown });
+        _ = ShowPerformanceBadgeAsync(g.Id);
 
         var favorite = catalog.StateOf(g.Id).Favorite;
         FavoriteButton.IsChecked = favorite;
@@ -406,6 +408,7 @@ public sealed partial class GamePage : Page
 
             var sessions = await bridge.SessionsAsync(g.Id);
             var report = sessions.Count == 0 ? null : await bridge.ReportAsync(sessions[0]);
+            if (report is { Measured: true, AverageFps: { } fps }) await RememberPerformanceAsync(g.Id, fps, report.OnePercentLowFps);
             ExperienceSession.Text = report is null ? Strings.Get(sessions.Count == 0 ? "ExperienceNoSession" : "ExperienceNoReport") : SessionLine(report);
             LotusReportLink.Visibility = sessions.Count == 0 ? Visibility.Collapsed : Visibility.Visible;
             if (sessions.Count > 0) LotusReportLink.NavigateUri = new Uri("lotus://session/" + Uri.EscapeDataString(sessions[0]));
@@ -546,6 +549,39 @@ public sealed partial class GamePage : Page
         fileAction.Content = Strings.Get("PlayAddGameFile");
     }
 
+    // ---- "Funciona no seu PC": the last FPS Lotus measured for this game, kept on this PC ----------
+
+    private sealed record MeasuredPerformance(double Fps, double? Low, DateTimeOffset At);
+
+    private static string PerformanceKey(string gameId) => "performance." + gameId;
+
+    private static async Task RememberPerformanceAsync(string gameId, double fps, double? low)
+    {
+        var json = System.Text.Json.JsonSerializer.Serialize(new MeasuredPerformance(Math.Round(fps, 1), low, DateTimeOffset.UtcNow));
+        await App.Services.GetRequiredService<ISettingsStore>().SetAsync(PerformanceKey(gameId), json);
+    }
+
+    /// <summary>Shown only for a real measurement (Lotus never sends invented numbers): "Funciona no seu PC · 58 FPS".</summary>
+    private async Task ShowPerformanceBadgeAsync(string gameId)
+    {
+        MeasuredPerformance? measured;
+        try
+        {
+            measured = await App.Services.GetRequiredService<ISettingsStore>().GetAsync(PerformanceKey(gameId)) is { } json
+                ? System.Text.Json.JsonSerializer.Deserialize<MeasuredPerformance>(json) : null;
+        }
+        catch (System.Text.Json.JsonException) { measured = null; }
+        if (measured is null || game?.Id != gameId) return;
+        var badge = new StateBadge
+        {
+            Text = Strings.Format("PerfBadge", measured.Fps.ToString("0", CultureInfo.CurrentCulture)),
+            Tone = measured.Fps >= 50 ? BadgeTone.Ok : measured.Fps >= 28 ? BadgeTone.Warning : BadgeTone.Failure,
+        };
+        ToolTipService.SetToolTip(badge, Strings.Format("PerfBadgeTip", measured.At.ToLocalTime().ToString("d", CultureInfo.CurrentCulture),
+            measured.Low is { } low ? low.ToString("0", CultureInfo.CurrentCulture) : "—"));
+        Badges.Children.Add(badge);
+    }
+
     private readonly GameFilePlacer placer = App.Services.GetRequiredService<GameFilePlacer>();
 
     private bool PlacedHere(string? source) =>
@@ -628,6 +664,35 @@ public sealed partial class GamePage : Page
     }
 
     // ---- How to play: from the port's README on GitHub ----------------------------------------
+
+    /// <summary>Up to six pictures from the port's README; a click opens the picture in the browser, full size.</summary>
+    private async Task ShowScreenshotsAsync(Port port)
+    {
+        IReadOnlyList<Uri> shots;
+        try { shots = await App.Services.GetRequiredService<PortGuideService>().ScreenshotsAsync(port); }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException) { shots = []; }
+        if (game?.Recommended.Port.Id != port.Id) return;
+        Shots.Children.Clear();
+        foreach (var url in shots)
+        {
+            var image = new Image { Stretch = Stretch.UniformToFill, Source = new Microsoft.UI.Xaml.Media.Imaging.BitmapImage(url) { DecodePixelHeight = 360 } };
+            var tile = new Button
+            {
+                Padding = new Thickness(0),
+                CornerRadius = new CornerRadius(10),
+                Width = 320,
+                Height = 180,
+                Content = new Border { CornerRadius = new CornerRadius(10), Child = image },
+            };
+            image.ImageFailed += (_, _) => Shots.Children.Remove(tile); // a broken or blocked picture just leaves
+            AutomationProperties.SetName(tile, Strings.Get("ShotsOpen"));
+            var target = url;
+            tile.Click += async (_, _) => await Windows.System.Launcher.LaunchUriAsync(target);
+            Lotus.Design.Motion.Attach(tile, lift: 3f, grow: 1.02f);
+            Shots.Children.Add(tile);
+        }
+        ShotsCard.Visibility = shots.Count == 0 ? Visibility.Collapsed : Visibility.Visible;
+    }
 
     private async Task ShowGuideAsync(Port port)
     {
@@ -789,7 +854,8 @@ public sealed partial class GamePage : Page
     private static string? DetailText(PortRuntime s)
     {
         if (s.Progress is not null || s.RunningSince is not null) return null;
-        if (s.Installed is { } i) return Strings.Get(i.Active.Integrity == CheckState.Ok ? "PlayCheckedOk" : "PlayCheckedNone");
+        if (s.Installed is { } i)
+            return Strings.Get(i.Active.Integrity == CheckState.Ok ? "PlayCheckedOk" : "PlayCheckedNone") + (PlayTime.Line(i) is { } played ? "\n" + played : "");
         if (s.Latest is { FromCatalog: true, RateLimitedUntil: { } until })
             return Strings.Format("PlayCatalogVersionNote", until.ToLocalTime().ToString("t", CultureInfo.CurrentCulture));
         if (s.Latest?.Choice is { } c) return Strings.Get(c.Asset.Sha256 is null ? "PlayWillNotCheck" : "PlayWillCheck");

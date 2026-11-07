@@ -41,6 +41,16 @@ public sealed class PortGuideService(AppPaths paths, GitHubClient github, TimePr
         return original is null || source is null ? null : new PortGuideResult(original, source);
     }
 
+    /// <summary>Screenshots the port shows in its own README (addresses only; loaded when shown).</summary>
+    public async Task<IReadOnlyList<Uri>> ScreenshotsAsync(Port port, CancellationToken cancellationToken = default)
+    {
+        ArgumentNullException.ThrowIfNull(port);
+        var (markdown, _) = await ReadmeAsync(port, cancellationToken).ConfigureAwait(false);
+        if (markdown is null) return [];
+        var rawBase = new Uri($"https://raw.githubusercontent.com/{Uri.EscapeDataString(port.Repo.Owner)}/{Uri.EscapeDataString(port.Repo.Name)}/HEAD/");
+        return ReadmeImages.Extract(markdown, rawBase);
+    }
+
     private async Task<(string? Markdown, string? Name)> ReadmeAsync(Port port, CancellationToken cancellationToken)
     {
         var key = $"{port.Repo.Owner}__{port.Repo.Name}".ToLowerInvariant();

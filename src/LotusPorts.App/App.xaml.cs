@@ -73,6 +73,7 @@ public partial class App : Application
             await host.Services.GetRequiredService<LotusBridge>().StartAsync(dispatcher);
             await host.StartAsync();
             play.StartDailyUpdateCheck();
+            host.Services.GetRequiredService<FavoriteNews>().Start(dispatcher);
 
             window = new MainWindow(StartPage());
             var server = StartIntegrationServer(dispatcher);
@@ -130,6 +131,7 @@ public partial class App : Application
         services.AddSingleton<LotusPorts.Infrastructure.GameFiles.GameFileScanner>();
         services.AddSingleton<GameFilesService>();
         services.AddSingleton<LiveState>();
+        services.AddSingleton<FavoriteNews>();
         services.AddSingleton<LotusPorts.Infrastructure.Updates.AppUpdateService>();
         services.AddSingleton<LotusPorts.Integration.ILotusDiscovery, LotusPorts.Integration.RegistryLotusDiscovery>();
         services.AddSingleton<LotusPorts.Integration.IPeerValidator, LotusPorts.Integration.ProcessPeerValidator>();

@@ -86,8 +86,11 @@ public sealed class PortInstaller(PortLibrary library, AppPaths paths, GitHubCli
             {
                 Directory.CreateDirectory(downloads);
                 var size = choice.Asset.Size;
+                // Reported right away (not through Progress<T>, which posts later): a fast download could otherwise
+                // show "Extraindo" before "Baixando" or skip it.
+                progress?.Report(new(InstallStage.Downloading, 0));
                 var sha = await github.DownloadAsync(choice.Asset, part,
-                    new Progress<long>(done => progress?.Report(new(InstallStage.Downloading, size > 0 ? (double)done / size : 0))), ct).ConfigureAwait(false);
+                    new ImmediateProgress<long>(done => progress?.Report(new(InstallStage.Downloading, size > 0 ? (double)done / size : 0))), ct).ConfigureAwait(false);
                 var integrity = Verify(sha, choice.Asset, port.Evidence);
                 if (integrity == CheckState.Failure)
                     throw new InstallException(InstallFailure.IntegrityMismatch, "The downloaded file does not match the one announced.");
@@ -200,7 +203,13 @@ public sealed class PortInstaller(PortLibrary library, AppPaths paths, GitHubCli
     {
         if (library.Read(portId) is not { } manifest) return null;
         var run = new LastRun(time.GetUtcNow(), exitCode, Math.Round(ranFor.TotalSeconds, 1), manifest.PendingFirstLaunch, manifest.ActiveTag);
-        var updated = manifest with { PendingFirstLaunch = false, LastLaunchFailed = run.FailedQuickly, LastRun = run };
+        // Time played counts real sessions only: a game that closed with an error right away was not played.
+        var played = run.FailedQuickly ? 0 : run.Seconds;
+        var updated = manifest with
+        {
+            PendingFirstLaunch = false, LastLaunchFailed = run.FailedQuickly, LastRun = run,
+            PlayedSeconds = manifest.PlayedSeconds + played, Sessions = manifest.Sessions + (run.FailedQuickly ? 0 : 1),
+        };
         library.Write(updated);
         return updated;
     }
@@ -285,4 +294,10 @@ public sealed class PortInstaller(PortLibrary library, AppPaths paths, GitHubCli
         try { PortLibrary.DeleteFolder(folder); }
         catch (Exception ex) when (ex is IOException or UnauthorizedAccessException) { logger.LogWarning(ex, "Could not delete an old folder"); }
     }
+}
+
+/// <summary>Calls the handler on the reporting thread, in order (the caller's own progress decides where it lands).</summary>
+internal sealed class ImmediateProgress<T>(Action<T> handler) : IProgress<T>
+{
+    public void Report(T value) => handler(value);
 }
