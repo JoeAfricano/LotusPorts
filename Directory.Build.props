@@ -11,7 +11,7 @@
   <!-- Lotus Ports version: shown in Engrenagem > Sobre and used by the future installer. -->
   <PropertyGroup>
     <Version>0.1.0</Version>
-    <InformationalVersion>0.1.0-dev</InformationalVersion>
+    <InformationalVersion>0.1.0-alpha</InformationalVersion>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <Product>Lotus Ports</Product>
     <Company>Joeafricano</Company>
