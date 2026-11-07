@@ -36,7 +36,18 @@
       "kind": "disc-image",
       "format": "x360-disc",
       "canonicalFormat": null,
-      "acceptedVersions": [],
+      "acceptedVersions": [
+        {
+          "region": "EUA e Europa",
+          "version": "0.0.0.1 (disco original)",
+          "fileName": null,
+          "sha1": "075f43709e9c9a095e099ab5056cc04b768288d1",
+          "md5": "35d671ed4e9ead9e6b288a3441b6c8f9",
+          "sha256": null,
+          "crc32": null,
+          "source": "https://github.com/TekRantGaming/king-kong-recompiled#readme"
+        }
+      ],
       "officialDocsUrl": "https://github.com/TekRantGaming/king-kong-recompiled#readme"
     }
   ],
