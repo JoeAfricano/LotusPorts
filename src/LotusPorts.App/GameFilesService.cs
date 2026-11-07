@@ -57,6 +57,7 @@ public sealed class GameFilesService(GameFileStore store, GameFileScanner scanne
             var progress = new Progress<ScanProgress>(p => { Progress = p; Raise(); });
             await scanner.ScanAsync(Folders, progress, scan.Token);
             Apply(await store.ListAsync());
+            await ExtractMatchedFromZipsAsync(scan.Token);
             LastScan = DateTimeOffset.Now;
         }
         catch (OperationCanceledException)
@@ -142,6 +143,32 @@ public sealed class GameFilesService(GameFileStore store, GameFileScanner scanne
             ?? new KnownGameFile(new GameFileInfo(zip, zipInfo.Length, zipInfo.LastWriteTimeUtc, GameFileFormat.Unknown, null, null, null), [], zip);
     }
 
+    /// <summary>
+    /// After a search: a game recognized inside a .zip is copied out once (only that file), because ports need the plain
+    /// file. Games already available as a plain file are left alone; the .zip is only read.
+    /// </summary>
+    private async Task ExtractMatchedFromZipsAsync(CancellationToken cancellationToken)
+    {
+        var plain = files.Where(f => f.FromZip is null).SelectMany(f => f.Matches).Select(m => m.Game.Id).ToHashSet();
+        var extracted = false;
+        foreach (var file in files.Where(f => f.FromZip is not null && f.Matches.Count > 0 && f.Matches.Any(m => !plain.Contains(m.Game.Id))).ToList())
+        {
+            try
+            {
+                var copy = await Task.Run(() => GameFileZip.ExtractEntryAsync(file.Info.Path, ExtractedFolder, cancellationToken), cancellationToken);
+                var info = await Task.Run(() => GameFileReader.ReadAsync(copy, cancellationToken: cancellationToken), cancellationToken);
+                await store.SaveAsync(info, cancellationToken);
+                foreach (var m in file.Matches) plain.Add(m.Game.Id);
+                extracted = true;
+            }
+            catch (Exception ex) when (ex is IOException or UnauthorizedAccessException or InvalidDataException)
+            {
+                logger.LogInformation(ex, "Could not copy a recognized game out of its .zip");
+            }
+        }
+        if (extracted) Apply(await store.ListAsync(cancellationToken));
+    }
+
     private void TryDelete(string file)
     {
         try { File.Delete(file); }
@@ -151,8 +178,10 @@ public sealed class GameFilesService(GameFileStore store, GameFileScanner scanne
     private void Apply(IReadOnlyList<GameFileInfo> infos)
     {
         var games = catalog.Library.Games;
-        files = infos.Where(i => i.Format != GameFileFormat.Unknown && File.Exists(i.Path))
-            .Select(i => new KnownGameFile(i, i.Hashes is { } h ? GameFileMatcher.Match(games, h) : []))
+        // Plain files first: a game found inside a .zip is also kept as an extracted copy, and the copy is what ports use.
+        files = infos.Where(i => i.Format != GameFileFormat.Unknown && File.Exists(GameFileZip.ContainerOf(i.Path)))
+            .OrderBy(i => GameFileZip.IsInsideZip(i.Path) ? 1 : 0)
+            .Select(i => new KnownGameFile(i, i.Hashes is { } h ? GameFileMatcher.Match(games, h) : [], GameFileZip.IsInsideZip(i.Path) ? GameFileZip.ContainerOf(i.Path) : null))
             .ToList();
         byGame = files.SelectMany(f => f.Matches).GroupBy(m => m.Game.Id).ToDictionary(g => g.Key, g => g.First());
     }

@@ -372,6 +372,13 @@ GameFilesSearching	Procurando arquivos de jogo…	Looking for game files…
 GameFilesSummary	{0} arquivos de jogo encontrados, {1} reconhecidos. Nada sai do seu PC.	{0} game files found, {1} recognized. Nothing leaves your PC.
 TileFileRecognized	Reconhecido: {0}	Recognized: {0}
 TileFileShow	Mostrar arquivo	Show file
+TileFilePlace	Colocar na pasta do jogo	Put in the game folder
+TileFilePlaced	Na pasta do jogo · mostrar	In the game folder · show
+PlaceTitle	Colocar o arquivo na pasta do jogo?	Put the file in the game folder?
+PlaceBody	O Lotus Ports vai copiar {0} para {1}, com o nome que o port espera. O seu arquivo fica como está; se já houver outro arquivo lá, ele vai para a pasta de backups do Lotus Ports.	Lotus Ports will copy {0} to {1}, with the name the port expects. Your file stays as it is; if another file is already there, it goes to Lotus Ports' backup folder.
+PlaceConfirm	Copiar	Copy
+PlaceFailedTitle	Não foi possível copiar	Could not copy
+PlaceFailedBody	O arquivo não foi colocado na pasta do jogo. Confira se o jogo está fechado e se há espaço no disco.	The file was not put in the game folder. Check that the game is closed and there is disk space.
 TileFileSearching	Procurando…	Searching…
 TileFileMissing	Não encontrado	Not found
 DropIdentify	Identificar arquivo do jogo	Identify game file
@@ -390,7 +397,7 @@ GameFileTooLargeBody	O arquivo é grande demais para ser conferido aqui; o próp
 GameFileOtherVersionBody	Este arquivo é de outra versão. Este jogo aceita: {0}.	This file is a different version. This game accepts: {0}.
 GameFileNoListBody	O catálogo ainda não tem a lista de versões aceitas por este port, então o arquivo não pôde ser confirmado. O próprio port confere quando você abrir o jogo.	The catalog doesn't list the versions this port accepts yet, so the file could not be confirmed. The port checks it when you open the game.
 GameFileHintSelect	Na primeira vez que o jogo abrir, escolha este arquivo no menu: {0}	The first time the game opens, pick this file in its menu: {0}
-GameFileHintBeside	Este port lê o arquivo na pasta do jogo; copiar para lá chega numa próxima etapa.	This port reads the file from the game folder; copying it there comes in a later step.
+GameFileHintBeside	Este port lê o arquivo na pasta do jogo: na página do jogo, use "Colocar na pasta do jogo" e o Lotus Ports copia para o lugar certo.	This port reads the file from the game folder: on the game page, use "Put in the game folder" and Lotus Ports copies it to the right place.
 GameFileHintDocs	Veja na documentação oficial do port como usar o arquivo.	See the port's official documentation for how to use the file.
 GameFileUnreadableTitle	Não foi possível ler o arquivo	The file could not be read
 GameFileUnreadableBody	O Windows não deixou ler este arquivo. Ele pode estar em uso ou numa pasta sem permissão.	Windows didn't allow reading this file. It may be in use or in a folder without permission.

@@ -378,6 +378,13 @@
   <data name="GameFilesSummary" xml:space="preserve"><value>{0} game files found, {1} recognized. Nothing leaves your PC.</value></data>
   <data name="TileFileRecognized" xml:space="preserve"><value>Recognized: {0}</value></data>
   <data name="TileFileShow" xml:space="preserve"><value>Show file</value></data>
+  <data name="TileFilePlace" xml:space="preserve"><value>Put in the game folder</value></data>
+  <data name="TileFilePlaced" xml:space="preserve"><value>In the game folder · show</value></data>
+  <data name="PlaceTitle" xml:space="preserve"><value>Put the file in the game folder?</value></data>
+  <data name="PlaceBody" xml:space="preserve"><value>Lotus Ports will copy {0} to {1}, with the name the port expects. Your file stays as it is; if another file is already there, it goes to Lotus Ports&apos; backup folder.</value></data>
+  <data name="PlaceConfirm" xml:space="preserve"><value>Copy</value></data>
+  <data name="PlaceFailedTitle" xml:space="preserve"><value>Could not copy</value></data>
+  <data name="PlaceFailedBody" xml:space="preserve"><value>The file was not put in the game folder. Check that the game is closed and there is disk space.</value></data>
   <data name="TileFileSearching" xml:space="preserve"><value>Searching…</value></data>
   <data name="TileFileMissing" xml:space="preserve"><value>Not found</value></data>
   <data name="DropIdentify" xml:space="preserve"><value>Identify game file</value></data>
@@ -396,7 +403,7 @@
   <data name="GameFileOtherVersionBody" xml:space="preserve"><value>This file is a different version. This game accepts: {0}.</value></data>
   <data name="GameFileNoListBody" xml:space="preserve"><value>The catalog doesn&apos;t list the versions this port accepts yet, so the file could not be confirmed. The port checks it when you open the game.</value></data>
   <data name="GameFileHintSelect" xml:space="preserve"><value>The first time the game opens, pick this file in its menu: {0}</value></data>
-  <data name="GameFileHintBeside" xml:space="preserve"><value>This port reads the file from the game folder; copying it there comes in a later step.</value></data>
+  <data name="GameFileHintBeside" xml:space="preserve"><value>This port reads the file from the game folder: on the game page, use &quot;Put in the game folder&quot; and Lotus Ports copies it to the right place.</value></data>
   <data name="GameFileHintDocs" xml:space="preserve"><value>See the port&apos;s official documentation for how to use the file.</value></data>
   <data name="GameFileUnreadableTitle" xml:space="preserve"><value>The file could not be read</value></data>
   <data name="GameFileUnreadableBody" xml:space="preserve"><value>Windows didn&apos;t allow reading this file. It may be in use or in a folder without permission.</value></data>

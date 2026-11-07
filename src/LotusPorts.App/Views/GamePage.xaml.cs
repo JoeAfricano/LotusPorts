@@ -534,14 +534,40 @@ public sealed partial class GamePage : Page
         {
             fileBadge.Text = Strings.Format("TileFileRecognized", match.VersionLabel);
             fileBadge.Tone = BadgeTone.Ok;
-            fileAction.Content = Strings.Get("TileFileShow");
-            ToolTipService.SetToolTip(fileBadge, gameFiles.Files.FirstOrDefault(f => f.Matches.Contains(match))?.Info.Path);
+            var source = gameFiles.Files.FirstOrDefault(f => f.Matches.Contains(match))?.Info.Path;
+            ToolTipService.SetToolTip(fileBadge, source);
+            // Ports that read the file from their own folder: one click puts it there.
+            fileAction.Content = Strings.Get(NeedsPlacing(source) ? "TileFilePlace" : PlacedHere(source) ? "TileFilePlaced" : "TileFileShow");
             return;
         }
         var searched = gameFiles.Folders.Count > 0 && !gameFiles.Scanning;
         fileBadge.Text = Strings.Get(gameFiles.Scanning ? "TileFileSearching" : searched ? "TileFileMissing" : "TileNotVerified");
         fileBadge.Tone = searched ? BadgeTone.Warning : BadgeTone.Unknown;
         fileAction.Content = Strings.Get("PlayAddGameFile");
+    }
+
+    private readonly GameFilePlacer placer = App.Services.GetRequiredService<GameFilePlacer>();
+
+    private bool PlacedHere(string? source) =>
+        source is not null && !LotusPorts.Core.GameFiles.GameFileZip.IsInsideZip(source) && game is not null && GameFilePlacer.Offers(game.Recommended.Port)
+        && play.StateOf(game.Recommended.Port).Installed is { } installed && placer.IsPlaced(game.Recommended.Port, installed, source);
+
+    private bool NeedsPlacing(string? source) =>
+        source is not null && !LotusPorts.Core.GameFiles.GameFileZip.IsInsideZip(source) && game is not null && GameFilePlacer.Offers(game.Recommended.Port)
+        && play.StateOf(game.Recommended.Port).Installed is { } installed && !placer.IsPlaced(game.Recommended.Port, installed, source);
+
+    private async Task PlaceGameFileAsync(KnownGameFile known)
+    {
+        var port = game!.Recommended.Port;
+        if (play.StateOf(port).Installed is not { } installed) return;
+        var target = placer.TargetPath(port, installed, known.Info.Path);
+        if (!await Confirm(Strings.Get("PlaceTitle"), Strings.Format("PlaceBody", Path.GetFileName(known.Info.Path), target), Strings.Get("PlaceConfirm"))) return;
+        try { await placer.PlaceAsync(port, installed, known.Info); }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException or InvalidDataException or InvalidOperationException)
+        {
+            await new ContentDialog { XamlRoot = XamlRoot, Title = Strings.Get("PlaceFailedTitle"), Content = Strings.Get("PlaceFailedBody"), CloseButtonText = Strings.Get("Close") }.ShowAsync();
+        }
+        RefreshFileTile();
     }
 
     private void OnGameFilesChanged()
@@ -555,8 +581,9 @@ public sealed partial class GamePage : Page
         if (game is null) return;
         if (gameFiles.MatchFor(game.Id) is { } match && gameFiles.Files.FirstOrDefault(f => f.Matches.Contains(match)) is { } known)
         {
+            if (NeedsPlacing(known.Info.Path)) { await PlaceGameFileAsync(known); return; }
             // Already recognized: show where it is (Explorer selects it; nothing is moved).
-            Process.Start(new ProcessStartInfo("explorer.exe", $"/select,\"{known.Info.Path}\"") { UseShellExecute = true })?.Dispose();
+            Process.Start(new ProcessStartInfo("explorer.exe", $"/select,\"{LotusPorts.Core.GameFiles.GameFileZip.ContainerOf(known.Info.Path)}\"") { UseShellExecute = true })?.Dispose();
             return;
         }
         var picker = new Windows.Storage.Pickers.FileOpenPicker { SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.ComputerFolder };

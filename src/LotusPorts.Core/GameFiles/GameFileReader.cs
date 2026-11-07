@@ -53,6 +53,14 @@ public static class GameFileReader
     public static bool IsCandidate(string path) =>
         Extensions.ContainsKey(System.IO.Path.GetExtension(path)) || string.Equals(System.IO.Path.GetExtension(path), ".rom", StringComparison.OrdinalIgnoreCase);
 
+    /// <summary>N64 by content; the rest by extension. A .z64 name without N64 content is Unknown.</summary>
+    public static GameFileFormat FormatOf(string name, N64ByteOrder? order)
+    {
+        if (order is not null) return GameFileFormat.N64;
+        var format = Extensions.GetValueOrDefault(System.IO.Path.GetExtension(name), GameFileFormat.Unknown);
+        return format == GameFileFormat.N64 ? GameFileFormat.Unknown : format;
+    }
+
     public static async Task<GameFileInfo> ReadAsync(string path, long maxHashBytes = DefaultMaxHashBytes, CancellationToken cancellationToken = default)
     {
         var info = new FileInfo(path);
@@ -60,8 +68,7 @@ public static class GameFileReader
         var head = new byte[N64Rom.HeaderSize];
         var headLength = await stream.ReadAtLeastAsync(head, head.Length, throwOnEndOfStream: false, cancellationToken).ConfigureAwait(false);
         var order = N64Rom.Detect(head.AsSpan(0, headLength));
-        var format = order is not null ? GameFileFormat.N64 : Extensions.GetValueOrDefault(info.Extension, GameFileFormat.Unknown);
-        if (format == GameFileFormat.N64 && order is null) format = GameFileFormat.Unknown; // .z64 name without N64 content
+        var format = FormatOf(info.Name, order);
 
         N64Header? header = null;
         if (order is { } o)

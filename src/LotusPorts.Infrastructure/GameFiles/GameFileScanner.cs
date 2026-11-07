@@ -120,6 +120,35 @@ public sealed class GameFileScanner(GameFileStore store, ILogger<GameFileScanner
             cancellationToken.ThrowIfCancellationRequested();
             if (!seenPaths.Add(file.FullName)) continue;
             seen++;
+            if (GameFileZip.IsZip(file.Name))
+            {
+                // Game files inside a .zip are read where they are (nothing extracted); unchanged .zips come from the cache.
+                var prefix = file.FullName + GameFileZip.Separator;
+                var inside = cached.Values.Where(c => c.Path.StartsWith(prefix, StringComparison.OrdinalIgnoreCase)).ToList();
+                if (inside.Count > 0 && inside.All(c => c.ModifiedUtc == file.LastWriteTimeUtc))
+                {
+                    fromCache++;
+                    foreach (var c in inside) { seenPaths.Add(c.Path); if (c.Format != GameFileFormat.Unknown) found.Add(c); }
+                    continue;
+                }
+                progress?.Report(new ScanProgress(seen, read, file.Name));
+                try
+                {
+                    foreach (var entry in await GameFileZip.ReadEntriesAsync(file.FullName, GameFileReader.DefaultMaxHashBytes, cancellationToken).ConfigureAwait(false))
+                    {
+                        seenPaths.Add(entry.Path);
+                        await store.SaveAsync(entry, cancellationToken).ConfigureAwait(false);
+                        if (entry.Format != GameFileFormat.Unknown) found.Add(entry);
+                    }
+                    read++;
+                }
+                catch (Exception ex) when (ex is IOException or UnauthorizedAccessException or InvalidDataException)
+                {
+                    unreadable++;
+                    logger.LogDebug(ex, "Game .zip not readable");
+                }
+                continue;
+            }
             if (cached.TryGetValue(file.FullName, out var known) && known.Size == file.Length && known.ModifiedUtc == file.LastWriteTimeUtc)
             {
                 fromCache++;
@@ -159,6 +188,6 @@ public sealed class GameFileScanner(GameFileStore store, ILogger<GameFileScanner
             IgnoreInaccessible = true,
             AttributesToSkip = FileAttributes.ReparsePoint | FileAttributes.System | FileAttributes.Hidden | FileAttributes.Offline,
         };
-        return new DirectoryInfo(root).EnumerateFiles("*", options).Where(f => GameFileReader.IsCandidate(f.Name));
+        return new DirectoryInfo(root).EnumerateFiles("*", options).Where(f => GameFileReader.IsCandidate(f.Name) || GameFileZip.IsZip(f.Name));
     }
 }

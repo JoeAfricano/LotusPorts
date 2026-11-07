@@ -77,4 +77,33 @@ public sealed class GameFileScannerTests : IDisposable
         var act = () => scanner.ScanAsync([games], cancellationToken: cancel.Token);
         await act.Should().ThrowAsync<OperationCanceledException>();
     }
+
+    [Fact]
+    public async Task Games_inside_a_zip_are_read_without_extracting_and_cached_by_the_zips_date()
+    {
+        var zip = Path.Combine(games, "n64", "Test (USA).zip");
+        using (var archive = System.IO.Compression.ZipFile.Open(zip, System.IO.Compression.ZipArchiveMode.Create))
+        {
+            using (var s = archive.CreateEntry("Test (USA).z64").Open()) s.Write(Rom());
+            using (var s = archive.CreateEntry("readme.txt").Open()) s.Write("hi"u8);
+        }
+        var plain = Path.Combine(folder, "plain.z64");
+        File.WriteAllBytes(plain, Rom());
+        var expected = (await GameFileReader.ReadAsync(plain)).Hashes;
+
+        var first = await scanner.ScanAsync([games]);
+        var entry = first.Files.Should().ContainSingle().Which;
+        entry.Path.Should().Be(GameFileZip.EntryPath(zip, "Test (USA).z64"));
+        entry.Format.Should().Be(GameFileFormat.N64);
+        entry.Hashes.Should().Be(expected, "the same hashes as the plain file");
+        Directory.EnumerateFiles(Path.Combine(games, "n64")).Should().ContainSingle("nothing was extracted");
+
+        var second = await scanner.ScanAsync([games]);
+        second.FromCache.Should().Be(1);
+        second.Read.Should().Be(0);
+
+        File.Delete(zip);
+        (await scanner.ScanAsync([games])).Files.Should().BeEmpty();
+        (await store.ListAsync()).Should().NotContain(f => f.Path.StartsWith(zip, StringComparison.OrdinalIgnoreCase), "a deleted .zip leaves the list");
+    }
 }
