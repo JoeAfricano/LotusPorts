@@ -4,22 +4,17 @@
   "title": "Donkey Kong Bananza",
   "originalPlatform": "SWITCH_2",
   "releaseYear": null,
-  "genre": [
-    "plataforma"
-  ],
-  "descriptionPtBr": "Donkey Kong Bananza, lançado originalmente para Nintendo Switch 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+  "genre": [],
+  "descriptionPtBr": "Donkey Kong Bananza, do Nintendo Switch 2, em recompilação nativa para Windows feita pela comunidade. Ainda não é jogável.",
   "recommendedPortId": "dkb-pc-recomp",
   "recommendationReasonPtBr": null,
   "alternatives": [],
   "lotusGameKey": "port:donkey-kong-bananza",
   "review": {
     "state": "approved",
-    "by": "Claude (curadoria delegada pelo José)",
-    "at": "2026-11-06",
-    "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+    "by": "José",
+    "at": "2026-11-07",
+    "notesPtBr": null
   },
-  "cover": {
-    "url": "https://cdn2.steamgriddb.com/grid/4e8f053b3087c9ecc66e2488b1551c72.png",
-    "source": "steamgriddb"
-  }
+  "cover": null
 }

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "pokopia-native",
+  "gameId": "pokopia",
+  "title": "Pokopia Native",
+  "portType": "static-recomp",
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Experimental: projeto novo da comunidade, ainda não conferido pela curadoria.",
+    "Na primeira vez alguns elementos aparecem com atraso enquanto os shaders são traduzidos."
+  ],
+  "verifiedBy": null,
+  "verifiedAt": null,
+  "repo": {
+    "owner": "xFractals",
+    "name": "pokopia-native"
+  },
+  "license": "MIT",
+  "windowsAsset": {
+    "pattern": "(?i)^Pokopia-Native-for-Windows.zip$",
+    "excludePattern": null,
+    "preferPrerelease": false,
+    "packageType": "zip"
+  },
+  "executable": "Pokopia Native Builder.cmd",
+  "launchArgs": [],
+  "setup": {
+    "kind": "manual",
+    "targetFileName": null,
+    "targetFolder": null,
+    "notesPtBr": "Precisa de Windows 10/11 64 bits, processador com AVX2 (2013 ou mais novo), placa de vídeo com Vulkan 1.3, cerca de 12 GB livres, Python 3.12 a 3.14 (não 3.15) com lz4, fonttools e pillow, .NET 10 e git. Abra \"Pokopia Native Builder.cmd\", use \"Check tools\", depois Setup e Build com \"Windows: play on this PC\" marcado, escolhendo o dump do seu próprio jogo (1.0.5 ou 2.0.1). Leva uns 20 minutos. Se o Windows Security bloquear o Python, libere o python.exe em Proteção contra ransomware.",
+    "extractCommand": null,
+    "expectedOutput": null,
+    "requiredEntries": null
+  },
+  "requiredGameFiles": [],
+  "persistentPaths": [],
+  "experiencePresets": {
+    "configFile": null,
+    "configFormat": null,
+    "original": {
+      "values": {},
+      "verified": false
+    },
+    "remasterizado": {
+      "values": {},
+      "verified": false
+    }
+  },
+  "dependencies": null,
+  "graphicsApis": null,
+  "controllerSupport": null,
+  "highlightsPtBr": [],
+  "links": {
+    "repo": "https://github.com/xFractals/pokopia-native",
+    "docs": "https://github.com/xFractals/pokopia-native#readme",
+    "community": null
+  },
+  "art": {
+    "icon": null,
+    "banner": null,
+    "artLicense": null
+  },
+  "minWindowsBuild": null,
+  "evidence": {
+    "scannedAt": "2026-11-07",
+    "releaseTag": "v1.3.1",
+    "releaseDate": "2026-11-07",
+    "stars": 387,
+    "prerelease": false,
+    "assetName": "Pokopia-Native-for-Windows.zip",
+    "assetSize": 58056929,
+    "assetSha256": "c1f6e8a93cd19a0dcd8f1ef84ed24b41431f123b1e63dae398299d044b58ced0"
+  }
+}

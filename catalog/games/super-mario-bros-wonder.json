@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "super-mario-bros-wonder",
+  "title": "Super Mario Bros. Wonder",
+  "originalPlatform": "SWITCH_2",
+  "releaseYear": null,
+  "genre": [],
+  "descriptionPtBr": "Super Mario Bros. Wonder em recompilação nativa feita pela comunidade, a partir da sua própria cópia do jogo. Ainda sem versão publicada.",
+  "recommendedPortId": "super-mario-wonder-recomp",
+  "recommendationReasonPtBr": null,
+  "alternatives": [],
+  "lotusGameKey": "port:super-mario-bros-wonder",
+  "review": {
+    "state": "approved",
+    "by": "José",
+    "at": "2026-11-07",
+    "notesPtBr": null
+  },
+  "cover": null
+}

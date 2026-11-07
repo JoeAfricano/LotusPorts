@@ -2,7 +2,7 @@
   "$schema": "./catalog.schema.json",
   "schemaVersion": 1,
   "name": "Catálogo oficial do Lotus Ports",
-  "version": "2026-11-06",
+  "version": "2026-11-07",
   "games": [
     {
       "schemaVersion": 1,
@@ -3248,24 +3248,19 @@
       "title": "Donkey Kong Bananza",
       "originalPlatform": "SWITCH_2",
       "releaseYear": null,
-      "genre": [
-        "plataforma"
-      ],
-      "descriptionPtBr": "Donkey Kong Bananza, lançado originalmente para Nintendo Switch 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "genre": [],
+      "descriptionPtBr": "Donkey Kong Bananza, do Nintendo Switch 2, em recompilação nativa para Windows feita pela comunidade. Ainda não é jogável.",
       "recommendedPortId": "dkb-pc-recomp",
       "recommendationReasonPtBr": null,
       "alternatives": [],
       "lotusGameKey": "port:donkey-kong-bananza",
       "review": {
         "state": "approved",
-        "by": "Claude (curadoria delegada pelo José)",
-        "at": "2026-11-06",
-        "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
+        "by": "José",
+        "at": "2026-11-07",
+        "notesPtBr": null
       },
-      "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/4e8f053b3087c9ecc66e2488b1551c72.png",
-        "source": "steamgriddb"
-      }
+      "cover": null
     },
     {
       "schemaVersion": 1,
@@ -9869,19 +9864,24 @@
     {
       "schemaVersion": 1,
       "id": "pokopia",
-      "title": "Pokopia",
-      "originalPlatform": "SWITCH",
+      "title": "Pokémon Pokopia",
+      "originalPlatform": "SWITCH_2",
       "releaseYear": null,
       "genre": [],
       "descriptionPtBr": "Pokopia, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "pokopia-recomp",
       "recommendationReasonPtBr": null,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "portId": "pokopia-native",
+          "differencePtBr": "Monta o jogo no seu PC com a ferramenta Pokopia Native (precisa de Python e git); aceita as versões 1.0.5 e 2.0.1."
+        }
+      ],
       "lotusGameKey": "port:pokopia",
       "review": {
         "state": "approved",
         "by": "José",
-        "at": "2026-11-06",
+        "at": "2026-11-07",
         "notesPtBr": null
       }
     },
@@ -12513,6 +12513,26 @@
         "url": "https://cdn2.steamgriddb.com/grid/82261c4d50a370d548ed49b8d4c8cc95.png",
         "source": "steamgriddb"
       }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "super-mario-bros-wonder",
+      "title": "Super Mario Bros. Wonder",
+      "originalPlatform": "SWITCH_2",
+      "releaseYear": null,
+      "genre": [],
+      "descriptionPtBr": "Super Mario Bros. Wonder em recompilação nativa feita pela comunidade, a partir da sua própria cópia do jogo. Ainda sem versão publicada.",
+      "recommendedPortId": "super-mario-wonder-recomp",
+      "recommendationReasonPtBr": null,
+      "alternatives": [],
+      "lotusGameKey": "port:super-mario-bros-wonder",
+      "review": {
+        "state": "approved",
+        "by": "José",
+        "at": "2026-11-07",
+        "notesPtBr": null
+      },
+      "cover": null
     },
     {
       "schemaVersion": 1,
@@ -28323,10 +28343,14 @@
       "schemaVersion": 1,
       "id": "dkb-pc-recomp",
       "gameId": "donkey-kong-bananza",
-      "title": "DKB PC Recomp",
+      "title": "Donkey Kong Bananza PC Recomp",
       "portType": "static-recomp",
-      "status": "EM_DESENVOLVIMENTO",
-      "knownIssuesPtBr": [],
+      "status": "EXPERIMENTAL",
+      "knownIssuesPtBr": [
+        "Experimental: projeto novo da comunidade, ainda não conferido pela curadoria.",
+        "Ainda não é jogável: abre e mostra o tutorial em 3D, mas pode travar (em placas NVIDIA, depois de alguns minutos).",
+        "Sem versão publicada: por enquanto só acompanhar."
+      ],
       "verifiedBy": null,
       "verifiedAt": null,
       "repo": {
@@ -28335,18 +28359,18 @@
       },
       "license": "GPL-3.0",
       "windowsAsset": {
-        "pattern": "(?i)win.*\\.zip$",
+        "pattern": "(?i)windows.*.zip$",
         "excludePattern": null,
-        "preferPrerelease": true,
+        "preferPrerelease": false,
         "packageType": "zip"
       },
       "executable": null,
       "launchArgs": [],
       "setup": {
-        "kind": null,
+        "kind": "manual",
         "targetFileName": null,
         "targetFolder": null,
-        "notesPtBr": null,
+        "notesPtBr": "Ainda sem versão para baixar. Quando sair, o jogo será montado a partir do seu próprio dump, com placa de vídeo Vulkan.",
         "extractCommand": null,
         "expectedOutput": null,
         "requiredEntries": null
@@ -28381,9 +28405,14 @@
       },
       "minWindowsBuild": null,
       "evidence": {
-        "scannedAt": "2026-11-06",
-        "stars": 243,
-        "prerelease": false
+        "scannedAt": "2026-11-07",
+        "releaseTag": null,
+        "releaseDate": null,
+        "stars": 272,
+        "prerelease": false,
+        "assetName": null,
+        "assetSize": null,
+        "assetSha256": null
       }
     },
     {
@@ -53483,12 +53512,90 @@
     },
     {
       "schemaVersion": 1,
+      "id": "pokopia-native",
+      "gameId": "pokopia",
+      "title": "Pokopia Native",
+      "portType": "static-recomp",
+      "status": "EXPERIMENTAL",
+      "knownIssuesPtBr": [
+        "Experimental: projeto novo da comunidade, ainda não conferido pela curadoria.",
+        "Na primeira vez alguns elementos aparecem com atraso enquanto os shaders são traduzidos."
+      ],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "xFractals",
+        "name": "pokopia-native"
+      },
+      "license": "MIT",
+      "windowsAsset": {
+        "pattern": "(?i)^Pokopia-Native-for-Windows.zip$",
+        "excludePattern": null,
+        "preferPrerelease": false,
+        "packageType": "zip"
+      },
+      "executable": "Pokopia Native Builder.cmd",
+      "launchArgs": [],
+      "setup": {
+        "kind": "manual",
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": "Precisa de Windows 10/11 64 bits, processador com AVX2 (2013 ou mais novo), placa de vídeo com Vulkan 1.3, cerca de 12 GB livres, Python 3.12 a 3.14 (não 3.15) com lz4, fonttools e pillow, .NET 10 e git. Abra \"Pokopia Native Builder.cmd\", use \"Check tools\", depois Setup e Build com \"Windows: play on this PC\" marcado, escolhendo o dump do seu próprio jogo (1.0.5 ou 2.0.1). Leva uns 20 minutos. Se o Windows Security bloquear o Python, libere o python.exe em Proteção contra ransomware.",
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/xFractals/pokopia-native",
+        "docs": "https://github.com/xFractals/pokopia-native#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-07",
+        "releaseTag": "v1.3.1",
+        "releaseDate": "2026-11-07",
+        "stars": 387,
+        "prerelease": false,
+        "assetName": "Pokopia-Native-for-Windows.zip",
+        "assetSize": 58056929,
+        "assetSha256": "c1f6e8a93cd19a0dcd8f1ef84ed24b41431f123b1e63dae398299d044b58ced0"
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "pokopia-recomp",
       "gameId": "pokopia",
       "title": "Pokopia Recomp",
       "portType": "static-recomp",
-      "status": "NAO_AVALIADO",
-      "knownIssuesPtBr": [],
+      "status": "EXPERIMENTAL",
+      "knownIssuesPtBr": [
+        "Experimental: projeto novo da comunidade, ainda não conferido pela curadoria.",
+        "A primeira preparação compila o jogo (cerca de 7 minutos) e depois monta o cache de shaders (1 a 2 horas); dá para pausar e continuar."
+      ],
       "verifiedBy": null,
       "verifiedAt": null,
       "repo": {
@@ -53508,7 +53615,7 @@
         "kind": null,
         "targetFileName": null,
         "targetFolder": null,
-        "notesPtBr": null,
+        "notesPtBr": "Precisa de placa de vídeo com Vulkan 1.3 e da sua própria cópia do jogo na versão 2.0.1a (pasta extraída). No primeiro uso, escolha a pasta do dump e clique em Set up. Se der erro, o relatório do problema é o arquivo pkp.log.",
         "extractCommand": null,
         "expectedOutput": null,
         "requiredEntries": null
@@ -65478,6 +65585,82 @@
         "assetName": "supermariokart-0.1.4-windows-x64.zip",
         "assetSize": 49732206,
         "assetSha256": "67aab6cd5ba1e6fced45d54bb4f34e05d5ca8397fbe79b7b466adeabab85b020"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "super-mario-wonder-recomp",
+      "gameId": "super-mario-bros-wonder",
+      "title": "Super Mario Wonder Recomp",
+      "portType": "static-recomp",
+      "status": "EXPERIMENTAL",
+      "knownIssuesPtBr": [
+        "Experimental: projeto novo da comunidade, ainda não conferido pela curadoria.",
+        "Sem versão publicada: por enquanto só acompanhar.",
+        "Em janela pode cair para 35-40 FPS."
+      ],
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "repo": {
+        "owner": "BluetufieBugado",
+        "name": "SuperMarioWonderRecomp"
+      },
+      "license": "MIT",
+      "windowsAsset": {
+        "pattern": "(?i)windows.*.zip$",
+        "excludePattern": null,
+        "preferPrerelease": false,
+        "packageType": "zip"
+      },
+      "executable": null,
+      "launchArgs": [],
+      "setup": {
+        "kind": "manual",
+        "targetFileName": null,
+        "targetFolder": null,
+        "notesPtBr": "Precisa da sua própria cópia do jogo na versão 1.0.0 e de placa de vídeo com Vulkan 1.3 (testado em NVIDIA e Intel). O projeto também pede chaves e firmware do seu console, que o Lotus Ports não fornece nem ensina a obter.",
+        "extractCommand": null,
+        "expectedOutput": null,
+        "requiredEntries": null
+      },
+      "requiredGameFiles": [],
+      "persistentPaths": [],
+      "experiencePresets": {
+        "configFile": null,
+        "configFormat": null,
+        "original": {
+          "values": {},
+          "verified": false
+        },
+        "remasterizado": {
+          "values": {},
+          "verified": false
+        }
+      },
+      "dependencies": null,
+      "graphicsApis": null,
+      "controllerSupport": null,
+      "highlightsPtBr": [],
+      "links": {
+        "repo": "https://github.com/BluetufieBugado/SuperMarioWonderRecomp",
+        "docs": "https://github.com/BluetufieBugado/SuperMarioWonderRecomp#readme",
+        "community": null
+      },
+      "art": {
+        "icon": null,
+        "banner": null,
+        "artLicense": null
+      },
+      "minWindowsBuild": null,
+      "evidence": {
+        "scannedAt": "2026-11-07",
+        "releaseTag": null,
+        "releaseDate": null,
+        "stars": 40,
+        "prerelease": false,
+        "assetName": null,
+        "assetSize": null,
+        "assetSha256": null
       }
     },
     {

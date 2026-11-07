@@ -108,7 +108,7 @@
             "packageType": { "enum": ["zip", "7z", "portable-exe", "installer"] }
           }
         },
-        "executable": { "type": ["string", "null"], "pattern": "^[^:*?\"<>|]+\\.(exe|bat)$" },
+        "executable": { "type": ["string", "null"], "pattern": "^[^:*?\"<>|]+\\.(exe|bat|cmd)$" },
         "launchArgs": { "type": "array", "items": { "type": "string" } },
         "setup": {
           "type": "object",

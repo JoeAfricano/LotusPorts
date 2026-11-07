@@ -4,8 +4,11 @@
   "gameId": "pokopia",
   "title": "Pokopia Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Experimental: projeto novo da comunidade, ainda não conferido pela curadoria.",
+    "A primeira preparação compila o jogo (cerca de 7 minutos) e depois monta o cache de shaders (1 a 2 horas); dá para pausar e continuar."
+  ],
   "verifiedBy": null,
   "verifiedAt": null,
   "repo": {
@@ -25,7 +28,7 @@
     "kind": null,
     "targetFileName": null,
     "targetFolder": null,
-    "notesPtBr": null,
+    "notesPtBr": "Precisa de placa de vídeo com Vulkan 1.3 e da sua própria cópia do jogo na versão 2.0.1a (pasta extraída). No primeiro uso, escolha a pasta do dump e clique em Set up. Se der erro, o relatório do problema é o arquivo pkp.log.",
     "extractCommand": null,
     "expectedOutput": null,
     "requiredEntries": null

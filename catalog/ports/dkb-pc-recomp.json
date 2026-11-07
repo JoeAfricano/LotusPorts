@@ -2,10 +2,14 @@
   "schemaVersion": 1,
   "id": "dkb-pc-recomp",
   "gameId": "donkey-kong-bananza",
-  "title": "DKB PC Recomp",
+  "title": "Donkey Kong Bananza PC Recomp",
   "portType": "static-recomp",
-  "status": "EM_DESENVOLVIMENTO",
-  "knownIssuesPtBr": [],
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Experimental: projeto novo da comunidade, ainda não conferido pela curadoria.",
+    "Ainda não é jogável: abre e mostra o tutorial em 3D, mas pode travar (em placas NVIDIA, depois de alguns minutos).",
+    "Sem versão publicada: por enquanto só acompanhar."
+  ],
   "verifiedBy": null,
   "verifiedAt": null,
   "repo": {
@@ -14,18 +18,18 @@
   },
   "license": "GPL-3.0",
   "windowsAsset": {
-    "pattern": "(?i)win.*\\.zip$",
+    "pattern": "(?i)windows.*.zip$",
     "excludePattern": null,
-    "preferPrerelease": true,
+    "preferPrerelease": false,
     "packageType": "zip"
   },
   "executable": null,
   "launchArgs": [],
   "setup": {
-    "kind": null,
+    "kind": "manual",
     "targetFileName": null,
     "targetFolder": null,
-    "notesPtBr": null,
+    "notesPtBr": "Ainda sem versão para baixar. Quando sair, o jogo será montado a partir do seu próprio dump, com placa de vídeo Vulkan.",
     "extractCommand": null,
     "expectedOutput": null,
     "requiredEntries": null
@@ -60,8 +64,13 @@
   },
   "minWindowsBuild": null,
   "evidence": {
-    "scannedAt": "2026-11-06",
-    "stars": 243,
-    "prerelease": false
+    "scannedAt": "2026-11-07",
+    "releaseTag": null,
+    "releaseDate": null,
+    "stars": 272,
+    "prerelease": false,
+    "assetName": null,
+    "assetSize": null,
+    "assetSha256": null
   }
 }
