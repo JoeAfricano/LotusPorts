@@ -26,6 +26,7 @@ public partial class App : Application
         UnhandledException += (_, e) =>
         {
             Log.Error(e.Exception, "Unhandled UI exception");
+            if (host is null) WriteEarlyError(e.Exception);
             e.Handled = true;
             ShowError(e.Exception, canContinue: true);
         };
@@ -227,9 +228,23 @@ public partial class App : Application
         };
     }
 
+    /// <summary>A failure before the log is ready (while the app is still starting) goes to logs\startup-error.txt.</summary>
+    private static void WriteEarlyError(Exception exception)
+    {
+        try
+        {
+            var logs = AppPaths.ForCurrentUser().Logs;
+            Directory.CreateDirectory(logs);
+            File.AppendAllText(Path.Combine(logs, "startup-error.txt"), $"{DateTimeOffset.Now:O} {AppInfo.Version}{Environment.NewLine}{exception}{Environment.NewLine}{Environment.NewLine}");
+        }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException) { }
+    }
+
     private void ShowError(Exception exception, bool canContinue)
     {
         if (errorWindow is not null) return;
+        // Too early for a window (the app itself did not finish starting): close instead of crashing inside the error screen.
+        if (host is null && window is null) { WriteEarlyError(exception); Exit(); return; }
         errorWindow = new ErrorWindow(exception, canContinue);
         errorWindow.Closed += (_, _) =>
         {

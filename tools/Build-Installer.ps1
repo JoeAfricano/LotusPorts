@@ -6,8 +6,21 @@ $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot -Parent
 $out = Join-Path $root 'artifacts\dist\LotusPorts'
 if (Test-Path $out) { Remove-Item $out -Recurse -Force }
-dotnet publish (Join-Path $root 'src\LotusPorts.App\LotusPorts.App.csproj') -c Release -r win-x64 --self-contained true -p:Platform=x64 -p:WindowsAppSDKSelfContained=true -o $out -nologo
+# The app project sets EnableMsixTooling (its own .pri) and Lotus.Design keeps its theme as loose .xbf files; passing
+# EnableMsixTooling here would reach the library and move its theme to the wrong path. Only pt-BR and en-US framework
+# texts, no debug symbols.
+dotnet publish (Join-Path $root 'src\LotusPorts.App\LotusPorts.App.csproj') -c Release -r win-x64 --self-contained true -p:Platform=x64 `
+    -p:DebugType=none -p:DebugSymbols=false "-p:SatelliteResourceLanguages=en-US%3Bpt-BR" -o $out -nologo
 if ($LASTEXITCODE -ne 0) { throw "dotnet publish failed ($LASTEXITCODE)" }
+if (-not (Test-Path (Join-Path $out 'LotusPorts.pri'))) { throw "LotusPorts.pri missing from the publish: the app would not open." }
+# dotnet publish leaves out the library's loose compiled theme (Lotus.Design\*.xbf), which the app loads at start.
+$design = Join-Path $root 'src\Lotus.Design\bin\Release\net10.0-windows10.0.26100.0\win-x64\Lotus.Design'
+Copy-Item $design (Join-Path $out 'Lotus.Design') -Recurse -Force
+if (-not (Test-Path (Join-Path $out 'Lotus.Design\LotusTheme.xbf'))) { throw "Lotus.Design\LotusTheme.xbf missing: the app would not open." }
+$keepLanguages = @('en-US', 'pt-BR')
+Get-ChildItem $out -Directory | Where-Object { $_.Name -match '^[a-z]{2,3}(-[A-Za-z]{2,4})*(-[A-Za-z0-9]{2,8})?$' -and $keepLanguages -notcontains $_.Name -and
+    (Get-ChildItem $_.FullName -Recurse -File | Where-Object { $_.Extension -notin '.mui', '.dll' }).Count -eq 0 } | Remove-Item -Recurse -Force
+foreach ($dev in 'createdump.exe', 'Microsoft.DiaSymReader.Native.amd64.dll') { Remove-Item (Join-Path $out $dev) -Force -ErrorAction SilentlyContinue }
 $exe = Join-Path $out 'LotusPorts.exe'
 $version = (Get-Item $exe).VersionInfo.ProductVersion -replace '\+.*$', ''
 $numeric = (Get-Item $exe).VersionInfo.FileVersion

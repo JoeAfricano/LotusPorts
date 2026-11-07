@@ -7,6 +7,9 @@
     <UseWinUI>true</UseWinUI>
     <Platforms>x64</Platforms>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <!-- Keep the compiled theme as a loose Lotus.Design\*.xbf file in every configuration (as Debug does): an
+         unpackaged app does not read XAML embedded in a library's .pri, so Release builds could not load the theme. -->
+    <DisableEmbeddedXbf>true</DisableEmbeddedXbf>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.WindowsAppSDK" />

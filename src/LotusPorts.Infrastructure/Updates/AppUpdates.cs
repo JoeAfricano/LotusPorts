@@ -66,7 +66,7 @@ public static class AppUpdatePicker
 public sealed class AppUpdateService(GitHubClient github, AppPaths paths, ILogger<AppUpdateService> logger)
 {
     /// <summary>Owner/name of Lotus Ports' own GitHub repository. Set when the app is published.</summary>
-    public static readonly (string Owner, string Name)? Repository = null;
+    public static readonly (string Owner, string Name)? Repository = ("JoeAfricano", "LotusPorts");
 
     public async Task<AppUpdateCheck> CheckAsync(string currentVersion, CancellationToken cancellationToken = default)
     {

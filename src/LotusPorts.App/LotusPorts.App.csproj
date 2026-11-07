@@ -13,6 +13,8 @@
     <!-- Unpackaged and fully self-contained: the player does not need to install .NET or the Windows App SDK. -->
     <WindowsPackageType>None</WindowsPackageType>
     <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+    <!-- Unpackaged, but the publish still needs the app's own .pri (pages and strings); only this project, not the libraries. -->
+    <EnableMsixTooling>true</EnableMsixTooling>
     <SelfContained>true</SelfContained>
     <DefaultLanguage>pt-BR</DefaultLanguage>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
