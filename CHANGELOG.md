@@ -1,5 +1,18 @@
 # Novidades
 
+## Próxima versão (em desenvolvimento)
+
+- Arquivo do jogo entregue ao port: "Colocar na pasta do jogo" nos ports que leem o arquivo da própria pasta.
+- A busca automática encontra jogos dentro de arquivos .zip, sem extrair nada que não seja reconhecido.
+- Mais versões aceitas: Ship of Harkinian, 2 Ship 2 Harkinian e King Kong.
+- Downloads: um por vez, com "Na fila", e a lista dos concluídos recentemente.
+- Tempo jogado e número de partidas na página do jogo.
+- "Novidades nos seus favoritos" no Início quando um jogo favorito ganha versão nova.
+- Selo "Funciona no seu PC" com o FPS medido pelo Lotus.
+- Imagens do port, tiradas do repositório oficial, na página do jogo.
+- Mais capas no catálogo.
+
+
 ## 0.1.0-alpha (07/11/2026)
 
 Primeira versão de teste do Lotus Ports.

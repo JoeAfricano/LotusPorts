@@ -143,3 +143,31 @@
 - **Ainda não feito:**
   - a busca automática em pastas não abre .zip; só o arquivo escolhido à mão é lido;
   - o jogo não foi jogado: a ROM ainda não foi escolhida no menu do port.
+
+## Melhorias de 07/11/2026 (grupos 2, 3 e 4)
+
+- **Colocar o arquivo na pasta do jogo:** nos ports que leem o arquivo da própria pasta (Perfect Dark, The Minish Cap e outros "beside-exe"), o cartão "Arquivo do jogo" oferece "Colocar na pasta do jogo".
+  - A cópia vai com o nome que o port espera, e o N64 em ordem .z64.
+  - O seu original fica intacto e um arquivo antigo vai para backup.
+  - Não foi testado com um desses ports instalado de verdade, só por testes automáticos.
+  - Em ports "escolha no primeiro uso" (como o Zelda 64) nada muda: o próprio jogo pede o arquivo.
+- **Busca automática dentro de .zip:** lê a assinatura sem extrair e copia para `game-files` só o arquivo de um jogo reconhecido.
+- **Versões aceitas:** Ship of Harkinian (19), 2 Ship 2 Harkinian (2) e King Kong, das listas oficiais; Zelda 64 também por SHA-1.
+  - Ainda faltam 27 ports sem lista e 13 com versão sem nome ("PREENCHER", que já reconhecem o arquivo).
+- **Downloads:** um por vez ("Na fila") e "Concluídos recentemente" lidos do diário.
+- **Capas:** 590 de 641 jogos (coletâneas usam a capa do primeiro jogo).
+- **FPS sem o aviso do Windows:** o Lotus (sem commit lá) mede sem administrador quando a conta está no grupo "Usuários de log de desempenho". O passo a passo está em `docs/LOTUS_PORTS_INTEGRATION.md` do Lotus. Ainda não testado com uma medição real.
+- **Tempo jogado e partidas:** na página do jogo, contados a partir de agora (sessões anteriores não foram registradas).
+- **Favoritos com versão nova:** card "Novidades nos seus favoritos" no Início. A primeira verificação só memoriza as versões.
+- **Selo "Funciona no seu PC":** aparece só depois de uma medição real do Lotus.
+- **Imagens do port:** até 6 imagens do README oficial, carregadas na hora.
+- **Modo TV com controle:** ainda não testado com um controle de verdade.
+
+### Problema aberto: dados locais perdidos
+
+- Em 07/11/2026 o banco `%LOCALAPPDATA%\LotusPorts\data\lotusports.db` estava sem registros no diário, nas configurações e nos arquivos de jogo.
+- O catálogo, os ports instalados e a pasta `game-files` estavam intactos.
+- O banco não foi recriado (a migração v1 só aparece em 05/11). O primeiro registro novo do diário recebeu o número 1, ou seja, as linhas anteriores não existem mais.
+- Não foi encontrado código que apague essas tabelas.
+- Suspeitas ainda não confirmadas: o processo foi encerrado à força várias vezes (instalador com taskkill e testes por automação) com o banco em modo WAL.
+- Efeito no PC: o reconhecimento do Majora's Mask sumiu e precisa ser refeito (o arquivo continua em `game-files`).
