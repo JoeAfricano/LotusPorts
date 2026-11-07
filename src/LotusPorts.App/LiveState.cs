@@ -49,8 +49,7 @@ public sealed class LiveState
             var s = play.StateOf(port);
             if (s.RunningSince is not null) return new(Strings.Get("LivePlaying"), BadgeTone.Accent);
             if (s.Progress is { } p)
-                return new(p.Stage == InstallStage.Downloading ? Strings.Format("PlayDownloading", (int)Math.Round(p.Fraction * 100))
-                    : Strings.Format("PlayExtracting", (int)Math.Round(p.Fraction * 100)), BadgeTone.Accent);
+                return new(ProgressText.For(p), BadgeTone.Accent);
             if (s.Installed?.LastLaunchFailed == true) return new(Strings.Get("LiveAttention"), BadgeTone.Warning);
             if (s.UpdateAvailable) return new(Strings.Get("LiveUpdate"), BadgeTone.Accent);
             return new(Strings.Get("LiveReady"), BadgeTone.Ok);

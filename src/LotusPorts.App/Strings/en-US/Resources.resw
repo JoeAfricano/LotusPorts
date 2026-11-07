@@ -314,6 +314,7 @@
   <data name="PlayDownloading" xml:space="preserve"><value>Downloading… {0}%</value></data>
   <data name="PlayExtracting" xml:space="preserve"><value>Installing… {0}%</value></data>
   <data name="PlayFinishing" xml:space="preserve"><value>Finishing…</value></data>
+  <data name="PlayQueued" xml:space="preserve"><value>Queued: starts when the previous download finishes</value></data>
   <data name="PlayRunningSince" xml:space="preserve"><value>Opened at {0}. Close the game to come back here.</value></data>
   <data name="PlayUpdateAvailable" xml:space="preserve"><value>New version {0} available (you have {1})</value></data>
   <data name="PlayInstalled" xml:space="preserve"><value>Installed · version {0}</value></data>
@@ -631,6 +632,12 @@
   <data name="KindModRemove" xml:space="preserve"><value>Mod removed</value></data>
   <data name="DownloadsActive" xml:space="preserve"><value>In progress</value></data>
   <data name="DownloadsOpenGame" xml:space="preserve"><value>Open the game page</value></data>
+  <data name="DownloadsHistory" xml:space="preserve"><value>Recently finished</value></data>
+  <data name="DownloadsKindInstall" xml:space="preserve"><value>Installed</value></data>
+  <data name="DownloadsKindUpdate" xml:space="preserve"><value>Updated</value></data>
+  <data name="DownloadsKindRollback" xml:space="preserve"><value>Went back to the previous version</value></data>
+  <data name="DownloadsKindRemove" xml:space="preserve"><value>Uninstalled</value></data>
+  <data name="DownloadsOutcomeFailed" xml:space="preserve"><value>not finished</value></data>
   <data name="LivePlaying" xml:space="preserve"><value>Playing now</value></data>
   <data name="LiveAttention" xml:space="preserve"><value>Needs attention</value></data>
   <data name="LiveUpdate" xml:space="preserve"><value>Update available</value></data>

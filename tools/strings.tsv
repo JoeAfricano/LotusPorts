@@ -308,6 +308,7 @@ PlayTryAgain	Tentar de novo	Try again
 PlayDownloading	Baixando… {0}%	Downloading… {0}%
 PlayExtracting	Instalando… {0}%	Installing… {0}%
 PlayFinishing	Finalizando…	Finishing…
+PlayQueued	Na fila: começa quando o download anterior terminar	Queued: starts when the previous download finishes
 PlayRunningSince	Aberto às {0}. Feche o jogo para voltar aqui.	Opened at {0}. Close the game to come back here.
 PlayUpdateAvailable	Nova versão {0} disponível (você tem a {1})	New version {0} available (you have {1})
 PlayInstalled	Instalado · versão {0}	Installed · version {0}
@@ -625,6 +626,12 @@ KindModDisable	Mod desativado	Mod disabled
 KindModRemove	Mod removido	Mod removed
 DownloadsActive	Em andamento	In progress
 DownloadsOpenGame	Abrir a página do jogo	Open the game page
+DownloadsHistory	Concluídos recentemente	Recently finished
+DownloadsKindInstall	Instalado	Installed
+DownloadsKindUpdate	Atualizado	Updated
+DownloadsKindRollback	Voltou para a versão anterior	Went back to the previous version
+DownloadsKindRemove	Desinstalado	Uninstalled
+DownloadsOutcomeFailed	não concluído	not finished
 LivePlaying	Jogando agora	Playing now
 LiveAttention	Precisa de atenção	Needs attention
 LiveUpdate	Atualização disponível	Update available

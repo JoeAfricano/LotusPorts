@@ -751,7 +751,7 @@ public sealed partial class GamePage : Page
         MainProgress.Visibility = s.Progress is null ? Visibility.Collapsed : Visibility.Visible;
         if (s.Progress is { } p)
         {
-            MainProgress.IsIndeterminate = p.Stage == InstallStage.Finishing;
+            MainProgress.IsIndeterminate = ProgressText.Indeterminate(p);
             MainProgress.Value = p.Fraction;
         }
 
@@ -770,13 +770,7 @@ public sealed partial class GamePage : Page
 
     private static string StatusText(Port port, PortRuntime s, bool building, bool looking)
     {
-        if (s.Progress is { } p)
-            return p.Stage switch
-            {
-                InstallStage.Downloading => Strings.Format("PlayDownloading", (int)Math.Round(p.Fraction * 100)),
-                InstallStage.Extracting => Strings.Format("PlayExtracting", (int)Math.Round(p.Fraction * 100)),
-                _ => Strings.Get("PlayFinishing"),
-            };
+        if (s.Progress is { } p) return ProgressText.For(p);
         if (s.RunningSince is { } since) return Strings.Format("PlayRunningSince", since.ToLocalTime().ToString("t", CultureInfo.CurrentCulture));
         if (s.Installed is { } i)
             return s.UpdateAvailable ? Strings.Format("PlayUpdateAvailable", s.Latest!.Choice!.Release.Tag, i.ActiveTag) : Strings.Format("PlayInstalled", i.ActiveTag);

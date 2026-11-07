@@ -43,6 +43,9 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
     private readonly Dictionary<string, (InstallProgress Progress, CancellationTokenSource Cancel)> working = [];
     private readonly Dictionary<string, Port> workingPorts = [];
 
+    // One download at a time: the others wait "Na fila" and each finishes sooner than if they shared the connection.
+    private readonly SemaphoreSlim downloadQueue = new(1, 1);
+
     /// <summary>Installs and updates in progress, for the Downloads screen.</summary>
     public IReadOnlyList<(Port Port, InstallProgress Progress)> Working =>
         working.Where(w => workingPorts.ContainsKey(w.Key)).Select(w => (workingPorts[w.Key], w.Value.Progress)).ToList();
@@ -183,10 +186,11 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         ArgumentNullException.ThrowIfNull(port);
         if (working.ContainsKey(port.Id) || running.ContainsKey(port.Id)) return null;
         using var cancel = new CancellationTokenSource();
-        working[port.Id] = (new InstallProgress(InstallStage.Downloading, 0), cancel);
+        working[port.Id] = (new InstallProgress(InstallStage.Queued, 0), cancel);
         workingPorts[port.Id] = port;
         problems.Remove(port.Id);
         Raise(port.Id);
+        var queued = false;
         var lastReport = DateTimeOffset.MinValue;
         var progress = new Progress<InstallProgress>(p =>
         {
@@ -199,6 +203,10 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         });
         try
         {
+            await downloadQueue.WaitAsync(cancel.Token);
+            queued = true;
+            working[port.Id] = (new InstallProgress(InstallStage.Downloading, 0), cancel);
+            Raise(port.Id);
             var existed = library.Read(port.Id) is not null;
             var done = await installer.InstallAsync(port, choice, progress, cancel.Token);
             _ = lotus.NotifyAsync(existed ? Lotus.Integration.Contracts.Events.GameUpdated : Lotus.Integration.Contracts.Events.GameInstalled, new(port.GameId, port.Id, done.ActiveTag));
@@ -229,6 +237,7 @@ public sealed class PlayService(PortLibrary library, PortInstaller installer, Ga
         }
         finally
         {
+            if (queued) downloadQueue.Release();
             working.Remove(port.Id);
             workingPorts.Remove(port.Id);
             RefreshInstalled();

@@ -13,6 +13,9 @@ public enum InstallStage
     Downloading,
     Extracting,
     Finishing,
+
+    /// <summary>Waiting for the download before it (one at a time, so each finishes sooner).</summary>
+    Queued,
 }
 
 /// <summary>Progress shown on the game's button: the stage and how far it is (0–1).</summary>

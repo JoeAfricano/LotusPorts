@@ -30,6 +30,16 @@
                     <StackPanel x:Name="Bullets" Spacing="10" />
                 </StackPanel>
             </Border>
+            <Border
+                x:Name="HistoryCard"
+                Margin="0,8,0,0"
+                Style="{StaticResource Lotus.Card}"
+                Visibility="Collapsed">
+                <StackPanel Spacing="12">
+                    <TextBlock x:Name="HistoryTitle" Style="{StaticResource Type.Subtitle}" />
+                    <StackPanel x:Name="History" Spacing="8" />
+                </StackPanel>
+            </Border>
         </StackPanel>
         </Grid>
     </ScrollViewer>
