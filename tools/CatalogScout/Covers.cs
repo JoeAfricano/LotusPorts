@@ -143,9 +143,30 @@ internal static partial class Covers
             }
             await Task.Delay(250); // gentle with a free community API
         }
+        // Bundles and remasters named "A + B", "A / B" or "A and B": no exact match for the whole name, so the first game
+        // of the bundle is tried once (its box art is a fair face for the entry). Marked so it is not asked again.
+        foreach (var (id, title) in games)
+        {
+            if (cache[id] is not JsonObject entry || entry["grid"] is not null || entry["firstPartTried"] is not null) continue;
+            var first = BundleSeparator().Split(title)[0].Trim();
+            entry["firstPartTried"] = true;
+            if (first.Length < 3 || first.Equals(title, StringComparison.OrdinalIgnoreCase)) continue;
+            var found = await SteamGridDb.FindAsync(http, first, Key);
+            var grid = found is { } f ? await SteamGridDb.BestGridAsync(http, f.Id) : null;
+            if (grid is null) continue;
+            entry["sgdbId"] = found!.Value.Id;
+            entry["name"] = found.Value.Name;
+            entry["grid"] = grid;
+            entry["matchedOn"] = first;
+            result[id] = grid;
+            await Task.Delay(250);
+        }
         File.WriteAllText(cacheFile, cache.ToJsonString(Pretty) + "\n");
         return result;
     }
+
+    [GeneratedRegex(@"\s+\+\s+|\s+/\s+|\s+&\s+|\s+and\s+|\s+e\s+|,\s+|\s+-\s+", RegexOptions.IgnoreCase)]
+    private static partial Regex BundleSeparator();
 
     private static int RegionRank(string file)
     {

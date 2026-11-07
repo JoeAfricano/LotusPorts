@@ -261,7 +261,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "black": {
     "sgdbId": 35919,
@@ -369,7 +370,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "call-of-duty-2-big-red-one": {
     "sgdbId": 5252158,
@@ -408,16 +410,19 @@
     "checkedAt": "2026-11-06"
   },
   "castle-of-illusion-quackshot-world-of-illusion": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06"
+    "sgdbId": 2449,
+    "name": "Castle of Illusion",
+    "grid": "https://cdn2.steamgriddb.com/grid/c52f0d9f8fb84ea294975f6b595d5308.png",
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true,
+    "matchedOn": "Castle of Illusion"
   },
   "castlevania-64": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "castlevania-chronicles": {
     "sgdbId": 37042,
@@ -453,7 +458,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "chrono-trigger": {
     "sgdbId": 17593,
@@ -465,7 +471,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "command-conquer-red-alert-2-yuri-s-revenge": {
     "sgdbId": 38629,
@@ -531,13 +538,15 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "crash-team-racing": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "crash-twinsanity": {
     "sgdbId": 35121,
@@ -591,7 +600,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "dead-or-alive-2-ultimate": {
     "sgdbId": 5438133,
@@ -627,7 +637,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "deadly-premonition": {
     "sgdbId": 36900,
@@ -657,7 +668,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "desert-strike-return-to-the-gulf": {
     "sgdbId": 36790,
@@ -717,7 +729,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "disgaea-d2-a-brighter-darkness": {
     "sgdbId": 5250412,
@@ -729,13 +742,15 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "dissidia-012-duodecim-final-fantasy": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "dodonpachi-saidaioujou": {
     "sgdbId": 5438703,
@@ -747,13 +762,15 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "donald-duck-goin-quackers": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "donkey-kong-64": {
     "sgdbId": 37695,
@@ -807,7 +824,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "downhill-domination": {
     "sgdbId": 5253254,
@@ -975,7 +993,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "fifa-street": {
     "sgdbId": 5257940,
@@ -1107,13 +1126,15 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "god-of-war-chains-of-olympus-god-of-war-ghost-of-sparta": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "god-of-war-iii-remastered": {
     "sgdbId": 5246707,
@@ -1125,7 +1146,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "god-of-war": {
     "sgdbId": 36454,
@@ -1206,10 +1228,12 @@
     "checkedAt": "2026-11-06"
   },
   "gravity-rush-remastered-gravity-rush-2": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06"
+    "sgdbId": 5270660,
+    "name": "Gravity Rush Remastered",
+    "grid": "https://cdn2.steamgriddb.com/grid/a5681ddbdf84643ab575935222d497f4.png",
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true,
+    "matchedOn": "Gravity Rush Remastered"
   },
   "gravity-rush-remastered": {
     "sgdbId": 5270660,
@@ -1218,10 +1242,12 @@
     "checkedAt": "2026-11-06"
   },
   "guitar-hero-guitar-hero-ii-encore-rocks-the-80s-and-iii": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06"
+    "sgdbId": 5271436,
+    "name": "Guitar Hero",
+    "grid": "https://cdn2.steamgriddb.com/grid/60632049220f6fe2c205e3f2e3c7db07.png",
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true,
+    "matchedOn": "Guitar Hero"
   },
   "guitar-hero-ii": {
     "sgdbId": 5270730,
@@ -1311,7 +1337,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "hot-shots-tennis": {
     "sgdbId": 5439906,
@@ -1335,7 +1362,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "ico": {
     "sgdbId": 33578,
@@ -1353,7 +1381,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "infamous-second-son": {
     "sgdbId": 5246744,
@@ -1440,10 +1469,12 @@
     "checkedAt": "2026-11-06"
   },
   "killer-instinct-arcade-1994-killer-instinct-2-arcade-1996": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06"
+    "sgdbId": 33904,
+    "name": "Killer Instinct - Arcade",
+    "grid": "https://cdn2.steamgriddb.com/grid/5e61f6f8f04fc8d0cb4ea4b9c1217d38.png",
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true,
+    "matchedOn": "Killer Instinct (arcade"
   },
   "killzone-2": {
     "sgdbId": 5258910,
@@ -1467,7 +1498,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "king-s-field-ii": {
     "sgdbId": 5260159,
@@ -1941,19 +1973,22 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "n3-ninety-nine-nights": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "namco-2x-systems": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "naruto-clash-of-ninja": {
     "sgdbId": 36095,
@@ -2097,7 +2132,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "outrun-online-arcade": {
     "sgdbId": 5287541,
@@ -2187,7 +2223,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "plants-vs-zombies": {
     "sgdbId": 5331605,
@@ -2205,7 +2242,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "pokemon-brilliant-diamond": {
     "sgdbId": 5303449,
@@ -2217,19 +2255,22 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "pokemon-emerald": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "pokemon-firered": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "pokemon-legends-z-a": {
     "sgdbId": 5445395,
@@ -2247,13 +2288,15 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "pokemon-ruby": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "pokemon-snap": {
     "sgdbId": 37585,
@@ -2265,19 +2308,22 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "pokemon-trading-card-game-2-the-invasion-of-team-gr": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "pokopia": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "prince-of-persia-the-sands-of-time": {
     "sgdbId": 1438,
@@ -2427,7 +2473,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "saw-ii-flesh-blood": {
     "sgdbId": 5263550,
@@ -2463,7 +2510,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "sexy-parodius": {
     "sgdbId": 5357034,
@@ -2493,7 +2541,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "shin-megami-tensei-devil-survivor-2-record-breaker": {
     "sgdbId": 5263375,
@@ -2523,7 +2572,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "silent-hill-book-of-memories": {
     "sgdbId": 5301396,
@@ -2571,13 +2621,16 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "sneak-king-big-bumpin-and-pocketbike-racer": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06"
+    "sgdbId": 5315547,
+    "name": "Sneak King",
+    "grid": "https://cdn2.steamgriddb.com/grid/ac5e37a014b907541cc5964917631b0b.png",
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true,
+    "matchedOn": "Sneak King"
   },
   "snoopy-flying-ace": {
     "sgdbId": 5371528,
@@ -2601,7 +2654,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "sonic-and-the-black-knight": {
     "sgdbId": 37046,
@@ -2637,7 +2691,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "sonic-the-hedgehog-2": {
     "sgdbId": 35189,
@@ -2649,13 +2704,15 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "sonic-the-hedgehog-2013": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "sonic-unleashed": {
     "sgdbId": 34584,
@@ -2781,7 +2838,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "street-fighter-iii-3rd-strike": {
     "sgdbId": 37621,
@@ -2793,7 +2851,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "streets-of-rage": {
     "sgdbId": 36744,
@@ -2871,7 +2930,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "super-mario-64": {
     "sgdbId": 37177,
@@ -2973,13 +3033,15 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "super-ryu-world-1": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "super-smash-bros-brawl": {
     "sgdbId": 35465,
@@ -3015,7 +3077,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "superman-returns": {
     "sgdbId": 38982,
@@ -3081,7 +3144,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "tetrisphere": {
     "sgdbId": 29858,
@@ -3105,7 +3169,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "the-house-of-the-dead": {
     "sgdbId": 5209431,
@@ -3174,22 +3239,27 @@
     "checkedAt": "2026-11-06"
   },
   "the-legend-of-zelda-ocarina-of-time-majora-s-mask": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06"
+    "sgdbId": 21202,
+    "name": "The Legend of Zelda: Ocarina of Time",
+    "grid": "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true,
+    "matchedOn": "The Legend of Zelda: Ocarina of Time"
   },
   "the-legend-of-zelda-oracle-of-ages-the-legend-of-zelda-oracle-of-seaso": {
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06"
+    "sgdbId": 38450,
+    "name": "The Legend of Zelda: Oracle of Seasons",
+    "grid": "https://cdn2.steamgriddb.com/grid/1f218b10871e882b90a8dd82996cbdca.png",
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true,
+    "matchedOn": "The Legend of Zelda: Oracle of Seasons"
   },
   "the-legend-of-zelda-tears-of-the-kingdom": {
     "sgdbId": 5303117,
@@ -3261,7 +3331,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "theatrhythm-final-bar-line": {
     "sgdbId": 5416708,
@@ -3366,10 +3437,12 @@
     "checkedAt": "2026-11-06"
   },
   "trials-hd-trials-evolution-trials-fusion": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06"
+    "sgdbId": 5279176,
+    "name": "Trials HD",
+    "grid": "https://cdn2.steamgriddb.com/grid/bdd79bc4508287d24d048b93eb991564.jpg",
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true,
+    "matchedOn": "Trials HD"
   },
   "tsukihime-a-piece-of-blue-glass-moon": {
     "sgdbId": 5297442,
@@ -3477,7 +3550,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "war-of-the-monsters": {
     "sgdbId": 5248757,
@@ -3579,7 +3653,8 @@
     "sgdbId": 15166,
     "name": "WipeOut",
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "world-driver-championship": {
     "sgdbId": 21184,
@@ -3651,7 +3726,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "xenoblade-chronicles-2": {
     "sgdbId": 5248288,
@@ -3753,7 +3829,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "zombies-ate-my-neighbors": {
     "sgdbId": 20672,
@@ -3777,7 +3854,8 @@
     "sgdbId": null,
     "name": null,
     "grid": null,
-    "checkedAt": "2026-11-06"
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true
   },
   "littlebigplanet-3": {
     "sgdbId": 5249323,
@@ -3792,10 +3870,12 @@
     "checkedAt": "2026-11-06"
   },
   "pokemon-sword-and-shield": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06"
+    "sgdbId": 5252446,
+    "name": "Pokémon Sword",
+    "grid": "https://cdn2.steamgriddb.com/grid/7acceae20211015bbb1825f59a593858.png",
+    "checkedAt": "2026-11-06",
+    "firstPartTried": true,
+    "matchedOn": "Pokémon Sword"
   },
   "sengoku-basara-4-sumeragi": {
     "sgdbId": 5288292,
@@ -3838,5 +3918,11 @@
     "name": "White Knight Chronicles II",
     "grid": "https://cdn2.steamgriddb.com/grid/f7217487b0be00f475ba135450bff62c.png",
     "checkedAt": "2026-11-06"
+  },
+  "super-mario-bros-wonder": {
+    "sgdbId": 5409928,
+    "name": "Super Mario Bros. Wonder",
+    "grid": "https://cdn2.steamgriddb.com/grid/66da3b21fe18692332284c64e08b8e02.png",
+    "checkedAt": "2026-11-07"
   }
 }
