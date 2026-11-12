@@ -94,6 +94,11 @@ StatusEXPERIMENTAL	Jogável, com alguns bugs	Playable, with some bugs
 StatusEM_DESENVOLVIMENTO	Ainda em construção	Still being built
 StatusDESCONTINUADO	Não recebe mais atualizações	No longer updated
 StatusNAO_AVALIADO	Ainda não avaliado	Not rated yet
+StatusShortJOGAVEL	Jogável	Playable
+StatusShortEXPERIMENTAL	Com alguns bugs	Some bugs
+StatusShortEM_DESENVOLVIMENTO	Em construção	In progress
+StatusShortDESCONTINUADO	Sem atualizações	Not updated
+StatusShortNAO_AVALIADO	Não avaliado	Not rated
 PlatformN64	Nintendo 64	Nintendo 64
 PlatformSNES	Super Nintendo	Super Nintendo
 PlatformGBA	Game Boy Advance	Game Boy Advance

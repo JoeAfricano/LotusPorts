@@ -100,6 +100,11 @@
   <data name="StatusEM_DESENVOLVIMENTO" xml:space="preserve"><value>Ainda em construção</value></data>
   <data name="StatusDESCONTINUADO" xml:space="preserve"><value>Não recebe mais atualizações</value></data>
   <data name="StatusNAO_AVALIADO" xml:space="preserve"><value>Ainda não avaliado</value></data>
+  <data name="StatusShortJOGAVEL" xml:space="preserve"><value>Jogável</value></data>
+  <data name="StatusShortEXPERIMENTAL" xml:space="preserve"><value>Com alguns bugs</value></data>
+  <data name="StatusShortEM_DESENVOLVIMENTO" xml:space="preserve"><value>Em construção</value></data>
+  <data name="StatusShortDESCONTINUADO" xml:space="preserve"><value>Sem atualizações</value></data>
+  <data name="StatusShortNAO_AVALIADO" xml:space="preserve"><value>Não avaliado</value></data>
   <data name="PlatformN64" xml:space="preserve"><value>Nintendo 64</value></data>
   <data name="PlatformSNES" xml:space="preserve"><value>Super Nintendo</value></data>
   <data name="PlatformGBA" xml:space="preserve"><value>Game Boy Advance</value></data>

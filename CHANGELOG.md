@@ -1,9 +1,14 @@
 # Novidades
 
-## Próxima versão
+## 0.1.3-alpha (12/11/2026)
+
+**Versão alpha, em pré-teste.** Pode ter falhas; mantenha cópias dos seus saves importantes.
 
 - Jogos e ports novos chegam sem atualizar o app: uma vez por dia, o Lotus Ports confere o catálogo oficial no GitHub e usa a versão nova se ela passar na validação.
 - Cada port agora tem status (Jogável, Com alguns bugs, Em construção…) e a lista de problemas conhecidos, tirados do README e dos relatos dos jogadores no GitHub. A Página do jogo mostra os dois em "Sobre este port".
+- Em 21 jogos, o port recomendado passou a ser o que está em melhor estado segundo os jogadores.
+- Os cartões mostram o status em poucas palavras ("Jogável", "Com alguns bugs"), sem cortar o texto.
+- Na Página do jogo, a barra lateral continua marcando a seção de onde você veio.
 
 ## 0.1.2-alpha (07/11/2026)
 
