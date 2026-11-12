@@ -8,6 +8,9 @@ public static class CatalogLabels
 {
     public static string Status(PortStatus status) => Strings.Get("Status" + status);
 
+    /// <summary>The same status in a few words, for badges on narrow cards.</summary>
+    public static string StatusShort(PortStatus status) => Strings.Get("StatusShort" + status);
+
     public static BadgeTone StatusTone(PortStatus status) => status switch
     {
         PortStatus.JOGAVEL => BadgeTone.Ok,
@@ -61,7 +64,7 @@ public sealed record GameCardModel(
         game.Game.Title,
         game.Game.OriginalPlatform.ToString(),
         CatalogLabels.Platform(game.Game.OriginalPlatform),
-        CatalogLabels.Status(game.Recommended.Port.Status),
+        CatalogLabels.StatusShort(game.Recommended.Port.Status),
         CatalogLabels.StatusTone(game.Recommended.Port.Status),
         CatalogLabels.Origin(game),
         // Installing and game files arrive in phases 2 and 3: nothing is claimed before it is checked.

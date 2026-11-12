@@ -120,7 +120,8 @@ public sealed partial class MainWindow : Window
             : new EntranceNavigationTransitionInfo();
         ContentFrame.Navigate(type, type == typeof(SimplePage) ? page : parameter, transition);
         navigating = true;
-        var active = nav.ContainsKey(page) ? page : page == Pages.Game ? null : Pages.Home;
+        // A game page keeps the section it was opened from lit: that is where Back returns.
+        var active = page == Pages.Game ? lastPage : nav.ContainsKey(page) ? page : Pages.Home;
         foreach (var (id, button) in nav) button.IsChecked = id == active;
         navigating = false;
     }
