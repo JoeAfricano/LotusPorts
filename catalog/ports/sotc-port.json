@@ -5,7 +5,9 @@
   "title": "SotC Port",
   "portType": "static-recomp",
   "status": "EM_DESENVOLVIMENTO",
-  "knownIssuesPtBr": [],
+  "knownIssuesPtBr": [
+    "O README do projeto ainda é uma cópia do port de Bloodborne; as instruções de uso podem não valer para este jogo."
+  ],
   "verifiedBy": null,
   "verifiedAt": null,
   "repo": {

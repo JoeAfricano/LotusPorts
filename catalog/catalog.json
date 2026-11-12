@@ -2,7 +2,7 @@
   "$schema": "./catalog.schema.json",
   "schemaVersion": 1,
   "name": "Catálogo oficial do Lotus Ports",
-  "version": "2026-11-12.2",
+  "version": "2026-11-12.3",
   "games": [
     {
       "schemaVersion": 1,
@@ -13722,10 +13722,10 @@
       "schemaVersion": 1,
       "id": "the-incredible-hulk",
       "title": "The Incredible Hulk",
-      "originalPlatform": "XBOX",
+      "originalPlatform": "XBOX_360",
       "releaseYear": null,
       "genre": [],
-      "descriptionPtBr": "The Incredible Hulk, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
+      "descriptionPtBr": "The Incredible Hulk, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
       "recommendedPortId": "the-incredible-hulk-recompiled",
       "recommendationReasonPtBr": null,
       "alternatives": [],
@@ -63875,7 +63875,9 @@
       "title": "SotC Port",
       "portType": "static-recomp",
       "status": "EM_DESENVOLVIMENTO",
-      "knownIssuesPtBr": [],
+      "knownIssuesPtBr": [
+        "O README do projeto ainda é uma cópia do port de Bloodborne; as instruções de uso podem não valer para este jogo."
+      ],
       "verifiedBy": null,
       "verifiedAt": null,
       "repo": {

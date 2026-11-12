@@ -1,5 +1,7 @@
 <!-- source: https://github.com/guichiapini/sotcport/blob/HEAD/README.md | fingerprint: c4a6206e89a60b67 -->
 
+> Atenção: o README deste port ainda é uma cópia do port de Bloodborne (nomes de arquivo e menus abaixo são de lá). Confira as instruções no repositório antes de seguir.
+
 1. Baixe o zip na página de [versões (Releases)](https://github.com/Supermedo/bloodborne_pc/releases/latest) e extraia onde quiser.
 
 2. Abra o `Bloodborne.exe`.
