@@ -1,5 +1,9 @@
 # Novidades
 
+## Próxima versão
+
+- Jogos e ports novos chegam sem atualizar o app: uma vez por dia, o Lotus Ports confere o catálogo oficial no GitHub e usa a versão nova se ela passar na validação.
+
 ## 0.1.2-alpha (07/11/2026)
 
 **Versão alpha, em pré-teste.** Pode ter falhas; mantenha cópias dos seus saves importantes.

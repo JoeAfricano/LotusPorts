@@ -31,7 +31,7 @@
 ## Fase 1: pendências
 
 - **Revisão do catálogo pelo José:** 65 jogos pendentes, recomendações, status e setups. Lista completa em `docs/CATALOGO.md`.
-- **Catálogo oficial remoto (atualização por ETag):** o mecanismo existe e é usado pelas fontes importadas, mas o catálogo oficial ainda só vem embutido no app, porque o repositório `lotus-ports-catalog` depende do GitHub, que fica para quando o José avisar.
+- **Catálogo oficial remoto (atualização por ETag):** feito em 12/11/2026, lido de `catalog/catalog.json` na `main` do próprio repositório LotusPorts (não foi criado um `lotus-ports-catalog` separado). Testado só com servidor falso; falta conferir no PC com uma publicação real. Ver "Catálogo pela internet" em `docs/CATALOGO.md`.
 - **Polly e retentativas de rede:** entram na Fase 2, junto com os downloads. Na Fase 1 as falhas de rede só viram mensagem e a cópia anterior é mantida.
 - **Não testado por automação:**
   - busca com `Ctrl+K` digitando um jogo;

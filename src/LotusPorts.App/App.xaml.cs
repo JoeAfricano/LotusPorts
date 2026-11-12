@@ -73,6 +73,7 @@ public partial class App : Application
             await host.Services.GetRequiredService<LotusBridge>().StartAsync(dispatcher);
             await host.StartAsync();
             play.StartDailyUpdateCheck();
+            StartDailyCatalogCheck(dispatcher, catalogService);
             host.Services.GetRequiredService<FavoriteNews>().Start(dispatcher);
 
             window = new MainWindow(StartPage());
@@ -94,6 +95,26 @@ public partial class App : Application
             Log.Fatal(ex, "Startup failed");
             ShowError(ex, canContinue: false);
         }
+    }
+
+    private Microsoft.UI.Dispatching.DispatcherQueueTimer? catalogCheck;
+
+    /// <summary>
+    /// New games and ports reach the player without a new app version: a little after startup and then once a day
+    /// while the app is open, the official catalog is checked on GitHub (one small request when nothing changed).
+    /// Games that arrive this way show up as "Chegou!" like any new game.
+    /// </summary>
+    private void StartDailyCatalogCheck(Microsoft.UI.Dispatching.DispatcherQueue dispatcher, CatalogService catalogService)
+    {
+        catalogCheck = dispatcher.CreateTimer();
+        catalogCheck.Interval = TimeSpan.FromSeconds(10);
+        catalogCheck.Tick += async (t, _) =>
+        {
+            t.Interval = TimeSpan.FromHours(24);
+            var outcome = await catalogService.RefreshOfficialAsync();
+            Log.Information("Official catalog check: {Outcome} (version {Version})", outcome, catalogService.Official.Version);
+        };
+        catalogCheck.Start();
     }
 
     private static IHost BuildHost(AppPaths paths)

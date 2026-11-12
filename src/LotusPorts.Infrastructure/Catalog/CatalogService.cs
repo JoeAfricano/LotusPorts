@@ -20,7 +20,20 @@ public enum AddSourceOutcome
 
 public sealed record AddSourceResult(AddSourceOutcome Outcome, CatalogSourceRecord? Source, IReadOnlyList<CatalogIssue> Issues, DateTimeOffset? RetryAt = null);
 
-public sealed record OfficialCatalogInfo(string Name, string Version, int Games, int Ports, bool Valid, string? Problem);
+/// <param name="Downloaded">True when the copy in use came from the internet (newer than the one shipped with the app).</param>
+public sealed record OfficialCatalogInfo(string Name, string Version, int Games, int Ports, bool Valid, string? Problem, bool Downloaded = false);
+
+public enum OfficialRefreshOutcome
+{
+    /// <summary>A newer valid catalog was downloaded and is now in use.</summary>
+    Updated,
+    /// <summary>Nothing newer than the copy in use.</summary>
+    Unchanged,
+    /// <summary>The downloaded catalog failed validation (or points to game files); the copy in use was kept.</summary>
+    Rejected,
+    /// <summary>No answer (offline, rate limit, server error); the copy in use was kept.</summary>
+    NotVerified,
+}
 
 /// <summary>Candidate Windows download and executables found in a repository's releases ("add port by link").</summary>
 public sealed record PortSuggestion(RepositoryInfo Repository, ReleaseInfo Release, ReleaseAssetInfo Asset, IReadOnlyList<string> Executables);
@@ -40,6 +53,13 @@ public sealed class CatalogService(
     public const string OfficialSourceId = "official";
     public const string UserSourceId = "user";
 
+    /// <summary>
+    /// The official catalog, as published on the main branch of the app's own public repository. The app checks it
+    /// once a day (ETag, so an unchanged file costs one small request) and uses it only when it is valid and its
+    /// <c>version</c> is newer than the copy shipped with the app. Raw files are not counted in GitHub's API limit.
+    /// </summary>
+    public static readonly Uri OfficialCatalogUrl = new("https://raw.githubusercontent.com/JoeAfricano/LotusPorts/main/catalog/catalog.json");
+
     private IReadOnlyDictionary<string, StoredGameState> states = new Dictionary<string, StoredGameState>();
 
     public event EventHandler? Changed;
@@ -54,6 +74,8 @@ public sealed class CatalogService(
 
     private string SourcesFolder => Path.Combine(paths.Data, "catalog-sources");
     private string UserCatalogFile => Path.Combine(paths.Data, "user-catalog.json");
+    private string OfficialCacheFile => Path.Combine(SourcesFolder, "official.json");
+    private string OfficialETagFile => Path.Combine(SourcesFolder, "official.etag");
 
     /// <summary>Set by the app: is any port of this game installed (from the library's active.json)?</summary>
     public Func<string, bool>? IsInstalled { get; set; }
@@ -81,8 +103,13 @@ public sealed class CatalogService(
         var official = CatalogValidator.Validate(CatalogValidator.ReadResource("catalog.json"));
         if (official.IsValid)
         {
-            bundles.Add(new(OfficialSourceId, official.Bundle!.Name, CatalogOrigin.Official, true, official.Bundle));
-            Official = new(official.Bundle.Name, official.Bundle.Version, official.Bundle.Games.Count, official.Bundle.Ports.Count, true, null);
+            // The downloaded copy wins only when it is valid and newer: an old download never hides a newer app.
+            var bundle = official.Bundle!;
+            var downloaded = ReadOfficialCache();
+            var useDownloaded = downloaded is not null && CompareCatalogVersions(downloaded.Version, bundle.Version) > 0;
+            if (useDownloaded) bundle = downloaded!;
+            bundles.Add(new(OfficialSourceId, bundle.Name, CatalogOrigin.Official, true, bundle));
+            Official = new(bundle.Name, bundle.Version, bundle.Games.Count, bundle.Ports.Count, true, null, useDownloaded);
         }
         else
         {
@@ -120,6 +147,78 @@ public sealed class CatalogService(
         await gameStates.DismissFromNewAsync(gameId).ConfigureAwait(false);
         states = await gameStates.GetAllAsync().ConfigureAwait(false);
         Changed?.Invoke(this, EventArgs.Empty);
+    }
+
+    // ---- Official catalog from the internet ------------------------------------------------------
+
+    /// <summary>
+    /// Looks for a newer official catalog (new games and ports without a new app version). The download is validated
+    /// like any source; an invalid one, or one that points to game files, is never stored, and the copy in use stays.
+    /// </summary>
+    public async Task<OfficialRefreshOutcome> RefreshOfficialAsync(CancellationToken cancellationToken = default)
+    {
+        if (!Official.Valid) return OfficialRefreshOutcome.NotVerified;
+        try
+        {
+            var etag = File.Exists(OfficialCacheFile) && File.Exists(OfficialETagFile) ? File.ReadAllText(OfficialETagFile).Trim() : null;
+            var fetched = await github.GetTextAsync(OfficialCatalogUrl, etag, cancellationToken).ConfigureAwait(false);
+            if (fetched.NotModified) return OfficialRefreshOutcome.Unchanged;
+            if (fetched.Body is null)
+            {
+                logger.LogInformation("Official catalog not available (HTTP {Status})", (int)fetched.Status);
+                return OfficialRefreshOutcome.NotVerified;
+            }
+            var result = CatalogValidator.Validate(fetched.Body);
+            if (result.ReferencesGameFiles || !result.IsValid)
+            {
+                logger.LogWarning("Downloaded official catalog rejected: {Issues}", string.Join("; ", result.Issues.Take(5).Select(i => $"{i.Path} {i.Message}")));
+                return OfficialRefreshOutcome.Rejected;
+            }
+            // Stored even when it is not newer, so the next check can use the ETag instead of downloading it again.
+            Directory.CreateDirectory(SourcesFolder);
+            var temp = OfficialCacheFile + ".tmp";
+            await File.WriteAllTextAsync(temp, fetched.Body, cancellationToken).ConfigureAwait(false);
+            File.Move(temp, OfficialCacheFile, overwrite: true);
+            if (fetched.ETag is null) File.Delete(OfficialETagFile);
+            else await File.WriteAllTextAsync(OfficialETagFile, fetched.ETag, cancellationToken).ConfigureAwait(false);
+            if (CompareCatalogVersions(result.Bundle!.Version, Official.Version) <= 0) return OfficialRefreshOutcome.Unchanged;
+            await LoadAsync(cancellationToken).ConfigureAwait(false);
+            logger.LogInformation("Official catalog updated to {Version} ({Games} games, {Ports} ports)", Official.Version, Official.Games, Official.Ports);
+            return OfficialRefreshOutcome.Updated;
+        }
+        catch (Exception ex) when (ex is HttpRequestException or TaskCanceledException { CancellationToken.IsCancellationRequested: false }
+            or InvalidDataException or GitHubRateLimitException or IOException or UnauthorizedAccessException)
+        {
+            logger.LogInformation(ex, "Checking the official catalog failed; the copy in use was kept");
+            return OfficialRefreshOutcome.NotVerified;
+        }
+    }
+
+    /// <summary>Catalog versions are "yyyy-MM-dd" with an optional ".n" for more than one release a day.</summary>
+    public static int CompareCatalogVersions(string a, string b)
+    {
+        static (string Date, int Number) Parse(string v)
+        {
+            var dot = v.IndexOf('.', StringComparison.Ordinal);
+            return dot < 0 ? (v, 0) : (v[..dot], int.TryParse(v[(dot + 1)..], out var n) ? n : 0);
+        }
+        var (da, na) = Parse(a);
+        var (db, nb) = Parse(b);
+        var byDate = string.CompareOrdinal(da, db);
+        return byDate != 0 ? Math.Sign(byDate) : na.CompareTo(nb);
+    }
+
+    private CatalogBundle? ReadOfficialCache()
+    {
+        if (!File.Exists(OfficialCacheFile)) return null;
+        try
+        {
+            var result = CatalogValidator.Validate(File.ReadAllText(OfficialCacheFile));
+            if (result.IsValid && !result.ReferencesGameFiles) return result.Bundle;
+            logger.LogWarning("Downloaded official catalog is no longer valid; the copy shipped with the app is used");
+        }
+        catch (IOException ex) { logger.LogWarning(ex, "Downloaded official catalog could not be read"); }
+        return null;
     }
 
     // ---- Imported sources -------------------------------------------------------------------

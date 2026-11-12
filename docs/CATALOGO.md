@@ -49,7 +49,19 @@ dotnet run --project tools/CatalogScout -- apply-review <pasta-das-revisoes> cat
 
 # 5. Validar
 dotnet test LotusPorts.slnx -p:Platform=x64
+
+# 6. Publicar para quem já tem o app: commit de catalog/ e push para a branch main
 ```
+
+### Catálogo pela internet (desde 12/11/2026)
+
+Jogos e ports novos chegam ao jogador sem uma versão nova do app:
+- O app lê `https://raw.githubusercontent.com/JoeAfricano/LotusPorts/main/catalog/catalog.json` 10 s depois de abrir e depois a cada 24 h, enquanto está aberto. Com ETag: quando nada mudou, é só uma consulta pequena, e o arquivo bruto não conta no limite da API do GitHub.
+- O catálogo baixado passa pela mesma validação do embutido. Inválido, ou com qualquer referência a arquivo de jogo, é recusado e o app continua com a cópia que já usava.
+- Só é usado se o `version` for **mais novo** que o do catálogo em uso. O `bundle` grava a data do dia e acrescenta `.2`, `.3`… quando já houve um pacote no mesmo dia.
+- A cópia fica em `%LOCALAPPDATA%\LotusPorts\data\catalog-sources\official.json` (com `official.etag`). Um app mais novo com catálogo embutido mais recente ignora uma cópia baixada mais velha.
+- Os jogos que chegam assim aparecem como "Chegou!". Em Catálogo → Fontes, o catálogo oficial mostra "atualizado pela internet".
+- **Publicar = push na `main`.** Tudo o que estiver aprovado em `catalog/catalog.json` na `main` chega a todos os jogadores em até um dia. Antes do push, rodar os testes.
 
 O gerador **falha em vez de adivinhar** nestes casos:
 - o padrão de download pega zero ou mais de um arquivo da release;
