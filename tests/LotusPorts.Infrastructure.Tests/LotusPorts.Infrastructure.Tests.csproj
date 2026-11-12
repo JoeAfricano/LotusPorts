@@ -13,4 +13,5 @@
     <ProjectReference Include="../../src/LotusPorts.Infrastructure/LotusPorts.Infrastructure.csproj" />
   </ItemGroup>
   <ItemGroup><Using Include="Xunit" /><Using Include="AwesomeAssertions" /></ItemGroup>
+  <ItemGroup><AssemblyAttribute Include="System.Runtime.Versioning.SupportedOSPlatformAttribute"><_Parameter1>windows</_Parameter1></AssemblyAttribute></ItemGroup>
 </Project>
