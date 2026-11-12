@@ -13,8 +13,8 @@ public sealed partial class GameCard : UserControl
         DependencyProperty.Register(nameof(Model), typeof(GameCardModel), typeof(GameCard), new PropertyMetadata(null, (d, _) => ((GameCard)d).Update()));
 
     private readonly GameCover cover = new() { Height = 264, TitleBottomInset = 30, TitleSize = 17 };
-    private readonly StateBadge status = new() { Margin = new Thickness(10, 0, 10, 10), VerticalAlignment = VerticalAlignment.Bottom };
-    private readonly StateBadge origin = new() { Tone = BadgeTone.Unknown, Margin = new Thickness(12, 40, 0, 0), HorizontalAlignment = HorizontalAlignment.Left, VerticalAlignment = VerticalAlignment.Top };
+    private readonly StateBadge status = new() { OverArt = true, Margin = new Thickness(10, 0, 10, 10), VerticalAlignment = VerticalAlignment.Bottom };
+    private readonly StateBadge origin = new() { OverArt = true, Tone = BadgeTone.Unknown, Margin = new Thickness(12, 40, 0, 0), HorizontalAlignment = HorizontalAlignment.Left, VerticalAlignment = VerticalAlignment.Top };
     private readonly FontIcon heart = new() { Glyph = "\uEB52", FontSize = 14, Margin = new Thickness(0, 12, 12, 0), HorizontalAlignment = HorizontalAlignment.Right, VerticalAlignment = VerticalAlignment.Top };
     private readonly TextBlock name = new() { FontSize = 13, FontWeight = Microsoft.UI.Text.FontWeights.SemiBold, Margin = new Thickness(4, 9, 4, 0), TextTrimming = TextTrimming.CharacterEllipsis, MaxLines = 1 };
     private readonly TextBlock line = new() { FontSize = 12, TextTrimming = TextTrimming.CharacterEllipsis, VerticalAlignment = VerticalAlignment.Center };

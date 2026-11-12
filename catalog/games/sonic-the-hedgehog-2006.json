@@ -25,5 +25,8 @@
     "at": "2026-11-05",
     "notesPtBr": null
   },
-  "cover": null
+  "cover": {
+    "url": "https://cdn2.steamgriddb.com/grid/ac9eed1695292d513db8567115f83dbc.png",
+    "source": "steamgriddb"
+  }
 }

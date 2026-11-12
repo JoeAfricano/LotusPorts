@@ -2,7 +2,7 @@
   "$schema": "./catalog.schema.json",
   "schemaVersion": 1,
   "name": "Catálogo oficial do Lotus Ports",
-  "version": "2026-11-12",
+  "version": "2026-11-12.2",
   "games": [
     {
       "schemaVersion": 1,
@@ -123,7 +123,7 @@
         "notesPtBr": "Mantido em revisão: a versão publicada é uma pasta de compilação (só ferramentas e o recompilador), sem o programa do jogo."
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/5034c91e699f982a5983c737e358a48a.png",
+        "url": "https://cdn2.steamgriddb.com/grid/12badc8f342ae95f775de228ee719bc3.png",
         "source": "steamgriddb"
       }
     },
@@ -153,7 +153,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/e126b167d20ea9c81d1ec71b897f3180.png",
+        "url": "https://cdn2.steamgriddb.com/grid/cf29b2aff4c7689eb01fc3bf2de9f84c.png",
         "source": "steamgriddb"
       }
     },
@@ -629,7 +629,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/05c396b4ebe2ad12cd330de050269cfb.png",
+        "url": "https://cdn2.steamgriddb.com/grid/caf692e7008d1ba8414938769ef0f14d.png",
         "source": "steamgriddb"
       }
     },
@@ -1613,6 +1613,10 @@
         "by": "José",
         "at": "2026-11-06",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/b8e1cfae304bcce18f90913bcded8554.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -1785,7 +1789,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/c52f0d9f8fb84ea294975f6b595d5308.png",
+        "url": "https://cdn2.steamgriddb.com/grid/feaba007731bf75ff8dfe653975d1d9e.png",
         "source": "steamgriddb"
       }
     },
@@ -1808,6 +1812,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/1bea0e535d9003864ad532b1bad9d0b7.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -2002,6 +2010,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/e38f3d36fb5314e81afd498b8e8f0f71.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -2299,6 +2311,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/e8569d77260b796d0f754f7accdc8c0d.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -2325,6 +2341,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/fbf79bc10dbe8816616067094d939d62.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -2591,7 +2611,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/e1e811bf16eb16068378b5051f7cb845.png",
+        "url": "https://cdn2.steamgriddb.com/grid/6c1575cfd92ce12bde5c1b49d1ed1855.jpg",
         "source": "steamgriddb"
       }
     },
@@ -3128,6 +3148,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/5c1665ef7abc00d94193503401699d01.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -3149,8 +3173,8 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Dissidia%20012%20-%20Duodecim%20Final%20Fantasy%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
-        "source": "libretro-thumbnails"
+        "url": "https://cdn2.steamgriddb.com/grid/e1cf0926023ad0f43a56e9c79aa0a318.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -3220,8 +3244,8 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Donald%20Duck%20-%20Goin%27%20Quackers%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
-        "source": "libretro-thumbnails"
+        "url": "https://cdn2.steamgriddb.com/grid/7c13354d3859aa49707af7a433aee5b7.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -3388,7 +3412,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/2feff4d998eb08c295cdecc02c3fb213.png",
+        "url": "https://cdn2.steamgriddb.com/grid/24ee89e653e6e5cf2cd38b38353a9da2.png",
         "source": "steamgriddb"
       }
     },
@@ -3491,6 +3515,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/324cb0c2f5b7c0ba72911fed9230d4f2.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -3754,7 +3782,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/75ee1d77d340cb0a97ddf66a3daf85af.png",
+        "url": "https://cdn2.steamgriddb.com/grid/13fd4b139fd2a71f8d352edab6b4fdd6.jpg",
         "source": "steamgriddb"
       }
     },
@@ -4254,8 +4282,8 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Fatal%20Frame%20%28USA%29.png",
-        "source": "libretro-thumbnails"
+        "url": "https://cdn2.steamgriddb.com/grid/81942bfb5d7edfda33dc135c137193ea.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -4334,7 +4362,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/76428cc494fcd402f2092a036aafb6fd.png",
+        "url": "https://cdn2.steamgriddb.com/grid/7b84679a6ae864115de56d33caf5728c.png",
         "source": "steamgriddb"
       }
     },
@@ -4629,7 +4657,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/8b5e72cc79a7693759eb98aa866accc6.png",
+        "url": "https://cdn2.steamgriddb.com/grid/d789cca34b9c96af9a9c7abd264b2c7b.png",
         "source": "steamgriddb"
       }
     },
@@ -4879,6 +4907,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/f97f701cddb26c64cac464adac3c6dd3.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -4990,7 +5022,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/c77206691d093e3055824d7063e7fa59.png",
+        "url": "https://cdn2.steamgriddb.com/grid/256e2c0ff5c9722c514fca5e71eecdf3.png",
         "source": "steamgriddb"
       }
     },
@@ -5539,7 +5571,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/3bf0b0ab270ffde4815c5d38b17d1b80.png",
+        "url": "https://cdn2.steamgriddb.com/grid/a60b0df479c1ec09f5f506cfa4401f2d.png",
         "source": "steamgriddb"
       }
     },
@@ -5727,7 +5759,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/9d52a1d22ae76500fa65957282b098bf.png",
+        "url": "https://cdn2.steamgriddb.com/grid/894dba3e645d2f262037c50c1e950265.png",
         "source": "steamgriddb"
       }
     },
@@ -5851,6 +5883,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/4e595a965deb9a55a93203df65c19c04.jpg",
+        "source": "steamgriddb"
       }
     },
     {
@@ -6059,7 +6095,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/832fb8aa0fe3daf1b86316713c3adb7c.png",
+        "url": "https://cdn2.steamgriddb.com/grid/3fa0059930683efc063a81ac3d52cac1.png",
         "source": "steamgriddb"
       }
     },
@@ -6424,6 +6460,10 @@
         "by": "José",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/9808ebaf484f8c5eb6c40595199b9143.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -6680,7 +6720,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/27f5f9280a2fd1bbfad2e9dcfdf79519.png",
+        "url": "https://cdn2.steamgriddb.com/grid/7a41a3b7df2f1afb37f07ae506ddc903.png",
         "source": "steamgriddb"
       }
     },
@@ -7067,7 +7107,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/409f95b49135f74d6f914dcb33639077.png",
+        "url": "https://cdn2.steamgriddb.com/grid/27908be590d3ec381df976ecbf65df81.png",
         "source": "steamgriddb"
       }
     },
@@ -7544,7 +7584,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/2adfdac87e4ebf116543ab5560b7fc19.png",
+        "url": "https://cdn2.steamgriddb.com/grid/dc3a410e3eb3be37a0c2324b36e115fb.png",
         "source": "steamgriddb"
       }
     },
@@ -8459,8 +8499,8 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mystical%20Ninja%20Starring%20Goemon%20%28USA%29.png",
-        "source": "libretro-thumbnails"
+        "url": "https://cdn2.steamgriddb.com/grid/de573d4a6b3c0e3e2797314303cceb3c.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -8480,6 +8520,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/ec7b389c437a0527bc9376ee86a4b6ec.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -8745,7 +8789,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png",
+        "url": "https://cdn2.steamgriddb.com/grid/fc37c4b1eec1351f34027727d650a9b8.png",
         "source": "steamgriddb"
       }
     },
@@ -8845,7 +8889,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/c3dc8588c3fb15fc270acf19ab50c3e6.jpg",
+        "url": "https://cdn2.steamgriddb.com/grid/1097e26f5c18bf2173ba006769938c64.jpg",
         "source": "steamgriddb"
       }
     },
@@ -8870,7 +8914,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/86fc0f2683dbae8bf952736438966f32.png",
+        "url": "https://cdn2.steamgriddb.com/grid/f8eb58cde3405e8f1fdf830611a70c99.png",
         "source": "steamgriddb"
       }
     },
@@ -9531,6 +9575,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/97ce6fd93a924372a43a742c2d1b3603.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -9589,7 +9637,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/334813fe4fe4021b1f884619abef595a.png",
+        "url": "https://cdn2.steamgriddb.com/grid/3787e256013321d100dea300ba0dab2e.png",
         "source": "steamgriddb"
       }
     },
@@ -9659,6 +9707,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/cd690312a9cfe6b52df9196719e76f6a.jpg",
+        "source": "steamgriddb"
       }
     },
     {
@@ -9680,6 +9732,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/46cac303b8b0c08b6e991f75a6a4eda2.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -9701,6 +9757,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/07896759dd67a43695ca20514377a111.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -9775,6 +9835,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/55f71a17a7260b81397e284247067746.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -9796,6 +9860,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/047c514f6ba6d73a3b16a65ce1deb8a7.jpg",
+        "source": "steamgriddb"
       }
     },
     {
@@ -9842,6 +9910,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/287d7d09cb401bd694576174f301f722.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -9888,8 +9960,8 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Pokemon%20Trading%20Card%20Game%202%20-%20The%20Invasion%20of%20Team%20GR%20%28USA%29.png",
-        "source": "libretro-thumbnails"
+        "url": "https://cdn2.steamgriddb.com/grid/ebff19fe9c585cbed8080f1014bc5066.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -9914,6 +9986,10 @@
         "by": "José",
         "at": "2026-11-07",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/0f78d889461190857b379ce9b2e063a7.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -10426,7 +10502,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/7fccaf0a51b9cbbcbcca2a4e5cefe7c8.png",
+        "url": "https://cdn2.steamgriddb.com/grid/07c86fab80f3b27e5adcefc39cd2b3bb.png",
         "source": "steamgriddb"
       }
     },
@@ -10696,7 +10772,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/d681447081ede4845d9aca8c2706a365.png",
+        "url": "https://cdn2.steamgriddb.com/grid/4bfab835a70836f9ce3f029ffeb555f9.png",
         "source": "steamgriddb"
       }
     },
@@ -10746,8 +10822,8 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Serious%20Sam%20-%20Next%20Encounter%20%28USA%29%20%28Rev%201%29.png",
-        "source": "libretro-thumbnails"
+        "url": "https://cdn2.steamgriddb.com/grid/3ac3d838e4c314f8482fcd809317a224.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -10817,7 +10893,7 @@
         "notesPtBr": "Só em \"Em breve\": ainda sem versão para baixar; o botão leva à página oficial."
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/acaca856b38c00847ecc1ca2c02ae4b4.png",
+        "url": "https://cdn2.steamgriddb.com/grid/c3683358b4fc45b7c1a7f333539f3409.png",
         "source": "steamgriddb"
       }
     },
@@ -10890,6 +10966,10 @@
         "by": "José",
         "at": "2026-11-06",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/ec48338a73640de6ad932e0e5181ea0c.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -11080,7 +11160,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/297c5d34ea49c4c89da2c1d7a7a62b06.png",
+        "url": "https://cdn2.steamgriddb.com/grid/50919475fbf7bb5e73700c5df48eff30.png",
         "source": "steamgriddb"
       }
     },
@@ -11217,6 +11297,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/63bb4c7787a360000cdd8b64840ab035.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -11342,6 +11426,10 @@
         "by": "José",
         "at": "2026-11-06",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/24da3ab6d1f59c772f33c3cc34172e6c.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -11544,7 +11632,10 @@
         "at": "2026-11-05",
         "notesPtBr": null
       },
-      "cover": null
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/ac9eed1695292d513db8567115f83dbc.png",
+        "source": "steamgriddb"
+      }
     },
     {
       "schemaVersion": 1,
@@ -11934,7 +12025,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/982d9c958a5295307675ebff615d7523.png",
+        "url": "https://cdn2.steamgriddb.com/grid/060f5816f56aad09d638ae164ccc7c74.png",
         "source": "steamgriddb"
       }
     },
@@ -12028,7 +12119,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/ee4003161017db88b94e95edcfcd4e99.png",
+        "url": "https://cdn2.steamgriddb.com/grid/9bad02571a0355e4a035c155db391fcc.png",
         "source": "steamgriddb"
       }
     },
@@ -12150,6 +12241,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/405e62d5b727c9cda82cc574623a30a2.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -12964,6 +13059,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/c39daf6acaaab596ed4cadc0e045db68.jpg",
+        "source": "steamgriddb"
       }
     },
     {
@@ -13006,7 +13105,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/d24296a1f65e4eedeb7b0426f1411cba.png",
+        "url": "https://cdn2.steamgriddb.com/grid/86d9a6d187660cebfdd3fc8ba14bae9b.png",
         "source": "steamgriddb"
       }
     },
@@ -13438,8 +13537,8 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Tetris%20%28World%29%20%28Rev%201%29.png",
-        "source": "libretro-thumbnails"
+        "url": "https://cdn2.steamgriddb.com/grid/61a6ab285b480677841895cc5d251cf4.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -13548,7 +13647,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/0838b43cd426373043e340b9f79985bd.png",
+        "url": "https://cdn2.steamgriddb.com/grid/5203e8a12d7e6867a91074b704bbc5f9.png",
         "source": "steamgriddb"
       }
     },
@@ -13615,7 +13714,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/ebc4dcd6245bdf46e4d6ffd89a1e3ec2.png",
+        "url": "https://cdn2.steamgriddb.com/grid/db949839ae011e05cda97cbffe2d64bf.png",
         "source": "steamgriddb"
       }
     },
@@ -13638,7 +13737,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/15dcbf18337d54ac76f9bd023c409064.jpg",
+        "url": "https://cdn2.steamgriddb.com/grid/715d23d4f13675a97f8c2294614e9126.png",
         "source": "steamgriddb"
       }
     },
@@ -13839,7 +13938,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/0ec360c243d4a23244accb3d04851604.png",
+        "url": "https://cdn2.steamgriddb.com/grid/5344c779d22726dc05e69c448d494745.png",
         "source": "steamgriddb"
       }
     },
@@ -13947,6 +14046,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/33483b0704437e8c55a0764602186dd1.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -14224,7 +14327,7 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://cdn2.steamgriddb.com/grid/c60880d86249cb6b52cf3ab7eee27480.png",
+        "url": "https://cdn2.steamgriddb.com/grid/c79e7a57562b073637e6c8957dc16c36.png",
         "source": "steamgriddb"
       }
     },
@@ -14295,6 +14398,10 @@
         "by": "Claude (curadoria delegada pelo José)",
         "at": "2026-11-05",
         "notesPtBr": null
+      },
+      "cover": {
+        "url": "https://cdn2.steamgriddb.com/grid/86efb669a6a7ab31681cc44c83bf36bb.png",
+        "source": "steamgriddb"
       }
     },
     {
@@ -15674,8 +15781,8 @@
         "notesPtBr": null
       },
       "cover": {
-        "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Wipeout%20%28USA%29.png",
-        "source": "libretro-thumbnails"
+        "url": "https://cdn2.steamgriddb.com/grid/416710e667a3f1eeaea3f7e49d4202bb.png",
+        "source": "steamgriddb"
       }
     },
     {

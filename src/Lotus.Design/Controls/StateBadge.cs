@@ -22,6 +22,11 @@ public sealed partial class StateBadge : UserControl
     public static readonly DependencyProperty TextProperty =
         DependencyProperty.Register(nameof(Text), typeof(string), typeof(StateBadge), new PropertyMetadata("", (d, _) => ((StateBadge)d).Paint()));
 
+    public static readonly DependencyProperty OverArtProperty =
+        DependencyProperty.Register(nameof(OverArt), typeof(bool), typeof(StateBadge), new PropertyMetadata(false, (d, _) => ((StateBadge)d).Paint()));
+
+    // Under the tinted badge: a dark plate when the badge sits on box art, so it stays readable on light covers.
+    private readonly Border plate = new() { CornerRadius = new CornerRadius(8) };
     private readonly Border border = new() { CornerRadius = new CornerRadius(8), Padding = new Thickness(8, 3, 10, 4), BorderThickness = new Thickness(0) };
     private readonly FontIcon icon = new() { FontSize = 11, VerticalAlignment = VerticalAlignment.Center };
     private readonly TextBlock label = new() { FontSize = 12, FontWeight = Microsoft.UI.Text.FontWeights.SemiBold, VerticalAlignment = VerticalAlignment.Center };
@@ -29,7 +34,8 @@ public sealed partial class StateBadge : UserControl
     public StateBadge()
     {
         border.Child = new StackPanel { Orientation = Orientation.Horizontal, Spacing = 6, Children = { icon, label } };
-        Content = border;
+        plate.Child = border;
+        Content = plate;
         HorizontalAlignment = HorizontalAlignment.Left;
         VerticalAlignment = VerticalAlignment.Center;
         IsTabStop = false;
@@ -46,6 +52,13 @@ public sealed partial class StateBadge : UserControl
     {
         get => (string)GetValue(TextProperty);
         set => SetValue(TextProperty, value);
+    }
+
+    /// <summary>The badge is drawn over a cover image: adds a dark plate behind the tint.</summary>
+    public bool OverArt
+    {
+        get => (bool)GetValue(OverArtProperty);
+        set => SetValue(OverArtProperty, value);
     }
 
     private void Paint()
@@ -66,6 +79,7 @@ public sealed partial class StateBadge : UserControl
         label.Text = Text;
         border.BorderBrush = brush;
         border.Background = (Brush)resources[key + ".Subtle"];
+        plate.Background = OverArt ? new SolidColorBrush(Windows.UI.Color.FromArgb(0xE0, 0x0D, 0x0A, 0x0F)) : null;
         Microsoft.UI.Xaml.Automation.AutomationProperties.SetName(this, Text);
     }
 }

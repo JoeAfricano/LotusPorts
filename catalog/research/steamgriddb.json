@@ -26,14 +26,16 @@
   "2010-fifa-world-cup-south-africa": {
     "sgdbId": 5258744,
     "name": "2010 FIFA World Cup South Africa",
-    "grid": "https://cdn2.steamgriddb.com/grid/5034c91e699f982a5983c737e358a48a.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/12badc8f342ae95f775de228ee719bc3.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "2014-fifa-world-cup-brazil": {
     "sgdbId": 5259701,
     "name": "2014 FIFA World Cup Brazil",
-    "grid": "https://cdn2.steamgriddb.com/grid/e126b167d20ea9c81d1ec71b897f3180.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/cf29b2aff4c7689eb01fc3bf2de9f84c.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "3-on-3-nhl-arcade": {
     "sgdbId": 5258677,
@@ -138,10 +140,11 @@
     "checkedAt": "2026-11-06"
   },
   "apocalypse": {
-    "sgdbId": 37616,
+    "sgdbId": 5288168,
     "name": "Apocalypse",
-    "grid": "https://cdn2.steamgriddb.com/grid/05c396b4ebe2ad12cd330de050269cfb.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/caf692e7008d1ba8414938769ef0f14d.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "army-men-sarge-s-heroes": {
     "sgdbId": 95,
@@ -368,12 +371,13 @@
     "checkedAt": "2026-11-06"
   },
   "cadence-of-hyrule": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5249586,
+    "name": "Cadence of Hyrule: Crypt of the NecroDancer Featuring The Legend of Zelda",
+    "grid": "https://cdn2.steamgriddb.com/grid/b8e1cfae304bcce18f90913bcded8554.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "call-of-duty-2-big-red-one": {
     "sgdbId": 5252158,
@@ -412,20 +416,22 @@
     "checkedAt": "2026-11-06"
   },
   "castle-of-illusion-quackshot-world-of-illusion": {
-    "sgdbId": 2449,
-    "name": "Castle of Illusion",
-    "grid": "https://cdn2.steamgriddb.com/grid/c52f0d9f8fb84ea294975f6b595d5308.png",
-    "checkedAt": "2026-11-06",
+    "sgdbId": 34018,
+    "name": "Castle of Illusion starring Mickey Mouse",
+    "grid": "https://cdn2.steamgriddb.com/grid/feaba007731bf75ff8dfe653975d1d9e.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "matchedOn": "Castle of Illusion"
+    "matchedOn": "Castle of Illusion",
+    "reviewed": "manual"
   },
   "castlevania-64": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5261755,
+    "name": "Castlevania",
+    "grid": "https://cdn2.steamgriddb.com/grid/1bea0e535d9003864ad532b1bad9d0b7.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "castlevania-chronicles": {
     "sgdbId": 37042,
@@ -473,12 +479,13 @@
     "checkedAt": "2026-11-06"
   },
   "clayfighter-63-and-clayfighter-sculptor-s-cut": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 39019,
+    "name": "ClayFighter 63 1/3",
+    "grid": "https://cdn2.steamgriddb.com/grid/e38f3d36fb5314e81afd498b8e8f0f71.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "command-conquer-red-alert-2-yuri-s-revenge": {
     "sgdbId": 38629,
@@ -541,20 +548,22 @@
     "checkedAt": "2026-11-06"
   },
   "crash-team-racing-nitro-fueled": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5246172,
+    "name": "CTR: Crash Team Racing - Nitro-Fueled",
+    "grid": "https://cdn2.steamgriddb.com/grid/e8569d77260b796d0f754f7accdc8c0d.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "crash-team-racing": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 36474,
+    "name": "CTR (Crash Team Racing)",
+    "grid": "https://cdn2.steamgriddb.com/grid/fbf79bc10dbe8816616067094d939d62.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "crash-twinsanity": {
     "sgdbId": 35121,
@@ -621,8 +630,9 @@
   "dead-or-alive-3": {
     "sgdbId": 5252193,
     "name": "Dead or Alive 3",
-    "grid": "https://cdn2.steamgriddb.com/grid/e1e811bf16eb16068378b5051f7cb845.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/6c1575cfd92ce12bde5c1b49d1ed1855.jpg",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "dead-or-alive-xtreme-2": {
     "sgdbId": 5274802,
@@ -751,20 +761,22 @@
     "checkedAt": "2026-11-06"
   },
   "disney-s-hercules": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 4923414,
+    "name": "Disney's Hercules: Action Game",
+    "grid": "https://cdn2.steamgriddb.com/grid/5c1665ef7abc00d94193503401699d01.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "dissidia-012-duodecim-final-fantasy": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 36808,
+    "name": "Dissidia 012 Final Fantasy",
+    "grid": "https://cdn2.steamgriddb.com/grid/e1cf0926023ad0f43a56e9c79aa0a318.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "dodonpachi-saidaioujou": {
     "sgdbId": 5438703,
@@ -781,12 +793,13 @@
     "variantsTried": true
   },
   "donald-duck-goin-quackers": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 34924,
+    "name": "Disney's Donald Duck: Goin' Quackers",
+    "grid": "https://cdn2.steamgriddb.com/grid/7c13354d3859aa49707af7a433aee5b7.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "donkey-kong-64": {
     "sgdbId": 37695,
@@ -813,10 +826,11 @@
     "checkedAt": "2026-11-06"
   },
   "donkey-kong": {
-    "sgdbId": 35160,
+    "sgdbId": 5320409,
     "name": "Donkey Kong",
-    "grid": "https://cdn2.steamgriddb.com/grid/2feff4d998eb08c295cdecc02c3fb213.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/24ee89e653e6e5cf2cd38b38353a9da2.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "doom-64": {
     "sgdbId": 25626,
@@ -837,12 +851,13 @@
     "checkedAt": "2026-11-06"
   },
   "doraemon-nobita-to-mittsu-no-seireiseki": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5468825,
+    "name": "Doraemon: Nobita to 3-tsu no Seireiseki",
+    "grid": "https://cdn2.steamgriddb.com/grid/324cb0c2f5b7c0ba72911fed9230d4f2.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "downhill-domination": {
     "sgdbId": 5253254,
@@ -901,8 +916,9 @@
   "dragon-s-crown-pro": {
     "sgdbId": 5426974,
     "name": "Dragon's Crown Pro",
-    "grid": "https://cdn2.steamgriddb.com/grid/75ee1d77d340cb0a97ddf66a3daf85af.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/13fd4b139fd2a71f8d352edab6b4fdd6.jpg",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "dragon-valor": {
     "sgdbId": 35933,
@@ -1007,12 +1023,13 @@
     "checkedAt": "2026-11-06"
   },
   "fatal-frame": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 34783,
+    "name": "Fatal Frame / Project Zero",
+    "grid": "https://cdn2.steamgriddb.com/grid/81942bfb5d7edfda33dc135c137193ea.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "fifa-street": {
     "sgdbId": 5257940,
@@ -1029,8 +1046,9 @@
   "final-fantasy-crystal-chronicles-echoes-of-time": {
     "sgdbId": 4606,
     "name": "Final Fantasy Crystal Chronicles: Echoes of Time",
-    "grid": "https://cdn2.steamgriddb.com/grid/76428cc494fcd402f2092a036aafb6fd.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/7b84679a6ae864115de56d33caf5728c.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "final-fantasy-ix": {
     "sgdbId": 8025,
@@ -1093,10 +1111,11 @@
     "checkedAt": "2026-11-06"
   },
   "fuse": {
-    "sgdbId": 3222,
+    "sgdbId": 5246730,
     "name": "Fuse",
-    "grid": "https://cdn2.steamgriddb.com/grid/8b5e72cc79a7693759eb98aa866accc6.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/d789cca34b9c96af9a9c7abd264b2c7b.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "futurama": {
     "sgdbId": 35533,
@@ -1149,12 +1168,13 @@
     "variantsTried": true
   },
   "god-of-war-chains-of-olympus-god-of-war-ghost-of-sparta": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 36385,
+    "name": "God of War: Chains of Olympus",
+    "grid": "https://cdn2.steamgriddb.com/grid/f97f701cddb26c64cac464adac3c6dd3.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "god-of-war-iii-remastered": {
     "sgdbId": 5246707,
@@ -1178,10 +1198,11 @@
     "checkedAt": "2026-11-06"
   },
   "godzilla": {
-    "sgdbId": 38668,
+    "sgdbId": 5272282,
     "name": "Godzilla",
-    "grid": "https://cdn2.steamgriddb.com/grid/c77206691d093e3055824d7063e7fa59.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/256e2c0ff5c9722c514fca5e71eecdf3.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "goemon-s-great-adventure": {
     "sgdbId": 33690,
@@ -1302,10 +1323,11 @@
     "checkedAt": "2026-11-06"
   },
   "harry-potter-and-the-philosopher-s-stone": {
-    "sgdbId": 37910,
+    "sgdbId": 5404434,
     "name": "Harry Potter and the Philosopher's Stone",
-    "grid": "https://cdn2.steamgriddb.com/grid/3bf0b0ab270ffde4815c5d38b17d1b80.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/a60b0df479c1ec09f5f506cfa4401f2d.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "harry-potter-and-the-prisoner-of-azkaban": {
     "sgdbId": 36860,
@@ -1352,8 +1374,9 @@
   "hellnight": {
     "sgdbId": 5256927,
     "name": "Hellnight",
-    "grid": "https://cdn2.steamgriddb.com/grid/9d52a1d22ae76500fa65957282b098bf.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/894dba3e645d2f262037c50c1e950265.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "hexic-hd": {
     "sgdbId": null,
@@ -1382,12 +1405,13 @@
     "checkedAt": "2026-11-06"
   },
   "hydro-thunder-offroad-thunder": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 37634,
+    "name": "Hydro Thunder",
+    "grid": "https://cdn2.steamgriddb.com/grid/4e595a965deb9a55a93203df65c19c04.jpg",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "ico": {
     "sgdbId": 33578,
@@ -1436,8 +1460,9 @@
   "j-stars-victory-vs": {
     "sgdbId": 5265495,
     "name": "J-Stars Victory VS+",
-    "grid": "https://cdn2.steamgriddb.com/grid/832fb8aa0fe3daf1b86316713c3adb7c.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/3fa0059930683efc063a81ac3d52cac1.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "jackie-chan-stuntmaster": {
     "sgdbId": 5262934,
@@ -1520,12 +1545,13 @@
     "checkedAt": "2026-11-06"
   },
   "king-kong": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5249080,
+    "name": "Peter Jackson's King Kong: The Official Game of the Movie",
+    "grid": "https://cdn2.steamgriddb.com/grid/9808ebaf484f8c5eb6c40595199b9143.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "king-s-field-ii": {
     "sgdbId": 5260159,
@@ -1582,10 +1608,11 @@
     "checkedAt": "2026-11-06"
   },
   "knack": {
-    "sgdbId": 25782,
-    "name": "KNACK",
-    "grid": "https://cdn2.steamgriddb.com/grid/27f5f9280a2fd1bbfad2e9dcfdf79519.png",
-    "checkedAt": "2026-11-06"
+    "sgdbId": 5246711,
+    "name": "Knack",
+    "grid": "https://cdn2.steamgriddb.com/grid/7a41a3b7df2f1afb37f07ae506ddc903.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "knuckles-chaotix": {
     "sgdbId": 37279,
@@ -1668,8 +1695,9 @@
   "magical-tetris-challenge": {
     "sgdbId": 37767,
     "name": "Magical Tetris Challenge",
-    "grid": "https://cdn2.steamgriddb.com/grid/409f95b49135f74d6f914dcb33639077.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/27908be590d3ec381df976ecbf65df81.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "mario-kart-64": {
     "sgdbId": 21164,
@@ -1780,10 +1808,11 @@
     "checkedAt": "2026-11-06"
   },
   "medal-of-honor": {
-    "sgdbId": 12091,
+    "sgdbId": 5254726,
     "name": "Medal of Honor",
-    "grid": "https://cdn2.steamgriddb.com/grid/2adfdac87e4ebf116543ab5560b7fc19.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/dc3a410e3eb3be37a0c2324b36e115fb.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "medievil": {
     "sgdbId": 38204,
@@ -1996,20 +2025,22 @@
     "checkedAt": "2026-11-06"
   },
   "mystical-ninja-goemon": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 33703,
+    "name": "Mystical Ninja Starring Goemon (Nintendo 64)",
+    "grid": "https://cdn2.steamgriddb.com/grid/de573d4a6b3c0e3e2797314303cceb3c.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "n3-ninety-nine-nights": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5270721,
+    "name": "Ninety-Nine Nights",
+    "grid": "https://cdn2.steamgriddb.com/grid/ec7b389c437a0527bc9376ee86a4b6ec.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "namco-2x-systems": {
     "sgdbId": null,
@@ -2074,10 +2105,11 @@
     "checkedAt": "2026-11-06"
   },
   "need-for-speed-most-wanted": {
-    "sgdbId": 38250,
+    "sgdbId": 5258915,
     "name": "Need for Speed: Most Wanted",
-    "grid": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/fc37c4b1eec1351f34027727d650a9b8.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "neo-drift-out-new-technology": {
     "sgdbId": 5279412,
@@ -2100,14 +2132,16 @@
   "nfl-blitz-2003": {
     "sgdbId": 29837,
     "name": "NFL Blitz 2003",
-    "grid": "https://cdn2.steamgriddb.com/grid/c3dc8588c3fb15fc270acf19ab50c3e6.jpg",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/1097e26f5c18bf2173ba006769938c64.jpg",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "nfl-head-coach-09": {
     "sgdbId": 5488177,
     "name": "NFL Head Coach 09",
-    "grid": "https://cdn2.steamgriddb.com/grid/86fc0f2683dbae8bf952736438966f32.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/f8eb58cde3405e8f1fdf830611a70c99.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "nhl-2k8": {
     "sgdbId": 5346641,
@@ -2250,12 +2284,13 @@
     "checkedAt": "2026-11-06"
   },
   "pirates-of-the-caribbean-at-world-s-end": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 4704,
+    "name": "Disney Pirates of the Caribbean: At Worlds End",
+    "grid": "https://cdn2.steamgriddb.com/grid/97ce6fd93a924372a43a742c2d1b3603.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "plants-vs-zombies": {
     "sgdbId": 5331605,
@@ -2266,8 +2301,9 @@
   "point-blank": {
     "sgdbId": 5305337,
     "name": "Point Blank",
-    "grid": "https://cdn2.steamgriddb.com/grid/334813fe4fe4021b1f884619abef595a.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/3787e256013321d100dea300ba0dab2e.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "pokemon-black-pokemon-white": {
     "sgdbId": null,
@@ -2284,28 +2320,31 @@
     "checkedAt": "2026-11-06"
   },
   "pokemon-crystal": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 35848,
+    "name": "Pokémon Crystal Version",
+    "grid": "https://cdn2.steamgriddb.com/grid/cd690312a9cfe6b52df9196719e76f6a.jpg",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "pokemon-emerald": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 34971,
+    "name": "Pokémon Emerald Version",
+    "grid": "https://cdn2.steamgriddb.com/grid/46cac303b8b0c08b6e991f75a6a4eda2.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "pokemon-firered": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 33987,
+    "name": "Pokémon FireRed Version",
+    "grid": "https://cdn2.steamgriddb.com/grid/07896759dd67a43695ca20514377a111.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "pokemon-legends-z-a": {
     "sgdbId": 5445395,
@@ -2320,20 +2359,22 @@
     "checkedAt": "2026-11-06"
   },
   "pokemon-platinum": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 38536,
+    "name": "Pokémon Platinum Version",
+    "grid": "https://cdn2.steamgriddb.com/grid/55f71a17a7260b81397e284247067746.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "pokemon-ruby": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 34103,
+    "name": "Pokémon Ruby Version",
+    "grid": "https://cdn2.steamgriddb.com/grid/047c514f6ba6d73a3b16a65ce1deb8a7.jpg",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "pokemon-snap": {
     "sgdbId": 37585,
@@ -2342,28 +2383,31 @@
     "checkedAt": "2026-11-06"
   },
   "pokemon-soulsilver": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5245279,
+    "name": "Pokémon SoulSilver Version",
+    "grid": "https://cdn2.steamgriddb.com/grid/287d7d09cb401bd694576174f301f722.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "pokemon-trading-card-game-2-the-invasion-of-team-gr": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5286840,
+    "name": "Pokémon Trading Card Game 2",
+    "grid": "https://cdn2.steamgriddb.com/grid/ebff19fe9c585cbed8080f1014bc5066.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "pokopia": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5503567,
+    "name": "Pokémon Pokopia",
+    "grid": "https://cdn2.steamgriddb.com/grid/0f78d889461190857b379ce9b2e063a7.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "prince-of-persia-the-sands-of-time": {
     "sgdbId": 1438,
@@ -2474,10 +2518,11 @@
     "checkedAt": "2026-11-06"
   },
   "ridge-racer": {
-    "sgdbId": 37186,
+    "sgdbId": 5250089,
     "name": "Ridge Racer",
-    "grid": "https://cdn2.steamgriddb.com/grid/7fccaf0a51b9cbbcbcca2a4e5cefe7c8.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/07c86fab80f3b27e5adcefc39cd2b3bb.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "road-rash-64": {
     "sgdbId": 38158,
@@ -2548,12 +2593,13 @@
     "checkedAt": "2026-11-06"
   },
   "serious-sam-next-encounter": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5253740,
+    "name": "Serious Sam: The Next Encounter",
+    "grid": "https://cdn2.steamgriddb.com/grid/3ac3d838e4c314f8482fcd809317a224.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "sexy-parodius": {
     "sgdbId": 5357034,
@@ -2580,12 +2626,13 @@
     "checkedAt": "2026-11-06"
   },
   "shin-kido-senki-gundam-wing-endless-duel": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5252955,
+    "name": "Gundam Wing: Endless Duel",
+    "grid": "https://cdn2.steamgriddb.com/grid/ec48338a73640de6ad932e0e5181ea0c.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "shin-megami-tensei-devil-survivor-2-record-breaker": {
     "sgdbId": 5263375,
@@ -2632,10 +2679,11 @@
     "checkedAt": "2026-11-06"
   },
   "simcity": {
-    "sgdbId": 36105,
+    "sgdbId": 5319383,
     "name": "SimCity",
-    "grid": "https://cdn2.steamgriddb.com/grid/297c5d34ea49c4c89da2c1d7a7a62b06.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/50919475fbf7bb5e73700c5df48eff30.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "sin-and-punishment": {
     "sgdbId": 35136,
@@ -2662,12 +2710,13 @@
     "checkedAt": "2026-11-06"
   },
   "skylanders-spyro-s-adventure-skylanders-giants-skylanders-swap-force-s": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5249398,
+    "name": "Skylanders Spyro's Adventure",
+    "grid": "https://cdn2.steamgriddb.com/grid/63bb4c7787a360000cdd8b64840ab035.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "sneak-king-big-bumpin-and-pocketbike-racer": {
     "sgdbId": 5315547,
@@ -2696,12 +2745,13 @@
     "checkedAt": "2026-11-06"
   },
   "sonic-3-knuckles": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 33827,
+    "name": "Sonic the Hedgehog 3 & Knuckles",
+    "grid": "https://cdn2.steamgriddb.com/grid/24da3ab6d1f59c772f33c3cc34172e6c.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "sonic-and-the-black-knight": {
     "sgdbId": 37046,
@@ -2749,12 +2799,13 @@
     "checkedAt": "2026-11-06"
   },
   "sonic-the-hedgehog-2006": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5249681,
+    "name": "Sonic the Hedgehog",
+    "grid": "https://cdn2.steamgriddb.com/grid/ac9eed1695292d513db8567115f83dbc.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "sonic-the-hedgehog-2013": {
     "sgdbId": 35571,
@@ -2846,8 +2897,9 @@
   "star-ocean-integrity-and-faithlessness": {
     "sgdbId": 5300220,
     "name": "Star Ocean: Integrity and Faithlessness",
-    "grid": "https://cdn2.steamgriddb.com/grid/982d9c958a5295307675ebff615d7523.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/060f5816f56aad09d638ae164ccc7c74.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "star-wars-masters-of-teras-kasi": {
     "sgdbId": 5252583,
@@ -2870,8 +2922,9 @@
   "street-fighter-ex-plus-alpha": {
     "sgdbId": 35978,
     "name": "Street Fighter EX Plus Alpha",
-    "grid": "https://cdn2.steamgriddb.com/grid/ee4003161017db88b94e95edcfcd4e99.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/9bad02571a0355e4a035c155db391fcc.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "street-fighter-ex2-plus": {
     "sgdbId": 37664,
@@ -2900,12 +2953,13 @@
     "checkedAt": "2026-11-06"
   },
   "street-rod-street-rod-2": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5315451,
+    "name": "Street Rod",
+    "grid": "https://cdn2.steamgriddb.com/grid/405e62d5b727c9cda82cc574623a30a2.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "streets-of-rage": {
     "sgdbId": 36744,
@@ -3085,12 +3139,13 @@
     "checkedAt": "2026-11-06"
   },
   "super-robot-wars-64": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5505888,
+    "name": "Super Robot Taisen 64",
+    "grid": "https://cdn2.steamgriddb.com/grid/c39daf6acaaab596ed4cadc0e045db68.jpg",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "super-ryu-world-1": {
     "sgdbId": null,
@@ -3103,8 +3158,9 @@
   "super-smash-bros-brawl": {
     "sgdbId": 35465,
     "name": "Super Smash Bros. Brawl",
-    "grid": "https://cdn2.steamgriddb.com/grid/d24296a1f65e4eedeb7b0426f1411cba.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/86d9a6d187660cebfdd3fc8ba14bae9b.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "super-smash-bros-for-wii-u": {
     "sgdbId": 34614,
@@ -3199,12 +3255,13 @@
     "checkedAt": "2026-11-06"
   },
   "tetris": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 5249689,
+    "name": "Tetris (Game Boy)",
+    "grid": "https://cdn2.steamgriddb.com/grid/61a6ab285b480677841895cc5d251cf4.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "tetrisphere": {
     "sgdbId": 29858,
@@ -3219,10 +3276,11 @@
     "checkedAt": "2026-11-06"
   },
   "the-darkness": {
-    "sgdbId": 24046,
+    "sgdbId": 5272254,
     "name": "The Darkness",
-    "grid": "https://cdn2.steamgriddb.com/grid/0838b43cd426373043e340b9f79985bd.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/5203e8a12d7e6867a91074b704bbc5f9.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "the-flintstones-the-jetsons-timewarp": {
     "sgdbId": null,
@@ -3241,14 +3299,16 @@
   "the-incredible-crash-dummies": {
     "sgdbId": 36942,
     "name": "The Incredible Crash Dummies",
-    "grid": "https://cdn2.steamgriddb.com/grid/ebc4dcd6245bdf46e4d6ffd89a1e3ec2.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/db949839ae011e05cda97cbffe2d64bf.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "the-incredible-hulk": {
-    "sgdbId": 36412,
-    "name": "The Incredible Hulk",
-    "grid": "https://cdn2.steamgriddb.com/grid/15dcbf18337d54ac76f9bd023c409064.jpg",
-    "checkedAt": "2026-11-06"
+    "sgdbId": 1214,
+    "name": "The Incredible Hulk: The Official Videogame",
+    "grid": "https://cdn2.steamgriddb.com/grid/715d23d4f13675a97f8c2294614e9126.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "the-king-of-fighters-98": {
     "sgdbId": 5283505,
@@ -3281,10 +3341,11 @@
     "checkedAt": "2026-11-06"
   },
   "the-legend-of-zelda-link-s-awakening": {
-    "sgdbId": 34336,
+    "sgdbId": 5253316,
     "name": "The Legend of Zelda: Link's Awakening",
-    "grid": "https://cdn2.steamgriddb.com/grid/0ec360c243d4a23244accb3d04851604.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/5344c779d22726dc05e69c448d494745.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "the-legend-of-zelda-majora-s-mask-3d": {
     "sgdbId": 5246697,
@@ -3307,12 +3368,13 @@
     "matchedOn": "The Legend of Zelda: Ocarina of Time"
   },
   "the-legend-of-zelda-oracle-of-ages-the-legend-of-zelda-oracle-of-seaso": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 35190,
+    "name": "The Legend of Zelda: Oracle of Ages",
+    "grid": "https://cdn2.steamgriddb.com/grid/33483b0704437e8c55a0764602186dd1.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages": {
     "sgdbId": 38450,
@@ -3371,10 +3433,11 @@
     "checkedAt": "2026-11-06"
   },
   "the-sims": {
-    "sgdbId": 37838,
+    "sgdbId": 5339837,
     "name": "The Sims",
-    "grid": "https://cdn2.steamgriddb.com/grid/c60880d86249cb6b52cf3ab7eee27480.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/c79e7a57562b073637e6c8957dc16c36.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "the-warriors": {
     "sgdbId": 33536,
@@ -3389,12 +3452,13 @@
     "checkedAt": "2026-11-06"
   },
   "the-world-is-not-enough": {
-    "sgdbId": null,
-    "name": null,
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "sgdbId": 35380,
+    "name": "007: The World Is Not Enough",
+    "grid": "https://cdn2.steamgriddb.com/grid/86efb669a6a7ab31681cc44c83bf36bb.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "theatrhythm-final-bar-line": {
     "sgdbId": 5416708,
@@ -3713,12 +3777,13 @@
     "checkedAt": "2026-11-06"
   },
   "wipeout": {
-    "sgdbId": 15166,
+    "sgdbId": 5296247,
     "name": "WipeOut",
-    "grid": null,
-    "checkedAt": "2026-11-06",
+    "grid": "https://cdn2.steamgriddb.com/grid/416710e667a3f1eeaea3f7e49d4202bb.png",
+    "checkedAt": "2026-11-12",
     "firstPartTried": true,
-    "variantsTried": true
+    "variantsTried": true,
+    "reviewed": "manual"
   },
   "world-driver-championship": {
     "sgdbId": 21184,
@@ -3947,14 +4012,16 @@
   "sengoku-basara-4-sumeragi": {
     "sgdbId": 5288292,
     "name": "Sengoku BASARA 4 Sumeragi",
-    "grid": "https://cdn2.steamgriddb.com/grid/d681447081ede4845d9aca8c2706a365.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/4bfab835a70836f9ce3f029ffeb555f9.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "shadow-of-the-colossus": {
-    "sgdbId": 86,
+    "sgdbId": 5414306,
     "name": "Shadow of the Colossus",
-    "grid": "https://cdn2.steamgriddb.com/grid/acaca856b38c00847ecc1ca2c02ae4b4.png",
-    "checkedAt": "2026-11-06"
+    "grid": "https://cdn2.steamgriddb.com/grid/c3683358b4fc45b7c1a7f333539f3409.png",
+    "checkedAt": "2026-11-12",
+    "reviewed": "manual"
   },
   "super-mario-odyssey": {
     "sgdbId": 5245268,
