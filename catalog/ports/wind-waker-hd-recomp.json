@@ -4,10 +4,12 @@
   "gameId": "zelda-wind-waker-hd",
   "title": "Wind Waker HD Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de submenus que somem depois de muito tempo jogando."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogadores zeraram)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "ZeldaWWHDRecomp",
     "name": "ZeldaWWHDRecomp"

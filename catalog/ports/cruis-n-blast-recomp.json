@@ -4,10 +4,10 @@
   "gameId": "cruis-n-blast",
   "title": "Cruis'n Blast Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável a 60 FPS)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "darkuni",
     "name": "cruisn-blast-recomp"

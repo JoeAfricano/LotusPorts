@@ -6,11 +6,11 @@
   "releaseYear": null,
   "genre": [],
   "descriptionPtBr": "Mario Kart Wii, lançado originalmente para Wii, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "mario-kart-wiicompiled",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "driftdroid",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "driftdroid",
+      "portId": "mario-kart-wiicompiled",
       "differencePtBr": null
     }
   ],

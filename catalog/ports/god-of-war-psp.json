@@ -4,10 +4,12 @@
   "gameId": "god-of-war-chains-of-olympus-god-of-war-ghost-of-sparta",
   "title": "God of War PSP",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Nenhum dos dois jogos foi jogado do começo ao fim: espere bugs no fim."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: prévia)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "DrummingBird1",
     "name": "gow-psp-recomp"

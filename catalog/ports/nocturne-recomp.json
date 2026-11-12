@@ -4,10 +4,12 @@
   "gameId": "shin-megami-tensei-iii-nocturne",
   "title": "Nocturne Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Na versão 1.5 só japonesa o diálogo inicial não termina."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (23 relatos resolvidos, 3 abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "birabittoh",
     "name": "NocturneRecomp"

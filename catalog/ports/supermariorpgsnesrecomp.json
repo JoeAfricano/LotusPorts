@@ -4,10 +4,13 @@
   "gameId": "super-mario-rpg-legend-of-the-seven-stars",
   "title": "SuperMarioRPGSNESRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "A abertura trava na cena da sala do trono do Bowser.",
+    "Pode fechar ao subir de nível."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: prévia; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mstan",
     "name": "SuperMarioRPGRecomp"

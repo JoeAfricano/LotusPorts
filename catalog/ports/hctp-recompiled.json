@@ -4,10 +4,12 @@
   "gameId": "wwe-smackdown-here-comes-the-pain",
   "title": "HCTP Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Modos PPV e Online ainda não funcionam."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção, roda nativo)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "BigDaddyJRich",
     "name": "hctp-recomp"

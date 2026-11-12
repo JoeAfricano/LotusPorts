@@ -4,10 +4,12 @@
   "gameId": "the-simpsons-wrestling",
   "title": "Simpsons Wrestling Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "120 FPS é experimental."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.0; problemas só visuais)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TekRantGaming",
     "name": "simpsons-wrestling-recompiled"

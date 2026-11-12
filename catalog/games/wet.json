@@ -8,11 +8,11 @@
     "ação"
   ],
   "descriptionPtBr": "WET, lançado originalmente para Xbox 360, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "wet-recomp",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "wetrecomp",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "wetrecomp",
+      "portId": "wet-recomp",
       "differencePtBr": null
     },
     {

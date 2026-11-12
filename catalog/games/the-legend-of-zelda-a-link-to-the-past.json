@@ -8,11 +8,11 @@
     "aventura"
   ],
   "descriptionPtBr": "The Legend of Zelda: A Link to the Past, lançado originalmente para Super Nintendo, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "zeldaalttpsnesrecomp",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "relic-of-the-past",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "relic-of-the-past",
+      "portId": "zeldaalttpsnesrecomp",
       "differencePtBr": null
     },
     {

@@ -4,10 +4,12 @@
   "gameId": "midtown-madness-3",
   "title": "Midtown Madness 3",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "A opção de oponentes esperarem na chegada não funciona."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: só problemas que vêm do jogo original; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "lakshya16157",
     "name": "midtown-madness-3-PC-Native"

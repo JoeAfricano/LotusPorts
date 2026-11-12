@@ -4,10 +4,12 @@
   "gameId": "fatal-frame",
   "title": "MikuPan",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só versão noturna (de teste)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Pré-lançamento noturno)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Mikompilation",
     "name": "MikuPan"

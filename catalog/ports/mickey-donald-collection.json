@@ -4,10 +4,12 @@
   "gameId": "castle-of-illusion-quackshot-world-of-illusion",
   "title": "Mickey & Donald Collection",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Em tela larga alguns inimigos só acordam ao entrar na área original da tela."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: só limitações de tela larga)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Darhkfox",
     "name": "MickeyAndDonaldCollection"

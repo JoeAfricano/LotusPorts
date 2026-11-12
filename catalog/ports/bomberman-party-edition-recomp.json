@@ -4,10 +4,10 @@
   "gameId": "bomberman-party-edition",
   "title": "Bomberman Party Edition Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EM_DESENVOLVIMENTO",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: só chega à tela de licença)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TechnicallyComputers",
     "name": "BombermanPartyEditionRecomp"

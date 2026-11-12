@@ -4,10 +4,12 @@
   "gameId": "def-jam-fight-for-ny",
   "title": "Def Jam FFNY Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Monitores VRR acima de 120 Hz podem travar em cerca de 49 FPS."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 0.13 com testes do mantenedor; 41 issues resolvidas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "vyanhursky",
     "name": "DefJamFFNY-recomp"

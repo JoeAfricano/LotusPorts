@@ -4,10 +4,13 @@
   "gameId": "ea-sports-ufc-3",
   "title": "UFC 3 PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de fechamento e de tela preta.",
+    "O desempenho cai aos poucos com o tempo e há travadas no meio das lutas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: correções frequentes; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "GNSB",
     "name": "UFC-3-PS4-PORT-LINUX-WINDOWS"

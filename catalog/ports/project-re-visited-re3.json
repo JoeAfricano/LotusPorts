@@ -4,10 +4,12 @@
   "gameId": "resident-evil-3-nemesis",
   "title": "Project RE-Visited RE3",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Em construção: espere bugs."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: experimental)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "BrazilianHobbyist",
     "name": "Project-RE-Visited-RE3"

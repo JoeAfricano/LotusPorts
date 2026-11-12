@@ -4,10 +4,14 @@
   "gameId": "dino-crisis",
   "title": "Dino Crisis Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "A preparação pode ficar em laço sem chegar ao jogo.",
+    "Falha na verificação do disco relatada.",
+    "Tipos de controle trocados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: teste de jogo pendente; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "alexbeavs-ps1-ports",
     "name": "dino-crisis-recomp"

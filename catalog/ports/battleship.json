@@ -4,10 +4,12 @@
   "gameId": "super-smash-bros",
   "title": "BattleShip",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Analógico direito de controle Xbox com comportamento errado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "JRickey",
     "name": "BattleShip"

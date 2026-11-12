@@ -4,10 +4,12 @@
   "gameId": "pac-man-championship-edition",
   "title": "Pac-Man Championship Edition: Native PC Port",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Ritmo de quadros irregular e atraso perceptível nos comandos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jedeyesniv-art",
     "name": "Pacman-CE-PC-Recomp"

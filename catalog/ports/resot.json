@@ -4,10 +4,13 @@
   "gameId": "prince-of-persia-the-sands-of-time",
   "title": "reSOT",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Defeitos gráficos e geometria sumindo em algumas áreas.",
+    "Desempenho baixo em alguns PCs."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: Sands of Time testado e completável no Windows; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "FulGerNet",
     "name": "rePOP"

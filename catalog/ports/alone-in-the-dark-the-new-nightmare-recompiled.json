@@ -4,10 +4,12 @@
   "gameId": "alone-in-the-dark-the-new-nightmare",
   "title": "Alone in the Dark: The New Nightmare Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A troca de disco dentro do jogo ainda não foi testada."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: cada disco passou no teste de abertura)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "alexbeavs-ps1-ports",
     "name": "alone-in-the-dark-the-new-nightmare-recomp"

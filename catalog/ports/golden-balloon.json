@@ -4,10 +4,12 @@
   "gameId": "diddy-kong-racing",
   "title": "Golden Balloon",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O visual Remasterizado (luz, sombras) é opcional e ainda em construção."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.8, baseada na descompilação completa)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "akratch",
     "name": "goldenballoon"

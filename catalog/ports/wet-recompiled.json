@@ -4,10 +4,12 @@
   "gameId": "wet",
   "title": "WET Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Defeito de textura no capítulo 12 (corrigido)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: testado em poucos PCs; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "zonehammer",
     "name": "wet-recomp"

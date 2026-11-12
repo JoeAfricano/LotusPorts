@@ -4,10 +4,12 @@
   "gameId": "street-fighter-iii-3rd-strike-online-edition",
   "title": "SF3TSOE Reborn",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relato com muitos comentários de atraso perceptível nos comandos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "updeshxp",
     "name": "SF3TSOEReborn"

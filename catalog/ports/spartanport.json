@@ -4,10 +4,16 @@
   "gameId": "god-of-war-iii-remastered",
   "title": "SpartanPort",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Texturas corrompidas e coloridas em alguns PCs.",
+    "Tela azul ou preta em Intel UHD 630.",
+    "Carregamento infinito em algumas transições de área.",
+    "Pedaços do cenário podem faltar e Kratos cai através do chão.",
+    "Fechamentos aleatórios relatados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o jogo foi jogado do começo ao fim; 4,6 mil estrelas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "FelipePrado0",
     "name": "SpartanPort"

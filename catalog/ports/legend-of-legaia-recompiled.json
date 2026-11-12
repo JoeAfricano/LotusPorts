@@ -4,10 +4,12 @@
   "gameId": "legend-of-legaia",
   "title": "Legend of Legaia Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só build de diagnóstico."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Pré-lançamento)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "SamSteProjects",
     "name": "legend-of-legaia-recomp"

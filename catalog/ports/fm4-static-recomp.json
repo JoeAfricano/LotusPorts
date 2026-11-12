@@ -4,10 +4,14 @@
   "gameId": "forza-motorsport-4",
   "title": "FM4 Static Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Som lento e arrastado em PCs mais antigos.",
+    "Pode fechar logo depois do primeiro desafio Top Gear.",
+    "Relatos de jogo sem som."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 0.3; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "i2kiselev",
     "name": "fm4-static-recomp"

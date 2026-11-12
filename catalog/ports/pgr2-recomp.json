@@ -4,10 +4,13 @@
   "gameId": "project-gotham-racing-2",
   "title": "PGR2 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Efeitos de som como eco e filtros não existem.",
+    "Pode cair abaixo de 60 FPS nas ruas mais cheias."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: corre em todos os modos testados)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "hk21x",
     "name": "pgr2-recomp"

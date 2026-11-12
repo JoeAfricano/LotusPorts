@@ -4,10 +4,12 @@
   "gameId": "godzilla",
   "title": "Minus Two",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Testado só até o prólogo de 1954."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o que funciona)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "gminustwo",
     "name": "minustwo"

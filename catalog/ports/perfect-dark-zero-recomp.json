@@ -4,10 +4,13 @@
   "gameId": "perfect-dark-zero",
   "title": "Perfect Dark Zero Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Alguns problemas de iluminação.",
+    "A interface do minijogo de explosivos não aparece no Vulkan."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: totalmente jogável no Windows e no Linux; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "nikolaygorb",
     "name": "PerfectDarkZeroRecomp"

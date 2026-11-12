@@ -4,10 +4,12 @@
   "gameId": "virtual-pro-wrestling-2-odo-keisho",
   "title": "Virtual Pro Wrestling 2: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só em japonês; traduções da comunidade entram como mod."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Pré-lançamento)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jessetbh",
     "name": "VPW2Recomp"

@@ -4,10 +4,14 @@
   "gameId": "xenoblade-chronicles-x-definitive-edition",
   "title": "XCX Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Desempenho piorou muito na última atualização.",
+    "Cenas acima de 30 FPS animam rápido demais.",
+    "Exige processador com SSE 4.2 e AVX."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: desenvolvimento inicial; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jmars125",
     "name": "xcx-recomp"

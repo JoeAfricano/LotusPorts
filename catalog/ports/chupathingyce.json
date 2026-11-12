@@ -4,10 +4,13 @@
   "gameId": "halo-combat-evolved",
   "title": "ChupathingyCE",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Engasgos e congelamentos de alguns segundos durante o jogo.",
+    "Em taxas de quadros altas ainda há diferenças de interpolação."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 0.8, 124 estrelas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "ChupathingyCE",
     "name": "chupathingyce"

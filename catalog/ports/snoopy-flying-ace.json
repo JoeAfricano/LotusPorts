@@ -4,10 +4,12 @@
   "gameId": "snoopy-flying-ace",
   "title": "Snoopy Flying Ace",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Nem todos os modos foram cobertos pelos testes."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: limitações de teste)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "BTr-RJ",
     "name": "RedBaron_Recomp"

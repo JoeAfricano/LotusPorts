@@ -4,10 +4,12 @@
   "gameId": "super-mario-64",
   "title": "Ghostship",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relato raro de fechamento na Hazy Maze Cave."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Projeto maduro (versão 3.0, 887 estrelas); relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "HarbourMasters",
     "name": "Ghostship"

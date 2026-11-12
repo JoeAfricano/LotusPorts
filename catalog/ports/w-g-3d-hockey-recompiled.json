@@ -4,10 +4,12 @@
   "gameId": "wayne-gretzky-s-3d-hockey",
   "title": "W.G. 3D Hockey: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relato de fechar no começo de uma rodada."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: abre e joga; revisão de correção em andamento; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "geno55",
     "name": "wg3d-recomp"

@@ -4,10 +4,12 @@
   "gameId": "resident-evil-outbreak",
   "title": "RE: Outbreak",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Algumas salas pesam no processador."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: File 1 jogável do começo ao fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Ninjacornix",
     "name": "reo"

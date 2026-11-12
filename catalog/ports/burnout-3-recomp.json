@@ -4,10 +4,12 @@
   "gameId": "burnout-3-takedown",
   "title": "Burnout 3 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Ainda não dá gosto de jogar: menus a ~14 FPS e corridas a 2-4 FPS."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: alpha)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "sp00nznet",
     "name": "burnout3"

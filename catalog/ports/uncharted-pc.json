@@ -4,10 +4,12 @@
   "gameId": "uncharted-the-nathan-drake-collection",
   "title": "uncharted_pc",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Acima de 120 FPS é experimental."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Supermedo",
     "name": "uncharted_pc"

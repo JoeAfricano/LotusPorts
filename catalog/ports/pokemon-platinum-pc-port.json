@@ -4,10 +4,12 @@
   "gameId": "pokemon-platinum",
   "title": "Pokémon Platinum PC Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Dá para jogar do começo ao fim, mas pode haver travamentos e bugs gráficos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "cybervisi0n",
     "name": "pokeplatinum"

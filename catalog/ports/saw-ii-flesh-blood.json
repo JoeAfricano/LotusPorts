@@ -4,10 +4,12 @@
   "gameId": "saw-ii-flesh-blood",
   "title": "Saw II: Flesh & Blood",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Quadrados na neblina (atenuado por padrão)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável, ainda no começo)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Matt-code-d",
     "name": "Saw2Recomp"

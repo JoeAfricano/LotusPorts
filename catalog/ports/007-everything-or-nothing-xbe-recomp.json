@@ -4,10 +4,14 @@
   "gameId": "007-everything-or-nothing",
   "title": "007: Everything or Nothing - XBE Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Pode fechar ao morrer.",
+    "Legendas passam rápido demais.",
+    "Problemas na missão do trem."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: joga até a última missão, com saves; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "hk21x",
     "name": "007eon-recomp"

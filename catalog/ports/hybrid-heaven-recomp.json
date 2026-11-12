@@ -4,10 +4,13 @@
   "gameId": "hybrid-heaven",
   "title": "Hybrid Heaven Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Problemas no HUD e no mini mapa.",
+    "Relatos sobre o primeiro chefe."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "danielgomesvieira2000",
     "name": "hybrid-heaven-recomp"

@@ -4,10 +4,15 @@
   "gameId": "jet-force-gemini",
   "title": "Jet Force Gemini Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de falha na instalação no Windows 10 (há soluções na issue).",
+    "O áudio pode atrasar depois de algum tempo.",
+    "Relato de tela preta ao abrir.",
+    "Em taxas de quadros altas, inimigos voadores ficam mais rápidos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (fase de testes com jogadores)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TK22-26",
     "name": "JetForceGemini-Recomp"

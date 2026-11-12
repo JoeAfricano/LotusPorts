@@ -4,10 +4,12 @@
   "gameId": "chrono-trigger-snes",
   "title": "Belthasar",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Ainda não conferido do começo ao fim."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: prévia)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TemplarServant",
     "name": "BelthasarProject"

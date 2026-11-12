@@ -4,10 +4,12 @@
   "gameId": "dragon-ball-z-the-legacy-of-goku-ii",
   "title": "Dragon Ball Z: The Legacy of Goku II Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Prévia: não testado no jogo inteiro; faça cópia dos saves."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mstan",
     "name": "DragonBallZLegacyofGokuIIRecomp"

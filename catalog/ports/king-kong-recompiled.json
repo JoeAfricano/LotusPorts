@@ -4,10 +4,12 @@
   "gameId": "king-kong",
   "title": "King Kong Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Acima de 30 FPS algumas animações ficam erradas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 2.1; problemas pequenos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TekRantGaming",
     "name": "king-kong-recompiled"

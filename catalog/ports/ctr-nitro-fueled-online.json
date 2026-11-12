@@ -4,10 +4,14 @@
   "gameId": "crash-team-racing-nitro-fueled",
   "title": "CTR Nitro-Fueled Online",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Personagens desenhados errado em placas AMD.",
+    "Defeitos no pelo dos personagens.",
+    "Erro 3 e falha ao iniciar a rede."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: experimental, com jogo online; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Ryu7w7",
     "name": "OCTR-NitroFueled-PC"

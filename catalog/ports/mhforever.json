@@ -4,10 +4,13 @@
   "gameId": "monster-hunter-freedom-unite",
   "title": "MHForever",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Software inicial: dá para zerar sozinho, mas espere bugs.",
+    "Jogo online é experimental."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Mango77x",
     "name": "MHForever"

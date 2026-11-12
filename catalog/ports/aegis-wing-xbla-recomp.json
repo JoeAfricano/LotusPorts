@@ -4,10 +4,12 @@
   "gameId": "aegis-wing",
   "title": "Aegis Wing XBLA Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Multijogador só por rede local ou VPN."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: só limitações de recursos online)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "CaiusCodes",
     "name": "Aegis-Wing-XBLA-PC-Recomp"

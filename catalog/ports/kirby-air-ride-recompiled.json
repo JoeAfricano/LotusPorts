@@ -4,10 +4,13 @@
   "gameId": "kirby-air-ride",
   "title": "Kirby Air Ride: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "No City Trial há atraso nos comandos, congelamento após partidas e cores trocadas.",
+    "X e B invertidos em controles XInput."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "sonsegajp",
     "name": "Kirby-Air-Ride-Recompiled"

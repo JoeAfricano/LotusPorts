@@ -4,10 +4,12 @@
   "gameId": "medievil",
   "title": "MediEvil PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Acima de 60 FPS é experimental."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: abre, menus e jogo funcionam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "bc160201983",
     "name": "medievil_2019_pc_port"

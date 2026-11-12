@@ -4,10 +4,13 @@
   "gameId": "astral-chain",
   "title": "Astral Chain Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Não é possível mudar o nome ao começar o jogo.",
+    "A 60 FPS o áudio dos vídeos sai de sincronia."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável da tela de título aos créditos, sem problema conhecido; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "captainj-sparrow",
     "name": "astral-chain-pc-recomp"

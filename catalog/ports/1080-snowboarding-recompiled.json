@@ -4,10 +4,12 @@
   "gameId": "1080-snowboarding",
   "title": "1080° Snowboarding: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "No multijogador local os dois controles comandam o mesmo jogador."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "thebradshaw",
     "name": "1080-Snowboarding-decomp"

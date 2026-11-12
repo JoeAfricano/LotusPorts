@@ -4,10 +4,10 @@
   "gameId": "serial-experiments-lain",
   "title": "Serial Experiments Lain PSX",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: joga o jogo inteiro, os quatro finais)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Y0oshi",
     "name": "lain-psx-decompiled"

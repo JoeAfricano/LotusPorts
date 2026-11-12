@@ -175,6 +175,9 @@
   <data name="AboutAcceptedVersions" xml:space="preserve"><value>Accepted versions</value></data>
   <data name="AboutReview" xml:space="preserve"><value>Review</value></data>
   <data name="AboutRepository" xml:space="preserve"><value>Repository</value></data>
+  <data name="AboutKnownIssues" xml:space="preserve"><value>Known issues</value></data>
+  <data name="AboutEvaluated" xml:space="preserve"><value>How it was rated</value></data>
+  <data name="AboutEvaluatedValue" xml:space="preserve"><value>{0}, on {1}</value></data>
   <data name="CatalogFilter" xml:space="preserve"><value>Filter by name or port</value></data>
   <data name="CatalogNoMatchTitle" xml:space="preserve"><value>No games found</value></data>
   <data name="CatalogNoMatchMessage" xml:space="preserve"><value>Try another name or platform.</value></data>

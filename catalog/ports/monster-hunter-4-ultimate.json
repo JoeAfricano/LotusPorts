@@ -4,10 +4,12 @@
   "gameId": "monster-hunter-4-ultimate",
   "title": "Monster Hunter 4 Ultimate",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A versão europeia foi bem menos testada que a americana."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "CompaLarios18",
     "name": "MH4UltimateDC"

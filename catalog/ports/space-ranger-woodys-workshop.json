@@ -4,10 +4,12 @@
   "gameId": "toy-story-2-buzz-lightyear-to-the-rescue",
   "title": "Space Ranger",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos: controle vibrando sem parar e música muito baixa."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável do começo ao fim, com ressalvas; pré-lançamento)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "woodys-workshop",
     "name": "SpaceRanger"

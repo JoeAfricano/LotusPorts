@@ -4,10 +4,12 @@
   "gameId": "hotel-mario",
   "title": "Hotel Mario Static Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Vários defeitos relatados por jogadores."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: conferido em execuções automáticas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "tools81",
     "name": "hotel-mario-static-recomp"

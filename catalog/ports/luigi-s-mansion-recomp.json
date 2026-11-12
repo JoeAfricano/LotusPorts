@@ -4,10 +4,12 @@
   "gameId": "luigi-s-mansion",
   "title": "Luigi's Mansion Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O modo de 2 jogadores (conteúdo cortado do original) está inacabado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.1; único problema é conteúdo extra)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "rob646464",
     "name": "luigis-mansion-recompiled"

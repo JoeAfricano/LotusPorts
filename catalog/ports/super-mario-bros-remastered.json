@@ -4,10 +4,12 @@
   "gameId": "super-mario-bros",
   "title": "Super Mario Bros. Remastered",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Física estranha em cantos junto à barreira da câmera."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.1 estável, 3,2 mil estrelas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "JHDev2006",
     "name": "Super-Mario-Bros.-Remastered-Public"

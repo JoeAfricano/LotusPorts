@@ -5,9 +5,11 @@
   "title": "SMO Recomp",
   "portType": "static-recomp",
   "status": "EM_DESENVOLVIMENTO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "knownIssuesPtBr": [
+    "Defeitos visuais no Reino da Areia."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: inicial, não terminado; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Coz-0",
     "name": "smo-recomp"

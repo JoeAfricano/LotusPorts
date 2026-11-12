@@ -4,10 +4,12 @@
   "gameId": "kings-field",
   "title": "King's Field Enhanced",
   "portType": "source-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só versões de teste (pré-lançamento)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Só pré-lançamentos, sem relatos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Acranon",
     "name": "kf1-enhanced"

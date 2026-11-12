@@ -4,10 +4,12 @@
   "gameId": "mega-man-64",
   "title": "Mega Man 64 Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos resolvidos de fechamento em cena e lentidão em FPS altos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 0.9; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "MegaMan64Recomp",
     "name": "MegaMan64Recompiled"

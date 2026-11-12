@@ -4,10 +4,12 @@
   "gameId": "zelda-minish-cap",
   "title": "The Minish Cap (port para PC)",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Muitas partes de imagem e jogo ainda estão brutas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: build de PC experimental)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "MatheoVignaud",
     "name": "tmc"

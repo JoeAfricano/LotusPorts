@@ -4,10 +4,13 @@
   "gameId": "call-of-duty-modern-warfare-2",
   "title": "MW2 Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Pode não abrir ao trocar entre campanha e multijogador; vazamento de memória.",
+    "Menus lentos com processador em 100% em PCs mais fracos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "PaulCombal",
     "name": "mw2-recompiled"

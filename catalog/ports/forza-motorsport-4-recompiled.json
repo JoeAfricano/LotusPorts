@@ -4,10 +4,14 @@
   "gameId": "forza-motorsport-4",
   "title": "Forza Motorsport 4 Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de fechar ao abrir em algumas placas AMD (v0.3.9).",
+    "Force feedback funciona no launcher mas não no jogo.",
+    "120 FPS é experimental."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README e issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "0herculabs",
     "name": "hl360-forza4"

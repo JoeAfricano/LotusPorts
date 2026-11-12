@@ -4,10 +4,13 @@
   "gameId": "earthbound",
   "title": "Phase Distorter",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Em tela larga, personagens nem sempre aparecem ao entrar numa área nova.",
+    "Tempo de quadro irregular no modo 120 FPS."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TheRunaway5",
     "name": "Phase-Distorter"

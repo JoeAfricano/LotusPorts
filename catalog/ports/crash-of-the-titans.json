@@ -4,10 +4,13 @@
   "gameId": "crash-of-the-titans",
   "title": "Crash of the Titans",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O Windows Defender pode bloquear a instalação (falso positivo do XenonRecomp).",
+    "Alguns efeitos derrubam o FPS (relato)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.07; issues sem bloqueio de jogo)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "VitoMiguelF",
     "name": "crashott-pc"

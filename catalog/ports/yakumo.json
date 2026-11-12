@@ -4,10 +4,12 @@
   "gameId": "monster-hunter-portable-3rd",
   "title": "Yakumo",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Algumas áreas, como a vila, rodam mais devagar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TeamGDB",
     "name": "Yakumo"

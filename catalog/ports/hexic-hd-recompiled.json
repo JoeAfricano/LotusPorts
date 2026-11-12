@@ -4,10 +4,12 @@
   "gameId": "hexic-hd",
   "title": "Hexic HD Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O modo Maratona não foi conferido além das primeiras fases."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável em todos os modos principais)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "josiahg2502-glitch",
     "name": "HexicHDRecompiled"

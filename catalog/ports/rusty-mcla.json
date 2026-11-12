@@ -4,10 +4,12 @@
   "gameId": "midnight-club-los-angeles-complete-edition",
   "title": "Rusty MCLA",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de fechamentos e desempenho fraco."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: desenvolvimento inicial, mas a maior parte do jogo funciona; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "holdmysocks",
     "name": "rusty-mcla"

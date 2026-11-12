@@ -4,10 +4,13 @@
   "gameId": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages",
   "title": "The Oracles Project",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de som chiando ou estalando.",
+    "Nayru e os animais reaparecem depois do evento de Veran."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "thibautbus",
     "name": "top"

@@ -4,10 +4,13 @@
   "gameId": "tony-hawks-project-8",
   "title": "Project8Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Deixe o limite de FPS ligado: sem ele as cenas ficam rápidas demais.",
+    "No Windows é experimental (testado em Proton)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "theokyr",
     "name": "Project8Recomp"

@@ -4,10 +4,12 @@
   "gameId": "pokemon-crystal",
   "title": "Gen2Recomped",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos abertos de texturas quebradas e de um bug no 2º andar do Centro Pokémon Dourado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Issues abertas; versão 0.8)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "UNDERdecoded",
     "name": "Gen2Recomped"

@@ -4,10 +4,10 @@
   "gameId": "007-nightfire",
   "title": "007: NightFire - XBE Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: missões a pé e de carro)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "hk21x",
     "name": "nightfire-recomp"

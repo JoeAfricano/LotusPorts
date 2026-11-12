@@ -4,10 +4,13 @@
   "gameId": "valkyrie-profile",
   "title": "ValkyrieRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Testes de compatibilidade em PCs diferentes ainda em andamento.",
+    "Trocar de disco no meio da sessão pode falhar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Ed1z19",
     "name": "ValkyrieRecomp"

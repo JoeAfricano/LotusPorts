@@ -4,10 +4,10 @@
   "gameId": "amped-2",
   "title": "RE-Amped2",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: carreira, Free Ride e tutoriais funcionam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Nico-D-eu",
     "name": "RE-Amped2"

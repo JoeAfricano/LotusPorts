@@ -4,10 +4,12 @@
   "gameId": "ratchet-clank",
   "title": "RatchetPort",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Pré-alpha: estabilidade não comprovada; tela preta e perda do dispositivo de vídeo em algumas placas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "shehab4546",
     "name": "RatchetPort"

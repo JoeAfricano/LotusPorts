@@ -4,10 +4,10 @@
   "gameId": "spider-man-2-enter-electro",
   "title": "OpenSpidey: Spider-Man 2",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "DESCONTINUADO",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o projeto não recebe mais atualizações)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "GTTeancum",
     "name": "SpideyPS1recomp"

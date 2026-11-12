@@ -4,10 +4,12 @@
   "gameId": "condemned-2-bloodshot",
   "title": "Condemned 2 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Jogável, mas bugs e travamentos podem acontecer."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "psxrestore",
     "name": "Condemned2Recomp"

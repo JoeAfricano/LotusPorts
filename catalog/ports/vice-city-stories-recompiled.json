@@ -4,10 +4,10 @@
   "gameId": "grand-theft-auto-vice-city-stories",
   "title": "Vice City Stories Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável e rápido)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "theurbanninja1993-sketch",
     "name": "vcs-recomp"

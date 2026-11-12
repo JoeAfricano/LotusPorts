@@ -4,10 +4,14 @@
   "gameId": "castlevania-symphony-of-the-night",
   "title": "SymphonyRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Alguns efeitos e personagens não aparecem bem em tela larga.",
+    "Uso alto de processador na tela de título com sincronia vertical ligada.",
+    "O diálogo da luta final contra Drácula se comporta diferente do original."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (85 relatos resolvidos; jogadores chegaram à luta final)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "BlackLabelHQ",
     "name": "SymphonyRecomp"

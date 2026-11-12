@@ -4,10 +4,12 @@
   "gameId": "shin-megami-tensei-devil-survivor-2-record-breaker",
   "title": "Canopus Protocol",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O 3D é desenhado pelo processador; alguns textos da tela de baixo aparecem embaralhados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "riomoo",
     "name": "canopus-protocol"

@@ -4,10 +4,13 @@
   "gameId": "ufc-undisputed-3",
   "title": "UFC3MONS",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "FPS baixo em PCs mais fracos.",
+    "Pode fechar depois de uma luta da carreira."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: carreira e exibição jogáveis; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "monscriser",
     "name": "UFC3MONS"

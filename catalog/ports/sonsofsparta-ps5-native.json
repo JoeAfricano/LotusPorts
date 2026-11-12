@@ -4,10 +4,13 @@
   "gameId": "god-of-war-sons-of-sparta-ps5",
   "title": "SonsOfSparta-PS5 Native",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Na primeira vez os shaders são montados durante o jogo: falhas visuais e engasgos até ficarem prontos.",
+    "Travamentos raros na introdução ou ao carregar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "OverkillLabs3",
     "name": "SoS-PS5"

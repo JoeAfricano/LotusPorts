@@ -4,10 +4,12 @@
   "gameId": "south-park-tenorman-s-revenge",
   "title": "South Park: Tenorman's Revenge Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Som e saves ainda não foram testados em todas as fases."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TekRantGaming",
     "name": "south-park-tenormans-revenge-recompiled"

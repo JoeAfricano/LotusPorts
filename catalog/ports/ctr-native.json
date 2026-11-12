@@ -4,10 +4,12 @@
   "gameId": "crash-team-racing",
   "title": "ctr-native",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só versões beta."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versões beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "CTR-tools",
     "name": "ctr-native"

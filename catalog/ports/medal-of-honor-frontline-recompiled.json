@@ -4,10 +4,13 @@
   "gameId": "medal-of-honor-frontline",
   "title": "Medal of Honor: Frontline (Recompiled)",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Velocidade é o principal problema em aberto.",
+    "Menus e HUD esticados em tela larga."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "goodshepherd23",
     "name": "MOHFrontline-Recomp"

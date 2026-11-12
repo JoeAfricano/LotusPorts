@@ -4,10 +4,12 @@
   "gameId": "pokemon-emerald",
   "title": "EmeraldRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Problema com a neblina."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 0.1; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mstan",
     "name": "EmeraldRecomp"

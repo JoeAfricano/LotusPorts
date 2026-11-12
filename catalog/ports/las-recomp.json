@@ -4,10 +4,12 @@
   "gameId": "the-legend-of-zelda-link-s-awakening",
   "title": "LAS Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Beta: bugs e travamentos são prováveis, principalmente em tela larga."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "peiikai",
     "name": "LASRecomp"

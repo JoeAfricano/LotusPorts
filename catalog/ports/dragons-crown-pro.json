@@ -4,10 +4,13 @@
   "gameId": "dragon-s-crown-pro",
   "title": "Dragons Crown Pro",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Release inicial de projeto amador: espere arestas.",
+    "Redes muito restritas podem impedir a conexão direta."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Nezara",
     "name": "OpenCrown-PC"

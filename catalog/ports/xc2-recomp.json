@@ -4,10 +4,13 @@
   "gameId": "xenoblade-chronicles-2",
   "title": "XC2 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Nuvens quebram em placas AMD mais antigas.",
+    "Uso muito alto de memória; pode parar de responder enquanto prepara shaders."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: Early development; roda até Goldmouth; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "AksharDP",
     "name": "xc2-recomp"

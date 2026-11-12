@@ -4,10 +4,13 @@
   "gameId": "pokemon-let-s-go-pikachu",
   "title": "Let's Go Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Ainda não foi jogado do começo ao fim.",
+    "Batalhas selvagens ainda não dividem a experiência."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "raulzrrs",
     "name": "letsgo-recomp"

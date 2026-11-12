@@ -4,10 +4,13 @@
   "gameId": "bloodborne",
   "title": "Bloodborne PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Algumas placas AMD podem fechar ao carregar o mundo.",
+    "Mantenha o limite de FPS em 120 ou menos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README; 5,1 mil estrelas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Supermedo",
     "name": "bloodborne_pc"

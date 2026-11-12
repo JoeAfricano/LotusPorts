@@ -4,10 +4,12 @@
   "gameId": "snowboard-kids-2",
   "title": "Snowboard Kids 2 Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Sobreposições como MSI Afterburner podem atrapalhar a imagem."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 2.0; só o problema comum das recompilações N64)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "cdlewis",
     "name": "snowboardkids2-recomp"

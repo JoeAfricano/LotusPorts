@@ -4,10 +4,12 @@
   "gameId": "project-gotham-racing-4",
   "title": "PGR4: ReGPU",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de desempenho ruim."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "zer0ducksgiven",
     "name": "PGR4-ReGPU"

@@ -4,10 +4,12 @@
   "gameId": "sonic-unleashed",
   "title": "Unleashed Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Acima de 60 FPS podem aparecer trechos com problema: limite a 60 FPS se travar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: considerado zerável; 5,3 mil estrelas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "hedge-dev",
     "name": "UnleashedRecomp"

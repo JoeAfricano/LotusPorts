@@ -4,10 +4,10 @@
   "gameId": "serious-sam-next-encounter",
   "title": "SSNE-Native",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (21 relatos resolvidos e nenhum aberto)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "SashexSRB",
     "name": "SSNE-Native"

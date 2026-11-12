@@ -4,10 +4,14 @@
   "gameId": "scooby-doo-night-of-100-frights",
   "title": "FrightWorks: Night of 100 Frights",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Um item (petisco) não pode ser obtido.",
+    "Defeitos visuais em espaços apertados.",
+    "A 60 FPS algumas partículas tremem."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (40 relatos resolvidos, 6 abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "FrightWorks",
     "name": "FrightWorks-no100f"

@@ -4,10 +4,12 @@
   "gameId": "harvest-moon-back-to-nature",
   "title": "HMBTN-ReFarmed",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Festivais e minijogos ainda não foram bem jogados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o que foi testado)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "d4rksp4rt4n",
     "name": "HMBTN-ReFarmed"

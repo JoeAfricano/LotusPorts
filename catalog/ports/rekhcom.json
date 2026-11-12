@@ -4,10 +4,12 @@
   "gameId": "kingdom-hearts-chain-of-memories",
   "title": "ReKHCoM",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Alguns textos HD podem se sobrepor."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 2.8; só limitações visuais)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "MatyMeatBoy",
     "name": "ReKHCoM"

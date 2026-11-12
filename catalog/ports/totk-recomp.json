@@ -4,10 +4,14 @@
   "gameId": "the-legend-of-zelda-tears-of-the-kingdom",
   "title": "TotK Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Desenvolvimento inicial: falhas visuais e travamentos ainda acontecem.",
+    "Relatos de imagem piscando em placas NVIDIA.",
+    "Com DLSS Qualidade/Desempenho as texturas tremem (DLAA funciona bem)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável, desenvolvimento inicial; 286 issues abertas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "valentderah",
     "name": "totk-pc-recomp"

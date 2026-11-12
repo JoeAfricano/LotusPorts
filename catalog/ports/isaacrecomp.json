@@ -4,10 +4,12 @@
   "gameId": "the-binding-of-isaac",
   "title": "IsaacRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Alguns itens e bugigangas ainda se comportam diferente (relatos)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Issues abertas de itens)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "whylurking",
     "name": "IsaacRecomp"

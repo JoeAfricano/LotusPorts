@@ -4,10 +4,12 @@
   "gameId": "the-legend-of-zelda-ocarina-of-time-majora-s-mask",
   "title": "ComboShip",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O Deku Theater pode ficar bloqueado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Baseado em Ship of Harkinian e 2 Ship 2 Harkinian; 89 issues resolvidas e 3 abertas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Varuuna",
     "name": "ComboShip"

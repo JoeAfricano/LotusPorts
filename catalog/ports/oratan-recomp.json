@@ -4,10 +4,12 @@
   "gameId": "cyber-troopers-virtual-on-oratorio-tangram",
   "title": "Oratan-recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Versus local com tela dividida é experimental."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável do começo ao fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "kitaaaaaa",
     "name": "Oratan-recomp"

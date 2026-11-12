@@ -4,10 +4,12 @@
   "gameId": "the-legend-of-zelda-ocarina-of-time-3d",
   "title": "TriAevum: Echoes of Time",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Beta experimental, não é um port totalmente testado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: beta experimental)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "coccofresco",
     "name": "TriAevum"

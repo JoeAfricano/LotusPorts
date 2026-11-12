@@ -4,10 +4,12 @@
   "gameId": "mario-kart-wii",
   "title": "Mario Kart WiiCompiled",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A interpolação de quadros é experimental e mostra defeitos em alguns casos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 0.9, 1,3 mil estrelas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "patchzyy",
     "name": "Wiicompiled"

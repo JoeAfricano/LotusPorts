@@ -4,10 +4,15 @@
   "gameId": "fable-ii",
   "title": "Fable 2 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Fecha ao abrir em placas de vídeo integradas.",
+    "Cortes na imagem sem sincronia vertical.",
+    "Herói e cachorro podem aparecer todos pretos.",
+    "Dois controles ligados deixam a tela preta."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (30 relatos abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "himdo",
     "name": "Fable-2-Recomp"

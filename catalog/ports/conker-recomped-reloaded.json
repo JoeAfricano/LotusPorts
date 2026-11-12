@@ -4,10 +4,13 @@
   "gameId": "conker-live-reloaded",
   "title": "Conker: Recomped & Reloaded",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Morte instantânea no telhado do celeiro (Barn Boys) com a lógica a 60 FPS: use 30.",
+    "No teclado, algumas telas do multijogador não respondem ao mouse."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: limitações conhecidas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Mabec-games",
     "name": "Conker-Recomped-and-Reloaded"

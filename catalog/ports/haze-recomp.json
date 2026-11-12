@@ -4,10 +4,12 @@
   "gameId": "haze",
   "title": "Haze Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Engasgos e quedas de FPS na cena inicial (relatos)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: port experimental)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "zdiemer",
     "name": "haze-recomp"

@@ -4,10 +4,12 @@
   "gameId": "doom",
   "title": "PsyDoom",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Travamentos frequentes com mapas personalizados (mapinfo)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Projeto maduro (versão 1.1.1, 550 estrelas); relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "BodbDearg",
     "name": "PsyDoom"

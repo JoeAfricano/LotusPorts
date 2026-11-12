@@ -4,10 +4,12 @@
   "gameId": "tecmo-s-deception-invitation-to-darkness",
   "title": "Deception-recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Uma jornada completa ainda não foi conferida."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "dannyowelch",
     "name": "deception-recomp"

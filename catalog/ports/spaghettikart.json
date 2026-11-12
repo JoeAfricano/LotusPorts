@@ -4,10 +4,12 @@
   "gameId": "mario-kart-64",
   "title": "SpaghettiKart",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "A falta de tempo de carregamento pode causar defeitos de imagem e som."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.0 estável, 2,4 mil estrelas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "HarbourMasters",
     "name": "SpaghettiKart"

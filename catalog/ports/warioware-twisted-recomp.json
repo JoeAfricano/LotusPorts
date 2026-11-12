@@ -4,10 +4,10 @@
   "gameId": "warioware-twisted",
   "title": "WarioWare: Twisted! Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: experimental)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mstan",
     "name": "WarioWareTwistedRecomp"

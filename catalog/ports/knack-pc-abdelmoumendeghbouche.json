@@ -4,10 +4,13 @@
   "gameId": "knack",
   "title": "Knack PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de fechar e de tela preta na versão 1.10 do jogo.",
+    "Ultrawide com faixas laterais."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: progresso por etapas; issues de travamento)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "AbdelmoumenDeghbouche",
     "name": "knack_pc"

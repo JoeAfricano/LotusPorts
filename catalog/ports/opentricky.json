@@ -4,10 +4,12 @@
   "gameId": "ssx-tricky",
   "title": "OpenTricky",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Acima de 60 FPS os controles respondem um passo depois."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: completo em recursos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "GiZcesi",
     "name": "OpenTricky"

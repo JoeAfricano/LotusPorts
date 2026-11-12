@@ -4,10 +4,13 @@
   "gameId": "sonic-mania",
   "title": "Sonic Mania Decompilation",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "No modo Encore, pode fechar ao quebrar certos monitores com um parceiro.",
+    "As conquistas de medalhão não desbloqueiam."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Descompilação completa e madura; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "RSDKModding",
     "name": "Sonic-Mania-Decompilation"

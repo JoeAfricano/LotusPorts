@@ -4,10 +4,12 @@
   "gameId": "uncharted-the-nathan-drake-collection",
   "title": "Uncharted PC Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Problemas conhecidos listados no README (por exemplo, o lança-granadas em Drake's Fortune)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: os três jogos rodam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "bc160201983",
     "name": "Uncharted-The-Nathan-Drake-Collection-PC-port"

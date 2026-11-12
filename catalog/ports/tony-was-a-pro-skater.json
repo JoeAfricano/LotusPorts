@@ -4,10 +4,13 @@
   "gameId": "tony-hawk-s-pro-skater",
   "title": "Tony Was A Pro Skater",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Pode cair através do chão na fase Downtown.",
+    "Fecha ao escolher 'Load Data' no menu."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: totalmente jogável nas 9 fases do modo carreira; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "LANCommander",
     "name": "TonyWasAProSkater"

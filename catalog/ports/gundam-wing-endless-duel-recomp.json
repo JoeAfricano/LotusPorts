@@ -4,10 +4,10 @@
   "gameId": "shin-kido-senki-gundam-wing-endless-duel",
   "title": "Gundam Wing Endless Duel Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: lutas do modo história rodam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TechnicallyComputers",
     "name": "GundamWingEndlessDuelSNESRecomp"

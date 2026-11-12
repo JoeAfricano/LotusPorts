@@ -4,10 +4,12 @@
   "gameId": "astro-boy-omega-factor",
   "title": "Astro Boy: Omega Factor Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Testado só até as primeiras fases de combate."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "goodshepherd23",
     "name": "AstroBoy-OmegaFactor-Recomp"

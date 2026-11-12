@@ -4,10 +4,13 @@
   "gameId": "tomodachi-life",
   "title": "TomodachiLife Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Ilhas muito grandes (30+ moradores) ficam lentas em alguns PCs.",
+    "Sombras podem piscar em alguns PCs."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: dá para jogar do começo ao fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "josiahg2502-glitch",
     "name": "TomodachiLife-recomp"

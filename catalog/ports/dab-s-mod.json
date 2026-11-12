@@ -4,10 +4,14 @@
   "gameId": "perfect-dark",
   "title": "Dab's Mod",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Engasgos com as texturas do XBLA.",
+    "Ligar o antisserrilhamento pode deixar a tela preta.",
+    "Com GE Plus, a mira das armas pode ficar sempre na tela."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 3.15, baseada no port de PC maduro de Perfect Dark; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "DabDavis",
     "name": "perfect-dark-dabs-mod"

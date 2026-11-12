@@ -4,10 +4,14 @@
   "gameId": "goldeneye-007",
   "title": "Project Midas",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Inimigos atiram através de paredes.",
+    "Comportamento errado do Boris no Bunker I.",
+    "Estalos no áudio e música lenta na 1.02b."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.0 baseada na descompilação; problema conhecido só no Linux; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "murkantor",
     "name": "Project-Midas"

@@ -4,10 +4,10 @@
   "gameId": "fire-emblem-the-sacred-stones",
   "title": "Fire Emblem: The Sacred Stones Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável, em desenvolvimento ativo)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Lordingard",
     "name": "SacredStonesRecomp"

@@ -4,10 +4,13 @@
   "gameId": "the-world-is-not-enough",
   "title": "TWIPE 00Sheven",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de erro ao abrir.",
+    "O mouse dá trancos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "riseio",
     "name": "TWIPE_00Sheven"

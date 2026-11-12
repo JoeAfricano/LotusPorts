@@ -4,10 +4,14 @@
   "gameId": "streets-of-rage",
   "title": "Streets of Rage Collection Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O instalador pode ficar parado em 1%.",
+    "Defeitos em tela larga no Streets of Rage 2.",
+    "Bare Knuckle III (japonês) ainda não é aceito."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (25 relatos abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "OriginalSwayze",
     "name": "Streets-Of-Rage-Recomp"

@@ -4,10 +4,12 @@
   "gameId": "super-mario-kart",
   "title": "Super Mario Kart Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A maior parte do código ainda roda num interpretador; fases seguintes não foram conferidas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: corridas de 1 e 2 jogadores funcionam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mpolizel",
     "name": "SMKSNESRecomp"

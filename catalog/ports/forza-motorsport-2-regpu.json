@@ -4,10 +4,12 @@
   "gameId": "forza-motorsport-2",
   "title": "Forza Motorsport 2 ReGPU",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relato de comportamento errado dos adversários."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "zer0ducksgiven",
     "name": "Forza-Motorsport-2-ReGPU"

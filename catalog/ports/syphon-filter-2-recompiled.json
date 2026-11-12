@@ -4,10 +4,12 @@
   "gameId": "syphon-filter-2",
   "title": "Syphon Filter 2 Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Os mods 16:9 e PGXP só foram conferidos na Missão 1 (vêm desligados)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogo completo, os dois discos, jogado e conferido)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "alexbeavs-ps1-ports",
     "name": "syphon-filter-2-recomp"

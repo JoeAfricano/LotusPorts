@@ -4,10 +4,13 @@
   "gameId": "the-legend-of-zelda-tears-of-the-kingdom",
   "title": "Weeping of the Empire",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só a versão 1.0.0 do jogo é suportada (a 1.4.3 está em beta).",
+    "As primeiras visitas podem engasgar enquanto os shaders são montados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: limites conhecidos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "daniel-madrid-07",
     "name": "weeping-of-the-empire"

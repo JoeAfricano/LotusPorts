@@ -4,10 +4,12 @@
   "gameId": "dead-rising-2-case-west",
   "title": "Case West Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Em algumas placas AMD um quadrado preto aparece nas telas de carregamento (Alt+Tab resolve)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: problemas pequenos, nenhum afeta o jogo)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "wivi514",
     "name": "Dead_Rising_2_Case_West_Xenon_Recomp"

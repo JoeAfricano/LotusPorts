@@ -4,10 +4,12 @@
   "gameId": "cave-story",
   "title": "doukutsu-rs",
   "portType": "engine-remake",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Na versão Booster 2.0, o jogo pode travar na caverna final."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Projeto maduro (versão 1.0, 1,3 mil estrelas); relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "doukutsu-rs",
     "name": "doukutsu-rs"

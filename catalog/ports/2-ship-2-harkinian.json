@@ -4,10 +4,12 @@
   "gameId": "zelda-majoras-mask",
   "title": "2 Ship 2 Harkinian",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de controle que para de responder depois de desconectar e reconectar várias vezes."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Projeto maduro (versão 5.x, 2,4 mil estrelas, 365 issues resolvidas))",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "2ship2harkinian",
     "name": "2ship2harkinian"

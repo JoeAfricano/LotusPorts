@@ -4,10 +4,12 @@
   "gameId": "soulcalibur-ii",
   "title": "Ring Out",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Desempenho questionável relatado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: totalmente jogável; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jackpoison-prog",
     "name": "RingOut"

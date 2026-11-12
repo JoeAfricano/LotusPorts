@@ -4,10 +4,12 @@
   "gameId": "wcw-nwo-revenge",
   "title": "Revenge Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A 60 FPS cerca de 1% dos quadros pisca no brilho."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Beta (pré-lançamento))",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jessetbh",
     "name": "WCWnWoRevengeRecomp"

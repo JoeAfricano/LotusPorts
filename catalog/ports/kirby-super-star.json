@@ -4,10 +4,12 @@
   "gameId": "kirby-super-star",
   "title": "Kirby Super Star",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A maior parte do código ainda roda num interpretador; fases seguintes não foram conferidas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: Spring Breeze conferido)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mpolizel",
     "name": "KSSSNESRecomp"

@@ -4,10 +4,14 @@
   "gameId": "super-mario-maker-2",
   "title": "SMM2 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Pode travar ao clicar no desafio dos 100 Marios.",
+    "Relatos de fechar antes do menu.",
+    "O Mundo dos Cursos online pode não funcionar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: desenvolvimento inicial; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "smm2recomp",
     "name": "smm2recomp"

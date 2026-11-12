@@ -4,10 +4,12 @@
   "gameId": "crimson-skies-high-road-to-revenge",
   "title": "Crimson Skies Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Tela preta depois de abrir; o jogo ainda não aparece."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos do próprio desenvolvimento)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "saironbusatto",
     "name": "CrimsonSkiesRecomp"

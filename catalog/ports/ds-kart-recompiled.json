@@ -4,10 +4,12 @@
   "gameId": "mario-kart-ds",
   "title": "DS Kart Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Jogo online ainda em beta."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: Grand Prix, Contra o Relógio, VS, Batalha e Missões funcionam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "AlonsoTlol",
     "name": "DS-Kart-Recompiled"

@@ -4,10 +4,12 @@
   "gameId": "dissidia-012-duodecim-final-fantasy",
   "title": "Dissidia012-PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relato de travamento ao rolar a loja e o menu de habilidades no modo história."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README e issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "VCKing101",
     "name": "Dissidia012-pc"

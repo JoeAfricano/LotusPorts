@@ -167,4 +167,51 @@ Sem chave, ou com o GitHub indisponível, o comando mantém as capas que cada jo
 
 - **632 de 640 jogos aprovados.** Os 76 que estavam pendentes tiveram o índice do zip oficial lido (sem baixar o jogo) e o programa de entrada escolhido pela regra: o launcher ou instalador do próprio port quando existe, senão o executável do jogo; ferramentas de compilação nunca. Def Jam Vendetta e HCTP usam o "Settings.exe", que o README de cada um indica como entrada.
 - **8 continuam em revisão**, com o motivo em `review.notesPtBr`: FIFA 2010 (só pasta de compilação), 50 Cent (compilação de teste), Final Fantasy NES (zip de código-fonte), Namco System 22 (13 jogos num pacote só), Kirby Air Ride (só o editor de mapas), Tekken Tag 2 (só o servidor), Shadow Fight 2 (só ferramentas) e Cut the Rope (7z não conferido).
-- O status dos ports (Jogável, Com bugs…) continua "Ainda não avaliado": isso só se afirma jogando.
+- O status dos ports ficou "Ainda não avaliado" nesta revisão; foi preenchido em 12/11/2026 (abaixo).
+
+## Status pelos relatos dos jogadores (12/11/2026)
+
+A pedido do José ("são muitos jogos para eu testar manualmente"), o Claude definiu o status de cada port pelo que o próprio projeto e os jogadores dizem. Isto substitui, para o status, a regra anterior de que "Jogável" só vinha de teste próprio. Nada foi inventado: cada port guarda a base em `verifiedBy` ("Claude, pelo README e relatos de jogadores no GitHub (motivo)") e a data em `verifiedAt`.
+
+Fontes:
+- o README de cada repositório (raw.githubusercontent.com);
+- as issues do GitHub, abertas e fechadas (as 8 mais comentadas de cada lado e os totais).
+
+Critérios:
+- **Jogável do começo ao fim (`JOGAVEL`)**:
+  - o README diz que dá para jogar do começo ao fim; ou
+  - o projeto é maduro (versão 1.x ou mais, muitas issues resolvidas e poucas abertas) e os jogadores relatam ter chegado ao fim do jogo.
+  - Os problemas conhecidos continuam listados.
+- **Jogável, com alguns bugs (`EXPERIMENTAL`)**:
+  - dá para jogar, mas não há confirmação de jogo completo; ou
+  - é versão alpha, beta ou de teste; ou
+  - há relatos abertos de fechamento ou de travamento.
+- **Ainda em construção (`EM_DESENVOLVIMENTO`)**: o README ou os relatos dizem que ainda não dá para jogar (início do desenvolvimento, teste de jogo pendente, não passa da abertura).
+- **Não recebe mais atualizações (`DESCONTINUADO`)**: o README diz que o projeto parou ou foi substituído.
+- **Ainda não avaliado (`NAO_AVALIADO`)**: o README não diz nada e não há relatos de jogadores.
+
+`knownIssuesPtBr` traz os problemas relatados que afetam o Windows, em português simples. Ficaram de fora:
+- relatos só de Linux, macOS, Android ou Steam Deck;
+- pedidos de recursos novos;
+- erros de compilação de quem monta o código.
+
+A Página do jogo mostra os problemas e a base do status em "Sobre este port".
+
+Resultado: 826 ports.
+
+| Status | Ports | Jogos (port recomendado) |
+|---|---|---|
+| Jogável do começo ao fim | 218 | 187 |
+| Jogável, com alguns bugs | 453 | 340 |
+| Ainda em construção | 78 | 58 |
+| Ainda não avaliado | 75 | 54 |
+| Não recebe mais atualizações | 2 | 2 |
+
+Outros números:
+- 661 ports têm problemas conhecidos listados.
+- Em 21 jogos, a recomendação automática ("o port mais acompanhado no GitHub") passou para o port em melhor estado segundo os relatos. Exemplos: Bloodborne → bbhost, GoldenEye → Project Midas, Halo → ChupathingyCE, Mario Kart Wii → DriftDroid, Wet → WetRecomp.
+- Ape Escape e Banjo-Tooie mantiveram a recomendação. A alternativa jogável é uma versão de teste noturna no caso de Ape Escape. No caso de Banjo-Tooie, ela usa o arquivo da versão XBLA, e não o cartucho.
+
+Revisão do José: a [página de revisão](https://claude.ai/artifact/ChbDVyUECKt5sDCrv7zV4o) mostra os problemas, a base de cada status e um filtro por status. Para mudar um status, basta trocar e salvar. O `apply-review` só altera os ports cujo status foi mudado na página. Os demais mantêm a avaliação e a base do Claude.
+
+Repetir de tempos em tempos: os ports mudam rápido.

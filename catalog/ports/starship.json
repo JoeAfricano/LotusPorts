@@ -4,10 +4,13 @@
   "gameId": "star-fox-64",
   "title": "Starship",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Na Area 6 a fase pode travar sem inimigos e sem música.",
+    "Texturas HD não rolam."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 2.0, 2,1 mil estrelas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "HarbourMasters",
     "name": "Starship"

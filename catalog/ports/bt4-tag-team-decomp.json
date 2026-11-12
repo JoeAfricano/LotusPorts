@@ -4,10 +4,13 @@
   "gameId": "dragon-ball-z-budokai-tenkaichi-3",
   "title": "BT4 Tag Team Decomp",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Controle pode aparecer como não conectado.",
+    "Defeitos de áudio em alguns golpes."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "NauTaro",
     "name": "DBZ-BT4-Tag-Team-Decomp"

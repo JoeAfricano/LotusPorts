@@ -4,10 +4,12 @@
   "gameId": "perfect-dark",
   "title": "Perfect Dark (port para PC)",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Pequenos problemas gráficos e de jogo, e travamentos ocasionais."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: quase totalmente funcional; 2,1 mil estrelas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "perfect-dark-pc-port",
     "name": "perfect_dark"

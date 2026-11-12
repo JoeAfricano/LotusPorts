@@ -30,7 +30,7 @@
 
 ## Fase 1: pendências
 
-- **Revisão do catálogo pelo José:** 65 jogos pendentes, recomendações, status e setups. Lista completa em `docs/CATALOGO.md`.
+- **Revisão do catálogo pelo José:** status dos 826 ports preenchidos pelo Claude a partir do README e dos relatos dos jogadores (12/11/2026); o José confere e corrige na página de revisão. Ainda pendentes: 8 jogos em revisão, recomendações e setups. Lista completa em `docs/CATALOGO.md`.
 - **Catálogo oficial remoto (atualização por ETag):** feito em 12/11/2026, lido de `catalog/catalog.json` na `main` do próprio repositório LotusPorts (não foi criado um `lotus-ports-catalog` separado). Testado só com servidor falso; falta conferir no PC com uma publicação real. Ver "Catálogo pela internet" em `docs/CATALOGO.md`.
 - **Polly e retentativas de rede:** entram na Fase 2, junto com os downloads. Na Fase 1 as falhas de rede só viram mensagem e a cópia anterior é mantida.
 - **Não testado por automação:**

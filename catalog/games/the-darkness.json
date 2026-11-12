@@ -9,11 +9,11 @@
     "terror"
   ],
   "descriptionPtBr": "Jackie Estacado, possuído por uma força sombria, busca vingança contra a máfia.",
-  "recommendedPortId": "darkness-recomp",
-  "recommendationReasonPtBr": null,
+  "recommendedPortId": "estacado",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "estacado",
+      "portId": "darkness-recomp",
       "differencePtBr": null
     },
     {

@@ -4,10 +4,12 @@
   "gameId": "atlantis-the-lost-tales",
   "title": "Atlantis Native",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "A versão alemã em CD de 1997 não é compatível."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos resolvidos e só um pedido aberto)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "ripleyXLR8",
     "name": "atlantis-native"

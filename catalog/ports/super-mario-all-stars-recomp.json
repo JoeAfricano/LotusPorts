@@ -4,10 +4,13 @@
   "gameId": "super-mario-all-stars",
   "title": "Super Mario All-Stars Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Itens danificados no menu de pausa.",
+    "No Super Mario Bros. 3, pausar com Start gera defeitos visuais."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TanookiStudios",
     "name": "SuperMarioAllStarsRecomp"

@@ -4,10 +4,12 @@
   "gameId": "wave-race-64",
   "title": "Wave Race 64 VR",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "No Free Roam os pilotos às vezes atravessam paredes e gelo."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: problemas conhecidos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Dooder64",
     "name": "wave-race-64-vr"

@@ -4,10 +4,12 @@
   "gameId": "wario-land-shake-it",
   "title": "Shake It! Native PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Ainda não foi jogado do começo ao fim."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: build de teste)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "santiagovalencia109",
     "name": "Wario-Land-Shake-It-Native-PC"

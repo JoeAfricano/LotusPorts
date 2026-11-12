@@ -8,11 +8,11 @@
     "ação"
   ],
   "descriptionPtBr": "Jet Set Radio Future, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "jsrf-unleashed",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "jsrf-pc",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "jsrf-pc",
+      "portId": "jsrf-unleashed",
       "differencePtBr": null
     }
   ],

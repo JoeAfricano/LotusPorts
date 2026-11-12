@@ -4,10 +4,13 @@
   "gameId": "monster-hunter-generations-ultimate",
   "title": "MHGU Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Tela preta no hub dos jogadores.",
+    "Às vezes trava ao escolher uma vila para viajar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: totalmente jogável, solo e multijogador; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "morerokk",
     "name": "MHGURecomp"

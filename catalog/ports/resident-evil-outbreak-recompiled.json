@@ -4,10 +4,14 @@
   "gameId": "resident-evil-outbreak",
   "title": "Resident Evil Outbreak Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Lentidão forte no jogo (menos de 10 FPS).",
+    "O controle funciona nos menus mas não no jogo.",
+    "Imagem borrada."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "RaccoonRecomp",
     "name": "ResidentEvilOutbreakRecompiled"

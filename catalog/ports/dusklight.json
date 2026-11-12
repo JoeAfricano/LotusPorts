@@ -4,10 +4,12 @@
   "gameId": "zelda-twilight-princess",
   "title": "Dusklight",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de saves não reconhecidos na versão 2.0."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Projeto maduro (versão 2.0, 6,2 mil estrelas); relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TwilitRealm",
     "name": "dusklight"

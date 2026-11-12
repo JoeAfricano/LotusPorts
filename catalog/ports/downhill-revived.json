@@ -4,10 +4,12 @@
   "gameId": "downhill-domination",
   "title": "Downhill Revived",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Engasgos relatados; a loja de bicicletas tem problemas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: descompilação 98% concluída; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "skuza-oss",
     "name": "downhill-revived"

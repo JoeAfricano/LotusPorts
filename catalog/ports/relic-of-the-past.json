@@ -4,10 +4,13 @@
   "gameId": "the-legend-of-zelda-a-link-to-the-past",
   "title": "Relic of the Past",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O menu de teletransporte da Ocarina fica bagunçado em tela larga.",
+    "Pode fechar com o pacote de idioma português."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Launcher do port de PC maduro de A Link to the Past; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "drizztdourden08",
     "name": "relic-of-the-past"

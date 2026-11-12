@@ -4,10 +4,12 @@
   "gameId": "star-ocean-integrity-and-faithlessness",
   "title": "Star Ocean Integrity and Faithlessness PS4RT",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Não foi conferido numa jornada completa."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Hoverbike51",
     "name": "Star-Ocean-Integrity-and-Faithlessness-PS4RT"

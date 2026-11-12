@@ -4,10 +4,12 @@
   "gameId": "bayonetta-3",
   "title": "Witch Time",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de travamento em placas Intel UHD 620 e de efeitos corrompidos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README e issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Zexyen",
     "name": "Witch-Time"

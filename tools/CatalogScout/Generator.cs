@@ -281,6 +281,8 @@ internal static class Generator
                 if (!portIds.Contains(portId) || !File.Exists(portFile)) { errors.Add($"{gameId}: unknown port {portId}"); continue; }
                 if (status is null || !Statuses.Contains(status)) { errors.Add($"{gameId}: invalid status {status} for {portId}"); continue; }
                 var port = portEdits.GetValueOrDefault(portFile) ?? JsonNode.Parse(File.ReadAllText(portFile))!.AsObject();
+                // The page sends every port's status; one left as proposed keeps who rated it and why.
+                if (port["status"]?.GetValue<string>() == status) continue;
                 port["status"] = status;
                 port["verifiedBy"] = status == "NAO_AVALIADO" ? null : reviewer;
                 port["verifiedAt"] = status == "NAO_AVALIADO" ? null : date;

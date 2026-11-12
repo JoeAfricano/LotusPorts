@@ -4,10 +4,10 @@
   "gameId": "f-zero",
   "title": "F-Zero Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: corrida completa com recursos extras)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "craigshaw",
     "name": "FZeroRecomp"

@@ -4,10 +4,10 @@
   "gameId": "resident-evil-gaiden",
   "title": "Resident Evil Gaiden: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (8 relatos resolvidos e nenhum aberto)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "sergiomanzur",
     "name": "regaiden-recomp"

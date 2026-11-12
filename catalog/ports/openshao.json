@@ -4,10 +4,13 @@
   "gameId": "mortal-kombat-shaolin-monks",
   "title": "OpenShao",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Alguns problemas gráficos.",
+    "Mortal Kombat II e a demo de The Suffering não rodam."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "OAleex",
     "name": "OpenShao"

@@ -4,10 +4,14 @@
   "gameId": "lost-odyssey",
   "title": "Lost Odyssey Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Ritmo de quadros irregular.",
+    "Áudio engasga nas memórias.",
+    "Pode fechar depois da cena da luta com o tanque."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Descrição: port experimental; 927 estrelas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "freefrank",
     "name": "LostOdysseyRecomp"

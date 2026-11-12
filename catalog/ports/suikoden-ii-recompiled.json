@@ -4,10 +4,10 @@
   "gameId": "suikoden-ii",
   "title": "Suikoden II Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: relatado jogável no primeiro teste; jornada completa não citada)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "alexbeavs-ps1-ports",
     "name": "suikoden-ii-recomp"

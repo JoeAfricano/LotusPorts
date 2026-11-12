@@ -161,6 +161,13 @@ public sealed partial class GamePage : Page
                 return $"{label}  {hash}";
             })));
         }
+        if (port.KnownIssuesPtBr is { Count: > 0 } issues) Row(Strings.Get("AboutKnownIssues"), string.Join("\n", issues.Select(i => "• " + i)));
+        if (port.VerifiedBy is { } verifiedBy)
+        {
+            var when = DateOnly.TryParseExact(port.VerifiedAt, "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture,
+                System.Globalization.DateTimeStyles.None, out var date) ? date.ToString("d", System.Globalization.CultureInfo.CurrentUICulture) : null;
+            Row(Strings.Get("AboutEvaluated"), when is null ? verifiedBy : Strings.Format("AboutEvaluatedValue", verifiedBy, when));
+        }
         if (g.Visibility == GameVisibility.InReview && g.Game.Review.NotesPtBr is { } review) Row(Strings.Get("AboutReview"), review);
         if (advanced) Row(Strings.Get("AboutRepository"), $"{port.Repo.Owner}/{port.Repo.Name}");
 

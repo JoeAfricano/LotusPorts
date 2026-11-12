@@ -4,10 +4,14 @@
   "gameId": "mega-man-x",
   "title": "Mega Man X Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Lentidão com o mod Zero/cooperativo.",
+    "A barra de vida pode sumir na Ride Armor.",
+    "Zero com sabre não consegue pegar a cápsula da cabeça."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (46 relatos resolvidos, 19 abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mstan",
     "name": "MegaManXSNESRecomp"

@@ -4,10 +4,12 @@
   "gameId": "sonic-the-hedgehog-2-2013",
   "title": "RSDKv4 (Sonic 2)",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "No Windows, um núcleo do processador fica em uso total."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Descompilação completa e madura; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "RSDKModding",
     "name": "RSDKv4-Decompilation"

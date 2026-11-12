@@ -4,10 +4,12 @@
   "gameId": "super-mario-galaxy",
   "title": "Nebula",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Alguns jogadores relatam problemas na 1.0.2 (lista no README)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável do começo ao fim com o disco norte-americano)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "keepvaibin",
     "name": "nebula"

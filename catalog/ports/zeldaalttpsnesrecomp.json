@@ -4,10 +4,10 @@
   "gameId": "the-legend-of-zelda-a-link-to-the-past",
   "title": "ZeldaAlttPSNESRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: conferido à mão em partes)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mstan",
     "name": "ZeldaAlttPSNESRecomp"

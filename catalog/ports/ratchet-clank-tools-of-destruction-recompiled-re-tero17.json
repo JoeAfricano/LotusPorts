@@ -4,10 +4,12 @@
   "gameId": "ratchet-clank-future-tools-of-destruction",
   "title": "Ratchet & Clank: Tools of Destruction Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Os planetas finais foram menos testados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável do primeiro planeta ao fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Re-TeRo17",
     "name": "ratchet-tod-recomp"

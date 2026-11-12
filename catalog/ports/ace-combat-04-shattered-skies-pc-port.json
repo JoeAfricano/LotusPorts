@@ -4,10 +4,12 @@
   "gameId": "ace-combat-04-shattered-skies",
   "title": "Ace Combat 04: Shattered Skies - PC Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só a missão 1 foi concluída nos testes."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "PresidentRaptor",
     "name": "Ace-Combat-04-PC-Port"

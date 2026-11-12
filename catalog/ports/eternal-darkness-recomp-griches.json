@@ -4,10 +4,14 @@
   "gameId": "eternal-darkness-sanity-s-requiem",
   "title": "Eternal Darkness Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Câmera lenta quando o FPS fica abaixo do alvo.",
+    "Problemas no áudio.",
+    "Pode travar na citação de Poe."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "griches",
     "name": "EternalDarknessRecomp"

@@ -4,10 +4,13 @@
   "gameId": "dragon-age-origins",
   "title": "Dragon Age: Origins Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Versão de teste (dev).",
+    "Profundidade de campo pixelada (relato)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Só versões de teste; issues de detalhes visuais)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "96dot",
     "name": "Dragon-Age-Origins-Recomp"

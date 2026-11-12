@@ -4,10 +4,12 @@
   "gameId": "matterfall",
   "title": "Matterfall-PC-port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só a fase 1-1 e uma sessão de 30 minutos foram testadas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o que funciona)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "bc160201983",
     "name": "Matterfall-PC-port"

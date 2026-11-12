@@ -4,10 +4,13 @@
   "gameId": "deadly-premonition",
   "title": "DPRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O terreno mostra bordas de triângulo ao andar (em investigação).",
+    "Manchas azuis em personagens em algumas cenas de diálogo."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: problemas conhecidos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "LittleBitUA",
     "name": "DPRecomp"

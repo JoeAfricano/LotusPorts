@@ -4,10 +4,13 @@
   "gameId": "alien-resurrection",
   "title": "Alien Resurrection: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Sem vibração no controle.",
+    "Nem todas as fases foram testadas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: problemas conhecidos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "DiegoDeDios",
     "name": "AlienReRecomp"

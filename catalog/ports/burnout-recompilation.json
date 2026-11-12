@@ -4,10 +4,12 @@
   "gameId": "burnout",
   "title": "Burnout Recompilation",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "O jogo roda rápido demais."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: versão inicial e incompleta; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Heromachine",
     "name": "Burnout-Recompilation"

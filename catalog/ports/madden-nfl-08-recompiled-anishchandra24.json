@@ -4,10 +4,12 @@
   "gameId": "madden-nfl-08",
   "title": "Madden NFL 08 Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O modo Superstar só teve testes curtos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: Franchise com temporada inteira funciona)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "anishchandra24",
     "name": "MaddenNFL08-Recompiled"

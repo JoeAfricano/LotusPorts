@@ -4,10 +4,12 @@
   "gameId": "wario-land-4",
   "title": "Wario Land 4 PC Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Versão beta com bugs conhecidos listados no README."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "BioRhythmicStudios",
     "name": "warioland4"
