@@ -4,10 +4,12 @@
   "gameId": "harry-potter-and-the-philosopher-s-stone",
   "title": "Harry Potter and the Philosopher's Stone (Xbox Recomp)",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Ser pego por monitores pode quebrar o jogo."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "MiddleDucky",
     "name": "HP-PS-Xbox-Recomp"

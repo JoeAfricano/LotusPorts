@@ -4,10 +4,13 @@
   "gameId": "metroid-prime-remastered",
   "title": "PrimeRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de fechar ao carregar.",
+    "O personagem pode se mexer sozinho para o lado (drift)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: ainda experimental; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "gminustwo",
     "name": "primerecomp"

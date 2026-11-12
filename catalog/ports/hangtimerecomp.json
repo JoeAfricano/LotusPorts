@@ -4,10 +4,12 @@
   "gameId": "nba-hangtime",
   "title": "HangtimeRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Um relato de fechar sozinho depois de um erro."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável da tela de título aos resultados finais)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "8bitninja64",
     "name": "HangtimeRecomp"

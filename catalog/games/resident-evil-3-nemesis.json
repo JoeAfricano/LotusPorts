@@ -8,11 +8,11 @@
     "ação"
   ],
   "descriptionPtBr": "Resident Evil 3: Nemesis, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "resident-evil-3-recompiled",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "project-re-visited-re3",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "project-re-visited-re3",
+      "portId": "resident-evil-3-recompiled",
       "differencePtBr": null
     }
   ],

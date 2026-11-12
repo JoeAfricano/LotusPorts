@@ -4,10 +4,12 @@
   "gameId": "super-mario-64",
   "title": "sm64coopdx",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Alguns objetos ficam dessincronizados entre jogadores no modo online."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Projeto maduro (versão 1.5, 1,5 mil estrelas); relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "coop-deluxe",
     "name": "sm64coopdx"

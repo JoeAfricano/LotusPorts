@@ -4,10 +4,12 @@
   "gameId": "gran-turismo-4",
   "title": "GT4 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Em notebooks medianos, a visão com HUD e retrovisor pode cair abaixo de 60 FPS."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.2; problemas só de desempenho)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "moesuito",
     "name": "gt4-staticrecomp"

@@ -4,10 +4,13 @@
   "gameId": "sengoku-basara-4-sumeragi",
   "title": "Sengoku Basara 4 Native PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Com o patch de tradução em inglês, fecha depois de uma cena.",
+    "Defeitos gráficos em 2K e música que para às vezes (v1.08)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "razzconnect",
     "name": "basara4-native-pc"

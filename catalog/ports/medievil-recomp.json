@@ -4,10 +4,13 @@
   "gameId": "medievil",
   "title": "MediEvil Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "L3 e R3 não funcionam no teclado.",
+    "Os diálogos podem avançar mais rápido que no original."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (13 relatos resolvidos e só pedidos de melhoria abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "BlackLabelHQ",
     "name": "MediEvilRecomp"

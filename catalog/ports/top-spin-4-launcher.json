@@ -4,10 +4,12 @@
   "gameId": "top-spin-4",
   "title": "Top Spin 4 Launcher",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A versão de Windows ainda não foi jogada pelo autor (usa o Xenia Edge)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Mabec-games",
     "name": "Top-Spin-4-Launcher"

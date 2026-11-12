@@ -4,10 +4,13 @@
   "gameId": "yu-gi-oh-forbidden-memories",
   "title": "Yu-Gi-Oh! Forbidden Memories Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Um antivírus marca o arquivo como suspeito (falso positivo relatado).",
+    "Relato de travamento na partida contra Seto Kaiba na campanha."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (jogadores relatam que funciona bem; há falhas abertas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Unchiga",
     "name": "Yu-Gi-Oh-Forbidden-Memories-Recompiled"

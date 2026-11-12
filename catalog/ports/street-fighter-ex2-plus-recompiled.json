@@ -4,10 +4,12 @@
   "gameId": "street-fighter-ex2-plus",
   "title": "Street Fighter EX2 Plus Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Controle XInput pode não funcionar mesmo aparecendo conectado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável de ponta a ponta; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "strider973",
     "name": "Street-Fighter-EX2-Plus-Recompiled"

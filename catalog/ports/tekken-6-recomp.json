@@ -4,10 +4,13 @@
   "gameId": "tekken-6",
   "title": "Tekken 6 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "No DX12 roda pela metade da velocidade e no Vulkan as cores ficam erradas.",
+    "Relatos de 'erro 3' no Windows."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: relatos de jogadores a 60 FPS; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mahmoud-mess",
     "name": "tekken6-recomp"

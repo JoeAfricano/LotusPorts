@@ -4,10 +4,12 @@
   "gameId": "x-men-legends",
   "title": "XML1-recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Pode fechar ao entrar no Conversion Sequencer pelo Reactor Core."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: projeto de viabilidade; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "GTTeancum",
     "name": "XML1-recomp"

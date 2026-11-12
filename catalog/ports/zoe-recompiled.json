@@ -4,10 +4,12 @@
   "gameId": "zone-of-the-enders",
   "title": "ZOE-Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O menu Esc e a tela inicial ainda não respondem bem ao controle (use o teclado)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o jogo inteiro é jogável)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Yaz-Myst",
     "name": "ZOE-Recompiled"

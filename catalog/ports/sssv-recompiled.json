@@ -4,10 +4,13 @@
   "gameId": "space-station-silicon-valley",
   "title": "Space Station Silicon Valley Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Problemas de profundidade e neblina em algumas fases.",
+    "Alguns efeitos visuais estão faltando."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 0.2; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Cellenseres",
     "name": "SSSV_Recomp"

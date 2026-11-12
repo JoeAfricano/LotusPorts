@@ -4,10 +4,10 @@
   "gameId": "x-men-2-clone-wars",
   "title": "X-Men 2: Clone Wars PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: descompilação completa da lógica original)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "crabsmack",
     "name": "xmen2-pc"

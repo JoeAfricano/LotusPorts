@@ -4,10 +4,10 @@
   "gameId": "battle-stadium-d-o-n",
   "title": "Battle Stadium D.O.N Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: versão 1.0 jogável; menus, lutas, vídeos e saves funcionam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "dvilelaf",
     "name": "battlestadium-don"

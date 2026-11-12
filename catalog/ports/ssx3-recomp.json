@@ -4,10 +4,12 @@
   "gameId": "ssx-3",
   "title": "SSX3-Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só a versão PAL/EU funciona."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: inicial e experimental, mas dá para correr)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "bertibertig",
     "name": "SSX3-Recomp"

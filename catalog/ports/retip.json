@@ -4,10 +4,13 @@
   "gameId": "viva-pinata-trouble-in-paradise",
   "title": "ReTiP",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O mod Retip remove o remapeamento do controle.",
+    "O botão de pular cenas pode congelar o jogo se apertado cedo demais (mod externo)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (73 relatos resolvidos, só 3 abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "SolarCookies",
     "name": "TiP-Recomp"

@@ -169,6 +169,9 @@ AboutGameFileUnknown	Ainda não verificado	Not verified yet
 AboutAcceptedVersions	Versões aceitas	Accepted versions
 AboutReview	Revisão	Review
 AboutRepository	Repositório	Repository
+AboutKnownIssues	Problemas conhecidos	Known issues
+AboutEvaluated	Como foi avaliado	How it was rated
+AboutEvaluatedValue	{0}, em {1}	{0}, on {1}
 CatalogFilter	Filtrar por nome ou port	Filter by name or port
 CatalogNoMatchTitle	Nenhum jogo encontrado	No games found
 CatalogNoMatchMessage	Tente outro nome ou outra plataforma.	Try another name or platform.
@@ -178,6 +181,7 @@ CatalogSources	Fontes de catálogo	Catalog sources
 CatalogSourcesHint	Adicione catálogos de outras pessoas pelo link do GitHub. Eles seguem as mesmas regras do oficial: só links para repositórios oficiais e nunca arquivos de jogo.	Add other people's catalogs by their GitHub link. They follow the same rules as the official one: only links to official repositories and never game files.
 CatalogOfficial	Catálogo oficial do Lotus Ports	Lotus Ports official catalog
 CatalogOfficialInfo	Versão {0} · {1} jogos · {2} ports · incluído no app	Version {0} · {1} games · {2} ports · included in the app
+CatalogOfficialInfoDownloaded	Versão {0} · {1} jogos · {2} ports · atualizado pela internet	Version {0} · {1} games · {2} ports · updated from the internet
 CatalogOfficialInvalid	O catálogo incluído no app não passou na validação. Os detalhes estão no log.	The catalog included in the app failed validation. Details are in the log.
 CatalogOfficialValidated	Validado	Validated
 SourceStateOk	OK	OK

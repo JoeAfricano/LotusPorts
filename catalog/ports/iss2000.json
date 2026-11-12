@@ -4,10 +4,13 @@
   "gameId": "international-superstar-soccer-2000",
   "title": "ISS2000",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Botões param de responder às vezes.",
+    "Fecha com erro ao sair com Alt+F4."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: release inicial de desenvolvimento; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "djultra64",
     "name": "ISS2000"

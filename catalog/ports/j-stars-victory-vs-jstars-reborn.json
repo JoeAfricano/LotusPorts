@@ -4,10 +4,12 @@
   "gameId": "j-stars-victory-vs",
   "title": "J-Stars Victory VS+ (JStars Reborn)",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só versões de teste (pré-lançamento)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Pré-lançamento)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Dopam3an",
     "name": "JStarsReborn"

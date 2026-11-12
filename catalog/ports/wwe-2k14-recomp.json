@@ -4,10 +4,12 @@
   "gameId": "wwe-2k14",
   "title": "WWE 2K14 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Gráficos integrados AMD podem engasgar e cair para 30 FPS."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "PromethenDev",
     "name": "wwe2k14-recomp"

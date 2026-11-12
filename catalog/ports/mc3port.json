@@ -4,10 +4,13 @@
   "gameId": "midnight-club-3-dub-edition-remix",
   "title": "mc3port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Sem jogo online.",
+    "Som um pouco mais seco que no console."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: só limitações pequenas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "SickSartori",
     "name": "mc3port"

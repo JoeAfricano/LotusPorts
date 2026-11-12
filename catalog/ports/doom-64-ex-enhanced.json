@@ -4,10 +4,13 @@
   "gameId": "doom-64",
   "title": "Doom 64 EX+ Enhanced",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Sem multijogador local ou online.",
+    "Filtros do céu não funcionam."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.0 de um port maduro (Doom 64 EX+); relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Styd051",
     "name": "DOOM64-EX-Plus-Enhanced"

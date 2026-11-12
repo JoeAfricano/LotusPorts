@@ -4,10 +4,13 @@
   "gameId": "ico",
   "title": "ICO PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de o jogo não abrir em alguns PCs.",
+    "A cena de abertura pode engasgar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (185 relatos resolvidos, versão 1.0)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "nathanialf",
     "name": "ico-pc"

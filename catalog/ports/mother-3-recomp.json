@@ -4,10 +4,12 @@
   "gameId": "mother-3",
   "title": "Mother 3 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "FPS muito baixo na 1.0.8 em monitores de alta taxa (há solução na issue)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: lançado e mantido; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "josiahg2502-glitch",
     "name": "Mother3Recomp"

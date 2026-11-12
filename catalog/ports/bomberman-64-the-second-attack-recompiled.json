@@ -4,10 +4,12 @@
   "gameId": "bomberman-64-the-second-attack",
   "title": "Bomberman 64: The Second Attack! Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Em tela larga, artes 2D de tela cheia mostram faixas laterais."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.0; único problema conhecido é visual)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "bdragoncore",
     "name": "pommy-recomp"

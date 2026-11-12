@@ -4,10 +4,13 @@
   "gameId": "50-cent-blood-on-the-sand",
   "title": "SkullBurglar",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Textura faltando e avião invisível na luta contra o Carter.",
+    "Texturas piscando."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: a história inteira é jogável do começo ao fim; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "nlwstein",
     "name": "skullburglar"

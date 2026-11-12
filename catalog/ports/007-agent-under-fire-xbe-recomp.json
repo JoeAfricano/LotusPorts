@@ -4,10 +4,12 @@
   "gameId": "007-agent-under-fire",
   "title": "007: Agent Under Fire - XBE Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Nem todas as missões finais foram jogadas; multijogador não testado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "hk21x",
     "name": "007-agentunderfire-recomp"

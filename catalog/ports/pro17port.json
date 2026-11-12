@@ -4,10 +4,13 @@
   "gameId": "pro-evolution-soccer-2017",
   "title": "PRO17PORT",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Refletores do estádio não funcionam e há pequenos defeitos visuais.",
+    "A iluminação muda com a câmera e o FPS cai de 60 para 45."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "MADPRM",
     "name": "PRO17PORT"

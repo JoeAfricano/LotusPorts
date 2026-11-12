@@ -4,10 +4,14 @@
   "gameId": "superman-returns",
   "title": "Superman Returns Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O menu de DLSS e Ray Tracing congela o jogo.",
+    "Pode fechar na luta contra o chefe War World.",
+    "Superman pode aparecer sem cabeça."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: projeto experimental; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "MrPowerUp82",
     "name": "superman_returns_recomp"

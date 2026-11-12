@@ -4,10 +4,12 @@
   "gameId": "the-lord-of-the-rings-the-two-towers",
   "title": "Two Towers Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Com a opção de co-op de itens dobrados ligada, ela também vale no modo solo: desligue para o jogo normal."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o jogo é totalmente jogável)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Gumpolas",
     "name": "TooTawersRecomp"

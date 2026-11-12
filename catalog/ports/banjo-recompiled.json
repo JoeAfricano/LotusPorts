@@ -4,10 +4,12 @@
   "gameId": "banjo-kazooie",
   "title": "Banjo: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Sobreposições como MSI Afterburner e Wallpaper Engine podem atrapalhar a imagem."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.0, 2,1 mil estrelas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "BanjoRecomp",
     "name": "BanjoRecomp"

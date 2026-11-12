@@ -4,10 +4,13 @@
   "gameId": "new-super-mario-bros-u",
   "title": "NSMBU Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Pode fechar no primeiro castelo grande.",
+    "Dois controles Nacon não funcionam juntos no multijogador."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (35 relatos resolvidos, 4 abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "nsmbu-recomp",
     "name": "nsmbu-recomp"

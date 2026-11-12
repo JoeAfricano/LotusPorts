@@ -4,10 +4,13 @@
   "gameId": "wwf-no-mercy",
   "title": "No Mercy Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só a ROM USA Rev 1 é aceita.",
+    "Na primeira vez pode pausar enquanto os shaders são compilados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jessetbh",
     "name": "WWFNoMercyRecomp"

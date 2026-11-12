@@ -4,10 +4,12 @@
   "gameId": "dragon-quest-viii-journey-of-the-cursed-king",
   "title": "DQ8 Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A versão PAL está incompleta."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: port experimental)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Sinan-Karakaya",
     "name": "DQ8-Recompiled"

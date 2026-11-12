@@ -4,10 +4,13 @@
   "gameId": "donkey-kong-64",
   "title": "Donkey Kong 64: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de fechamentos aleatórios.",
+    "Em tela larga, alguns elementos ficam fora do lugar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.0, 573 estrelas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Rainchus",
     "name": "Donkey-Kong-64-Recompiled"

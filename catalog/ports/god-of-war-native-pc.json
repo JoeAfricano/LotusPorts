@@ -4,10 +4,13 @@
   "gameId": "god-of-war",
   "title": "God of War Native PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relato de não conseguir passar de uma cena em Cliffs of Madness.",
+    "Ainda não mantém 60 FPS em combates pesados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README e issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Vnnc1",
     "name": "gow-native-pc"

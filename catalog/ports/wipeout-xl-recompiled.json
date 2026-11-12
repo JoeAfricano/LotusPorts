@@ -4,10 +4,13 @@
   "gameId": "wipeout-xl",
   "title": "Wipeout XL Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de falha na verificação do disco mesmo com tudo conferido.",
+    "PGXP não funciona."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "NJH-1001",
     "name": "Wipeout2K97XL"

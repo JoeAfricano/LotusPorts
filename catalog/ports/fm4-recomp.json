@@ -4,10 +4,12 @@
   "gameId": "forza-motorsport-4",
   "title": "FM4 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Alpha experimental: testado só até a liga Sportsman."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: corridas e carreira funcionam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Alexbeav",
     "name": "fm4-recomp"

@@ -4,10 +4,12 @@
   "gameId": "metal-gear-solid-mobile",
   "title": "Metal Gear Solid Mobile Native Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só pré-lançamento."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Pré-lançamento)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "LeithSilver",
     "name": "mgsm"

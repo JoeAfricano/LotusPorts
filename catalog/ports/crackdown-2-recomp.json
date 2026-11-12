@@ -4,10 +4,12 @@
   "gameId": "crackdown-2",
   "title": "Crackdown 2 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Mudar a resolução interna fechava o jogo (relato resolvido)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "pacific-city-recompiled",
     "name": "crackdown-2-recomp"

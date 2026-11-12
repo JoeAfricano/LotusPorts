@@ -4,10 +4,12 @@
   "gameId": "haunting-ground",
   "title": "Haunting Ground Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só as áreas iniciais do castelo foram bem testadas: capítulos seguintes podem ter falhas ou parar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "N900x4",
     "name": "HauntingGround-Recomp-Project"

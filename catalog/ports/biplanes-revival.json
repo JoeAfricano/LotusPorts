@@ -4,10 +4,10 @@
   "gameId": "biplanes",
   "title": "Biplanes Revival",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.2 estável)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "regular-dev",
     "name": "biplanes-revival"

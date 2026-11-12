@@ -4,10 +4,12 @@
   "gameId": "star-wars-masters-of-teras-kasi",
   "title": "MastersOfTerasKasiRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Áudio engasgado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: só mostra vídeo e áudio)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TechnicallyComputers",
     "name": "MastersOfTerasKasiRecomp"

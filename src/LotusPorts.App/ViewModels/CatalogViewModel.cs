@@ -68,7 +68,7 @@ public sealed partial class CatalogViewModel(CatalogService catalog, Preferences
     {
         RefreshGames();
         var o = catalog.Official;
-        OfficialText = o.Valid ? Strings.Format("CatalogOfficialInfo", o.Version, o.Games, o.Ports) : Strings.Get("CatalogOfficialInvalid");
+        OfficialText = o.Valid ? Strings.Format(o.Downloaded ? "CatalogOfficialInfoDownloaded" : "CatalogOfficialInfo", o.Version, o.Games, o.Ports) : Strings.Get("CatalogOfficialInvalid");
         var waiting = catalog.Library.Games.Count(g => g.Visibility == GameVisibility.InReview);
         Summary = Strings.Format("CatalogSummary", visible.Count, visible.Sum(g => g.AllPorts.Count())) + (waiting > 0 ? " " + Strings.Format("CatalogWaitingReview", waiting) : "");
         Sources.Clear();

@@ -4,10 +4,10 @@
   "gameId": "diablo",
   "title": "DevilutionX",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Projeto maduro (versão 1.5, quase 10 mil estrelas))",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "diasurgical",
     "name": "DevilutionX"

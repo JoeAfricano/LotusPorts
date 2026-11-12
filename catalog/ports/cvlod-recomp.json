@@ -4,10 +4,13 @@
   "gameId": "castlevania-legacy-of-darkness",
   "title": "CVLoD Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Pode fechar no fim da fase 4 com Carrie, na luta contra a vampira.",
+    "Geometria faltando no túnel com Henry."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "fliperama86",
     "name": "cvlod_recomp"

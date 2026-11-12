@@ -281,6 +281,8 @@ internal static class Generator
                 if (!portIds.Contains(portId) || !File.Exists(portFile)) { errors.Add($"{gameId}: unknown port {portId}"); continue; }
                 if (status is null || !Statuses.Contains(status)) { errors.Add($"{gameId}: invalid status {status} for {portId}"); continue; }
                 var port = portEdits.GetValueOrDefault(portFile) ?? JsonNode.Parse(File.ReadAllText(portFile))!.AsObject();
+                // The page sends every port's status; one left as proposed keeps who rated it and why.
+                if (port["status"]?.GetValue<string>() == status) continue;
                 port["status"] = status;
                 port["verifiedBy"] = status == "NAO_AVALIADO" ? null : reviewer;
                 port["verifiedAt"] = status == "NAO_AVALIADO" ? null : date;
@@ -310,13 +312,27 @@ internal static class Generator
             ["$schema"] = "./catalog.schema.json",
             ["schemaVersion"] = 1,
             ["name"] = "Catálogo oficial do Lotus Ports",
-            ["version"] = DateTime.UtcNow.ToString("yyyy-MM-dd"),
+            ["version"] = NextVersion(Path.Combine(catalogDir, "catalog.json")),
             ["games"] = Read("games"),
             ["ports"] = Read("ports"),
         };
         File.WriteAllText(Path.Combine(catalogDir, "catalog.json"), bundle.ToJsonString(Pretty) + "\n");
         Console.Error.WriteLine($"bundle: {bundle["games"]!.AsArray().Count} games, {bundle["ports"]!.AsArray().Count} ports");
         return 0;
+    }
+
+    /// <summary>
+    /// Today's date, or "date.n" when a catalog was already bundled today: the app only takes a downloaded official
+    /// catalog whose version is newer than the one it has, so every bundle must get a newer version.
+    /// </summary>
+    private static string NextVersion(string catalogFile)
+    {
+        var today = DateTime.UtcNow.ToString("yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture);
+        if (!File.Exists(catalogFile)) return today;
+        var previous = JsonNode.Parse(File.ReadAllText(catalogFile))?["version"]?.GetValue<string>() ?? "";
+        if (!previous.StartsWith(today, StringComparison.Ordinal)) return today;
+        var number = previous.Length > today.Length && int.TryParse(previous[(today.Length + 1)..], out var n) ? n : 1;
+        return $"{today}.{number + 1}";
     }
 
     private static int WriteAll(string folder, IEnumerable<JsonObject> items, bool force)

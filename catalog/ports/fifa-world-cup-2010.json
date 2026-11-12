@@ -4,10 +4,12 @@
   "gameId": "2010-fifa-world-cup-south-africa",
   "title": "FIFA World Cup 2010",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "A versão americana (NTSC-U) fecha ao abrir; a PAL funciona."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: experimental e incompleto; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "RamiChaaben8",
     "name": "Fifa_World_Cup_2010_PC_Port"

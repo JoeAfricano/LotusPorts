@@ -4,10 +4,13 @@
   "gameId": "guitar-hero-guitar-hero-ii-encore-rocks-the-80s-and-iii",
   "title": "Guitar Dream Engine: Guitar Hero Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Estalos no áudio do vídeo de abertura.",
+    "Pequenos problemas de desempenho."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (27 relatos resolvidos, 11 abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mbracali",
     "name": "prj-gd-engine"

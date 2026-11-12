@@ -4,10 +4,15 @@
   "gameId": "the-legend-of-zelda-tears-of-the-kingdom",
   "title": "UltraTears",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Problemas com controle.",
+    "Erros durante a preparação do jogo.",
+    "Gráficos corrompidos ao sair dos santuários (TotK 1.4.3).",
+    "Exige processador com AVX2."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (32 relatos abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "kuraeow",
     "name": "ultratears"

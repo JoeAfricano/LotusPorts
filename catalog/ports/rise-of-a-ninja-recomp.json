@@ -4,10 +4,12 @@
   "gameId": "naruto-rise-of-a-ninja",
   "title": "Rise of a Ninja Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Arbustos e árvores não ficam transparentes com a câmera perto."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção; beta; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jorjbarbosa",
     "name": "naruto-rise-recomp"

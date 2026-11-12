@@ -4,10 +4,12 @@
   "gameId": "infamous-second-son",
   "title": "inFAMOUS Second Son PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Testado até a missão \"Go to Longhouse\"."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em desenvolvimento, jogável)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "HayatoG",
     "name": "iss_pc"

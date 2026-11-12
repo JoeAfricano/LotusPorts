@@ -4,10 +4,13 @@
   "gameId": "harry-potter-and-the-philosopher-s-stone",
   "title": "HP1-Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Na versão PAL o idioma volta para inglês.",
+    "Na versão PAL o menu responde com atraso."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Barthes-Recompiled",
     "name": "HP1-Recompiled"

@@ -4,10 +4,12 @@
   "gameId": "mdk",
   "title": "MDK SDL",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Problemas com a plataforma voadora e com o surfe."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o jogo inteiro pode ser jogado e foi testado fase por fase; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "nautilusbits",
     "name": "mdk-sdl"

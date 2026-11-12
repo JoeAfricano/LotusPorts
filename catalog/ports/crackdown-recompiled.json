@@ -4,10 +4,12 @@
   "gameId": "crackdown",
   "title": "Crackdown Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "A música de fundo pode parar de vez em quando."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: só um problema conhecido de áudio)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "saulob",
     "name": "crackdown-xbox360-recompiled"

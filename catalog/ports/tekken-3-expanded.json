@@ -4,10 +4,13 @@
   "gameId": "tekken-3",
   "title": "Tekken 3 Expanded",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O áudio fica atrasado em relação à imagem.",
+    "O launcher pode não encontrar o PPSSPP."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (180 relatos resolvidos, 27 abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "omarma",
     "name": "tekken3-expanded"

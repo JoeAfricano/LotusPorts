@@ -4,10 +4,12 @@
   "gameId": "paper-mario",
   "title": "PaperBoat",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Algumas emendas em texturas e geometria."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.0 do HarbourMasters, baseada na descompilação; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "HarbourMasters",
     "name": "PaperBoat"

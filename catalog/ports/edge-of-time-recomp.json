@@ -4,10 +4,15 @@
   "gameId": "spider-man-edge-of-time",
   "title": "Edge of Time Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Portas às vezes param de funcionar.",
+    "Câmera treme ao balançar na teia em FPS altos.",
+    "Vídeos piscando em verde.",
+    "Pode fechar depois de um certo combo."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "goliathret",
     "name": "EdgeOfTimeRecomp"

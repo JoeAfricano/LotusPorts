@@ -4,10 +4,12 @@
   "gameId": "the-king-of-fighters-98",
   "title": "KOF'98 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Alpha: só lutas em equipe contra a CPU."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: alpha)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "danilopaulinodasilva",
     "name": "kof98recomp"

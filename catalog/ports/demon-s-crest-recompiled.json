@@ -4,10 +4,13 @@
   "gameId": "demon-s-crest",
   "title": "Demon's Crest Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Na 1.0.3 para Windows, aceita a ROM mas fecha ao montar.",
+    "Shaders não carregam no Vulkan."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: fases e chefes rodam; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "rac08241988",
     "name": "DemonsCrestSNESRecomp"

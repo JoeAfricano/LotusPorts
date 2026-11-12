@@ -4,10 +4,15 @@
   "gameId": "the-legend-of-zelda-majora-s-mask-3d",
   "title": "DekUI",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de erro ao abrir o Dekui.exe e de fechar ao iniciar.",
+    "Texturas personalizadas fecham o jogo ao abrir.",
+    "Chiado constante no áudio.",
+    "Sair pelo menu F1 não funciona."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (28 relatos abertos de travamento e áudio)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "tgacquin",
     "name": "mm3d-dekui"

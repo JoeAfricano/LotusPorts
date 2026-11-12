@@ -4,10 +4,13 @@
   "gameId": "ridge-racer-v",
   "title": "Fukami",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só a versão americana do disco.",
+    "Uma sessão longa travou num teste inicial (causa não identificada)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "danisandoval",
     "name": "fukami"

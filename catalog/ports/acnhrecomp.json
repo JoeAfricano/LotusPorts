@@ -4,10 +4,14 @@
   "gameId": "animal-crossing-new-horizons",
   "title": "ACNHRecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Fecha ao derrubar balões.",
+    "Sombreamento errado em Intel UHD 630 e HD 530.",
+    "Céu piscando e modelos sumindo por instantes (v0.8.0)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Nycolazs",
     "name": "ACNHRecomp"

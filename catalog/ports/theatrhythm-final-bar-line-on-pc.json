@@ -4,10 +4,12 @@
   "gameId": "theatrhythm-final-bar-line",
   "title": "Theatrhythm Final Bar Line on PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de travamentos aleatórios."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "YAPhoa",
     "name": "theatrhythm-fbl-pc"

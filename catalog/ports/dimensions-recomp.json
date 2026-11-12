@@ -4,10 +4,12 @@
   "gameId": "lego-dimensions",
   "title": "Dimensions Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só pré-lançamento; o modo Vulkan ainda está em construção."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "NeverCookFirst",
     "name": "DimensionsRecomp"

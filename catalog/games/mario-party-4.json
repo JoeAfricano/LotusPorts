@@ -6,11 +6,11 @@
   "releaseYear": null,
   "genre": [],
   "descriptionPtBr": "Mario Party 4, lançado originalmente para GameCube, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "party-board",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "party-board-zeranemesis",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "party-board-zeranemesis",
+      "portId": "party-board",
       "differencePtBr": null
     }
   ],

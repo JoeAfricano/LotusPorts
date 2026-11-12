@@ -4,10 +4,12 @@
   "gameId": "desert-strike-return-to-the-gulf-jungle-strike-urban-strike",
   "title": "Strike Remastered Collection HD",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Por alguns quadros aparecem barras laterais ao sair do mapa."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Icedomega13",
     "name": "StrikeHDCollection"

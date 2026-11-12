@@ -4,10 +4,13 @@
   "gameId": "unicorn-overlord",
   "title": "Unicorn Overlord PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O jogo ainda não foi jogado até o fim.",
+    "Roda a cerca de 50-60 FPS."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "hachi23",
     "name": "unicorn_overlord_pc"

@@ -4,10 +4,12 @@
   "gameId": "earthbound",
   "title": "EarthBound Companion",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Erro no menu PSI."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: build experimental; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "rages4calm",
     "name": "earthbound-companion"

@@ -4,10 +4,13 @@
   "gameId": "pokemon-sword-and-shield",
   "title": "SwSh Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Ainda não foi jogado do começo ao fim.",
+    "O Passe de Expansão ainda não é configurado pelo launcher."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "raulzrrs",
     "name": "swsh-recomp"

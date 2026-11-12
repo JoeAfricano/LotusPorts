@@ -4,10 +4,12 @@
   "gameId": "spider-man-edge-of-time",
   "title": "Project 2099",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Beta: transições de cena podem ficar abaixo da taxa de quadros."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "GenryTheFox0",
     "name": "Project-2099"

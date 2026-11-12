@@ -4,10 +4,13 @@
   "gameId": "sonic-free-riders",
   "title": "Free Riders Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de travamento ao abrir.",
+    "Kinect v2 é experimental."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README e issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "YuutaTsubasa",
     "name": "Free-Riders-Recompiled"

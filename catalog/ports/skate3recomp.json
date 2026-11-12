@@ -4,10 +4,12 @@
   "gameId": "skate-3",
   "title": "skate3recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de fechar ao carregar e de tela preta ao abrir."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Issues abertas de travamento)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "5C8",
     "name": "skate3recomp"

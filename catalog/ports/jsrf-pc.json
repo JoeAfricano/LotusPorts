@@ -4,10 +4,13 @@
   "gameId": "jet-set-radio-future",
   "title": "JSRF-PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O modo VS não começa (não vê o segundo controle).",
+    "Travamentos ocasionais."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: dá para zerar sem grandes problemas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "spriteice",
     "name": "JSRF-PC"

@@ -4,10 +4,15 @@
   "gameId": "pokemon-legends-z-a",
   "title": "ZA Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Fecha ao sair do laboratório na v0.1.17 (erro do Oodle).",
+    "Clicar em DLC fecha o jogo; cabeças de personagens piscam.",
+    "Personagens e Pokémon tremem perto de paredes.",
+    "O jogador pode ficar sem se mexer até usar a viagem rápida."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (156 relatos resolvidos, 24 abertos, versão 0.1)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Hexveil404",
     "name": "PokeZ-ARecomp"

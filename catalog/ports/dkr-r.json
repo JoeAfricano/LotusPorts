@@ -4,10 +4,13 @@
   "gameId": "diddy-kong-racing",
   "title": "DKR-R",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Cintilação nos gráficos modernos.",
+    "Relatos de problema no áudio."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (45 relatos resolvidos, jogadores chegaram ao fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "ThatGuyMcd",
     "name": "DKR-R"

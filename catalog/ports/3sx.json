@@ -4,10 +4,12 @@
   "gameId": "street-fighter-iii-3rd-strike",
   "title": "3SX",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só versão contínua de pré-lançamento."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Pré-lançamento contínuo, 371 estrelas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "crowded-street",
     "name": "3sx"

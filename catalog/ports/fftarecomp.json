@@ -4,10 +4,13 @@
   "gameId": "final-fantasy-tactics-advance",
   "title": "FFTARecomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A instalação pede o BIOS.",
+    "Com certa ROM, instala sem os patches do FFTA."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Jorge262007",
     "name": "FFTARecomp"

@@ -4,10 +4,12 @@
   "gameId": "killzone-3",
   "title": "Project Helghast",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Parcialmente jogável."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "undecuple",
     "name": "project-helghast"

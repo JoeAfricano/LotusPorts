@@ -4,10 +4,13 @@
   "gameId": "metroid-prime-2-echoes",
   "title": "Echoes Unbound",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O Echo Visor falha numa sala grande (Quadraxis).",
+    "Quedas de FPS ao virar bola ou escanear."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: port totalmente jogável; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Odrannnn",
     "name": "MetroidPrime2Port"

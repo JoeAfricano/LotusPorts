@@ -4,10 +4,12 @@
   "gameId": "legendary-wings",
   "title": "Legendary Wings NES to PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Só a primeira fase foi remasterizada."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: beta inicial)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "retroreplay82",
     "name": "Legendary-Wings-NES-to-PC"

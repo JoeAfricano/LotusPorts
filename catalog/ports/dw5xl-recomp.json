@@ -4,10 +4,12 @@
   "gameId": "dynasty-warriors-5-xtreme-legends",
   "title": "DW5XL Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Beta: em batalhas cheias o FPS cai mais no Windows que no Linux."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: todos os modos funcionam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TheSlackbringer",
     "name": "dw5xl-recomp"

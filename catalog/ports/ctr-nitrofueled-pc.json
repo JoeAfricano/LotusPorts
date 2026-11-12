@@ -4,10 +4,12 @@
   "gameId": "crash-team-racing-nitro-fueled",
   "title": "CTR-NitroFueled-PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Recursos online desligados: o jogo roda offline."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: limitações)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "GetLostIn",
     "name": "CTR-NitroFueled-PC"

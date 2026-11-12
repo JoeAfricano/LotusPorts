@@ -4,10 +4,10 @@
   "gameId": "chrono-trigger",
   "title": "Egg of Time",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (18 relatos resolvidos, só pedidos abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "power-pudu",
     "name": "egg-of-time"

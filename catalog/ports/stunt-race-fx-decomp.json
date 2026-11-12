@@ -4,10 +4,12 @@
   "gameId": "stunt-race-fx",
   "title": "Stunt Race FX - DECOMP",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Algumas pistas ainda não foram conferidas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: estágio inicial)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Mabec-games",
     "name": "Stunt-Race-FX-DECOMP"

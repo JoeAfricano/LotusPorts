@@ -4,10 +4,14 @@
   "gameId": "wet",
   "title": "WET Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O jogo pode fechar na perseguição perto do pagode chinês.",
+    "As opções não ficam salvas.",
+    "Tela ultralarga quebrada."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Supermedo",
     "name": "wet-recomp"

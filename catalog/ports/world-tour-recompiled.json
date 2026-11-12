@@ -4,10 +4,12 @@
   "gameId": "wcw-vs-nwo-world-tour",
   "title": "WCW vs. nWo Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Vibração só no controle do jogador 1."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: beta, totalmente jogável de ponta a ponta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jessetbh",
     "name": "WCWvsNWOWorldTourRecomp"

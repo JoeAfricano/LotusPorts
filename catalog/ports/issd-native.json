@@ -4,10 +4,12 @@
   "gameId": "international-superstar-soccer-deluxe",
   "title": "ISSD Native",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Beta."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Pré-lançamento beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "sergiomanzur",
     "name": "issd-native"

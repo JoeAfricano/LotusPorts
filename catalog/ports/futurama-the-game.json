@@ -4,10 +4,12 @@
   "gameId": "futurama",
   "title": "Futurama: The Game",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Na fase 1-1, morrer pode fazer perder o cartão do armário."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: uma jornada completa confere quadro a quadro; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "hiburn8",
     "name": "Futurama-The-Game-The-Recomp"

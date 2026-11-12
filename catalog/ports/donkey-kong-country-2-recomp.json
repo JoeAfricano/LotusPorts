@@ -4,10 +4,12 @@
   "gameId": "donkey-kong-country-2-diddy-s-kong-quest",
   "title": "Donkey Kong Country 2 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "A maior parte do código ainda roda num interpretador; fases seguintes não foram conferidas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: só até a demonstração)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mpolizel",
     "name": "DK2SNSRecomp"

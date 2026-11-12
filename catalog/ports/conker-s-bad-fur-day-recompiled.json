@@ -4,10 +4,12 @@
   "gameId": "conker-s-bad-fur-day",
   "title": "Conker's Bad Fur Day: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Só a ROM americana é aceita."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogado até o fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "sciaschi",
     "name": "CBFD-Recompiled"

@@ -4,10 +4,13 @@
   "gameId": "zelda-s-adventure",
   "title": "Zelda's Adventure",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Em uma casa, Zelda pode ficar presa dentro de uma mesa.",
+    "Depois do portão do goblin (10 rúpias) o jogo pode travar numa tela."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: abre e começa o jogo; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "tools81",
     "name": "zelda-adventures-static-recomp"

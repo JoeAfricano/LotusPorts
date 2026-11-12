@@ -4,10 +4,13 @@
   "gameId": "ratchet-clank",
   "title": "rac1-native",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Defeitos visuais em Kerwan, Pokitaru e Gaspar.",
+    "Erros ao montar no Windows 11 relatados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o jogo inteiro foi jogado até o fim; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "RAC-Native",
     "name": "rac1-native-game"

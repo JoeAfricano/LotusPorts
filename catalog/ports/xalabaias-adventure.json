@@ -4,10 +4,12 @@
   "gameId": "xalabaias-adventure",
   "title": "Xalabaias Adventure",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "No modo 120 FPS o jogo engasga às vezes."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "rac08241988",
     "name": "XalabaiasAdventure-Recomp"

@@ -4,10 +4,12 @@
   "gameId": "conker-s-bad-fur-day",
   "title": "Conker BFD Reloaded",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Agarrar bordas às vezes pega bordas que não são de verdade."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.4; problemas conhecidos só nos extras)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "DahSidiAbdallah",
     "name": "ConkerBFDReloaded"

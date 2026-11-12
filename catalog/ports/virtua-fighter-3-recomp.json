@@ -4,10 +4,12 @@
   "gameId": "virtua-fighter-3",
   "title": "Virtua Fighter 3 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Versão alpha; online é experimental."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: alpha)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mr-finster",
     "name": "vf3-recomp"

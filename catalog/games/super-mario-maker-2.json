@@ -8,11 +8,11 @@
     "plataforma"
   ],
   "descriptionPtBr": "Super Mario Maker 2, lançado originalmente para Nintendo Switch, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "smm2-recomp",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "mushroom-maker-recomp",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "mushroom-maker-recomp",
+      "portId": "smm2-recomp",
       "differencePtBr": null
     }
   ],

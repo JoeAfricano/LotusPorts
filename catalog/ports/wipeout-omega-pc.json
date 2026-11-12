@@ -4,10 +4,13 @@
   "gameId": "wipeout-omega-collection",
   "title": "WipEout Omega PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Travamentos constantes no Wipeout 2048 em algumas placas (issue mais comentada).",
+    "Falhas gráficas ao voltar ao menu depois de uma corrida."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: menus e corridas funcionam; issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "AbdelmoumenDeghbouche",
     "name": "wipeout_pc"

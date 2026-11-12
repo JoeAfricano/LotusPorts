@@ -4,10 +4,12 @@
   "gameId": "illusion-of-gaia",
   "title": "Babel Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relato recente de parar de funcionar no Windows."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o jogo inteiro, do começo ao fim; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mrOt4",
     "name": "babel-recomp"

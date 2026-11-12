@@ -4,10 +4,13 @@
   "gameId": "tenchu-z",
   "title": "TenchuZ-PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Sem modo portátil (relato).",
+    "Pode pedir ferramentas de compilação na primeira vez."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: menus, esconderijo e missões rodam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "8bitninja64",
     "name": "TenchuZ-PC"

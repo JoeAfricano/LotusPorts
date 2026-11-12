@@ -4,10 +4,13 @@
   "gameId": "the-simpsons-game",
   "title": "The Simpsons Game Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Acima de 30 FPS algumas sequências podem dar errado.",
+    "No Windows foi menos testado que no Linux."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "YesterMester",
     "name": "TheSimpsonsGameRecomp"

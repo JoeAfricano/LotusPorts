@@ -4,10 +4,12 @@
   "gameId": "call-of-duty-3",
   "title": "CoD3 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Ainda em desenvolvimento: bugs podem acontecer."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "FrankHUN88453",
     "name": "CoD3Recomp"

@@ -6,11 +6,11 @@
   "releaseYear": null,
   "genre": [],
   "descriptionPtBr": "Halo: Combat Evolved, lançado originalmente para Xbox, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "opence",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "chupathingyce",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "chupathingyce",
+      "portId": "opence",
       "differencePtBr": null
     }
   ],

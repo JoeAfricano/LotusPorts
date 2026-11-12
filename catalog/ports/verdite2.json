@@ -4,10 +4,12 @@
   "gameId": "kings-field",
   "title": "Verdite2",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "120 FPS causa uma piscada cinza constante (relato)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável do começo ao fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Voicedrew11",
     "name": "verdite2"

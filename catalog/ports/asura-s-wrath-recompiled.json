@@ -4,10 +4,12 @@
   "gameId": "asura-s-wrath",
   "title": "Asura's Wrath Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Em construção; só pré-lançamento."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "PauloUbirajara",
     "name": "asuras-wrath-recomp"

@@ -4,10 +4,12 @@
   "gameId": "neo-drift-out-new-technology",
   "title": "Neo Drift Out Enhanced",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Defeito no menu de dificuldade (relato resolvido)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Pigmassacre",
     "name": "neodriftenhanced"

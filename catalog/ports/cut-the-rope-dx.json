@@ -4,10 +4,12 @@
   "gameId": "cut-the-rope",
   "title": "Cut the Rope: DX",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "DESCONTINUADO",
+  "knownIssuesPtBr": [
+    "O rastro do mouse ao arrastar para cortar pode congelar o jogo."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: substituído pela edição para navegador do mesmo projeto; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "yell0wsuit",
     "name": "cuttherope-dx"

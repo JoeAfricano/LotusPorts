@@ -4,10 +4,12 @@
   "gameId": "wwf-wrestlemania-2000",
   "title": "WrestleMania 2000 Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O botão Conversions no menu fecha o jogo."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Beta (pré-lançamento); relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jessetbh",
     "name": "WWFWrestleMania2000Recomp"

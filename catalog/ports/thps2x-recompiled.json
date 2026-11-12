@@ -4,10 +4,13 @@
   "gameId": "tony-hawk-s-pro-skater-2x",
   "title": "THPS2X Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Tela dividida com dois controles ainda não foi bem testada.",
+    "O primeiro quadro depois de carregar uma fase pode engasgar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: lista de problemas conhecidos pequenos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "almost-drowned-rat",
     "name": "THPS2X-Recompiled"

@@ -4,10 +4,12 @@
   "gameId": "diablo-iii",
   "title": "Souls of the Reaper",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Precisa de duas configurações aplicadas pelo script do port."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: totalmente jogável com ajustes; beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Boron853",
     "name": "Souls-of-the-Reaper"

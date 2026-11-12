@@ -4,10 +4,12 @@
   "gameId": "super-street-fighter-ii-turbo-hd-remix",
   "title": "SSF2T HD Remix Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Uso alto de processador relatado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "saulob",
     "name": "ssf2t-hd-remix-recompiled"

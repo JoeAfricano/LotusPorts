@@ -4,10 +4,10 @@
   "gameId": "doraemon-3-nobita-no-machi-sos",
   "title": "Dora64-3",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "citrongames",
     "name": "Dora64-3"

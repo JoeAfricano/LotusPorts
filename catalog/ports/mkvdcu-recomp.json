@@ -4,10 +4,12 @@
   "gameId": "mortal-kombat-vs-dc-universe",
   "title": "MKVDCU Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Testado num PC só; outros modos precisam de mais testes."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "KawaiiBunga",
     "name": "MKVDCU-Recomp"

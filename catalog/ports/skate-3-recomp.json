@@ -4,10 +4,14 @@
   "gameId": "skate-3",
   "title": "Skate 3 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de não abrir.",
+    "A 2.0.1 pode travar depois de escolher a dificuldade e a altura da câmera.",
+    "Problemas para entrar no perfil."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 2.0, 1,8 mil estrelas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mchughalex",
     "name": "skate3recomp"

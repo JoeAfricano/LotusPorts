@@ -4,10 +4,14 @@
   "gameId": "angry-birds-trilogy",
   "title": "Angry Birds: The Re-Hatched Collection",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Mudar o FPS altera a velocidade do jogo.",
+    "Relato de erro de áudio sem resposta do teclado.",
+    "Problemas ao importar DLC."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TekRantGaming",
     "name": "angry-birds-re-hatched-collection"

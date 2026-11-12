@@ -4,10 +4,13 @@
   "gameId": "donkey-kong-country-3-dixie-kong-s-double-trouble",
   "title": "DKC3Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Em 16:9 não dá para completar a terceira fase bônus.",
+    "A fase Poisonous Pipeline tem muitos defeitos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: fase inicial (bring-up); relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "elliotttate",
     "name": "DKC3Recomp"

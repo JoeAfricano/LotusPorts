@@ -4,10 +4,13 @@
   "gameId": "burnout-revenge",
   "title": "Xerenge",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "No online, terminar uma corrida pode fechar o jogo ao voltar ao lobby.",
+    "Texturas do céu piscam."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: totalmente jogável nas duas versões suportadas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "shipa-2",
     "name": "Xerenge"

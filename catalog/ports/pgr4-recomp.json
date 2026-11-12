@@ -4,10 +4,12 @@
   "gameId": "project-gotham-racing-4",
   "title": "PGR4 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos corrigidos de rádio sem som e de placas AMD e Intel não detectadas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (240 estrelas, versão 1.2; estado em página externa; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "beatrixzy",
     "name": "PGR4-Recomp"

@@ -4,10 +4,12 @@
   "gameId": "conker-live-reloaded",
   "title": "Conker Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Alpha: espere bugs e guarde cópia dos saves."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Txukie",
     "name": "xboxrecomp-conker"

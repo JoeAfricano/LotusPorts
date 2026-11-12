@@ -4,10 +4,12 @@
   "gameId": "midnight-club-los-angeles-complete-edition",
   "title": "mcla-recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Não foi testado em placas AMD dedicadas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: carreira e corridas funcionam no Direct3D 12)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "RenanQueiroz",
     "name": "mcla-recomp"

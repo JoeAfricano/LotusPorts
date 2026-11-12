@@ -4,10 +4,12 @@
   "gameId": "goldeneye-007-reloaded",
   "title": "GoldenEye 007: Reloaded Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Só o treino e a primeira missão foram conferidos; sem multijogador online."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "nikolaygorb",
     "name": "GoldenEye007ReloadedRecomp"

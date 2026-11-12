@@ -4,10 +4,12 @@
   "gameId": "fracture",
   "title": "Fracture",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "60 FPS é experimental: se algo ficar rápido demais, volte para 30."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: problemas conhecidos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "ASarafanov",
     "name": "fracturerecomp"

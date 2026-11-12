@@ -4,10 +4,10 @@
   "gameId": "the-wing-of-madoola",
   "title": "OpenMadoola",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.26 de uma reimplementação madura)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "nfroggy",
     "name": "openmadoola"

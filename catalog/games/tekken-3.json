@@ -8,11 +8,11 @@
     "luta"
   ],
   "descriptionPtBr": "Tekken 3, lançado originalmente para PlayStation, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "tekken-3-recompiled",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "tekken-3-expanded",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "tekken-3-expanded",
+      "portId": "tekken-3-recompiled",
       "differencePtBr": null
     }
   ],

@@ -4,10 +4,12 @@
   "gameId": "sonic-the-hedgehog-2006",
   "title": "Soleanna (sonic06-recomp)",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Nenhuma fase foi jogada até o fim por uma pessoa."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "DrummingBird1",
     "name": "sonic06-recomp"

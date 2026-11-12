@@ -6,15 +6,15 @@
   "releaseYear": null,
   "genre": [],
   "descriptionPtBr": "Ratchet & Clank, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "rerac-launcher",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "rac1-native",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "ratchetport",
+      "portId": "rerac-launcher",
       "differencePtBr": null
     },
     {
-      "portId": "rac1-native",
+      "portId": "ratchetport",
       "differencePtBr": null
     },
     {

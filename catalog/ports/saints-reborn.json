@@ -4,10 +4,13 @@
   "gameId": "saints-row",
   "title": "Saints Reborn",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de falha na instalação ao configurar o ReXGlue SDK.",
+    "Gráficos que surgem do nada em algumas áreas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: totalmente jogável do começo ao fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "whompay",
     "name": "SaintsReborn"

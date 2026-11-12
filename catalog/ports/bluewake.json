@@ -4,10 +4,12 @@
   "gameId": "zelda-wind-waker",
   "title": "BlueWake",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Masmorras e chefes do fim do jogo quase não foram testados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o que foi testado)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "chrissotraidis",
     "name": "bluewake"

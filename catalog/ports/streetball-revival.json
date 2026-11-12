@@ -4,10 +4,13 @@
   "gameId": "nba-street-vol-2",
   "title": "Streetball Revival",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Beta: algumas diferenças conhecidas em relação ao original.",
+    "Jogo online ainda em construção."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "luckvj",
     "name": "streetball-revival"

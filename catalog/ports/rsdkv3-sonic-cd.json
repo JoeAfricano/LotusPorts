@@ -4,10 +4,10 @@
   "gameId": "sonic-cd",
   "title": "RSDKv3",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Descompilação completa, versão 1.3)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "RSDKModding",
     "name": "RSDKv3-Decompilation"

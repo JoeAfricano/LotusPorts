@@ -4,10 +4,12 @@
   "gameId": "animal-crossing",
   "title": "Nookery",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Depois de entrar na Nook's Cranny, o inventário pode não abrir com o mouse."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (106 relatos resolvidos, 14 abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "flyngmt",
     "name": "Nookery"

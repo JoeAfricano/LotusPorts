@@ -4,10 +4,12 @@
   "gameId": "syphon-filter",
   "title": "Syphon Filter PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Versão de teste público."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Teste público)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Madxbio97",
     "name": "SF-pc-port"

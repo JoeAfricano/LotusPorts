@@ -4,10 +4,15 @@
   "gameId": "yu-gi-oh-forbidden-memories",
   "title": "Yu-Gi-Oh! Forbidden Memories Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de ficar preso em um local de duelo antigo.",
+    "O jogo pode congelar depois de alguns duelos.",
+    "A sincronia vertical não funciona.",
+    "Às vezes o salvamento rápido falha."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Unchiga",
     "name": "YuGiOhForbiddenMemoriesRecomp"

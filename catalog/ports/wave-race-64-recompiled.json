@@ -4,10 +4,12 @@
   "gameId": "wave-race-64",
   "title": "Wave Race 64: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Em beta."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Descrição: beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "elliotttate",
     "name": "wave-race-64-recomp"

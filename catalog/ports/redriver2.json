@@ -4,10 +4,12 @@
   "gameId": "driver-2",
   "title": "REDRIVER2",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O jogo usa todo o processador, mesmo nos menus."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: reimplementação completa, totalmente jogável; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "OpenDriver2",
     "name": "REDRIVER2"

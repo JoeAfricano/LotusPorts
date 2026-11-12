@@ -4,10 +4,12 @@
   "gameId": "wwe-all-stars",
   "title": "All Stars Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Partida online é experimental."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: todos os modos testados e jogáveis)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "shaneomac1337",
     "name": "WWE-AllStars-Recomp"

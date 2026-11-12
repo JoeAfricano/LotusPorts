@@ -4,10 +4,10 @@
   "gameId": "disgaea-d2-a-brighter-darkness",
   "title": "Disgaea D2: A Brighter Darkness",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Descrição: adaptação experimental)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "LUUKASR1",
     "name": "disgaea-d2-recomp-windows"

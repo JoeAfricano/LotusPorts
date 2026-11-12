@@ -4,10 +4,13 @@
   "gameId": "the-sims-2",
   "title": "The Sims 2 - Static Recompilation",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Canais de áudio somem e sons atrasam com o tempo (relato).",
+    "Menus muito sensíveis e câmera lenta (relato)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README por etapas; issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "abilliontokens",
     "name": "sims2-recomp"

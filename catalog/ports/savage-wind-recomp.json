@@ -4,10 +4,14 @@
   "gameId": "the-legend-of-zelda-breath-of-the-wild",
   "title": "Savage Wind Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Céu desenhado errado em placas AMD no Windows.",
+    "Giroscópio não funciona.",
+    "Problemas com chuva e com o mapa usando mouse e teclado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: cerca de 45% do jogo principal; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Revivedx",
     "name": "SavageWindRecomp"

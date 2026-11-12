@@ -8,11 +8,11 @@
     "esporte"
   ],
   "descriptionPtBr": "Hóquei arcade rápido em partidas de três contra três.",
-  "recommendedPortId": "3on3-nhl-recomp",
-  "recommendationReasonPtBr": null,
+  "recommendedPortId": "3on3-arcade-recomp",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "3on3-arcade-recomp",
+      "portId": "3on3-nhl-recomp",
       "differencePtBr": null
     }
   ],

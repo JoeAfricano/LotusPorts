@@ -4,10 +4,12 @@
   "gameId": "diddy-kong-racing",
   "title": "Diddy Kong Racing Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Corridas inteiras e as outras pistas ainda não foram jogadas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: alpha)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "sp00nznet",
     "name": "diddykongracing"

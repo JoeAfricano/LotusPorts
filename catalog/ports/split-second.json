@@ -4,10 +4,14 @@
   "gameId": "split-second",
   "title": "Split/Second",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Burnout Revenge pode ficar em tela preta depois de apertar Jogar.",
+    "O launcher de After Burner Climax pode não encontrar o arquivo default.xex.",
+    "Banjo-Kazooie pode não passar da tela de título."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "CrownParkComputing",
     "name": "Xbox360-Native-Ports"

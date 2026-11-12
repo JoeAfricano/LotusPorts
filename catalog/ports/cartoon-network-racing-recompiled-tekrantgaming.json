@@ -4,10 +4,12 @@
   "gameId": "cartoon-network-racing",
   "title": "Cartoon Network Racing Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Raramente trava numa tela de carregamento: segure Back + Start ou Esc e abra de novo."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.0; problemas pequenos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "TekRantGaming",
     "name": "cartoon-network-racing-recompiled"

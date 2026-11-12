@@ -4,10 +4,13 @@
   "gameId": "super-smash-bros-brawl",
   "title": "Brawl Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Fora o Project+, os mods não funcionam.",
+    "Relatos de tela preta."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção; batalhas VS funcionam; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "josiahg2502-glitch",
     "name": "BrawlRecompiled"

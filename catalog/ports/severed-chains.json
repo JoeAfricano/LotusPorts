@@ -4,10 +4,13 @@
   "gameId": "legend-of-dragoon",
   "title": "Severed Chains",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Tela preta e travamento depois da cena pós-batalha do Zackwell em alguns casos.",
+    "Música cortada na introdução."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: totalmente jogável sem travamentos conhecidos; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Legend-of-Dragoon-Modding",
     "name": "Severed-Chains"

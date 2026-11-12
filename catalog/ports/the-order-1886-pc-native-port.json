@@ -4,10 +4,14 @@
   "gameId": "the-order-1886",
   "title": "The Order: 1886 PC Native Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de tela preta ou nenhuma imagem.",
+    "Defeitos gráficos verdes e azuis que podem impedir o jogo.",
+    "Sombras do sol não aparecem."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: em construção; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mateussmeneses",
     "name": "theorder1886-port"

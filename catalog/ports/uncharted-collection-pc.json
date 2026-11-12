@@ -4,10 +4,12 @@
   "gameId": "uncharted-the-nathan-drake-collection",
   "title": "Uncharted Collection PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Uncharted 1 e 3 são 100% jogáveis; o 2 ainda não foi testado até o fim e tem quedas de FPS."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "zorde23",
     "name": "Uncharted_Collection_PC"

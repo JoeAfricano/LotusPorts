@@ -4,10 +4,12 @@
   "gameId": "crash-team-racing",
   "title": "Crash Team Racing - High Octane",
   "portType": "source-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relato de travamento depois de vencer o Oxide."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.5; o único problema conhecido é no PS Vita; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Rinnegatamante",
     "name": "Crash-Team-Racing-High-Octane"

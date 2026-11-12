@@ -4,10 +4,12 @@
   "gameId": "street-rod-street-rod-2",
   "title": "RodLegacy",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Em desenvolvimento: alguns bugs são esperados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável até o fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "grovdata",
     "name": "RodLegacy"

@@ -4,10 +4,12 @@
   "gameId": "dante-s-inferno",
   "title": "Hell's Gate",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Versão beta: o renderizador nativo ainda está sendo melhorado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: totalmente jogável do começo ao fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "florinp93",
     "name": "hells-gate-recomp"

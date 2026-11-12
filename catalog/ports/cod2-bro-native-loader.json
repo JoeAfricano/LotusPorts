@@ -4,10 +4,12 @@
   "gameId": "call-of-duty-2-big-red-one",
   "title": "CoD2-BRO-Native-Loader",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Pode travar na tela de carregamento antes da segunda missão."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: última versão de recursos, só correções; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "SmokeDoggy044",
     "name": "CoD2-BRO-Native-Loader"

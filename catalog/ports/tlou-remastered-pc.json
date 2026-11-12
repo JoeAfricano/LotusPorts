@@ -4,10 +4,12 @@
   "gameId": "the-last-of-us-remastered",
   "title": "tlou-remastered-pc",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatado jogável do começo ao fim, com um travamento ainda sem correção (há um contorno no README)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "ravencaio",
     "name": "tlou-remastered-pc"

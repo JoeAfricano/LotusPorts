@@ -4,10 +4,13 @@
   "gameId": "banjo-tooie",
   "title": "Banjo-Tooie Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relato de fechar ao entrar no Templo Mayahem.",
+    "FPS baixo na área principal de Terrydactyland (relatos)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável de ponta a ponta, mas issues abertas bloqueiam o avanço)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Vidanox",
     "name": "BanjoTooieRecompiled"

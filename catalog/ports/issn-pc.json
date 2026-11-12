@@ -4,10 +4,14 @@
   "gameId": "infamous-second-son",
   "title": "issn_pc",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A imagem fica escura demais durante o jogo.",
+    "O driver de vídeo pode interromper o jogo.",
+    "Tela preta depois de pintar o pôster e ao abrir."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (29 relatos abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Liondarkz",
     "name": "issn_pc"

@@ -4,10 +4,12 @@
   "gameId": "soulcalibur-ii-hd-online",
   "title": "SoulCalibur II HD Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Um quadro da luta anterior pode piscar entre a apresentação e a arena."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: só problemas visuais pequenos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "n0madic",
     "name": "Soulcalibur2HD-recomp"

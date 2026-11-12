@@ -4,10 +4,14 @@
   "gameId": "pikmin",
   "title": "Open Nectar",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Problemas de áudio e efeitos sonoros no Pikmin 2.",
+    "Imagens e sombras piscando no Pikmin 1.",
+    "Controle pode não ser reconhecido."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável do começo ao fim; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "SSunnKing",
     "name": "Open-Nectar---Pikmin-Native-PC-Mobile-Port"

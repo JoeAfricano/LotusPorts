@@ -4,10 +4,13 @@
   "gameId": "juiced-2-hot-import-nights",
   "title": "Juiced 2 Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Corrupção gráfica aleatória: partes da cena podem sumir.",
+    "Versão de prévia."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: carreira jogada até a liga 7)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "anishchandra24",
     "name": "Juiced2-Recompiled"

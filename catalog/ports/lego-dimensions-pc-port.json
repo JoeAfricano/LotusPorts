@@ -4,10 +4,13 @@
   "gameId": "lego-dimensions",
   "title": "LEGO Dimensions PC Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de defeitos gráficos.",
+    "Alguns minijogos Midway Arcade não apareciam corretamente (corrigido)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: história, Vorton e fases de DLC jogáveis; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "vascon-es",
     "name": "lego-dimensions-pc"

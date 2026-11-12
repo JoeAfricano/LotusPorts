@@ -4,10 +4,12 @@
   "gameId": "pokemon-soulsilver",
   "title": "SoulSilver Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O mapa do Pokégear e outras telas rolam para cima sozinhos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 0.4; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "ClickingMaster",
     "name": "ssrecomp"

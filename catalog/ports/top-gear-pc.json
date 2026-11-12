@@ -4,10 +4,12 @@
   "gameId": "top-gear",
   "title": "Top Gear PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Menus ainda rodam no emulador embutido."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: fase 3)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "thebradshaw",
     "name": "topgear-pc"

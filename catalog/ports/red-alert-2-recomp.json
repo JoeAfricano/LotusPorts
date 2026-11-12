@@ -4,10 +4,14 @@
   "gameId": "command-conquer-red-alert-2-yuri-s-revenge",
   "title": "Red Alert 2 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Veículos piscam com os veículos HD ligados.",
+    "Tela ultralarga 3440x1440 quebrada.",
+    "Gráficos corrompidos com voxels em 3x."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: as duas campanhas e as escaramuças jogáveis; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "sp00nznet",
     "name": "redalert2-recomp"

@@ -175,6 +175,9 @@
   <data name="AboutAcceptedVersions" xml:space="preserve"><value>Versões aceitas</value></data>
   <data name="AboutReview" xml:space="preserve"><value>Revisão</value></data>
   <data name="AboutRepository" xml:space="preserve"><value>Repositório</value></data>
+  <data name="AboutKnownIssues" xml:space="preserve"><value>Problemas conhecidos</value></data>
+  <data name="AboutEvaluated" xml:space="preserve"><value>Como foi avaliado</value></data>
+  <data name="AboutEvaluatedValue" xml:space="preserve"><value>{0}, em {1}</value></data>
   <data name="CatalogFilter" xml:space="preserve"><value>Filtrar por nome ou port</value></data>
   <data name="CatalogNoMatchTitle" xml:space="preserve"><value>Nenhum jogo encontrado</value></data>
   <data name="CatalogNoMatchMessage" xml:space="preserve"><value>Tente outro nome ou outra plataforma.</value></data>
@@ -184,6 +187,7 @@
   <data name="CatalogSourcesHint" xml:space="preserve"><value>Adicione catálogos de outras pessoas pelo link do GitHub. Eles seguem as mesmas regras do oficial: só links para repositórios oficiais e nunca arquivos de jogo.</value></data>
   <data name="CatalogOfficial" xml:space="preserve"><value>Catálogo oficial do Lotus Ports</value></data>
   <data name="CatalogOfficialInfo" xml:space="preserve"><value>Versão {0} · {1} jogos · {2} ports · incluído no app</value></data>
+  <data name="CatalogOfficialInfoDownloaded" xml:space="preserve"><value>Versão {0} · {1} jogos · {2} ports · atualizado pela internet</value></data>
   <data name="CatalogOfficialInvalid" xml:space="preserve"><value>O catálogo incluído no app não passou na validação. Os detalhes estão no log.</value></data>
   <data name="CatalogOfficialValidated" xml:space="preserve"><value>Validado</value></data>
   <data name="SourceStateOk" xml:space="preserve"><value>OK</value></data>

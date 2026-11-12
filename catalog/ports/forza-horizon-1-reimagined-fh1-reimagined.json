@@ -4,10 +4,13 @@
   "gameId": "forza-horizon",
   "title": "Forza Horizon 1: ReImagined",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Lento em CPUs fracas e no Steam Deck.",
+    "Engasgos e defeitos visuais em placas NVIDIA, e alguns travamentos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: problemas em aberto)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "FH1-ReImagined",
     "name": "ForzaHorizon1-ReImagined"

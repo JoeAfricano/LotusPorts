@@ -4,10 +4,12 @@
   "gameId": "hydro-thunder-offroad-thunder",
   "title": "VCThunder",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Fechamentos aleatórios no Offroad Thunder."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: Hydro e Offroad jogáveis a 60 FPS; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mourix",
     "name": "VCThunder"

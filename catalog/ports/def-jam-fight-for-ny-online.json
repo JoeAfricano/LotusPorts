@@ -4,10 +4,12 @@
   "gameId": "def-jam-fight-for-ny",
   "title": "Def Jam: Fight for NY Online",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O Smart App Control do Windows 11 pode bloquear o DefJamLauncher.exe."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável no Windows 11; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "sweeax-exe",
     "name": "ffny-online"

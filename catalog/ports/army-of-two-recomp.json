@@ -4,10 +4,12 @@
   "gameId": "army-of-two",
   "title": "Army of Two Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Sem multijogador (o autor indica outro projeto para isso)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "nikolaygorb",
     "name": "ArmyOfTwoRecomp"

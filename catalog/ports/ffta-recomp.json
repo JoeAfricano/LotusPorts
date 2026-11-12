@@ -4,10 +4,12 @@
   "gameId": "final-fantasy-tactics-advance",
   "title": "FFTA Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Em tela larga, unidades fora da área original ficam cortadas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: prévia experimental; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "james2doyle",
     "name": "ffta-recomp"

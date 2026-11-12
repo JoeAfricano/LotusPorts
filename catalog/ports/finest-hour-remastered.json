@@ -4,10 +4,13 @@
   "gameId": "call-of-duty-finest-hour",
   "title": "Finest Hour Remastered",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O áudio pode estar alto demais.",
+    "Relato de problema com o modo invencível."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (47 relatos resolvidos, só 4 abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "crazyriddler",
     "name": "FinestHourRemastered"

@@ -4,10 +4,13 @@
   "gameId": "bloodborne",
   "title": "bbport Windows",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Uma jornada completa ainda não foi conferida pelo autor.",
+    "Relato de falta de memória de vídeo em placas de 4 GB."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: Experimental, jogável)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "0xCydral",
     "name": "bloodborne_pc"

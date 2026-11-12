@@ -4,10 +4,12 @@
   "gameId": "super-mario-world",
   "title": "Super Mario World Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Conferido à mão só até o mundo 3."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: considerado totalmente jogável)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mstan",
     "name": "SuperMarioWorldRecomp"

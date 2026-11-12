@@ -4,10 +4,14 @@
   "gameId": "infamous",
   "title": "inFAMOUS Reborn",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de jogo sem som.",
+    "Não abre em processadores sem AVX2 (relato).",
+    "Relatos de dificuldade na instalação (Python e Visual Studio)."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (72 issues abertas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "whompay",
     "name": "inFAMOUSreborn"

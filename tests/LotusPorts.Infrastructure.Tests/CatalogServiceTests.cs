@@ -136,6 +136,87 @@ public sealed class CatalogServiceTests : IDisposable
         service.NewSince.Should().NotBeNull();
     }
 
+    // ---- Official catalog from the internet ----
+
+    private static string Official(string gameId, string version, string extraPortField = "") =>
+        Bundle(gameId, extraPortField).Replace("\"Fonte da comunidade\"", "\"Catálogo oficial do Lotus Ports\"", StringComparison.Ordinal)
+            .Replace("\"2026-11-05\"", $"\"{version}\"", StringComparison.Ordinal);
+
+    private void ServeOfficial(string catalog, string etag = "\"o1\"", string? notModifiedFor = null) =>
+        server.Text(CatalogService.OfficialCatalogUrl.ToString(), catalog, etag, notModifiedFor);
+
+    [Fact]
+    public async Task Newer_official_catalog_from_the_internet_replaces_the_embedded_one_and_survives_a_restart()
+    {
+        ServeOfficial(Official("brand-new-game", "2099-01-01"));
+
+        (await service.RefreshOfficialAsync()).Should().Be(OfficialRefreshOutcome.Updated);
+        service.Official.Downloaded.Should().BeTrue();
+        service.Official.Version.Should().Be("2099-01-01");
+        service.Library.Find("brand-new-game").Should().NotBeNull();
+
+        await service.LoadAsync();
+        service.Official.Downloaded.Should().BeTrue("the downloaded copy is kept on disk");
+        service.Library.Find("brand-new-game").Should().NotBeNull();
+    }
+
+    [Fact]
+    public async Task Unchanged_official_catalog_costs_only_an_etag_check()
+    {
+        ServeOfficial(Official("brand-new-game", "2099-01-01"));
+        await service.RefreshOfficialAsync();
+
+        ServeOfficial("", "\"o1\"", notModifiedFor: "\"o1\"");
+        (await service.RefreshOfficialAsync()).Should().Be(OfficialRefreshOutcome.Unchanged);
+        server.LastIfNoneMatch.Should().Be("\"o1\"");
+        service.Library.Find("brand-new-game").Should().NotBeNull();
+    }
+
+    [Fact]
+    public async Task Older_official_catalog_never_hides_the_one_shipped_with_the_app()
+    {
+        var shipped = service.Official.Version;
+        ServeOfficial(Official("old-game", "2000-01-01"));
+
+        (await service.RefreshOfficialAsync()).Should().Be(OfficialRefreshOutcome.Unchanged);
+        await service.LoadAsync();
+        service.Official.Downloaded.Should().BeFalse();
+        service.Official.Version.Should().Be(shipped);
+        service.Library.Find("old-game").Should().BeNull();
+    }
+
+    [Fact]
+    public async Task Invalid_or_game_file_official_catalog_is_rejected_and_the_copy_in_use_stays()
+    {
+        var shipped = service.Official.Version;
+        ServeOfficial("{ broken");
+        (await service.RefreshOfficialAsync()).Should().Be(OfficialRefreshOutcome.Rejected);
+
+        ServeOfficial(Official("bad-game", "2099-01-01", "\"romUrl\": \"https://example.com/game.z64\","));
+        (await service.RefreshOfficialAsync()).Should().Be(OfficialRefreshOutcome.Rejected);
+
+        await service.LoadAsync();
+        service.Official.Version.Should().Be(shipped);
+        service.Library.Find("bad-game").Should().BeNull();
+    }
+
+    [Fact]
+    public async Task Official_catalog_not_reachable_is_not_verified()
+    {
+        // No route: the fake answers 404, like an offline or missing file.
+        (await service.RefreshOfficialAsync()).Should().Be(OfficialRefreshOutcome.NotVerified);
+        service.Official.Downloaded.Should().BeFalse();
+    }
+
+    [Theory]
+    [InlineData("2026-11-08", "2026-11-07", 1)]
+    [InlineData("2026-11-07", "2026-11-07", 0)]
+    [InlineData("2026-11-07.2", "2026-11-07", 1)]
+    [InlineData("2026-11-07.10", "2026-11-07.9", 1)]
+    [InlineData("2026-10-30", "2026-11-01.3", -1)]
+    public void Catalog_versions_compare_by_date_then_number(string a, string b, int expected) =>
+        CatalogService.CompareCatalogVersions(a, b).Should().Be(expected);
+
     private sealed class FakeGitHub : HttpMessageHandler
     {
         private readonly Dictionary<string, Func<HttpRequestMessage, HttpResponseMessage>> routes = [];

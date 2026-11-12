@@ -4,10 +4,12 @@
   "gameId": "gran-turismo-3-a-spec",
   "title": "GT3 Revisited",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Alguns carros têm texturas e vértices quebrados."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o jogo inteiro é jogável; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "matt-pulsipher",
     "name": "GT3-revisited"

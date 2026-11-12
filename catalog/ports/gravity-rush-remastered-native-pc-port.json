@@ -4,10 +4,14 @@
   "gameId": "gravity-rush-remastered",
   "title": "Gravity Rush Remastered Native PC Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "A 60 FPS engasga; a 30 FPS as cenas saem de sincronia com o áudio.",
+    "Quedas de desempenho e defeitos gráficos depois de carregar um save.",
+    "Possível travamento no episódio 5."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: a história inteira foi jogada do começo ao fim, com som e saves; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "LucaPazienza",
     "name": "gravityrush_pc"

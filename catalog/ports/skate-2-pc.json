@@ -4,10 +4,13 @@
   "gameId": "skate-2",
   "title": "Skate 2 PC",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Relato de tela preta seguida de fechamento ao abrir.",
+    "Relato de não conseguir jogar o modo carreira."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "christianortel",
     "name": "skate2-recompile-pc"

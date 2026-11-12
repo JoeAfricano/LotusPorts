@@ -4,10 +4,10 @@
   "gameId": "the-sims",
   "title": "The Sims - Static Recompilation",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EXPERIMENTAL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: menus, Criar um Sim e casa jogável no modo ao vivo)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "abilliontokens",
     "name": "sims1-recomp"

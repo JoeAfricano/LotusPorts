@@ -4,10 +4,12 @@
   "gameId": "goldeneye-007",
   "title": "GoldenEye 007 PC Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Algumas ressalvas pequenas listadas no README."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: totalmente jogável; as 20 missões rodam sem travar)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jkdansereau",
     "name": "goldeneye-pc-port"

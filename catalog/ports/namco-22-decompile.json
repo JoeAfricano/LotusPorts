@@ -4,10 +4,12 @@
   "gameId": "namco-2x-systems",
   "title": "Namco 22 Decompile",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "São 13 jogos num pacote só: só alguns estão jogáveis do começo ao fim."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "spacestate1",
     "name": "namco22-decompile"

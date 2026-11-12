@@ -4,10 +4,14 @@
   "gameId": "forza-motorsport-2",
   "title": "Forza 2 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O modo carreira tem relatos de falha (issue mais comentada).",
+    "Na primeira vez em cada pista ou carro pode engasgar enquanto os shaders são preparados.",
+    "Saves da 0.3.0 não passam para a 0.3.1."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: 0.3.1 jogável, ainda em construção; issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "0herculabs",
     "name": "hl360-Forza2"

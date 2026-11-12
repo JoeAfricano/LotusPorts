@@ -4,10 +4,13 @@
   "gameId": "mario-kart-64",
   "title": "Mario Kart 64: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "O rastro de fumaça dos cascos some de longe.",
+    "Sem multijogador local."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 0.9; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "sonicdcer",
     "name": "MarioKart64Recomp"

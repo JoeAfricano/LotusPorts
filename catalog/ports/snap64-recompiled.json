@@ -4,10 +4,12 @@
   "gameId": "pokemon-snap",
   "title": "Snap64Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Algumas imagens 2D se movem na velocidade original com FPS alto."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: joga como o cartucho)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "JackandBeans",
     "name": "Snap64Recomp"

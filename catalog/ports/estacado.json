@@ -4,10 +4,13 @@
   "gameId": "the-darkness",
   "title": "Estacado",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Testado num PC só.",
+    "Sem multijogador online ou em rede local."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: a campanha inteira é jogável do começo ao fim)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "invinceble55-wq",
     "name": "Estacado-The-Darkness-Recomp"

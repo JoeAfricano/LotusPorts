@@ -4,10 +4,12 @@
   "gameId": "hot-shots-tennis",
   "title": "OpenTennis",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relato de jogadores invisíveis."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: joga como o original, mas ainda em construção; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "FIZL0",
     "name": "opentennis"

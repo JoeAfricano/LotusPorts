@@ -4,10 +4,12 @@
   "gameId": "super-castlevania-iv",
   "title": "Super Castlevania IV",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "A maior parte do código ainda roda num interpretador; fases seguintes não foram conferidas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: só a primeira fase)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mpolizel",
     "name": "SCIVRecomp"

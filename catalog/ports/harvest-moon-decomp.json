@@ -4,10 +4,12 @@
   "gameId": "harvest-moon",
   "title": "Harvest Moon Decomp",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Versão beta."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Pré-lançamento beta)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "RodoLy",
     "name": "HarvestMoonSnesDecomp"

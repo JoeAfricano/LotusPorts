@@ -4,10 +4,15 @@
   "gameId": "eternal-sonata",
   "title": "Eternal Sonata Reprise",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O mod de salvar em qualquer lugar funciona só às vezes.",
+    "Controles DirectInput recentes não funcionam direito.",
+    "Telas pretas na Double Reed Tower of Sand.",
+    "Os créditos passam rápido demais."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (45 relatos resolvidos; jogadores chegaram aos créditos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "birabittoh",
     "name": "EternalSonataReprise"

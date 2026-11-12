@@ -4,10 +4,13 @@
   "gameId": "pilotwings-64",
   "title": "Pilotwings 64 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de fechar na tela de título em alguns PCs.",
+    "Relato de não abrir em notebook."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "danielgomesvieira2000",
     "name": "pilotwings-64-recomp"

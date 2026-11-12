@@ -4,10 +4,12 @@
   "gameId": "virtua-fighter",
   "title": "VF1 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Poucos jogadores online no começo."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: todas as partes funcionam)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mr-finster",
     "name": "vf1-recomp"

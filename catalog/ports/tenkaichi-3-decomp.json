@@ -4,10 +4,12 @@
   "gameId": "dragon-ball-z-budokai-tenkaichi-3",
   "title": "Tenkaichi 3 Decomp",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Relatos de travamentos no modo Sim Dragon e no online."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README e issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "z3xox",
     "name": "Tenkaichi3Decomp"

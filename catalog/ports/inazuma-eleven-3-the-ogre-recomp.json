@@ -4,10 +4,10 @@
   "gameId": "inazuma-eleven-3-sekai-heno-chousen-the-ogre",
   "title": "Inazuma Eleven 3: The Ogre Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "EM_DESENVOLVIMENTO",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: pré-alpha)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "matheus2x",
     "name": "ie3ogre-nds-recomp"

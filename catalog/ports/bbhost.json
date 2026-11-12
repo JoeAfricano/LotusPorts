@@ -4,10 +4,15 @@
   "gameId": "bloodborne",
   "title": "bbhost",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "FPS baixo relatado por vários jogadores.",
+    "Placas com 8 GB de vídeo podem cair para FPS de um dígito.",
+    "Pede o eboot da versão 1.09; outros não são aceitos.",
+    "Fumaça e fogo piscam em FPS altos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o jogo é jogável, com o mundo, os chefes e sessões online; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "droogie",
     "name": "bbhost"

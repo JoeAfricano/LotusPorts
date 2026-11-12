@@ -4,10 +4,14 @@
   "gameId": "odin-sphere-leifthrasir",
   "title": "Odin Sphere Leifthrasir PC Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Faltam letras com til (ã, õ) em traduções para português.",
+    "Tela ultralarga fica esticada.",
+    "A atualização pode dar erro 740."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (relatos de jogadores nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "saulob",
     "name": "odin-sphere-leifthrasir-pc"

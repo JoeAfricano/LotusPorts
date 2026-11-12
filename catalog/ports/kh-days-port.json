@@ -4,10 +4,12 @@
   "gameId": "kingdom-hearts-358-2-days",
   "title": "KH Days Port",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Em construção: pode ter bugs."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: o jogo inteiro roda)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Yokimitsuro",
     "name": "khdays-port"

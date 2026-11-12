@@ -4,10 +4,12 @@
   "gameId": "rampage-total-destruction",
   "title": "RampageRE",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de nenhum botão funcionar ou de nada acontecer ao abrir."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável do começo ao fim, incluindo os créditos; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "jjmhalew",
     "name": "RampageRE"

@@ -4,10 +4,13 @@
   "gameId": "super-mario-sunshine",
   "title": "SMS Launcher",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de tela preta.",
+    "A taxa de quadros cai para 30 no menu de seleção de estrelas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.0, 539 estrelas; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "chasem-dev",
     "name": "sms-launcher"

@@ -4,10 +4,12 @@
   "gameId": "the-order-1886",
   "title": "Order1886-PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "A 60 FPS os QTEs de apertar botão dos capítulos 6 e 9 não dão para passar: jogue esses a 30 FPS."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: experimental)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "lxnis",
     "name": "Order1886-PC"

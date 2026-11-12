@@ -4,10 +4,12 @@
   "gameId": "nhl-24",
   "title": "NHL24 Native",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Imagem corrompida nas partidas, cerca de 20 FPS e pode travar ao sair."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: não está pronto para ser chamado de jogável)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "schans-arg",
     "name": "NHL24-PC-Port"

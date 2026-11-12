@@ -4,10 +4,14 @@
   "gameId": "dead-or-alive-3",
   "title": "DOA3 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "O modo Tag pode parar e há congelamentos aleatórios.",
+    "Quedas de FPS no cenário X Octagon.",
+    "O online pode não conectar."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: todos os modos totalmente jogáveis; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "parkerallan",
     "name": "doa3-recomp"

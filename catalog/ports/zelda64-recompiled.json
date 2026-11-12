@@ -4,10 +4,12 @@
   "gameId": "zelda-majoras-mask",
   "title": "Zelda 64: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Sobreposições como MSI Afterburner podem atrapalhar a imagem."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Projeto maduro (versão 1.2, 7,5 mil estrelas, 378 issues resolvidas); conferido no PC na Fase 2)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Zelda64Recomp",
     "name": "Zelda64Recomp"

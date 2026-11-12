@@ -4,10 +4,12 @@
   "gameId": "tomba-2-the-evil-swine-return",
   "title": "Tomba2Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "Jornada completa ainda não comprovada."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: prévia)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "mstan",
     "name": "Tomba2Recomp"

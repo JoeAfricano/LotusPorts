@@ -4,10 +4,12 @@
   "gameId": "international-superstar-soccer-2000",
   "title": "ISS 2000 Widescreen",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Sem vibração e sem remapear o controle."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (Versão 1.4; só limitações pequenas)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "Mabec-games",
     "name": "iss2000-recomp"

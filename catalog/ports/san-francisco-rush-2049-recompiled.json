@@ -4,10 +4,10 @@
   "gameId": "san-francisco-rush-2049",
   "title": "San Francisco Rush 2049: Recompiled",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
+  "status": "JOGAVEL",
   "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (23 relatos resolvidos; os abertos são pedidos de melhoria)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "n64hub",
     "name": "rush-2049-recomp"

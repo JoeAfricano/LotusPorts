@@ -4,10 +4,14 @@
   "gameId": "wwe-smackdown-vs-raw-2007",
   "title": "SmackDown vs. Raw 2007 Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Relatos de o jogo não abrir.",
+    "Modelos dos personagens com defeito durante as lutas.",
+    "Lentidão mesmo nas configurações mais baixas."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável de ponta a ponta a 60 FPS; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "HollywoodAkeem",
     "name": "SVR07-Recomp"

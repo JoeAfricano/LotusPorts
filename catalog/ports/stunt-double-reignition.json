@@ -4,10 +4,12 @@
   "gameId": "stuntman-ignition",
   "title": "Stunt Double: Reignition",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EM_DESENVOLVIMENTO",
+  "knownIssuesPtBr": [
+    "Desenvolvimento inicial: espere bugs."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "giangra",
     "name": "stuntdouble-reignition"

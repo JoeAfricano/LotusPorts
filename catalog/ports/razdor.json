@@ -4,10 +4,12 @@
   "gameId": "discord-times",
   "title": "Razdor",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Arrastar uma unidade ferida mostra a imagem sem ferimentos."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (32 relatos resolvidos, 7 abertos)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "indicozy",
     "name": "razdor"

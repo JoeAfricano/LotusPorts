@@ -4,10 +4,13 @@
   "gameId": "banjo-tooie",
   "title": "Banjo-Tooie XBLA Recomp",
   "portType": "static-recomp",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "JOGAVEL",
+  "knownIssuesPtBr": [
+    "Mudar a resolução e o idioma não funciona.",
+    "O Bitdefender pode marcar o arquivo."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README: jogável de ponta a ponta; relatos nas issues)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "iron-jay",
     "name": "banjo_tooie_xbla_recomp"

@@ -8,11 +8,11 @@
     "plataforma"
   ],
   "descriptionPtBr": "Os primeiros jogos de Mario remasterizados para o Super Nintendo, junto com Super Mario World.",
-  "recommendedPortId": "smas-launcher",
-  "recommendationReasonPtBr": null,
+  "recommendedPortId": "super-mario-all-stars-recomp",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "super-mario-all-stars-recomp",
+      "portId": "smas-launcher",
       "differencePtBr": null
     }
   ],

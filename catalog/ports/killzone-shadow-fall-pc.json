@@ -4,10 +4,12 @@
   "gameId": "killzone-shadow-fall",
   "title": "Killzone Shadow Fall PC",
   "portType": "decomp-port",
-  "status": "NAO_AVALIADO",
-  "knownIssuesPtBr": [],
-  "verifiedBy": null,
-  "verifiedAt": null,
+  "status": "EXPERIMENTAL",
+  "knownIssuesPtBr": [
+    "As opções de desempenho podem fechar o jogo: desligue se algo der errado."
+  ],
+  "verifiedBy": "Claude, pelo README e relatos de jogadores no GitHub (README)",
+  "verifiedAt": "2026-11-12",
   "repo": {
     "owner": "lesca-191204",
     "name": "killzone-shadowfall-pc"

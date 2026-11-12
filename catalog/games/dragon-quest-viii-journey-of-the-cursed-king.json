@@ -8,11 +8,11 @@
     "RPG"
   ],
   "descriptionPtBr": "Dragon Quest VIII: Journey of the Cursed King, lançado originalmente para PlayStation 2, em versão nativa para PC feita pela comunidade. Você joga com a sua própria cópia do jogo.",
-  "recommendedPortId": "dragon-quest-viii-3ds-recomp",
-  "recommendationReasonPtBr": "O port mais acompanhado no GitHub para este jogo.",
+  "recommendedPortId": "dq8-recompiled",
+  "recommendationReasonPtBr": "O port em melhor estado segundo os relatos dos jogadores.",
   "alternatives": [
     {
-      "portId": "dq8-recompiled",
+      "portId": "dragon-quest-viii-3ds-recomp",
       "differencePtBr": null
     }
   ],
